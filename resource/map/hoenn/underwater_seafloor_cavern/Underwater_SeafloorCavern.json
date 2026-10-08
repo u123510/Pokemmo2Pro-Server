@@ -1,0 +1,190 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 26,
+  "width": 14,
+  "height": 9,
+  "paletteIdx1": 100,
+  "paletteIdx2": 144,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 411,
+  "unknownByte": 69,
+  "borderTiles": [
+    {
+      "material": 531,
+      "collision": 0
+    },
+    {
+      "material": 531,
+      "collision": 0
+    },
+    {
+      "material": 531,
+      "collision": 0
+    },
+    {
+      "material": 531,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "UNDERWATER_MIST",
+  "mapType": "UNDERWATER",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "Underwater_SeafloorCavern_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 6,
+      "y": 7,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 53,
+      "targetX": 38,
+      "targetY": 26,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 100,
+      "x": 5,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "INVISIBLE",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "Underwater_SeafloorCavern_EventScript_CheckStolenSub",
+      "hideFlag": "hoenn/FLAG_HIDE_UNDERWATER_SEA_FLOOR_CAVERN_STOLEN_SUBMARINE",
+      "rawMovementType": 76
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 100,
+      "x": 6,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "INVISIBLE",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "Underwater_SeafloorCavern_EventScript_CheckStolenSub",
+      "hideFlag": "hoenn/FLAG_HIDE_UNDERWATER_SEA_FLOOR_CAVERN_STOLEN_SUBMARINE",
+      "rawMovementType": 76
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 100,
+      "x": 7,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "INVISIBLE",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "Underwater_SeafloorCavern_EventScript_CheckStolenSub",
+      "hideFlag": "hoenn/FLAG_HIDE_UNDERWATER_SEA_FLOOR_CAVERN_STOLEN_SUBMARINE",
+      "rawMovementType": 76
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 100,
+      "x": 8,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "INVISIBLE",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "Underwater_SeafloorCavern_EventScript_CheckStolenSub",
+      "hideFlag": "hoenn/FLAG_HIDE_UNDERWATER_SEA_FLOOR_CAVERN_STOLEN_SUBMARINE",
+      "rawMovementType": 76
+    }
+  ],
+  "blockData": "EwYTBhMGEwYGBh4GHgYeBh4GBwYTBhMGEwYTBhMGEwYGBh4GHwYTBhMGEwYTBh0GHgYHBhMGEwYTBgYGHwYGBh4GHgYeBh4GHgYeBgcGHQYHBhMGBgYfBgYGHwYGBuQG5QbmBucGBwYdBgcGHQYHBhQGBgYfBgYGHAbgNuE24jbjNhoGBwYSBhMGEgYUBhQGBgYcBigy6DLpMuoy6zIoMhIGHQYHBhIGFAYUBhQGKDIoMigyKDIoMigyKDIaBgcGEgYSBiMGIwYjBgwGKDIoMiQCKDIoMigyCgYiBiIGIgYTBhMGEwYjBgsGKwYsBi0GCwYLBiIGEwYTBhMG",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

@@ -1,0 +1,406 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 22,
+  "width": 50,
+  "height": 37,
+  "paletteIdx1": 100,
+  "paletteIdx2": 129,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 434,
+  "unknownByte": 65,
+  "borderTiles": [
+    {
+      "material": 161,
+      "collision": 0
+    },
+    {
+      "material": 161,
+      "collision": 0
+    },
+    {
+      "material": 161,
+      "collision": 0
+    },
+    {
+      "material": 161,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "STEADY_MIST",
+  "mapType": "ROUTE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_MT_PYRE_SUMMIT",
+      "base_label": "gMtPyre_Summit",
+      "land_mons": {
+        "encounter_rate": 10,
+        "mons": [
+          {
+            "min_level": 28,
+            "max_level": 28,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 29,
+            "max_level": 29,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 27,
+            "max_level": 27,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 26,
+            "max_level": 26,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 30,
+            "max_level": 30,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 24,
+            "max_level": 24,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 28,
+            "max_level": 28,
+            "species": "SPECIES_DUSKULL"
+          },
+          {
+            "min_level": 26,
+            "max_level": 26,
+            "species": "SPECIES_DUSKULL"
+          },
+          {
+            "min_level": 30,
+            "max_level": 30,
+            "species": "SPECIES_DUSKULL"
+          },
+          {
+            "min_level": 28,
+            "max_level": 28,
+            "species": "SPECIES_CHIMECHO"
+          },
+          {
+            "min_level": 28,
+            "max_level": 28,
+            "species": "SPECIES_CHIMECHO"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "MtPyre_Summit_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [
+    {
+      "x": 22,
+      "y": 7,
+      "elevation": 3,
+      "varKey": "VAR_MT_PYRE_STATE",
+      "value": 0,
+      "script": "MtPyre_Summit_EventScript_TeamAquaTrigger0"
+    },
+    {
+      "x": 23,
+      "y": 7,
+      "elevation": 3,
+      "varKey": "VAR_MT_PYRE_STATE",
+      "value": 0,
+      "script": "MtPyre_Summit_EventScript_TeamAquaTrigger1"
+    },
+    {
+      "x": 24,
+      "y": 7,
+      "elevation": 3,
+      "varKey": "VAR_MT_PYRE_STATE",
+      "value": 0,
+      "script": "MtPyre_Summit_EventScript_TeamAquaTrigger2"
+    },
+    {
+      "x": 22,
+      "y": 9,
+      "elevation": 3,
+      "varKey": "VAR_MT_PYRE_STATE",
+      "value": 2,
+      "script": "MtPyre_Summit_EventScript_ArchieMaxieTrigger0"
+    },
+    {
+      "x": 23,
+      "y": 9,
+      "elevation": 3,
+      "varKey": "VAR_MT_PYRE_STATE",
+      "value": 2,
+      "script": "MtPyre_Summit_EventScript_ArchieMaxieTrigger1"
+    },
+    {
+      "x": 24,
+      "y": 9,
+      "elevation": 3,
+      "varKey": "VAR_MT_PYRE_STATE",
+      "value": 2,
+      "script": "MtPyre_Summit_EventScript_ArchieMaxieTrigger2"
+    }
+  ],
+  "bgEvents": [
+    {
+      "x": 9,
+      "y": 25,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "0x0"
+    },
+    {
+      "x": 37,
+      "y": 7,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "0x0"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 22,
+      "y": 31,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 21,
+      "targetX": 19,
+      "targetY": 10,
+      "targetElevation": 2
+    },
+    {
+      "x": 23,
+      "y": 31,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 21,
+      "targetX": 19,
+      "targetY": 10,
+      "targetElevation": 2
+    },
+    {
+      "x": 24,
+      "y": 31,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 21,
+      "targetX": 19,
+      "targetY": 10,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 29,
+      "x": 22,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "MtPyre_Summit_EventScript_OldMan",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 195,
+      "x": 23,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_MT_PYRE_SUMMIT_ARCHIE",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 22,
+      "x": 23,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "MtPyre_Summit_EventScript_OldLady",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 117,
+      "x": 21,
+      "y": 15,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "MtPyre_Summit_EventScript_Grunt1",
+      "hideFlag": "hoenn/FLAG_HIDE_MT_PYRE_SUMMIT_TEAM_AQUA",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 117,
+      "x": 25,
+      "y": 18,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "MtPyre_Summit_EventScript_Grunt2",
+      "hideFlag": "hoenn/FLAG_HIDE_MT_PYRE_SUMMIT_TEAM_AQUA",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 117,
+      "x": 21,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "MtPyre_Summit_EventScript_Grunt3",
+      "hideFlag": "hoenn/FLAG_HIDE_MT_PYRE_SUMMIT_TEAM_AQUA",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 118,
+      "x": 25,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "MtPyre_Summit_EventScript_Grunt4",
+      "hideFlag": "hoenn/FLAG_HIDE_MT_PYRE_SUMMIT_TEAM_AQUA",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 196,
+      "x": 23,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_MT_PYRE_SUMMIT_MAXIE",
+      "rawMovementType": 7
+    }
+  ],
+  "blockData": "oQShBKEEoQShBKEEoQShBKEEoQShBKEEoQShBKEEoQShBEEHQgdCB0IHQgdCB0IHQgdCB0IHQgdCB0MHoQShBKEEoQShBKEEoQShBKEEoQShBKEEoQShBKEEoQShBKEEoQShBKEEoQShBKEEoQShBKEEoQShBKEEoQShBKEEoQShBKEEQQdzBHQEeQR5BHkEeQR5BHkEeQR5BHkEiQR1BEMHoQShBKEEoQShBKEEoQShBKEEoQShBKEEoQShBKEEoQShBKEEoQShBKEEoQShBKEEoQRBB0IHQgdCB0IHQgdCB0IHQgdCB74AcwRyBAEwATABMAEwKgcBMAEwATABMHAEdQS/AEIHQgdCB0IHQgdCB0IHQgdDB6EEoQShBKEEoQShBKEEoQShBKEEoQShBKEEoQShBEEHcwR0BHwEeQR5BHkEeQR5BHkEeQSJBHMEcgQBMAEwATAqBwEwKgcBMAEwATBwBHUEdAR5BHkEeQR5BHkEeQR5BIkEcgRDB6EEoQShBKEEoQShBKEEoQShBKEEoQShBKEEQQdzBHMEcgQNMA0wJQcNMCUHATABMAEwcARzBHIEATABMAEwLActBy4HATABMAEwcAR1BHIEATABMA0wJQcNMCUHDTBwBHIEcgRDB6EEoQShBKEEoQShBKEEoQShBKEEoQRBB3MEcwRzBHIEDTANMA0wDTANMA0wATABMHAEcwRyBAEwATABMAEwATABMAEwATABMHAEdQRyBAEwATANMA0wDTANMA0wcARyBHIEcgQCMAIw1DBDB6EEoQShBKEEQQfTMAIwcARzBHMEcwS/AGkEaQRpBGkEaQRpBGoEATBwBHMEcgQBMAEwATABMAEwATABMAEwATBwBHUEcgQBMGgEaQRpBGkEagQNMHAEcgRyBHIEATBoBGoEcgTUMEMHoQShBHMEaARqBHAEcwRzBHsEfAR8BHwEfAR8BHwEiQRyBAEwcARzBL8AaQRqBAEwATABMAEwATBoBGkEvgB1BHIEATBwBHQEfAR8BHoEDTB4BHoEcgRyBAEwcAR1BHIEATB1BEMHoQRzBHAEcgRwBHMEeASRBJEEkQSRBJEEkQSJBHMEcgQBMHAEeAR5BHkEegQrB9Ax0THSMSsHeAR5BHkEegRyBAEwcAR1BHQEkQR5BHkEeQR5BHoEcgQBMHAEdQRyBAEwdQR1BEMHcwRwBHIEcARzBGgEaQRpBGkEaQRqBAEwcARzBHIEATBwBAEwATABMAEwATDYMdkx2jEBMAEwATABMAEwcgQBMHAEdQRyBGgEaQRpBGkEaQRqBHIEATBwBHUEcgQBMHUEdQR1BHMEcARyBHAEcwR4BHkEeQR5BIkEcgQBMHAEcwRyBAEweAR5BHkEeQR5BHkErzDPMM8weQR5BHkEeQR5BHoEATBwBHUEcgRwBHQEeQR5BIkEcgRyBAEwcAR1BHIEATB1BHUEdQRzBHAEcgRwBHMEaARpBGoEATBwBHIEATBwBHMEcgQBMAEwATABMAEwATABMNgx2THaMQEwATABMAEwATABMAEwcAR1BHIEcARyBAEwATBwBHIEcgQBMHAEdQRyBAEwdQR1BHUEcwRwBHIEcARzBHAEcQRyBAEwcARyBAEwcARzBL8AaQRpBGkEaQRpBGkEagTYMdkx2jFoBGkEaQRpBGkEaQRpBL8AdQRyBHAEcgQBMAEwcARyBHIEaAS+AHUEcgQBMHUEdQR1BHMEcARyBHAEcwR4BHkEegQBMHAEcgQBMHAEewR8BHwEfAR8BHwEfAR8BHoE2DHZMdoxeAR8BHwEfAR8BHwEfAR8BH0EcgRwBHIEATABMHAEcgRyBHAEdAR9BHIEATB1BHUEdQRzBHgEegRwBHgEeQR5BHkEiQRzBHIEATB4BJEEkQSRBJEEkQSRBJEEkQR5BK8wzzDPMHkEkQSRBJEEkQSRBJEEkQSRBHoEcARyBAEwATB4BHoEcgRwBHUEdAR6BAEwdQR1BHUEcwQBMAEwcAQBMAEwATABMHAEcwS/AGkEaQRpBGkEaQRpBGkEaQRqBAEwATDYMdkx2jEBMAEwaARpBGkEaQRpBGkEaQRpBL4AvwBpBGoEdASpBHoEcAR1BHIEATABMHUEdQR1BHMEATABMHAEaARpBGkEagRwBHsEfAR8BHwEfAR8BHwEfAR8BHwEegQkBwEw2DHZMdoxATAkB3gEfAR8BHwEfAR8BHwEfAR8BHwEfAR9BHIEATABMHAEdQRyBAEwATB1BHUEdQR7BIkEATBwBHsEeQSJBHIEeASpBKkEqQSpBKkEqQSpBKkEqQSpBKkEeQR5BK8wzzDPMHkEkQSRBJEEkQSRBJEEkQSRBJEEkQSRBJEEkQR6BAEwATB4BH0EcgQBMAEwdQR1BHUEcQRzBAEwcAQBMAEwcARyBAEwATABMAEwATABMAEwATABMAEwATABMAEwATDYMdkx2jEBMAEwATABMAEwATABMAEwATABMGgEaQRpBGkEaQRqBAEwdAR5BHoEATB0BH0EdQR1BHEEcwQBMHgEfASJBHMEvwBqBAEwATBoBGkEaQRpBGkEaQRpBGkEaQRqBAEw2DHZMdoxATBoBGkEagQBMAEwATABMAEwaAR7BHwEfAR8BHwEfQRqBHIEATABMAEwdQR0BH0EdQRxBHMEATABMAEwcAR7BIkEcgQBMAEweASJBHQEeQR5BHkEeQSJBHEEcgQBMNgx2THaMQEwcARxBHIEATBoBGkEagQBMHgEkQSRBJEEkQSJBHQEegRyBAEwATB0BH0EdQRxBHUEcQR7BIkEATABMHAEATBwBHIEATABMAEwcARyBGgEaQRqBAEwcARxBHIEATDYMdkx2jEBMHAEcQRyBAEwcARxBHIEATABMAEwATABMAEwcARyBAEwcgQBMAEwdQRxBHUEcQR1BHEEcQR7BIkEATBwBAEwcARyBCQHATAkB3AEcgRwBHEEcgQBMHAEcQRyBAEw2DHZMdoxATBwBHEEcgQBMHgEeQR6BAEwATAkBwEwJAcBMHAEcgQBMHIEATABMHUEdAR9BHEEdQSJBHEEcQRzBAEweASJBHMEcgQBMAEwATBwBHIEeAR5BHoEATBwBHEEcgQBMNgx2THaMQEwcARxBHIEJQcBMAEwATABMAEwDTANMA0wDTBwBHIEATByBAEwdAR9BHUEcQRxBHUEcwRxBHEEcwQBMAEwcARzBHIEATABMAEwcARyBAEwATABMCUHcARxBHIEATDYMdkx2jEBMHAEcQRyBAEwATAlBwEwATANMA0wDTANMA0wcAR1BHQEegQBMHUEcQR1BHEEcQR1BHMEcQRxBHMEATABMHAEcwRyBCQHATAkB3AEcgQBMCUHATABMHAEcQRyBAEw2DHZMdoxATBwBHEEcgQBMGgEaQRqBA0wDTAkBw0wJAcNMHAEdQRyBAEwATB1BHQEfQRxBHQEfQRzBHEEcQR7BHwEiQRwBHMEcgQBMAEwATBwBHIEaARpBGoEATBwBHEEcgQBMNgx2THaMQEwcARxBHIEATBwBHEEcgQNMA0wDTANMA0wDTBwBHUEcgQBMAEwdQR1BHEEcQR1BHEEcwRxBHEEcQRxBHMEcARzBL8AaQRpBGkEvwByBHAEcQRyBAEwcARxBHIEATDYMdkx2jEBMHAEcQRyBAEweAR5BHoEaARpBGkEaQRpBGkEvgB1BHIEATABMHUEdQRxBHQEfQR0BHMEcQRxBHEEcQRzBHAEewR5BHkEeQR5BHkEegR4BHkEegQBMHAEcQRyBAEw4DHhMeIxATBwBHEEcgQlBwEwATABMHgEeQR5BHkEeQR5BHkEegRyBAEwdAR9BHUEcQR1BHEEdQRzBHEEcQRxBHEEcwR4BIkEATABMAEwATABMAEwATABMAEwJQdwBHEEcgQBMAEwATABMAEwcARxBHIEATABMCUHATABMAEwATABMAEwATABMAEwcgQBMHUEcQR1BHEEdQRxBHUEcwRxBHEEcQRxBHMEATB4BHwEfAR8BIkEATABMAEwJQcBMAEweAR5BHoEATABMAEwATABMHgEeQR6BAEwATABMAEwATABMAEwATABMHQEfAR8BHoEATB1BHQEfQRxBHUEcQR1BHMEcQRxBHEEcQRzBAEwATABMAEwATB4BHwEeQR5BHkEeQR5BHkEeQR5BHkEMDMxMzEzeQR5BHkEeQR5BHkEeQR5BHkEeQR5BHkEeQR6BAEwATABMAEwdQR1BHEEcQR1BHEEdQR7BHwEiQRxBHEEewSJBAEwATABMAEwATABMAEwATABMAEwATABMAEwATABNC83QDc+NwE0ATABMAEwATABMAEwATABMAEwATABMAEwATABMAEwATABMHUEdQRxBHEEdQRxBHUEcQRxBHsEqQSJBHEEewSJBAEwATABMAEwATAlBwEwATABMCUHATABMAEwJQc3NzI3PzclBwEwATABMCUHATABMAEwJQcBMAEwATABMAEwATABMAEwdAR9BHUEcQRxBHUEcQR1BHwEfASJBHEEewR8BIkEewR8BIkEATABMAEwATABMAEwATABMAEwATABMAE0NzcyNz83ATQBMAEwATABMAEwATABMAEwATABMAEwATABMAEwATB0BH0EcQR1BHQEfAR9BHEEdQRxBHEEewR8BHwEiQRzBHEEcQRzBAEwATABMCQHATABMAEwJAcBMAEwATABNDc3Mjc/NwE0ATABMAEwJAcBMAEwATAkBwEwATABMAEwATABMAEwdQR0BHwEfQR1BHEEdAR8BH0EcQRxBHEEcQRxBHMEcwRxBHEEewR8BHwEfAR8BHwEfAR8BHwEfASJBAEwATQ3NzI3PzcBNAEwdAR5BHkEeQR5BHkEeQR5BHkEeQR5BHkEeQR5BH0EdQRxBHEEdQR0BH0EcQR0BA==",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAEAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQABAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ0NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+}

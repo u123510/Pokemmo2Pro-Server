@@ -1,0 +1,132 @@
+{
+	"id": 961,
+	"name": "[961]三海地鼠",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 12,
+	"weight": 54,
+	"egg_groups": [
+		"水3组"
+	],
+	"abilities": [
+		{
+			"id": 155,
+			"name": "[155]特性155"
+		},
+		{
+			"id": 155,
+			"name": "[155]特性155"
+		},
+		{
+			"id": 8,
+			"name": "[008]特性8"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 28,
+			"name": "[28]泼沙",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 35,
+			"name": "[35]紧束",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 55,
+			"name": "[55]水枪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 189,
+			"name": "[189]掷泥",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 453,
+			"name": "[453]水流喷射",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 21,
+			"name": "[21]摔打",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 352,
+			"name": "[352]水之波动",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 29,
+			"name": "[29]头锤",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 865,
+			"name": "[865]三连钻",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 91,
+			"name": "[91]挖洞",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 389,
+			"name": "[389]突袭",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 675,
+			"name": "[675]地狱突刺",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 710,
+			"name": "[710]水流裂破",
+			"type": "level",
+			"level": 54
+		}
+	],
+	"types": [
+		"WATER"
+	],
+	"stats": {
+		"hp": 35,
+		"attack": 100,
+		"defense": 50,
+		"speed": 50,
+		"sp_attack": 70,
+		"sp_defense": 120
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 2
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

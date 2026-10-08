@@ -1,0 +1,150 @@
+{
+	"id": 754,
+	"name": "[754]兰螳花",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 9,
+	"weight": 185,
+	"egg_groups": [
+		"植物组"
+	],
+	"abilities": [
+		{
+			"id": 102,
+			"name": "[102]特性102"
+		},
+		{
+			"id": 102,
+			"name": "[102]特性102"
+		},
+		{
+			"id": 126,
+			"name": "[126]特性126"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 74,
+			"name": "[74]生长",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 75,
+			"name": "[75]飞叶快刀",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 210,
+			"name": "[210]连斩",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 404,
+			"name": "[404]十字剪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 572,
+			"name": "[572]落英缤纷",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 670,
+			"name": "[670]树叶",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 670,
+			"name": "[670]树叶",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 75,
+			"name": "[75]飞叶快刀",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 74,
+			"name": "[74]生长",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 275,
+			"name": "[275]扎根",
+			"type": "level",
+			"level": 19
+		},
+		{
+			"id": 348,
+			"name": "[348]叶刃",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 235,
+			"name": "[235]光合作用",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 163,
+			"name": "[163]劈开",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 230,
+			"name": "[230]甜甜香气",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 669,
+			"name": "[669]日光刃",
+			"type": "level",
+			"level": 47
+		},
+		{
+			"id": 241,
+			"name": "[241]大晴天",
+			"type": "level",
+			"level": 55
+		}
+	],
+	"types": [
+		"GRASS"
+	],
+	"stats": {
+		"hp": 70,
+		"attack": 105,
+		"defense": 90,
+		"speed": 80,
+		"sp_attack": 90,
+		"sp_defense": 45
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 2,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

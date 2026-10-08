@@ -1,0 +1,1461 @@
+{
+  "version": 1,
+  "pickups": [
+    {
+      "map": "CeladonCity",
+      "entityIdx": 13,
+      "script": "CeladonCity_EventScript_ItemEther",
+      "itemId": 34,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_CELADON_CITY_ETHER"
+    },
+    {
+      "map": "CeladonCity_Condominiums_1F",
+      "entityIdx": 3,
+      "script": "CeladonCity_Condominiums_1F_EventScript_TeaWoman",
+      "itemId": 369,
+      "amount": 1,
+      "hideFlag": ""
+    },
+    {
+      "map": "CeladonCity_Restaurant",
+      "entityIdx": 3,
+      "script": "CeladonCity_Restaurant_EventScript_CoinCaseMan",
+      "itemId": 260,
+      "amount": 1,
+      "hideFlag": ""
+    },
+    {
+      "map": "CeruleanCave_1F",
+      "entityIdx": 0,
+      "script": "CeruleanCave_1F_EventScript_ItemNugget",
+      "itemId": 110,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_CERULEAN_CAVE_1F_NUGGET"
+    },
+    {
+      "map": "CeruleanCave_1F",
+      "entityIdx": 1,
+      "script": "CeruleanCave_1F_EventScript_ItemFullRestore",
+      "itemId": 19,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_CERULEAN_CAVE_1F_FULL_RESTORE"
+    },
+    {
+      "map": "CeruleanCave_1F",
+      "entityIdx": 2,
+      "script": "CeruleanCave_1F_EventScript_ItemMaxElixir",
+      "itemId": 37,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_CERULEAN_CAVE_1F_MAX_ELIXIR"
+    },
+    {
+      "map": "CeruleanCave_2F",
+      "entityIdx": 0,
+      "script": "CeruleanCave_2F_EventScript_ItemPPUp",
+      "itemId": 69,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_CERULEAN_CAVE_2F_PP_UP"
+    },
+    {
+      "map": "CeruleanCave_2F",
+      "entityIdx": 1,
+      "script": "CeruleanCave_2F_EventScript_ItemUltraBall",
+      "itemId": 2,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_CERULEAN_CAVE_2F_ULTRA_BALL"
+    },
+    {
+      "map": "CeruleanCave_2F",
+      "entityIdx": 2,
+      "script": "CeruleanCave_2F_EventScript_ItemFullRestore",
+      "itemId": 19,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_CERULEAN_CAVE_2F_FULL_RESTORE"
+    },
+    {
+      "map": "CeruleanCave_B1F",
+      "entityIdx": 0,
+      "script": "CeruleanCave_B1F_EventScript_ItemUltraBall",
+      "itemId": 2,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_CERULEAN_CAVE_B1F_ULTRA_BALL"
+    },
+    {
+      "map": "CeruleanCave_B1F",
+      "entityIdx": 1,
+      "script": "CeruleanCave_B1F_EventScript_ItemMaxRevive",
+      "itemId": 25,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_CERULEAN_CAVE_B1F_MAX_REVIVE"
+    },
+    {
+      "map": "CeruleanCity_House5",
+      "entityIdx": 0,
+      "script": "CeruleanCity_House5_EventScript_BerryPowderMan",
+      "itemId": 372,
+      "amount": 1,
+      "hideFlag": ""
+    },
+    {
+      "map": "FiveIsland_LostCave_Room10",
+      "entityIdx": 1,
+      "script": "FiveIsland_LostCave_Room10_EventScript_ItemSilkScarf",
+      "itemId": 217,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_FIVE_ISLAND_LOST_CAVE_ROOM10_SILK_SCARF"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room11",
+      "entityIdx": 0,
+      "script": "FiveIsland_LostCave_Room11_EventScript_ItemLaxIncense",
+      "itemId": 221,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_FIVE_ISLAND_LOST_CAVE_ROOM11_LAX_INCENSE"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room12",
+      "entityIdx": 0,
+      "script": "FiveIsland_LostCave_Room12_EventScript_ItemSeaIncense",
+      "itemId": 220,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_FIVE_ISLAND_LOST_CAVE_ROOM12_SEA_INCENSE"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room13",
+      "entityIdx": 0,
+      "script": "FiveIsland_LostCave_Room13_EventScript_ItemMaxRevive",
+      "itemId": 25,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_FIVE_ISLAND_LOST_CAVE_ROOM13_MAX_REVIVE"
+    },
+    {
+      "map": "FiveIsland_LostCave_Room14",
+      "entityIdx": 0,
+      "script": "FiveIsland_LostCave_Room14_EventScript_ItemRareCandy",
+      "itemId": 68,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_FIVE_ISLAND_LOST_CAVE_ROOM14_RARE_CANDY"
+    },
+    {
+      "map": "FiveIsland_Meadow",
+      "entityIdx": 5,
+      "script": "FiveIsland_Meadow_EventScript_ItemMaxPotion",
+      "itemId": 20,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_FIVE_ISLAND_MEADOW_MAX_POTION"
+    },
+    {
+      "map": "FiveIsland_Meadow",
+      "entityIdx": 6,
+      "script": "FiveIsland_Meadow_EventScript_ItemPPUp",
+      "itemId": 69,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_FIVE_ISLAND_MEADOW_PP_UP"
+    },
+    {
+      "map": "FiveIsland_MemorialPillar",
+      "entityIdx": 4,
+      "script": "FiveIsland_MemorialPillar_EventScript_ItemMetalCoat",
+      "itemId": 199,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_FIVE_ISLAND_MEMORIAL_PILLAR_METAL_COAT"
+    },
+    {
+      "map": "FiveIsland_RocketWarehouse",
+      "entityIdx": 6,
+      "script": "FiveIsland_RocketWarehouse_EventScript_ItemBigPearl",
+      "itemId": 107,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_FIVE_ISLAND_ROCKET_WAREHOUSE_BIG_PEARL"
+    },
+    {
+      "map": "FiveIsland_RocketWarehouse",
+      "entityIdx": 7,
+      "script": "FiveIsland_RocketWarehouse_EventScript_ItemTM36",
+      "itemId": 324,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_FIVE_ISLAND_ROCKET_WAREHOUSE_TM36"
+    },
+    {
+      "map": "FiveIsland_RocketWarehouse",
+      "entityIdx": 8,
+      "script": "FiveIsland_RocketWarehouse_EventScript_ItemPearl",
+      "itemId": 106,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_FIVE_ISLAND_ROCKET_WAREHOUSE_PEARL"
+    },
+    {
+      "map": "FiveIsland_RocketWarehouse",
+      "entityIdx": 9,
+      "script": "FiveIsland_RocketWarehouse_EventScript_ItemUpGrade",
+      "itemId": 218,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_FIVE_ISLAND_ROCKET_WAREHOUSE_UP_GRADE"
+    },
+    {
+      "map": "FourIsland",
+      "entityIdx": 7,
+      "script": "FourIsland_EventScript_ItemStarPiece",
+      "itemId": 109,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_FOUR_ISLAND_STAR_PIECE"
+    },
+    {
+      "map": "FourIsland",
+      "entityIdx": 8,
+      "script": "FourIsland_EventScript_ItemStardust",
+      "itemId": 108,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_FOUR_ISLAND_STARDUST"
+    },
+    {
+      "map": "FourIsland_IcefallCave_1F",
+      "entityIdx": 0,
+      "script": "FourIsland_IcefallCave_1F_EventScript_ItemUltraBall",
+      "itemId": 2,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_FOUR_ISLAND_ICEFALL_CAVE_1F_ULTRA_BALL"
+    },
+    {
+      "map": "FourIsland_IcefallCave_1F",
+      "entityIdx": 1,
+      "script": "FourIsland_IcefallCave_1F_EventScript_ItemHM07",
+      "itemId": 345,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_FOUR_ISLAND_ICEFALL_CAVE_1F_HM07"
+    },
+    {
+      "map": "FourIsland_IcefallCave_B1F",
+      "entityIdx": 0,
+      "script": "FourIsland_IcefallCave_B1F_EventScript_ItemFullRestore",
+      "itemId": 19,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_FOUR_ISLAND_ICEFALL_CAVE_B1F_FULL_RESTORE"
+    },
+    {
+      "map": "FourIsland_IcefallCave_B1F",
+      "entityIdx": 1,
+      "script": "FourIsland_IcefallCave_B1F_EventScript_ItemNeverMeltIce",
+      "itemId": 212,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_FOUR_ISLAND_ICEFALL_CAVE_B1F_NEVER_MELT_ICE"
+    },
+    {
+      "map": "FuchsiaCity_WardensHouse",
+      "entityIdx": 2,
+      "script": "FuchsiaCity_WardensHouse_EventScript_ItemRareCandy",
+      "itemId": 68,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_FUCHSIA_CITY_WARDENS_HOUSE_RARE_CANDY"
+    },
+    {
+      "map": "MtEmber_Exterior",
+      "entityIdx": 17,
+      "script": "MtEmber_Exterior_EventScript_ItemUltraBall",
+      "itemId": 2,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_MT_EMBER_EXTERIOR_ULTRA_BALL"
+    },
+    {
+      "map": "MtEmber_Exterior",
+      "entityIdx": 18,
+      "script": "MtEmber_Exterior_EventScript_ItemFireStone",
+      "itemId": 95,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_MT_EMBER_EXTERIOR_FIRE_STONE"
+    },
+    {
+      "map": "MtEmber_Exterior",
+      "entityIdx": 19,
+      "script": "MtEmber_Exterior_EventScript_ItemDireHit",
+      "itemId": 74,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_MT_EMBER_EXTERIOR_DIRE_HIT"
+    },
+    {
+      "map": "MtMoon_1F",
+      "entityIdx": 7,
+      "script": "MtMoon_1F_EventScript_ItemParalyzeHeal",
+      "itemId": 18,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_MT_MOON_1F_PARALYZE_HEAL"
+    },
+    {
+      "map": "MtMoon_1F",
+      "entityIdx": 8,
+      "script": "MtMoon_1F_EventScript_ItemTM09",
+      "itemId": 297,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_MT_MOON_1F_TM09"
+    },
+    {
+      "map": "MtMoon_1F",
+      "entityIdx": 9,
+      "script": "MtMoon_1F_EventScript_ItemPotion",
+      "itemId": 13,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_MT_MOON_1F_POTION"
+    },
+    {
+      "map": "MtMoon_1F",
+      "entityIdx": 10,
+      "script": "MtMoon_1F_EventScript_ItemRareCandy",
+      "itemId": 68,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_MT_MOON_1F_RARE_CANDY"
+    },
+    {
+      "map": "MtMoon_1F",
+      "entityIdx": 11,
+      "script": "MtMoon_1F_EventScript_ItemEscapeRope",
+      "itemId": 85,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_MT_MOON_1F_ESCAPE_ROPE"
+    },
+    {
+      "map": "MtMoon_1F",
+      "entityIdx": 12,
+      "script": "MtMoon_1F_EventScript_ItemMoonStone",
+      "itemId": 94,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_MT_MOON_1F_MOON_STONE"
+    },
+    {
+      "map": "MtMoon_B2F",
+      "entityIdx": 7,
+      "script": "MtMoon_B2F_EventScript_ItemStarPiece",
+      "itemId": 109,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_MT_MOON_B2F_STAR_PIECE"
+    },
+    {
+      "map": "MtMoon_B2F",
+      "entityIdx": 8,
+      "script": "MtMoon_B2F_EventScript_ItemTM46",
+      "itemId": 334,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_MT_MOON_B2F_TM46"
+    },
+    {
+      "map": "MtMoon_B2F",
+      "entityIdx": 9,
+      "script": "MtMoon_B2F_EventScript_ItemRevive",
+      "itemId": 24,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_MT_MOON_B2F_REVIVE"
+    },
+    {
+      "map": "MtMoon_B2F",
+      "entityIdx": 10,
+      "script": "MtMoon_B2F_EventScript_ItemAntidote",
+      "itemId": 14,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_MT_MOON_B2F_ANTIDOTE"
+    },
+    {
+      "map": "OneIsland_KindleRoad",
+      "entityIdx": 26,
+      "script": "OneIsland_KindleRoad_EventScript_ItemEther",
+      "itemId": 34,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ONE_ISLAND_KINDLE_ROAD_ETHER"
+    },
+    {
+      "map": "OneIsland_KindleRoad",
+      "entityIdx": 27,
+      "script": "OneIsland_KindleRoad_EventScript_ItemMaxRepel",
+      "itemId": 84,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ONE_ISLAND_KINDLE_ROAD_MAX_REPEL"
+    },
+    {
+      "map": "OneIsland_KindleRoad",
+      "entityIdx": 28,
+      "script": "OneIsland_KindleRoad_EventScript_ItemCarbos",
+      "itemId": 66,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ONE_ISLAND_KINDLE_ROAD_CARBOS"
+    },
+    {
+      "map": "OneIsland_KindleRoad_EmberSpa",
+      "entityIdx": 4,
+      "script": "OneIsland_KindleRoad_EmberSpa_EventScript_RockSmashMan",
+      "itemId": 344,
+      "amount": 1,
+      "hideFlag": ""
+    },
+    {
+      "map": "PewterCity_Museum_1F",
+      "entityIdx": 2,
+      "script": "PewterCity_Museum_1F_EventScript_OldAmberScientist",
+      "itemId": 354,
+      "amount": 1,
+      "hideFlag": ""
+    },
+    {
+      "map": "PokemonMansion_1F",
+      "entityIdx": 1,
+      "script": "PokemonMansion_1F_EventScript_ItemCarbos",
+      "itemId": 66,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_POKEMON_MANSION_1F_CARBOS"
+    },
+    {
+      "map": "PokemonMansion_1F",
+      "entityIdx": 2,
+      "script": "PokemonMansion_1F_EventScript_ItemEscapeRope",
+      "itemId": 85,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_POKEMON_MANSION_1F_ESCAPE_ROPE"
+    },
+    {
+      "map": "PokemonMansion_1F",
+      "entityIdx": 3,
+      "script": "PokemonMansion_1F_EventScript_ItemProtein",
+      "itemId": 64,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_POKEMON_MANSION_1F_PROTEIN"
+    },
+    {
+      "map": "PokemonMansion_2F",
+      "entityIdx": 1,
+      "script": "PokemonMansion_2F_EventScript_ItemCalcium",
+      "itemId": 67,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_POKEMON_MANSION_2F_CALCIUM"
+    },
+    {
+      "map": "PokemonMansion_2F",
+      "entityIdx": 2,
+      "script": "PokemonMansion_2F_EventScript_ItemZinc",
+      "itemId": 70,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_POKEMON_MANSION_2F_ZINC"
+    },
+    {
+      "map": "PokemonMansion_2F",
+      "entityIdx": 3,
+      "script": "PokemonMansion_2F_EventScript_ItemHPUp",
+      "itemId": 63,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_POKEMON_MANSION_2F_HP_UP"
+    },
+    {
+      "map": "PokemonMansion_3F",
+      "entityIdx": 2,
+      "script": "PokemonMansion_3F_EventScript_ItemMaxPotion",
+      "itemId": 20,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_POKEMON_MANSION_3F_MAX_POTION"
+    },
+    {
+      "map": "PokemonMansion_3F",
+      "entityIdx": 3,
+      "script": "PokemonMansion_3F_EventScript_ItemIron",
+      "itemId": 65,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_POKEMON_MANSION_3F_IRON"
+    },
+    {
+      "map": "PokemonMansion_B1F",
+      "entityIdx": 0,
+      "script": "PokemonMansion_B1F_EventScript_ItemTM22",
+      "itemId": 310,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_POKEMON_MANSION_B1F_TM22"
+    },
+    {
+      "map": "PokemonMansion_B1F",
+      "entityIdx": 3,
+      "script": "PokemonMansion_B1F_EventScript_ItemTM14",
+      "itemId": 302,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_POKEMON_MANSION_B1F_TM14"
+    },
+    {
+      "map": "PokemonMansion_B1F",
+      "entityIdx": 4,
+      "script": "PokemonMansion_B1F_EventScript_ItemFullRestore",
+      "itemId": 19,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_POKEMON_MANSION_B1F_FULL_RESTORE"
+    },
+    {
+      "map": "PokemonMansion_B1F",
+      "entityIdx": 5,
+      "script": "PokemonMansion_B1F_EventScript_ItemSecretKey",
+      "itemId": 351,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_POKEMON_MANSION_B1F_SECRET_KEY"
+    },
+    {
+      "map": "PokemonTower_3F",
+      "entityIdx": 3,
+      "script": "PokemonTower_3F_EventScript_ItemEscapeRope",
+      "itemId": 85,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_POKEMON_TOWER_3F_ESCAPE_ROPE"
+    },
+    {
+      "map": "PokemonTower_4F",
+      "entityIdx": 3,
+      "script": "PokemonTower_4F_EventScript_ItemElixir",
+      "itemId": 36,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_POKEMON_TOWER_4F_ELIXIR"
+    },
+    {
+      "map": "PokemonTower_4F",
+      "entityIdx": 4,
+      "script": "PokemonTower_4F_EventScript_ItemAwakening",
+      "itemId": 17,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_POKEMON_TOWER_4F_AWAKENING"
+    },
+    {
+      "map": "PokemonTower_4F",
+      "entityIdx": 5,
+      "script": "PokemonTower_4F_EventScript_ItemGreatBall",
+      "itemId": 3,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_POKEMON_TOWER_4F_GREAT_BALL"
+    },
+    {
+      "map": "PokemonTower_5F",
+      "entityIdx": 5,
+      "script": "PokemonTower_5F_EventScript_ItemNugget",
+      "itemId": 110,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_POKEMON_TOWER_5F_NUGGET"
+    },
+    {
+      "map": "PokemonTower_5F",
+      "entityIdx": 6,
+      "script": "PokemonTower_5F_EventScript_ItemCleanseTag",
+      "itemId": 190,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_POKEMON_TOWER_5F_CLEANSE_TAG"
+    },
+    {
+      "map": "PokemonTower_6F",
+      "entityIdx": 3,
+      "script": "PokemonTower_6F_EventScript_ItemRareCandy",
+      "itemId": 68,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_POKEMON_TOWER_6F_RARE_CANDY"
+    },
+    {
+      "map": "PokemonTower_6F",
+      "entityIdx": 4,
+      "script": "PokemonTower_6F_EventScript_ItemXAccuracy",
+      "itemId": 78,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_POKEMON_TOWER_6F_X_ACCURACY"
+    },
+    {
+      "map": "PowerPlant",
+      "entityIdx": 0,
+      "script": "PowerPlant_EventScript_ItemMaxPotion",
+      "itemId": 20,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_POWER_PLANT_MAX_POTION"
+    },
+    {
+      "map": "PowerPlant",
+      "entityIdx": 1,
+      "script": "PowerPlant_EventScript_ItemTM17",
+      "itemId": 305,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_POWER_PLANT_TM17"
+    },
+    {
+      "map": "PowerPlant",
+      "entityIdx": 2,
+      "script": "PowerPlant_EventScript_ItemTM25",
+      "itemId": 313,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_POWER_PLANT_TM25"
+    },
+    {
+      "map": "PowerPlant",
+      "entityIdx": 3,
+      "script": "PowerPlant_EventScript_ItemThunderStone",
+      "itemId": 96,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_POWER_PLANT_THUNDER_STONE"
+    },
+    {
+      "map": "PowerPlant",
+      "entityIdx": 4,
+      "script": "PowerPlant_EventScript_ItemElixir",
+      "itemId": 36,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_POWER_PLANT_ELIXIR"
+    },
+    {
+      "map": "RockTunnel_1F",
+      "entityIdx": 7,
+      "script": "RockTunnel_1F_EventScript_ItemRepel",
+      "itemId": 86,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROCK_TUNNEL_1F_REPEL"
+    },
+    {
+      "map": "RockTunnel_1F",
+      "entityIdx": 8,
+      "script": "RockTunnel_1F_EventScript_ItemPearl",
+      "itemId": 106,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROCK_TUNNEL_1F_PEARL"
+    },
+    {
+      "map": "RockTunnel_1F",
+      "entityIdx": 9,
+      "script": "RockTunnel_1F_EventScript_ItemEscapeRope",
+      "itemId": 85,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROCK_TUNNEL_1F_ESCAPE_ROPE"
+    },
+    {
+      "map": "RockTunnel_B1F",
+      "entityIdx": 9,
+      "script": "RockTunnel_B1F_EventScript_ItemRevive",
+      "itemId": 24,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROCK_TUNNEL_B1F_REVIVE"
+    },
+    {
+      "map": "RockTunnel_B1F",
+      "entityIdx": 10,
+      "script": "RockTunnel_B1F_EventScript_ItemMaxEther",
+      "itemId": 35,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROCK_TUNNEL_B1F_MAX_ETHER"
+    },
+    {
+      "map": "RocketHideout_B1F",
+      "entityIdx": 5,
+      "script": "RocketHideout_B1F_EventScript_ItemEscapeRope",
+      "itemId": 85,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROCKET_HIDEOUT_B1F_ESCAPE_ROPE"
+    },
+    {
+      "map": "RocketHideout_B1F",
+      "entityIdx": 6,
+      "script": "RocketHideout_B1F_EventScript_ItemHyperPotion",
+      "itemId": 21,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROCKET_HIDEOUT_B1F_HYPER_POTION"
+    },
+    {
+      "map": "RocketHideout_B2F",
+      "entityIdx": 1,
+      "script": "RocketHideout_B2F_EventScript_ItemXSpeed",
+      "itemId": 77,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROCKET_HIDEOUT_B2F_X_SPEED"
+    },
+    {
+      "map": "RocketHideout_B2F",
+      "entityIdx": 2,
+      "script": "RocketHideout_B2F_EventScript_ItemMoonStone",
+      "itemId": 94,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROCKET_HIDEOUT_B2F_MOON_STONE"
+    },
+    {
+      "map": "RocketHideout_B2F",
+      "entityIdx": 3,
+      "script": "RocketHideout_B2F_EventScript_ItemTM12",
+      "itemId": 300,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROCKET_HIDEOUT_B2F_TM12"
+    },
+    {
+      "map": "RocketHideout_B2F",
+      "entityIdx": 4,
+      "script": "RocketHideout_B2F_EventScript_ItemSuperPotion",
+      "itemId": 22,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROCKET_HIDEOUT_B2F_SUPER_POTION"
+    },
+    {
+      "map": "RocketHideout_B3F",
+      "entityIdx": 2,
+      "script": "RocketHideout_B3F_EventScript_ItemRareCandy",
+      "itemId": 68,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROCKET_HIDEOUT_B3F_RARE_CANDY"
+    },
+    {
+      "map": "RocketHideout_B3F",
+      "entityIdx": 3,
+      "script": "RocketHideout_B3F_EventScript_ItemTM21",
+      "itemId": 309,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROCKET_HIDEOUT_B3F_TM21"
+    },
+    {
+      "map": "RocketHideout_B3F",
+      "entityIdx": 4,
+      "script": "RocketHideout_B3F_EventScript_ItemBlackGlasses",
+      "itemId": 206,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROCKET_HIDEOUT_B3F_BLACK_GLASSES"
+    },
+    {
+      "map": "RocketHideout_B4F",
+      "entityIdx": 6,
+      "script": "RocketHideout_B4F_EventScript_ItemTM49",
+      "itemId": 337,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROCKET_HIDEOUT_B4F_TM49"
+    },
+    {
+      "map": "RocketHideout_B4F",
+      "entityIdx": 7,
+      "script": "RocketHideout_B4F_EventScript_ItemMaxEther",
+      "itemId": 35,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROCKET_HIDEOUT_B4F_MAX_ETHER"
+    },
+    {
+      "map": "RocketHideout_B4F",
+      "entityIdx": 8,
+      "script": "RocketHideout_B4F_EventScript_ItemCalcium",
+      "itemId": 67,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROCKET_HIDEOUT_B4F_CALCIUM"
+    },
+    {
+      "map": "Route10_PokemonCenter_1F",
+      "entityIdx": 4,
+      "script": "Route10_PokemonCenter_1F_EventScript_Aide",
+      "itemId": 195,
+      "amount": 1,
+      "hideFlag": ""
+    },
+    {
+      "map": "Route11",
+      "entityIdx": 10,
+      "script": "Route11_EventScript_ItemXDefend",
+      "itemId": 76,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROUTE11_X_DEFEND"
+    },
+    {
+      "map": "Route11",
+      "entityIdx": 11,
+      "script": "Route11_EventScript_ItemGreatBall",
+      "itemId": 3,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROUTE11_GREAT_BALL"
+    },
+    {
+      "map": "Route11",
+      "entityIdx": 12,
+      "script": "Route11_EventScript_ItemAwakening",
+      "itemId": 17,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROUTE11_AWAKENING"
+    },
+    {
+      "map": "Route11_EastEntrance_2F",
+      "entityIdx": 1,
+      "script": "Route11_EastEntrance_2F_EventScript_Aide",
+      "itemId": 261,
+      "amount": 1,
+      "hideFlag": ""
+    },
+    {
+      "map": "Route12",
+      "entityIdx": 9,
+      "script": "Route12_EventScript_ItemTM48",
+      "itemId": 336,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROUTE12_TM48"
+    },
+    {
+      "map": "Route12",
+      "entityIdx": 10,
+      "script": "Route12_EventScript_ItemIron",
+      "itemId": 65,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROUTE12_IRON"
+    },
+    {
+      "map": "Route12_NorthEntrance_2F",
+      "entityIdx": 0,
+      "script": "Route12_NorthEntrance_2F_EventScript_Lass",
+      "itemId": 315,
+      "amount": 1,
+      "hideFlag": ""
+    },
+    {
+      "map": "Route15",
+      "entityIdx": 10,
+      "script": "Route15_EventScript_ItemTM18",
+      "itemId": 306,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROUTE15_TM18"
+    },
+    {
+      "map": "Route15_WestEntrance_2F",
+      "entityIdx": 0,
+      "script": "Route15_WestEntrance_2F_EventScript_Aide",
+      "itemId": 182,
+      "amount": 1,
+      "hideFlag": ""
+    },
+    {
+      "map": "Route16_House",
+      "entityIdx": 0,
+      "script": "Route16_House_EventScript_Woman",
+      "itemId": 340,
+      "amount": 1,
+      "hideFlag": ""
+    },
+    {
+      "map": "Route16_NorthEntrance_2F",
+      "entityIdx": 2,
+      "script": "Route16_NorthEntrance_2F_EventScript_Aide",
+      "itemId": 189,
+      "amount": 1,
+      "hideFlag": ""
+    },
+    {
+      "map": "Route2",
+      "entityIdx": 4,
+      "script": "Route2_EventScript_ItemEther",
+      "itemId": 34,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROUTE2_ETHER"
+    },
+    {
+      "map": "Route2",
+      "entityIdx": 5,
+      "script": "Route2_EventScript_ItemParalyzeHeal",
+      "itemId": 18,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROUTE2_PARALYZE_HEAL"
+    },
+    {
+      "map": "Route24",
+      "entityIdx": 7,
+      "script": "Route24_EventScript_ItemTM45",
+      "itemId": 333,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROUTE24_TM45"
+    },
+    {
+      "map": "Route25",
+      "entityIdx": 9,
+      "script": "Route25_EventScript_ItemTM43",
+      "itemId": 331,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROUTE25_TM43"
+    },
+    {
+      "map": "Route2_EastBuilding",
+      "entityIdx": 0,
+      "script": "Route2_EastBuilding_EventScript_Aide",
+      "itemId": 343,
+      "amount": 1,
+      "hideFlag": ""
+    },
+    {
+      "map": "Route4",
+      "entityIdx": 2,
+      "script": "Route4_EventScript_ItemTM05",
+      "itemId": 293,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROUTE4_TM05"
+    },
+    {
+      "map": "Route9",
+      "entityIdx": 10,
+      "script": "Route9_EventScript_ItemTM40",
+      "itemId": 328,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROUTE9_TM40"
+    },
+    {
+      "map": "Route9",
+      "entityIdx": 11,
+      "script": "Route9_EventScript_ItemBurnHeal",
+      "itemId": 15,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_ROUTE9_BURN_HEAL"
+    },
+    {
+      "map": "SafariZone_Center",
+      "entityIdx": 0,
+      "script": "SafariZone_Center_EventScript_ItemNugget",
+      "itemId": 110,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SAFARI_ZONE_CENTER_NUGGET"
+    },
+    {
+      "map": "SafariZone_East",
+      "entityIdx": 0,
+      "script": "SafariZone_East_EventScript_ItemMaxPotion",
+      "itemId": 20,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SAFARI_ZONE_EAST_MAX_POTION"
+    },
+    {
+      "map": "SafariZone_East",
+      "entityIdx": 1,
+      "script": "SafariZone_East_EventScript_ItemFullRestore",
+      "itemId": 19,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SAFARI_ZONE_EAST_FULL_RESTORE"
+    },
+    {
+      "map": "SafariZone_East",
+      "entityIdx": 2,
+      "script": "SafariZone_East_EventScript_ItemTM11",
+      "itemId": 299,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SAFARI_ZONE_EAST_TM11"
+    },
+    {
+      "map": "SafariZone_East",
+      "entityIdx": 3,
+      "script": "SafariZone_East_EventScript_ItemLeafStone",
+      "itemId": 98,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SAFARI_ZONE_EAST_LEAF_STONE"
+    },
+    {
+      "map": "SafariZone_North",
+      "entityIdx": 0,
+      "script": "SafariZone_North_EventScript_ItemProtein",
+      "itemId": 64,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SAFARI_ZONE_NORTH_PROTEIN"
+    },
+    {
+      "map": "SafariZone_North",
+      "entityIdx": 1,
+      "script": "SafariZone_North_EventScript_ItemTM47",
+      "itemId": 335,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SAFARI_ZONE_NORTH_TM47"
+    },
+    {
+      "map": "SafariZone_North",
+      "entityIdx": 2,
+      "script": "SafariZone_North_EventScript_ItemQuickClaw",
+      "itemId": 183,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SAFARI_ZONE_NORTH_QUICK_CLAW"
+    },
+    {
+      "map": "SafariZone_West",
+      "entityIdx": 0,
+      "script": "SafariZone_West_EventScript_ItemGoldTeeth",
+      "itemId": 353,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SAFARI_ZONE_WEST_GOLD_TEETH"
+    },
+    {
+      "map": "SafariZone_West",
+      "entityIdx": 1,
+      "script": "SafariZone_West_EventScript_ItemTM32",
+      "itemId": 320,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SAFARI_ZONE_WEST_TM32"
+    },
+    {
+      "map": "SafariZone_West",
+      "entityIdx": 2,
+      "script": "SafariZone_West_EventScript_ItemMaxPotion",
+      "itemId": 20,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SAFARI_ZONE_WEST_MAX_POTION"
+    },
+    {
+      "map": "SafariZone_West",
+      "entityIdx": 3,
+      "script": "SafariZone_West_EventScript_ItemMaxRevive",
+      "itemId": 25,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SAFARI_ZONE_WEST_MAX_REVIVE"
+    },
+    {
+      "map": "SaffronCity_MrPsychicsHouse",
+      "entityIdx": 0,
+      "script": "SaffronCity_MrPsychicsHouse_EventScript_MrPsychic",
+      "itemId": 317,
+      "amount": 1,
+      "hideFlag": ""
+    },
+    {
+      "map": "SeafoamIslands_1F",
+      "entityIdx": 2,
+      "script": "SeafoamIslands_1F_EventScript_ItemIceHeal",
+      "itemId": 16,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SEAFOAM_ISLANDS_1F_ICE_HEAL"
+    },
+    {
+      "map": "SeafoamIslands_B1F",
+      "entityIdx": 2,
+      "script": "SeafoamIslands_B1F_EventScript_ItemWaterStone",
+      "itemId": 97,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SEAFOAM_ISLANDS_B1F_WATER_STONE"
+    },
+    {
+      "map": "SeafoamIslands_B1F",
+      "entityIdx": 3,
+      "script": "SeafoamIslands_B1F_EventScript_ItemRevive",
+      "itemId": 24,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SEAFOAM_ISLANDS_B1F_REVIVE"
+    },
+    {
+      "map": "SeafoamIslands_B2F",
+      "entityIdx": 2,
+      "script": "SeafoamIslands_B2F_EventScript_ItemBigPearl",
+      "itemId": 107,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SEAFOAM_ISLANDS_B2F_BIG_PEARL"
+    },
+    {
+      "map": "SeafoamIslands_B4F",
+      "entityIdx": 3,
+      "script": "SeafoamIslands_B4F_EventScript_ItemUltraBall",
+      "itemId": 2,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SEAFOAM_ISLANDS_B4F_ULTRA_BALL"
+    },
+    {
+      "map": "SevenIsland_SevaultCanyon",
+      "entityIdx": 16,
+      "script": "SevenIsland_SevaultCanyon_EventScript_ItemKingsRock",
+      "itemId": 187,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SEVEN_ISLAND_SEVAULT_CANYON_KINGS_ROCK"
+    },
+    {
+      "map": "SevenIsland_SevaultCanyon",
+      "entityIdx": 17,
+      "script": "SevenIsland_SevaultCanyon_EventScript_ItemMaxElixir",
+      "itemId": 37,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SEVEN_ISLAND_SEVAULT_CANYON_MAX_ELIXIR"
+    },
+    {
+      "map": "SevenIsland_SevaultCanyon",
+      "entityIdx": 18,
+      "script": "SevenIsland_SevaultCanyon_EventScript_ItemNugget",
+      "itemId": 110,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SEVEN_ISLAND_SEVAULT_CANYON_NUGGET"
+    },
+    {
+      "map": "SevenIsland_SevaultCanyon_House",
+      "entityIdx": 2,
+      "script": "SevenIsland_SevaultCanyon_House_EventScript_ItemLuckyPunch",
+      "itemId": 222,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SEVEN_ISLAND_SEVAULT_CANYON_HOUSE_LUCKY_PUNCH"
+    },
+    {
+      "map": "SilphCo_10F",
+      "entityIdx": 3,
+      "script": "SilphCo_10F_EventScript_ItemCarbos",
+      "itemId": 66,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SILPH_CO_10F_CARBOS"
+    },
+    {
+      "map": "SilphCo_10F",
+      "entityIdx": 4,
+      "script": "SilphCo_10F_EventScript_ItemUltraBall",
+      "itemId": 2,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SILPH_CO_10F_ULTRA_BALL"
+    },
+    {
+      "map": "SilphCo_10F",
+      "entityIdx": 5,
+      "script": "SilphCo_10F_EventScript_ItemRareCandy",
+      "itemId": 68,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SILPH_CO_10F_RARE_CANDY"
+    },
+    {
+      "map": "SilphCo_11F",
+      "entityIdx": 4,
+      "script": "SilphCo_11F_EventScript_ItemZinc",
+      "itemId": 70,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SILPH_CO_11F_ZINC"
+    },
+    {
+      "map": "SilphCo_3F",
+      "entityIdx": 3,
+      "script": "SilphCo_3F_EventScript_ItemHyperPotion",
+      "itemId": 21,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SILPH_CO_3F_HYPER_POTION"
+    },
+    {
+      "map": "SilphCo_4F",
+      "entityIdx": 4,
+      "script": "SilphCo_4F_EventScript_ItemMaxRevive",
+      "itemId": 25,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SILPH_CO_4F_MAX_REVIVE"
+    },
+    {
+      "map": "SilphCo_4F",
+      "entityIdx": 5,
+      "script": "SilphCo_4F_EventScript_ItemEscapeRope",
+      "itemId": 85,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SILPH_CO_4F_ESCAPE_ROPE"
+    },
+    {
+      "map": "SilphCo_4F",
+      "entityIdx": 6,
+      "script": "SilphCo_4F_EventScript_ItemFullHeal",
+      "itemId": 23,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SILPH_CO_4F_FULL_HEAL"
+    },
+    {
+      "map": "SilphCo_4F",
+      "entityIdx": 7,
+      "script": "SilphCo_4F_EventScript_ItemTM41",
+      "itemId": 329,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SILPH_CO_4F_TM41"
+    },
+    {
+      "map": "SilphCo_5F",
+      "entityIdx": 5,
+      "script": "SilphCo_5F_EventScript_ItemProtein",
+      "itemId": 64,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SILPH_CO_5F_PROTEIN"
+    },
+    {
+      "map": "SilphCo_5F",
+      "entityIdx": 6,
+      "script": "SilphCo_5F_EventScript_ItemTM01",
+      "itemId": 289,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SILPH_CO_5F_TM01"
+    },
+    {
+      "map": "SilphCo_5F",
+      "entityIdx": 7,
+      "script": "SilphCo_5F_EventScript_ItemCardKey",
+      "itemId": 355,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SILPH_CO_5F_CARD_KEY"
+    },
+    {
+      "map": "SilphCo_6F",
+      "entityIdx": 7,
+      "script": "SilphCo_6F_EventScript_ItemHPUp",
+      "itemId": 63,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SILPH_CO_6F_HP_UP"
+    },
+    {
+      "map": "SilphCo_6F",
+      "entityIdx": 8,
+      "script": "SilphCo_6F_EventScript_ItemXSpecial",
+      "itemId": 79,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SILPH_CO_6F_X_SPECIAL"
+    },
+    {
+      "map": "SilphCo_7F",
+      "entityIdx": 9,
+      "script": "SilphCo_7F_EventScript_ItemCalcium",
+      "itemId": 67,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SILPH_CO_7F_CALCIUM"
+    },
+    {
+      "map": "SilphCo_7F",
+      "entityIdx": 10,
+      "script": "SilphCo_7F_EventScript_ItemTM08",
+      "itemId": 296,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SILPH_CO_7F_TM08"
+    },
+    {
+      "map": "SilphCo_8F",
+      "entityIdx": 4,
+      "script": "SilphCo_8F_EventScript_ItemIron",
+      "itemId": 65,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SILPH_CO_8F_IRON"
+    },
+    {
+      "map": "SixIsland_OutcastIsland",
+      "entityIdx": 6,
+      "script": "SixIsland_OutcastIsland_EventScript_ItemPPUp",
+      "itemId": 69,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SIX_ISLAND_OUTCAST_ISLAND_PP_UP"
+    },
+    {
+      "map": "SixIsland_RuinValley",
+      "entityIdx": 14,
+      "script": "SixIsland_RuinValley_EventScript_ItemHPUp",
+      "itemId": 63,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SIX_ISLAND_RUIN_VALLEY_HP_UP"
+    },
+    {
+      "map": "SixIsland_RuinValley",
+      "entityIdx": 15,
+      "script": "SixIsland_RuinValley_EventScript_ItemFullRestore",
+      "itemId": 19,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SIX_ISLAND_RUIN_VALLEY_FULL_RESTORE"
+    },
+    {
+      "map": "SixIsland_RuinValley",
+      "entityIdx": 16,
+      "script": "SixIsland_RuinValley_EventScript_ItemSunStone",
+      "itemId": 93,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SIX_ISLAND_RUIN_VALLEY_SUN_STONE"
+    },
+    {
+      "map": "SixIsland_WaterPath",
+      "entityIdx": 7,
+      "script": "SixIsland_WaterPath_EventScript_ItemElixir",
+      "itemId": 36,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SIX_ISLAND_WATER_PATH_ELIXIR"
+    },
+    {
+      "map": "SixIsland_WaterPath",
+      "entityIdx": 8,
+      "script": "SixIsland_WaterPath_EventScript_ItemDragonScale",
+      "itemId": 201,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SIX_ISLAND_WATER_PATH_DRAGON_SCALE"
+    },
+    {
+      "map": "SSAnne_1F_Room2",
+      "entityIdx": 3,
+      "script": "SSAnne_1F_Room2_EventScript_ItemTM31",
+      "itemId": 319,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SSANNE_1F_ROOM2_TM31"
+    },
+    {
+      "map": "SSAnne_2F_Room2",
+      "entityIdx": 2,
+      "script": "SSAnne_2F_Room2_EventScript_ItemStardust",
+      "itemId": 108,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SSANNE_2F_ROOM2_STARDUST"
+    },
+    {
+      "map": "SSAnne_2F_Room4",
+      "entityIdx": 2,
+      "script": "SSAnne_2F_Room4_EventScript_ItemXAttack",
+      "itemId": 75,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SSANNE_2F_ROOM4_X_ATTACK"
+    },
+    {
+      "map": "SSAnne_B1F_Room2",
+      "entityIdx": 1,
+      "script": "SSAnne_B1F_Room2_EventScript_ItemTM44",
+      "itemId": 332,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SSANNE_B1F_ROOM2_TM44"
+    },
+    {
+      "map": "SSAnne_B1F_Room3",
+      "entityIdx": 1,
+      "script": "SSAnne_B1F_Room3_EventScript_ItemEther",
+      "itemId": 34,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SSANNE_B1F_ROOM3_ETHER"
+    },
+    {
+      "map": "SSAnne_B1F_Room5",
+      "entityIdx": 2,
+      "script": "SSAnne_B1F_Room5_EventScript_ItemSuperPotion",
+      "itemId": 22,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SSANNE_B1F_ROOM5_SUPER_POTION"
+    },
+    {
+      "map": "SSAnne_Kitchen",
+      "entityIdx": 7,
+      "script": "SSAnne_Kitchen_EventScript_ItemGreatBall",
+      "itemId": 3,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_SSANNE_KITCHEN_GREAT_BALL"
+    },
+    {
+      "map": "ThreeIsland",
+      "entityIdx": 9,
+      "script": "ThreeIsland_EventScript_ItemZinc",
+      "itemId": 70,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_THREE_ISLAND_ZINC"
+    },
+    {
+      "map": "ThreeIsland_BerryForest",
+      "entityIdx": 0,
+      "script": "ThreeIsland_BerryForest_EventScript_Lostelle",
+      "itemId": 147,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_LOSTELLE_IN_BERRY_FOREST"
+    },
+    {
+      "map": "ThreeIsland_BerryForest",
+      "entityIdx": 11,
+      "script": "ThreeIsland_BerryForest_EventScript_ItemMaxEther",
+      "itemId": 35,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_THREE_ISLAND_BERRY_FOREST_MAX_ETHER"
+    },
+    {
+      "map": "ThreeIsland_BerryForest",
+      "entityIdx": 12,
+      "script": "ThreeIsland_BerryForest_EventScript_ItemFullHeal",
+      "itemId": 23,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_THREE_ISLAND_BERRY_FOREST_FULL_HEAL"
+    },
+    {
+      "map": "ThreeIsland_BerryForest",
+      "entityIdx": 13,
+      "script": "ThreeIsland_BerryForest_EventScript_ItemMaxElixir",
+      "itemId": 37,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_THREE_ISLAND_BERRY_FOREST_MAX_ELIXIR"
+    },
+    {
+      "map": "TwoIsland",
+      "entityIdx": 6,
+      "script": "TwoIsland_EventScript_ItemRevive",
+      "itemId": 24,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_TWO_ISLAND_REVIVE"
+    },
+    {
+      "map": "VictoryRoad_1F",
+      "entityIdx": 2,
+      "script": "VictoryRoad_1F_EventScript_ItemRareCandy",
+      "itemId": 68,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_VICTORY_ROAD_1F_RARE_CANDY"
+    },
+    {
+      "map": "VictoryRoad_1F",
+      "entityIdx": 3,
+      "script": "VictoryRoad_1F_EventScript_ItemTM02",
+      "itemId": 290,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_VICTORY_ROAD_1F_TM02"
+    },
+    {
+      "map": "VictoryRoad_2F",
+      "entityIdx": 5,
+      "script": "VictoryRoad_2F_EventScript_ItemGuardSpec",
+      "itemId": 73,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_VICTORY_ROAD_2F_GUARD_SPEC"
+    },
+    {
+      "map": "VictoryRoad_2F",
+      "entityIdx": 6,
+      "script": "VictoryRoad_2F_EventScript_ItemTM07",
+      "itemId": 295,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_VICTORY_ROAD_2F_TM07"
+    },
+    {
+      "map": "VictoryRoad_2F",
+      "entityIdx": 7,
+      "script": "VictoryRoad_2F_EventScript_ItemFullHeal",
+      "itemId": 23,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_VICTORY_ROAD_2F_FULL_HEAL"
+    },
+    {
+      "map": "VictoryRoad_2F",
+      "entityIdx": 8,
+      "script": "VictoryRoad_2F_EventScript_ItemTM37",
+      "itemId": 325,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_VICTORY_ROAD_2F_TM37"
+    },
+    {
+      "map": "VictoryRoad_3F",
+      "entityIdx": 4,
+      "script": "VictoryRoad_3F_EventScript_ItemMaxRevive",
+      "itemId": 25,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_VICTORY_ROAD_3F_MAX_REVIVE"
+    },
+    {
+      "map": "VictoryRoad_3F",
+      "entityIdx": 5,
+      "script": "VictoryRoad_3F_EventScript_ItemTM50",
+      "itemId": 338,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_VICTORY_ROAD_3F_TM50"
+    },
+    {
+      "map": "ViridianCity",
+      "entityIdx": 8,
+      "script": "ViridianCity_EventScript_ItemPotion",
+      "itemId": 13,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_VIRIDIAN_CITY_POTION"
+    },
+    {
+      "map": "ViridianForest",
+      "entityIdx": 5,
+      "script": "ViridianForest_EventScript_ItemPokeBall",
+      "itemId": 4,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_VIRIDIAN_FOREST_POKE_BALL"
+    },
+    {
+      "map": "ViridianForest",
+      "entityIdx": 6,
+      "script": "ViridianForest_EventScript_ItemAntidote",
+      "itemId": 14,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_VIRIDIAN_FOREST_ANTIDOTE"
+    },
+    {
+      "map": "ViridianForest",
+      "entityIdx": 7,
+      "script": "ViridianForest_EventScript_ItemPotion",
+      "itemId": 13,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_VIRIDIAN_FOREST_POTION"
+    },
+    {
+      "map": "ViridianForest",
+      "entityIdx": 10,
+      "script": "ViridianForest_EventScript_ItemPotion2",
+      "itemId": 13,
+      "amount": 1,
+      "hideFlag": "kanto/FLAG_HIDE_VIRIDIAN_FOREST_POTION_2"
+    }
+  ]
+}

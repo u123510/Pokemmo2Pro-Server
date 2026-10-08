@@ -1,0 +1,235 @@
+{
+	"id": 866,
+	"name": "[866]踏冰人偶",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 15,
+	"weight": 582,
+	"egg_groups": [
+		"人形组"
+	],
+	"abilities": [
+		{
+			"id": 77,
+			"name": "[077]特性77"
+		},
+		{
+			"id": 77,
+			"name": "[077]特性77"
+		},
+		{
+			"id": 115,
+			"name": "[115]特性115"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 1,
+			"name": "[1]拍击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 102,
+			"name": "[102]模仿",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 113,
+			"name": "[113]光墙",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 115,
+			"name": "[115]反射壁",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 182,
+			"name": "[182]守住",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 219,
+			"name": "[219]神秘守护",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 226,
+			"name": "[226]接棒",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 227,
+			"name": "[227]再来一次",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 229,
+			"name": "[229]高速旋转",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 272,
+			"name": "[272]扮演",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 278,
+			"name": "[278]回收利用",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 303,
+			"name": "[303]偷懒",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 313,
+			"name": "[313]假哭",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 335,
+			"name": "[335]挡路",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 383,
+			"name": "[383]仿效",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 420,
+			"name": "[420]冰砾",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 495,
+			"name": "[495]您先请",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 581,
+			"name": "[581]薄雾场地",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 605,
+			"name": "[605]魔法闪耀",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 93,
+			"name": "[93]念力",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 502,
+			"name": "[502]交换场地",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 196,
+			"name": "[196]冰冻之风",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 24,
+			"name": "[24]二连踢",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 60,
+			"name": "[60]幻象光线",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 95,
+			"name": "[95]催眠术",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 243,
+			"name": "[243]镜面反射",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 389,
+			"name": "[389]突袭",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 573,
+			"name": "[573]冷冻干燥",
+			"type": "level",
+			"level": 44
+		},
+		{
+			"id": 94,
+			"name": "[94]精神强念",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 298,
+			"name": "[298]摇晃舞",
+			"type": "level",
+			"level": 52
+		}
+	],
+	"types": [
+		"ICE",
+		"PSYCHIC"
+	],
+	"stats": {
+		"hp": 80,
+		"attack": 85,
+		"defense": 75,
+		"speed": 110,
+		"sp_attack": 100,
+		"sp_defense": 70
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 3,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

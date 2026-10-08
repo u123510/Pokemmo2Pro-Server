@@ -1,0 +1,210 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 95,
+  "width": 21,
+  "height": 17,
+  "paletteIdx1": 100,
+  "paletteIdx2": 166,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 406,
+  "unknownByte": 199,
+  "borderTiles": [
+    {
+      "material": 581,
+      "collision": 0
+    },
+    {
+      "material": 581,
+      "collision": 0
+    },
+    {
+      "material": 581,
+      "collision": 0
+    },
+    {
+      "material": 581,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_MIRAGE_TOWER_2F",
+      "base_label": "gMirageTower_2F",
+      "land_mons": {
+        "encounter_rate": 10,
+        "mons": [
+          {
+            "min_level": 21,
+            "max_level": 21,
+            "species": "SPECIES_SANDSHREW"
+          },
+          {
+            "min_level": 21,
+            "max_level": 21,
+            "species": "SPECIES_TRAPINCH"
+          },
+          {
+            "min_level": 20,
+            "max_level": 20,
+            "species": "SPECIES_SANDSHREW"
+          },
+          {
+            "min_level": 20,
+            "max_level": 20,
+            "species": "SPECIES_TRAPINCH"
+          },
+          {
+            "min_level": 20,
+            "max_level": 20,
+            "species": "SPECIES_SANDSHREW"
+          },
+          {
+            "min_level": 20,
+            "max_level": 20,
+            "species": "SPECIES_TRAPINCH"
+          },
+          {
+            "min_level": 22,
+            "max_level": 22,
+            "species": "SPECIES_SANDSHREW"
+          },
+          {
+            "min_level": 22,
+            "max_level": 22,
+            "species": "SPECIES_TRAPINCH"
+          },
+          {
+            "min_level": 23,
+            "max_level": 23,
+            "species": "SPECIES_SANDSHREW"
+          },
+          {
+            "min_level": 23,
+            "max_level": 23,
+            "species": "SPECIES_TRAPINCH"
+          },
+          {
+            "min_level": 24,
+            "max_level": 24,
+            "species": "SPECIES_SANDSHREW"
+          },
+          {
+            "min_level": 24,
+            "max_level": 24,
+            "species": "SPECIES_TRAPINCH"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "CaveHole_FixCrackedGround",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 18,
+      "y": 12,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 96,
+      "targetX": 18,
+      "targetY": 12,
+      "targetElevation": 2
+    },
+    {
+      "x": 15,
+      "y": 2,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 94,
+      "targetX": 15,
+      "targetY": 2,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [],
+  "blockData": "RQZFBhsGCwYZBhkGGQYZBhkGGQYZBhkGGQYZBhkGGQYLBhkGHAZFBkUGRQZFBhIGGwYZBhkGGQYZBhkGGQYZBhkGGQYZBhkGGQYZBhwGEAZFBkUGGwYZBhoGEgYRMhEyETKYMpkymTKZMpkymTKaMhEyPzIRMhAGGAYZBhwGEgYbBhkGGgYRMhEymDKhMqkyqTKpMqkyqTKhMpoyETIRMhgGGQYcBhAGEgYSBi8yLzIRMpgyoTJwBgkGCQYJBgkGCQZxBqIyAgYRMhEyETIQBhAGEgYSBi8yLzKYMqEycAYJBhEyETIRMhEyETIJBnEGmTKaMhEyETIQBhAGEgYSBi8yLzKoMnAGEAYRMhEyETIRMhEyETIRMhIGcQaqMhEyETIQBhAGEgYSBi8yLzIRMhAGEAYRMhEyETIRMhEyETIRMhIGEgYRMhEyETIQBhAGEgYSBi8yETICBhAGEAYRMhEyETIRMhEyETIRMhIGEgYRMgIGAgYQBhAGEgYSBi8yAgaYMhAGEAYRMhEyETIRMhEyETIRMhIGEgYCBhEyETIQBhAGEgYSBi8ymDKiMhAGGAYcBhEyETIRMhEyETIbBhoGEgYRMhEyAgYQBhAGEgYSBhEyqDKhMmgGHAYYBhkGGQYZBhkGGQYaBhsGaQaaMhEyDgYQBhAGEgYSBhEyETKgMqEyaAYZBhkGGQYZBhkGGQYZBmkGqTKqMhEyFjIQBhAGEgYJBgkGCgaoMqkyqjIRMhEyETIRMhEyETKoMqoyETIRMggGCQYJBhAGCQYJBgoGEgYRMhEyETIRMhEyETIRMhEyETIRMhEyETIRMhAGIAYJBgkGRQYRMhIGCQYJBgkGCQYJBgkGCQYJBgkGCQYJBgkGCQYJBgkGEAYRMkUGRQYRMgkGCQYJBgkGCQYJBgkGCQYJBgkGCQYJBgkGCQYJBgkGCQYRMkUG",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

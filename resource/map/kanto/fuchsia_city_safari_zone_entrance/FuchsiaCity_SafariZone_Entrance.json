@@ -1,0 +1,234 @@
+{
+  "regionId": 0,
+  "bankId": 11,
+  "mapId": 0,
+  "width": 9,
+  "height": 9,
+  "paletteIdx1": 12,
+  "paletteIdx2": 48,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 308,
+  "unknownByte": 95,
+  "borderTiles": [
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_MAP_SCENE_FUCHSIA_CITY_SAFARI_ZONE_ENTRANCE",
+      "value": 1,
+      "script": "FuchsiaCity_SafariZone_Entrance_EventScript_ExitWarpIn"
+    },
+    {
+      "varKey": "VAR_MAP_SCENE_FUCHSIA_CITY_SAFARI_ZONE_ENTRANCE",
+      "value": 2,
+      "script": "FuchsiaCity_SafariZone_Entrance_EventScript_ExitEarly"
+    },
+    {
+      "varKey": "VAR_MAP_SCENE_FUCHSIA_CITY_SAFARI_ZONE_ENTRANCE",
+      "value": 3,
+      "script": "FuchsiaCity_SafariZone_Entrance_EventScript_ExitWalkIn"
+    }
+  ],
+  "coordScripts": [
+    {
+      "x": 4,
+      "y": 3,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "FuchsiaCity_SafariZone_Entrance_EventScript_EntryTriggerMid"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "FuchsiaCity_SafariZone_Entrance_EventScript_EntryTriggerRight"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "FuchsiaCity_SafariZone_Entrance_EventScript_EntryTriggerLeft"
+    }
+  ],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 4,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 63,
+      "targetX": 26,
+      "targetY": 30,
+      "targetElevation": 2
+    },
+    {
+      "x": 5,
+      "y": 7,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 7,
+      "targetX": 24,
+      "targetY": 5,
+      "targetElevation": 0
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 7,
+      "targetX": 24,
+      "targetY": 5,
+      "targetElevation": 0
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 7,
+      "targetX": 24,
+      "targetY": 5,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 47,
+      "x": 7,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "0x0",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 47,
+      "x": 1,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "FuchsiaCity_SafariZone_Entrance_EventScript_InfoAttendant",
+      "hideFlag": "",
+      "rawMovementType": 10
+    }
+  ],
+  "blockData": "ggaCBoIGgwaEBoUGggaCBoIGjwaPBpQGiwaMMo0GlAaPBo8GlwaXBpwGmTKbMpoynAaXBpcGowagMpwGoTKTMpIynAagMp4GpwaiMpwGoTKIMpIynAaiMqYGrwaiMpwGoTKTMpIynAaiMocynwagMpwGoTKTMpIynAagMp4GpgaiMqQGvDK9Mr4ypAaiMqYGCAQIBAgEGgQbBBwECAQIBAgE",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAAAA"
+}

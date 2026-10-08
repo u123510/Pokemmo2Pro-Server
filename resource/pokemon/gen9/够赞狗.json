@@ -1,0 +1,127 @@
+{
+	"id": 1014,
+	"name": "[1014]够赞狗",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 0,
+	"height": 18,
+	"weight": 922,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 67,
+			"name": "[67]踢倒",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 339,
+			"name": "[339]健美",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 336,
+			"name": "[336]长嚎",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 305,
+			"name": "[305]剧毒牙",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 395,
+			"name": "[395]发劲",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 68,
+			"name": "[68]双倍奉还",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 398,
+			"name": "[398]毒击",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 693,
+			"name": "[693]狂舞挥打",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 242,
+			"name": "[242]咬碎",
+			"type": "level",
+			"level": 56
+		},
+		{
+			"id": 276,
+			"name": "[276]蛮力",
+			"type": "level",
+			"level": 64
+		},
+		{
+			"id": 416,
+			"name": "[416]终极冲击",
+			"type": "level",
+			"level": 72
+		}
+	],
+	"types": [
+		"POISON",
+		"FIGHTING"
+	],
+	"stats": {
+		"hp": 88,
+		"attack": 128,
+		"defense": 115,
+		"speed": 58,
+		"sp_attack": 86,
+		"sp_defense": 80
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 3,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

@@ -1,0 +1,140 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 77,
+  "width": 18,
+  "height": 18,
+  "paletteIdx1": 100,
+  "paletteIdx2": 119,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 406,
+  "unknownByte": 85,
+  "borderTiles": [
+    {
+      "material": 529,
+      "collision": 0
+    },
+    {
+      "material": 529,
+      "collision": 0
+    },
+    {
+      "material": 529,
+      "collision": 0
+    },
+    {
+      "material": 529,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "SkyPillar_Entrance_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 6,
+      "y": 16,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 46,
+      "targetX": 36,
+      "targetY": 6,
+      "targetElevation": 2
+    },
+    {
+      "x": 14,
+      "y": 4,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 78,
+      "targetX": 17,
+      "targetY": 13,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [],
+  "blockData": "EQYRBhsGGQYZBhkGGQYZBhkGGQYZBhkGGQYZBhkGGQYZBhwGEQYRBhIGEQYbBhkGGQYZBhkGGQYZBhkGGQYZBhkGHAYRBhAGEQYRBhIGEQYSBgEyATIBMgEyATIBMgEyATIBMgEyEAYRBhAGEQYbBhoGGwYaBgEyATIBMgEyATIBMgEyATIBMgEyGDYcBhAGEQYSBhEGEgYBMgEyATIBMgEyATIBMgEyATIBMgcyATIQBhAGEQYSBhEGEgYBMgEyATIBMgEyATIIBgkGIwaLBowGhAYjBhAGEQYSBhEGEgYbBhkGBDIZBhwGATIQBhEGEQYRBiAGCQYJBiMGEQYSBhsGGgYSBgEyATIBMhg2HAYQBiAGCQYJBiMGEQYRBhEGEQYSBhIGEQYSBgEyATIBMgEyEAYQBhAGEQYRBhEGEQYRBhEGEQYSBhIGEQYSBgEyATIBMgEyEAYQBhAGEQYRBhEGEQYRBhEGEQYSBhIGGwYaBgEyATIBMgEyEAYQBhAGEQYRBhEGEQYRBhEGEQYSBhIGEgYbBhkGBDIZBhwGEAYQBhAGEQYRBhEGEQYRBhEGEQYSBhIGEgYSBgEyATIBMhAGEAYQBhAGEQYRBhEGEQYRBhEGEQYSBhIGEgYSBgEyATIBMhAGEAYQBhAGEQYRBhEGEQYRBhEGEQYSBhIGEgYSBgEyATIBMhAGEAYQBhAGEQYRBhEGEQYRBhEGEQYSBhIGEgYSBgEyATIBMhAGEAYQBhAGEQYRBhEGEQYRBhEGEQYSBhIGEgYSBgEyBzIBMhAGEAYQBhAGEQYRBhEGEQYRBhEGEQYjBiMGIwYjBosGjAaEBiMGIwYjBiMGEQYRBhEGEQYRBhEG",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

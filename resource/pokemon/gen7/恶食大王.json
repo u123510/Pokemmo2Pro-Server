@@ -1,0 +1,169 @@
+{
+	"id": 799,
+	"name": "[799]恶食大王",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 55,
+	"weight": 8880,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 82,
+			"name": "[82]龙之怒",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 254,
+			"name": "[254]蓄力",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 256,
+			"name": "[256]吞下",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 469,
+			"name": "[469]广域防守",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 562,
+			"name": "[562]打嗝",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 23,
+			"name": "[23]踩踏",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 693,
+			"name": "[693]狂舞挥打",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 537,
+			"name": "[537]疯狂滚压",
+			"type": "level",
+			"level": 19
+		},
+		{
+			"id": 525,
+			"name": "[525]龙尾",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 231,
+			"name": "[231]铁尾",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 707,
+			"name": "[707]跺脚",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 242,
+			"name": "[242]咬碎",
+			"type": "level",
+			"level": 37
+		},
+		{
+			"id": 359,
+			"name": "[359]臂锤",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 37,
+			"name": "[37]大闹一番",
+			"type": "level",
+			"level": 47
+		},
+		{
+			"id": 380,
+			"name": "[380]胃液",
+			"type": "level",
+			"level": 53
+		},
+		{
+			"id": 484,
+			"name": "[484]重磅冲撞",
+			"type": "level",
+			"level": 59
+		},
+		{
+			"id": 378,
+			"name": "[378]绞紧",
+			"type": "level",
+			"level": 67
+		},
+		{
+			"id": 407,
+			"name": "[407]龙之俯冲",
+			"type": "level",
+			"level": 73
+		}
+	],
+	"types": [
+		"DARK",
+		"DRAGON"
+	],
+	"stats": {
+		"hp": 223,
+		"attack": 101,
+		"defense": 53,
+		"speed": 97,
+		"sp_attack": 53,
+		"sp_defense": 43
+	},
+	"yields": {
+		"ev_hp": 3,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

@@ -1,0 +1,355 @@
+{
+  "regionId": 0,
+  "bankId": 35,
+  "mapId": 4,
+  "width": 11,
+  "height": 9,
+  "paletteIdx1": 12,
+  "paletteIdx2": 48,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 336,
+  "unknownByte": 146,
+  "borderTiles": [
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "FourIsland_LoreleisHouse_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 4,
+      "y": 7,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 15,
+      "targetX": 33,
+      "targetY": 23,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 77,
+      "x": 7,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "FourIsland_LoreleisHouse_EventScript_Lorelei",
+      "hideFlag": "kanto/FLAG_HIDE_LORELEI_IN_HER_HOUSE",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 131,
+      "x": 0,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FourIsland_LoreleisHouse_EventScript_Doll",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 126,
+      "x": 10,
+      "y": 3,
+      "elevation": 0,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FourIsland_LoreleisHouse_EventScript_Doll",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 120,
+      "x": 9,
+      "y": 3,
+      "elevation": 0,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FourIsland_LoreleisHouse_EventScript_Doll",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 128,
+      "x": 7,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FourIsland_LoreleisHouse_EventScript_Doll",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 129,
+      "x": 6,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FourIsland_LoreleisHouse_EventScript_Doll",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 121,
+      "x": 6,
+      "y": 4,
+      "elevation": 0,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FourIsland_LoreleisHouse_EventScript_Doll",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 125,
+      "x": 9,
+      "y": 4,
+      "elevation": 0,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FourIsland_LoreleisHouse_EventScript_Doll",
+      "hideFlag": "kanto/FLAG_HIDE_LORELEI_HOUSE_MEOWTH_DOLL",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 117,
+      "x": 10,
+      "y": 4,
+      "elevation": 0,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FourIsland_LoreleisHouse_EventScript_Doll",
+      "hideFlag": "kanto/FLAG_HIDE_LORELEI_HOUSE_CHANSEY_DOLL",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 9,
+      "graphicsId": 115,
+      "x": 0,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FourIsland_LoreleisHouse_EventScript_Doll",
+      "hideFlag": "kanto/FLAG_HIDE_LORELEI_HOUSE_JIGGLYPUFF_DOLL",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 10,
+      "graphicsId": 122,
+      "x": 0,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FourIsland_LoreleisHouse_EventScript_Doll",
+      "hideFlag": "kanto/FLAG_HIDE_LORELEIS_HOUSE_NIDORAN_F_DOLL",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 11,
+      "graphicsId": 123,
+      "x": 1,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FourIsland_LoreleisHouse_EventScript_Doll",
+      "hideFlag": "kanto/FLAG_HIDE_LORELEIS_HOUSE_NIDORAN_M_DOLL",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 12,
+      "graphicsId": 114,
+      "x": 9,
+      "y": 0,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FourIsland_LoreleisHouse_EventScript_Doll",
+      "hideFlag": "kanto/FLAG_HIDE_LORELEIS_HOUSE_PIDGEOT_DOLL",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 13,
+      "graphicsId": 133,
+      "x": 10,
+      "y": 0,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FourIsland_LoreleisHouse_EventScript_Doll",
+      "hideFlag": "kanto/FLAG_HIDE_LORELEIS_HOUSE_FEAROW_DOLL",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 14,
+      "graphicsId": 107,
+      "x": 9,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FourIsland_LoreleisHouse_EventScript_Doll",
+      "hideFlag": "kanto/FLAG_HIDE_LORELEIS_HOUSE_LAPRAS_DOLL",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "CAUIBQgFDAUNBRgFYAUIBQs1+gb7BhAFEAUQBRQFFQUgBWgFEAUTBfwG/QboMuky6gLRMtIyhzKHMocy0DL+Mv8y8DLxBvJC3ALdMt0y3TLdMt4y7QbuBtgyhjKGAuQy3zLrBuwG4zLmMvUG9gbYMoYyhjLkMuUy8wb0BuUy5jLvMvcy2DKGMoYy4DLhMuEy4TLhMuIyhjKGMtgyhjKGMtUy1jLXMoYyhjKGMoYyhjIIBAgECAQaBBsEHAQIBAgECAQIBAgE",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAAAAAAAAA"
+}

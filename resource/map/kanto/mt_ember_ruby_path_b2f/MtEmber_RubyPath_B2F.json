@@ -1,0 +1,346 @@
+{
+  "regionId": 0,
+  "bankId": 1,
+  "mapId": 105,
+  "width": 16,
+  "height": 11,
+  "paletteIdx1": 0,
+  "paletteIdx2": 57,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 331,
+  "unknownByte": 175,
+  "borderTiles": [
+    {
+      "material": 657,
+      "collision": 0
+    },
+    {
+      "material": 657,
+      "collision": 0
+    },
+    {
+      "material": 657,
+      "collision": 0
+    },
+    {
+      "material": 657,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_MT_EMBER_RUBY_PATH_B2F",
+      "base_label": "sMtEmberRubyPathB2F_FireRed",
+      "land_mons": {
+        "encounter_rate": 7,
+        "mons": [
+          {
+            "min_level": 40,
+            "max_level": 40,
+            "species": "SPECIES_GEODUDE"
+          },
+          {
+            "min_level": 26,
+            "max_level": 26,
+            "species": "SPECIES_SLUGMA"
+          },
+          {
+            "min_level": 42,
+            "max_level": 42,
+            "species": "SPECIES_GEODUDE"
+          },
+          {
+            "min_level": 24,
+            "max_level": 24,
+            "species": "SPECIES_SLUGMA"
+          },
+          {
+            "min_level": 28,
+            "max_level": 28,
+            "species": "SPECIES_SLUGMA"
+          },
+          {
+            "min_level": 30,
+            "max_level": 30,
+            "species": "SPECIES_SLUGMA"
+          },
+          {
+            "min_level": 44,
+            "max_level": 44,
+            "species": "SPECIES_GEODUDE"
+          },
+          {
+            "min_level": 32,
+            "max_level": 32,
+            "species": "SPECIES_SLUGMA"
+          },
+          {
+            "min_level": 44,
+            "max_level": 44,
+            "species": "SPECIES_GEODUDE"
+          },
+          {
+            "min_level": 22,
+            "max_level": 22,
+            "species": "SPECIES_SLUGMA"
+          },
+          {
+            "min_level": 44,
+            "max_level": 44,
+            "species": "SPECIES_GEODUDE"
+          },
+          {
+            "min_level": 22,
+            "max_level": 22,
+            "species": "SPECIES_SLUGMA"
+          }
+        ]
+      },
+      "rock_smash_mons": {
+        "encounter_rate": 50,
+        "mons": [
+          {
+            "min_level": 25,
+            "max_level": 35,
+            "species": "SPECIES_GEODUDE"
+          },
+          {
+            "min_level": 30,
+            "max_level": 45,
+            "species": "SPECIES_GRAVELER"
+          },
+          {
+            "min_level": 35,
+            "max_level": 50,
+            "species": "SPECIES_GRAVELER"
+          },
+          {
+            "min_level": 30,
+            "max_level": 40,
+            "species": "SPECIES_GEODUDE"
+          },
+          {
+            "min_level": 30,
+            "max_level": 40,
+            "species": "SPECIES_GEODUDE"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 1,
+      "y": 7,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 104,
+      "targetX": 6,
+      "targetY": 1,
+      "targetElevation": 0
+    },
+    {
+      "x": 13,
+      "y": 9,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 106,
+      "targetX": 1,
+      "targetY": 4,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 97,
+      "x": 9,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 97,
+      "x": 12,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 97,
+      "x": 12,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 96,
+      "x": 4,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_RockSmash",
+      "hideFlag": "kanto/FLAG_TEMP_12",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 96,
+      "x": 1,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_RockSmash",
+      "hideFlag": "kanto/FLAG_TEMP_13",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 96,
+      "x": 4,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_RockSmash",
+      "hideFlag": "kanto/FLAG_TEMP_14",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 96,
+      "x": 5,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_RockSmash",
+      "hideFlag": "kanto/FLAG_TEMP_15",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "kQaRBpEGkQaRBpEGkQbPBpEGkQaRBpsGmQaZBpwGzwaRBpEGkQaRBpEGkQaRBpEGmwaZBpkGmgaBMiMzmAacBpEGkQaRBpEGkQaRBpsGmQaaBoMGgwaCBoEygTKBMpAGkQaRBpEGkQYrB5EGkgYhM4EygTKBMoEygTKfBoEykAaRBpEGkQabBpkGmQaaBoEygTKfBoEyggaBMqcGgTKQBpEGzwaRBpIGgTKBMoEygTKBMqcGgTKBMoEygTKBMpAGmwaPBpkGmgaBMoEygTKBMogGiQaJBokGigaCBoEykAaSBpcygTKBMoEyiAaJBokGiQaRBs8GkQaSBoEygTKQBpIGgTKBMoEygTKQBpEGzwaRBpEGkQaRBpIGgTKBMpAGiQaJBigHiQaJBokGkQaRBpEGkQaRBpEGkgavMoEykAaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaJBokGKAfXBg==",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAA="
+}

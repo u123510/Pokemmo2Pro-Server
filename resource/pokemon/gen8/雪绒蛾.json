@@ -1,0 +1,163 @@
+{
+	"id": 873,
+	"name": "[873]雪绒蛾",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 13,
+	"weight": 420,
+	"egg_groups": [
+		"虫组"
+	],
+	"abilities": [
+		{
+			"id": 19,
+			"name": "[019]特性19"
+		},
+		{
+			"id": 19,
+			"name": "[019]特性19"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 181,
+			"name": "[181]细雪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 196,
+			"name": "[196]冰冻之风",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 213,
+			"name": "[213]迷人",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 270,
+			"name": "[270]帮助",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 522,
+			"name": "[522]虫之抵抗",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 78,
+			"name": "[78]麻痹粉",
+			"type": "level",
+			"level": 4
+		},
+		{
+			"id": 611,
+			"name": "[611]死缠烂打",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 54,
+			"name": "[54]白雾",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 432,
+			"name": "[432]清除浓雾",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 297,
+			"name": "[297]羽毛舞",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 62,
+			"name": "[62]极光束",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 258,
+			"name": "[258]冰雹",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 405,
+			"name": "[405]虫鸣",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 694,
+			"name": "[694]极光幕",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 59,
+			"name": "[59]暴风雪",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 366,
+			"name": "[366]顺风",
+			"type": "level",
+			"level": 44
+		},
+		{
+			"id": 469,
+			"name": "[469]广域防守",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 483,
+			"name": "[483]蝶舞",
+			"type": "level",
+			"level": 52
+		}
+	],
+	"types": [
+		"ICE",
+		"BUG"
+	],
+	"stats": {
+		"hp": 70,
+		"attack": 65,
+		"defense": 60,
+		"speed": 125,
+		"sp_attack": 90,
+		"sp_defense": 65
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 2,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

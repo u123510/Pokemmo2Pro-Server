@@ -1,0 +1,134 @@
+{
+	"id": 941,
+	"name": "[941]大电海燕",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 14,
+	"weight": 386,
+	"egg_groups": [
+		"水1组",
+		"飞行组"
+	],
+	"abilities": [
+		{
+			"id": 10,
+			"name": "[010]特性10"
+		},
+		{
+			"id": 10,
+			"name": "[010]特性10"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 64,
+			"name": "[64]啄",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 84,
+			"name": "[84]电击",
+			"type": "level",
+			"level": 4
+		},
+		{
+			"id": 98,
+			"name": "[98]电光一闪",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 365,
+			"name": "[365]啄食",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 209,
+			"name": "[209]电光",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 253,
+			"name": "[253]吵闹",
+			"type": "level",
+			"level": 19
+		},
+		{
+			"id": 355,
+			"name": "[355]羽栖",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 814,
+			"name": "[814]双翼",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 97,
+			"name": "[97]高速移动",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 521,
+			"name": "[521]伏特替换",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 435,
+			"name": "[435]放电",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 542,
+			"name": "[542]暴风",
+			"type": "level",
+			"level": 55
+		}
+	],
+	"types": [
+		"ELECTRIC",
+		"FLYING"
+	],
+	"stats": {
+		"hp": 70,
+		"attack": 70,
+		"defense": 60,
+		"speed": 105,
+		"sp_attack": 60,
+		"sp_defense": 125
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 2
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

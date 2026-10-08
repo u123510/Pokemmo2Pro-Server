@@ -1,0 +1,216 @@
+{
+  "regionId": 0,
+  "bankId": 33,
+  "mapId": 0,
+  "width": 12,
+  "height": 10,
+  "paletteIdx1": 12,
+  "paletteIdx2": 25,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 273,
+  "unknownByte": 144,
+  "borderTiles": [
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "TwoIsland_JoyfulGameCorner_OnTransition",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_MAP_SCENE_TWO_ISLAND_JOYFUL_GAME_CORNER",
+      "value": 0,
+      "script": "TwoIsland_JoyfulGameCorner_EventScript_HelpFindLostelleScene"
+    },
+    {
+      "varKey": "VAR_MAP_SCENE_TWO_ISLAND_JOYFUL_GAME_CORNER",
+      "value": 2,
+      "script": "TwoIsland_JoyfulGameCorner_EventScript_FoundLostelleScene"
+    }
+  ],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 1,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "TwoIsland_JoyfulGameCorner_EventScript_ShowPokemonJumpRecords"
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "TwoIsland_JoyfulGameCorner_EventScript_ShowDodrioBerryPickingRecords"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 5,
+      "y": 8,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 13,
+      "targetX": 39,
+      "targetY": 9,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 30,
+      "x": 5,
+      "y": 5,
+      "elevation": 0,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "TwoIsland_JoyfulGameCorner_EventScript_LostellesDaddy",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 53,
+      "x": 5,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "0x0",
+      "hideFlag": "kanto/FLAG_HIDE_TWO_ISLAND_GAME_CORNER_BIKER",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 17,
+      "x": 6,
+      "y": 5,
+      "elevation": 0,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "TwoIsland_JoyfulGameCorner_EventScript_Lostelle",
+      "hideFlag": "kanto/FLAG_HIDE_TWO_ISLAND_GAME_CORNER_LOSTELLE",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 25,
+      "x": 4,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "TwoIsland_JoyfulGameCorner_EventScript_InfoMan",
+      "hideFlag": "",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "/Qb9BusGCQf+Bv8GCAcJB/sG5gb8BuYGBQcFB/MGEQcGBwczEAcRBwMH5wZiBOgG7wLvAuwG7TLuMu8C+DLtMvoG7wIEM/AG7wLgMvQG9Qb2BvkGAAcBBwIH4zISM+Qy7wLgMhIz4jLiMuQyEjPiMuIy5DLgMuAy7wLgMuAy4DLgMuAy4DLgMg0HDgfgMg8z7wLgMuAy4DLgMuAy4DLgMhUHFgfgMhcz6TLgMuAy4DLgMuAy4DLgMuAy4DLgMuoy8QbgMuAy4DIKMwszDDPgMuAy4DLgMvIGCAQIBAgECAQaBBsEHAQIBAgECAQIBAgE",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAAAAAAAAAAAAAAAA"
+}

@@ -1,0 +1,399 @@
+{
+  "regionId": 1,
+  "bankId": 51,
+  "mapId": 1,
+  "width": 9,
+  "height": 8,
+  "paletteIdx1": 116,
+  "paletteIdx2": 142,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 405,
+  "unknownByte": 0,
+  "borderTiles": [
+    {
+      "material": 543,
+      "collision": 0
+    },
+    {
+      "material": 543,
+      "collision": 0
+    },
+    {
+      "material": 543,
+      "collision": 0
+    },
+    {
+      "material": 543,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "LittlerootTown_BrendansHouse_2F_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 0,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "LittlerootTown_BrendansHouse_2F_EventScript_PC"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "PlayersHouse_2F_EventScript_Notebook"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LittlerootTown_BrendansHouse_2F_EventScript_WallClock"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "PlayersHouse_2F_EventScript_GameCube"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 7,
+      "y": 1,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 51,
+      "targetMapId": 0,
+      "targetX": 8,
+      "targetY": 2,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 100,
+      "x": 7,
+      "y": 1,
+      "elevation": 0,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "RivalsHouse_2F_EventScript_Rival",
+      "hideFlag": "hoenn/FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_RIVAL_BEDROOM",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 0,
+      "x": 0,
+      "y": 0,
+      "elevation": 0,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_DECORATION_1",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 0,
+      "x": 0,
+      "y": 1,
+      "elevation": 0,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_DECORATION_2",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 0,
+      "x": 0,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_DECORATION_3",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 0,
+      "x": 0,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_DECORATION_4",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 0,
+      "x": 0,
+      "y": 4,
+      "elevation": 0,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_DECORATION_5",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 0,
+      "x": 0,
+      "y": 5,
+      "elevation": 3,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_DECORATION_6",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 0,
+      "x": 1,
+      "y": 0,
+      "elevation": 0,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_DECORATION_7",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 0,
+      "x": 1,
+      "y": 1,
+      "elevation": 0,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_DECORATION_8",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 9,
+      "graphicsId": 0,
+      "x": 1,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_DECORATION_9",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 10,
+      "graphicsId": 0,
+      "x": 1,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_DECORATION_10",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 11,
+      "graphicsId": 0,
+      "x": 1,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_DECORATION_11",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 12,
+      "graphicsId": 0,
+      "x": 1,
+      "y": 5,
+      "elevation": 0,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_DECORATION_12",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 13,
+      "graphicsId": 215,
+      "x": 7,
+      "y": 1,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_BEDROOM_MOM",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 14,
+      "graphicsId": 59,
+      "x": 3,
+      "y": 4,
+      "elevation": 0,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LittlerootTown_BrendansHouse_2F_EventScript_RivalsPokeBall",
+      "hideFlag": "hoenn/FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_POKE_BALL",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 15,
+      "graphicsId": 163,
+      "x": 5,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_2F_SWABLU_DOLL",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "UgZUBlAGVAZWBocGCwYMBg0GWgZbBlUGZQYCBI8GEwYUAhUGYjJjMngyZjJdMngyBjIFMgcyezJ8Mn0yATKYMpkymTKaMgEygwKEMoUCATKgMqEyoTKiMgEyi0KMBo1CAQKgMqEyoTKiMgEyBAIBMgECATKoMqkyqTKqMgEyBDIBMgEyATIBMgEyATIBMgEy",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

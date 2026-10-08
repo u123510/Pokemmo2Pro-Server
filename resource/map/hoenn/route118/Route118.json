@@ -1,0 +1,725 @@
+{
+  "regionId": 1,
+  "bankId": 50,
+  "mapId": 33,
+  "width": 80,
+  "height": 20,
+  "paletteIdx1": 100,
+  "paletteIdx2": 105,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 32767,
+  "unknownByte": 33,
+  "borderTiles": [
+    {
+      "material": 368,
+      "collision": 0
+    },
+    {
+      "material": 368,
+      "collision": 0
+    },
+    {
+      "material": 368,
+      "collision": 0
+    },
+    {
+      "material": 368,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "REGULAR_WEATHER",
+  "mapType": "ROUTE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_ROUTE118",
+      "base_label": "gRoute118",
+      "land_mons": {
+        "encounter_rate": 20,
+        "mons": [
+          {
+            "min_level": 24,
+            "max_level": 24,
+            "species": "SPECIES_ZIGZAGOON"
+          },
+          {
+            "min_level": 24,
+            "max_level": 24,
+            "species": "SPECIES_ELECTRIKE"
+          },
+          {
+            "min_level": 26,
+            "max_level": 26,
+            "species": "SPECIES_ZIGZAGOON"
+          },
+          {
+            "min_level": 26,
+            "max_level": 26,
+            "species": "SPECIES_ELECTRIKE"
+          },
+          {
+            "min_level": 26,
+            "max_level": 26,
+            "species": "SPECIES_LINOONE"
+          },
+          {
+            "min_level": 26,
+            "max_level": 26,
+            "species": "SPECIES_MANECTRIC"
+          },
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_WINGULL"
+          },
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_WINGULL"
+          },
+          {
+            "min_level": 26,
+            "max_level": 26,
+            "species": "SPECIES_WINGULL"
+          },
+          {
+            "min_level": 26,
+            "max_level": 26,
+            "species": "SPECIES_WINGULL"
+          },
+          {
+            "min_level": 27,
+            "max_level": 27,
+            "species": "SPECIES_WINGULL"
+          },
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_KECLEON"
+          }
+        ]
+      },
+      "water_mons": {
+        "encounter_rate": 4,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 35,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 10,
+            "max_level": 30,
+            "species": "SPECIES_WINGULL"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_WINGULL"
+          },
+          {
+            "min_level": 25,
+            "max_level": 30,
+            "species": "SPECIES_PELIPPER"
+          },
+          {
+            "min_level": 25,
+            "max_level": 30,
+            "species": "SPECIES_PELIPPER"
+          }
+        ]
+      },
+      "fishing_mons": {
+        "encounter_rate": 30,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 10,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 10,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 10,
+            "max_level": 30,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 10,
+            "max_level": 30,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 10,
+            "max_level": 30,
+            "species": "SPECIES_CARVANHA"
+          },
+          {
+            "min_level": 30,
+            "max_level": 35,
+            "species": "SPECIES_SHARPEDO"
+          },
+          {
+            "min_level": 30,
+            "max_level": 35,
+            "species": "SPECIES_CARVANHA"
+          },
+          {
+            "min_level": 20,
+            "max_level": 25,
+            "species": "SPECIES_CARVANHA"
+          },
+          {
+            "min_level": 35,
+            "max_level": 40,
+            "species": "SPECIES_CARVANHA"
+          },
+          {
+            "min_level": 40,
+            "max_level": 45,
+            "species": "SPECIES_CARVANHA"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "Route118_OnTransition",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_SHOULD_END_ABNORMAL_WEATHER",
+      "value": 1,
+      "script": "AbnormalWeather_EventScript_EndEventAndCleanup_1"
+    }
+  ],
+  "coordScripts": [
+    {
+      "x": 43,
+      "y": 11,
+      "elevation": 3,
+      "varKey": "VAR_ROUTE118_STATE",
+      "value": 0,
+      "script": "Route118_EventScript_StevenTrigger0"
+    },
+    {
+      "x": 44,
+      "y": 11,
+      "elevation": 3,
+      "varKey": "VAR_ROUTE118_STATE",
+      "value": 0,
+      "script": "Route118_EventScript_StevenTrigger1"
+    },
+    {
+      "x": 45,
+      "y": 11,
+      "elevation": 3,
+      "varKey": "VAR_ROUTE118_STATE",
+      "value": 0,
+      "script": "Route118_EventScript_StevenTrigger2"
+    }
+  ],
+  "bgEvents": [
+    {
+      "x": 47,
+      "y": 14,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "0x0"
+    },
+    {
+      "x": 13,
+      "y": 6,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "Route118_EventScript_RouteSignMauville"
+    },
+    {
+      "x": 56,
+      "y": 8,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "Route118_EventScript_RouteSign119"
+    },
+    {
+      "x": 67,
+      "y": 6,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "0x0"
+    },
+    {
+      "x": 29,
+      "y": 5,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "0x0"
+    },
+    {
+      "x": 47,
+      "y": 5,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "0x0"
+    },
+    {
+      "x": 46,
+      "y": 5,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "0x0"
+    },
+    {
+      "x": 31,
+      "y": 13,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "0x0"
+    },
+    {
+      "x": 12,
+      "y": 14,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "0x0"
+    }
+  ],
+  "connections": [
+    {
+      "direction": "UP",
+      "unknown": 40,
+      "targetBank": 50,
+      "targetMap": 34
+    },
+    {
+      "direction": "LEFT",
+      "unknown": 0,
+      "targetBank": 50,
+      "targetMap": 2
+    },
+    {
+      "direction": "RIGHT",
+      "unknown": 0,
+      "targetBank": 50,
+      "targetMap": 38
+    }
+  ],
+  "warps": [
+    {
+      "x": 42,
+      "y": 6,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 104,
+      "targetX": 8,
+      "targetY": 18,
+      "targetElevation": 0
+    },
+    {
+      "x": 9,
+      "y": 6,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 104,
+      "targetX": 8,
+      "targetY": 18,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 60,
+      "x": 35,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "BERRY_TREE_GROWTH",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "BerryTreeScript",
+      "hideFlag": "",
+      "rawMovementType": 12
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 60,
+      "x": 36,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "BERRY_TREE_GROWTH",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "BerryTreeScript",
+      "hideFlag": "",
+      "rawMovementType": 12
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 60,
+      "x": 37,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "BERRY_TREE_GROWTH",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "BerryTreeScript",
+      "hideFlag": "",
+      "rawMovementType": 12
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 66,
+      "x": 64,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "Route118_EventScript_Perry",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 68,
+      "x": 33,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "GabbyAndTy_EventScript_GabbyBattle2",
+      "hideFlag": "hoenn/FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 110,
+      "x": 34,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "GabbyAndTy_EventScript_TyBattle2",
+      "hideFlag": "hoenn/FLAG_HIDE_ROUTE_118_GABBY_AND_TY_1",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 10,
+      "x": 12,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "Route118_EventScript_Girl",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 68,
+      "x": 33,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "GabbyAndTy_EventScript_GabbyBattle5",
+      "hideFlag": "hoenn/FLAG_HIDE_ROUTE_118_GABBY_AND_TY_2",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 110,
+      "x": 34,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "GabbyAndTy_EventScript_TyBattle5",
+      "hideFlag": "hoenn/FLAG_HIDE_ROUTE_118_GABBY_AND_TY_2",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 9,
+      "graphicsId": 68,
+      "x": 33,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "GabbyAndTy_EventScript_GabbyBattle6",
+      "hideFlag": "hoenn/FLAG_HIDE_ROUTE_118_GABBY_AND_TY_3",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 10,
+      "graphicsId": 110,
+      "x": 34,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "GabbyAndTy_EventScript_TyBattle6",
+      "hideFlag": "hoenn/FLAG_HIDE_ROUTE_118_GABBY_AND_TY_3",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 11,
+      "graphicsId": 82,
+      "x": 38,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_CutTree",
+      "hideFlag": "hoenn/FLAG_TEMP_11",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 12,
+      "graphicsId": 50,
+      "x": 28,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "Route118_EventScript_GoodRodFisherman",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 13,
+      "graphicsId": 20,
+      "x": 7,
+      "y": 12,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "UP",
+      "script": "Route118_EventScript_Rose",
+      "hideFlag": "",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 14,
+      "graphicsId": 50,
+      "x": 14,
+      "y": 14,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "Route118_EventScript_Wade",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 15,
+      "graphicsId": 66,
+      "x": 56,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_UP_AND_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "UP",
+      "script": "Route118_EventScript_Chester",
+      "hideFlag": "",
+      "rawMovementType": 16
+    },
+    {
+      "entityIdx": 16,
+      "graphicsId": 50,
+      "x": 39,
+      "y": 15,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "Route118_EventScript_Barny",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 17,
+      "graphicsId": 66,
+      "x": 17,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "FACE_UP_AND_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "UP",
+      "script": "Route118_EventScript_Dalton",
+      "hideFlag": "",
+      "rawMovementType": 15
+    },
+    {
+      "entityIdx": 18,
+      "graphicsId": 134,
+      "x": 44,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_ROUTE_118_STEVEN",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 19,
+      "graphicsId": 59,
+      "x": 69,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "Route118_EventScript_ItemHyperPotion",
+      "hideFlag": "hoenn/FLAG_ITEM_ROUTE_118_HYPER_POTION",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 20,
+      "graphicsId": 35,
+      "x": 7,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "Route118_EventScript_Deandre",
+      "hideFlag": "",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "xwTHBMcExwTHBIYEcARzBHMEcQBxAHUEdQRyBMYExgTGBMYExgTGBIYEJDElEXARcBFwESMRJDEkMYUExwTHBMcExwTHBMcExwTHBMYEcARzBHMEcQRxBHEEcQRxBHEEdAR8BHwEfQRxBHEEdQRyBMYEIDEhMSIxxgRwBHMEcwRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHUEdQRyBMcExwTHBMcExwSGBHAEcwRzBHEAcQB1BHUEcgTGBMYExgTGBMYEFwSGBCQxJRFwEXARcBEjESQxJDGFBBcEFwTHBMcExwTHBMcExwTHBHAEcwRzBHEEdAR8BHwEfAR8BH0EcQRxBHEEcQRxBHUEcgTGBCAxITEiMcYEcARzBHMEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQR1BHUEcgTHBMcExwTHBMcEhgRwBHMEcwRxAHEAdQR1BHIExgTGBMYExgTGBG4EAQYkMSURcBFwEXARIxEkMSQxuwaHBG8ExwTHBMcExgTHBMcExgRwBHMEcwRxBHUEdASpBKkEqQR8BHwEfAR8BHwEfAR9BHIExgQgMSExIjHGBHAEcwR7BHwEfAR8BHwEiQRxBHEEcQRxBHEEcQR0BHwEfQR1BHIExwTHBMcExwTHBIYEcARzBHMEcQB0BH0EdQRyBMYExgQXBBcEFwSGBEYRLBEtEXARUAVRBSsRRRGABIEAggSFBMYExgTHBMcExwTHBMcEcARzBHMEcQR1BHUEdASRBJEEzgTOBM4EzgTOBM4EzgR6BBYEIDEhMSIxxgRwBHsEfAR8BHwEfASJBHMEcQRxBHEEcQR0BHwEfQR0BKkEfQRyBMYExgTGBBcEFwQHNXAEcwR7BHwEfQR0BH0EcgTGBBcEbgSHBIcEAQYlEXARUAVRBVgFWQVQBVUFiARxAIoEhQQXBMYEFwQXBBcEFwQXBHAEcwR7BHwEfQR1BHIEHjAfMMcExwTHBBYEFgQWBBYEDTABMCAxITEiMRYEeAR5BJEEkQSRBIkEcwR7BHwEfAR8BHwEfQRxBHEEdQR0BJEEegTGBBcEFwQBMAEwATBwBHsEfAR8BHwEfQR0BHoEFwRuBAEGgASBAIIEVAVRBVgFWQVwEXARWAVdBZAEoAWSBLsGbwTGBEYyTDVMNUw1RzJwBHsEfAR8BHwEfQRyBCYEJwQXBBcEFwQNMA0wDTANMA0wATAoMSkxKjEBMA0wDTANMA0wATBwBHsEqQSpBKkEiQRxBHEEdAR8BH0EcgQPBA8EFwQBMAEwATABMAEweASRBJEEkQSRBJEEegQDBNU0AQbiNIgEcQCKBFwFWQVwEXARcBFwEXARIxEkMSQxJDHiBIUEFwSxBxQxFDEUMRUxeASRBJEEkQSRBJEEegQBMAEwATABMAEwDTANMA0wDTANMAEwATABMAEwDTANMA0wDTANMA0weASgBakEqQSJBHsEfAR8BH0EdASRBHoExwTHBAEwATABMAEwATABMAEwATABMAEwATABMAEwATAYMWoyJDGQBHkEkgQlEXARcBFwEXARcBFwESMR4gQkMSQxJDG7BocEhwRvBA4wATABMAEwATABMAEwATABMAEwATABMAEwATABMAEwDTANMA0wDTABMAEwATABMA0wDTANMA0wDTANMAEwATABMAEweASRBJEEkQSRBHoEATAOMMcExwQBMAEwATABMAEwATABMAEwATABMAEwATABMBgxJDEkMSQx4jRGESwRLRFwEXARcBFwEXARcBEjESQxJDEkMSQxJDEkMSQxhQTGBA4wATDVNIc0hzSHNIc0hzSHNIc0hzSHNIc0hzSHNIc0hzSHNNY0AwQBMAEwATDVNIc0hzSHNIc0hzSHNIc0hzSHNIc0hzSHNIc0hzSHNNY0FwTHBMcEATABMAEwATAEMP8EBDABMAQwATABMAEwGDEkMSQxJDEkMSQxJRFwEXARcBFwEXARcBFwEXARIxEkMSQxJDEkMSQxJDEkMYUEFwTGBAEwATABMAEwATABMAEwATABMAEwDTANMA0wDTANMA0wATABMAEwATABMAEwATABMAEwDTANMA0wDTANMA0wDTANMA0wDTANMAEwATABMAEwFwQXBAEwATABMAQwATCGBAEwBDABMAEwATABMCAxJDEkMSQxJDEkMSURcBFwEXARcBFwEXARcBFwESsRLBEsEUURJDEkMSQxJDG7Bm8EFwQBMAEwATABMAEwATABMAEwATABMA0wDTANMA0wDTANMA0wDTABMAEwATABMAEwATABMAEwATANMA0wDTANMA0wDTANMA0wATABMAEwATABMAEwATABMA4wDjAOMA4whgQEMAEwBDD/BAEwGDEkMSQxJDEkMSQxJDElEXARcBFwEXARcBFwEXARcBFwEXARcBEjESQxJDEkMSQxJDG7Bm8E4DQBMAEwATABMAEwATABMAEwATABMA0wDTANMA0wDTANMA0wDTABMAEwATABMAEwATABMAEwDTANMA0wDTANMA0wDTANMAEwATABMAEwATABMAEwDjDHBMcExwTHBIY0ATAOMA4whjQBMCAxJDEkMSQxJDFGESwRLRFwEXARcBFwEXARcBFwEXARcBFwEXARIxEkMSQxJDEkMSQxJDG7Boc0hzSHNIc01jQBMAEwATBoBGkEagQBMCUwJTANMA0wDTANMA0wATABMAEwDjAOMA4wDjABMAEwDTANMA0wDTANMA0wATABMAEwATAOMA8wDjAPMMcExwTHBMcEFgSGBA4wxwQWBIY0GDEkMSQxJDEkMSQxJRFwEXARcBFwEXARcBFwEXARcBFwEXARcBFwESMR4jQkMSQxJDEkMSQxJDEkMSQxJDFqMmoyajJqMmoyiARxBHIE/gTHBMcEJTAlMA0wDTANMA4wDjAOMMcExwTHBMcEDjABMAEwDTANMA0wDTANMA4wDjAOMA4wxwTHBMcExwSDMoQyhAKFAocEjgQWBBYEbgQBBiQxJDHiNCQxJDEkMSURcBFwEXARcBFwEXARcBFwEXARcBFwEXARcBErESwRLBFFESQxJDEkMSQxJDEkMSQxJDEkMSQxJDHiNJAEoAWSBIUExwTGBMYExgQlMCUwJTDHBMcExwTHBMcExwTHBMcEDjAOMA4wJTAlMCUwJTDHBMcExwTHBMcExwTHBMcEiwaMBowGjQaHBIcEhwSHBAEGJDHiNCQxJDFGESwRLBEtEXARcBFwEXARcBFwEXARcBFwEXARcBFwEXARcBFwEXARKxEsESwRLBEsEUURJDEkMSQxJDEkMSQxJDEkMSQx4jSFBMcExwTHBMcExwTHBMcExwTHBMcExwTHBMcExwTHBMcExwTHBMcExwTHBMcExwTHBMcExwTHBMcExwTHBJMGlAZvBpUGkAUrESwRLBEsEVIFUwUsESwRLRFwEXARcBFwEXARcBFwEVAFUQVwEXARcBFQBVEFcBFwEXARcBFwEXARcBFwEXARcBErESwRLBEsESwRLBEsESwRUgVTBUURhQQWBBYEFgQWBBYEFgQWBMcExwTHBMcExwTHBMcExwTHBMcExwTHBMcExwTHBMcExwTHBMcExwTHBMcExwSbBpwGdwadBpAFcBFwEXARcBFYBVkFUAVRBXARcBFwEXARcBFwEVAFUQVYBVkFcBFQBVEFWAVZBVAFUQVwEXARUAVRBXARcBFQBVEFcBFwEXARcBFQBVEFUAVRBVgFWQUjEbsGhzSHNIc0hzSHNIc0bwQWBMcExwTHBMcExwTHBMcExwTHBMcExwTHBMcExwTHBMcExwTHBMcExwTHBMcEiQWJBYkFiQWYBXARcBFwEXARcBFwEVgFWQVQBVEFUAVRBVAFUQVYBVkFcBFQBVEFWAVZBXARcBFYBVkFUAVRBVgFWQVQBVEFWAVZBVAFUQVQBVEFWAVZBVgFWQVwEXARKxEsESwRLBEsESwRLBFFEbsGbwTHBMcExwTHBMcExwTHBMcExwTHBMcExwTHBMcExwTHBMcExwTHBMcExwTHBHARcBFwEXARcBFwEXARcBFwEXARcBFwEXARWAVZBVgFWQVYBVkFcBFwEXARWAVZBXARcBFwEXARcBFwEVgFWQVwEXARWAVZBXARcBFYBVkFWAVZBXARcBFwEXARcBFwEXARcBFwEXARcBFwEXARKxFFEYUExwTHBMcExwTHBMcExwTHBMcExwTHBMcExwTHBMcExwTHBMcExwTHBMcExwQ=",
+  "behaviorData": "AAAAAAADAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAYGAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAAAAAAABAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEAAAAAAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGBgAAAAAAAAAAAAAAAAAAAAAAAQEBAQAAAAABAQEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAYGBgYGBgYGBgYGBgYGBgYGAAAAAAYGBgYGBgYGBgYGBgYGBgYGAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAQEBAQEBAAAAAAAAAAAAAQEBAQEBAQEBAQEAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQEBAQAAAAAAAAAAAAEBAQEBAQEBAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQEBAQAAAAAAAAAAAQEBAQEBAQEAAAAAAAAAAAAAAAADAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGBgYGBgAAAAAAAAABAQEBAQEBAAAAAAAAAAAAAQEBAQEBAAAAAAAAAAAAAAAAAAMAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAQEBAQEAAAAAAAAAAAAAAQEBAQEAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAEBAQAAAAAAAAAAAAAAAQEBAQAAAAAAAAAAAAAAAAYGBgYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgYGBgYGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+}

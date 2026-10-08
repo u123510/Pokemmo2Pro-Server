@@ -1,0 +1,534 @@
+{
+  "regionId": 0,
+  "bankId": 3,
+  "mapId": 5,
+  "width": 48,
+  "height": 40,
+  "paletteIdx1": 0,
+  "paletteIdx2": 6,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 313,
+  "unknownByte": 93,
+  "borderTiles": [
+    {
+      "material": 473,
+      "collision": 0
+    },
+    {
+      "material": 473,
+      "collision": 0
+    },
+    {
+      "material": 473,
+      "collision": 0
+    },
+    {
+      "material": 473,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "REGULAR_WEATHER",
+  "mapType": "VILLAGE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_VERMILION_CITY",
+      "base_label": "sVermilionCity_FireRed",
+      "water_mons": {
+        "encounter_rate": 1,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 10,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 10,
+            "max_level": 20,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 20,
+            "max_level": 30,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 30,
+            "max_level": 35,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 35,
+            "max_level": 40,
+            "species": "SPECIES_TENTACOOL"
+          }
+        ]
+      },
+      "fishing_mons": {
+        "encounter_rate": 10,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 5,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 5,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_HORSEA"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_KRABBY"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_HORSEA"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_SHELLDER"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_GYARADOS"
+          },
+          {
+            "min_level": 25,
+            "max_level": 35,
+            "species": "SPECIES_HORSEA"
+          },
+          {
+            "min_level": 25,
+            "max_level": 35,
+            "species": "SPECIES_PSYDUCK"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "VermilionCity_OnTransition",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_MAP_SCENE_VERMILION_CITY",
+      "value": 2,
+      "script": "VermilionCity_EventScript_ExitSSAnne"
+    }
+  ],
+  "coordScripts": [
+    {
+      "x": 22,
+      "y": 33,
+      "elevation": 0,
+      "varKey": "VAR_VERMILION_CITY_TICKET_CHECK_TRIGGER",
+      "value": 0,
+      "script": "VermilionCity_EventScript_CheckTicketLeft"
+    },
+    {
+      "x": 23,
+      "y": 33,
+      "elevation": 0,
+      "varKey": "VAR_VERMILION_CITY_TICKET_CHECK_TRIGGER",
+      "value": 0,
+      "script": "VermilionCity_EventScript_CheckTicketRight"
+    },
+    {
+      "x": 22,
+      "y": 32,
+      "elevation": 0,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "VermilionCity_EventScript_ExitedTicketCheck"
+    },
+    {
+      "x": 23,
+      "y": 32,
+      "elevation": 0,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "VermilionCity_EventScript_ExitedTicketCheck"
+    }
+  ],
+  "bgEvents": [
+    {
+      "x": 33,
+      "y": 6,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "VermilionCity_EventScript_CitySign"
+    },
+    {
+      "x": 10,
+      "y": 17,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "VermilionCity_EventScript_PokemonFanClubSign"
+    },
+    {
+      "x": 10,
+      "y": 24,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "VermilionCity_EventScript_GymSign"
+    },
+    {
+      "x": 34,
+      "y": 18,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "VermilionCity_EventScript_HarborSign"
+    },
+    {
+      "x": 45,
+      "y": 17,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "VermilionCity_EventScript_SnorlaxNotice"
+    },
+    {
+      "x": 14,
+      "y": 11,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "0x0"
+    }
+  ],
+  "connections": [
+    {
+      "direction": "UP",
+      "unknown": 12,
+      "targetBank": 3,
+      "targetMap": 24
+    },
+    {
+      "direction": "RIGHT",
+      "unknown": 10,
+      "targetBank": 3,
+      "targetMap": 29
+    }
+  ],
+  "warps": [
+    {
+      "x": 22,
+      "y": 34,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 4,
+      "targetX": 32,
+      "targetY": 5,
+      "targetElevation": 2
+    },
+    {
+      "x": 23,
+      "y": 34,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 4,
+      "targetX": 32,
+      "targetY": 5,
+      "targetElevation": 2
+    },
+    {
+      "x": 24,
+      "y": 34,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 4,
+      "targetX": 32,
+      "targetY": 5,
+      "targetElevation": 2
+    },
+    {
+      "x": 9,
+      "y": 6,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 9,
+      "targetMapId": 0,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 15,
+      "y": 6,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 9,
+      "targetMapId": 1,
+      "targetX": 7,
+      "targetY": 8,
+      "targetElevation": 2
+    },
+    {
+      "x": 12,
+      "y": 17,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 9,
+      "targetMapId": 3,
+      "targetX": 5,
+      "targetY": 10,
+      "targetElevation": 2
+    },
+    {
+      "x": 19,
+      "y": 17,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 9,
+      "targetMapId": 4,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 29,
+      "y": 17,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 9,
+      "targetMapId": 5,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 28,
+      "y": 24,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 9,
+      "targetMapId": 7,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 14,
+      "y": 25,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 9,
+      "targetMapId": 6,
+      "targetX": 5,
+      "targetY": 19,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 23,
+      "x": 22,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "WANDER_LEFT_AND_RIGHT",
+      "movementRangeX": 4,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "VermilionCity_EventScript_Woman",
+      "hideFlag": "",
+      "rawMovementType": 5
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 32,
+      "x": 17,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "VermilionCity_EventScript_OldMan1",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 33,
+      "x": 36,
+      "y": 10,
+      "elevation": 0,
+      "movementType": "FACE_DOWN_AND_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "VermilionCity_EventScript_OldMan2",
+      "hideFlag": "",
+      "rawMovementType": 17
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 130,
+      "x": 35,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 2,
+      "movementRangeY": 2,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "VermilionCity_EventScript_Machop",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 62,
+      "x": 31,
+      "y": 30,
+      "elevation": 2,
+      "movementType": "WANDER_LEFT_AND_RIGHT",
+      "movementRangeX": 4,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "VermilionCity_EventScript_Sailor",
+      "hideFlag": "",
+      "rawMovementType": 5
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 62,
+      "x": 24,
+      "y": 33,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "VermilionCity_EventScript_FerrySailor",
+      "hideFlag": "",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 95,
+      "x": 19,
+      "y": 24,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_CutTree",
+      "hideFlag": "kanto/FLAG_TEMP_12",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 55,
+      "x": 25,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 4,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "VermilionCity_EventScript_OaksAide",
+      "hideFlag": "kanto/FLAG_HIDE_VERMILION_CITY_OAKS_AIDE",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "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CDABMAgwATAIMAEwCDABMAgwATAIMAEw2QHZARAFEQUrESsRKxEsERUx6zHmMecxEDABMBAwEDABMBAwATAQMAEwEDABMBAwATAQMAEwEDABMAgwATAIMAEwCDAQMAEwEDABMBAwATAQMAEwEDABMBAwATAQMAEw2QHZARgFGQUrESsRKxEsERUx3zEQMAgwATAIMAEwCDABMAgwATAIMAEwCDABMAgwATAIMAEwCDABMBAwATABMAgwCDAIMLgxuTG6MQgwATAIMAEwCDABMAgwATAIMAEw2QHZARAFEQUrESsRKxEsERUx3zEIMDkxOjE6MToxOjE6MTsxATAQMNUx1jHWMdYx1zEQMAEwuzK8MrwyvTIiESMRJBEIMMwyzTLOMhAwIhEjESMRIxEjESMRIxEjESMR2QHZARgFGQUrESsRKxEsERUx3zEQMEEFQgVCBUIFQgVCBUMFATDVMegxFTEVMRUx6THXMQEwqAapBqkGqgYqESsRLBEQMNQy1TLWMhAwKhErESsRKxErESsRKxErESsR2QHZASsRywXMBSsRKxEsERUx3zFgMUkFSgVKBUoFSgVKBUsFATDdMSARIxEjESERFTHfMQEwsAanBqMGpAYqESsRLBEmM9wy3TLeMiczKhErESsRKxErESsRKxErESsR2QHZASsR0wXUBSsRKxEsEYgGiQZoBVAFUQVSBVMFVAVVBVYF5wTdMSoRKxErESwRFTHpMdYxuAaeBvsG/AYqESsRLBEQMMAxwTHCMQEwKhEoEZEGkgaSBpIGkgaSBpMG2QHiASsRywXMBSsRKxEsERUx3zEIMFgxWTFaBVsFXAVdMV4xCDDdMSoRKxErESwRFTEVMRUx6zHnMf0y/jIqESsRMBEjEcUxxjHHMSMRMREsEXAEcQRxBHEEcQRxBHIE2QErESsR0wXUBSsRKxEsERUx6THWMdYx1jHXMQgwCTAIMAkwCDDdMSoRKxErETARIxEjESMRIxEjESMRIxExESsRKxErEcUxxjHHMSsRKxEsEXAEcQRxBHEEcQRxBHIE2QErERAFEQUrESsRKxEsERUxFTEVMRUxFTHpMdYx1jHWMdYx1jHoMSoRKxErESsRKxErESsRKxErESsRKxErESsRKxErEcUxxjHHMSsRKxEsEXAEcQRxBHEEcQRxBHIE2QErERgFGQUrESsRKxEsERUxFTEVMRUxFTEVMRUxFTEVMRUxFTEVMSoRKxG9Mb4xvjG+Mb4xvjG+Mb4xvjG+Mb4xvjG+McYxxjHHMSsRKxEsEXgEfAR8BHwEfAR8BHoE2QErERAFEQUrESsRKxEwESMRIxEjESMRIxEjESMRIxEjESMRIxEjETERKxHFMcYxxjHGMcYxxjHGMcYxxjHGMcYxxjHGMcYxxjHHMSsRKxEwEQgFCQUjESMRIxEjESMR2QErERgFGQUrESsRKxErESsRKxErESsRKxErESsRKxErESsRKxErESsRKxHFMcYxxjHGMcYxxjHGMcYxxjHGMcYxxjHGMcYxxjHHMSsRKxErERgFGQUrESsR0AHZAdkB2QErESsREAURBSsRKxErESsRKxErESsRKxErESsRKxErESsRKxErESsRKxHFMcYxxzHOEc4RzhHOEc4RzhHOEc4RzhHOEc4RzhHPESsRKxErERAFEQUrEdAB2QHZAdkB2QHSASsRGAUZBSsRKxErESsRKxErESsRKxErESsRKxErESsRKxErEY8SjRLFMcYxxzGPEo0SKxErESsRKxErESsRKxErESsRKxErESsRKxErERgFGQUrEdkB2QHZAdkB2QHZASsRKxErEcsFzAUrESsRKxErESsRKxErESsRKxErESsRKxErEZcG3wYIMwkzCjPPBo4GEAURBSsRKxErESsRKxErESsRKxErESsRKxEQBREFKxErEdkB2QHZAdkB2QHZAdIBKxErEdMF1AUrESsRKxErESsRKxErESsRKxHLBcwFEAURBZ8G5wbrMuwy7TLXBq8GGAUZBRAFEQXLBcwFKxErESsRKxEQBREFKxEYBRkFKxErEdkB2QHZAdkB2QHZAdkB0gErESsRywXMBSsRKxErESsRKxErERAFEQXTBdQFGAUZBeYC7gLUBtUG1gbvAuYCKxErERgFGQXTBdQFKxErESsRKxEYBRkFKxHLBcwFKxErEdkB2QHZAdkB2QHZAdkB2QHSASsR0wXUBcsFzAUrESsRKxErERgFGQUrESsRKxErESsRLBHcBt0G3gYqESsRKxErESsRKxErESsREAURBSsRKxErESsRKxHTBdQFKxHQAdkB2QHZAdkB2QHZAdkB2QHZASsRKxErEdMF1AUQBREFEAURBSsRKxErEdAB2QHSASsRLBECA8EFAwMqESsR0AHZAdkB2QHSASsRGAUZBRAFEQXLBcwFEAURBSsRKxHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHSASsRKxEYBRkFGAUZBSsR0AHZAdkB2QHZAdIBLBECA8EFAwMqEdAB2QHZAdkB2QHZAdkB0gErERgFGQXTBdQFGAUZBSsR0AHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkBLBECA8EFAwMqEdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAcAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NDQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

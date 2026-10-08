@@ -1,0 +1,66 @@
+{
+  "id": "kanto.viridian_city.rival_intro",
+  "version": 1,
+  "enabled": true,
+  "triggers": [
+    {
+      "type": "NPC",
+      "map": "ViridianCity",
+      "entityIdx": 4,
+      "startNode": "greeting"
+    }
+  ],
+  "actors": {
+    "rival": {
+      "map": "ViridianCity",
+      "entityIdx": 4
+    }
+  },
+  "startNode": "greeting",
+  "nodes": {
+    "greeting": {
+      "actions": [
+        {
+          "type": "DIALOGUE",
+          "actor": "rival",
+          "text": "rivalGreeting"
+        }
+      ],
+      "next": "question"
+    },
+    "question": {
+      "actions": [
+        {
+          "type": "YES_NO",
+          "actor": "rival",
+          "text": "acceptQuestion",
+          "yes": "accept",
+          "no": "decline"
+        }
+      ]
+    },
+    "accept": {
+      "actions": [
+        {
+          "type": "NOTIFY",
+          "message": "已接受剧情选择。"
+        }
+      ],
+      "next": "finish"
+    },
+    "decline": {
+      "next": "finish"
+    },
+    "finish": {
+      "actions": [
+        {
+          "type": "CLOSE_SCENE"
+        }
+      ]
+    }
+  },
+  "text": {
+    "rivalGreeting": 1234567,
+    "acceptQuestion": 1234568
+  }
+}

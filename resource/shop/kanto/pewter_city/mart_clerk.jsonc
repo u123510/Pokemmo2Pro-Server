@@ -1,0 +1,17 @@
+{
+  "shopId": "kanto.pewter_city.mart",
+  // 尼比市原店员是 entityIdx=2，不是 0；可替换为本地图其他 NPC 序号。
+  "npcs": [
+    { "map": "PewterCity_Mart", "entityIdx": 2 }
+  ],
+  "buyEnabled": true,
+  "sellEnabled": true,
+  "items": [
+    // 每家店独立定价，此处是可编辑的本地示例。
+    { "itemId": 5004, "buyPrice": 220, "sellPrice": 90 },
+    { "itemId": 5017, "buyPrice": 180, "sellPrice": 60 },
+    { "itemId": 5018, "buyPrice": 200, "sellPrice": 80 },
+    // null 表示该店不卖这件商品，但仍允许回收。
+    { "itemId": 5022, "buyPrice": null, "sellPrice": 120 }
+  ]
+}

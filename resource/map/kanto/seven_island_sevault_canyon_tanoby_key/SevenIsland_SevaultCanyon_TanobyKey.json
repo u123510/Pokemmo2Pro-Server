@@ -1,0 +1,292 @@
+{
+  "regionId": 0,
+  "bankId": 2,
+  "mapId": 35,
+  "width": 15,
+  "height": 16,
+  "paletteIdx1": 0,
+  "paletteIdx2": 37,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 334,
+  "unknownByte": 186,
+  "borderTiles": [
+    {
+      "material": 770,
+      "collision": 0
+    },
+    {
+      "material": 770,
+      "collision": 0
+    },
+    {
+      "material": 770,
+      "collision": 0
+    },
+    {
+      "material": 770,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "SevenIsland_SevaultCanyon_TanobyKey_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [
+    {
+      "x": 7,
+      "y": 2,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 99,
+      "script": "SevenIsland_SevaultCanyon_TanobyKey_EventScript_Switch1"
+    },
+    {
+      "x": 9,
+      "y": 8,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_7",
+      "value": 99,
+      "script": "SevenIsland_SevaultCanyon_TanobyKey_EventScript_Switch7"
+    },
+    {
+      "x": 5,
+      "y": 8,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_6",
+      "value": 99,
+      "script": "SevenIsland_SevaultCanyon_TanobyKey_EventScript_Switch6"
+    },
+    {
+      "x": 9,
+      "y": 6,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_5",
+      "value": 99,
+      "script": "SevenIsland_SevaultCanyon_TanobyKey_EventScript_Switch5"
+    },
+    {
+      "x": 5,
+      "y": 6,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_4",
+      "value": 99,
+      "script": "SevenIsland_SevaultCanyon_TanobyKey_EventScript_Switch4"
+    },
+    {
+      "x": 10,
+      "y": 4,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_3",
+      "value": 99,
+      "script": "SevenIsland_SevaultCanyon_TanobyKey_EventScript_Switch3"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_2",
+      "value": 99,
+      "script": "SevenIsland_SevaultCanyon_TanobyKey_EventScript_Switch2"
+    }
+  ],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 7,
+      "y": 13,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 64,
+      "targetX": 7,
+      "targetY": 17,
+      "targetElevation": 4
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 97,
+      "x": 7,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 97,
+      "x": 8,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 97,
+      "x": 8,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 97,
+      "x": 6,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 97,
+      "x": 8,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 97,
+      "x": 6,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 97,
+      "x": 6,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "AgcCBwIHAgcCB+QGFgcWBxYH5QYCBwIHAgcCBwIHAgcCBwIHAgfkBg8H5AYOB+UGFQflBgIHAgcCBwIHAgcCB+QGFgcPB+QGDwcGMw0H5QYVBxYH5QYCBwIHAgcCBxQH5AYOBw8H/DL8MvwyDQcOB+UGEwcCBwIHAgcCBxQHFAcGM/wy/DL8Mvwy/DIGMxMHEwcCBwIHAgcCBxQH7AYKB/wytwb8MrcG/DIIB+0GEwcCBwIHAgcCB+wGEgcUBwYz/DL8MvwyBjMLBxAH7QYCBwIHAgcCBwIHFAcUB7cG/DL8MvwytwYLBxMHAgcCBwIHAgcCBwIHFAcUBwYz/DL8MvwyBjMLBxMHAgcCBwIHAgcCBwIHFAcUB/wy/DL8Mvwy/DILBxMHAgcCBwIHAgcCBwIHFAcUB/wy/DL8Mvwy/DILBxMHAgcCBwIHAgcCBwIHFAcMB/wyvgbCBr8G/DILBxMHAgcCBwIHAgcCBwIHFAcMB/wyATMEMwAz/DILBxMHAgcCBwIHAgcCBwIHFAcMB/wy/TKHMvsy/DILBxMHAgcCBwIHAgcCBwIHFAfsBgkHGAcZBxoHCQftBhMHAgcCBwIHAgcCBwIH7AYRBxEHEQcRBxEHEQcRB+0GAgcCBwIH",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgYGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

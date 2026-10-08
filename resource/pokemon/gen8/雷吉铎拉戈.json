@@ -1,0 +1,144 @@
+{
+	"id": 895,
+	"name": "[895]雷吉铎拉戈",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 21,
+	"weight": 2000,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 11,
+			"name": "[11]夹住",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 239,
+			"name": "[239]龙卷风",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 6
+		},
+		{
+			"id": 246,
+			"name": "[246]原始之力",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 225,
+			"name": "[225]龙息",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 116,
+			"name": "[116]聚气",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 242,
+			"name": "[242]咬碎",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 337,
+			"name": "[337]龙爪",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 359,
+			"name": "[359]臂锤",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 349,
+			"name": "[349]龙之舞",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 37,
+			"name": "[37]大闹一番",
+			"type": "level",
+			"level": 54
+		},
+		{
+			"id": 673,
+			"name": "[673]磨砺",
+			"type": "level",
+			"level": 60
+		},
+		{
+			"id": 820,
+			"name": "[820]巨龙威能",
+			"type": "level",
+			"level": 66
+		},
+		{
+			"id": 63,
+			"name": "[63]破坏光线",
+			"type": "level",
+			"level": 72
+		},
+		{
+			"id": 153,
+			"name": "[153]大爆炸",
+			"type": "level",
+			"level": 78
+		}
+	],
+	"types": [
+		"DRAGON"
+	],
+	"stats": {
+		"hp": 200,
+		"attack": 100,
+		"defense": 50,
+		"speed": 100,
+		"sp_attack": 50,
+		"sp_defense": 80
+	},
+	"yields": {
+		"ev_hp": 3,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

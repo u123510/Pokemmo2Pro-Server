@@ -1,0 +1,103 @@
+{
+	"id": 901,
+	"name": "[901]月月熊",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 24,
+	"weight": 2900,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 62,
+			"name": "[062]特性62"
+		},
+		{
+			"id": 62,
+			"name": "[062]特性62"
+		},
+		{
+			"id": 127,
+			"name": "[127]特性127"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 608,
+			"name": "[608]圆瞳",
+			"type": "level",
+			"level": 6
+		},
+		{
+			"id": 523,
+			"name": "[523]重踏",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 163,
+			"name": "[163]劈开",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 583,
+			"name": "[583]嬉闹",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 667,
+			"name": "[667]十万马力",
+			"type": "level",
+			"level": 34
+		},
+		{
+			"id": 38,
+			"name": "[38]舍身冲撞",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 838,
+			"name": "[838]突飞猛扑",
+			"type": "level",
+			"level": 43
+		}
+	],
+	"types": [
+		"GROUND",
+		"NORMAL"
+	],
+	"stats": {
+		"hp": 130,
+		"attack": 140,
+		"defense": 105,
+		"speed": 45,
+		"sp_attack": 80,
+		"sp_defense": 50
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 3,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

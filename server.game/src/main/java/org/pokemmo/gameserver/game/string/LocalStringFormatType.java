@@ -1,0 +1,43 @@
+package org.pokemmo.gameserver.game.string;
+
+public enum LocalStringFormatType {
+    ITEM_STRING(0),
+    POKE_DEX_STRING(1),
+    SKILL_STRING(2),
+    STRING_INDEX_STRING(3),
+    BADGE_STRING(4),
+    EXPORT_STRING(5),
+    MAP_NAME_STRING(6),
+    POKEMON_TYPE_VALUE_STRING(7),
+    CHAT_TYPE_STRING(8),
+    LOCAL_STRING(9),
+    TIME_DURATION_STRING(10),
+    POKEMON_ABILITY_STRING(11),
+    SECRET_POWER_FURNITURE_STRING(12),
+    TASTE_STRING(13),
+    POKEMON_CUB_STRING(14),
+    POKEMON_NORMAL_TRAINER_STRING(15),
+    POKEMON_ACE_TRAINER_STRING(16),
+    NUMBER_INT_STRING(17),
+    RESOLVE_REFERENCE_STRING(18),
+    CACHED_STRING(19),
+    UNK_TRAINER_STRING(20),
+    POKEMON_TYPE_INDEX_STRING(21),
+    SKILL_INFO_STRING(22),
+    ONE_ITEM_STRING(23),
+    ITEM_WITH_AMOUNT_STRING(24),
+    ITEM_DETAILS_STRING(25),
+    NDS_ROM_STRING(26),
+    ITEM_KIND_TYPE_STRING(27),
+    REGION_TYPE_STRING(28),
+    PC_BOX_STRING(29),
+    NUMBER_LONG_STRING(30),
+    LIMIT_SMOGON_STRING(31);
+    private byte type;
+    LocalStringFormatType(int type) {
+        this.type = (byte) type;
+    }
+    public byte getType() {
+        return type;
+    }
+}

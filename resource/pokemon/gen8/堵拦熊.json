@@ -1,0 +1,181 @@
+{
+	"id": 862,
+	"name": "[862]堵拦熊",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 16,
+	"weight": 460,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 120,
+			"name": "[120]特性120"
+		},
+		{
+			"id": 62,
+			"name": "[062]特性62"
+		},
+		{
+			"id": 128,
+			"name": "[128]特性128"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 28,
+			"name": "[28]泼沙",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 42,
+			"name": "[42]飞弹针",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 43,
+			"name": "[43]瞪眼",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 66,
+			"name": "[66]地狱翻滚",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 122,
+			"name": "[122]舌舔",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 238,
+			"name": "[238]十字劈",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 400,
+			"name": "[400]暗袭要害",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 415,
+			"name": "[415]掉包",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 608,
+			"name": "[608]圆瞳",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 792,
+			"name": "[792]拦堵",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 555,
+			"name": "[555]大声咆哮",
+			"type": "level",
+			"level": 9
+		},
+		{
+			"id": 29,
+			"name": "[29]头锤",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 468,
+			"name": "[468]磨爪",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 154,
+			"name": "[154]乱抓",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 156,
+			"name": "[156]睡觉",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 36,
+			"name": "[36]猛撞",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 184,
+			"name": "[184]鬼面",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 68,
+			"name": "[68]双倍奉还",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 269,
+			"name": "[269]挑衅",
+			"type": "level",
+			"level": 49
+		},
+		{
+			"id": 38,
+			"name": "[38]舍身冲撞",
+			"type": "level",
+			"level": 56
+		}
+	],
+	"types": [
+		"DARK",
+		"NORMAL"
+	],
+	"stats": {
+		"hp": 93,
+		"attack": 90,
+		"defense": 101,
+		"speed": 60,
+		"sp_attack": 81,
+		"sp_defense": 95
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 3,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

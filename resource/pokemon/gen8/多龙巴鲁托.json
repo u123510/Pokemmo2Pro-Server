@@ -1,0 +1,170 @@
+{
+	"id": 887,
+	"name": "[887]多龙巴鲁托",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 30,
+	"weight": 500,
+	"egg_groups": [
+		"不定形组",
+		"龙组"
+	],
+	"abilities": [
+		{
+			"id": 29,
+			"name": "[029]特性29"
+		},
+		{
+			"id": 151,
+			"name": "[151]特性151"
+		},
+		{
+			"id": 130,
+			"name": "[130]特性130"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 98,
+			"name": "[98]电光一闪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 225,
+			"name": "[225]龙息",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 310,
+			"name": "[310]惊吓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 389,
+			"name": "[389]突袭",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 611,
+			"name": "[611]死缠烂打",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 751,
+			"name": "[751]龙箭",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 199,
+			"name": "[199]锁定",
+			"type": "level",
+			"level": 6
+		},
+		{
+			"id": 372,
+			"name": "[372]恶意追击",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 506,
+			"name": "[506]祸不单行",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 97,
+			"name": "[97]高速移动",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 458,
+			"name": "[458]二连击",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 369,
+			"name": "[369]急速折返",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 349,
+			"name": "[349]龙之舞",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 566,
+			"name": "[566]潜灵奇袭",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 36,
+			"name": "[36]猛撞",
+			"type": "level",
+			"level": 54
+		},
+		{
+			"id": 407,
+			"name": "[407]龙之俯冲",
+			"type": "level",
+			"level": 63
+		},
+		{
+			"id": 38,
+			"name": "[38]舍身冲撞",
+			"type": "level",
+			"level": 70
+		},
+		{
+			"id": 387,
+			"name": "[387]珍藏",
+			"type": "level",
+			"level": 78
+		}
+	],
+	"types": [
+		"DRAGON",
+		"GHOST"
+	],
+	"stats": {
+		"hp": 88,
+		"attack": 120,
+		"defense": 75,
+		"speed": 100,
+		"sp_attack": 75,
+		"sp_defense": 142
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 3
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

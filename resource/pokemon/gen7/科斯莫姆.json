@@ -1,0 +1,79 @@
+{
+	"id": 790,
+	"name": "[790]科斯莫姆",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 1,
+	"weight": 9999,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 5,
+			"name": "[005]特性5"
+		},
+		{
+			"id": 5,
+			"name": "[005]特性5"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 791,
+			"name": "[791]索尔迦雷欧",
+			"type": "LEVEL",
+			"val": 53
+		},
+		{
+			"id": 792,
+			"name": "[792]露奈雅拉",
+			"type": "LEVEL",
+			"val": 53
+		}
+	],
+	"moves": [
+		{
+			"id": 100,
+			"name": "[100]瞬间移动",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 322,
+			"name": "[322]宇宙力量",
+			"type": "level",
+			"level": 1
+		}
+	],
+	"types": [
+		"PSYCHIC"
+	],
+	"stats": {
+		"hp": 43,
+		"attack": 29,
+		"defense": 131,
+		"speed": 29,
+		"sp_attack": 131,
+		"sp_defense": 37
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 1,
+		"ev_speed": 0,
+		"ev_sp_attack": 1,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

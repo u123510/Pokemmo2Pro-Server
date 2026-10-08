@@ -1,0 +1,300 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 15,
+  "width": 22,
+  "height": 19,
+  "paletteIdx1": 100,
+  "paletteIdx2": 129,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 432,
+  "unknownByte": 65,
+  "borderTiles": [
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_MT_PYRE_1F",
+      "base_label": "gMtPyre_1F",
+      "land_mons": {
+        "encounter_rate": 10,
+        "mons": [
+          {
+            "min_level": 27,
+            "max_level": 27,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 28,
+            "max_level": 28,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 26,
+            "max_level": 26,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 29,
+            "max_level": 29,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 24,
+            "max_level": 24,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 23,
+            "max_level": 23,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 22,
+            "max_level": 22,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 29,
+            "max_level": 29,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 24,
+            "max_level": 24,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 29,
+            "max_level": 29,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 24,
+            "max_level": 24,
+            "species": "SPECIES_SHUPPET"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 17,
+      "y": 18,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 37,
+      "targetX": 22,
+      "targetY": 29,
+      "targetElevation": 0
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 21,
+      "targetX": 10,
+      "targetY": 42,
+      "targetElevation": 2
+    },
+    {
+      "x": 18,
+      "y": 18,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 37,
+      "targetX": 22,
+      "targetY": 29,
+      "targetElevation": 0
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 21,
+      "targetX": 10,
+      "targetY": 42,
+      "targetElevation": 2
+    },
+    {
+      "x": 11,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 16,
+      "targetX": 2,
+      "targetY": 1,
+      "targetElevation": 2
+    },
+    {
+      "x": 20,
+      "y": 9,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 16,
+      "targetX": 11,
+      "targetY": 9,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 30,
+      "x": 21,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "MtPyre_1F_EventScript_CleanseTagWoman",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 18,
+      "x": 17,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "MtPyre_1F_EventScript_PokefanF",
+      "hideFlag": "",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 65,
+      "x": 13,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "MtPyre_1F_EventScript_Man",
+      "hideFlag": "",
+      "rawMovementType": 9
+    }
+  ],
+  "blockData": "AQYBBgEGAQYBBgEGAQYBBgEG7wazBrQGtQbvBu8G5AbvBu8G5AbvBu8G5AYBBgEGAQYBBgEGAQYBBgEGAQb3BrsGvDK9BvcG9wbsBvcG9wbsBvcG9wbsBgEGAQYBBgEGAQYBBgEGAQYBBucy6DLnMukyJjcmN+cy5zLnMucy5zLnMucyAQYBBgEG7wbkBu8G7wbkBh8H5zLmMuYy5jLuNu425jLuNu427jbmMu427jYBBgEGAQb3BuwG9wb3BuwGJzfnMuYy5jLmMu427jbmMu427jbuNuYy7jbuNgEGAQYBBucy5zLnMucy5zLnMucy5jLmMuYy7jbuNuYy5jLmMuYy5jLmMuYyAQYBBgEGBjIHMuYy5jLmMuYy5jLmMuYy5jLmMuYy5jLuNu427jbmMu427jYBBgEGAQYBBgEGAQYBBgEGAQYmN+425jLmMuYy5jLmMu427jbuNuYy7jbuNgEGAQYBBgEGAQYBBgEGAQYBBiY37jbmMuYy5jLmMuYy5jLmMuYy5jLmMuYyAQYBBgEGAQYBBgEGAQYBBgEG5zLmMu427jbmMuYy5jLmMuYy5jLmMuYy5jIBBgEGAQYBBgEGAQYBBgEGAQbnMuYy7jbuNuYy5jLmMuYy5jLmMuYy5jLmMgEGAQYBBgEGAQYBBgEGAQYBBiY37jbmMuYy7jbuNuYy5jLmMuYy5jLuNu42AQYBBgEGAQYBBgEGAQYBBgEGJjfuNuYy5jLuNu425jLmMuYy5jLmMu427jYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEG5zLmMgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQbnMuYyAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBucy5jIBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEG5zLmMgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQbnMuYyAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgYyBzIBBgEGAQY=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQAAAA=="
+}

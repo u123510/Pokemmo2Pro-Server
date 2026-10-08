@@ -1,0 +1,138 @@
+{
+	"id": 888,
+	"name": "[888]苍响",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 28,
+	"weight": 1100,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 98,
+			"name": "[98]电光一闪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 232,
+			"name": "[232]金属爪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 336,
+			"name": "[336]长嚎",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 501,
+			"name": "[501]快速防守",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 533,
+			"name": "[533]圣剑",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 163,
+			"name": "[163]劈开",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 14,
+			"name": "[14]剑舞",
+			"type": "level",
+			"level": 22
+		},
+		{
+			"id": 442,
+			"name": "[442]铁头",
+			"type": "level",
+			"level": 33
+		},
+		{
+			"id": 673,
+			"name": "[673]磨砺",
+			"type": "level",
+			"level": 44
+		},
+		{
+			"id": 242,
+			"name": "[242]咬碎",
+			"type": "level",
+			"level": 55
+		},
+		{
+			"id": 585,
+			"name": "[585]月亮之力",
+			"type": "level",
+			"level": 66
+		},
+		{
+			"id": 370,
+			"name": "[370]近身战",
+			"type": "level",
+			"level": 77
+		},
+		{
+			"id": 416,
+			"name": "[416]终极冲击",
+			"type": "level",
+			"level": 88
+		}
+	],
+	"types": [
+		"FAIRY"
+	],
+	"stats": {
+		"hp": 92,
+		"attack": 120,
+		"defense": 115,
+		"speed": 80,
+		"sp_attack": 115,
+		"sp_defense": 138
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 3
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

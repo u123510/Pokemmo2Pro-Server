@@ -1,0 +1,268 @@
+{
+  "regionId": 0,
+  "bankId": 1,
+  "mapId": 94,
+  "width": 24,
+  "height": 20,
+  "paletteIdx1": 12,
+  "paletteIdx2": 47,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 306,
+  "unknownByte": 140,
+  "borderTiles": [
+    {
+      "material": 641,
+      "collision": 0
+    },
+    {
+      "material": 641,
+      "collision": 0
+    },
+    {
+      "material": 641,
+      "collision": 0
+    },
+    {
+      "material": 641,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "STEADY_MIST",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_POKEMON_TOWER_7F",
+      "base_label": "sPokemonTower7F_FireRed",
+      "land_mons": {
+        "encounter_rate": 10,
+        "mons": [
+          {
+            "min_level": 16,
+            "max_level": 16,
+            "species": "SPECIES_GASTLY"
+          },
+          {
+            "min_level": 17,
+            "max_level": 17,
+            "species": "SPECIES_GASTLY"
+          },
+          {
+            "min_level": 18,
+            "max_level": 18,
+            "species": "SPECIES_GASTLY"
+          },
+          {
+            "min_level": 15,
+            "max_level": 15,
+            "species": "SPECIES_GASTLY"
+          },
+          {
+            "min_level": 19,
+            "max_level": 19,
+            "species": "SPECIES_GASTLY"
+          },
+          {
+            "min_level": 23,
+            "max_level": 23,
+            "species": "SPECIES_HAUNTER"
+          },
+          {
+            "min_level": 17,
+            "max_level": 17,
+            "species": "SPECIES_CUBONE"
+          },
+          {
+            "min_level": 19,
+            "max_level": 19,
+            "species": "SPECIES_CUBONE"
+          },
+          {
+            "min_level": 18,
+            "max_level": 18,
+            "species": "SPECIES_GASTLY"
+          },
+          {
+            "min_level": 23,
+            "max_level": 23,
+            "species": "SPECIES_HAUNTER"
+          },
+          {
+            "min_level": 18,
+            "max_level": 18,
+            "species": "SPECIES_GASTLY"
+          },
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_HAUNTER"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 11,
+      "y": 4,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "0x0"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 11,
+      "y": 16,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 93,
+      "targetX": 11,
+      "targetY": 16,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 78,
+      "x": 11,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PokemonTower_7F_EventScript_MrFuji",
+      "hideFlag": "kanto/FLAG_HIDE_TOWER_FUJI",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 49,
+      "x": 9,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "PokemonTower_7F_EventScript_Grunt1",
+      "hideFlag": "kanto/FLAG_HIDE_TOWER_ROCKET_1",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 49,
+      "x": 13,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "PokemonTower_7F_EventScript_Grunt2",
+      "hideFlag": "kanto/FLAG_HIDE_TOWER_ROCKET_2",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 49,
+      "x": 9,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "PokemonTower_7F_EventScript_Grunt3",
+      "hideFlag": "kanto/FLAG_HIDE_TOWER_ROCKET_3",
+      "rawMovementType": 10
+    }
+  ],
+  "blockData": "gQaBBoEGgQaBBoEGgQaBBowGmAaYBpgGmAaYBo0GgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGjAaYBogGoAagBqAGoAagBpAGmAaNBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaMBpgGiAagBqAGxjLYBtgG2AbeMqAGoAaQBpgGjQaBBoEGgQaBBoEGgQaBBoEGjAaIBqAGoAaSMoQyzwaCMoIygjLPBoQyhDKgBqAGkAaNBoEGgQaBBoEGgQaBBowGiAagBpIyhDLdBokG1waFMoIygjLXBtwGiQaEMoQyoAaQBo0GgQaBBoEGgQaBBooGoAaSMt0GiQaJBokG3zKOMoIygjLfMt0GiQaJBokGhDKgBosGgQaBBoEGgQaBBogGkjLdBokGiQaJBokGgjKCMoIygjKCMokGiQaJBokGiQaEMpAGgQaBBoEGgQaBBqAG3AaJBokGiQaJBpEGgjKCMoIygjKCMpEGiQaJBokGiQaJBqAGgQaBBoEGgQaBBpIy3QaJBokGiQaRBpEGgjKCMoIygjKCMpEGkQaJBokGiQaJBoQygQaBBoEGgQaBBpMGkQaRBpEGkQaRBpEGgjKCMoIygjKCMpEGkQaRBpEGkQaRBpEGgQaBBoEGgQaBBpMGkQaRBpEGkQaRBpEGgjKCMoIygjKCMpEGkQaRBpEGkQaRBpEGgQaBBoEGgQaBBtwGiQaJBokGiQaRBpEGgjKCMoIygjKCMpEGkQaJBokGiQaJBokGgQaBBoEGgQaBBoUGiQaJBokGiQaJBpEGkQaCMoIygjKRBpEGiQaJBokGiQaJBoIygQaBBoEGgQaBBoEGiQaJBokGiQaJBokGiQaCMoIygjKJBokGiQaJBokGiQaJBoEGgQaBBoEGgQaBBoEGgjKJBokGiQaJBokGiQaCMoIygjKJBokGiQaJBokGiQaCMoEGgQaBBoEGgQaBBoEGgQaCMokGiQaJBokGpTamNqcygjKCMokGiQaJBokGgjKBBoEGgQaBBoEGgQaBBoEGgQaBBoEGiQaJBokGrQauBq8ygjKCMokGiQaJBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGtQa2BrcygjKCMoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEG",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

@@ -1,0 +1,145 @@
+{
+	"id": 973,
+	"name": "[973]纏红鹤",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 16,
+	"weight": 370,
+	"egg_groups": [
+		"飞行组"
+	],
+	"abilities": [
+		{
+			"id": 113,
+			"name": "[113]特性113"
+		},
+		{
+			"id": 77,
+			"name": "[077]特性77"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 64,
+			"name": "[64]啄",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 383,
+			"name": "[383]仿效",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 24,
+			"name": "[24]二连踢",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 197,
+			"name": "[197]看穿",
+			"type": "level",
+			"level": 9
+		},
+		{
+			"id": 17,
+			"name": "[17]翅膀攻击",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 116,
+			"name": "[116]聚气",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 67,
+			"name": "[67]踢倒",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 364,
+			"name": "[364]佯攻",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 371,
+			"name": "[371]以牙还牙",
+			"type": "level",
+			"level": 27
+		},
+		{
+			"id": 355,
+			"name": "[355]羽栖",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 403,
+			"name": "[403]空气斩",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 25,
+			"name": "[25]百万吨重踢",
+			"type": "level",
+			"level": 39
+		},
+		{
+			"id": 469,
+			"name": "[469]广域防守",
+			"type": "level",
+			"level": 44
+		},
+		{
+			"id": 675,
+			"name": "[675]地狱突刺",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 413,
+			"name": "[413]勇鸟猛攻",
+			"type": "level",
+			"level": 54
+		}
+	],
+	"types": [
+		"FLYING",
+		"FIGHTING"
+	],
+	"stats": {
+		"hp": 82,
+		"attack": 115,
+		"defense": 74,
+		"speed": 75,
+		"sp_attack": 64,
+		"sp_defense": 90
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 2,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

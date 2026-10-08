@@ -1,0 +1,443 @@
+{
+  "regionId": 0,
+  "bankId": 1,
+  "mapId": 121,
+  "width": 60,
+  "height": 32,
+  "paletteIdx1": 0,
+  "paletteIdx2": 34,
+  "borderWidth": 3,
+  "borderHeight": 2,
+  "unknownShort": 287,
+  "unknownByte": 182,
+  "borderTiles": [
+    {
+      "material": 656,
+      "collision": 0
+    },
+    {
+      "material": 657,
+      "collision": 0
+    },
+    {
+      "material": 658,
+      "collision": 0
+    },
+    {
+      "material": 664,
+      "collision": 0
+    },
+    {
+      "material": 665,
+      "collision": 0
+    },
+    {
+      "material": 666,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "ROUTE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_SIX_ISLAND_PATTERN_BUSH",
+      "base_label": "sSixIslandPatternBush_FireRed",
+      "land_mons": {
+        "encounter_rate": 21,
+        "mons": [
+          {
+            "min_level": 9,
+            "max_level": 9,
+            "species": "SPECIES_SPINARAK"
+          },
+          {
+            "min_level": 9,
+            "max_level": 9,
+            "species": "SPECIES_KAKUNA"
+          },
+          {
+            "min_level": 14,
+            "max_level": 14,
+            "species": "SPECIES_SPINARAK"
+          },
+          {
+            "min_level": 6,
+            "max_level": 6,
+            "species": "SPECIES_CATERPIE"
+          },
+          {
+            "min_level": 6,
+            "max_level": 6,
+            "species": "SPECIES_WEEDLE"
+          },
+          {
+            "min_level": 15,
+            "max_level": 15,
+            "species": "SPECIES_HERACROSS"
+          },
+          {
+            "min_level": 9,
+            "max_level": 9,
+            "species": "SPECIES_METAPOD"
+          },
+          {
+            "min_level": 20,
+            "max_level": 20,
+            "species": "SPECIES_HERACROSS"
+          },
+          {
+            "min_level": 9,
+            "max_level": 9,
+            "species": "SPECIES_LEDYBA"
+          },
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_HERACROSS"
+          },
+          {
+            "min_level": 14,
+            "max_level": 14,
+            "species": "SPECIES_LEDYBA"
+          },
+          {
+            "min_level": 30,
+            "max_level": 30,
+            "species": "SPECIES_HERACROSS"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "SixIsland_PatternBush_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 54,
+      "y": 26,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 59,
+      "targetX": 63,
+      "targetY": 10,
+      "targetElevation": 2
+    },
+    {
+      "x": 55,
+      "y": 26,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 59,
+      "targetX": 63,
+      "targetY": 10,
+      "targetElevation": 2
+    },
+    {
+      "x": 56,
+      "y": 26,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 59,
+      "targetX": 64,
+      "targetY": 10,
+      "targetElevation": 2
+    },
+    {
+      "x": 3,
+      "y": 26,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 59,
+      "targetX": 45,
+      "targetY": 10,
+      "targetElevation": 2
+    },
+    {
+      "x": 4,
+      "y": 26,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 59,
+      "targetX": 45,
+      "targetY": 10,
+      "targetElevation": 2
+    },
+    {
+      "x": 5,
+      "y": 26,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 59,
+      "targetX": 46,
+      "targetY": 10,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 28,
+      "x": 48,
+      "y": 15,
+      "elevation": 2,
+      "movementType": "FACE_DOWN_UP_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "SixIsland_PatternBush_EventScript_Bethany",
+      "hideFlag": "",
+      "rawMovementType": 20
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 28,
+      "x": 10,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "FACE_DOWN_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "SixIsland_PatternBush_EventScript_Allison",
+      "hideFlag": "",
+      "rawMovementType": 18
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 20,
+      "x": 51,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "SixIsland_PatternBush_EventScript_Garret",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 20,
+      "x": 12,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 2,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "SixIsland_PatternBush_EventScript_Jonah",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 20,
+      "x": 37,
+      "y": 23,
+      "elevation": 2,
+      "movementType": "WALK_SEQUENCE_LEFT_UP_RIGHT_DOWN",
+      "movementRangeX": 2,
+      "movementRangeY": 5,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "SixIsland_PatternBush_EventScript_Vance",
+      "hideFlag": "",
+      "rawMovementType": 51
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 18,
+      "x": 32,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "SixIsland_PatternBush_EventScript_Nash",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 18,
+      "x": 52,
+      "y": 20,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "SixIsland_PatternBush_EventScript_Cordell",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 22,
+      "x": 8,
+      "y": 21,
+      "elevation": 2,
+      "movementType": "FACE_DOWN_AND_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "SixIsland_PatternBush_EventScript_Dalia",
+      "hideFlag": "",
+      "rawMovementType": 17
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 22,
+      "x": 39,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "SixIsland_PatternBush_EventScript_Joana",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 9,
+      "graphicsId": 39,
+      "x": 3,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "WANDER_UP_AND_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 2,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "SixIsland_PatternBush_EventScript_Riley",
+      "hideFlag": "",
+      "rawMovementType": 3
+    },
+    {
+      "entityIdx": 10,
+      "graphicsId": 40,
+      "x": 19,
+      "y": 24,
+      "elevation": 2,
+      "movementType": "WALK_RIGHT_AND_LEFT",
+      "movementRangeX": 5,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "SixIsland_PatternBush_EventScript_Marcy",
+      "hideFlag": "",
+      "rawMovementType": 28
+    },
+    {
+      "entityIdx": 11,
+      "graphicsId": 56,
+      "x": 30,
+      "y": 19,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "UP",
+      "script": "SixIsland_PatternBush_EventScript_Layton",
+      "hideFlag": "",
+      "rawMovementType": 7
+    }
+  ],
+  "blockData": "kAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGkAaRBpIGkAaRBpIGoAahBqIGoAahBqIGoAahBqIGoAahBqIGoAahBqIGoAahBqIGoAahBqIGoAahBqIGoAahBqIGoAahBqIGoAahBqIGoAahBqIGoAahBqIGoAahBqIGoAahBqIGoAahBqIGkAaRBpIGkAaRBpIGmAaZBpoGmAaZBpoGowakBqUGowakBqUGowakBqUGowakBqUGowakBqUGowakBqUGowakBqUGowakBqUGowakBqUGowakBqUGowakBqUGowakBqUGowakBqUGowakBqUGowakBqUGowakBqUGmAaZBpoGmAaZBpoGkAaRBpIGoAahBqIGDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0woAahBqIGkAaRBpIGmAaZBpoGowakBqUGDTANMA0wDTAJMAgwCTANMA0wDTANMBAwCDAJMBAwCDAJMBAwCDAJMBAwEDANMA0wDTANMBAwCDAJMBAwCDAJMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wowakBqUGmAaZBpoGkAaRBpIGCDAJMAgwDTANMA0wDTARMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMAgwCTAQMAgwCTAQMAgwCTANMA0wCTANMA0wCDAJMAgwkAaRBpIGmAaZBpoGEDARMBAwDTANMA0wDTAQMA0wDTANMBAwCDAJMBAwCDAJMBAwCDAJMBAwCDAJMAkwEDAIMAkwEDAQMAgwCTAQMBAwDTANMA0wDTANMA0wDTANMA0wDTANMA0wCTANMA0wETANMA0wEDARMBAwmAaZBpoGkAaRBpIGCDAJMAgwDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wCTANMA0wETANMA0wEDANMA0wCDAJMAgwkAaRBpIGmAaZBpoGEDARMBAwDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wEDANMA0wEDANMA0wCTAQMAgwCTAQMAgwCTAQMAgwCTAQMAgwCTANMA0wETANMA0wEDANMA0wDTANMA0wEDARMBAwmAaZBpoGkAaRBpIGCDAJMAgwDTANMAkwCDAJMA0wEDAIMAkwEDAIMAkwEDAIMAkwEDANMA0wCTANMA0wEDANMA0wETANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wEDANMA0wCTANMA0wDTANMA0wCDAJMAgwkAaRBpIGmAaZBpoGEDARMBAwDTANMBEwDTANMA0wDTANMA0wDTANMA0wDTANMBEwDTANMA0wETANMA0wCTAQMBAwCTANMA0wCDAJMA0wDTAIMAkwEDAIMAkwDTANMA0wCTANMA0wETANMA0wDTANMA0wEDARMBAwmAaZBpoGkAaRBpIGCDAJMAgwDTANMBAwDTANMA0wDTANMA0wDTANMA0wDTANMAkwDTANMA0wEDANMA0wETANMA0wETANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wETANMA0wEDANMA0wDTANMA0wCDAJMAgwkAaRBpIGmAaZBpoGEDARMBAwDTANMAkwEDAQMA0wDTANMBAwCDAJMBAwCDAJMBEwCTANMA0wDTANMA0wEDANMA0wEDANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wEDANMA0wCTANMA0wCTANMA0wEDARMBAwmAaZBpoGkAaRBpIGCDAJMAgwDTANMBEwDTANMA0wDTANMA0wDTANMA0wDTANMA0wETAQMAgwCTAQMAgwCTANMA0wCDAJMBAwCDAJMBAwCDAJMBAwCDAJMAgwCTANMA0wDTANMA0wETANMA0wETANMA0wCDAJMAgwkAaRBpIGmAaZBpoGEDARMBAwDTANMBAwDTANMA0wDTANMA0wDTANMA0wDTANMA0wEDANMA0wDTANMA0wETANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wCDAJMAgwCTANMA0wEDARMBAwmAaZBpoGkAaRBpIGCDAJMAgwDTANMAkwEDAIMAkwEDAIMAkwCTAIMAkwDTANMA0wCTANMA0wDTANMA0wEDANMA0wCDAJMA0wDTAQMAgwCTAIMAkwDTANMA0wCTAQMAgwCTAQMA0wEDANMA0wCTANMA0wCDAJMAgwkAaRBpIGmAaZBpoGEDARMBAwDTANMBEwDTANMA0wDTANMA0wDTANMA0wDTANMA0wETANMA0wDTANMA0wCTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wETANMA0wDTAJMA0wCTANMA0wETANMA0wEDARMBAwmAaZBpoGkAaRBpIGCDAJMAgwDTANMBAwDTANMBAwCDAJMBAwCDAJMBAwCDAJMBAwEDANMA0wEDAIMAkwETAQMAgwCTAQMAgwCTANMA0wDTANMA0wDTANMA0wEDANMA0wDTARMA0wETANMA0wDTANMA0wCDAJMAgwkAaRBpIGmAaZBpoGEDARMBAwDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wETANMA0wDTANMA0wEDAIMAkwEDAIMAkwEDAIMAkwEDANMA0wDTANMA0wEDARMBAwmAaZBpoGkAaRBpIGCDAJMAgwDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wEDAIMAkwEDANMA0wDTANMA0wDTANMA0wEDANMA0wDTANMA0wCTANMA0wDTANMA0wCTANMA0wDTANMA0wDTANMA0wCDAJMAgwkAaRBpIGmAaZBpoGEDARMBAwDTANMAkwDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wCTANMA0wDTANMA0wETANMA0wDTANMA0wETANMA0wDTANMA0wDTANMA0wEDARMBAwmAaZBpoGkAaRBpIGCDAJMAgwDTANMBEwEDAIMAkwEDAIMAkwEDAQMA0wDTAQMAgwCTAQMAgwCTAQMAgwCTAJMBAwCDAJMBAwETANMA0wDTANMA0wEDANMA0wDTANMA0wEDAIMAkwEDANMA0wDTANMA0wCDAJMAgwkAaRBpIGmAaZBpoGEDARMBAwDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wDTANMA0wEDARMBAwmAaZBpoGkAaRBpIGCDAJMAgwDTCEMg0wDTCEMg0wDTCEMg0wDTCEMg0wDTCEMg0wDTCEMg0wDTCEMg0wDTCEMg0wDTCEMg0wDTCEMg0wDTCEMg0wDTCEMg0wDTCEMg0wDTCEMg0wDTCEMg0wDTCEMg0wCDAJMAgwkAaRBpIGmAaZBpoGEDARMBAwiAaJBooGiAaJBooGiAaJBooGiAaJBooGiAaJBooGiAaJBooGiAaJBooGiAaJBooGiAaJBooGiAaJBooGiAaJBooGiAaJBooGiAaJBooGiAaJBooGiAaJBooGiAaJBooGEDARMBAwmAaZBpoGkAaRBpIGqDKpMqoykAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGqDKpMqoykAaRBpIGmAaZBpoG2wTcBN0EmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoG2wTcBN0EmAaZBpoGkAaRBpIG2wTcBN0EkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIG2wTcBN0EkAaRBpIGmAaZBpoG2wTcBN0EmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoG2wTcBN0EmAaZBpoGkAaRBpIG2wTcBN0EkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIGkAaRBpIG2wTcBN0EkAaRBpIGmAaZBpoG2wTcBN0EmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoGmAaZBpoG2wTcBN0EmAaZBpoG",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAAAAAAAAAAAAAAAAQEBAQAAAAEBAQEAAAAAAAAAAAAAAAEBAQEAAAAAAAABAQEBAQEBAQEBAQEBAQEBAAAAAAAAAAAAAAAAAQEBAQABAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEAAAAAAAAAAAEBAAEBAAAAAAAAAAAAAAAAAQEBAQABAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQEBAAEBAAEBAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAEBAAEBAAEBAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQEBAQEBAQEBAAEBAAEBAAAAAAAAAAAAAAAAAAEBAAEBAAEBAQEBAAAAAAAAAAAAAAAAAQEAAAABAAAAAAAAAAAAAAEBAAEBAAEBAAEBAQEBAQEBAQEBAQEBAAEBAAEBAQEBAAAAAAAAAAAAAAAAAQEAAQEBAQEBAQEBAQEAAQEBAAEBAAAAAAEBAAABAQAAAAAAAQEBAAEBAAEBAQEBAAAAAAAAAAAAAAAAAQEAAQEBAQEBAQEBAQEAAQEBAAEBAAEBAAEBAQEBAQEBAQEBAQEBAAEBAAEBAQEBAAAAAAAAAAAAAAAAAQEAAAABAQEAAAAAAAAAAAEBAQEBAAEBAAEBAQEBAQEBAQEBAQEBAAEBAAEBAAEBAAAAAAAAAAAAAAAAAQEAAQEBAQEBAQEBAQEBAAAAAAAAAAEBAAAAAAAAAAAAAAAAAAEBAQEBAAEBAAEBAAAAAAAAAAAAAAAAAQEAAQEBAQEBAQEBAQEBAAEBAQEBAAEBAQEBAQEBAQEBAQEBAQEBAQEBAAAAAAEBAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAQEBAAEBAQEBAAEBAAABAQAAAAAAAQEBAAAAAAABAAEBAAEBAAAAAAAAAAAAAAAAAQEAAQEBAQEBAQEBAQEBAAEBAQEBAAEBAQEBAQEBAQEBAQEBAAEBAQABAAEBAAEBAAAAAAAAAAAAAAAAAQEAAQEAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAEBAQEBAQEBAAEBAQABAAEBAQEBAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAEBAQEBAAAAAAAAAAAAAAEBAQEBAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQEBAQEBAAAAAAEBAQEBAQEBAAEBAQEBAAEBAQEBAAEBAQEBAQEBAAAAAAAAAAAAAAAAAQEAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAEBAQEBAAEBAQEBAAEBAQEBAQEBAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAEBAQEBAAEBAQEBAAAAAAEBAQEBAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAAAAAAAAAAAAAAAAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ0NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ0NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

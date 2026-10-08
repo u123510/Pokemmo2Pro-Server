@@ -1,0 +1,436 @@
+{
+  "regionId": 1,
+  "bankId": 50,
+  "mapId": 17,
+  "width": 50,
+  "height": 20,
+  "paletteIdx1": 100,
+  "paletteIdx2": 101,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 359,
+  "unknownByte": 17,
+  "borderTiles": [
+    {
+      "material": 468,
+      "collision": 0
+    },
+    {
+      "material": 469,
+      "collision": 0
+    },
+    {
+      "material": 476,
+      "collision": 0
+    },
+    {
+      "material": 477,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "REGULAR_WEATHER",
+  "mapType": "ROUTE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_ROUTE102",
+      "base_label": "gRoute102",
+      "land_mons": {
+        "encounter_rate": 20,
+        "mons": [
+          {
+            "min_level": 3,
+            "max_level": 3,
+            "species": "SPECIES_POOCHYENA"
+          },
+          {
+            "min_level": 3,
+            "max_level": 3,
+            "species": "SPECIES_WURMPLE"
+          },
+          {
+            "min_level": 4,
+            "max_level": 4,
+            "species": "SPECIES_POOCHYENA"
+          },
+          {
+            "min_level": 4,
+            "max_level": 4,
+            "species": "SPECIES_WURMPLE"
+          },
+          {
+            "min_level": 3,
+            "max_level": 3,
+            "species": "SPECIES_LOTAD"
+          },
+          {
+            "min_level": 4,
+            "max_level": 4,
+            "species": "SPECIES_LOTAD"
+          },
+          {
+            "min_level": 3,
+            "max_level": 3,
+            "species": "SPECIES_ZIGZAGOON"
+          },
+          {
+            "min_level": 3,
+            "max_level": 3,
+            "species": "SPECIES_ZIGZAGOON"
+          },
+          {
+            "min_level": 4,
+            "max_level": 4,
+            "species": "SPECIES_ZIGZAGOON"
+          },
+          {
+            "min_level": 4,
+            "max_level": 4,
+            "species": "SPECIES_RALTS"
+          },
+          {
+            "min_level": 4,
+            "max_level": 4,
+            "species": "SPECIES_ZIGZAGOON"
+          },
+          {
+            "min_level": 3,
+            "max_level": 3,
+            "species": "SPECIES_SEEDOT"
+          }
+        ]
+      },
+      "water_mons": {
+        "encounter_rate": 4,
+        "mons": [
+          {
+            "min_level": 20,
+            "max_level": 30,
+            "species": "SPECIES_MARILL"
+          },
+          {
+            "min_level": 10,
+            "max_level": 20,
+            "species": "SPECIES_MARILL"
+          },
+          {
+            "min_level": 30,
+            "max_level": 35,
+            "species": "SPECIES_MARILL"
+          },
+          {
+            "min_level": 5,
+            "max_level": 10,
+            "species": "SPECIES_MARILL"
+          },
+          {
+            "min_level": 20,
+            "max_level": 30,
+            "species": "SPECIES_GOLDEEN"
+          }
+        ]
+      },
+      "fishing_mons": {
+        "encounter_rate": 30,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 10,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 10,
+            "species": "SPECIES_GOLDEEN"
+          },
+          {
+            "min_level": 10,
+            "max_level": 30,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 10,
+            "max_level": 30,
+            "species": "SPECIES_GOLDEEN"
+          },
+          {
+            "min_level": 10,
+            "max_level": 30,
+            "species": "SPECIES_CORPHISH"
+          },
+          {
+            "min_level": 25,
+            "max_level": 30,
+            "species": "SPECIES_CORPHISH"
+          },
+          {
+            "min_level": 30,
+            "max_level": 35,
+            "species": "SPECIES_CORPHISH"
+          },
+          {
+            "min_level": 20,
+            "max_level": 25,
+            "species": "SPECIES_CORPHISH"
+          },
+          {
+            "min_level": 35,
+            "max_level": 40,
+            "species": "SPECIES_CORPHISH"
+          },
+          {
+            "min_level": 40,
+            "max_level": 45,
+            "species": "SPECIES_CORPHISH"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 17,
+      "y": 2,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "Route102_EventScript_RouteSignPetalburg"
+    },
+    {
+      "x": 40,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "Route102_EventScript_RouteSignOldale"
+    }
+  ],
+  "connections": [
+    {
+      "direction": "LEFT",
+      "unknown": -10,
+      "targetBank": 50,
+      "targetMap": 0
+    },
+    {
+      "direction": "RIGHT",
+      "unknown": 0,
+      "targetBank": 50,
+      "targetMap": 10
+    }
+  ],
+  "warps": [],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 11,
+      "x": 18,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "Route102_EventScript_LittleBoy",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 35,
+      "x": 33,
+      "y": 14,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "Route102_EventScript_Calvin",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 36,
+      "x": 25,
+      "y": 15,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "UP",
+      "script": "Route102_EventScript_Rick",
+      "hideFlag": "",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 47,
+      "x": 8,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_DOWN_AND_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "Route102_EventScript_Tiana",
+      "hideFlag": "",
+      "rawMovementType": 18
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 7,
+      "x": 37,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "Route102_EventScript_Boy",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 59,
+      "x": 11,
+      "y": 15,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "Route102_EventScript_ItemPotion",
+      "hideFlag": "hoenn/FLAG_ITEM_ROUTE_102_POTION",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 60,
+      "x": 24,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "BERRY_TREE_GROWTH",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "BerryTreeScript",
+      "hideFlag": "",
+      "rawMovementType": 12
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 60,
+      "x": 25,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "BERRY_TREE_GROWTH",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "BerryTreeScript",
+      "hideFlag": "",
+      "rawMovementType": 12
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 35,
+      "x": 19,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "Route102_EventScript_Allen",
+      "hideFlag": "",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "1AXVBdQF1QXUBdUF1AXVBdQF1QXUBdUF1AXVBdQF1QXUBdUF1AXVBdQF1QXUBdUF1AXVBdQF1QXUBdUF1AXVBdQF1QXUBdUF1AXVBdQF1QXUBdUF1AXVBdQF1QXUBdUF1AXVBdwF3QXcBd0F3AXdBdwF3QXkBeUF5AXlBeQF5QXkBeUF5AXlBeQF5QXkBeUF5AXlBeQF5QXkBeUF3AXdBdwF3QXcBd0F3AXdBeQF5QXkBeUF5AXlBeQF5QXcBd0F3AXdBdwF3QXUBdUF1AXVBdQF1QXUBdUFDTANMA0wATABMAEwATABMAEwAwQBMAEwATABMAEwjDKNNo02jjIBMNQF1QXUBdUF1AXVBdQF1QUNMA0wDTANMLAQsRCxELIQ1AXVBdQF1QXUBdUF3AXdBeQF5QXkBeUF5AXnBQ0wDTANMAEwATABMNAx0THRMdIxATABMAEwATABMBMxFDEUMRUxATDmBeUF5AXlBeQF5QXkBecFDTANMA0wDTC4EKEQoRC6EOQF5QXcBd0F3AXdBdQF1QUNMA0wDTANMA0wDTANMA0wDTABMNAx0THZMdkx2THZMdEx0jEBMAEwATABMAEwATABMAEwATABMAEwATABMAQw/wQBMA0wDTANMA0wuBChEKEQwhCxELIQ1AXVBdQF1QXkBecFDTANMA0wDTANMA0wDTANMAEw0DHZMdkxcTJ5MuEx4THhMeIxATABMAEwATABMAEwATABMAEwATDOMc8xBDABMIYEATABMA0wDTANMLgQoRChEKEQoRC6ENwF3QXcBd0FATABMAEwDTANMA0wDTANMA0wDTABMNgx2THiMdYF1wXVBNYEATABMNUEhwSHBIcEhwTWBM4xzzHOMc8x1gXXBQEwBDCGBAEwATABMA0wDTC4EKEQoRChEKEQuhDUBdUF1AXVBQEwATABMAEwDTANMA0wDTABMAEwATDgMXIyzzHcBd0FATABMAEwATANMA0wDTANMA0wATDWBdUF1AXVBdwF3QXOMc8xhgQBMAEwATABMAEwAjACMAIwAjACMAIw5gXlBdwF3QUBMAEwATABMAEwATABMAEwATABMAEwATDWBdUF1AXVBQEwATANMA0wDTANMA0wDTANMAEw3AXdBdwF3QXUBdUF1AXXBXsGATABMAEwATABMAEwATABMAEwATABMAEwATDUBdUFzjHPMc4xzzHOMc8xzjHPMQEwATABMAEw3AXdBdwF3QUBMA0wDTANMA0wDTANMA0wATABMNQF1QXUBdUF3AXdBdwF3QXOMc8xATABMAEwATADBAEwATABMAEwATABMAEw5gXlBdQF1QXUBdUF1AXVBdQF1wUBMAEwzjHPMdQF1QXUBdUFDTANMA0wDTANMA0wATABMAEwATDcBd0F3AXdBdQF1QXUBdUF1AXXBQEwATABMAEwATDQMdEx0THSMQEwATABMAEwATDcBd0F3AXdBdwF3QXkBecFATABMNYF1QXcBd0F3AXdBQ0wDTANMA0wATABMAEwATABMAEw1AXVBdQF1QXkBeUF3AXdBdwF3QUBMAEw0DHRMdEx2THZMdkx2jEBMAEwATDOMc8x1AXVBdQF1QXUBdUFDTANMAEwATDmBeUF1AXVBdQF1QUNMA0wDTABMAEwzjHPMQEwATABMOYF5QXkBecFDTANMNQF1QXUBdUF0DHRMdkx2THZMdkx2THhMeIxATABMAEw1gXVBdwF3QXcBd0F3AXdBQ0wDTDVBIcEhwTWBNwF3QXcBd0FxjHHMQEwATABMNYF1wXOMc8xATABMAEwDTANMA0wDTDmBeUF5AXnBdgx2THZMdkx2THhMeIxATDOMc8xzjHPMdwF3QXUBdUF1AXVBdQF1QUNMA0wDTABMAEwATDUBdUF1AXVBdQF1wUBMAEwATDmBeUF1AXXBQEwATABMA0wDTANMA0wDTABMAEw0DHZMdkx4THhMeIxATABMAEw1gXVBdQF1QXUBdUF3AXdBdwF3QXcBd0FDTANMA0wATDOMc8x3AXdBdwF3QXcBd0FATABMA0wDTANMOYF5wUBMAEwATABMA0wDTANMAEwATABMOAx4THiMQEwATDOMc8xzjHPMdwF3QXcBd0F3AXdBdQF1QXUBdUF1AXVBQ0wDTANMA0w1gXVBdQF1QXUBdUF1AXVBQEwDTANMA0wDTANMA0wDTABMAEwATABMAEwATABMAEwATABMAEwATABMAEw1gXVBdQF1QXUBdUF1AXVBdQF1QXcBd0F3AXdBdwF3QXGMccxxjHHMdwF3QXcBd0F3AXdBdwF3QXOMccxxjHHMcYxxzENMA0wDTABMAEwATABMAEwzjHPMc4xzzHOMc8xzjHPMdwF3QXcBd0F3AXdBdwF3QXcBd0F1AXVBdQF1QXUBdUF1AXVBdQF1QXUBdUF1AXVBdQF1QXUBdUF1AXVBdQF1QXUBdcFDTANMA0wDTABMAEwATABMNYF1QXUBdUF1AXVBdQF1QXUBdUF1AXVBdQF1QXUBdUF1AXVBdwF3QXcBd0F3AXdBdwF3QXcBd0F3AXdBdwF3QXcBd0F3AXdBdwF3QXcBd0F3AXdBcYxxzHGMccxzjHPMc4xzzHcBd0F3AXdBdwF3QXcBd0F3AXdBdwF3QXcBd0F3AXdBdwF3QU=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEAAAAAAAAAAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQAAAAAAAAAAAAAAAAEBAQEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwABAQEBAAAAAAAAAAAAAAAAAQEBAQEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAABAQEAAAAAAAAAAAAAAAAAAQEBAQEBAQAAAAAAAAYGAAAGBgYGBgYAAAAAAAAAAAMAAAABAQAAAAAAAAAAAAAAAAAAAQEBAQAAAAAAAAAAAAAAAAEBAQEBAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQYGBgYAAAAAAQEAAAAAAAAAAAAAAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAAAAAAAAAAAAAAABAQEAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAAAAAAAAAAAAAQEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEAAAAAAAAAAAABAQEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+}

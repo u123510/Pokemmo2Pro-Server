@@ -1,0 +1,151 @@
+{
+  "regionId": 1,
+  "bankId": 66,
+  "mapId": 11,
+  "width": 15,
+  "height": 17,
+  "paletteIdx1": 116,
+  "paletteIdx2": 125,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 447,
+  "unknownByte": 15,
+  "borderTiles": [
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "EverGrandeCity_HallOfFame_EventScript_EnterHallOfFame"
+    }
+  ],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 7,
+      "y": 11,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 66,
+      "targetMapId": 4,
+      "targetX": 6,
+      "targetY": 2,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 133,
+      "x": 6,
+      "y": 16,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "0x0",
+      "hideFlag": "",
+      "rawMovementType": 7
+    }
+  ],
+  "blockData": "zAbNBvQG9Qb0BtAG0QbRBtIG0wb0BvUG9AbOBs8G1AbVBvwG/Qb8BtgG2QbZBtoG2wb8Bv0G/AbWBtcG3AbdBv4y/jL+MuAG4QbhBuIG4wb+Mv4y/jLeBt8G5AblMvYy9jL2MugG6QbqBvAG6wb2MvYy9jLmMucG5AblMvYy9jL2MvYy8QbyBvMG9jL2MvYy9jLmMucG5AblMvYy9jL2MvYy+TL6Mvsy9jL2MvYy9jLmMucG5AblMvYy9jL2MvYy9jL2MvYy9jL2MvYy9jLmMucG5AblMvYy9jL2MvYy9jL2MvYy9jL2MvYy9jLmMucG5AblMvYy9jL2MvYy9jL2MvYy9jL2MvYy9jLmMucG5AblMvYy9jL2MvYy9jL2MvYy9jL2MvYy9jLmMucG5AblMvYy9jL2MvYy9jL2MvYy9jL2MvYy9jLmMucG5AblMvYy9jL2MvYy9jL2MvYy9jL2MvYy9jLmMucG5AblMvYy9jL2MvYy9jL2MvYy9jL2MvYy9jLmMucG5AblMvYy9jL2MvYy9jL2MvYy9jL2MvYy9jLmMucG5AblMvYy9jL2MvYy9jL2MvYy9jL2MvYy9jLmMucG7AbtMvYy9jL2MvYy9jL2MvYy9jL2MvYy9jLuMu8GAQYBBgEGAQYBBv82+DL4Mvgy9zYBBgEGAQYBBgEG",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

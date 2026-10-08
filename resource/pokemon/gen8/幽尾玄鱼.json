@@ -1,0 +1,109 @@
+{
+	"id": 902,
+	"name": "[902]幽尾玄鱼",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 30,
+	"weight": 1100,
+	"egg_groups": [
+		"水2组"
+	],
+	"abilities": [
+		{
+			"id": 33,
+			"name": "[033]特性33"
+		},
+		{
+			"id": 91,
+			"name": "[091]特性91"
+		},
+		{
+			"id": 104,
+			"name": "[104]特性104"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 453,
+			"name": "[453]水流喷射",
+			"type": "level",
+			"level": 6
+		},
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 506,
+			"name": "[506]祸不单行",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 428,
+			"name": "[428]意念头锤",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 242,
+			"name": "[242]咬碎",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 247,
+			"name": "[247]暗影球",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 834,
+			"name": "[834]波动冲",
+			"type": "level",
+			"level": 34
+		},
+		{
+			"id": 38,
+			"name": "[38]舍身冲撞",
+			"type": "level",
+			"level": 43
+		}
+	],
+	"types": [
+		"WATER",
+		"GHOST"
+	],
+	"stats": {
+		"hp": 120,
+		"attack": 112,
+		"defense": 65,
+		"speed": 80,
+		"sp_attack": 75,
+		"sp_defense": 78
+	},
+	"yields": {
+		"ev_hp": 3,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

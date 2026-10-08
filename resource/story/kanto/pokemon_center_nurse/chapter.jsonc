@@ -1,0 +1,43 @@
+{
+  "id": "kanto.common.pokemon_center_nurse",
+  "version": 1,
+  "enabled": true,
+  "startNode": "nurse",
+  "triggers": [
+    {
+      "type": "NPC",
+      "mapSuffix": "PokemonCenter_1F",
+      "scriptSuffix": "EventScript_Nurse",
+      "startNode": "nurse"
+    }
+  ],
+  "actors": {},
+  "resources": {},
+  "nodes": {
+    "nurse": {
+      "actions": [
+        {"type": "YES_NO", "text": "greeting", "yes": "heal_prompt", "no": "goodbye"}
+      ]
+    },
+    "heal_prompt": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "accept"},
+        {"type": "HEAL_PARTY"},
+        {"type": "DIALOGUE", "text": "healed"},
+        {"type": "GOTO", "node": "goodbye"}
+      ]
+    },
+    "goodbye": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "goodbye"},
+        {"type": "CLOSE_SCENE"}
+      ]
+    }
+  },
+  "text": {
+    "greeting": 271001323,
+    "accept": 271001448,
+    "healed": 271001496,
+    "goodbye": 271001563
+  }
+}

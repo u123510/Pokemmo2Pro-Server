@@ -1,0 +1,109 @@
+{
+	"id": 905,
+	"name": "[905]眷恋云",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 16,
+	"weight": 480,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 56,
+			"name": "[056]特性56"
+		},
+		{
+			"id": 56,
+			"name": "[056]特性56"
+		},
+		{
+			"id": 126,
+			"name": "[126]特性126"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 239,
+			"name": "[239]龙卷风",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 577,
+			"name": "[577]吸取之吻",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 334,
+			"name": "[334]铁壁",
+			"type": "level",
+			"level": 22
+		},
+		{
+			"id": 326,
+			"name": "[326]神通力",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 242,
+			"name": "[242]咬碎",
+			"type": "level",
+			"level": 41
+		},
+		{
+			"id": 585,
+			"name": "[585]月亮之力",
+			"type": "level",
+			"level": 47
+		},
+		{
+			"id": 831,
+			"name": "[831]阳春风暴",
+			"type": "level",
+			"level": 52
+		}
+	],
+	"types": [
+		"FAIRY",
+		"FLYING"
+	],
+	"stats": {
+		"hp": 74,
+		"attack": 115,
+		"defense": 70,
+		"speed": 135,
+		"sp_attack": 80,
+		"sp_defense": 106
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 3,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

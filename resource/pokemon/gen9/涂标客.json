@@ -1,0 +1,139 @@
+{
+	"id": 945,
+	"name": "[945]涂标客",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 7,
+	"weight": 272,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 84,
+			"name": "[084]特性84"
+		},
+		{
+			"id": 143,
+			"name": "[143]特性143"
+		},
+		{
+			"id": 158,
+			"name": "[158]特性158"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 10,
+			"name": "[10]抓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 43,
+			"name": "[43]瞪眼",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 491,
+			"name": "[491]酸液炸弹",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 154,
+			"name": "[154]乱抓",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 415,
+			"name": "[415]掉包",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 305,
+			"name": "[305]剧毒牙",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 260,
+			"name": "[260]吹捧",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 163,
+			"name": "[163]劈开",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 369,
+			"name": "[369]急速折返",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 398,
+			"name": "[398]毒击",
+			"type": "level",
+			"level": 33
+		},
+		{
+			"id": 269,
+			"name": "[269]挑衅",
+			"type": "level",
+			"level": 37
+		},
+		{
+			"id": 164,
+			"name": "[164]替身",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 282,
+			"name": "[282]拍落",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 441,
+			"name": "[441]垃圾射击",
+			"type": "level",
+			"level": 51
+		}
+	],
+	"types": [
+		"POISON",
+		"NORMAL"
+	],
+	"stats": {
+		"hp": 63,
+		"attack": 95,
+		"defense": 65,
+		"speed": 80,
+		"sp_attack": 72,
+		"sp_defense": 110
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 2
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

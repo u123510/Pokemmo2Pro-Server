@@ -1,0 +1,139 @@
+{
+	"id": 991,
+	"name": "[991]铁包袱",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 6,
+	"weight": 110,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 217,
+			"name": "[217]礼物",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 181,
+			"name": "[181]细雪",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 250,
+			"name": "[250]潮旋",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 36,
+			"name": "[36]猛撞",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 65,
+			"name": "[65]啄钻",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 270,
+			"name": "[270]帮助",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 573,
+			"name": "[573]冷冻干燥",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 812,
+			"name": "[812]快速折返",
+			"type": "level",
+			"level": 49
+		},
+		{
+			"id": 58,
+			"name": "[58]冰冻光束",
+			"type": "level",
+			"level": 56
+		},
+		{
+			"id": 97,
+			"name": "[97]高速移动",
+			"type": "level",
+			"level": 63
+		},
+		{
+			"id": 883,
+			"name": "[883]雪景",
+			"type": "level",
+			"level": 70
+		},
+		{
+			"id": 56,
+			"name": "[56]水炮",
+			"type": "level",
+			"level": 77
+		},
+		{
+			"id": 694,
+			"name": "[694]极光幕",
+			"type": "level",
+			"level": 84
+		},
+		{
+			"id": 59,
+			"name": "[59]暴风雪",
+			"type": "level",
+			"level": 91
+		}
+	],
+	"types": [
+		"ICE",
+		"WATER"
+	],
+	"stats": {
+		"hp": 56,
+		"attack": 80,
+		"defense": 114,
+		"speed": 124,
+		"sp_attack": 60,
+		"sp_defense": 136
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 3
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

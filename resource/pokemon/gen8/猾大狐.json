@@ -1,0 +1,132 @@
+{
+	"id": 828,
+	"name": "[828]猾大狐",
+	"exp_type": 4,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 12,
+	"weight": 199,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 50,
+			"name": "[050]特性50"
+		},
+		{
+			"id": 84,
+			"name": "[084]特性84"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 39,
+			"name": "[39]摇尾巴",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 98,
+			"name": "[98]电光一闪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 168,
+			"name": "[168]小偷",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 251,
+			"name": "[251]围攻",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 468,
+			"name": "[468]磨爪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 555,
+			"name": "[555]大声咆哮",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 372,
+			"name": "[372]恶意追击",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 417,
+			"name": "[417]诡计",
+			"type": "level",
+			"level": 22
+		},
+		{
+			"id": 389,
+			"name": "[389]突袭",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 400,
+			"name": "[400]暗袭要害",
+			"type": "level",
+			"level": 34
+		},
+		{
+			"id": 541,
+			"name": "[541]扫尾拍打",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 492,
+			"name": "[492]欺诈",
+			"type": "level",
+			"level": 46
+		},
+		{
+			"id": 575,
+			"name": "[575]抛下狠话",
+			"type": "level",
+			"level": 52
+		}
+	],
+	"types": [
+		"DARK"
+	],
+	"stats": {
+		"hp": 70,
+		"attack": 58,
+		"defense": 58,
+		"speed": 87,
+		"sp_attack": 92,
+		"sp_defense": 90
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 2,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

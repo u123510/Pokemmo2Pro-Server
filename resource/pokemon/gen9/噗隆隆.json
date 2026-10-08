@@ -1,0 +1,152 @@
+{
+	"id": 965,
+	"name": "[965]噗隆隆",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 10,
+	"weight": 350,
+	"egg_groups": [
+		"矿物组"
+	],
+	"abilities": [
+		{
+			"id": 142,
+			"name": "[142]特性142"
+		},
+		{
+			"id": 142,
+			"name": "[142]特性142"
+		},
+		{
+			"id": 112,
+			"name": "[112]特性112"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 966,
+			"name": "[966]普隆隆姆",
+			"type": "LEVEL",
+			"val": 40
+		}
+	],
+	"moves": [
+		{
+			"id": 122,
+			"name": "[122]舌舔",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 139,
+			"name": "[139]毒瓦斯",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 123,
+			"name": "[123]浊雾",
+			"type": "level",
+			"level": 4
+		},
+		{
+			"id": 269,
+			"name": "[269]挑衅",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 372,
+			"name": "[372]恶意追击",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 124,
+			"name": "[124]污泥攻击",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 360,
+			"name": "[360]陀螺球",
+			"type": "level",
+			"level": 17
+		},
+		{
+			"id": 29,
+			"name": "[29]头锤",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 103,
+			"name": "[103]刺耳声",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 442,
+			"name": "[442]铁头",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 207,
+			"name": "[207]虚张声势",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 398,
+			"name": "[398]毒击",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 253,
+			"name": "[253]吵闹",
+			"type": "level",
+			"level": 41
+		},
+		{
+			"id": 859,
+			"name": "[859]疾速转轮",
+			"type": "level",
+			"level": 46
+		},
+		{
+			"id": 441,
+			"name": "[441]垃圾射击",
+			"type": "level",
+			"level": 50
+		}
+	],
+	"types": [
+		"STEEL",
+		"POISON"
+	],
+	"stats": {
+		"hp": 45,
+		"attack": 70,
+		"defense": 63,
+		"speed": 30,
+		"sp_attack": 45,
+		"sp_defense": 47
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 1,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

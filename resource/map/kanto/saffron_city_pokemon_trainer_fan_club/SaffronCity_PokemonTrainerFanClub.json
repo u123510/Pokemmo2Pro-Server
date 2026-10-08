@@ -1,0 +1,286 @@
+{
+  "regionId": 0,
+  "bankId": 14,
+  "mapId": 9,
+  "width": 11,
+  "height": 17,
+  "paletteIdx1": 12,
+  "paletteIdx2": 52,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 314,
+  "unknownByte": 98,
+  "borderTiles": [
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "SaffronCity_PokemonTrainerFanClub_OnTransition",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_MAP_SCENE_SAFFRON_CITY_POKEMON_TRAINER_FAN_CLUB",
+      "value": 1,
+      "script": "SaffronCity_PokemonTrainerFanClub_EventScript_MeetFirstFans"
+    }
+  ],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 5,
+      "y": 15,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 10,
+      "targetX": 47,
+      "targetY": 21,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 24,
+      "x": 7,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "SaffronCity_PokemonTrainerFanClub_EventScript_CrushGirl",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 17,
+      "x": 6,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SaffronCity_PokemonTrainerFanClub_EventScript_LittleGirl",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 18,
+      "x": 3,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "SaffronCity_PokemonTrainerFanClub_EventScript_Youngster",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 61,
+      "x": 3,
+      "y": 12,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "SaffronCity_PokemonTrainerFanClub_EventScript_Gentleman",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 31,
+      "x": 9,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SaffronCity_PokemonTrainerFanClub_EventScript_Woman",
+      "hideFlag": "kanto/FLAG_HIDE_SAFFRON_FAN_CLUB_WOMAN",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 26,
+      "x": 7,
+      "y": 12,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "SaffronCity_PokemonTrainerFanClub_EventScript_Rocker",
+      "hideFlag": "kanto/FLAG_HIDE_SAFFRON_FAN_CLUB_ROCKER",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 29,
+      "x": 9,
+      "y": 12,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "SaffronCity_PokemonTrainerFanClub_EventScript_Beauty",
+      "hideFlag": "kanto/FLAG_HIDE_SAFFRON_FAN_CLUB_BEAUTY",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 54,
+      "x": 5,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SaffronCity_PokemonTrainerFanClub_EventScript_BlackBelt",
+      "hideFlag": "kanto/FLAG_HIDE_SAFFRON_FAN_CLUB_BLACK_BELT",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 0,
+      "x": 2,
+      "y": 1,
+      "elevation": 0,
+      "movementType": "INVISIBLE",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SaffronCity_PokemonTrainerFanClub_EventScript_PokemonJournalBruno",
+      "hideFlag": "kanto/FLAG_HIDE_POSTGAME_GOSSIPERS",
+      "rawMovementType": 76
+    },
+    {
+      "entityIdx": 9,
+      "graphicsId": 0,
+      "x": 3,
+      "y": 1,
+      "elevation": 0,
+      "movementType": "INVISIBLE",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SaffronCity_PokemonTrainerFanClub_EventScript_PokemonJournalBruno",
+      "hideFlag": "kanto/FLAG_HIDE_POSTGAME_GOSSIPERS",
+      "rawMovementType": 76
+    }
+  ],
+  "blockData": "mAaZBpgGmQayBoIGggaCBoIGsga/BqAGoQagBqEGugaKBooGigaKBroGNQSoMqkyqDKpMgozkjKSMpIykjKSMs8ykDKIMpoymzKbMpsymzKbMpwyiDKIMg8HiDK1MsAynQaeBp8GwTK2MogyEAfpBogytTLIMqUGpganBskytjKIMukGDweIMqoyqzKrMqsyqzKrMqwyiDIQB+kGiDKIMogyiDKIMogyiDKIMogy6Qa9Br4GxAaIMogyiDKIMogy0AayBrIGxQbGBswGDDOIMogyiDKIMtgGtAa0Bs0yzjKSMgsziDKIMogyiDKSMrwyvDKQMogymjKbMpsymzKbMpsynDKIMogyDweIMrUywDKdBp4GnwbBMrYyiDIQB+kGiDK1MsgypQamBqcGyTK2Mogy6QYPB4gyqjKrMqsyqzKrMqsyrDKIMhAH6QaIMogyiDKtMq4yrzKIMogyiDLpBggECAQIBAgEGgQbBBwECAQIBAgECAQ=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAAAAAAAAAAAAAA=="
+}

@@ -1,0 +1,189 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 68,
+  "width": 17,
+  "height": 33,
+  "paletteIdx1": 100,
+  "paletteIdx2": 119,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 438,
+  "unknownByte": 83,
+  "borderTiles": [
+    {
+      "material": 729,
+      "collision": 0
+    },
+    {
+      "material": 729,
+      "collision": 0
+    },
+    {
+      "material": 729,
+      "collision": 0
+    },
+    {
+      "material": 729,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "AncientTomb_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 8,
+      "y": 20,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "AncientTomb_EventScript_CaveEntranceMiddle"
+    },
+    {
+      "x": 7,
+      "y": 20,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "AncientTomb_EventScript_CaveEntranceSide"
+    },
+    {
+      "x": 9,
+      "y": 20,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "AncientTomb_EventScript_CaveEntranceSide"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 8,
+      "y": 29,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 35,
+      "targetX": 7,
+      "targetY": 55,
+      "targetElevation": 0
+    },
+    {
+      "x": 8,
+      "y": 20,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 68,
+      "targetX": 8,
+      "targetY": 11,
+      "targetElevation": 2
+    },
+    {
+      "x": 8,
+      "y": 11,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 68,
+      "targetX": 8,
+      "targetY": 20,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 202,
+      "x": 8,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "AncientTomb_EventScript_Registeel",
+      "hideFlag": "hoenn/FLAG_HIDE_REGISTEEL",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "2QLTBuEG4QbhBuEG4QbhBuEG4QbhBuEG4QbhBuEG1AbZAtkCCQfTBuEG4QbhBuEG4QbhBuEG4QbhBuEG4QbUBggH2QLTBhEH2gYbBhkGGQYZBhkGGQYZBhkGGQYZBhwGCAcQB9QGCQfTBuIGEgYBMgEyATIBMgEyATIBMgEyATIQBhAH1AYIBwkH2gYbBhoGATIBMtU2ATIBMgEy1TYBMgEyGAYcBggHCAcJB9oGEgYBMgEyATIBMgEyATIBMgEyATIBMgEyEAYIBwgHCQfaBhIGATIBMgEyATIBMgEyATIBMgEyATIBMhAGCAcIBwkH2gYSBgEy1TYBMgEyATIBMgEyATIBMtU2ATIQBggHCAcJB9oGEgYBMgEyATIBMgEyATIBMgEyATIBMgEyEAYIBwgHCQfaBhIGATIBMgEyATIBMgEyATIBMgEyATIBMhAGCAcIBwkH2gYjBgoGATIBMtU2ATIBMgEy1TYBMgEyCAYkBggHCAcJB9sG0gYSBgEyATIBMgEyBzIBMgEyATIBMhAG0AbcBggH2wYBB9oGIwYJBgkGCQZYBlkGWgYJBgkGCQYkBtgGAAfcBtkC2gbbBtEC0QLRAtEC0QLRAtEC0QLRAtEC0QLcBtgG2QLZAtsG0QLRAtEC0QLRAtEC0QLRAtEC0QLRAtEC0QLcBtkC2QLZAtkC2QLZAtkC2QLZAtkC2QLZAtkC2QLZAtkC2QLZAtkC2QLZAtkC2QLZAtkC2QLZAtkC2QLZAtkC2QLZAtkC2QLZAtkC2QLZAtkC2QLZAtkC2QLZAtkC2QLZAtkC2QLZAtkC2QLTBuEG4QbhBuEG4wY2BjYGNgbkBuEG4QbhBuEG1AbZAtkCCQfTBuEG4QbjBikGKgYrBiwGKQbkBuEG4QbUBggH2QLTBhEH2gYbBhkGKQYpBjIGMwI0BikGKQYZBhwGCAcQB9QGCQfTBuIGEgYBMgEyATIBMgEyATIBMgEyATIQBhAH1AYIBwkH2gYbBhoGATIBMgEyATIBMgEyATIBMgEyGAYcBggHCAcJB9oGEgYBMgEyATIBMgEyATIBMgEyATIBMgEyEAYIBwgHCQfaBhIGATIBMgEyATIBMgEyATIBMgEyATIBMhAGCAcIBwkH2gYSBgEyATIBMgEyATIBMgEyATIBMgEyATIQBggHCAcJB9oGEgYBMgEyATIBMgEyATIBMgEyATIBMgEyEAYIBwgHCQfaBhIGATIBMgEyATIBMgEyATIBMgEyATIBMhAGCAcIBwkH2gYjBgoGATIBMgEyATIBMgEyATIBMgEyCAYkBggHCAcJB9sG0gYSBgEyATIBMgEyBzIBMgEyATIBMhAG0AbcBggH2wYBB9oGIwYJBgkGCQZYBlkGWgYJBgkGCQYkBtgGAAfcBtkC2gbbBtEC0QLRAtEC0QLRAtEC0QLRAtEC0QLcBtgG2QLZAtsG0QLRAtEC0QLRAtEC0QLRAtEC0QLRAtEC0QLcBtkC",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

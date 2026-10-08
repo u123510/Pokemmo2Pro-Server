@@ -1,0 +1,138 @@
+{
+	"id": 897,
+	"name": "[897]灵幽马",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 20,
+	"weight": 445,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 39,
+			"name": "[39]摇尾巴",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 24,
+			"name": "[24]二连踢",
+			"type": "level",
+			"level": 6
+		},
+		{
+			"id": 506,
+			"name": "[506]祸不单行",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 23,
+			"name": "[23]踩踏",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 109,
+			"name": "[109]奇异之光",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 114,
+			"name": "[114]黑雾",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 247,
+			"name": "[247]暗影球",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 36,
+			"name": "[36]猛撞",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 97,
+			"name": "[97]高速移动",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 37,
+			"name": "[37]大闹一番",
+			"type": "level",
+			"level": 54
+		},
+		{
+			"id": 50,
+			"name": "[50]定身法",
+			"type": "level",
+			"level": 60
+		},
+		{
+			"id": 38,
+			"name": "[38]舍身冲撞",
+			"type": "level",
+			"level": 66
+		},
+		{
+			"id": 417,
+			"name": "[417]诡计",
+			"type": "level",
+			"level": 72
+		}
+	],
+	"types": [
+		"GHOST"
+	],
+	"stats": {
+		"hp": 100,
+		"attack": 65,
+		"defense": 60,
+		"speed": 145,
+		"sp_attack": 80,
+		"sp_defense": 130
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 3,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

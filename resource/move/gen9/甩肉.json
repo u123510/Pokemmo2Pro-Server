@@ -1,0 +1,33 @@
+{
+	"moveIndexId": 868,
+	"movePokemonType": "NORMAL",
+	"moveDamageType": "STATUS",
+	"moveBasePower": 0,
+	"isTrueDamage": false,
+	"moveTargetType": "SELF_AND_ALL_TEAM_MEMBER",
+	"moveBasePp": 10,
+	"moveBaseAccuracy": 0,
+	"movePriority": 0,
+	"moveAdditionChangeStatEffectTriggerRatio": 0,
+	"moveAdditionEffectChangeStatLevel": 0,
+	"isUserTriggerAdditionChangeStatEffect": false,
+	"moveChangeStatTypeArray": [
+		0,
+		0,
+		0
+	],
+	"moveChangeStatLevelArray": [
+		0,
+		0,
+		0
+	],
+	"moveChangeStatRatioArray": [
+		0,
+		0,
+		0
+	],
+	"moveInfoFlag": 0,
+	"moveBossInfoFlag": 0,
+	"moveHpRecoverRatio": 0,
+	"moveHpRecoverByDamageRatio": 0
+}

@@ -1,0 +1,176 @@
+{
+	"id": 1045,
+	"name": "[1045]乌贼王",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 15,
+	"weight": 470,
+	"egg_groups": [
+		"水1组",
+		"水2组"
+	],
+	"abilities": [
+		{
+			"id": 126,
+			"name": "[126]特性126"
+		},
+		{
+			"id": 21,
+			"name": "[021]特性21"
+		},
+		{
+			"id": 151,
+			"name": "[151]特性151"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 64,
+			"name": "[64]啄",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 132,
+			"name": "[132]缠绕",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 179,
+			"name": "[179]起死回生",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 276,
+			"name": "[276]蛮力",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 115,
+			"name": "[115]反射壁",
+			"type": "level",
+			"level": 4
+		},
+		{
+			"id": 492,
+			"name": "[492]欺诈",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 207,
+			"name": "[207]虚张声势",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 149,
+			"name": "[149]精神波",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 576,
+			"name": "[576]颠倒",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 95,
+			"name": "[95]催眠术",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 60,
+			"name": "[60]幻象光线",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 415,
+			"name": "[415]掉包",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 371,
+			"name": "[371]以牙还牙",
+			"type": "level",
+			"level": 27
+		},
+		{
+			"id": 113,
+			"name": "[113]光墙",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 365,
+			"name": "[365]啄食",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 427,
+			"name": "[427]精神利刃",
+			"type": "level",
+			"level": 39
+		},
+		{
+			"id": 163,
+			"name": "[163]劈开",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 400,
+			"name": "[400]暗袭要害",
+			"type": "level",
+			"level": 46
+		},
+		{
+			"id": 276,
+			"name": "[276]蛮力",
+			"type": "level",
+			"level": 48
+		}
+	],
+	"types": [
+		"DARK",
+		"PSYCHIC"
+	],
+	"stats": {
+		"hp": 86,
+		"attack": 92,
+		"defense": 88,
+		"speed": 68,
+		"sp_attack": 75,
+		"sp_defense": 73
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 2,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

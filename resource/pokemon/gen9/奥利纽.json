@@ -1,0 +1,140 @@
+{
+	"id": 929,
+	"name": "[929]奥利纽",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 6,
+	"weight": 119,
+	"egg_groups": [
+		"植物组"
+	],
+	"abilities": [
+		{
+			"id": 48,
+			"name": "[048]特性48"
+		},
+		{
+			"id": 48,
+			"name": "[048]特性48"
+		},
+		{
+			"id": 139,
+			"name": "[139]特性139"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 930,
+			"name": "[930]奥利瓦",
+			"type": "LEVEL",
+			"val": 35
+		}
+	],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 230,
+			"name": "[230]甜甜香气",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 71,
+			"name": "[71]吸取",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 74,
+			"name": "[74]生长",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 75,
+			"name": "[75]飞叶快刀",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 270,
+			"name": "[270]帮助",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 175,
+			"name": "[175]抓狂",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 72,
+			"name": "[72]超级吸取",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 580,
+			"name": "[580]青草场地",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 402,
+			"name": "[402]种子炸弹",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 412,
+			"name": "[412]能量球",
+			"type": "level",
+			"level": 34
+		},
+		{
+			"id": 73,
+			"name": "[73]寄生种子",
+			"type": "level",
+			"level": 37
+		},
+		{
+			"id": 805,
+			"name": "[805]大地波动",
+			"type": "level",
+			"level": 42
+		}
+	],
+	"types": [
+		"GRASS",
+		"NORMAL"
+	],
+	"stats": {
+		"hp": 52,
+		"attack": 53,
+		"defense": 60,
+		"speed": 78,
+		"sp_attack": 78,
+		"sp_defense": 33
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 2,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

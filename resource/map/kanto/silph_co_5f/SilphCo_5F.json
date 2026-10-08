@@ -1,0 +1,458 @@
+{
+  "regionId": 0,
+  "bankId": 1,
+  "mapId": 51,
+  "width": 36,
+  "height": 22,
+  "paletteIdx1": 12,
+  "paletteIdx2": 45,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 307,
+  "unknownByte": 134,
+  "borderTiles": [
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 13,
+      "y": 16,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "0x0"
+    },
+    {
+      "x": 8,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SilphCo_5F_EventScript_Door1"
+    },
+    {
+      "x": 8,
+      "y": 10,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SilphCo_5F_EventScript_Door1"
+    },
+    {
+      "x": 8,
+      "y": 18,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SilphCo_5F_EventScript_Door2"
+    },
+    {
+      "x": 8,
+      "y": 19,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SilphCo_5F_EventScript_Door2"
+    },
+    {
+      "x": 19,
+      "y": 13,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SilphCo_5F_EventScript_Door3"
+    },
+    {
+      "x": 19,
+      "y": 14,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SilphCo_5F_EventScript_Door3"
+    },
+    {
+      "x": 7,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SilphCo_5F_EventScript_Door1"
+    },
+    {
+      "x": 7,
+      "y": 10,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SilphCo_5F_EventScript_Door1"
+    },
+    {
+      "x": 7,
+      "y": 19,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SilphCo_5F_EventScript_Door2"
+    },
+    {
+      "x": 7,
+      "y": 18,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SilphCo_5F_EventScript_Door2"
+    },
+    {
+      "x": 18,
+      "y": 13,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SilphCo_5F_EventScript_Door3"
+    },
+    {
+      "x": 18,
+      "y": 14,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SilphCo_5F_EventScript_Door3"
+    },
+    {
+      "x": 28,
+      "y": 11,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SilphCo_5F_EventScript_PokemonReport3"
+    },
+    {
+      "x": 30,
+      "y": 13,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SilphCo_5F_EventScript_PokemonReport2"
+    },
+    {
+      "x": 25,
+      "y": 15,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SilphCo_5F_EventScript_PokemonReport1"
+    },
+    {
+      "x": 32,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "0x0"
+    },
+    {
+      "x": 29,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SilphCo_5F_EventScript_FloorSign"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 28,
+      "y": 2,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 50,
+      "targetX": 28,
+      "targetY": 2,
+      "targetElevation": 2
+    },
+    {
+      "x": 15,
+      "y": 7,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 49,
+      "targetX": 4,
+      "targetY": 6,
+      "targetElevation": 2
+    },
+    {
+      "x": 30,
+      "y": 2,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 52,
+      "targetX": 26,
+      "targetY": 2,
+      "targetElevation": 2
+    },
+    {
+      "x": 10,
+      "y": 20,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 55,
+      "targetX": 22,
+      "targetY": 18,
+      "targetElevation": 2
+    },
+    {
+      "x": 2,
+      "y": 20,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 49,
+      "targetX": 3,
+      "targetY": 20,
+      "targetElevation": 2
+    },
+    {
+      "x": 33,
+      "y": 5,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 53,
+      "targetX": 25,
+      "targetY": 17,
+      "targetElevation": 2
+    },
+    {
+      "x": 22,
+      "y": 3,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 58,
+      "targetX": 2,
+      "targetY": 5,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 49,
+      "x": 35,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "UP",
+      "script": "SilphCo_5F_EventScript_Grunt2",
+      "hideFlag": "kanto/FLAG_HIDE_SILPH_ROCKETS",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 26,
+      "x": 23,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "FACE_DOWN_AND_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "SilphCo_5F_EventScript_Dalton",
+      "hideFlag": "kanto/FLAG_HIDE_SILPH_ROCKETS",
+      "rawMovementType": 13
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 47,
+      "x": 16,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SilphCo_5F_EventScript_WorkerM",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 55,
+      "x": 11,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "SilphCo_5F_EventScript_Beau",
+      "hideFlag": "kanto/FLAG_HIDE_SILPH_ROCKETS",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 49,
+      "x": 9,
+      "y": 21,
+      "elevation": 2,
+      "movementType": "FACE_UP_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "UP",
+      "script": "SilphCo_5F_EventScript_Grunt1",
+      "hideFlag": "kanto/FLAG_HIDE_SILPH_ROCKETS",
+      "rawMovementType": 16
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 92,
+      "x": 4,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SilphCo_5F_EventScript_ItemProtein",
+      "hideFlag": "kanto/FLAG_HIDE_SILPH_CO_5F_PROTEIN",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 92,
+      "x": 1,
+      "y": 18,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SilphCo_5F_EventScript_ItemTM01",
+      "hideFlag": "kanto/FLAG_HIDE_SILPH_CO_5F_TM01",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 92,
+      "x": 22,
+      "y": 21,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SilphCo_5F_EventScript_ItemCardKey",
+      "hideFlag": "kanto/FLAG_HIDE_SILPH_CO_5F_CARD_KEY",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 55,
+      "x": 2,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "WALK_RIGHT_AND_LEFT",
+      "movementRangeX": 2,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SilphCo_5F_EventScript_Scientist",
+      "hideFlag": "",
+      "rawMovementType": 28
+    }
+  ],
+  "blockData": "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",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

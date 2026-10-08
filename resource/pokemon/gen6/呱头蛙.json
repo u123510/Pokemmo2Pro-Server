@@ -1,0 +1,145 @@
+{
+	"id": 1095,
+	"name": "[1095]呱头蛙",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 32,
+	"height": 6,
+	"weight": 109,
+	"egg_groups": [
+		"水1组"
+	],
+	"abilities": [
+		{
+			"id": 67,
+			"name": "[067]特性67"
+		},
+		{
+			"id": 67,
+			"name": "[067]特性67"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 1096,
+			"name": "[1096]甲贺忍蛙",
+			"type": "LEVEL",
+			"val": 36
+		}
+	],
+	"moves": [
+		{
+			"id": 1,
+			"name": "[1]拍击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 145,
+			"name": "[145]泡沫",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 98,
+			"name": "[98]电光一闪",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 122,
+			"name": "[122]舌舔",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 352,
+			"name": "[352]水之波动",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 108,
+			"name": "[108]烟幕",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 496,
+			"name": "[496]轮唱",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 374,
+			"name": "[374]投掷",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 479,
+			"name": "[479]击落",
+			"type": "level",
+			"level": 33
+		},
+		{
+			"id": 164,
+			"name": "[164]替身",
+			"type": "level",
+			"level": 38
+		},
+		{
+			"id": 340,
+			"name": "[340]弹跳",
+			"type": "level",
+			"level": 44
+		},
+		{
+			"id": 104,
+			"name": "[104]影子分身",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 56,
+			"name": "[56]水炮",
+			"type": "level",
+			"level": 55
+		}
+	],
+	"types": [
+		"WATER"
+	],
+	"stats": {
+		"hp": 54,
+		"attack": 63,
+		"defense": 52,
+		"speed": 83,
+		"sp_attack": 56,
+		"sp_defense": 97
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 2
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

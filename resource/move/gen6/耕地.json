@@ -1,0 +1,33 @@
+{
+	"moveIndexId": 563,
+	"movePokemonType": "GROUND",
+	"moveDamageType": "STATUS",
+	"moveBasePower": 0,
+	"isTrueDamage": false,
+	"moveTargetType": "ONE_ENEMY_WHETHER_OR_NOT_ADJACENT",
+	"moveBasePp": 10,
+	"moveBaseAccuracy": 0,
+	"movePriority": 0,
+	"moveAdditionChangeStatEffectTriggerRatio": 0,
+	"moveAdditionEffectChangeStatLevel": 0,
+	"isUserTriggerAdditionChangeStatEffect": false,
+	"moveChangeStatTypeArray": [
+		0,
+		0,
+		0
+	],
+	"moveChangeStatLevelArray": [
+		0,
+		0,
+		0
+	],
+	"moveChangeStatRatioArray": [
+		0,
+		0,
+		0
+	],
+	"moveInfoFlag": 0,
+	"moveBossInfoFlag": 0,
+	"moveHpRecoverRatio": 0,
+	"moveHpRecoverByDamageRatio": 0
+}

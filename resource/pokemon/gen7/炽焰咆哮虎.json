@@ -1,0 +1,116 @@
+{
+	"id": 727,
+	"name": "[727]炽焰咆哮虎",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 31,
+	"height": 18,
+	"weight": 830,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 66,
+			"name": "[066]猛火"
+		},
+		{
+			"id": 66,
+			"name": "[066]猛火"
+		},
+		{
+			"id": 22,
+			"name": "[022]威吓"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 10,
+			"name": "[10]抓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 43,
+			"name": "[43]瞪眼",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 52,
+			"name": "[52]火花",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 421,
+			"name": "[421]暗影爪",
+			"type": "level",
+			"level": 17
+		},
+		{
+			"id": 53,
+			"name": "[53]喷射火焰",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 261,
+			"name": "[261]鬼火",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 242,
+			"name": "[242]咬碎",
+			"type": "level",
+			"level": 46
+		},
+		{
+			"id": 276,
+			"name": "[276]蛮力",
+			"type": "level",
+			"level": 52
+		},
+		{
+			"id": 394,
+			"name": "[394]闪焰冲锋",
+			"type": "level",
+			"level": 58
+		}
+	],
+	"types": [
+		"FIRE",
+		"DARK"
+	],
+	"stats": {
+		"hp": 65,
+		"attack": 107,
+		"defense": 76,
+		"speed": 65,
+		"sp_attack": 80,
+		"sp_defense": 71
+	},
+	"yields": {
+		"exp": 239,
+		"ev_hp": 0,
+		"ev_attack": 3,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

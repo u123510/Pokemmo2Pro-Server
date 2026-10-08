@@ -1,0 +1,162 @@
+{
+	"id": 772,
+	"name": "[772]属性：空",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 19,
+	"weight": 1205,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 4,
+			"name": "[004]特性4"
+		},
+		{
+			"id": 4,
+			"name": "[004]特性4"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 99,
+			"name": "[99]愤怒",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 228,
+			"name": "[228]追打",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 286,
+			"name": "[286]封印",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 332,
+			"name": "[332]燕返",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 306,
+			"name": "[306]撕裂爪",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 184,
+			"name": "[184]鬼面",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 404,
+			"name": "[404]十字剪",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 36,
+			"name": "[36]猛撞",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 319,
+			"name": "[319]金属音",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 442,
+			"name": "[442]铁头",
+			"type": "level",
+			"level": 50
+		},
+		{
+			"id": 458,
+			"name": "[458]二连击",
+			"type": "level",
+			"level": 55
+		},
+		{
+			"id": 403,
+			"name": "[403]空气斩",
+			"type": "level",
+			"level": 60
+		},
+		{
+			"id": 386,
+			"name": "[386]惩罚",
+			"type": "level",
+			"level": 65
+		},
+		{
+			"id": 13,
+			"name": "[13]旋风刀",
+			"type": "level",
+			"level": 70
+		},
+		{
+			"id": 161,
+			"name": "[161]三重攻击",
+			"type": "level",
+			"level": 75
+		},
+		{
+			"id": 38,
+			"name": "[38]舍身冲撞",
+			"type": "level",
+			"level": 80
+		},
+		{
+			"id": 377,
+			"name": "[377]回复封锁",
+			"type": "level",
+			"level": 85
+		}
+	],
+	"types": [
+		"NORMAL"
+	],
+	"stats": {
+		"hp": 95,
+		"attack": 95,
+		"defense": 95,
+		"speed": 95,
+		"sp_attack": 95,
+		"sp_defense": 59
+	},
+	"yields": {
+		"ev_hp": 2,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

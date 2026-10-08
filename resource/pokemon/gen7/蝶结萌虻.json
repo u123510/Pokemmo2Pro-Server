@@ -1,0 +1,146 @@
+{
+	"id": 743,
+	"name": "[743]蝶结萌虻",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 2,
+	"weight": 5,
+	"egg_groups": [
+		"妖精组",
+		"虫组"
+	],
+	"abilities": [
+		{
+			"id": 118,
+			"name": "[118]特性118"
+		},
+		{
+			"id": 19,
+			"name": "[019]特性19"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 71,
+			"name": "[71]吸取",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 78,
+			"name": "[78]麻痹粉",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 522,
+			"name": "[522]虫之抵抗",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 584,
+			"name": "[584]妖精之风",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 676,
+			"name": "[676]花粉团",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 584,
+			"name": "[584]妖精之风",
+			"type": "level",
+			"level": 4
+		},
+		{
+			"id": 78,
+			"name": "[78]麻痹粉",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 522,
+			"name": "[522]虫之抵抗",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 318,
+			"name": "[318]银色旋风",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 577,
+			"name": "[577]吸取之吻",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 230,
+			"name": "[230]甜甜香气",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 405,
+			"name": "[405]虫鸣",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 605,
+			"name": "[605]魔法闪耀",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 312,
+			"name": "[312]芳香治疗",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 483,
+			"name": "[483]蝶舞",
+			"type": "level",
+			"level": 49
+		}
+	],
+	"types": [
+		"BUG",
+		"FAIRY"
+	],
+	"stats": {
+		"hp": 60,
+		"attack": 55,
+		"defense": 60,
+		"speed": 95,
+		"sp_attack": 70,
+		"sp_defense": 124
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 2
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

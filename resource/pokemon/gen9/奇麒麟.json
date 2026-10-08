@@ -1,0 +1,151 @@
+{
+	"id": 981,
+	"name": "[981]奇麒麟",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 32,
+	"weight": 1600,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 157,
+			"name": "[157]特性157"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 310,
+			"name": "[310]惊吓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 384,
+			"name": "[384]力量互换",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 385,
+			"name": "[385]防守互换",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 93,
+			"name": "[93]念力",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 372,
+			"name": "[372]恶意追击",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 23,
+			"name": "[23]踩踏",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 60,
+			"name": "[60]幻象光线",
+			"type": "level",
+			"level": 19
+		},
+		{
+			"id": 97,
+			"name": "[97]高速移动",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 458,
+			"name": "[458]二连击",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 888,
+			"name": "[888]双光束",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 242,
+			"name": "[242]咬碎",
+			"type": "level",
+			"level": 37
+		},
+		{
+			"id": 226,
+			"name": "[226]接棒",
+			"type": "level",
+			"level": 41
+		},
+		{
+			"id": 417,
+			"name": "[417]诡计",
+			"type": "level",
+			"level": 46
+		},
+		{
+			"id": 94,
+			"name": "[94]精神强念",
+			"type": "level",
+			"level": 50
+		}
+	],
+	"types": [
+		"NORMAL",
+		"PSYCHIC"
+	],
+	"stats": {
+		"hp": 120,
+		"attack": 90,
+		"defense": 70,
+		"speed": 110,
+		"sp_attack": 70,
+		"sp_defense": 60
+	},
+	"yields": {
+		"ev_hp": 3,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

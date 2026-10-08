@@ -1,0 +1,220 @@
+{
+  "regionId": 0,
+  "bankId": 14,
+  "mapId": 4,
+  "width": 11,
+  "height": 9,
+  "paletteIdx1": 12,
+  "paletteIdx2": 20,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 314,
+  "unknownByte": 98,
+  "borderTiles": [
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 5,
+      "y": 4,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "SaffronCity_House_EventScript_Letter"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 3,
+      "y": 7,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 10,
+      "targetX": 27,
+      "targetY": 21,
+      "targetElevation": 0
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 10,
+      "targetX": 27,
+      "targetY": 21,
+      "targetElevation": 0
+    },
+    {
+      "x": 5,
+      "y": 7,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 10,
+      "targetX": 27,
+      "targetY": 21,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 116,
+      "x": 0,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "WANDER_UP_AND_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 4,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SaffronCity_House_EventScript_Pidgey",
+      "hideFlag": "",
+      "rawMovementType": 3
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 22,
+      "x": 4,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "SaffronCity_House_EventScript_Lass",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 18,
+      "x": 6,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SaffronCity_House_EventScript_Youngster",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 105,
+      "x": 5,
+      "y": 4,
+      "elevation": 0,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "0x0",
+      "hideFlag": "",
+      "rawMovementType": 7
+    }
+  ],
+  "blockData": "2ATZBK8EYQWbBKoEmwSbBGEFcAVxBeAE4QS3BGkFowQ1BKMEowRpBXgFeQXoMOkwvzCxMLEwujCxMLEwsTCxMLEwsTCpMKkwwzDEMMQwxDDEMMUwqTCpMLEwqTCpMMswxjDIBMkExzDNMKkwqTCxMKkwqTDLMMYw0ATRBMcwzTCpMKkw9jCpMKkw0zDUMNQw1DDUMNUwqTD1MP4EqTCpMN8w5zDvMKkwqTCpMKkw/QQIBAgECAQaBBsEHAQIBAgECAQIBAgE",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAAAAAAAAA"
+}

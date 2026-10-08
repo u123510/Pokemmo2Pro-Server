@@ -1,0 +1,298 @@
+{
+  "regionId": 1,
+  "bankId": 79,
+  "mapId": 5,
+  "width": 15,
+  "height": 22,
+  "paletteIdx1": 116,
+  "paletteIdx2": 153,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 448,
+  "unknownByte": 25,
+  "borderTiles": [
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "Route110_TrickHousePuzzle3_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [
+    {
+      "x": 4,
+      "y": 14,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle3_EventScript_Button1"
+    },
+    {
+      "x": 3,
+      "y": 11,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_2",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle3_EventScript_Button2"
+    },
+    {
+      "x": 12,
+      "y": 5,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_3",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle3_EventScript_Button3"
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_4",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle3_EventScript_Button4"
+    }
+  ],
+  "bgEvents": [
+    {
+      "x": 0,
+      "y": 14,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "Route110_TrickHousePuzzle3_EventScript_Scroll"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 0,
+      "y": 21,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 79,
+      "targetMapId": 0,
+      "targetX": 5,
+      "targetY": 2,
+      "targetElevation": 2
+    },
+    {
+      "x": 1,
+      "y": 21,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 79,
+      "targetMapId": 0,
+      "targetX": 5,
+      "targetY": 2,
+      "targetElevation": 2
+    },
+    {
+      "x": 13,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 79,
+      "targetMapId": 1,
+      "targetX": 10,
+      "targetY": 1,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 31,
+      "x": 7,
+      "y": 19,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "Route110_TrickHousePuzzle3_EventScript_Justin",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 32,
+      "x": 4,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "Route110_TrickHousePuzzle3_EventScript_Martha",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 55,
+      "x": 10,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "Route110_TrickHousePuzzle3_EventScript_Alan",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 59,
+      "x": 1,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "Route110_TrickHousePuzzle3_EventScript_ItemWoodMail",
+      "hideFlag": "hoenn/FLAG_ITEM_TRICK_HOUSE_PUZZLE_3_WOOD_MAIL",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 59,
+      "x": 4,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "Route110_TrickHousePuzzle3_EventScript_ItemShadowMail",
+      "hideFlag": "hoenn/FLAG_ITEM_TRICK_HOUSE_PUZZLE_3_SHADOW_MAIL",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 86,
+      "x": 1,
+      "y": 20,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_RockSmash",
+      "hideFlag": "hoenn/FLAG_TEMP_15",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 86,
+      "x": 2,
+      "y": 21,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_RockSmash",
+      "hideFlag": "hoenn/FLAG_TEMP_16",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "AQYBBgUGBgYBBgEGBQYGBgEGAQYFBgYGAgZvBgQGCQYJBg0GDgYJBgkGDQYOBgkGCQYNBg4GCgZ3NgwGJgYQMhAyJgYQMhAyJgYWMlgyJgYQMhYyJgYQMhAyLQY4MjkyLQYIMggyLQYIMggyLQYIMggyLQY4MjkyNQZABkEGNQYIMggyTQYIMggyOgYIMggyNQZABkEGcTIIMggycTIIMggyVTIIMggyQgYIMggyWDIIMggyHgZLMkwyHgY4MjkyHgYIMggyJgY4MjkyHgYIMggyNQZTMlQyTQZABkEGNQYIMggyIgZABkEGTQYIMggycTIIMggyCDIYMhkyVTIIMggyIgYIMggycTIIMggyHgZLMkwyHgYuBi8GHgY4MjkyLQYIMggyHgZLMkwyNQZTMlQyNQY2BjcGNQZABkEGNQYIMggyNQZTMlQycTIIMggyWDIIMggycTIIMggyVTIIMggyVTIIMggyHgY4MjkyHgY4MjkyHgYIMggyHgY4MjkyJgYIMggyNQZABkEGTQZABkEGNQYIMggyNQZABkEGIgYIMggyfgYYMhkyVTJYMggycTIYMhkycTIIMggyIgYIMggyHgYuBi8GHgZLMkwyJgYuBi8GHgYIMggyLQZLMkwyNQY2BjcGOgZTMlQyIgY2BjcGTQYIMggyNQZTMlQycTJxMnEyQgYIMggyIgZxMnEyVTIIMggyCDIIMggyHgYIMggyHgY4MjkyLQYIMggyHgY4MjkyHgYIMggyNQYIMggyNQZABkEGNQYIMggyNQZABkEGNQYIMggycTIIMggycTIIMggycTIIMggycTIIMggycTIIMggyETISMggyCDIIMggyCDIIMggyCDIIMggyCDIIMggy",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ0AAAAAAAAAAAAAAAAA"
+}

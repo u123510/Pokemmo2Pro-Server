@@ -1,0 +1,150 @@
+{
+	"id": 863,
+	"name": "[863]喵头目",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 8,
+	"weight": 280,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 4,
+			"name": "[004]特性4"
+		},
+		{
+			"id": 4,
+			"name": "[004]特性4"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 10,
+			"name": "[10]抓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 252,
+			"name": "[252]击掌奇袭",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 334,
+			"name": "[334]铁壁",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 368,
+			"name": "[368]金属爆炸",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 442,
+			"name": "[442]铁头",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 468,
+			"name": "[468]磨爪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 6,
+			"name": "[6]聚宝功",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 232,
+			"name": "[232]金属爪",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 269,
+			"name": "[269]挑衅",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 207,
+			"name": "[207]虚张声势",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 154,
+			"name": "[154]乱抓",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 103,
+			"name": "[103]刺耳声",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 163,
+			"name": "[163]劈开",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 319,
+			"name": "[319]金属音",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 37,
+			"name": "[37]大闹一番",
+			"type": "level",
+			"level": 54
+		}
+	],
+	"types": [
+		"STEEL"
+	],
+	"stats": {
+		"hp": 70,
+		"attack": 110,
+		"defense": 100,
+		"speed": 50,
+		"sp_attack": 60,
+		"sp_defense": 50
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 2,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

@@ -1,0 +1,44 @@
+# Gradle and build output
+.gradle/
+build/
+**/build/
+out/
+
+# IDE metadata
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# Runtime logs and local state
+*.log
+logs/
+/resource/npc/custom/.write.lock
+
+# Local/private credentials and certificates
+game.private
+chat.private
+*.key
+*.pem
+*.p12
+*.jks
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak*
+__pycache__/
+*.pyc
+
+# Local command output and binary fragments
+/Get
+/Run
+/Task
+/part*.bin

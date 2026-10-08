@@ -1,0 +1,175 @@
+{
+  "regionId": 0,
+  "bankId": 12,
+  "mapId": 2,
+  "width": 15,
+  "height": 11,
+  "paletteIdx1": 12,
+  "paletteIdx2": 21,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 279,
+  "unknownByte": 96,
+  "borderTiles": [
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 7,
+      "y": 9,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 12,
+      "targetMapId": 1,
+      "targetX": 13,
+      "targetY": 5,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 55,
+      "x": 5,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "CinnabarIsland_PokemonLab_Lounge_EventScript_Scientist",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 33,
+      "x": 4,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "CinnabarIsland_PokemonLab_Lounge_EventScript_Clifton",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 28,
+      "x": 10,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "CinnabarIsland_PokemonLab_Lounge_EventScript_Norma",
+      "hideFlag": "",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "aAT5BvoGawRsBBQHaQQkB2kEFAdrBGwE+Qb6BmoEcAQBBwIHcwR0BBwHcQQlB3EEHAdzBHQEAQcCB3IEeDAJMwozezB8MHkweTB5MHkweTB7MHwwCTMKM3owgjCBMIEwgTDsMu0y7TLtMu0y7TLuMoEwgTCBMIEw5TKBMIEwgTD3Mvgy4DbhNuI2+DLvMoEwgTCBMOQy3jKBMIEwgTD3MvMy6AbpBuoG8zLvMoEwgTCBMOMy5jKBMIEwgTD3Mvgy8AbxBvIG+DLvMoEwgTCBMOsygjCBMIEwgTD0MvUy9TL1MvUy9TL2MoEwgTCBMIEw3zKMMIEwgTCBMIEwgTCBMIEwgTCBMIEwgTCMMIww5zaUBIEwgTCBMIEwiDCJMIowgTCBMIEwgTCUBJQECAQIBAgECAQIBAgEGgQbBBwECAQIBAgECAQIBAgE",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

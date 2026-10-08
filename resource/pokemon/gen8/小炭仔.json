@@ -1,0 +1,121 @@
+{
+	"id": 837,
+	"name": "[837]小炭仔",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 3,
+	"weight": 120,
+	"egg_groups": [
+		"矿物组"
+	],
+	"abilities": [
+		{
+			"id": 85,
+			"name": "[085]特性85"
+		},
+		{
+			"id": 85,
+			"name": "[085]特性85"
+		},
+		{
+			"id": 18,
+			"name": "[018]特性18"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 838,
+			"name": "[838]大炭车",
+			"type": "LEVEL",
+			"val": 18
+		}
+	],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 108,
+			"name": "[108]烟幕",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 229,
+			"name": "[229]高速旋转",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 479,
+			"name": "[479]击落",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 397,
+			"name": "[397]岩石打磨",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 246,
+			"name": "[246]原始之力",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 510,
+			"name": "[510]烧尽",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 446,
+			"name": "[446]隐形岩",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 535,
+			"name": "[535]高温重压",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 350,
+			"name": "[350]岩石爆击",
+			"type": "level",
+			"level": 40
+		}
+	],
+	"types": [
+		"ROCK"
+	],
+	"stats": {
+		"hp": 30,
+		"attack": 40,
+		"defense": 50,
+		"speed": 40,
+		"sp_attack": 50,
+		"sp_defense": 30
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 1,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

@@ -1,0 +1,156 @@
+{
+  "regionId": 1,
+  "bankId": 76,
+  "mapId": 46,
+  "width": 6,
+  "height": 8,
+  "paletteIdx1": 116,
+  "paletteIdx2": 159,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 384,
+  "unknownByte": 58,
+  "borderTiles": [
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 2,
+      "y": 7,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 76,
+      "targetMapId": 4,
+      "targetX": 44,
+      "targetY": 5,
+      "targetElevation": 0
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 76,
+      "targetMapId": 4,
+      "targetX": 44,
+      "targetY": 5,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 219,
+      "x": 2,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "BattleFrontier_ScottsHouse_EventScript_Scott",
+      "hideFlag": "",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "uwe8B7sHvAe7B7wHwwfEB8MHxAfDB8QH0APLA8oDywPKA8sD0gPIA8kDyAPJA98D0QPJA8gDyQPIA9wD0gPIA8kDyAPJA+QH0QPJA8gDyQPIA8kDAQTRA7UztjPJAwEE",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQAA"
+}

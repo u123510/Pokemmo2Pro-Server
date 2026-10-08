@@ -1,0 +1,139 @@
+{
+	"id": 871,
+	"name": "[871]啪嚓海胆",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 3,
+	"weight": 10,
+	"egg_groups": [
+		"不定形组",
+		"水1组"
+	],
+	"abilities": [
+		{
+			"id": 31,
+			"name": "[031]特性31"
+		},
+		{
+			"id": 31,
+			"name": "[031]特性31"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 64,
+			"name": "[64]啄",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 84,
+			"name": "[84]电击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 55,
+			"name": "[55]水枪",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 268,
+			"name": "[268]充电",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 31,
+			"name": "[31]乱击",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 209,
+			"name": "[209]电光",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 61,
+			"name": "[61]泡沫光线",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 105,
+			"name": "[105]自我再生",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 174,
+			"name": "[174]诅咒",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 604,
+			"name": "[604]电气场地",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 398,
+			"name": "[398]毒击",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 716,
+			"name": "[716]麻麻刺刺",
+			"type": "level",
+			"level": 50
+		},
+		{
+			"id": 367,
+			"name": "[367]点穴",
+			"type": "level",
+			"level": 55
+		},
+		{
+			"id": 435,
+			"name": "[435]放电",
+			"type": "level",
+			"level": 60
+		}
+	],
+	"types": [
+		"ELECTRIC"
+	],
+	"stats": {
+		"hp": 48,
+		"attack": 101,
+		"defense": 95,
+		"speed": 91,
+		"sp_attack": 85,
+		"sp_defense": 15
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 2,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

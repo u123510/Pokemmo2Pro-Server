@@ -1,0 +1,157 @@
+{
+	"id": 719,
+	"name": "[719]蒂安希",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 7,
+	"weight": 88,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 29,
+			"name": "[029]特性29"
+		},
+		{
+			"id": 29,
+			"name": "[029]特性29"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 106,
+			"name": "[106]变硬",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 88,
+			"name": "[88]落石",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 159,
+			"name": "[159]棱角化",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 479,
+			"name": "[479]击落",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 115,
+			"name": "[115]反射壁",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 446,
+			"name": "[446]隐形岩",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 470,
+			"name": "[470]防守平分",
+			"type": "level",
+			"level": 27
+		},
+		{
+			"id": 246,
+			"name": "[246]原始之力",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 175,
+			"name": "[175]抓狂",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 285,
+			"name": "[285]特性互换",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 433,
+			"name": "[433]戏法空间",
+			"type": "level",
+			"level": 46
+		},
+		{
+			"id": 444,
+			"name": "[444]尖石攻击",
+			"type": "level",
+			"level": 49
+		},
+		{
+			"id": 585,
+			"name": "[585]月亮之力",
+			"type": "level",
+			"level": 50
+		},
+		{
+			"id": 591,
+			"name": "[591]钻石风暴",
+			"type": "level",
+			"level": 50
+		},
+		{
+			"id": 113,
+			"name": "[113]光墙",
+			"type": "level",
+			"level": 60
+		},
+		{
+			"id": 219,
+			"name": "[219]神秘守护",
+			"type": "level",
+			"level": 70
+		}
+	],
+	"types": [
+		"ROCK",
+		"FAIRY"
+	],
+	"stats": {
+		"hp": 50,
+		"attack": 100,
+		"defense": 150,
+		"speed": 100,
+		"sp_attack": 150,
+		"sp_defense": 50
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 1,
+		"ev_speed": 0,
+		"ev_sp_attack": 2,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

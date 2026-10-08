@@ -1,0 +1,81 @@
+{
+  "trainerTeams":
+  [
+    {
+      //青绿首次对战
+      "trainerTeamId": 0,
+      "trainerLevelType": "RivalTrainer",
+      "battleTeamType": "Trainer",
+      "trainerRegionIndexId": 0, //训练家的模型地区
+      "trainerModelIndexId": 328,//劲敌gray
+      "money": 80,
+      "battleTeams":
+      [
+        {
+          "teamName":"Oak_Lab_Green_Grass",
+          "pokemons":
+          [
+            {
+              //妙蛙种子
+              "pokemonIndexId": 1,
+              "containerPos": 0,
+              "level": 5,
+              //无修性格
+              "personalityValue": 0,
+              "pokemonIvs": [10, 10, 10, 10, 10, 10],
+              "pokemonEvs": [0, 0, 0, 0, 0, 0, 0],
+              "abilityIndexId": 0,
+              "moves": [33, 45, 0, 0],
+              "movesPp": [35, 40, 0, 0],
+              "item": 0,
+              "ballType": 3
+            }
+          ]
+        },
+        {
+          "teamName":"Oak_Lab_Green_Fire",
+          "pokemons":
+          [
+            {
+              //小火龙
+              "pokemonIndexId": 4,
+              "containerPos": 0,
+              "level": 5,
+              //无修性格
+              "personalityValue": 0,
+              "pokemonIvs": [10, 10, 10, 10, 10, 10],
+              "pokemonEvs": [0, 0, 0, 0, 0, 0, 0],
+              "ability": 0,
+              "moves": [10, 45, 0, 0],
+              "movesPp": [35, 40, 0, 0],
+              "item": 0,
+              "ballType": 3
+            }
+          ]
+        },
+        {
+          "teamName":"Oak_Lab_Green_Water",
+          "pokemons":
+          [
+            {
+              //杰尼龟
+              "pokemonIndexId": 7,
+              "containerPos": 0,
+              "level": 5,
+              //无修性格
+              "personalityValue": 0,
+              "pokemonIvs": [10, 10, 10, 10, 10, 10],
+              "pokemonEvs": [0, 0, 0, 0, 0, 0, 0],
+              "ability": 0,
+              "moves": [33, 39, 0, 0],
+              "movesPp": [35, 30, 0, 0],
+              "item": 0,
+              "ballType": 3
+            }
+          ]
+        }
+      ]
+    }
+
+  ]
+}

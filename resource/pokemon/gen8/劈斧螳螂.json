@@ -1,0 +1,115 @@
+{
+	"id": 900,
+	"name": "[900]劈斧螳螂",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 18,
+	"weight": 890,
+	"egg_groups": [
+		"虫组"
+	],
+	"abilities": [
+		{
+			"id": 68,
+			"name": "[068]特性68"
+		},
+		{
+			"id": 125,
+			"name": "[125]特性125"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 98,
+			"name": "[98]电光一闪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 318,
+			"name": "[318]银色旋风",
+			"type": "level",
+			"level": 6
+		},
+		{
+			"id": 332,
+			"name": "[332]燕返",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 446,
+			"name": "[446]隐形岩",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 458,
+			"name": "[458]二连击",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 403,
+			"name": "[403]空气斩",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 14,
+			"name": "[14]剑舞",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 830,
+			"name": "[830]岩斧",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 404,
+			"name": "[404]十字剪",
+			"type": "level",
+			"level": 34
+		},
+		{
+			"id": 370,
+			"name": "[370]近身战",
+			"type": "level",
+			"level": 43
+		}
+	],
+	"types": [
+		"BUG",
+		"ROCK"
+	],
+	"stats": {
+		"hp": 70,
+		"attack": 135,
+		"defense": 95,
+		"speed": 45,
+		"sp_attack": 70,
+		"sp_defense": 85
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 3,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

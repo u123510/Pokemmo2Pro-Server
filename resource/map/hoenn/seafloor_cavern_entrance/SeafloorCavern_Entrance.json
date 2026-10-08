@@ -1,0 +1,246 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 27,
+  "width": 20,
+  "height": 20,
+  "paletteIdx1": 100,
+  "paletteIdx2": 119,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 406,
+  "unknownByte": 68,
+  "borderTiles": [
+    {
+      "material": 753,
+      "collision": 0
+    },
+    {
+      "material": 753,
+      "collision": 0
+    },
+    {
+      "material": 753,
+      "collision": 0
+    },
+    {
+      "material": 753,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_SEAFLOOR_CAVERN_ENTRANCE",
+      "base_label": "gSeafloorCavern_Entrance",
+      "water_mons": {
+        "encounter_rate": 4,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 35,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 5,
+            "max_level": 35,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 30,
+            "max_level": 35,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 30,
+            "max_level": 35,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 30,
+            "max_level": 35,
+            "species": "SPECIES_GOLBAT"
+          }
+        ]
+      },
+      "fishing_mons": {
+        "encounter_rate": 10,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 10,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 10,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 10,
+            "max_level": 30,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 10,
+            "max_level": 30,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 10,
+            "max_level": 30,
+            "species": "SPECIES_WAILMER"
+          },
+          {
+            "min_level": 25,
+            "max_level": 30,
+            "species": "SPECIES_WAILMER"
+          },
+          {
+            "min_level": 30,
+            "max_level": 35,
+            "species": "SPECIES_WAILMER"
+          },
+          {
+            "min_level": 20,
+            "max_level": 25,
+            "species": "SPECIES_WAILMER"
+          },
+          {
+            "min_level": 35,
+            "max_level": 40,
+            "species": "SPECIES_WAILMER"
+          },
+          {
+            "min_level": 40,
+            "max_level": 45,
+            "species": "SPECIES_WAILMER"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 10,
+      "y": 18,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 53,
+      "targetX": 38,
+      "targetY": 26,
+      "targetElevation": 2
+    },
+    {
+      "x": 10,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 28,
+      "targetX": 5,
+      "targetY": 18,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 117,
+      "x": 10,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "SeafloorCavern_Entrance_EventScript_Grunt",
+      "hideFlag": "hoenn/FLAG_HIDE_SEAFLOOR_CAVERN_ENTRANCE_AQUA_GRUNT",
+      "rawMovementType": 7
+    }
+  ],
+  "blockData": "8QbxBvEG8QbxBvEG6wb5BvkGDgf+Bv8G+Qb5BuwG8QbxBvEG8QbxBvEG8QbxBvEG6wb5BhMH6wb5BhYHBjMHB/kG7AYSB/kG7AbxBvEG8QbxBvEG8QbxBgsH6wb5Bg0HJDEkMSQxJDEkMQwH+QbsBvAG8QbxBvEG8QbxBusG+QYTBwUHJDEkMSQxJDEkMSQxJDEkMSQxBAcSB+wG8QbxBvEG8QYLB+sG+QYNByQxJDEkMSQxJDEkMSQxJDEkMQwH7AbwBvEG8QbxBusGEwcFByQxJDEkMSQxJDEkMSQxJDEkMSQxJDEkMQQHEgf5BuwG8QYLB+sGDQckMSQxJDEkMSQxJDEkMSQxJDEkMSQxJDEMB/kG7AYKB/EGCwcFByQxJDEkMSQxJDEkMSQxJDEkMSQxJDEkMSQxJDEkMQQHCgfxBgsHBQckMSQxJDEkMSQxjjGmMaYxpjGNMSQxJDEkMSQxJDEEBwoH8QYLBwUHJDEkMSQxjjGmMacxnjGeMZ4xpTGmMY0xJDEkMSQxBAcKB/EGCwcFByQxJDGOMacxnjGeMZ4xnjGeMZ4xnjGlMY0xJDEkMQQHCgfxBgsHBQckMY4xpzGeMaQRvhG+Eb4RvhG+EaMRnjGlMY0xJDEEBwoH8QYLBwUHjjGnMZ4xpBG/EXARcBFwEXARcBG9EaMRnjGdMSQxBAcKB/EGCwcFB58xnjGkEb8RcBFwEXARcBFwEXARcBG9EaMRpTGNMQQHCgfxBgsHBQenMZ4xtxFwEXARcBFwEXARcBFwEXARcBG1EZ4xnTEEBwoH8QYLBwUHnjGeMbcRcBFwEXARcBFwEXARcBFwEXARtRGeMZ0xBAcKB/EG9AaQB6cGnjG3EXARcBFWEVYRVhFWEXARcBFwEbURrwaXBvMG8wbxBvEG8QaQB6cGtxFwEVYRlBKUEpQSlBJWEXARmAeQB5AH8QbxBvEG8QbxBvEG8QaQB5AHmQdWEZQSlBKUEpQSVhGYB5AH8QbxBvEG8QbxBvEG8QbxBvEG8QbxBpAHkAeQB5AHkAeQB5AHkAfxBvEG8QbxBvEG8QY=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+}

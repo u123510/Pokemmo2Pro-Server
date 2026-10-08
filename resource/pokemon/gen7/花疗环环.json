@@ -1,0 +1,168 @@
+{
+	"id": 764,
+	"name": "[764]花疗环环",
+	"exp_type": 4,
+	"obtainable": true,
+	"gender_ratio": 191,
+	"height": 1,
+	"weight": 3,
+	"egg_groups": [
+		"植物组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 30,
+			"name": "[030]特性30"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 22,
+			"name": "[22]藤鞭",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 270,
+			"name": "[270]帮助",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 579,
+			"name": "[579]鲜花防守",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 73,
+			"name": "[73]寄生种子",
+			"type": "level",
+			"level": 4
+		},
+		{
+			"id": 577,
+			"name": "[577]吸取之吻",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 345,
+			"name": "[345]魔法叶",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 74,
+			"name": "[74]生长",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 35,
+			"name": "[35]紧束",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 186,
+			"name": "[186]天使之吻",
+			"type": "level",
+			"level": 19
+		},
+		{
+			"id": 363,
+			"name": "[363]自然之恩",
+			"type": "level",
+			"level": 22
+		},
+		{
+			"id": 572,
+			"name": "[572]落英缤纷",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 235,
+			"name": "[235]光合作用",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 230,
+			"name": "[230]甜甜香气",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 447,
+			"name": "[447]打草结",
+			"type": "level",
+			"level": 34
+		},
+		{
+			"id": 666,
+			"name": "[666]花疗",
+			"type": "level",
+			"level": 37
+		},
+		{
+			"id": 80,
+			"name": "[80]花瓣舞",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 312,
+			"name": "[312]芳香治疗",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 580,
+			"name": "[580]青草场地",
+			"type": "level",
+			"level": 46
+		},
+		{
+			"id": 583,
+			"name": "[583]嬉闹",
+			"type": "level",
+			"level": 49
+		}
+	],
+	"types": [
+		"FAIRY"
+	],
+	"stats": {
+		"hp": 51,
+		"attack": 52,
+		"defense": 90,
+		"speed": 82,
+		"sp_attack": 110,
+		"sp_defense": 100
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 2,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

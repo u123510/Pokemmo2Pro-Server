@@ -1,0 +1,133 @@
+{
+	"id": 1015,
+	"name": "[1015]愿增猿",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 0,
+	"height": 10,
+	"weight": 122,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 119,
+			"name": "[119]特性119"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 10,
+			"name": "[10]抓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 93,
+			"name": "[93]念力",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 252,
+			"name": "[252]击掌奇袭",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 260,
+			"name": "[260]吹捧",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 270,
+			"name": "[270]帮助",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 60,
+			"name": "[60]幻象光线",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 499,
+			"name": "[499]清除之烟",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 398,
+			"name": "[398]毒击",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 94,
+			"name": "[94]精神强念",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 482,
+			"name": "[482]污泥波",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 417,
+			"name": "[417]诡计",
+			"type": "level",
+			"level": 56
+		},
+		{
+			"id": 248,
+			"name": "[248]预知未来",
+			"type": "level",
+			"level": 64
+		},
+		{
+			"id": 575,
+			"name": "[575]抛下狠话",
+			"type": "level",
+			"level": 72
+		}
+	],
+	"types": [
+		"POISON",
+		"PSYCHIC"
+	],
+	"stats": {
+		"hp": 88,
+		"attack": 75,
+		"defense": 66,
+		"speed": 130,
+		"sp_attack": 90,
+		"sp_defense": 106
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 3,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

@@ -1,0 +1,359 @@
+{
+  "regionId": 0,
+  "bankId": 1,
+  "mapId": 61,
+  "width": 38,
+  "height": 35,
+  "paletteIdx1": 12,
+  "paletteIdx2": 49,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 289,
+  "unknownByte": 135,
+  "borderTiles": [
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "CLOUDY",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_POKEMON_MANSION_3F",
+      "base_label": "sPokemonMansion3F_FireRed",
+      "land_mons": {
+        "encounter_rate": 7,
+        "mons": [
+          {
+            "min_level": 28,
+            "max_level": 28,
+            "species": "SPECIES_KOFFING"
+          },
+          {
+            "min_level": 32,
+            "max_level": 32,
+            "species": "SPECIES_RATICATE"
+          },
+          {
+            "min_level": 30,
+            "max_level": 30,
+            "species": "SPECIES_KOFFING"
+          },
+          {
+            "min_level": 36,
+            "max_level": 36,
+            "species": "SPECIES_RATICATE"
+          },
+          {
+            "min_level": 30,
+            "max_level": 30,
+            "species": "SPECIES_GROWLITHE"
+          },
+          {
+            "min_level": 28,
+            "max_level": 28,
+            "species": "SPECIES_RATTATA"
+          },
+          {
+            "min_level": 28,
+            "max_level": 28,
+            "species": "SPECIES_GRIMER"
+          },
+          {
+            "min_level": 32,
+            "max_level": 32,
+            "species": "SPECIES_WEEZING"
+          },
+          {
+            "min_level": 32,
+            "max_level": 32,
+            "species": "SPECIES_GROWLITHE"
+          },
+          {
+            "min_level": 26,
+            "max_level": 26,
+            "species": "SPECIES_RATTATA"
+          },
+          {
+            "min_level": 32,
+            "max_level": 32,
+            "species": "SPECIES_GROWLITHE"
+          },
+          {
+            "min_level": 26,
+            "max_level": 26,
+            "species": "SPECIES_RATTATA"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 8,
+      "y": 16,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "PokemonMansion_3F_EventScript_DiaryFeb6th"
+    },
+    {
+      "x": 12,
+      "y": 5,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "PokemonMansion_3F_EventScript_Statue"
+    },
+    {
+      "x": 36,
+      "y": 13,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "0x0"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 8,
+      "y": 3,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 60,
+      "targetX": 9,
+      "targetY": 3,
+      "targetElevation": 2
+    },
+    {
+      "x": 34,
+      "y": 18,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 60,
+      "targetX": 34,
+      "targetY": 22,
+      "targetElevation": 2
+    },
+    {
+      "x": 11,
+      "y": 11,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 60,
+      "targetX": 9,
+      "targetY": 14,
+      "targetElevation": 2
+    },
+    {
+      "x": 18,
+      "y": 18,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 59,
+      "targetX": 19,
+      "targetY": 22,
+      "targetElevation": 2
+    },
+    {
+      "x": 19,
+      "y": 18,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 59,
+      "targetX": 20,
+      "targetY": 22,
+      "targetElevation": 2
+    },
+    {
+      "x": 23,
+      "y": 18,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 60,
+      "targetX": 27,
+      "targetY": 17,
+      "targetElevation": 2
+    },
+    {
+      "x": 20,
+      "y": 18,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 59,
+      "targetX": 20,
+      "targetY": 22,
+      "targetElevation": 2
+    },
+    {
+      "x": 24,
+      "y": 18,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 60,
+      "targetX": 27,
+      "targetY": 17,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 52,
+      "x": 7,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "PokemonMansion_3F_EventScript_Simon",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 55,
+      "x": 22,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "PokemonMansion_3F_EventScript_Braydon",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 92,
+      "x": 9,
+      "y": 19,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PokemonMansion_3F_EventScript_ItemMaxPotion",
+      "hideFlag": "kanto/FLAG_HIDE_POKEMON_MANSION_3F_MAX_POTION",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 92,
+      "x": 32,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PokemonMansion_3F_EventScript_ItemIron",
+      "hideFlag": "kanto/FLAG_HIDE_POKEMON_MANSION_3F_IRON",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "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+waqBqoGqgaqBqoGqgaqBqoGqgaqBjoHQQeyBrIGsgayBrIGsgayBrIGsgayBrIGsgayBgQHCAQIBAgECAQIBAgECAQIBAgECAQIBAMHsgayBrIGsgayBrIGsgayBrIGsgZCBwgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQ=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQkJAAAJCQAAAAAAAAAAAAsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+}

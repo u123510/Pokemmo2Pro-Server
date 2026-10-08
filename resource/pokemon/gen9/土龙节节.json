@@ -1,0 +1,156 @@
+{
+	"id": 982,
+	"name": "[982]土龙节节",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 36,
+	"weight": 392,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 32,
+			"name": "[032]特性32"
+		},
+		{
+			"id": 50,
+			"name": "[050]特性50"
+		},
+		{
+			"id": 155,
+			"name": "[155]特性155"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 111,
+			"name": "[111]变圆",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 175,
+			"name": "[175]抓狂",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 189,
+			"name": "[189]掷泥",
+			"type": "level",
+			"level": 4
+		},
+		{
+			"id": 205,
+			"name": "[205]滚动",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 137,
+			"name": "[137]大蛇瞪眼",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 103,
+			"name": "[103]刺耳声",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 246,
+			"name": "[246]原始之力",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 529,
+			"name": "[529]直冲钻",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 281,
+			"name": "[281]哈欠",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 887,
+			"name": "[887]强力钻",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 355,
+			"name": "[355]羽栖",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 407,
+			"name": "[407]龙之俯冲",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 489,
+			"name": "[489]盘蜷",
+			"type": "level",
+			"level": 44
+		},
+		{
+			"id": 38,
+			"name": "[38]舍身冲撞",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 283,
+			"name": "[283]蛮干",
+			"type": "level",
+			"level": 52
+		},
+		{
+			"id": 542,
+			"name": "[542]暴风",
+			"type": "level",
+			"level": 56
+		},
+		{
+			"id": 586,
+			"name": "[586]爆音波",
+			"type": "level",
+			"level": 62
+		}
+	],
+	"types": [
+		"NORMAL"
+	],
+	"stats": {
+		"hp": 125,
+		"attack": 100,
+		"defense": 80,
+		"speed": 85,
+		"sp_attack": 75,
+		"sp_defense": 55
+	},
+	"yields": {
+		"ev_hp": 2,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

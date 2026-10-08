@@ -1,0 +1,221 @@
+{
+  "regionId": 1,
+  "bankId": 64,
+  "mapId": 7,
+  "width": 11,
+  "height": 8,
+  "paletteIdx1": 116,
+  "paletteIdx2": 147,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 399,
+  "unknownByte": 13,
+  "borderTiles": [
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "MossdeepCity_StevensHouse_OnTransition",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_STEVENS_HOUSE_STATE",
+      "value": 1,
+      "script": "MossdeepCity_StevensHouse_EventScript_StevenGivesDive"
+    }
+  ],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 0,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "MossdeepCity_StevensHouse_EventScript_RockDisplay"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "MossdeepCity_StevensHouse_EventScript_RockDisplay"
+    },
+    {
+      "x": 10,
+      "y": 4,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "MossdeepCity_StevensHouse_EventScript_RockDisplay"
+    },
+    {
+      "x": 10,
+      "y": 6,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "MossdeepCity_StevensHouse_EventScript_RockDisplay"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 3,
+      "y": 7,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 6,
+      "targetX": 19,
+      "targetY": 10,
+      "targetElevation": 0
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 6,
+      "targetX": 19,
+      "targetY": 10,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 134,
+      "x": 9,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "MossdeepCity_StevensHouse_EventScript_Steven",
+      "hideFlag": "hoenn/FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_STEVEN",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 59,
+      "x": 4,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "MossdeepCity_StevensHouse_EventScript_BeldumPokeball",
+      "hideFlag": "hoenn/FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_BELDUM_POKEBALL",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 5,
+      "x": 6,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "INVISIBLE",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "MossdeepCity_StevensHouse_EventScript_Letter",
+      "hideFlag": "hoenn/FLAG_HIDE_MOSSDEEP_CITY_STEVENS_HOUSE_INVISIBLE_NINJA_BOY",
+      "rawMovementType": 76
+    }
+  ],
+  "blockData": "hgaHBgUGBQYFBgYGBQYFBgUGBQYFBo4GjwZoBg0GDQYOBg0GDQYNBmkGaQaWMpcycDIkMiQyJDIkMiQyJDJxMnEyOTIjMiMyIzLoNuk26TbqNiMyIzJbMzkyIzIjMiMy8DbxNtE28jYjMiMyYzc5MiMyIzIjMiMyIzIsMiMyIzIjMlszOTIjMiMyIzIjMiMyIzIjMiMyIzJjNzkyIzIjMggCCQIjMiMyIzIjMiMyIzI=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQAAAAAAAA=="
+}

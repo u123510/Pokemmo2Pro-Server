@@ -1,0 +1,12 @@
+{
+  // Item.bin already contains the values for ordinary medicine, status cures,
+  // PP recovery, experience and friendship items. Keep only special overrides here.
+  "itemEffects": [
+    {
+      "itemIndexId": 360,
+      "handler": "BIKE",
+      "regionIndexId": 0,
+      "consumeAmount": 0
+    }
+  ]
+}

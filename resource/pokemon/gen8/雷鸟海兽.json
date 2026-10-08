@@ -1,0 +1,133 @@
+{
+	"id": 881,
+	"name": "[881]雷鸟海兽",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 23,
+	"weight": 1500,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 10,
+			"name": "[010]特性10"
+		},
+		{
+			"id": 9,
+			"name": "[009]特性9"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 84,
+			"name": "[84]电击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 181,
+			"name": "[181]细雪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 268,
+			"name": "[268]充电",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 497,
+			"name": "[497]回声",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 246,
+			"name": "[246]原始之力",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 365,
+			"name": "[365]啄食",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 419,
+			"name": "[419]雪崩",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 573,
+			"name": "[573]冷冻干燥",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 21,
+			"name": "[21]摔打",
+			"type": "level",
+			"level": 49
+		},
+		{
+			"id": 435,
+			"name": "[435]放电",
+			"type": "level",
+			"level": 56
+		},
+		{
+			"id": 754,
+			"name": "[754]电喙",
+			"type": "level",
+			"level": 63
+		},
+		{
+			"id": 556,
+			"name": "[556]冰柱坠击",
+			"type": "level",
+			"level": 70
+		},
+		{
+			"id": 59,
+			"name": "[59]暴风雪",
+			"type": "level",
+			"level": 77
+		}
+	],
+	"types": [
+		"ELECTRIC",
+		"ICE"
+	],
+	"stats": {
+		"hp": 90,
+		"attack": 100,
+		"defense": 90,
+		"speed": 90,
+		"sp_attack": 80,
+		"sp_defense": 55
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 2,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.pokemmo.db.mybatis.mapper.AccountMapper">
+    <insert id="insertAccount">
+        insert into account (account_name, password, created_at, login_permission, ban_reason)
+        values (#{accountName}, #{password}, #{createdAt}, #{loginPermission}, #{banReason})
+        returning account_id
+    </insert>
+    <select id="getAccounts" resultType="org.pokemmo.db.jdbc.Account">
+        select * from account
+    </select>
+    <select id="getById" resultType="org.pokemmo.db.jdbc.Account">
+        select * from account where account_id = #{id}
+    </select>
+</mapper>

@@ -1,0 +1,183 @@
+{
+  "regionId": 1,
+  "bankId": 65,
+  "mapId": 13,
+  "width": 11,
+  "height": 8,
+  "paletteIdx1": 116,
+  "paletteIdx2": 173,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 445,
+  "unknownByte": 14,
+  "borderTiles": [
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "SootopolisCity_MysteryEventsHouse_1F_OnTransition",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_SOOTOPOLIS_MYSTERY_EVENTS_STATE",
+      "value": 1,
+      "script": "SootopolisCity_MysteryEventsHouse_1F_EventScript_OldManCommentOnBattle"
+    },
+    {
+      "varKey": "VAR_SOOTOPOLIS_MYSTERY_EVENTS_STATE",
+      "value": 2,
+      "script": "SootopolisCity_MysteryEventsHouse_1F_EventScript_OldManCommentOnBattle"
+    },
+    {
+      "varKey": "VAR_SOOTOPOLIS_MYSTERY_EVENTS_STATE",
+      "value": 3,
+      "script": "SootopolisCity_MysteryEventsHouse_1F_EventScript_OldManCommentOnBattle"
+    }
+  ],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 3,
+      "y": 7,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 7,
+      "targetX": 51,
+      "targetY": 36,
+      "targetElevation": 0
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 7,
+      "targetX": 51,
+      "targetY": 36,
+      "targetElevation": 0
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 65,
+      "targetMapId": 14,
+      "targetX": 3,
+      "targetY": 1,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 29,
+      "x": 6,
+      "y": 4,
+      "elevation": 0,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "SootopolisCity_MysteryEventsHouse_1F_EventScript_OldMan",
+      "hideFlag": "",
+      "rawMovementType": 10
+    }
+  ],
+  "blockData": "BwYFBjgGOQY6BgUGBgYnBgUGFAYVBg8GDQZABkECQgYNBg4GAgQvBhwGHQY2AjYCGwYbBhsGNgI2Ai0CNwIkAiUCNgI1AjUCNQI1AjUCNQI1AjUCNQI1AjYCNQI1AjUCNQI1AhACFgYXBhECNQI2AjUCNQI1AjUCNQIQAh4GHwYRAjUCNgI1AjUCNQI1AjUCNQI1AjUCNQI1AjYCNQI1AggCCQI1AjUCNQI1AjUCNQI=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQAAAAAAAA=="
+}

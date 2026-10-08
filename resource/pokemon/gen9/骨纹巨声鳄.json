@@ -1,0 +1,157 @@
+{
+	"id": 911,
+	"name": "[911]骨纹巨声鳄",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 32,
+	"height": 16,
+	"weight": 3265,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 66,
+			"name": "[066]特性66"
+		},
+		{
+			"id": 66,
+			"name": "[066]特性66"
+		},
+		{
+			"id": 109,
+			"name": "[109]特性109"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 43,
+			"name": "[43]瞪眼",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 52,
+			"name": "[52]火花",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 122,
+			"name": "[122]舌舔",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 496,
+			"name": "[496]轮唱",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 184,
+			"name": "[184]鬼面",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 510,
+			"name": "[510]烧尽",
+			"type": "level",
+			"level": 17
+		},
+		{
+			"id": 555,
+			"name": "[555]大声咆哮",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 46,
+			"name": "[46]吼叫",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 53,
+			"name": "[53]喷射火焰",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 247,
+			"name": "[247]暗影球",
+			"type": "level",
+			"level": 38
+		},
+		{
+			"id": 304,
+			"name": "[304]巨声",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 261,
+			"name": "[261]鬼火",
+			"type": "level",
+			"level": 47
+		},
+		{
+			"id": 506,
+			"name": "[506]祸不单行",
+			"type": "level",
+			"level": 47
+		},
+		{
+			"id": 126,
+			"name": "[126]大字爆炎",
+			"type": "level",
+			"level": 58
+		},
+		{
+			"id": 315,
+			"name": "[315]过热",
+			"type": "level",
+			"level": 64
+		}
+	],
+	"types": [
+		"FIRE",
+		"GHOST"
+	],
+	"stats": {
+		"hp": 104,
+		"attack": 75,
+		"defense": 100,
+		"speed": 110,
+		"sp_attack": 75,
+		"sp_defense": 66
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 3,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

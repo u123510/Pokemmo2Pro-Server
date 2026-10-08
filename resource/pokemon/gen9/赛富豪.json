@@ -1,0 +1,127 @@
+{
+	"id": 1000,
+	"name": "[1000]赛富豪",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 12,
+	"weight": 300,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 310,
+			"name": "[310]惊吓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 101,
+			"name": "[101]黑夜魔影",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 109,
+			"name": "[109]奇异之光",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 164,
+			"name": "[164]替身",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 319,
+			"name": "[319]金属音",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 247,
+			"name": "[247]暗影球",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 105,
+			"name": "[105]自我再生",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 408,
+			"name": "[408]力量宝石",
+			"type": "level",
+			"level": 49
+		},
+		{
+			"id": 874,
+			"name": "[874]淘金潮",
+			"type": "level",
+			"level": 56
+		},
+		{
+			"id": 417,
+			"name": "[417]诡计",
+			"type": "level",
+			"level": 63
+		},
+		{
+			"id": 262,
+			"name": "[262]临别礼物",
+			"type": "level",
+			"level": 70
+		}
+	],
+	"types": [
+		"STEEL",
+		"GHOST"
+	],
+	"stats": {
+		"hp": 87,
+		"attack": 60,
+		"defense": 95,
+		"speed": 133,
+		"sp_attack": 91,
+		"sp_defense": 84
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 2,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

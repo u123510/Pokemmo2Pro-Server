@@ -1,0 +1,412 @@
+{
+  "regionId": 1,
+  "bankId": 79,
+  "mapId": 7,
+  "width": 15,
+  "height": 22,
+  "paletteIdx1": 116,
+  "paletteIdx2": 153,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 448,
+  "unknownByte": 25,
+  "borderTiles": [
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "Route110_TrickHousePuzzle5_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [
+    {
+      "x": 5,
+      "y": 17,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll1Trigger0"
+    },
+    {
+      "x": 4,
+      "y": 17,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll1Trigger1"
+    },
+    {
+      "x": 3,
+      "y": 17,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll1Trigger2"
+    },
+    {
+      "x": 2,
+      "y": 17,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll1Trigger3"
+    },
+    {
+      "x": 1,
+      "y": 7,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_2",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll2Trigger0"
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_2",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll2Trigger1"
+    },
+    {
+      "x": 13,
+      "y": 10,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_3",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll3Trigger0"
+    },
+    {
+      "x": 12,
+      "y": 10,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_3",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll3Trigger1"
+    },
+    {
+      "x": 11,
+      "y": 10,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_3",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll3Trigger2"
+    },
+    {
+      "x": 13,
+      "y": 19,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_4",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll4Trigger0"
+    },
+    {
+      "x": 12,
+      "y": 19,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_4",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll4Trigger1"
+    },
+    {
+      "x": 11,
+      "y": 4,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_5",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll5Trigger0"
+    },
+    {
+      "x": 1,
+      "y": 17,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll1Trigger4"
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_2",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll2Trigger2"
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_2",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll2Trigger3"
+    },
+    {
+      "x": 5,
+      "y": 7,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_2",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll2Trigger4"
+    },
+    {
+      "x": 6,
+      "y": 7,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_2",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll2Trigger5"
+    },
+    {
+      "x": 10,
+      "y": 10,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_3",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll3Trigger3"
+    },
+    {
+      "x": 9,
+      "y": 10,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_3",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll3Trigger4"
+    },
+    {
+      "x": 11,
+      "y": 19,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_4",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll4Trigger2"
+    },
+    {
+      "x": 10,
+      "y": 19,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_4",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll4Trigger3"
+    },
+    {
+      "x": 9,
+      "y": 19,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_4",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll4Trigger4"
+    }
+  ],
+  "bgEvents": [
+    {
+      "x": 11,
+      "y": 21,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "Route110_TrickHousePuzzle5_EventScript_Scroll"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 0,
+      "y": 21,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 79,
+      "targetMapId": 0,
+      "targetX": 5,
+      "targetY": 2,
+      "targetElevation": 2
+    },
+    {
+      "x": 1,
+      "y": 21,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 79,
+      "targetMapId": 0,
+      "targetX": 5,
+      "targetY": 2,
+      "targetElevation": 2
+    },
+    {
+      "x": 13,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 79,
+      "targetMapId": 1,
+      "targetX": 10,
+      "targetY": 1,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 19,
+      "x": 6,
+      "y": 17,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll1",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 19,
+      "x": 0,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll2",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 19,
+      "x": 14,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll3",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 19,
+      "x": 14,
+      "y": 19,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll4",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 19,
+      "x": 10,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "Route110_TrickHousePuzzle5_EventScript_Mechadoll5",
+      "hideFlag": "",
+      "rawMovementType": 10
+    }
+  ],
+  "blockData": "AQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAgZvBgQGCQYJBgkGCQYJBgkGCQYJBgkGCQYJBgkGCgZ3NgwGaAZoBhAyEDIQMmgGaAZoBmgGaAZoBhAyEDIQMhAyaAYIMggyCDIIMggyaAZoBmgGaAZoBggyaAZoBmgGCDIIMggyCDIIMggyCDJoBmgGaAYIMggyCDJoBmgGCDIIMggyCDIIMggyCDJoBmgGCDIIMggyCDIIMmgGCDIIMggyCDIIMggyCDJoBggyCDIIMggyCDIIMggyCDIIMggyCDIIMggyCDIIMggyCDIIMggyCDIIMggyCDIIMggyCDIIMggyCDJoBggyCDIIMggyCDIIMggyaAYIMggyCDIIMggyaAZoBggyCDIIMggyCDIIMggyaAYIMggyCDIIMggyaAZoBggyCDIIMggyCDIIMggyaAYIMggyCDIIMggyaAZoBmgGCDIIMggyCDIIMmgGaAZoBggyCDIIMmgGaAZoBmgGCDIIMggyCDIIMmgGaAZoBggyCDIIMmgGaAZoBmgGCDIIMggyCDIIMmgGaAZoBmgGCDJoBmgGaAZoBmgGaAYIMggyCDJoBmgGaAZoBggyCDIIMmgGaAZoBmgGaAYIMggyCDJoBmgGaAYIMggyCDIIMggyaAZoBmgGaAZoBggyaAZoBmgGCDIIMggyCDIIMggyCDJoBmgGaAYIMggyCDJoBmgGaAYIMggyCDIIMggyaAZoBmgGCDIIMggyCDIIMmgGaAZoBggyCDIIMmgGaAZoBggyCDIIMggyCDIIMggyCDIIMggyCDJoBmgGaAZoBmgGCDIIMggyCDIIMmgGETISMmgGaAZoBmgGaAZoBmgGaAYIMhMGCDJoBmgG",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ0AAAAAAAAAAAAAAAAA"
+}

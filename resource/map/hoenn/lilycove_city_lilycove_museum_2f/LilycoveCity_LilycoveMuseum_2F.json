@@ -1,0 +1,281 @@
+{
+  "regionId": 1,
+  "bankId": 63,
+  "mapId": 3,
+  "width": 22,
+  "height": 13,
+  "paletteIdx1": 116,
+  "paletteIdx2": 141,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 373,
+  "unknownByte": 12,
+  "borderTiles": [
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_LILYCOVE_MUSEUM_2F_STATE",
+      "value": 0,
+      "script": "LilycoveCity_LilycoveMuseum_2F_EventScript_ShowExhibitHall"
+    }
+  ],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 14,
+      "y": 10,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LilycoveCity_LilycoveMuseum_2F_EventScript_CutePainting"
+    },
+    {
+      "x": 15,
+      "y": 10,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LilycoveCity_LilycoveMuseum_2F_EventScript_CutePainting"
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LilycoveCity_LilycoveMuseum_2F_EventScript_ToughPainting"
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LilycoveCity_LilycoveMuseum_2F_EventScript_ToughPainting"
+    },
+    {
+      "x": 10,
+      "y": 6,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LilycoveCity_LilycoveMuseum_2F_EventScript_CoolPainting"
+    },
+    {
+      "x": 11,
+      "y": 6,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LilycoveCity_LilycoveMuseum_2F_EventScript_CoolPainting"
+    },
+    {
+      "x": 19,
+      "y": 6,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LilycoveCity_LilycoveMuseum_2F_EventScript_BeautyPainting"
+    },
+    {
+      "x": 18,
+      "y": 6,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LilycoveCity_LilycoveMuseum_2F_EventScript_BeautyPainting"
+    },
+    {
+      "x": 6,
+      "y": 10,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LilycoveCity_LilycoveMuseum_2F_EventScript_SmartPainting"
+    },
+    {
+      "x": 7,
+      "y": 10,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LilycoveCity_LilycoveMuseum_2F_EventScript_SmartPainting"
+    },
+    {
+      "x": 11,
+      "y": 2,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LilycoveCity_LilycoveMuseum_EventScript_BirdSculpture"
+    },
+    {
+      "x": 15,
+      "y": 2,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LilycoveCity_LilycoveMuseum_EventScript_BirdSculpture"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 13,
+      "y": 1,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 63,
+      "targetMapId": 2,
+      "targetX": 16,
+      "targetY": 1,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 48,
+      "x": 10,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "LilycoveCity_LilycoveMuseum_2F_EventScript_Curator",
+      "hideFlag": "",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 10,
+      "x": 19,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LilycoveCity_LilycoveMuseum_2F_EventScript_Girl",
+      "hideFlag": "hoenn/FLAG_HIDE_LILYCOVE_MUSEUM_PATRON_2",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 21,
+      "x": 7,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LilycoveCity_LilycoveMuseum_2F_EventScript_ExpertM",
+      "hideFlag": "hoenn/FLAG_HIDE_LILYCOVE_MUSEUM_TOURISTS",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 15,
+      "x": 14,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LilycoveCity_LilycoveMuseum_2F_EventScript_RichBoy",
+      "hideFlag": "hoenn/FLAG_HIDE_LILYCOVE_MUSEUM_TOURISTS",
+      "rawMovementType": 2
+    }
+  ],
+  "blockData": "eQZ5BnkGegaBBoEGgQaBBoEGgQaBBoEGagZrBmwGgQaBBoEGeAZ5BnkGeQaBBoEGgQaCBokGiQaJBokGiQaJBokGhAZyBnMCdAaFBokGiQaABoEGgQaBBokGiQaJBooGcTJwMnEycDJxMnAycTKMBnEycDJxMo0GcTJwMogGiQaJBokGcDJxMnAycTJwMmkyaDJpMmgyaTJoMmkyaDJpMmgyaTJoMmkycDJxMnAycTJxMmQyZTJmMmcyaDJpMmgyaTJkMmUyZjJnMmgyaTJoMmkyZDJlMmYyZzJoMnAyhgZuBm4GbwaDMmgyaTJoMoYGbgZuBm8GgzJoMmkyaDKGBm4GbgZvBoMycTKOBlgGWQZ3BnsyaTJoMmkyjgZYBlkGdwZ7MmkyaDJpMo4GWAZZBncGezJwMnwyfTJ+Mn8ygzJoMmkyaDJ8Mn0yfjJ/MoMyaDJpMmgyfDJ9Mn4yfzKDMnEyaDJpMmgyaTJkMmUyZjJnMmgyaTJoMmkyZDJlMmYyZzJoMmkyaDJpMmgycDJpMmgyaTJoMoYGbgZuBm8GgzJoMmkyaDKGBm4GbgZvBoMyaDJpMmgyaTJxMmgyaTJoMmkyjgZYBlkGdwZ7MmkyaDJpMo4GWAZZBncGezJpMmgyaTJoMnAyaTJoMmkyaDJ8Mn0yfjJ/MoMyaDJpMmgyfDJ9Mn4yfzKDMmgyaTJoMmkycTJoMmkyaDJpMmgyaTJoMmkyaDJpMmgyaTJoMmkyaDJpMmgyaTJoMmkyaDI=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+}

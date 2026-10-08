@@ -1,0 +1,321 @@
+{
+  "regionId": 0,
+  "bankId": 3,
+  "mapId": 63,
+  "width": 24,
+  "height": 40,
+  "paletteIdx1": 0,
+  "paletteIdx2": 63,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 333,
+  "unknownByte": 168,
+  "borderTiles": [
+    {
+      "material": 630,
+      "collision": 0
+    },
+    {
+      "material": 630,
+      "collision": 0
+    },
+    {
+      "material": 630,
+      "collision": 0
+    },
+    {
+      "material": 630,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "REGULAR_WEATHER",
+  "mapType": "ROUTE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_SEVEN_ISLAND_SEVAULT_CANYON_ENTRANCE",
+      "base_label": "sSevenIslandSevaultCanyonEntrance_FireRed",
+      "land_mons": {
+        "encounter_rate": 21,
+        "mons": [
+          {
+            "min_level": 44,
+            "max_level": 44,
+            "species": "SPECIES_SPEAROW"
+          },
+          {
+            "min_level": 10,
+            "max_level": 10,
+            "species": "SPECIES_SENTRET"
+          },
+          {
+            "min_level": 10,
+            "max_level": 10,
+            "species": "SPECIES_PHANPY"
+          },
+          {
+            "min_level": 48,
+            "max_level": 48,
+            "species": "SPECIES_FEAROW"
+          },
+          {
+            "min_level": 15,
+            "max_level": 15,
+            "species": "SPECIES_SENTRET"
+          },
+          {
+            "min_level": 41,
+            "max_level": 41,
+            "species": "SPECIES_MEOWTH"
+          },
+          {
+            "min_level": 50,
+            "max_level": 50,
+            "species": "SPECIES_FEAROW"
+          },
+          {
+            "min_level": 41,
+            "max_level": 41,
+            "species": "SPECIES_PSYDUCK"
+          },
+          {
+            "min_level": 15,
+            "max_level": 15,
+            "species": "SPECIES_PHANPY"
+          },
+          {
+            "min_level": 47,
+            "max_level": 47,
+            "species": "SPECIES_PERSIAN"
+          },
+          {
+            "min_level": 15,
+            "max_level": 15,
+            "species": "SPECIES_PHANPY"
+          },
+          {
+            "min_level": 50,
+            "max_level": 50,
+            "species": "SPECIES_PERSIAN"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 8,
+      "y": 29,
+      "elevation": 5,
+      "facingDir": "ANY",
+      "script": "0x0"
+    },
+    {
+      "x": 14,
+      "y": 26,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SevenIsland_SevaultCanyon_Entrance_EventScript_RouteSign"
+    }
+  ],
+  "connections": [
+    {
+      "direction": "UP",
+      "unknown": 0,
+      "targetBank": 3,
+      "targetMap": 17
+    },
+    {
+      "direction": "RIGHT",
+      "unknown": 20,
+      "targetBank": 3,
+      "targetMap": 64
+    }
+  ],
+  "warps": [],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 28,
+      "x": 12,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "SevenIsland_SevaultCanyon_Entrance_EventScript_Miah",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 29,
+      "x": 3,
+      "y": 34,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "SevenIsland_SevaultCanyon_Entrance_EventScript_Eve",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 25,
+      "x": 4,
+      "y": 34,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "SevenIsland_SevaultCanyon_Entrance_EventScript_Jon",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 39,
+      "x": 11,
+      "y": 26,
+      "elevation": 2,
+      "movementType": "FACE_DOWN_UP_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "SevenIsland_SevaultCanyon_Entrance_EventScript_Nicolas",
+      "hideFlag": "",
+      "rawMovementType": 20
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 40,
+      "x": 10,
+      "y": 26,
+      "elevation": 2,
+      "movementType": "FACE_DOWN_UP_AND_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "SevenIsland_SevaultCanyon_Entrance_EventScript_Madeline",
+      "hideFlag": "",
+      "rawMovementType": 19
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 26,
+      "x": 11,
+      "y": 17,
+      "elevation": 4,
+      "movementType": "ROTATE_COUNTERCLOCKWISE",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "SevenIsland_SevaultCanyon_Entrance_EventScript_Mason",
+      "hideFlag": "",
+      "rawMovementType": 23
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 41,
+      "x": 7,
+      "y": -2,
+      "elevation": 0,
+      "movementType": "NONE",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "",
+      "rawMovementType": 0
+    }
+  ],
+  "blockData": "dgZ2BnYGdgZ2BnYGcwbFMcYxxzFzBnMGcwZzBm0GdgZEBkUGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2Bn8GcwbFMcYxxzFzBnMGcwZzBnYGdgZMBk0GdgZ2BnYGdgZ2BnYGdgZEBkUGdgZ2BnMGcwbFMcYxxzFzBnMGcwZzBn0GdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZMBk0GdgZ/BnMGcwbFMcYxxzFzBnMGcwZzBnMGfQZ2BnYGdgZEBkUGdgZ2BnYGdgZ2BnYGdgZwBt8E3wQIMAkwCDDfBN8E3wRxBnMGcwZ9BnYGdgZMBk0GdgZEBkUGdgZ2BnYGdgZ0BhEwEDARMBEwEDAEMBAwBDByBnMGcwZzBnMGfQZ2BnYGdgZMBk0GdgZ2BnYGdgZ0BggwETAIMBEwEDARMBAwETByBnoGewZ7BnsGewZ7BnsGewZ7BnsGdgZ2BnYGdgZ0BhEwEDARMBEwEDAEMGgEaQR7BrsEcQRxBHEEcQRxBGsEbARsBGwERAZFBnYGdgZ0BggwDTANMA0wDTBoBHMEcQRxBHEEcQRxBHEEawRsBLsEcQRrBGwETAZNBnYGdgZ0Bg0wDTANMA0wDTBwBHgEeQR5BHkEeQR5BLMEcwRxBGsEbAS7BGsEdgZ2BnYGfwZ0Bg0wDTANMA0wDTBwBARQCFAJUAhQCVABUHAEcwRxBHMEcQRrBLsEdgZ2BnYGcwZ0Bg0wDTANMA0wDTBwBAhQEFARUBBQEVANUHAEcwRxBHMEcQRzBHEEdgZ2BnYGcwZ0Bg0wDTANMA0wDTBwBBBQEVAQUBFQDVANUHAEcwRxBHMEcQRzBHEEdgZEBkUGcwZ0Bg0wDTANMA0wDTB4BJEAiQCzBA1QDVANUHAEcwRxBHMEcQRzBHEEdgZMBk0GcwZ0Bg0wDTANMA0wCDAJMAgwCTBwBA1QDVANUHAEcwRxBHMEcQR7BLMEdgZ2Bn8GcwZ0BgQwETAQMBEwEDARMBAwETBwBA1QDVANUHAEcwRxBHMEcQRxBHMEdgZ2BnMGcwZ0BmgEMlEzUTNRM1EzUTNRM1EzUQ1QDVANUHAEcwRxBHsEswRxBHMEdgZ2BnMGcwZ0BnMEaARpBGkEagQIUAlQCFAJUA1QDVABUHAEewSzBHEEcwRxBHMEdgZ2BnMGcwZTB3MEcARxBHEEcgQQUBFQEFARUBBQEVAQUHgEswRzBHEEcwRxBHMERAZFBnMGegYyUTNRcARxBHEEcgSyBHkEeQR5BHkEkQCJALMEcwRzBHEEcwRxBHMETAZNBnAGcwQNUAFQeAR5BHkEegRyBA0wDTAQMBEwCDAJMHAEcwRzBHEEcwRxBHMEdgZ2BnQGcwQNUA1QAVAJUAhQCVByBA0wDTANMBEwEDARMHAEcwRzBHEEcwRxBHMEdgZ/BnQGcwQNUA1QDVARUBBQEVByBA0wDTANMA0wCDAJMHAEcwRzBHEEcwRxBHMEdgZzBnQGcwQNUA1QDVCyBJEAiQB6BA0wDTANMA0wEDARMHAEcwRzBHEEewSzBHMEdgZzBnQGcwQNUA1QDVByBA0wDTANMA0wDTANMA0wCDAJMHAEcwRzBHEEcQRzBHMEdgZzBnQGcwQNUA1QDVByBA0wDTANMA0wDTBoBDJRM1EzUTNRcAR7BHwEswRzBHsEdgZzBnQGcwQNUA1QDVByBA0wDTANMA0wDTBwBAIECVAIUA1QeAR5BLMEcwR7BHwEdgZzBnQGcwQNUA1QDVByBAEwDTANMA0wDTBwBBBQEVANUA1QDVANUHAEeAR5BHkEdgZzBnQGcwQNUA1QDVByBBAwETANMA0wDTBwBAhQCVANUA1QDVANUHAEETBQM0UzdgZzBnQGcwQNUA1QAVAzUV9TagQIMA0wDTB4BJEAiQCzBA1QDVANUHAEEDARMFAzdgZzBnQGcwQNUAFQCVAIUAlQcgQIMAkwCDAJMAgwCTBwBA1QDVAIUHgEkQCJALMEdgZvBnQGcwQQUBFQEVAQUBFQcgQQMBEwEDARMBAwETBwBAhQCFAJUAhQCFAJUHAEdgZ2BnQGeAR5BHkEkQCJAHkEegRoBGkEaQRpBGkEaQS7BGoEEFARUBBQEFARUHgEdgZ2BnQGCDAJMAgwCTAIMGgEaQS7BHEEcQRxBHEEcQRxBLoEaQRpBGkEaQRpBGkEdgZ2BnQGEDARMBAwETBoBHMEcQRxBGsEbARsBGwEbARsBGwEbARsBGwEbARsBGwEdgZ2BngGawZrBmsGbAZzBHMEcQRxBHMEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEdgZ2BnMGcwZzBnMGdAZzBHMEcQRrBLsEcQRrBGwEbARsBGwEbARsBGwEbARsBGwERAZFBnYGbwZzBnMGdAZzBHMEcQRzBHEEcQRzBHEEawRsBGwEbARsBGwEbARsBGwETAZNBnYGdgZ2Bm8GdAZzBHMEcQRzBHEEawS7BHEEcwRxBHEEcQRxBHEEcQRxBHEEdgZ2BnYGdgZ2BnYGdAZzBHMEcQRzBHEEcwRxBGsEuwRxBGsEbARsBGwEbARsBGwE",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQAAAAAAAAEAAAAAAAAAAAAAAAABAQEBAQAAAAAAAQEAAAAAAAAAAAAAAAABAQEBAQAAAAABAQEAAAAAAAAAAAAAAAABAQEBAAAAAAABAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAEBAAAAAAABAQEAAAAAAAAAAAAAAAAAAAEBAQAAAAABAQEBAAAAAAAAAAAAAAAAAAEBAQAAAAABAQEBAAAAAAAAAAAAAAAAAAEBAQABAQEBAQEBAAAAAAAAAAAAAAAAAAEBAQABAQEBAQAAAAAAAAAAAAAAAAAAAAEBAQABAQEBAQAAAAABAAAAAAAAAAAAAAEBAQAAAQEBAQAAAAEBAQEAAAAAAAAAAAEBAQAAAAEBAQAAAAEBAQEAAAAAAAAAAAEBAAAAAAABAQAAAAABAQEAAAAAAAAAAAEAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

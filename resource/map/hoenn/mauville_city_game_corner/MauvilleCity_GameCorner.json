@@ -1,0 +1,490 @@
+{
+  "regionId": 1,
+  "bankId": 60,
+  "mapId": 3,
+  "width": 22,
+  "height": 11,
+  "paletteIdx1": 116,
+  "paletteIdx2": 148,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 426,
+  "unknownByte": 9,
+  "borderTiles": [
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 2,
+      "y": 6,
+      "elevation": 0,
+      "facingDir": "EAST",
+      "script": "MauvilleCity_GameCorner_EventScript_SlotMachine0"
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "elevation": 0,
+      "facingDir": "EAST",
+      "script": "MauvilleCity_GameCorner_EventScript_SlotMachine1"
+    },
+    {
+      "x": 2,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "EAST",
+      "script": "MauvilleCity_GameCorner_EventScript_SlotMachine2"
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "WEST",
+      "script": "MauvilleCity_GameCorner_EventScript_SlotMachine3"
+    },
+    {
+      "x": 3,
+      "y": 8,
+      "elevation": 0,
+      "facingDir": "WEST",
+      "script": "MauvilleCity_GameCorner_EventScript_SlotMachine4"
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "WEST",
+      "script": "MauvilleCity_GameCorner_EventScript_SlotMachine5"
+    },
+    {
+      "x": 7,
+      "y": 6,
+      "elevation": 0,
+      "facingDir": "EAST",
+      "script": "MauvilleCity_GameCorner_EventScript_SlotMachine6"
+    },
+    {
+      "x": 7,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "EAST",
+      "script": "MauvilleCity_GameCorner_EventScript_SlotMachine7"
+    },
+    {
+      "x": 7,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "EAST",
+      "script": "MauvilleCity_GameCorner_EventScript_SlotMachine8"
+    },
+    {
+      "x": 8,
+      "y": 6,
+      "elevation": 0,
+      "facingDir": "WEST",
+      "script": "MauvilleCity_GameCorner_EventScript_SlotMachine9"
+    },
+    {
+      "x": 8,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "WEST",
+      "script": "MauvilleCity_GameCorner_EventScript_SlotMachine10"
+    },
+    {
+      "x": 8,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "WEST",
+      "script": "MauvilleCity_GameCorner_EventScript_SlotMachine11"
+    },
+    {
+      "x": 14,
+      "y": 6,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "Roulette_EventScript_Table1"
+    },
+    {
+      "x": 15,
+      "y": 6,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "Roulette_EventScript_Table1"
+    },
+    {
+      "x": 14,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "Roulette_EventScript_Table1"
+    },
+    {
+      "x": 15,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "Roulette_EventScript_Table1"
+    },
+    {
+      "x": 14,
+      "y": 8,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "Roulette_EventScript_Table1"
+    },
+    {
+      "x": 15,
+      "y": 8,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "Roulette_EventScript_Table1"
+    },
+    {
+      "x": 18,
+      "y": 6,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "Roulette_EventScript_Table2"
+    },
+    {
+      "x": 19,
+      "y": 6,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "Roulette_EventScript_Table2"
+    },
+    {
+      "x": 18,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "Roulette_EventScript_Table2"
+    },
+    {
+      "x": 19,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "Roulette_EventScript_Table2"
+    },
+    {
+      "x": 18,
+      "y": 8,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "Roulette_EventScript_Table2"
+    },
+    {
+      "x": 19,
+      "y": 8,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "Roulette_EventScript_Table2"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 11,
+      "y": 10,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 2,
+      "targetX": 8,
+      "targetY": 13,
+      "targetElevation": 0
+    },
+    {
+      "x": 12,
+      "y": 10,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 2,
+      "targetX": 8,
+      "targetY": 13,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 20,
+      "x": 12,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "MauvilleCity_GameCorner_EventScript_Woman2",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 48,
+      "x": 16,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "MauvilleCity_GameCorner_EventScript_Gentleman",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 45,
+      "x": 11,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "MauvilleCity_GameCorner_EventScript_CoinsClerk",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 45,
+      "x": 14,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "MauvilleCity_GameCorner_EventScript_PrizeCornerDolls",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 10,
+      "x": 7,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "MauvilleCity_GameCorner_EventScript_Girl",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 25,
+      "x": 19,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "MauvilleCity_GameCorner_EventScript_PokefanM",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 29,
+      "x": 20,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "MauvilleCity_GameCorner_EventScript_OldMan",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 27,
+      "x": 6,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "MauvilleCity_GameCorner_EventScript_Cook",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 45,
+      "x": 13,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "MauvilleCity_GameCorner_EventScript_PrizeCornerTMs",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 9,
+      "graphicsId": 33,
+      "x": 1,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "MauvilleCity_GameCorner_EventScript_Man",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 10,
+      "graphicsId": 39,
+      "x": 9,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "MauvilleCity_GameCorner_EventScript_Maniac",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 11,
+      "graphicsId": 34,
+      "x": 4,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "MauvilleCity_GameCorner_EventScript_Woman",
+      "hideFlag": "",
+      "rawMovementType": 9
+    }
+  ],
+  "blockData": "EgYSBhIGEgYSBhIGEgYSBhIGPAY9Bj4GPgY+Bj4GPwYSBhIGCQYKBgoGCwYOBg8GGgYaBhoGLwYvBi8GGgZEBkYGRQZGBkYGRgZHBhoGGgYRBhIGEgYTBhYGFwYuBgQyBDI3BjcGNwYEMkwGQzJNMk4yTTJNMk8GBTIEMhkGGgYaBhsGAzIEMhUyAjICMgIyAjICMgIyVAZWBlUGVgZVBlUGVwYMMgIyHjIfMh4yHzIDMgIyAjICMgIyAjICMgIyAjJcMl0yXjJeMl4yXTJfMgwyAjIUMgQyBDI2BgMyAjIkMiUyAjICMgIyJDIlMgIyAjICMgIyAjICMgIyAjICMgIyAjICMgIyAzImMiwGLQYnMgIyJjIsBi0GJzICMgIyAjICMiIGIwYNMgIyIgYjBg0yAjIDMiYyLAYtBicyAjImMiwGLQYnMgIyAjICMgIyKgYrBgwyAjIqBisGDDICMgMyJjIsBi0GJzICMiYyLAYtBicyAjICMgIyAjIyBjMGDDICMjIGMwYMMgIyAzImMjQGNQYnMgIyJjI0BjUGJzICMgIyAjICMhQyBDIVMgIyFDIEMhUyAjIDMgIyFDIEMhUyAjICMhQyBDIVMgIyBjIHMgIyAjICMgIyAjICMgIyAjICMg==",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ0AAAAAAAAAAAA="
+}

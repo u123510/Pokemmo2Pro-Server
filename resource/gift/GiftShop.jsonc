@@ -1,0 +1,202 @@
+{
+	"items": [
+		{
+			// 陶笛包
+			"id": 1,
+			"targetType": 1,
+			"category": 6,
+			"itemIndexId": 1199,
+			"price": 1000,
+			"originalPrice": 1000,
+			"quantity": 1,
+			"featuredOrder": 0
+		},
+		{
+			// [15]居合斩陶笛
+			"id": 2,
+			"targetType": 1,
+			"category": 6,
+			"itemIndexId": 1180,
+			"price": 500,
+			"originalPrice": 500,
+			"quantity": 1,
+			"featuredOrder": 1
+		},
+		{
+			// [19]飞翔陶笛
+			"id": 3,
+			"targetType": 1,
+			"category": 6,
+			"itemIndexId": 1181,
+			"price": 500,
+			"originalPrice": 500,
+			"quantity": 1,
+			"featuredOrder": 2
+		},
+		{
+			// [57]冲浪陶笛
+			"id": 4,
+			"targetType": 1,
+			"category": 6,
+			"itemIndexId": 1182,
+			"price": 500,
+			"originalPrice": 500,
+			"quantity": 1,
+			"featuredOrder": 3
+		},
+		{
+			// [70]怪力陶笛
+			"id": 5,
+			"targetType": 1,
+			"category": 6,
+			"itemIndexId": 1183,
+			"price": 500,
+			"originalPrice": 500,
+			"quantity": 1,
+			"featuredOrder": -1
+		},
+		{
+			// [148]闪光陶笛
+			"id": 6,
+			"targetType": 1,
+			"category": 6,
+			"itemIndexId": 1184,
+			"price": 500,
+			"originalPrice": 500,
+			"quantity": 1,
+			"featuredOrder": -1
+		},
+		{
+			// 捐赠者状态劵 - 7天
+			"id": 7,
+			"targetType": 1,
+			"category": 1,
+			"itemIndexId": 1025,
+			"price": 500,
+			"originalPrice": 500,
+			"quantity": 1,
+			"featuredOrder": 4
+		},
+		{
+			// 捐赠者状态劵 - 15天 (特惠)
+			"id": 8,
+			"targetType": 1,
+			"category": 1,
+			"itemIndexId": 1026,
+			"price": 900,
+			"originalPrice": 1000,
+			"quantity": 1,
+			"featuredOrder": 5
+		},
+		{
+			// 捐赠者状态劵 - 30天 (特惠)
+			"id": 9,
+			"targetType": 1,
+			"category": 1,
+			"itemIndexId": 1027,
+			"price": 1500,
+			"originalPrice": 2000,
+			"quantity": 1,
+			"featuredOrder": 6
+		},
+		{
+			// 闪光护符 (+10%)
+			"id": 10,
+			"targetType": 1,
+			"category": 3,
+			"itemIndexId": 1409,
+			"price": 200,
+			"originalPrice": 200,
+			"quantity": 1,
+			"featuredOrder": 7
+		},
+		{
+			// 闪光护符 (+15%)
+			"id": 11,
+			"targetType": 1,
+			"category": 3,
+			"itemIndexId": 1410,
+			"price": 300,
+			"originalPrice": 300,
+			"quantity": 1,
+			"featuredOrder": -1
+		},
+		{
+			// 闪光护符 (+20%)
+			"id": 12,
+			"targetType": 1,
+			"category": 3,
+			"itemIndexId": 1411,
+			"price": 400,
+			"originalPrice": 400,
+			"quantity": 1,
+			"featuredOrder": -1
+		},
+		{
+			// 鬼火质子
+			"id": 13,
+			"targetType": 1,
+			"category": 7,
+			"itemIndexId": 1294,
+			"price": 300,
+			"originalPrice": 300,
+			"quantity": 1,
+			"featuredOrder": 8
+		},
+		{
+			// 蝙蝠质子
+			"id": 14,
+			"targetType": 1,
+			"category": 7,
+			"itemIndexId": 1295,
+			"price": 300,
+			"originalPrice": 300,
+			"quantity": 1,
+			"featuredOrder": -1
+		},
+		{
+			// 幽灵质子
+			"id": 15,
+			"targetType": 1,
+			"category": 7,
+			"itemIndexId": 1296,
+			"price": 300,
+			"originalPrice": 300,
+			"quantity": 1,
+			"featuredOrder": -1
+		},
+		{
+			// 100RP奖励点券
+			"id": 16,
+			"targetType": 1,
+			"category": 8,
+			"itemIndexId": 1190,
+			"price": 100,
+			"originalPrice": 100,
+			"quantity": 1,
+			"featuredOrder": -1
+		},
+		{
+			// 500RP奖励点券
+			"id": 17,
+			"targetType": 1,
+			"category": 8,
+			"itemIndexId": 1191,
+			"price": 500,
+			"originalPrice": 500,
+			"quantity": 1,
+			"featuredOrder": -1
+		},
+		{
+			// 1,000RP奖励点券
+			"id": 18,
+			"targetType": 1,
+			"category": 8,
+			"itemIndexId": 1192,
+			"price": 1000,
+			"originalPrice": 1000,
+			"quantity": 1,
+			"featuredOrder": 9
+		}
+	]
+}

@@ -1,0 +1,144 @@
+{
+	"id": 894,
+	"name": "[894]雷吉艾勒奇",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 12,
+	"weight": 1450,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 84,
+			"name": "[84]电击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 229,
+			"name": "[229]高速旋转",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 527,
+			"name": "[527]电网",
+			"type": "level",
+			"level": 6
+		},
+		{
+			"id": 246,
+			"name": "[246]原始之力",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 351,
+			"name": "[351]电击波",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 86,
+			"name": "[86]电磁波",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 245,
+			"name": "[245]神速",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 819,
+			"name": "[819]雷电囚笼",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 85,
+			"name": "[85]十万伏特",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 393,
+			"name": "[393]电磁飘浮",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 37,
+			"name": "[37]大闹一番",
+			"type": "level",
+			"level": 54
+		},
+		{
+			"id": 199,
+			"name": "[199]锁定",
+			"type": "level",
+			"level": 60
+		},
+		{
+			"id": 192,
+			"name": "[192]电磁炮",
+			"type": "level",
+			"level": 66
+		},
+		{
+			"id": 63,
+			"name": "[63]破坏光线",
+			"type": "level",
+			"level": 72
+		},
+		{
+			"id": 153,
+			"name": "[153]大爆炸",
+			"type": "level",
+			"level": 78
+		}
+	],
+	"types": [
+		"ELECTRIC"
+	],
+	"stats": {
+		"hp": 80,
+		"attack": 100,
+		"defense": 50,
+		"speed": 100,
+		"sp_attack": 50,
+		"sp_defense": 200
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 3
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

@@ -1,0 +1,127 @@
+{
+	"id": 821,
+	"name": "[821]稚山雀",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 2,
+	"weight": 18,
+	"egg_groups": [
+		"飞行组"
+	],
+	"abilities": [
+		{
+			"id": 51,
+			"name": "[051]特性51"
+		},
+		{
+			"id": 127,
+			"name": "[127]特性127"
+		},
+		{
+			"id": 145,
+			"name": "[145]特性145"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 822,
+			"name": "[822]蓝鸦",
+			"type": "LEVEL",
+			"val": 18
+		}
+	],
+	"moves": [
+		{
+			"id": 43,
+			"name": "[43]瞪眼",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 64,
+			"name": "[64]啄",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 681,
+			"name": "[681]嚣张",
+			"type": "level",
+			"level": 4
+		},
+		{
+			"id": 468,
+			"name": "[468]磨爪",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 31,
+			"name": "[31]乱击",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 365,
+			"name": "[365]啄食",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 269,
+			"name": "[269]挑衅",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 184,
+			"name": "[184]鬼面",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 65,
+			"name": "[65]啄钻",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 207,
+			"name": "[207]虚张声势",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 413,
+			"name": "[413]勇鸟猛攻",
+			"type": "level",
+			"level": 36
+		}
+	],
+	"types": [
+		"FLYING"
+	],
+	"stats": {
+		"hp": 38,
+		"attack": 47,
+		"defense": 35,
+		"speed": 33,
+		"sp_attack": 35,
+		"sp_defense": 57
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 1
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

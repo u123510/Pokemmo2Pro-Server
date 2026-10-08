@@ -1,0 +1,332 @@
+{
+  "regionId": 0,
+  "bankId": 3,
+  "mapId": 12,
+  "width": 24,
+  "height": 20,
+  "paletteIdx1": 0,
+  "paletteIdx2": 61,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 335,
+  "unknownByte": 143,
+  "borderTiles": [
+    {
+      "material": 473,
+      "collision": 0
+    },
+    {
+      "material": 473,
+      "collision": 0
+    },
+    {
+      "material": 473,
+      "collision": 0
+    },
+    {
+      "material": 473,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "REGULAR_WEATHER",
+  "mapType": "VILLAGE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_ONE_ISLAND",
+      "base_label": "sOneIsland_FireRed",
+      "water_mons": {
+        "encounter_rate": 1,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 20,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 20,
+            "max_level": 35,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 35,
+            "max_level": 40,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 35,
+            "max_level": 40,
+            "species": "SPECIES_TENTACRUEL"
+          },
+          {
+            "min_level": 35,
+            "max_level": 40,
+            "species": "SPECIES_TENTACRUEL"
+          }
+        ]
+      },
+      "fishing_mons": {
+        "encounter_rate": 10,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 5,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 5,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_HORSEA"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_HORSEA"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_HORSEA"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_SHELLDER"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_GYARADOS"
+          },
+          {
+            "min_level": 25,
+            "max_level": 35,
+            "species": "SPECIES_SEADRA"
+          },
+          {
+            "min_level": 25,
+            "max_level": 35,
+            "species": "SPECIES_PSYDUCK"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "OneIsland_OnTransition",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_MAP_SCENE_ONE_ISLAND_HARBOR",
+      "value": 2,
+      "script": "OneIsland_EventScript_EnterOneIslandFirstTime"
+    }
+  ],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 14,
+      "y": 13,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "OneIsland_EventScript_IslandSign"
+    },
+    {
+      "x": 15,
+      "y": 6,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "OneIsland_EventScript_PokemonNetCenterSign"
+    }
+  ],
+  "connections": [
+    {
+      "direction": "DOWN",
+      "unknown": 0,
+      "targetBank": 3,
+      "targetMap": 46
+    },
+    {
+      "direction": "RIGHT",
+      "unknown": -120,
+      "targetBank": 3,
+      "targetMap": 45
+    }
+  ],
+  "warps": [
+    {
+      "x": 14,
+      "y": 5,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 32,
+      "targetMapId": 0,
+      "targetX": 9,
+      "targetY": 9,
+      "targetElevation": 2
+    },
+    {
+      "x": 19,
+      "y": 9,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 32,
+      "targetMapId": 2,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 8,
+      "y": 11,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 32,
+      "targetMapId": 3,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 12,
+      "y": 18,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 32,
+      "targetMapId": 4,
+      "targetX": 8,
+      "targetY": 2,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 73,
+      "x": 12,
+      "y": 16,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "kanto/FLAG_HIDE_ONE_ISLAND_BILL",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 32,
+      "x": 16,
+      "y": 12,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "OneIsland_EventScript_OldMan",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 30,
+      "x": 13,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_DOWN_AND_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "OneIsland_EventScript_BaldingMan",
+      "hideFlag": "",
+      "rawMovementType": 13
+    }
+  ],
+  "blockData": "cQRxBHEEcQRxBHEEcQRxBHEEcQRxBMAGwgbCBsMGxAbEBsYGHgQfBHUEdQQqMSsRcQRxBHEEcQRxBHEEsgS0BLUEtAS1BMgGygbKBssGzAbMBs4GFgQXBHUEdQQSBREFcQRxBHEEcQRxBHEEcgQeBB8EHgQfBNAGygbSBtMG1AbMBtYGHgQfBHUEdQQaBRkFcQRxBHEEcQRxBHEEcgQWBBUEFAQXBNgG2QbaBtsG3AbdBt4GFgQXBHUEdQQqMSsRcQRxBHEEcQRxBHEEcgQeBB0EHAQfBOAG4QbiBuMG5AblBuYGHgQfBHUEdQQqMSsRcQRxBHEEsgR8BHwEegQmBCUEJAQnBOgG6QbqBusG7AbtBu4GJgQnBHUEdQQqMSsRcQRxBHEEdQSyBLQEtQS0BLUEtAS1BLMEEDDRMhAwAgQQMLIEGAcZB74GGgcbBx8FcQRxBHEEdQRyBB4EHwQeBB8EHgQfBHgEfASRMIkwiTB8BHoEhgaHBp4GngafBnIEcQRxBHEEdQRyBBYEFQRzB5gHmQcRBxczETDFMMYwxzAQMBEwjgaPBqYGpQanBqIEcQRxBHEEdQRyBB4EHwSGBocGngaeBp8GETDFMMYwxDC+ML4wlgaXBq4GrQavBqIEcQRxBHEEdQRyBBYEFwSOBo8GpgalBqcGEDDFMMYwxjDMMM4wyzDGMMcwEDARMKIEcQRxBHEEdQRyBB4EHwSWBpcGrgatBq8GETDFMMYwxjDHMLIEkTCJMIkwfAR8BKoEcQRxBHEEdQRyBBYEFwQQMMUwxjDEML4wvjDDMMYwxjDHMKIE6jEVMRUxFTEVMRUxcQSyBHwEfQRyBB4EHwQIMM0wzjDOMMswxjDMMAIEzjDPMHIE5THqMRUxFTEVMRUxfAR9BLIEfAR6BCYEJwQQMBEwEDARMMUwxjDHMBAwETAQMHIEaASHB5kEmQSZBJkEcQSyBH0EsgR8BHwEfAR8BHwEfAR8BJEwiTCJMHwEfAR8BHoEcARxBHEEcQRxBHEEfAR9BLIEfQQgESMRCAUJBSMRIxEjEcUxxjHHMSMRCAUJBSQRcwRxBHEEcQRxBHEEfAR8BH0EIBExESsRGAUZBSsRKxErEcUxxjHHMSsRGAUZBSwRewR8BHwEfAR8BLMEIxEjESMRMRErERAFEQUrESsRKxErEbQytTK2MisRKxHLBYgGIxEjESMRIxEhEXMEKxErEcsFzAUrERgFGQUrESsRvRLwEvEG8QbxBvIStxIYBRkFywXMBSsRKxEsEXME",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

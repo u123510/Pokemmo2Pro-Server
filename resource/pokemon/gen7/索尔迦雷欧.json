@@ -1,0 +1,157 @@
+{
+	"id": 791,
+	"name": "[791]索尔迦雷欧",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 34,
+	"weight": 2300,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 100,
+			"name": "[100]瞬间移动",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 232,
+			"name": "[232]金属爪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 322,
+			"name": "[322]宇宙力量",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 358,
+			"name": "[358]唤醒巴掌",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 713,
+			"name": "[713]流星闪冲",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 442,
+			"name": "[442]铁头",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 319,
+			"name": "[319]金属音",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 428,
+			"name": "[428]意念头锤",
+			"type": "level",
+			"level": 19
+		},
+		{
+			"id": 430,
+			"name": "[430]加农光炮",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 234,
+			"name": "[234]晨光",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 242,
+			"name": "[242]咬碎",
+			"type": "level",
+			"level": 37
+		},
+		{
+			"id": 368,
+			"name": "[368]金属爆炸",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 76,
+			"name": "[76]日光束",
+			"type": "level",
+			"level": 47
+		},
+		{
+			"id": 568,
+			"name": "[568]战吼",
+			"type": "level",
+			"level": 59
+		},
+		{
+			"id": 394,
+			"name": "[394]闪焰冲锋",
+			"type": "level",
+			"level": 61
+		},
+		{
+			"id": 469,
+			"name": "[469]广域防守",
+			"type": "level",
+			"level": 67
+		},
+		{
+			"id": 416,
+			"name": "[416]终极冲击",
+			"type": "level",
+			"level": 73
+		}
+	],
+	"types": [
+		"PSYCHIC",
+		"STEEL"
+	],
+	"stats": {
+		"hp": 137,
+		"attack": 137,
+		"defense": 107,
+		"speed": 113,
+		"sp_attack": 89,
+		"sp_defense": 97
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 3,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

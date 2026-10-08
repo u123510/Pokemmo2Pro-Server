@@ -1,0 +1,379 @@
+{
+  "regionId": 1,
+  "bankId": 50,
+  "mapId": 4,
+  "width": 40,
+  "height": 20,
+  "paletteIdx1": 100,
+  "paletteIdx2": 108,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 382,
+  "unknownByte": 11,
+  "borderTiles": [
+    {
+      "material": 198,
+      "collision": 0
+    },
+    {
+      "material": 198,
+      "collision": 0
+    },
+    {
+      "material": 198,
+      "collision": 0
+    },
+    {
+      "material": 198,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "REGULAR_WEATHER",
+  "mapType": "CITY",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "FortreeCity_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 6,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FortreeCity_EventScript_CitySign"
+    },
+    {
+      "x": 7,
+      "y": 6,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    },
+    {
+      "x": 5,
+      "y": 14,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemartSign"
+    },
+    {
+      "x": 26,
+      "y": 10,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FortreeCity_EventScript_GymSign"
+    },
+    {
+      "x": 6,
+      "y": 6,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    },
+    {
+      "x": 6,
+      "y": 14,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemartSign"
+    }
+  ],
+  "connections": [
+    {
+      "direction": "LEFT",
+      "unknown": 0,
+      "targetBank": 50,
+      "targetMap": 34
+    },
+    {
+      "direction": "RIGHT",
+      "unknown": 0,
+      "targetBank": 50,
+      "targetMap": 35
+    }
+  ],
+  "warps": [
+    {
+      "x": 5,
+      "y": 6,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 62,
+      "targetMapId": 2,
+      "targetX": 7,
+      "targetY": 8,
+      "targetElevation": 2
+    },
+    {
+      "x": 10,
+      "y": 3,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 62,
+      "targetMapId": 0,
+      "targetX": 3,
+      "targetY": 5,
+      "targetElevation": 0
+    },
+    {
+      "x": 22,
+      "y": 11,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 62,
+      "targetMapId": 1,
+      "targetX": 15,
+      "targetY": 24,
+      "targetElevation": 0
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 62,
+      "targetMapId": 4,
+      "targetX": 3,
+      "targetY": 7,
+      "targetElevation": 0
+    },
+    {
+      "x": 17,
+      "y": 3,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 62,
+      "targetMapId": 5,
+      "targetX": 3,
+      "targetY": 5,
+      "targetElevation": 0
+    },
+    {
+      "x": 25,
+      "y": 3,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 62,
+      "targetMapId": 6,
+      "targetX": 3,
+      "targetY": 5,
+      "targetElevation": 0
+    },
+    {
+      "x": 32,
+      "y": 2,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 62,
+      "targetMapId": 7,
+      "targetX": 3,
+      "targetY": 5,
+      "targetElevation": 0
+    },
+    {
+      "x": 12,
+      "y": 13,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 62,
+      "targetMapId": 8,
+      "targetX": 3,
+      "targetY": 5,
+      "targetElevation": 0
+    },
+    {
+      "x": 37,
+      "y": 13,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 62,
+      "targetMapId": 9,
+      "targetX": 3,
+      "targetY": 5,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 23,
+      "x": 31,
+      "y": 3,
+      "elevation": 3,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FortreeCity_EventScript_Man",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 8,
+      "x": 32,
+      "y": 16,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FortreeCity_EventScript_Girl",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 34,
+      "x": 32,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "WANDER_UP_AND_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FortreeCity_EventScript_Woman",
+      "hideFlag": "",
+      "rawMovementType": 3
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 7,
+      "x": 11,
+      "y": 14,
+      "elevation": 3,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FortreeCity_EventScript_Boy",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 29,
+      "x": 8,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FortreeCity_EventScript_OldMan",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 189,
+      "x": 9,
+      "y": 16,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FortreeCity_EventScript_GameboyKid",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 204,
+      "x": 25,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "INVISIBLE",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FortreeCity_EventScript_Kecleon",
+      "hideFlag": "hoenn/FLAG_HIDE_FORTREE_CITY_KECLEON",
+      "rawMovementType": 76
+    }
+  ],
+  "blockData": "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",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAIAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+}

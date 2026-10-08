@@ -1,0 +1,127 @@
+{
+	"id": 856,
+	"name": "[856]迷布莉姆",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 4,
+	"weight": 34,
+	"egg_groups": [
+		"妖精组"
+	],
+	"abilities": [
+		{
+			"id": 131,
+			"name": "[131]特性131"
+		},
+		{
+			"id": 107,
+			"name": "[107]特性107"
+		},
+		{
+			"id": 156,
+			"name": "[156]特性156"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 857,
+			"name": "[857]提布莉姆",
+			"type": "LEVEL",
+			"val": 32
+		}
+	],
+	"moves": [
+		{
+			"id": 93,
+			"name": "[93]念力",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 589,
+			"name": "[589]和睦相处",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 791,
+			"name": "[791]生命水滴",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 574,
+			"name": "[574]魅惑之声",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 312,
+			"name": "[312]芳香治疗",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 60,
+			"name": "[60]幻象光线",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 505,
+			"name": "[505]治愈波动",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 605,
+			"name": "[605]魔法闪耀",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 347,
+			"name": "[347]冥想",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 94,
+			"name": "[94]精神强念",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 361,
+			"name": "[361]治愈之愿",
+			"type": "level",
+			"level": 45
+		}
+	],
+	"types": [
+		"PSYCHIC"
+	],
+	"stats": {
+		"hp": 42,
+		"attack": 30,
+		"defense": 45,
+		"speed": 56,
+		"sp_attack": 53,
+		"sp_defense": 39
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 1,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

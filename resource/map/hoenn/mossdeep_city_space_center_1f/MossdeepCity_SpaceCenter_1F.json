@@ -1,0 +1,317 @@
+{
+  "regionId": 1,
+  "bankId": 64,
+  "mapId": 9,
+  "width": 16,
+  "height": 10,
+  "paletteIdx1": 100,
+  "paletteIdx2": 129,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 399,
+  "unknownByte": 13,
+  "borderTiles": [
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "MossdeepCity_SpaceCenter_1F_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 7,
+      "y": 9,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 6,
+      "targetX": 64,
+      "targetY": 15,
+      "targetElevation": 0
+    },
+    {
+      "x": 8,
+      "y": 9,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 6,
+      "targetX": 64,
+      "targetY": 15,
+      "targetElevation": 0
+    },
+    {
+      "x": 13,
+      "y": 1,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 64,
+      "targetMapId": 10,
+      "targetX": 13,
+      "targetY": 1,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 46,
+      "x": 7,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "MossdeepCity_SpaceCenter_1F_EventScript_RocketLaunchCounter",
+      "hideFlag": "",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 46,
+      "x": 2,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "MossdeepCity_SpaceCenter_1F_EventScript_Scientist",
+      "hideFlag": "",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 49,
+      "x": 6,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "MossdeepCity_SpaceCenter_1F_EventScript_SunStoneMan",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 29,
+      "x": 10,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "MossdeepCity_SpaceCenter_1F_EventScript_OldMan",
+      "hideFlag": "",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 26,
+      "x": 14,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "WANDER_UP_AND_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "MossdeepCity_SpaceCenter_1F_EventScript_Woman",
+      "hideFlag": "",
+      "rawMovementType": 3
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 120,
+      "x": 12,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "MossdeepCity_SpaceCenter_1F_EventScript_Grunt3",
+      "hideFlag": "hoenn/FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 119,
+      "x": 11,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "MossdeepCity_SpaceCenter_1F_EventScript_Grunt1",
+      "hideFlag": "hoenn/FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 119,
+      "x": 10,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "MossdeepCity_SpaceCenter_1F_EventScript_Grunt4",
+      "hideFlag": "hoenn/FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 119,
+      "x": 13,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "MossdeepCity_SpaceCenter_1F_EventScript_Grunt2",
+      "hideFlag": "hoenn/FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_TEAM_MAGMA",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 9,
+      "graphicsId": 5,
+      "x": 2,
+      "y": 5,
+      "elevation": 0,
+      "movementType": "INVISIBLE",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "MossdeepCity_SpaceCenter_1F_EventScript_MagmaNote",
+      "hideFlag": "hoenn/FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_MAGMA_NOTE",
+      "rawMovementType": 76
+    },
+    {
+      "entityIdx": 10,
+      "graphicsId": 134,
+      "x": 1,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "MossdeepCity_SpaceCenter_1F_EventScript_Steven",
+      "hideFlag": "hoenn/FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_1F_STEVEN",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "GAYZAhkC+Ab4BvgG+Ab4BvgG+Ab4BvgGswa0BrUGGQK6BrgGuQYABwAHAAcABwAHAAcABwAHAAe7BrwCvQa5BnczdTN2M2YzZjNmM2YzZjNmM2YzZjNmM24zZjNvM3Yz8TLwMmEz8DLwMmEz8DLwMmEz8DLwMmEz8DLwMvAy8DLxMvAy8DLwMvAy8DLwMvAy8DLwMmMzZDPwMmMzZDPwMvEy8DJoB2kHaAdpB/Ay8DLwMvAyawdsB/AyawdsB/Ay8TJhM3AHcQdwB3EHYTPwMvAy8DJhM/Ay8DJhM/Ay8DLxMvAyYTPwMmEz8DLwMvAy8DLwMmgHaQdoB2kH8DLwMvEy8DLwMvAy8DLwMvAy8DLwMvAycAdxB3AHcQdhM/Ay8TLwMvAy8DLwMvAy8DIGAgcC8DLwMmEz8DJhM/Ay8DI=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NAAAAAAAAAA=="
+}

@@ -1,0 +1,259 @@
+{
+  "regionId": 1,
+  "bankId": 76,
+  "mapId": 31,
+  "width": 19,
+  "height": 12,
+  "paletteIdx1": 116,
+  "paletteIdx2": 162,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 469,
+  "unknownByte": 58,
+  "borderTiles": [
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_TEMP_CHALLENGE_STATUS",
+      "value": 0,
+      "script": "BattleFrontier_BattleFactoryLobby_EventScript_GetChallengeStatus"
+    }
+  ],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 2,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "BattleFrontier_BattleFactoryLobby_EventScript_ShowSinglesResults"
+    },
+    {
+      "x": 11,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "BattleFrontier_BattleFactoryLobby_EventScript_ShowDoublesResults"
+    },
+    {
+      "x": 9,
+      "y": 4,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "BattleFrontier_BattleFactoryLobby_EventScript_RulesBoard"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 9,
+      "y": 11,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 76,
+      "targetMapId": 4,
+      "targetX": 11,
+      "targetY": 38,
+      "targetElevation": 0
+    },
+    {
+      "x": 10,
+      "y": 11,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 76,
+      "targetMapId": 4,
+      "targetX": 11,
+      "targetY": 38,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 46,
+      "x": 4,
+      "y": 7,
+      "elevation": 0,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "BattleFrontier_BattleFactoryLobby_EventScript_SinglesAttendant",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 16,
+      "x": 3,
+      "y": 11,
+      "elevation": 0,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "BattleFrontier_BattleFactoryLobby_EventScript_Woman",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 31,
+      "x": 14,
+      "y": 11,
+      "elevation": 0,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "BattleFrontier_BattleFactoryLobby_EventScript_Camper",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 32,
+      "x": 13,
+      "y": 11,
+      "elevation": 0,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "BattleFrontier_BattleFactoryLobby_EventScript_Picnicker",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 17,
+      "x": 6,
+      "y": 10,
+      "elevation": 0,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "BattleFrontier_BattleFactoryLobby_EventScript_FatMan",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 46,
+      "x": 14,
+      "y": 7,
+      "elevation": 0,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "BattleFrontier_BattleFactoryLobby_EventScript_DoublesAttendant",
+      "hideFlag": "",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "IwYiBhoGIgYjBiIGGgYiBiIGIwYiBiIGGgYiBiMGIgYaBiIGIwYkBigGGgYpBiQGKAYaBiUGKQYkBigGJQYaBikGJAYoBhoGKQYkBhsGGwYaBhsGGwYbBhoG1QLWAtYC1gLXAhoGGwYbBhsGGgYbBhsGGwYbBhoGKgYrBiwGGgbdAt4C3gLeAt8CGgYqBisGLAYaBhsGGwY5BjwGUwcyBjMCNAZLBggGVAdVB1YHCAZLBjIGMwI0BlMHPAY8BkEGOgYQBmADBAIDAlMCEAZcM10zXjMQBkwDAwIEAgMCEAZPBzsGSTICMhgGYQcBAi0CLgYQBj0zAjIwMhgGOwcvAgECLQIQBjQzATI0MwEyIAYTBjQDEQYSBiEGXwcBAjEGIAYSBhMGNAMRBiEGMzMCMjMzAjIDMlgDWQNaAwMyBDI1MwIyATIEMgMyUANRA1IDAzI3MwEyNDMBMgIyATICMgEyAjIBMgIyATICMgEyAjIBMgIyATICMgEyOAIzMwIyATICMgEyAjIBMgIyATICMgEyAjIBMgICATIFMgEyBTJAAjQzATICMgEyAjIBMgIyATICMgkCCgIBAgICAQICAg0GAgINBkgC",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQAAAAAAAAAA"
+}

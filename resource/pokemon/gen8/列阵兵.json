@@ -1,0 +1,139 @@
+{
+	"id": 870,
+	"name": "[870]列阵兵",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 30,
+	"weight": 620,
+	"egg_groups": [
+		"妖精组",
+		"矿物组"
+	],
+	"abilities": [
+		{
+			"id": 4,
+			"name": "[004]特性4"
+		},
+		{
+			"id": 4,
+			"name": "[004]特性4"
+		},
+		{
+			"id": 128,
+			"name": "[128]特性128"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 182,
+			"name": "[182]守住",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 249,
+			"name": "[249]碎岩",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 116,
+			"name": "[116]聚气",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 29,
+			"name": "[29]头锤",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 339,
+			"name": "[339]健美",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 203,
+			"name": "[203]挺住",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 179,
+			"name": "[179]起死回生",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 660,
+			"name": "[660]迎头一击",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 748,
+			"name": "[748]背水一战",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 334,
+			"name": "[334]铁壁",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 370,
+			"name": "[370]近身战",
+			"type": "level",
+			"level": 50
+		},
+		{
+			"id": 224,
+			"name": "[224]超级角击",
+			"type": "level",
+			"level": 55
+		},
+		{
+			"id": 68,
+			"name": "[68]双倍奉还",
+			"type": "level",
+			"level": 60
+		}
+	],
+	"types": [
+		"FIGHTING"
+	],
+	"stats": {
+		"hp": 65,
+		"attack": 100,
+		"defense": 100,
+		"speed": 70,
+		"sp_attack": 60,
+		"sp_defense": 75
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 2,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 1,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

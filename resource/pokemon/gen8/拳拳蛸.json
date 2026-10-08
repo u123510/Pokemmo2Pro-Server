@@ -1,0 +1,121 @@
+{
+	"id": 852,
+	"name": "[852]拳拳蛸",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 6,
+	"weight": 40,
+	"egg_groups": [
+		"人形组",
+		"水1组"
+	],
+	"abilities": [
+		{
+			"id": 7,
+			"name": "[007]特性7"
+		},
+		{
+			"id": 7,
+			"name": "[007]特性7"
+		},
+		{
+			"id": 101,
+			"name": "[101]特性101"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 43,
+			"name": "[43]瞪眼",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 249,
+			"name": "[249]碎岩",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 364,
+			"name": "[364]佯攻",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 20,
+			"name": "[20]绑紧",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 197,
+			"name": "[197]看穿",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 280,
+			"name": "[280]劈瓦",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 339,
+			"name": "[339]健美",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 66,
+			"name": "[66]地狱翻滚",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 269,
+			"name": "[269]挑衅",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 179,
+			"name": "[179]起死回生",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 276,
+			"name": "[276]蛮力",
+			"type": "level",
+			"level": 45
+		}
+	],
+	"types": [
+		"FIGHTING"
+	],
+	"stats": {
+		"hp": 50,
+		"attack": 68,
+		"defense": 60,
+		"speed": 50,
+		"sp_attack": 50,
+		"sp_defense": 32
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 1,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

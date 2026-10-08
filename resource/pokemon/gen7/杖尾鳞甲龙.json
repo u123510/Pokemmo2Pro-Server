@@ -1,0 +1,181 @@
+{
+	"id": 784,
+	"name": "[784]杖尾鳞甲龙",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 16,
+	"weight": 782,
+	"egg_groups": [
+		"龙组"
+	],
+	"abilities": [
+		{
+			"id": 43,
+			"name": "[043]特性43"
+		},
+		{
+			"id": 43,
+			"name": "[043]特性43"
+		},
+		{
+			"id": 142,
+			"name": "[142]特性142"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 43,
+			"name": "[43]瞪眼",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 117,
+			"name": "[117]忍耐",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 182,
+			"name": "[182]守住",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 187,
+			"name": "[187]腹鼓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 327,
+			"name": "[327]冲天拳",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 475,
+			"name": "[475]身体轻量化",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 691,
+			"name": "[691]鳞片噪音",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 43,
+			"name": "[43]瞪眼",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 117,
+			"name": "[117]忍耐",
+			"type": "level",
+			"level": 9
+		},
+		{
+			"id": 182,
+			"name": "[182]守住",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 525,
+			"name": "[525]龙尾",
+			"type": "level",
+			"level": 17
+		},
+		{
+			"id": 184,
+			"name": "[184]鬼面",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 29,
+			"name": "[29]头锤",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 526,
+			"name": "[526]自我激励",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 103,
+			"name": "[103]刺耳声",
+			"type": "level",
+			"level": 33
+		},
+		{
+			"id": 334,
+			"name": "[334]铁壁",
+			"type": "level",
+			"level": 38
+		},
+		{
+			"id": 337,
+			"name": "[337]龙爪",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 568,
+			"name": "[568]战吼",
+			"type": "level",
+			"level": 51
+		},
+		{
+			"id": 349,
+			"name": "[349]龙之舞",
+			"type": "level",
+			"level": 59
+		},
+		{
+			"id": 200,
+			"name": "[200]逆鳞",
+			"type": "level",
+			"level": 67
+		}
+	],
+	"types": [
+		"DRAGON",
+		"FIGHTING"
+	],
+	"stats": {
+		"hp": 75,
+		"attack": 110,
+		"defense": 125,
+		"speed": 100,
+		"sp_attack": 105,
+		"sp_defense": 85
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 3,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

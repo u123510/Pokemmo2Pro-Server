@@ -1,0 +1,205 @@
+{
+  "regionId": 0,
+  "bankId": 1,
+  "mapId": 101,
+  "width": 19,
+  "height": 22,
+  "paletteIdx1": 0,
+  "paletteIdx2": 61,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 331,
+  "unknownByte": 175,
+  "borderTiles": [
+    {
+      "material": 113,
+      "collision": 0
+    },
+    {
+      "material": 113,
+      "collision": 0
+    },
+    {
+      "material": 113,
+      "collision": 0
+    },
+    {
+      "material": 113,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "MtEmber_Summit_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 9,
+      "y": 15,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 97,
+      "targetX": 29,
+      "targetY": 7,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 137,
+      "x": 9,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "MtEmber_Summit_EventScript_Moltres",
+      "hideFlag": "kanto/FLAG_HIDE_MOLTRES",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 97,
+      "x": 10,
+      "y": 12,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 97,
+      "x": 9,
+      "y": 12,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 97,
+      "x": 8,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 97,
+      "x": 8,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "UQdRB1EHVQc0B1wHXAdcB1wHXAdcB1wHXAc1B1EHUwdbB1wHNQdRBzQHXAddB1UHNAdcB1wHXAdcB1wHXAc1B1sHNQdbB1wHNQdTB00HVQc0B1wHXQdVBzQHXAdcB1wHXAc1B1sHNQdbB1wHNQdTB1MHVQdVB1UHNAdcB10HVQc0B1wHXAc1B1sHNQdbBzUHUQdTB1MHUwdVB1UHVQdVBzQHXAddB1UHUQdRB1MHUQdbBzUHWwc1B1MHUwdTB1UHVQdVB1UHVQdRB0sHwTLBMsEywTLBMk0HUwdRB1MHUwdTB1MHVQdVBzwHPAc8B0wHUweFM4UzhTOFM4UzVQc9B0wHPQc9B1MHUwfBMsEyTQdRB0sHTAdTB4UzhTOFM4UzhTNVB0wHTQdLB8EywTLBMoUzhTPBMsEywTLBMsEyVwdXB4UzhTNXB8EywTLBMsEyhTOFM4UzhTOFM4UzhTOFM4UzVweFM4UzhTOFM4UzVweFM4UzhTOFMzQHXAeFM1cHhTOFM4UzhTNXB4UzhTNXB1cHhTNXB4UzhTOFM4UzVQc0B1wHXAc1B4UzhTOFM1cHhTOFM4UzhTNXB4UzVweFM4UzNAddB1UHXAc1B1MHhTNXB4UzVwdXB4UzhTOFM1cHhTOFM4UzNAddBzQHXQdRB1MHWwc1B4UzhTOFM1cHVweFM4UzhTNXB4UzhTNVB1EHVQc0BzUHWwc1B1sHXAc1B1cHhTOFM4UzhTNXB4UzhTNXB1UHNAddB1UHWwc1B1MHUQdRB1MHhTNXB1cH/zFXB4UzVwc0B1wHXQdVB1EHVQc1B1MHWwdcBzUHWwdcB1wHkQSJBIkEXAdcB10HNAdcB10HNAddB1MHWwdcBzUHWwdcB1wHXAeRBIkEiQRcB1wHXAddBzQHXAddBzQHWwdcBzUHWwdcB1wHXAdcB5EEiQSJBFwHXAdcB1wHXQc0B1wHXQdcBzUHWwdcB1wHXAdcB1wHkQSJBIkEXAdcB1wHXAdcB10HNAdcBzUHWwdcB1wHXAdcB1wHXAeRBIkEiQRcB1wHXAdcB1wHXAddBzQHWwdcB1wHXAdcB1wHXAdcB5EEiQSJBFwHXAdcB1wHXAdcB1wHXQc=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+}

@@ -1,0 +1,140 @@
+{
+	"id": 1050,
+	"name": "[1050]铁臂枪虾",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 5,
+	"weight": 83,
+	"egg_groups": [
+		"水1组",
+		"水3组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 1051,
+			"name": "[1051]钢炮臂虾",
+			"type": "LEVEL",
+			"val": 37
+		}
+	],
+	"moves": [
+		{
+			"id": 55,
+			"name": "[55]水枪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 150,
+			"name": "[150]跃起",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 346,
+			"name": "[346]玩水",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 11,
+			"name": "[11]夹住",
+			"type": "level",
+			"level": 9
+		},
+		{
+			"id": 145,
+			"name": "[145]泡沫",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 175,
+			"name": "[175]抓狂",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 61,
+			"name": "[61]泡沫光线",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 14,
+			"name": "[14]剑舞",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 152,
+			"name": "[152]蟹钳锤",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 352,
+			"name": "[352]水之波动",
+			"type": "level",
+			"level": 34
+		},
+		{
+			"id": 479,
+			"name": "[479]击落",
+			"type": "level",
+			"level": 39
+		},
+		{
+			"id": 453,
+			"name": "[453]水流喷射",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 330,
+			"name": "[330]浊流",
+			"type": "level",
+			"level": 48
+		}
+	],
+	"types": [
+		"WATER"
+	],
+	"stats": {
+		"hp": 50,
+		"attack": 53,
+		"defense": 62,
+		"speed": 58,
+		"sp_attack": 63,
+		"sp_defense": 44
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 1,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

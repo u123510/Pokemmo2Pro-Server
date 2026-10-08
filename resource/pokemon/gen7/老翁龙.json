@@ -1,0 +1,146 @@
+{
+	"id": 780,
+	"name": "[780]老翁龙",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 30,
+	"weight": 1850,
+	"egg_groups": [
+		"怪兽组",
+		"龙组"
+	],
+	"abilities": [
+		{
+			"id": 157,
+			"name": "[157]特性157"
+		},
+		{
+			"id": 157,
+			"name": "[157]特性157"
+		},
+		{
+			"id": 13,
+			"name": "[013]特性13"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 497,
+			"name": "[497]回声",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 589,
+			"name": "[589]和睦相处",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 239,
+			"name": "[239]龙卷风",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 182,
+			"name": "[182]守住",
+			"type": "level",
+			"level": 9
+		},
+		{
+			"id": 137,
+			"name": "[137]大蛇瞪眼",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 113,
+			"name": "[113]光墙",
+			"type": "level",
+			"level": 17
+		},
+		{
+			"id": 82,
+			"name": "[82]龙之怒",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 363,
+			"name": "[363]自然之恩",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 225,
+			"name": "[225]龙息",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 219,
+			"name": "[219]神秘守护",
+			"type": "level",
+			"level": 33
+		},
+		{
+			"id": 326,
+			"name": "[326]神通力",
+			"type": "level",
+			"level": 37
+		},
+		{
+			"id": 406,
+			"name": "[406]龙之波动",
+			"type": "level",
+			"level": 41
+		},
+		{
+			"id": 19,
+			"name": "[19]飞翔",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 304,
+			"name": "[304]巨声",
+			"type": "level",
+			"level": 49
+		},
+		{
+			"id": 200,
+			"name": "[200]逆鳞",
+			"type": "level",
+			"level": 53
+		}
+	],
+	"types": [
+		"NORMAL",
+		"DRAGON"
+	],
+	"stats": {
+		"hp": 78,
+		"attack": 60,
+		"defense": 85,
+		"speed": 135,
+		"sp_attack": 91,
+		"sp_defense": 36
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 2,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

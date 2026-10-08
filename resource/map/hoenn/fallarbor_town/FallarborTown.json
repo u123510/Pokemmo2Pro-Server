@@ -1,0 +1,304 @@
+{
+  "regionId": 1,
+  "bankId": 50,
+  "mapId": 13,
+  "width": 20,
+  "height": 20,
+  "paletteIdx1": 100,
+  "paletteIdx2": 107,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 437,
+  "unknownByte": 4,
+  "borderTiles": [
+    {
+      "material": 619,
+      "collision": 0
+    },
+    {
+      "material": 620,
+      "collision": 0
+    },
+    {
+      "material": 627,
+      "collision": 0
+    },
+    {
+      "material": 628,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "REGULAR_WEATHER",
+  "mapType": "VILLAGE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "FallarborTown_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 16,
+      "y": 15,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemartSign"
+    },
+    {
+      "x": 15,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    },
+    {
+      "x": 6,
+      "y": 8,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FallarborTown_EventScript_BattleTentSign"
+    },
+    {
+      "x": 16,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    },
+    {
+      "x": 10,
+      "y": 11,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FallarborTown_EventScript_TownSign"
+    },
+    {
+      "x": 17,
+      "y": 15,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemartSign"
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FallarborTown_EventScript_MoveTutorSign"
+    },
+    {
+      "x": 2,
+      "y": 15,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "0x0"
+    }
+  ],
+  "connections": [
+    {
+      "direction": "LEFT",
+      "unknown": 0,
+      "targetBank": 50,
+      "targetMap": 29
+    },
+    {
+      "direction": "RIGHT",
+      "unknown": 0,
+      "targetBank": 50,
+      "targetMap": 28
+    }
+  ],
+  "warps": [
+    {
+      "x": 15,
+      "y": 15,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 55,
+      "targetMapId": 0,
+      "targetX": 3,
+      "targetY": 7,
+      "targetElevation": 0
+    },
+    {
+      "x": 8,
+      "y": 7,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 55,
+      "targetMapId": 1,
+      "targetX": 6,
+      "targetY": 9,
+      "targetElevation": 0
+    },
+    {
+      "x": 14,
+      "y": 7,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 55,
+      "targetMapId": 4,
+      "targetX": 7,
+      "targetY": 8,
+      "targetElevation": 2
+    },
+    {
+      "x": 6,
+      "y": 17,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 55,
+      "targetMapId": 6,
+      "targetX": 3,
+      "targetY": 8,
+      "targetElevation": 0
+    },
+    {
+      "x": 1,
+      "y": 6,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 55,
+      "targetMapId": 7,
+      "targetX": 3,
+      "targetY": 7,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 8,
+      "x": 8,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FallarborTown_EventScript_Girl",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 21,
+      "x": 11,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "WANDER_LEFT_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FallarborTown_EventScript_ExpertM",
+      "hideFlag": "",
+      "rawMovementType": 5
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 48,
+      "x": 11,
+      "y": 15,
+      "elevation": 2,
+      "movementType": "WANDER_UP_AND_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FallarborTown_EventScript_Gentleman",
+      "hideFlag": "",
+      "rawMovementType": 3
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 214,
+      "x": 8,
+      "y": 12,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FallarborTown_EventScript_Azurill",
+      "hideFlag": "hoenn/FLAG_HIDE_FALLARBOR_AZURILL",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "HgMeAx4DHgMeAx4DHgMeAx4DHgMeAx4DHgMeAxUHeQZ5BnkGeQZ5BmkGaQZpBmkGaQZpBmkGaQZpBmkGaQZpBmkGagYdAx4DHgMeAx4DHgNpBmkGaQZpBmkGaQZpBmkGaQZpBmkGaQZqBnoGaQZpBmkGaQZpBmoGIgcjByMHJAfCBsMGSgdLB0wHTQdOB2oGegZpBmkGaQZpBmkGagZ6BoUGhgaGBocGyjbLNlIHUwdUB1UHVgd6BmkGoAahBqIGowZqBnoGaQaNBp0GngaPBqcyeTJaB1sHXAddB14HcTJxMlAEUQRSBFMEegZpBmkGlQalBqYGlwZ5MiM2YgdjB2QHZQdmByM2eTJYBFkEWgRbBHEycTJxMnkyeTJ5MgMEeTIjNmoHawdsB20HbgcjNnkyqQZhBGIEqgZ5MnkynzKfMnkyeTJ5MnkyeTIDBOgy6TLqMnkyeTJ5Mnky6DLqMnkyeTJ5MnkyeTLoMuky6TLpMuky6TLxMvEy8TLpMuky6TLpMvEy8TLpMuky6jJ5Mnky+DL5Mvky+TL5Mvky+TL5Mvky+TLxMvEy+TL5Mvky+TL5MvoyeTJ5Mp8ynzKfMp8yeTJ5MnkyeTJ5MgME8DLyMnkyeTKfMp8ynzKfMnkyeTJ5MnkyeTJ5MnkyeTJ5MnkyeTJ5MvAy8jJ5MrsyqDKoMrwyeTJ5MnkyeTJ5MnkyeTJ5MnkyIDMhM3kyeTLwMvIyeTIwBDEEMgQzBHkynzJ5MiUzJjMnM3kyfTJ+MigzKTN5Mnky8DLyMnkyOAQ5BDoEOwQGMgcyeTItMy4zLzN5MoUGhgaGBocGeTKfMvAy8jJ5MqkGQQRCBKsGDjZ0NnkyNTM2MzczeTKNBp0GngaPBnkyeTLwMvEy6TLpMuoyeTKfMgYybAYHMnkyeTJ5MnkylQalBqYGlwZ5Mnky+DL5Mvky+TL6MnkyBjJzNnQ2awYHMgYyBzKnMnkyeTJ5MnkyeTJ5MnkyeTJ5MgYyBzIGMmw2awZsBmwGawZsBmsGBzIGMgcyBjIHMgYyBzIGMgcyBjJzBnQ2cwZ0BnM2dDY=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+}

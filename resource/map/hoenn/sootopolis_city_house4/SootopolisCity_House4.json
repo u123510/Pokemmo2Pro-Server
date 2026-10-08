@@ -1,0 +1,186 @@
+{
+  "regionId": 1,
+  "bankId": 65,
+  "mapId": 8,
+  "width": 8,
+  "height": 7,
+  "paletteIdx1": 116,
+  "paletteIdx2": 147,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 445,
+  "unknownByte": 14,
+  "borderTiles": [
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 3,
+      "y": 6,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 7,
+      "targetX": 44,
+      "targetY": 17,
+      "targetElevation": 0
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 7,
+      "targetX": 44,
+      "targetY": 17,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 19,
+      "x": 2,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "SootopolisCity_House4_EventScript_Man",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 26,
+      "x": 5,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 2,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "SootopolisCity_House4_EventScript_Woman",
+      "hideFlag": "",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 210,
+      "x": 2,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SootopolisCity_House4_EventScript_Azumarill",
+      "hideFlag": "",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "8AfwB/EH8AfwB/EH8AcwBs0G+Af5B/gH+Af5B/gHAgTVMv8z/zP/M/8z/zP/M7Uy/zP+M90y8zf0N94y/jP+M/8z/jPdMvs3/DfeMv4z/jP/M/4z/jP+M/4z/jP+M/4z/zP+M/4zCAIJAv4z/jP+Mw==",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ0AAAA="
+}

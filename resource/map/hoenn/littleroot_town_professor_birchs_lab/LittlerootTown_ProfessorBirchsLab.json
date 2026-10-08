@@ -1,0 +1,358 @@
+{
+  "regionId": 1,
+  "bankId": 51,
+  "mapId": 4,
+  "width": 13,
+  "height": 13,
+  "paletteIdx1": 116,
+  "paletteIdx2": 143,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 383,
+  "unknownByte": 0,
+  "borderTiles": [
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "LittlerootTown_ProfessorBirchsLab_OnTransition",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_BIRCH_LAB_STATE",
+      "value": 2,
+      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_GiveStarterEvent"
+    },
+    {
+      "varKey": "VAR_BIRCH_LAB_STATE",
+      "value": 4,
+      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_GivePokedexEvent"
+    },
+    {
+      "varKey": "VAR_DEX_UPGRADE_JOHTO_STARTER_STATE",
+      "value": 1,
+      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_UpgradeToNationalDex"
+    },
+    {
+      "varKey": "VAR_DEX_UPGRADE_JOHTO_STARTER_STATE",
+      "value": 4,
+      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_ChooseJohtoStarter"
+    }
+  ],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 10,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_Machine"
+    },
+    {
+      "x": 11,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_Machine"
+    },
+    {
+      "x": 7,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_Book"
+    },
+    {
+      "x": 8,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_Book"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_Bookshelf"
+    },
+    {
+      "x": 0,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_Bookshelf"
+    },
+    {
+      "x": 1,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_Bookshelf"
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_Bookshelf"
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_Bookshelf"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_PC"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_PC"
+    },
+    {
+      "x": 1,
+      "y": 10,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_PC"
+    },
+    {
+      "x": 1,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_PC"
+    },
+    {
+      "x": 11,
+      "y": 10,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_PC"
+    },
+    {
+      "x": 11,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_PC"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 6,
+      "y": 12,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 9,
+      "targetX": 7,
+      "targetY": 16,
+      "targetElevation": 0
+    },
+    {
+      "x": 7,
+      "y": 12,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 9,
+      "targetX": 7,
+      "targetY": 16,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 46,
+      "x": 9,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_Aide",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 64,
+      "x": 6,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_Birch",
+      "hideFlag": "hoenn/FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_BIRCH",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 0,
+      "x": 7,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_Rival",
+      "hideFlag": "hoenn/FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_RIVAL",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 59,
+      "x": 6,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_Cyndaquil",
+      "hideFlag": "hoenn/FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_CYNDAQUIL",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 59,
+      "x": 6,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_Totodile",
+      "hideFlag": "hoenn/FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_TOTODILE",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 59,
+      "x": 6,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LittlerootTown_ProfessorBirchsLab_EventScript_Chikorita",
+      "hideFlag": "hoenn/FLAG_HIDE_LITTLEROOT_TOWN_BIRCHS_LAB_POKEBALL_CHIKORITA",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "EAYRBggGEgYTBggGCAYJBgkGCAYIBggGCAYYBhkGPAYaBhsGCgYLBgwGDQYOBgoGCgYKBiAGITJEBiIyIzI+MiIyMzIiMjMyPjKaBpoGKAYCMioyKjJBMgIyAjICMgIyKTI6MgIyMgYEMgIyAjICMgIyAjICMgIyAjIxBkIGAjICMiQyJTI2MjcyAjICMgIyAjICMj8yPzICMgIyLAYtBiwGLQYCMgIyAjICMgIyAjIUBhUGFjI0BjUGNAY1BgIyAjICMgIyAjICMhwGHQYeBj0yPjI+Mj4yAjICMgIyAjICMgIyRzI/MpIyBDIwBgIyAjICMgIyAjICMgIyAjICMjsGLgZIBjgGOTICMgIyAjICMgIyAjICMkkyQwY6MkgGQAYCMiYyAjICMgIyAjICMgIyAjJLBkIGTzI/MgIyLgYCMgIyBgIHAgIyAjICMj8yPzI=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ0AAAAAAA=="
+}

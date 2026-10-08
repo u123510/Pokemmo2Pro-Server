@@ -1,0 +1,134 @@
+{
+	"id": 884,
+	"name": "[884]铝钢龙",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 18,
+	"weight": 400,
+	"egg_groups": [
+		"矿物组",
+		"龙组"
+	],
+	"abilities": [
+		{
+			"id": 135,
+			"name": "[135]特性135"
+		},
+		{
+			"id": 134,
+			"name": "[134]特性134"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 43,
+			"name": "[43]瞪眼",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 232,
+			"name": "[232]金属爪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 249,
+			"name": "[249]碎岩",
+			"type": "level",
+			"level": 6
+		},
+		{
+			"id": 468,
+			"name": "[468]磨爪",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 319,
+			"name": "[319]金属音",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 784,
+			"name": "[784]广域破坏",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 525,
+			"name": "[525]龙尾",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 334,
+			"name": "[334]铁壁",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 673,
+			"name": "[673]磨砺",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 337,
+			"name": "[337]龙爪",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 430,
+			"name": "[430]加农光炮",
+			"type": "level",
+			"level": 54
+		},
+		{
+			"id": 368,
+			"name": "[368]金属爆炸",
+			"type": "level",
+			"level": 60
+		},
+		{
+			"id": 63,
+			"name": "[63]破坏光线",
+			"type": "level",
+			"level": 66
+		}
+	],
+	"types": [
+		"STEEL",
+		"DRAGON"
+	],
+	"stats": {
+		"hp": 70,
+		"attack": 95,
+		"defense": 115,
+		"speed": 120,
+		"sp_attack": 50,
+		"sp_defense": 85
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 2,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

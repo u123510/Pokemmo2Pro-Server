@@ -1,0 +1,227 @@
+{
+  "regionId": 0,
+  "bankId": 10,
+  "mapId": 17,
+  "width": 15,
+  "height": 11,
+  "paletteIdx1": 12,
+  "paletteIdx2": 50,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 309,
+  "unknownByte": 94,
+  "borderTiles": [
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 5,
+      "y": 9,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 6,
+      "targetX": 37,
+      "targetY": 29,
+      "targetElevation": 0
+    },
+    {
+      "x": 6,
+      "y": 9,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 6,
+      "targetX": 37,
+      "targetY": 29,
+      "targetElevation": 0
+    },
+    {
+      "x": 7,
+      "y": 9,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 6,
+      "targetX": 37,
+      "targetY": 29,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 59,
+      "x": 12,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "WANDER_LEFT_AND_RIGHT",
+      "movementRangeX": 2,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "CeladonCity_Restaurant_EventScript_Chef",
+      "hideFlag": "",
+      "rawMovementType": 5
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 28,
+      "x": 11,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "WANDER_UP_AND_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 2,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "CeladonCity_Restaurant_EventScript_Woman",
+      "hideFlag": "",
+      "rawMovementType": 3
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 27,
+      "x": 9,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "CeladonCity_Restaurant_EventScript_FatMan",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 30,
+      "x": 1,
+      "y": 2,
+      "elevation": 0,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "CeladonCity_Restaurant_EventScript_CoinCaseMan",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 47,
+      "x": 3,
+      "y": 7,
+      "elevation": 0,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "CeladonCity_Restaurant_EventScript_WorkerM",
+      "hideFlag": "",
+      "rawMovementType": 9
+    }
+  ],
+  "blockData": "tAa1BrUGtQa1BrUGtQa1BrUGtQa2BrYGtga2BrcGvAbIBsgGvQbQBtAGvQbQBtAGvQbYBsoGywa+Br8GxDLlMuUyxTLFMsUyxTLFMsUy5jLgBtIG0wbGBscGsTK7BroGzjLUMtQy1DLUMtQyzTLgBtEyzzLPMs8ysTLBBsIGzjLUMtQy1DLUMtQyzTLnBtEyzzLPMs8ysTLUMtQy1DLUMtQy1DLUMtQyzTLgBtEyzzLPMs8ysTLJMsky1DLUMtQy1DLUMtQyzTLgBtEyzzLPMs8ysTK5BsMGzjLUMtQy1DLUMtQy1DLZBtoy2zLbMtwysTLBBsIGzjLUMtQy1DLUMtQy1DLhBuIG4wbjBuQGsTLUMtQy1DLUMtUy1jLXMtQy1DLUMtQy1DLUMtQyCAQIBAgECAQIBBoEGwQcBAgECAQIBAgECAQIBAgE",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

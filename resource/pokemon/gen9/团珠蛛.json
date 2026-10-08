@@ -1,0 +1,145 @@
+{
+	"id": 917,
+	"name": "[917]团珠蛛",
+	"exp_type": 2,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 3,
+	"weight": 40,
+	"egg_groups": [
+		"虫组"
+	],
+	"abilities": [
+		{
+			"id": 15,
+			"name": "[015]特性15"
+		},
+		{
+			"id": 15,
+			"name": "[015]特性15"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 918,
+			"name": "[918]操陷蛛",
+			"type": "LEVEL",
+			"val": 15
+		}
+	],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 81,
+			"name": "[81]吐丝",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 522,
+			"name": "[522]虫之抵抗",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 372,
+			"name": "[372]恶意追击",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 364,
+			"name": "[364]佯攻",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 450,
+			"name": "[450]虫咬",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 335,
+			"name": "[335]挡路",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 68,
+			"name": "[68]双倍奉还",
+			"type": "level",
+			"level": 22
+		},
+		{
+			"id": 29,
+			"name": "[29]头锤",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 564,
+			"name": "[564]黏黏网",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 380,
+			"name": "[380]胃液",
+			"type": "level",
+			"level": 33
+		},
+		{
+			"id": 509,
+			"name": "[509]巴投",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 675,
+			"name": "[675]地狱突刺",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 806,
+			"name": "[806]爬击",
+			"type": "level",
+			"level": 44
+		}
+	],
+	"types": [
+		"BUG"
+	],
+	"stats": {
+		"hp": 35,
+		"attack": 41,
+		"defense": 45,
+		"speed": 29,
+		"sp_attack": 40,
+		"sp_defense": 20
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 1,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

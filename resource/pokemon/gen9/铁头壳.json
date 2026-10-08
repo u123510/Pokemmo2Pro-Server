@@ -1,0 +1,157 @@
+{
+	"id": 1023,
+	"name": "[1023]铁头壳",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 16,
+	"weight": 1560,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 43,
+			"name": "[43]瞪眼",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 93,
+			"name": "[93]念力",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 232,
+			"name": "[232]金属爪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 604,
+			"name": "[604]电气场地",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 684,
+			"name": "[684]修长之角",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 163,
+			"name": "[163]劈开",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 334,
+			"name": "[334]铁壁",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 473,
+			"name": "[473]精神冲击",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 427,
+			"name": "[427]精神利刃",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 430,
+			"name": "[430]加农光炮",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 533,
+			"name": "[533]圣剑",
+			"type": "level",
+			"level": 49
+		},
+		{
+			"id": 911,
+			"name": "[911]迅子利刃",
+			"type": "level",
+			"level": 56
+		},
+		{
+			"id": 248,
+			"name": "[248]预知未来",
+			"type": "level",
+			"level": 63
+		},
+		{
+			"id": 521,
+			"name": "[521]伏特替换",
+			"type": "level",
+			"level": 70
+		},
+		{
+			"id": 501,
+			"name": "[501]快速防守",
+			"type": "level",
+			"level": 77
+		},
+		{
+			"id": 368,
+			"name": "[368]金属爆炸",
+			"type": "level",
+			"level": 84
+		},
+		{
+			"id": 63,
+			"name": "[63]破坏光线",
+			"type": "level",
+			"level": 91
+		}
+	],
+	"types": [
+		"STEEL",
+		"PSYCHIC"
+	],
+	"stats": {
+		"hp": 90,
+		"attack": 72,
+		"defense": 100,
+		"speed": 122,
+		"sp_attack": 108,
+		"sp_defense": 98
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 3,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

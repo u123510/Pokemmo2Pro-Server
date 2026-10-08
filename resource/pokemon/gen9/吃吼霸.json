@@ -1,0 +1,156 @@
+{
+	"id": 977,
+	"name": "[977]吃吼霸",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 120,
+	"weight": 2200,
+	"egg_groups": [
+		"水2组"
+	],
+	"abilities": [
+		{
+			"id": 109,
+			"name": "[109]特性109"
+		},
+		{
+			"id": 12,
+			"name": "[012]特性12"
+		},
+		{
+			"id": 41,
+			"name": "[041]特性41"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 48,
+			"name": "[48]超音波",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 55,
+			"name": "[55]水枪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 321,
+			"name": "[321]挠痒",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 175,
+			"name": "[175]抓狂",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 156,
+			"name": "[156]睡觉",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 214,
+			"name": "[214]梦话",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 291,
+			"name": "[291]潜水",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 568,
+			"name": "[568]战吼",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 487,
+			"name": "[487]浸水",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 34,
+			"name": "[34]泰山压顶",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 401,
+			"name": "[401]水流尾",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 240,
+			"name": "[240]求雨",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 856,
+			"name": "[856]上菜",
+			"type": "level",
+			"level": 50
+		},
+		{
+			"id": 484,
+			"name": "[484]重磅冲撞",
+			"type": "level",
+			"level": 55
+		},
+		{
+			"id": 38,
+			"name": "[38]舍身冲撞",
+			"type": "level",
+			"level": 60
+		},
+		{
+			"id": 834,
+			"name": "[834]波动冲",
+			"type": "level",
+			"level": 65
+		}
+	],
+	"types": [
+		"WATER"
+	],
+	"stats": {
+		"hp": 150,
+		"attack": 100,
+		"defense": 115,
+		"speed": 65,
+		"sp_attack": 65,
+		"sp_defense": 35
+	},
+	"yields": {
+		"ev_hp": 3,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

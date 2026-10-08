@@ -1,0 +1,355 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 66,
+  "width": 44,
+  "height": 15,
+  "paletteIdx1": 100,
+  "paletteIdx2": 156,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 381,
+  "unknownByte": 61,
+  "borderTiles": [
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "CLOUDY",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "AbandonedShip_HiddenFloorRooms_EventScript_DoHiddenItemSparkle"
+    }
+  ],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 42,
+      "y": 10,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "0x0"
+    },
+    {
+      "x": 20,
+      "y": 5,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "0x0"
+    },
+    {
+      "x": 1,
+      "y": 12,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "0x0"
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "0x0"
+    },
+    {
+      "x": 8,
+      "y": 5,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "AbandonedShip_HiddenFloorRooms_EventScript_Trash"
+    },
+    {
+      "x": 11,
+      "y": 3,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "AbandonedShip_HiddenFloorRooms_EventScript_Trash"
+    },
+    {
+      "x": 10,
+      "y": 10,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "AbandonedShip_HiddenFloorRooms_EventScript_Trash"
+    },
+    {
+      "x": 16,
+      "y": 3,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "AbandonedShip_HiddenFloorRooms_EventScript_Trash"
+    },
+    {
+      "x": 25,
+      "y": 2,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "AbandonedShip_HiddenFloorRooms_EventScript_Trash"
+    },
+    {
+      "x": 24,
+      "y": 6,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "AbandonedShip_HiddenFloorRooms_EventScript_Trash"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 6,
+      "y": 14,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 65,
+      "targetX": 3,
+      "targetY": 8,
+      "targetElevation": 2
+    },
+    {
+      "x": 7,
+      "y": 14,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 65,
+      "targetX": 3,
+      "targetY": 8,
+      "targetElevation": 2
+    },
+    {
+      "x": 21,
+      "y": 14,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 65,
+      "targetX": 6,
+      "targetY": 8,
+      "targetElevation": 2
+    },
+    {
+      "x": 22,
+      "y": 14,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 65,
+      "targetX": 6,
+      "targetY": 8,
+      "targetElevation": 2
+    },
+    {
+      "x": 36,
+      "y": 14,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 65,
+      "targetX": 9,
+      "targetY": 8,
+      "targetElevation": 2
+    },
+    {
+      "x": 37,
+      "y": 14,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 65,
+      "targetX": 9,
+      "targetY": 8,
+      "targetElevation": 2
+    },
+    {
+      "x": 6,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 65,
+      "targetX": 3,
+      "targetY": 3,
+      "targetElevation": 2
+    },
+    {
+      "x": 21,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 65,
+      "targetX": 6,
+      "targetY": 3,
+      "targetElevation": 2
+    },
+    {
+      "x": 36,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 65,
+      "targetX": 9,
+      "targetY": 3,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 59,
+      "x": 41,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "AbandonedShip_HiddenFloorRooms_EventScript_ItemLuxuryBall",
+      "hideFlag": "hoenn/FLAG_ITEM_ABANDONED_SHIP_HIDDEN_FLOOR_ROOM_6_LUXURY_BALL",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 59,
+      "x": 16,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "AbandonedShip_HiddenFloorRooms_EventScript_ItemScanner",
+      "hideFlag": "hoenn/FLAG_ITEM_ABANDONED_SHIP_HIDDEN_FLOOR_ROOM_2_SCANNER",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 59,
+      "x": 5,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "AbandonedShip_HiddenFloorRooms_EventScript_ItemTMRainDance",
+      "hideFlag": "hoenn/FLAG_ITEM_ABANDONED_SHIP_HIDDEN_FLOOR_ROOM_1_TM_RAIN_DANCE",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 59,
+      "x": 31,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "AbandonedShip_HiddenFloorRooms_EventScript_ItemWaterStone",
+      "hideFlag": "hoenn/FLAG_ITEM_ABANDONED_SHIP_HIDDEN_FLOOR_ROOM_3_WATER_STONE",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "NgYnBicGJwYnBpUGYwaWBicGJwYnBicGJwY3BjYGJwYnBicGJwYnBpUGrwKWBicGJwYnBicGJwY3BjYGJwYnBicGJwYnBpUGYwaWBicGJwYnBicGJwY3Bj4GLwYvBi8GLwadBpc2ngYvBi8GLwYvBi8GPwY+Bi8GLwYvBi8GLwadBrcyngYvBi8GLwYvBi8GRwZGBi8GLwYvBi8GLwadBpc2ngYvBi8GLwYvBi8GPwY+BmgGOzI7MjsyOzI7MjsyOzI7MjsyOzI7Mj8GPgY6MjsyOzIPNhc2NQY7Mpk2mjY7MjsyOzI7Mk8GTgY6MjsyOzI7MjsyOzI7MmcyOzI7Mpk2mjY7Mj8GPgY9MjgyODI4MjgyODJhMjgyODI4MjgyqjY/Bj4GqzY4MmEyXjZfNjgyYgagNqI2ODI4MjgyODI7MjsyPDI4MjgyYjY4MjgyODI4MjgyODKgNqI2ODI/Bj4GPTI4MlY2VzY4MjgyODI4MjgyYTI4MjgyPwY+Bj0yODI4MmAyODI4MjgyODI4MjgyODI4MjgyPwY+Bj0yODI4MjgyODJgMjgyODI4MjgyODI4MjgyPwY+Bqs2ODJeNl82ODI4MjgyODI4MjgyYDI4Mj8GPgY9MmAyODI4MjgyODI4MjgyODI4MjgyYTI4Mj8GPgarNjgyVjZXNjgyODI4MjgyYjY4MjgyODJhMj8GPgY9MjgyODI4MjgyODI4MjgyODI4MjgyODI/Bj4GPTI4MjgyODI4MjgyODI4MjgyODI4MjgyODI/Bj4GPTI4Ml42XzY4MjgyODJhMjgyODI4MjgyqjY/BgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQY2BicGJwYnBicGJwYnBicGJwYnBicGJwYnBjcGNgYnBicGJwYnBicGJwYnBicGJwYnBicGJwYnBjcGNgYnBicGJwYnBicGJwYnBicGJwYnBicGJwYnBjcGPgYvBi8GLwYvBi8GLwYvBi8GLwYvBi8GLwY/Bj4GLwYvBi8GLwYvBi8GLwYvBi8GLwYvBi8GLwY/Bj4GLwYvBi8GLwYvBi8GLwYvBi8GLwYvBi8GLwY/Bj4GOjJnMjsyOzI7MjsyNQY7MjsyOzI7MjsyPwY+BjoyOzI7MjsyOzI7MjsyOzI7MjsyOzI7MjsyPwY+BjoyOzI7MmcyOzI7MjsyOzI7MjsymTaaNjsyPwY+Bj0yODI4MjgyODJhMjgyODI4MlY2VzY4Mj8GPgY9MjgyODI4MjgyODJgMjgyODI4MmI2ODKqNj8GPgarNjgyODI4MjgyVjZXNjgyODI4MqA2ojY4Mj8GPgY9MjgyODI4MjgyODI4MjgyODJeNl82ODI/Bj4GPTI4MjgyYTJgMjgyODI4MjgyODI4MjgyODI/Bj4GPTI4MjgyODI4Ml42XzY4MjgyYTI4MjgyODI/Bj4GqzY4MmAyODI4MjgyODI4MjgyODI4MjgyPwY+Bj0yVjZXNjgyODI4MjgyODI4MjgyODI4MjgyPwY+Bj0yODI4MjgyODI4MjgyODI4MjgyODI4Mqo2PwY+Bj0yODI4MjgyODJkMmUyODI4MjgyODKqNj8GPgY9Ml42XzY4MjgyODJkMmUyODI4MjgyYTI4Mj8GPgY9MmAyODJiNjgyODJkMmUyODI4MjgyODJhMj8G",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NAAAAAAAAAAAAAAAAAA0NAAAAAAAAAAAAAAAAAA0NAAAAAAAA"
+}

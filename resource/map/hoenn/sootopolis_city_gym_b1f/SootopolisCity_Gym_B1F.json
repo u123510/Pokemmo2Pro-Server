@@ -1,0 +1,280 @@
+{
+  "regionId": 1,
+  "bankId": 65,
+  "mapId": 1,
+  "width": 17,
+  "height": 26,
+  "paletteIdx1": 116,
+  "paletteIdx2": 146,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 364,
+  "unknownByte": 14,
+  "borderTiles": [
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 11,
+      "y": 22,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 65,
+      "targetMapId": 0,
+      "targetX": 11,
+      "targetY": 22,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 47,
+      "x": 7,
+      "y": 17,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "SootopolisCity_Gym_B1F_EventScript_Andrea",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 45,
+      "x": 9,
+      "y": 19,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "SootopolisCity_Gym_B1F_EventScript_Connie",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 20,
+      "x": 12,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "SootopolisCity_Gym_B1F_EventScript_Brianna",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 45,
+      "x": 11,
+      "y": 9,
+      "elevation": 0,
+      "movementType": "FACE_UP",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "UP",
+      "script": "SootopolisCity_Gym_B1F_EventScript_Bridget",
+      "hideFlag": "",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 45,
+      "x": 5,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "SootopolisCity_Gym_B1F_EventScript_Tiffany",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 18,
+      "x": 7,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "SootopolisCity_Gym_B1F_EventScript_Bethany",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 47,
+      "x": 4,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "SootopolisCity_Gym_B1F_EventScript_Crissy",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 45,
+      "x": 9,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "SootopolisCity_Gym_B1F_EventScript_Olivia",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 20,
+      "x": 6,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "SootopolisCity_Gym_B1F_EventScript_Daphne",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 9,
+      "graphicsId": 18,
+      "x": 10,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "SootopolisCity_Gym_B1F_EventScript_Annika",
+      "hideFlag": "",
+      "rawMovementType": 9
+    }
+  ],
+  "blockData": "AQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQYBBiUGJgYmBiYGJgYmBiYGJgYmBiYGJgYmBiYGJgYmBiYGJwYtBiUGCQYJBgkGCQYJBgkGCQYJBgkGCQYJBgkGCQYnBi8GLQZdBhEyETIRMhEyETIRMhEyETIRMhEyETIRMhEyXgYvBi0GXQYRMhEyETIRMhEyETIRMhEyETIRMhEyETIRMl4GLwYtBl0GETIRMhEyETIRMhEyETIRMhEyETIRMhEyETJeBi8GNQZdBhEyETIRMhEyETIRMhEyETIRMhEyETIRMhEyXgY3BiYGNQYdBhkGGQYZBhkGGQYPAhkGGQYZBhkGGQYeBjcGJgYuBi4GLQYlBgkGCQYJBgkGDwIJBgkGCQYJBicGLwYuBi4GAQYBBi0GXQYRMhEyETIRMhEyETIRMhEyETJeBi8GAQYBBgEGAQYtBl0GETIRMhEyETIRMhEyETIRMhEyXgYvBgEGAQYmBiYGNQZdBhEyETIRMhEyETIRMhEyETIRMl4GNwYmBiYGJgYmBiYGNQY9Bh0GGQYZBg8CGQYZBh0GHgY3BiYGJgYmBi4GLgYuBi4GLQYuBiUGCQYPAgkGJwYuBi8GLgYuBi4GLgYBBgEGAQYBBi0GAQZdBhEyETIRMl4GAQYvBgEGAQYBBgEGJgYmBiYGJgY1BgEGXQYRMhEyETJeBgEGNwYmBiYGJgYmBiYGJgYmBiYGJgYmBl0GETIRMhEyXgYmBiYGJgYmBiYGJgYuBi4GLgYlBiYGJgYmBhkGDwIZBiYGJgYmBicGLgYuBi4GAQYBBgEGLQYlBgkGCQYJBg8CCQYJBgwCJwYvBgEGAQYBBgEGAQYBBi0GXQYRMhEyETIRMhEyETIUAl4GLwYBBgEGAQYBBgEGAQYtBl0GETIRMhEyETIRMhEyETJeBi8GAQYBBgEGAQYBBgEGLQZdBhEyETIRMhEyETIRMhEyXgYvBgEGAQYBBgEGAQYBBi0GXQYRMhEyETIRMhEyETIRMl4GLwYBBgEGAQY=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+}

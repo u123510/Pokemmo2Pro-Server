@@ -1,0 +1,205 @@
+{
+	"id": 849,
+	"name": "[849]颤弦蝾螈",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 16,
+	"weight": 400,
+	"egg_groups": [
+		"人形组"
+	],
+	"abilities": [
+		{
+			"id": 57,
+			"name": "[057]特性57"
+		},
+		{
+			"id": 57,
+			"name": "[057]特性57"
+		},
+		{
+			"id": 101,
+			"name": "[101]特性101"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 43,
+			"name": "[43]瞪眼",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 51,
+			"name": "[51]溶解液",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 84,
+			"name": "[84]电击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 175,
+			"name": "[175]抓狂",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 209,
+			"name": "[209]电光",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 491,
+			"name": "[491]酸液炸弹",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 562,
+			"name": "[562]打嗝",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 568,
+			"name": "[568]战吼",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 598,
+			"name": "[598]怪异电波",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 609,
+			"name": "[609]蹭蹭脸颊",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 715,
+			"name": "[715]泪眼汪汪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 268,
+			"name": "[268]充电",
+			"type": "level",
+			"level": 4
+		},
+		{
+			"id": 351,
+			"name": "[351]电击波",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 184,
+			"name": "[184]鬼面",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 269,
+			"name": "[269]挑衅",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 474,
+			"name": "[474]毒液冲击",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 103,
+			"name": "[103]刺耳声",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 207,
+			"name": "[207]虚张声势",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 92,
+			"name": "[92]剧毒",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 435,
+			"name": "[435]放电",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 398,
+			"name": "[398]毒击",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 786,
+			"name": "[786]破音",
+			"type": "level",
+			"level": 44
+		},
+		{
+			"id": 586,
+			"name": "[586]爆音波",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 508,
+			"name": "[508]换档",
+			"type": "level",
+			"level": 52
+		}
+	],
+	"types": [
+		"ELECTRIC",
+		"POISON"
+	],
+	"stats": {
+		"hp": 75,
+		"attack": 98,
+		"defense": 70,
+		"speed": 114,
+		"sp_attack": 70,
+		"sp_defense": 75
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 2,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

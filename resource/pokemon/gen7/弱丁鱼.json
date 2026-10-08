@@ -1,0 +1,144 @@
+{
+	"id": 746,
+	"name": "[746]弱丁鱼",
+	"exp_type": 4,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 2,
+	"weight": 3,
+	"egg_groups": [
+		"水2组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 55,
+			"name": "[55]水枪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 270,
+			"name": "[270]帮助",
+			"type": "level",
+			"level": 6
+		},
+		{
+			"id": 185,
+			"name": "[185]出奇一击",
+			"type": "level",
+			"level": 9
+		},
+		{
+			"id": 362,
+			"name": "[362]盐水",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 392,
+			"name": "[392]水流环",
+			"type": "level",
+			"level": 17
+		},
+		{
+			"id": 715,
+			"name": "[715]泪眼汪汪",
+			"type": "level",
+			"level": 22
+		},
+		{
+			"id": 36,
+			"name": "[36]猛撞",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 291,
+			"name": "[291]潜水",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 251,
+			"name": "[251]围攻",
+			"type": "level",
+			"level": 33
+		},
+		{
+			"id": 401,
+			"name": "[401]水流尾",
+			"type": "level",
+			"level": 38
+		},
+		{
+			"id": 38,
+			"name": "[38]舍身冲撞",
+			"type": "level",
+			"level": 41
+		},
+		{
+			"id": 487,
+			"name": "[487]浸水",
+			"type": "level",
+			"level": 46
+		},
+		{
+			"id": 283,
+			"name": "[283]蛮干",
+			"type": "level",
+			"level": 49
+		},
+		{
+			"id": 56,
+			"name": "[56]水炮",
+			"type": "level",
+			"level": 54
+		}
+	],
+	"types": [
+		"WATER"
+	],
+	"stats": {
+		"hp": 45,
+		"attack": 20,
+		"defense": 20,
+		"speed": 25,
+		"sp_attack": 25,
+		"sp_defense": 40
+	},
+	"yields": {
+		"ev_hp": 1,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

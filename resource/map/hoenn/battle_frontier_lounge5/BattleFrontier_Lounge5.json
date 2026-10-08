@@ -1,0 +1,201 @@
+{
+  "regionId": 1,
+  "bankId": 76,
+  "mapId": 47,
+  "width": 13,
+  "height": 8,
+  "paletteIdx1": 116,
+  "paletteIdx2": 159,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 384,
+  "unknownByte": 58,
+  "borderTiles": [
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 1,
+      "y": 7,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 76,
+      "targetMapId": 14,
+      "targetX": 22,
+      "targetY": 51,
+      "targetElevation": 0
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 76,
+      "targetMapId": 14,
+      "targetX": 22,
+      "targetY": 51,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 12,
+      "x": 12,
+      "y": 4,
+      "elevation": 3,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "BattleFrontier_Lounge5_EventScript_NatureGirl",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 48,
+      "x": 0,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "BattleFrontier_Lounge5_EventScript_Gentleman",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 44,
+      "x": 6,
+      "y": 5,
+      "elevation": 0,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "BattleFrontier_Lounge5_EventScript_BlackBelt",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 11,
+      "x": 11,
+      "y": 7,
+      "elevation": 0,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "BattleFrontier_Lounge5_EventScript_LittleBoy",
+      "hideFlag": "",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "vQe+B70Hvge/B70HpAe+B70HvQe9B70HvQfFB8YHxwfGB8cHxgcCBMYHxwfGB8cHxgfFB9AzzgfPB84HzwfOB6UzzgfPB84HzwfOB8oz3TPIM/czyDPnM8gz3DPIM8kzyDPnM8gz2jPlM8kz7zPJM98zyTPkB8kz7zPJM98zyTPgM+0zyDPJM8gzyTPIM9wzyDP3M8gz5zPIM+gz0TPJM8gzyTPIM8kz5AfJM+8zyTPfM8kzyDMBBLUztjPIM8kzyDPJM8gzyTPIM8kzyDMBBA==",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQAAAAAAAAAAAAA="
+}

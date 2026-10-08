@@ -1,0 +1,145 @@
+{
+	"id": 1038,
+	"name": "[1038]双剑鞘",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 8,
+	"weight": 45,
+	"egg_groups": [
+		"矿物组"
+	],
+	"abilities": [
+		{
+			"id": 99,
+			"name": "[099]特性99"
+		},
+		{
+			"id": 99,
+			"name": "[099]特性99"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 14,
+			"name": "[14]剑舞",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 210,
+			"name": "[210]连斩",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 319,
+			"name": "[319]金属音",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 228,
+			"name": "[228]追打",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 475,
+			"name": "[475]身体轻量化",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 425,
+			"name": "[425]影子偷袭",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 332,
+			"name": "[332]燕返",
+			"type": "level",
+			"level": 22
+		},
+		{
+			"id": 514,
+			"name": "[514]报仇",
+			"type": "level",
+			"level": 26
+		},
+		{
+			"id": 163,
+			"name": "[163]劈开",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 334,
+			"name": "[334]铁壁",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 400,
+			"name": "[400]暗袭要害",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 379,
+			"name": "[379]力量戏法",
+			"type": "level",
+			"level": 41
+		},
+		{
+			"id": 442,
+			"name": "[442]铁头",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 533,
+			"name": "[533]圣剑",
+			"type": "level",
+			"level": 51
+		}
+	],
+	"types": [
+		"STEEL",
+		"GHOST"
+	],
+	"stats": {
+		"hp": 59,
+		"attack": 110,
+		"defense": 150,
+		"speed": 45,
+		"sp_attack": 49,
+		"sp_defense": 35
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 2,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

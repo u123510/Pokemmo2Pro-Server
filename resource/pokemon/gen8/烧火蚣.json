@@ -1,0 +1,140 @@
+{
+	"id": 850,
+	"name": "[850]烧火蚣",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 7,
+	"weight": 10,
+	"egg_groups": [
+		"虫组"
+	],
+	"abilities": [
+		{
+			"id": 18,
+			"name": "[018]特性18"
+		},
+		{
+			"id": 73,
+			"name": "[073]特性73"
+		},
+		{
+			"id": 49,
+			"name": "[049]特性49"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 851,
+			"name": "[851]焚焰蚣",
+			"type": "LEVEL",
+			"val": 28
+		}
+	],
+	"moves": [
+		{
+			"id": 52,
+			"name": "[52]火花",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 108,
+			"name": "[108]烟幕",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 35,
+			"name": "[35]紧束",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 172,
+			"name": "[172]火焰轮",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 450,
+			"name": "[450]虫咬",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 489,
+			"name": "[489]盘蜷",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 21,
+			"name": "[21]摔打",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 83,
+			"name": "[83]火焰旋涡",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 242,
+			"name": "[242]咬碎",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 680,
+			"name": "[680]火焰鞭",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 679,
+			"name": "[679]猛扑",
+			"type": "level",
+			"level": 50
+		},
+		{
+			"id": 682,
+			"name": "[682]燃尽",
+			"type": "level",
+			"level": 55
+		}
+	],
+	"types": [
+		"FIRE",
+		"BUG"
+	],
+	"stats": {
+		"hp": 50,
+		"attack": 65,
+		"defense": 45,
+		"speed": 50,
+		"sp_attack": 50,
+		"sp_defense": 45
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 1,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

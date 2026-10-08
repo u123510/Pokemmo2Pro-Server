@@ -1,0 +1,151 @@
+{
+	"id": 983,
+	"name": "[983]仆刀将军",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 20,
+	"weight": 1200,
+	"egg_groups": [
+		"人形组"
+	],
+	"abilities": [
+		{
+			"id": 128,
+			"name": "[128]特性128"
+		},
+		{
+			"id": 128,
+			"name": "[128]特性128"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 10,
+			"name": "[10]抓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 43,
+			"name": "[43]瞪眼",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 210,
+			"name": "[210]连斩",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 232,
+			"name": "[232]金属爪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 368,
+			"name": "[368]金属爆炸",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 259,
+			"name": "[259]无理取闹",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 184,
+			"name": "[184]鬼面",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 372,
+			"name": "[372]恶意追击",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 319,
+			"name": "[319]金属音",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 163,
+			"name": "[163]劈开",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 400,
+			"name": "[400]暗袭要害",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 334,
+			"name": "[334]铁壁",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 514,
+			"name": "[514]报仇",
+			"type": "level",
+			"level": 50
+		},
+		{
+			"id": 442,
+			"name": "[442]铁头",
+			"type": "level",
+			"level": 57
+		},
+		{
+			"id": 14,
+			"name": "[14]剑舞",
+			"type": "level",
+			"level": 64
+		},
+		{
+			"id": 12,
+			"name": "[12]断头钳",
+			"type": "level",
+			"level": 71
+		}
+	],
+	"types": [
+		"DARK",
+		"STEEL"
+	],
+	"stats": {
+		"hp": 100,
+		"attack": 135,
+		"defense": 120,
+		"speed": 60,
+		"sp_attack": 85,
+		"sp_defense": 50
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 3,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

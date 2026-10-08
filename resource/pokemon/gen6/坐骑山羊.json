@@ -1,0 +1,168 @@
+{
+	"id": 1031,
+	"name": "[1031]坐骑山羊",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 17,
+	"weight": 910,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 157,
+			"name": "[157]特性157"
+		},
+		{
+			"id": 157,
+			"name": "[157]特性157"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 74,
+			"name": "[74]生长",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 332,
+			"name": "[332]燕返",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 22,
+			"name": "[22]藤鞭",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 39,
+			"name": "[39]摇尾巴",
+			"type": "level",
+			"level": 9
+		},
+		{
+			"id": 73,
+			"name": "[73]寄生种子",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 75,
+			"name": "[75]飞叶快刀",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 388,
+			"name": "[388]烦恼种子",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 235,
+			"name": "[235]光合作用",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 36,
+			"name": "[36]猛撞",
+			"type": "level",
+			"level": 22
+		},
+		{
+			"id": 523,
+			"name": "[523]重踏",
+			"type": "level",
+			"level": 26
+		},
+		{
+			"id": 402,
+			"name": "[402]种子炸弹",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 339,
+			"name": "[339]健美",
+			"type": "level",
+			"level": 34
+		},
+		{
+			"id": 38,
+			"name": "[38]舍身冲撞",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 532,
+			"name": "[532]木角",
+			"type": "level",
+			"level": 47
+		},
+		{
+			"id": 348,
+			"name": "[348]叶刃",
+			"type": "level",
+			"level": 55
+		},
+		{
+			"id": 208,
+			"name": "[208]喝牛奶",
+			"type": "level",
+			"level": 58
+		},
+		{
+			"id": 89,
+			"name": "[89]地震",
+			"type": "level",
+			"level": 60
+		},
+		{
+			"id": 332,
+			"name": "[332]燕返",
+			"type": "level",
+			"level": 65
+		}
+	],
+	"types": [
+		"GRASS"
+	],
+	"stats": {
+		"hp": 123,
+		"attack": 100,
+		"defense": 62,
+		"speed": 97,
+		"sp_attack": 81,
+		"sp_defense": 68
+	},
+	"yields": {
+		"ev_hp": 2,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

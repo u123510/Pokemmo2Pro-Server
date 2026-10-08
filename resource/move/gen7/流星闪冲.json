@@ -1,0 +1,33 @@
+{
+	"moveIndexId": 713,
+	"movePokemonType": "STEEL",
+	"moveDamageType": "PHYSICAL",
+	"moveBasePower": 100,
+	"isTrueDamage": false,
+	"moveTargetType": "ENEMY_FIELD",
+	"moveBasePp": 5,
+	"moveBaseAccuracy": 100,
+	"movePriority": 0,
+	"moveAdditionChangeStatEffectTriggerRatio": 0,
+	"moveAdditionEffectChangeStatLevel": 0,
+	"isUserTriggerAdditionChangeStatEffect": false,
+	"moveChangeStatTypeArray": [
+		0,
+		0,
+		0
+	],
+	"moveChangeStatLevelArray": [
+		0,
+		0,
+		0
+	],
+	"moveChangeStatRatioArray": [
+		0,
+		0,
+		0
+	],
+	"moveInfoFlag": 73,
+	"moveBossInfoFlag": 0,
+	"moveHpRecoverRatio": 0,
+	"moveHpRecoverByDamageRatio": 0
+}

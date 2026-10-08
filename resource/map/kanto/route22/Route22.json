@@ -1,0 +1,381 @@
+{
+  "regionId": 0,
+  "bankId": 3,
+  "mapId": 41,
+  "width": 48,
+  "height": 24,
+  "paletteIdx1": 0,
+  "paletteIdx2": 2,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 293,
+  "unknownByte": 122,
+  "borderTiles": [
+    {
+      "material": 113,
+      "collision": 0
+    },
+    {
+      "material": 113,
+      "collision": 0
+    },
+    {
+      "material": 113,
+      "collision": 0
+    },
+    {
+      "material": 113,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "REGULAR_WEATHER",
+  "mapType": "ROUTE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_ROUTE22",
+      "base_label": "sRoute22_FireRed",
+      "land_mons": {
+        "encounter_rate": 21,
+        "mons": [
+          {
+            "min_level": 3,
+            "max_level": 3,
+            "species": "SPECIES_RATTATA"
+          },
+          {
+            "min_level": 3,
+            "max_level": 3,
+            "species": "SPECIES_MANKEY"
+          },
+          {
+            "min_level": 4,
+            "max_level": 4,
+            "species": "SPECIES_RATTATA"
+          },
+          {
+            "min_level": 4,
+            "max_level": 4,
+            "species": "SPECIES_MANKEY"
+          },
+          {
+            "min_level": 2,
+            "max_level": 2,
+            "species": "SPECIES_RATTATA"
+          },
+          {
+            "min_level": 2,
+            "max_level": 2,
+            "species": "SPECIES_MANKEY"
+          },
+          {
+            "min_level": 3,
+            "max_level": 3,
+            "species": "SPECIES_SPEAROW"
+          },
+          {
+            "min_level": 5,
+            "max_level": 5,
+            "species": "SPECIES_SPEAROW"
+          },
+          {
+            "min_level": 5,
+            "max_level": 5,
+            "species": "SPECIES_RATTATA"
+          },
+          {
+            "min_level": 5,
+            "max_level": 5,
+            "species": "SPECIES_MANKEY"
+          },
+          {
+            "min_level": 5,
+            "max_level": 5,
+            "species": "SPECIES_RATTATA"
+          },
+          {
+            "min_level": 5,
+            "max_level": 5,
+            "species": "SPECIES_MANKEY"
+          }
+        ]
+      },
+      "water_mons": {
+        "encounter_rate": 2,
+        "mons": [
+          {
+            "min_level": 20,
+            "max_level": 25,
+            "species": "SPECIES_PSYDUCK"
+          },
+          {
+            "min_level": 20,
+            "max_level": 25,
+            "species": "SPECIES_PSYDUCK"
+          },
+          {
+            "min_level": 25,
+            "max_level": 30,
+            "species": "SPECIES_PSYDUCK"
+          },
+          {
+            "min_level": 30,
+            "max_level": 35,
+            "species": "SPECIES_PSYDUCK"
+          },
+          {
+            "min_level": 35,
+            "max_level": 40,
+            "species": "SPECIES_PSYDUCK"
+          }
+        ]
+      },
+      "fishing_mons": {
+        "encounter_rate": 20,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 5,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 5,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_POLIWAG"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_GOLDEEN"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_POLIWAG"
+          },
+          {
+            "min_level": 20,
+            "max_level": 30,
+            "species": "SPECIES_POLIWHIRL"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_GYARADOS"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_PSYDUCK"
+          },
+          {
+            "min_level": 25,
+            "max_level": 35,
+            "species": "SPECIES_PSYDUCK"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [
+    {
+      "x": 33,
+      "y": 4,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_ROUTE22",
+      "value": 1,
+      "script": "Route22_EventScript_EarlyRivalTriggerTop"
+    },
+    {
+      "x": 33,
+      "y": 5,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_ROUTE22",
+      "value": 1,
+      "script": "Route22_EventScript_EarlyRivalTriggerMid"
+    },
+    {
+      "x": 33,
+      "y": 6,
+      "elevation": 0,
+      "varKey": "VAR_MAP_SCENE_ROUTE22",
+      "value": 1,
+      "script": "Route22_EventScript_EarlyRivalTriggerBottom"
+    },
+    {
+      "x": 33,
+      "y": 4,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_ROUTE22",
+      "value": 3,
+      "script": "Route22_EventScript_LateRivalTriggerTop"
+    },
+    {
+      "x": 33,
+      "y": 5,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_ROUTE22",
+      "value": 3,
+      "script": "Route22_EventScript_LateRivalTriggerMid"
+    },
+    {
+      "x": 33,
+      "y": 6,
+      "elevation": 0,
+      "varKey": "VAR_MAP_SCENE_ROUTE22",
+      "value": 3,
+      "script": "Route22_EventScript_LateRivalTriggerBottom"
+    }
+  ],
+  "bgEvents": [
+    {
+      "x": 7,
+      "y": 12,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "Route22_EventScript_LeagueGateSign"
+    }
+  ],
+  "connections": [
+    {
+      "direction": "UP",
+      "unknown": 0,
+      "targetBank": 3,
+      "targetMap": 42
+    },
+    {
+      "direction": "RIGHT",
+      "unknown": -10,
+      "targetBank": 3,
+      "targetMap": 1
+    }
+  ],
+  "warps": [
+    {
+      "x": 8,
+      "y": 5,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 28,
+      "targetMapId": 0,
+      "targetX": 7,
+      "targetY": 10,
+      "targetElevation": 2
+    },
+    {
+      "x": 9,
+      "y": 5,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 28,
+      "targetMapId": 0,
+      "targetX": 7,
+      "targetY": 10,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 72,
+      "x": 25,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "0x0",
+      "hideFlag": "kanto/FLAG_HIDE_ROUTE_22_RIVAL",
+      "rawMovementType": 10
+    }
+  ],
+  "blockData": "cQRxBHUEcgTABsEGwQbBBsEGwQbBBsEGwgZwBHMEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBLIEfAR8BHwEfAR8BHwEfAR8BHwEfAR8BLMEcTBxMHEwcQRxBHUEcgTABsEGwQbBBsEGwQbBBsEGwgZwBHsEfASzBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEsgR8BH0EsgR5BHkEeQR5BHkEeQR5BHkEswRxMHMEcTBxMHEwsgR8BH0EcgTABsEGwQbBBsEGwQbBBsEGwgZwBHEEcQR7BHwEfAR8BHwEfAR8BHwEfAR8BHwEfAR8BHwEfQRxBHEEcgQJMAgwCTAIMAkwCDAJMAgwcARxMHsEfASzBHEwdQSyBHkEegTIBsMGwwbUBtUG1gbDBsMGygZ4BHkEeQR5BHkEeQR5BHkEeQR5BHkEeQR5BHkEeQR5BHkEeQR5BHkEegSwBIcEhwSxBAkwsASHBLEEcARxMHEwcTB7BHwEdQRyBOwE5wTQBssGywa9Br4GvwbLBssG0gbnBO0E5wTnBOcE5wTnBOcE5wRiMWMxYzFjMWMxYzFjMWMxYzFjMWMxYzFjMWMxYzFjMWMxZDEIMAkwcARxMHEwcTBxMHEwdQRyBPQEBQTYBtMG0wbFBlsFxwbTBtMG2gYFBPUEYjFjMWMxYzFjMWMxYzFrMWsxazFrMWsxazFrMWsxazFrMWsxazFrMWsxazFrMWsxbDEOMA8weAR5BHkEeQR5BHkEdQRyBPQEBQQFBNsyxDLNMs4yzzLEMtsyBQQFBPUEcjFzMXMxczFzMXMxczFzMXMxczFzMXMxczFzMXMxczFzMXMxczFzMXMxczFzMXMxdDEeBB8ECTAIMAkwCDAJMAgwdQRyBPQEYjFjMWMxYzFjMWMxYzFjMWMxYzFkMfUECDAJMAgwCTAIMAkwCDAJMAgwCTAIMAkwCDCWBpcGaQRpBGkEagQJMAgwCDAJMAgwCTAWBBcEETDTMNQw1DDUMNQwdQRyBPQEcjFzMXMxczFzMXMxczFzMXMxczF0MfUEsASHBIcEhwSHBJUGjwalEaYRphGmEaYRpxGeBmsEbARsBG0EcgSwBLEECTAJMLAEsQQeBB8ECTDbMNww3DDcMNwwdQRyBPQEsASHBIcEhwSHBIcEsQQBMBEwsASxBPUEDTANMA0wDTANMA0wDTCtEa4RrhGuEa4RrxGeBnMEcQRxBHUEcgQNMA0wDTANMA0wDTAWBBcEETDbMNwwBTHkMOQwdQRyBPQEETAIMAkwCDAJMAgwCTAIMAkwCDAJMPUEDTANMA0wDTANMA0wDTCtEa4RrhGuEa4RrxGeBnMEcQRxBHUEcgQNMA0wDTANMA0wDTAeBB8ECDDbMNww3TBoBGkEdQRyBPQEETAQMBEwEDARMBAwETAQMBEwEDARMPUEDTANMA0wDTANMA0wDTCtEa4RrhGuEa4RrxGeBnMEcQRxBHUEcgQNMA0wDTANMA0wDTAWBBcEEDDbMNww3TBwBHEEdQRyBPwE5wQIMAkwCDACBOcE5wTnBOcE5wTnBP0EDTANMA0wDTANMA0wDTAzMTMxMzEzMTMxMzFwBHsEfAR8BH0EcgQNMA0wDTANMA0wDTAeBB8ECDDbMNww3TBwBHEEdQS6BGkEagQQMBEwATAJMAgwCTAIMAkwCDAJMAgwDTANMA0wDTANMA0wDTARMBAwETAQMBEwEDBwBHEEcQRxBHEEcgQNMA0wDTANMA0wDTAmBCcEEDDjMOQw5TBwBHEEugRsBG0EcgQIMAkwCDARMBAwETAQMBEwEDARMAgwCDAJMAgwCTAIMAkwCDARMBAwETAQMBEwEDB4BHkEeQR5BHkEegQJMAgwCDAJMAgwCTAIMAkwCDARMBAwETBwBHEEcQRxBHUEcgSwBIcEhwSHBIcEhwSHBIcEhwSHBIcEhwSHBIcEhwSHBIcEhwSHBIcEhwSHBIcEhwSHBIcEhwSHBIcEhwSHBIcEhwSHBLEECTAIMLAEhwSHBIcEsQRwBHEEcQRxBHUEcgRiMWMxYzFjMWMxYzFjMWMxYzFjMWMxYzFjMWMxYzFjMWMxYzFjMWMxYzFjMWMxYzFjMWMxYzFjMWMxYzFjMWMxYzFjMWMxYzFjMWMxYzFjMWMxZDFwBHEEcQRxBHUEcgRqMWsxazFrMWsxazFrMWsxazFrMWsxazFrMWsxazFrMWsxazFrMWsxazFrMWsxazFrMWsxazFrMWsxazFrMWsxazFrMWsxazFrMWsxazFrMWsxbDFwBHEEcQRxBHUEcgRyMXMxczFzMXMxczFzMXMxczFzMXMxczFzMXMxczFzMXMxczFzMXMxczFzMXMxczFzMXMxczFzMXMxczFzMXMxczFzMXMxczFzMXMxczFzMXMxdDFwBGsEcQRxBHUEugRpBGkEaQRpBGkEaQRpBGkEaQRpBGkEaQRpBGkEaQRpBGkEaQRpBGkEaQRpBGkEaQRpBGkEaQRpBGkEaQRpBGkEaQRpBGkEaQRpBGkEaQRpBGkEaQS7BHMEcQRxBLoEbARsBGwEbARsBGwEbARsBGwEbARsBGwEbARsBGwEbARsBGwEbARsBGwEbARsBGwEbARsBGwEbARsBGwEbARsBGwEbARsBGwEbARsBGwEbARsBGwEbARsBLsEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEE",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYGBgYABgYGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgYGBgYGBgAAAAAAAAAAAAAAAAYGAAAGBgAAAAAAAAAAAAAABgYGBgYGBgAABgYAAQEBAQEBAQAAAAAAAAAAAAAAAAEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQAAAAAAAAAAAAAAAAEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQAAAAAAAAAAAAAAAAEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQAAAAAAAAAAAAAAAAEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQAAAAAAAAAAAAAAAAEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGAAAGBgYGBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

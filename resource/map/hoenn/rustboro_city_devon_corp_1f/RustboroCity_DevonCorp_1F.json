@@ -1,0 +1,212 @@
+{
+  "regionId": 1,
+  "bankId": 61,
+  "mapId": 0,
+  "width": 19,
+  "height": 9,
+  "paletteIdx1": 116,
+  "paletteIdx2": 129,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 399,
+  "unknownByte": 10,
+  "borderTiles": [
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "RustboroCity_DevonCorp_1F_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 3,
+      "y": 2,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "RustboroCity_DevonCorp_1F_EventScript_ProductsDisplay"
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "RustboroCity_DevonCorp_1F_EventScript_RocksMetalDisplay"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 5,
+      "y": 8,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 3,
+      "targetX": 11,
+      "targetY": 15,
+      "targetElevation": 0
+    },
+    {
+      "x": 6,
+      "y": 8,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 3,
+      "targetX": 12,
+      "targetY": 15,
+      "targetElevation": 0
+    },
+    {
+      "x": 14,
+      "y": 1,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 61,
+      "targetMapId": 1,
+      "targetX": 14,
+      "targetY": 1,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 116,
+      "x": 2,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "RustboroCity_DevonCorp_1F_EventScript_Employee",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 116,
+      "x": 15,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 2,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "RustboroCity_DevonCorp_1F_EventScript_StairGuard",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 24,
+      "x": 5,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "RustboroCity_DevonCorp_1F_EventScript_Greeter",
+      "hideFlag": "",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "AQYBBpoHiAeJB4gHiAeJB4gHmwcBBgEGmgeKB4szjAebBwEGAQYBBgEGmAf2B5EHkAeQB5EH9geZBwEGAQaYB5IHkwOUB5kHAQYBBgEGAQaYB/4HgTOBM4EzgTP+B5kHAQYBBpgHgTOBM4EzmQcBBgEGiAeJB6AHhgONM40zjTOHM4ADoQeIB4gHoAeBM4AzgDOhB4kHiAeQB5EHkAeOB5wHnAecB48HhDOQB5AHkAeQB4EzgDOAM5AHkQeQB4EzgTOBM4EzgzODM4MzgzOFM4EzgTOBM4EzgTOAM4AzgTOBM4EzgTOAM4AzgDOAM4AzgDOAM4AzgDOAM4AzgDOAM4AzgDOAM4AzgDOBM4AzgDOAM4AzgDOAM4AzgDOAM4AzgDOAM4AzgDOAM4AzgDOAM4EzgDOAM4AzgDMGMgcygDOAM4AzgDOAM4AzgDOAM4AzgDOAM4Az",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NAAAAAAAAAAAAAAAA"
+}

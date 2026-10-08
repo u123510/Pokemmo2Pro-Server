@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OpenMMO 后台管理系统</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div id="login-overlay" class="overlay hidden">
+  <div class="login-box">
+    <h2>OpenMMO 后台登录</h2>
+    <input id="login-password" type="password" placeholder="管理口令" autocomplete="current-password">
+    <button id="login-btn" class="primary">登录</button>
+    <div id="login-error" class="errors"></div>
+  </div>
+</div>
+
+<header>
+  <h1>OpenMMO 后台管理系统</h1>
+  <div id="overview" class="overview"></div>
+  <span class="spacer"></span>
+  <button id="btn-password" class="ghost small">改口令</button>
+  <button id="btn-logout" class="ghost small">退出</button>
+</header>
+
+<div class="layout">
+  <nav class="side">
+    <div class="group">玩家与账号</div>
+    <button class="tab active" data-tab="accounts">账号与角色</button>
+    <button class="tab" data-tab="players">背包与宝可梦</button>
+    <div class="group">内容配置</div>
+    <button class="tab" data-tab="shops">商店管理</button>
+    <button class="tab" data-tab="npcs">自定义 NPC</button>
+    <button class="tab" data-tab="dict">道具字典</button>
+    <button class="tab" data-tab="gifts">商城与赠送</button>
+    <button class="tab" data-tab="moves">招式编辑</button>
+    <button class="tab" data-tab="dex">图鉴/捕捉</button>
+    <button class="tab" data-tab="encounters">遇敌表</button>
+    <button class="tab" data-tab="events">事件 NPC</button>
+    <div class="group">世界</div>
+    <button class="tab" data-tab="maps">地图浏览</button>
+    <div class="group">系统</div>
+    <button class="tab" data-tab="audit">操作日志</button>
+  </nav>
+
+  <main class="content">
+
+  <!-- 账号与角色 -->
+  <section id="tab-accounts" class="tab-body active">
+    <div class="toolbar">
+      <input id="acc-search" type="search" placeholder="搜索账号 / 角色 / ID">
+    </div>
+    <div class="columns">
+      <div class="col list-col wide">
+        <table class="rows" id="acc-table">
+          <thead><tr><th>账号</th><th>状态</th><th>角色</th><th>金钱</th><th>位置</th><th>操作</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="col side-panel hidden" id="char-panel">
+        <h3 id="char-title"></h3>
+        <div class="grid2">
+          <label>新角色名 <input id="char-newname" type="text"></label>
+          <label>金钱 <input id="char-money" type="number" min="0"></label>
+          <label>钻石 coins <input id="char-coins" type="number" min="0"></label>
+        </div>
+        <div class="grid3">
+          <label>地区 <select id="char-region"></select></label>
+          <label>地图 <select id="char-map"></select></label>
+          <label>X/Y/Z
+            <span class="inline"><input id="char-x" type="number" style="width:60px">
+            <input id="char-y" type="number" style="width:60px"><input id="char-z" type="number" style="width:60px"></span>
+          </label>
+        </div>
+        <div class="actions">
+          <button id="char-save" class="primary">保存资料</button>
+          <button id="char-teleport">传送到该地图</button>
+        </div>
+        <div id="char-msg" class="errors"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 背包与宝可梦 -->
+  <section id="tab-players" class="tab-body">
+    <div class="toolbar">
+      <input id="ply-character-id" type="number" placeholder="角色 ID">
+      <button id="ply-load" class="primary">加载</button>
+      <span id="ply-online" class="mode-chip"></span>
+    </div>
+    <div class="columns">
+      <div class="col half">
+        <h3>背包 / 仓库</h3>
+        <div class="toolbar">
+          <input id="ply-item-id" type="number" placeholder="道具编号">
+          <input id="ply-item-amount" type="number" placeholder="数量" value="1" min="1">
+          <select id="ply-item-inv"><option value="1">背包</option><option value="2">仓库</option></select>
+          <button id="ply-item-add">发放</button>
+        </div>
+        <table class="rows" id="ply-item-table">
+          <thead><tr><th>编号</th><th>名称</th><th>数量</th><th>容器</th><th></th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="col half">
+        <h3>宝可梦</h3>
+        <div id="ply-poke-list"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 商店（原有结构保留） -->
+  <section id="tab-shops" class="tab-body">
+    <div class="columns">
+      <div class="col list-col">
+        <div class="toolbar">
+          <input id="shop-search" type="search" placeholder="搜索 shopId / 文件名">
+          <button id="shop-new" class="primary">新建店铺</button>
+        </div>
+        <ul id="shop-list" class="item-list"></ul>
+      </div>
+      <div class="col form-col">
+        <div id="shop-editor" class="editor hidden">
+          <h2 id="shop-title"></h2>
+          <div class="grid2">
+            <label>shopId <input id="shop-id" type="text" spellcheck="false"></label>
+            <label class="file-label">文件 <span id="shop-file"></span></label>
+          </div>
+          <div class="grid2">
+            <label class="check"><input id="shop-buy" type="checkbox"> 允许购买</label>
+            <label class="check"><input id="shop-sell" type="checkbox"> 允许出售</label>
+          </div>
+          <h3>商品（价格留空 = null，表示禁用该方向）</h3>
+          <table id="shop-items" class="rows">
+            <thead><tr><th>道具（点击搜索）</th><th>名称</th><th>买入价</th><th>回收价</th><th></th></tr></thead>
+            <tbody></tbody>
+          </table>
+          <button id="shop-add-item">＋ 添加商品</button>
+          <h3>店员绑定（保存后在游戏内执行 <code>//reloadshops</code> 生效）</h3>
+          <div id="shop-binding-mode">
+            <label class="check"><input type="radio" name="bind-mode" value="none"> 不写 npcs 字段（沿用地图 NPC 上的旧 shopId）</label>
+            <label class="check"><input type="radio" name="bind-mode" value="empty"> 写空数组 []（解绑本店全部店员）</label>
+            <label class="check"><input type="radio" name="bind-mode" value="list"> 指定店员列表：</label>
+          </div>
+          <table id="shop-npcs" class="rows">
+            <thead><tr><th>地区</th><th>地图</th><th>NPC 序号</th><th></th></tr></thead>
+            <tbody></tbody>
+          </table>
+          <button id="shop-add-npc">＋ 添加店员</button>
+          <div id="shop-errors" class="errors"></div>
+          <div class="actions">
+            <button id="shop-save" class="primary">保存</button>
+            <button id="shop-validate">只校验</button>
+            <button id="shop-delete" class="danger">删除店铺</button>
+          </div>
+        </div>
+        <div id="shop-create-panel" class="editor hidden">
+          <h2>新建店铺</h2>
+          <label>子目录（如 kanto/cerulean_city）<input id="shop-create-dir" type="text" spellcheck="false"></label>
+          <label>文件名（.json 或 .jsonc）<input id="shop-create-name" type="text" spellcheck="false" placeholder="mart_clerk.jsonc"></label>
+          <div class="actions">
+            <button id="shop-create-ok" class="primary">创建并编辑</button>
+            <button id="shop-create-cancel">取消</button>
+          </div>
+        </div>
+        <p id="shop-empty" class="empty">从左侧选择一家店铺，或点击「新建店铺」。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 自定义 NPC（原有结构保留） -->
+  <section id="tab-npcs" class="tab-body">
+    <div class="columns">
+      <div class="col list-col">
+        <div class="toolbar">
+          <input id="npc-search" type="search" placeholder="搜索地图 / 序号">
+          <button id="npc-new" class="primary">新建 NPC</button>
+        </div>
+        <ul id="npc-list" class="item-list"></ul>
+      </div>
+      <div class="col form-col">
+        <div id="npc-editor" class="editor hidden">
+          <h2 id="npc-title"></h2>
+          <div class="grid3">
+            <label>地区
+              <select id="npc-region">
+                <option value="0">0 关都</option>
+                <option value="1">1 丰缘</option>
+                <option value="3">3 神奥</option>
+              </select>
+            </label>
+            <label>地图 <select id="npc-map"></select></label>
+            <label>序号 entityIdx
+              <span class="inline"><input id="npc-idx" type="number" min="100000">
+              <button id="npc-idx-auto" title="自动分配下一个可用序号">自动</button></span>
+            </label>
+          </div>
+          <div class="grid3">
+            <label>外观编号 spriteId <input id="npc-sprite" type="number" min="0" max="10000"></label>
+            <label>外观地区 spriteRegion
+              <select id="npc-sprite-region">
+                <option>0</option><option>1</option><option>2</option><option>3</option><option>4</option><option>10</option>
+              </select>
+            </label>
+            <label>移动类型 <select id="npc-movement"></select></label>
+          </div>
+          <div class="grid3">
+            <label>横向活动范围 leashX (0..4) <input id="npc-leash-x" type="number" min="0" max="4"></label>
+            <label>纵向活动范围 leashY (0..4) <input id="npc-leash-y" type="number" min="0" max="4"></label>
+            <label>朝向 toward
+              <select id="npc-toward">
+                <option value="0">0 下</option><option value="1">1 上</option>
+                <option value="2">2 左</option><option value="3">3 右</option>
+              </select>
+            </label>
+          </div>
+          <div class="grid3">
+            <label>X <input id="npc-x" type="number" min="0"></label>
+            <label>Y <input id="npc-y" type="number" min="0"></label>
+            <label>Z（高度层） <input id="npc-z" type="number" min="-128" max="127"></label>
+          </div>
+          <div class="grid3">
+            <label class="check"><input id="npc-enabled" type="checkbox"> 启用</label>
+            <label>配置版本
+              <select id="npc-version">
+                <option value="1">1 普通</option>
+                <option value="2">2 事件</option>
+              </select>
+            </label>
+            <span class="inline">
+              <button id="npc-pick" class="primary">在地图上选出生点</button>
+            </span>
+          </div>
+          <div id="npc-advanced" class="advanced hidden">
+            <div class="grid3">
+              <label>事件分类 eventId (-1..6) <input id="npc-event-id" type="number" min="-1" max="6" value="-1"></label>
+              <label class="check"><input id="npc-sparkles" type="checkbox"> 闪光特效</label>
+              <label>缩放 spriteScale (0.25..4.0) <input id="npc-scale" type="number" step="0.05" min="0.25" max="4" value="1"></label>
+            </div>
+          </div>
+          <div id="npc-errors" class="errors"></div>
+          <div class="actions">
+            <button id="npc-save" class="primary">保存</button>
+            <button id="npc-toggle"></button>
+          </div>
+          <p class="hint">保存后需重启游戏服生效；游戏服运行中请用 <code>//spawnnpc</code> / <code>//eventdeletenpc</code> 命令。</p>
+        </div>
+        <p id="npc-empty" class="empty">从左侧选择一只自定义 NPC，或点击「新建 NPC」。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 道具字典 -->
+  <section id="tab-dict" class="tab-body">
+    <div class="toolbar">
+      <input id="dict-search" type="search" placeholder="搜索编号 / 名称">
+      <button id="dict-create" class="primary">新建道具</button>
+      <span class="hint">注意：服务端行为由 Item.bin 决定，此处编辑显示层字段</span>
+    </div>
+    <div class="columns">
+      <div class="col list-col wide">
+        <table class="rows" id="dict-table">
+          <thead><tr><th>编号</th><th>名称</th><th>地区</th><th>iconId</th><th></th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="col side-panel hidden" id="dict-panel">
+        <h3 id="dict-title"></h3>
+        <div class="grid2">
+          <label>名称 <input id="dict-name" type="text"></label>
+          <label>地区 regionIndexId <input id="dict-region" type="number" min="0"></label>
+          <label>iconId <input id="dict-icon" type="number" min="0"></label>
+          <label>名称字符串ID <input id="dict-name-str" type="number" min="0"></label>
+          <label>描述字符串ID <input id="dict-desc-str" type="number" min="0"></label>
+        </div>
+        <label>描述 <textarea id="dict-desc" rows="2"></textarea></label>
+        <div id="dict-refs" class="refs"></div>
+        <div class="actions">
+          <button id="dict-save" class="primary">保存</button>
+          <button id="dict-delete" class="danger">删除</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 商城与赠送 -->
+  <section id="tab-gifts" class="tab-body">
+    <div class="columns">
+      <div class="col half">
+        <h3>商城礼包 GiftShop.jsonc <button id="giftshop-add">＋ 新增</button></h3>
+        <table class="rows" id="giftshop-table">
+          <thead><tr><th>ID</th><th>道具</th><th>价格</th><th>原价</th><th>数量</th><th>排序</th><th></th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="col half">
+        <h3>赠送宝可梦 Gift.jsonc <button id="gift-add">＋ 新增</button></h3>
+        <table class="rows" id="gift-table">
+          <thead><tr><th>ID</th><th>图鉴</th><th>等级</th><th>招式</th><th>球</th><th></th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- 招式编辑 -->
+  <section id="tab-moves" class="tab-body">
+    <div class="toolbar">
+      <select id="move-gen"></select>
+      <input id="move-search" type="number" placeholder="招式编号">
+    </div>
+    <div class="columns">
+      <div class="col list-col">
+        <table class="rows" id="move-table">
+          <thead><tr><th>编号</th><th>属性</th><th>分类</th><th>威力</th><th>命中</th><th>PP</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="col form-col">
+        <div id="move-editor" class="editor hidden">
+          <h3>招式 <span id="move-title"></span></h3>
+          <div class="grid3">
+            <label>威力 <input id="move-power" type="number" min="0" max="500"></label>
+            <label>命中 <input id="move-accuracy" type="number" min="0" max="100"></label>
+            <label>PP <input id="move-pp" type="number" min="0" max="99"></label>
+            <label>优先度 <input id="move-priority" type="number" min="-7" max="7"></label>
+          </div>
+          <label>完整 JSON（可编辑复杂效果字段）<textarea id="move-json" rows="16" spellcheck="false"></textarea></label>
+          <div id="move-errors" class="errors"></div>
+          <div class="actions"><button id="move-save" class="primary">保存</button></div>
+        </div>
+        <p id="move-empty" class="empty">从左侧选择一个招式。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 图鉴/捕捉 -->
+  <section id="tab-dex" class="tab-body">
+    <div class="toolbar">
+      <input id="dex-search" type="search" placeholder="搜索图鉴号 / 名称">
+    </div>
+    <div class="columns">
+      <div class="col list-col wide">
+        <table class="rows" id="dex-table">
+          <thead><tr><th>图鉴</th><th>名称</th><th>捕捉率</th><th>初始亲密度</th><th></th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="col side-panel hidden" id="dex-panel">
+        <h3 id="dex-title"></h3>
+        <div class="grid2">
+          <label>捕捉率 (0..255) <input id="dex-catch" type="number" min="0" max="255"></label>
+          <label>初始亲密度 <input id="dex-happy" type="number" min="0" max="255"></label>
+        </div>
+        <div class="actions"><button id="dex-save" class="primary">保存</button></div>
+        <h3>种类基础配置（Pokemon.jsonc）</h3>
+        <div id="dex-species" class="refs">选中图鉴后加载</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 遇敌表 -->
+  <section id="tab-encounters" class="tab-body">
+    <div class="toolbar">
+      <label>地区 <select id="enc-region"></select></label>
+      <label>地图 <select id="enc-map"></select></label>
+      <button id="enc-load" class="primary">加载</button>
+      <button id="enc-save">保存</button>
+      <span class="hint">需重启游戏服生效</span>
+    </div>
+    <div id="enc-editor" class="editor hidden"></div>
+    <p id="enc-empty" class="empty">加载一张地图后编辑其遇敌表。</p>
+  </section>
+
+  <!-- 事件 NPC -->
+  <section id="tab-events" class="tab-body">
+    <div id="event-groups" class="columns"></div>
+    <p class="hint">启用/停用只改 enabled，需重启游戏服生效。</p>
+  </section>
+
+  <!-- 地图浏览（原有结构保留） -->
+  <section id="tab-maps" class="tab-body">
+    <div class="map-toolbar">
+      <label>地区 <select id="map-region"></select></label>
+      <label>地图 <select id="map-select"></select></label>
+      <input id="map-search" type="search" placeholder="按地图名过滤">
+      <label class="check"><input id="map-collision" type="checkbox"> 碰撞蒙层</label>
+      <label class="check"><input id="map-warps" type="checkbox" checked> 传送点</label>
+      <label class="check"><input id="map-counters" type="checkbox" checked> 柜台</label>
+      <span id="map-mode" class="mode-chip"></span>
+      <span id="map-pick-banner" class="pick-banner hidden"></span>
+      <button id="map-pick-cancel" class="hidden">取消选点</button>
+    </div>
+    <div id="map-stage">
+      <div id="map-viewport">
+        <div id="map-layers"></div>
+      </div>
+      <div id="map-info" class="map-info hidden"></div>
+    </div>
+  </section>
+
+  <!-- 操作日志 -->
+  <section id="tab-audit" class="tab-body">
+    <table class="rows" id="audit-table">
+      <thead><tr><th>时间</th><th>操作</th><th>结果</th><th>详情</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </section>
+
+  </main>
+</div>
+
+<div id="toast" class="toast hidden"></div>
+
+<script>window.__CSRF_TOKEN__ = "";</script>
+<script type="module" src="/static/js/app.js"></script>
+</body>
+</html>

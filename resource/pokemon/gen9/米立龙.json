@@ -1,0 +1,127 @@
+{
+	"id": 978,
+	"name": "[978]米立龙",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 3,
+	"weight": 80,
+	"egg_groups": [
+		"水2组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 114,
+			"name": "[114]特性114"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 55,
+			"name": "[55]水枪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 150,
+			"name": "[150]跃起",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 106,
+			"name": "[106]变硬",
+			"type": "level",
+			"level": 6
+		},
+		{
+			"id": 270,
+			"name": "[270]帮助",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 352,
+			"name": "[352]水之波动",
+			"type": "level",
+			"level": 17
+		},
+		{
+			"id": 487,
+			"name": "[487]浸水",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 269,
+			"name": "[269]挑衅",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 262,
+			"name": "[262]临别礼物",
+			"type": "level",
+			"level": 34
+		},
+		{
+			"id": 330,
+			"name": "[330]浊流",
+			"type": "level",
+			"level": 39
+		},
+		{
+			"id": 417,
+			"name": "[417]诡计",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 243,
+			"name": "[243]镜面反射",
+			"type": "level",
+			"level": 47
+		},
+		{
+			"id": 406,
+			"name": "[406]龙之波动",
+			"type": "level",
+			"level": 52
+		}
+	],
+	"types": [
+		"DRAGON",
+		"WATER"
+	],
+	"stats": {
+		"hp": 68,
+		"attack": 50,
+		"defense": 60,
+		"speed": 120,
+		"sp_attack": 95,
+		"sp_defense": 82
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 2,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

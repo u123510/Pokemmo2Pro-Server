@@ -1,0 +1,145 @@
+{
+	"id": 933,
+	"name": "[933]盐石垒",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 6,
+	"weight": 1050,
+	"egg_groups": [
+		"矿物组"
+	],
+	"abilities": [
+		{
+			"id": 5,
+			"name": "[005]特性5"
+		},
+		{
+			"id": 5,
+			"name": "[005]特性5"
+		},
+		{
+			"id": 29,
+			"name": "[029]特性29"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 934,
+			"name": "[934]盐石巨灵",
+			"type": "LEVEL",
+			"val": 38
+		}
+	],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 106,
+			"name": "[106]变硬",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 88,
+			"name": "[88]落石",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 341,
+			"name": "[341]泥巴射击",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 479,
+			"name": "[479]击落",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 397,
+			"name": "[397]岩石打磨",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 29,
+			"name": "[29]头锤",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 334,
+			"name": "[334]铁壁",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 105,
+			"name": "[105]自我再生",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 157,
+			"name": "[157]岩崩",
+			"type": "level",
+			"level": 34
+		},
+		{
+			"id": 446,
+			"name": "[446]隐形岩",
+			"type": "level",
+			"level": 38
+		},
+		{
+			"id": 484,
+			"name": "[484]重磅冲撞",
+			"type": "level",
+			"level": 41
+		},
+		{
+			"id": 89,
+			"name": "[89]地震",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 444,
+			"name": "[444]尖石攻击",
+			"type": "level",
+			"level": 51
+		}
+	],
+	"types": [
+		"ROCK"
+	],
+	"stats": {
+		"hp": 60,
+		"attack": 60,
+		"defense": 100,
+		"speed": 35,
+		"sp_attack": 65,
+		"sp_defense": 35
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 2,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

@@ -1,0 +1,134 @@
+{
+	"id": 845,
+	"name": "[845]古月鸟",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 8,
+	"weight": 180,
+	"egg_groups": [
+		"水1组",
+		"飞行组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 64,
+			"name": "[64]啄",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 254,
+			"name": "[254]蓄力",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 255,
+			"name": "[255]喷出",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 256,
+			"name": "[256]吞下",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 562,
+			"name": "[562]打嗝",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 55,
+			"name": "[55]水枪",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 31,
+			"name": "[31]乱击",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 365,
+			"name": "[365]啄食",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 291,
+			"name": "[291]潜水",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 65,
+			"name": "[65]啄钻",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 133,
+			"name": "[133]瞬间失忆",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 37,
+			"name": "[37]大闹一番",
+			"type": "level",
+			"level": 49
+		},
+		{
+			"id": 56,
+			"name": "[56]水炮",
+			"type": "level",
+			"level": 56
+		}
+	],
+	"types": [
+		"FLYING",
+		"WATER"
+	],
+	"stats": {
+		"hp": 70,
+		"attack": 85,
+		"defense": 55,
+		"speed": 85,
+		"sp_attack": 95,
+		"sp_defense": 85
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 2,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

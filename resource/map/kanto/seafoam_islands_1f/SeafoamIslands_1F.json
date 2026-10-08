@@ -1,0 +1,311 @@
+{
+  "regionId": 0,
+  "bankId": 1,
+  "mapId": 83,
+  "width": 38,
+  "height": 24,
+  "paletteIdx1": 0,
+  "paletteIdx2": 38,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 287,
+  "unknownByte": 139,
+  "borderTiles": [
+    {
+      "material": 657,
+      "collision": 0
+    },
+    {
+      "material": 657,
+      "collision": 0
+    },
+    {
+      "material": 657,
+      "collision": 0
+    },
+    {
+      "material": 657,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_SEAFOAM_ISLANDS_1F",
+      "base_label": "sSeafoamIslands1F_FireRed",
+      "land_mons": {
+        "encounter_rate": 7,
+        "mons": [
+          {
+            "min_level": 27,
+            "max_level": 27,
+            "species": "SPECIES_PSYDUCK"
+          },
+          {
+            "min_level": 29,
+            "max_level": 29,
+            "species": "SPECIES_PSYDUCK"
+          },
+          {
+            "min_level": 31,
+            "max_level": 31,
+            "species": "SPECIES_PSYDUCK"
+          },
+          {
+            "min_level": 22,
+            "max_level": 22,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 22,
+            "max_level": 22,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 24,
+            "max_level": 24,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 26,
+            "max_level": 26,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 28,
+            "max_level": 28,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 33,
+            "max_level": 33,
+            "species": "SPECIES_PSYDUCK"
+          },
+          {
+            "min_level": 26,
+            "max_level": 26,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 26,
+            "max_level": 26,
+            "species": "SPECIES_PSYDUCK"
+          },
+          {
+            "min_level": 30,
+            "max_level": 30,
+            "species": "SPECIES_GOLBAT"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "SeafoamIslands_1F_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 10,
+      "y": 6,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 84,
+      "targetX": 10,
+      "targetY": 6,
+      "targetElevation": 3
+    },
+    {
+      "x": 31,
+      "y": 4,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 84,
+      "targetX": 31,
+      "targetY": 4,
+      "targetElevation": 2
+    },
+    {
+      "x": 28,
+      "y": 19,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 84,
+      "targetX": 28,
+      "targetY": 19,
+      "targetElevation": 2
+    },
+    {
+      "x": 6,
+      "y": 21,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 38,
+      "targetX": 60,
+      "targetY": 8,
+      "targetElevation": 2
+    },
+    {
+      "x": 32,
+      "y": 21,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 38,
+      "targetX": 72,
+      "targetY": 14,
+      "targetElevation": 2
+    },
+    {
+      "x": 21,
+      "y": 8,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 84,
+      "targetX": 21,
+      "targetY": 8,
+      "targetElevation": 2
+    },
+    {
+      "x": 30,
+      "y": 8,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 84,
+      "targetX": 29,
+      "targetY": 8,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 97,
+      "x": 22,
+      "y": 12,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "kanto/FLAG_HIDE_SEAFOAM_1F_BOULDER_1",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 97,
+      "x": 32,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "kanto/FLAG_HIDE_SEAFOAM_1F_BOULDER_2",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 92,
+      "x": 11,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SeafoamIslands_1F_EventScript_ItemIceHeal",
+      "hideFlag": "kanto/FLAG_HIDE_SEAFOAM_ISLANDS_1F_ICE_HEAL",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "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",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

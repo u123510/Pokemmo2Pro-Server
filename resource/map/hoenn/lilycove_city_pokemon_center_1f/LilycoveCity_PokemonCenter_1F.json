@@ -1,0 +1,227 @@
+{
+  "regionId": 1,
+  "bankId": 63,
+  "mapId": 6,
+  "width": 14,
+  "height": 9,
+  "paletteIdx1": 116,
+  "paletteIdx2": 118,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 400,
+  "unknownByte": 12,
+  "borderTiles": [
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "LilycoveCity_PokemonCenter_1F_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 7,
+      "y": 8,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 5,
+      "targetX": 24,
+      "targetY": 14,
+      "targetElevation": 0
+    },
+    {
+      "x": 6,
+      "y": 8,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 5,
+      "targetX": 24,
+      "targetY": 14,
+      "targetElevation": 0
+    },
+    {
+      "x": 1,
+      "y": 6,
+      "elevation": 3,
+      "targetRegionId": 1,
+      "targetBankId": 63,
+      "targetMapId": 7,
+      "targetX": 1,
+      "targetY": 6,
+      "targetElevation": 3
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 58,
+      "x": 7,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LilycoveCity_PokemonCenter_1F_EventScript_Nurse",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 7,
+      "x": 10,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "LilycoveCity_PokemonCenter_1F_EventScript_Boy",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 39,
+      "x": 11,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "LilycoveCity_PokemonCenter_1F_EventScript_Maniac",
+      "hideFlag": "",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 0,
+      "x": 1,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LilycoveCity_PokemonCenter_1F_EventScript_LilycoveLady",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 0,
+      "x": 2,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LilycoveCity_PokemonCenter_1F_EventScript_ContestLadyMon",
+      "hideFlag": "hoenn/FLAG_HIDE_LILYCOVE_POKEMON_CENTER_CONTEST_LADY_MON",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "CAYJBmkGagYLBgsGCwZKBksGCwYMBg0GDgYPBhAGEQZxBnIGSAYiBiMGUgZTBkkGBAQVBhYGFwYYMhkyeTJ6MlAGKgYrBgcyWwZRBiQyHTIeMh8yIDImMjQyAjJYBiEGIQYFBiEGWQY8MgIyAjInMiAyAjICMgIyYDJsMm0ybjJvMgYyJTICMgIyJzKAMoEyAjICMgIyMDIxMjIyMzICMgIyAjICMicyiDaJQgICAjICMjgyOTI6MjsyAjI0Mj0GPgYnMpAykTICMgIyAjJAMkEyQjJDMgIyJjJFBkYGJzIoBgIyAjICMgIyAjIDMgQyAjICMgIyJjI0Mjc2",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NAAAAAAAA"
+}

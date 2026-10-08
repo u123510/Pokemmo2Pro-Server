@@ -1,0 +1,86 @@
+{
+	"id": 825,
+	"name": "[825]天罩虫",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 4,
+	"weight": 195,
+	"egg_groups": [
+		"虫组"
+	],
+	"abilities": [
+		{
+			"id": 68,
+			"name": "[068]特性68"
+		},
+		{
+			"id": 14,
+			"name": "[014]特性14"
+		},
+		{
+			"id": 140,
+			"name": "[140]特性140"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 826,
+			"name": "[826]以欧路普",
+			"type": "LEVEL",
+			"val": 30
+		}
+	],
+	"moves": [
+		{
+			"id": 93,
+			"name": "[93]念力",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 113,
+			"name": "[113]光墙",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 115,
+			"name": "[115]反射壁",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 522,
+			"name": "[522]虫之抵抗",
+			"type": "level",
+			"level": 1
+		}
+	],
+	"types": [
+		"BUG",
+		"PSYCHIC"
+	],
+	"stats": {
+		"hp": 50,
+		"attack": 35,
+		"defense": 80,
+		"speed": 50,
+		"sp_attack": 90,
+		"sp_defense": 30
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 2,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

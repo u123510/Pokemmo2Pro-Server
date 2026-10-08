@@ -1,0 +1,211 @@
+{
+  "regionId": 1,
+  "bankId": 76,
+  "mapId": 25,
+  "width": 15,
+  "height": 18,
+  "paletteIdx1": 116,
+  "paletteIdx2": 165,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 461,
+  "unknownByte": 58,
+  "borderTiles": [
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_TEMP_CHALLENGE_STATUS",
+      "value": 0,
+      "script": "BattleFrontier_BattlePyramidLobby_EventScript_GetChallengeStatus"
+    }
+  ],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 5,
+      "y": 12,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "BattleFrontier_BattlePyramidLobby_EventScript_ShowResults"
+    },
+    {
+      "x": 1,
+      "y": 12,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "BattleFrontier_BattlePyramidLobby_EventScript_RulesBoard"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 7,
+      "y": 17,
+      "elevation": 3,
+      "targetRegionId": 1,
+      "targetBankId": 76,
+      "targetMapId": 14,
+      "targetX": 58,
+      "targetY": 14,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 55,
+      "x": 7,
+      "y": 12,
+      "elevation": 3,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "BattleFrontier_BattlePyramidLobby_EventScript_Attendant",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 40,
+      "x": 14,
+      "y": 13,
+      "elevation": 3,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "BattleFrontier_BattlePyramidLobby_EventScript_HintGiver",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 24,
+      "x": 2,
+      "y": 15,
+      "elevation": 3,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "BattleFrontier_BattlePyramidLobby_EventScript_Woman",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 17,
+      "x": 12,
+      "y": 16,
+      "elevation": 3,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "BattleFrontier_BattlePyramidLobby_EventScript_FatMan",
+      "hideFlag": "",
+      "rawMovementType": 2
+    }
+  ],
+  "blockData": "AUYIRglGCkYDRgNGA0YDRgNGA0YDRiBGIUYiRgFGA0YDRhFGEkYERgdGBEYERgRGB0YERihGKUYqRgNGBEYERhhGD0YFRg9GBUYFRgVGD0YFRg9GMEYERgRGBUYFRhhGKwIGRhdGBkYGRgZGKwIGRhdGMEYFRgVGAUYBRhhGMwIORh9GDEYNQgxGMwIORh9GMEYBRgFGAkICQhlGC0IWRgtCC0ILQgtCC0IWRgtCMUYCQgJCE0ITQhpCC0ILQgtCC0ILQgtCC0ILQgtCGkITQhNCC0ILQgtCC0ILQgtCC0ILQgtCC0ILQgtCC0ILQgtCC0ILQgtCHEYcRhxGI0YkQiVGHEYcRhxGC0ILQgtCC0ILQgtCHUYdRh1GI0YkQiVGHUYdRh1GC0ILQgtCBgIGAgYCAUYBRgFGI0YkQiVGAUYBRgFGBUYFRgVGygbLBswCAUYBRsgGI0YkQiVGAUYBRgFGBkYeBgZG0gbTBtQGG0YbRtAGI0YkQiVGG0YbRhtGBUYmBgVG2gLbAtwCC0ILQtgCwELBQsJCC0ILQgtCC0IuQgtCC0ILQgtCC0ILQgtCC0ILQgtCC0ILQgtCC0ILQgtCC0ILQgtCC0ILQgtCC0ILQgtCC0ILQgtCC0ILQgtCC0ILQgtCC0ILQgtCC0ILQgtCC0ILQgtCC0ILQgtCC0ILQgtCC0ILQgtCw0LEQsVCC0ILQgtCC0ILQgtC",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAA"
+}

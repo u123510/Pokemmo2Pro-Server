@@ -1,0 +1,556 @@
+{
+  "regionId": 1,
+  "bankId": 50,
+  "mapId": 0,
+  "width": 30,
+  "height": 30,
+  "paletteIdx1": 100,
+  "paletteIdx2": 101,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 362,
+  "unknownByte": 7,
+  "borderTiles": [
+    {
+      "material": 468,
+      "collision": 0
+    },
+    {
+      "material": 469,
+      "collision": 0
+    },
+    {
+      "material": 476,
+      "collision": 0
+    },
+    {
+      "material": 477,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "REGULAR_WEATHER",
+  "mapType": "CITY",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_PETALBURG_CITY",
+      "base_label": "gPetalburgCity",
+      "water_mons": {
+        "encounter_rate": 1,
+        "mons": [
+          {
+            "min_level": 20,
+            "max_level": 30,
+            "species": "SPECIES_MARILL"
+          },
+          {
+            "min_level": 10,
+            "max_level": 20,
+            "species": "SPECIES_MARILL"
+          },
+          {
+            "min_level": 30,
+            "max_level": 35,
+            "species": "SPECIES_MARILL"
+          },
+          {
+            "min_level": 5,
+            "max_level": 10,
+            "species": "SPECIES_MARILL"
+          },
+          {
+            "min_level": 5,
+            "max_level": 10,
+            "species": "SPECIES_MARILL"
+          }
+        ]
+      },
+      "fishing_mons": {
+        "encounter_rate": 10,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 10,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 10,
+            "species": "SPECIES_GOLDEEN"
+          },
+          {
+            "min_level": 10,
+            "max_level": 30,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 10,
+            "max_level": 30,
+            "species": "SPECIES_GOLDEEN"
+          },
+          {
+            "min_level": 10,
+            "max_level": 30,
+            "species": "SPECIES_CORPHISH"
+          },
+          {
+            "min_level": 25,
+            "max_level": 30,
+            "species": "SPECIES_CORPHISH"
+          },
+          {
+            "min_level": 30,
+            "max_level": 35,
+            "species": "SPECIES_CORPHISH"
+          },
+          {
+            "min_level": 20,
+            "max_level": 25,
+            "species": "SPECIES_CORPHISH"
+          },
+          {
+            "min_level": 35,
+            "max_level": 40,
+            "species": "SPECIES_CORPHISH"
+          },
+          {
+            "min_level": 40,
+            "max_level": 45,
+            "species": "SPECIES_CORPHISH"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "PetalburgCity_OnTransition",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_PETALBURG_CITY_STATE",
+      "value": 2,
+      "script": "PetalburgCity_EventScript_WallyTutorial"
+    },
+    {
+      "varKey": "VAR_PETALBURG_CITY_STATE",
+      "value": 4,
+      "script": "PetalburgCity_EventScript_WalkToWallyHouse"
+    }
+  ],
+  "coordScripts": [
+    {
+      "x": 8,
+      "y": 10,
+      "elevation": 3,
+      "varKey": "VAR_PETALBURG_CITY_STATE",
+      "value": 0,
+      "script": "PetalburgCity_EventScript_ShowGymToPlayer0"
+    },
+    {
+      "x": 8,
+      "y": 11,
+      "elevation": 3,
+      "varKey": "VAR_PETALBURG_CITY_STATE",
+      "value": 0,
+      "script": "PetalburgCity_EventScript_ShowGymToPlayer1"
+    },
+    {
+      "x": 8,
+      "y": 12,
+      "elevation": 3,
+      "varKey": "VAR_PETALBURG_CITY_STATE",
+      "value": 0,
+      "script": "PetalburgCity_EventScript_ShowGymToPlayer2"
+    },
+    {
+      "x": 8,
+      "y": 13,
+      "elevation": 3,
+      "varKey": "VAR_PETALBURG_CITY_STATE",
+      "value": 0,
+      "script": "PetalburgCity_EventScript_ShowGymToPlayer3"
+    },
+    {
+      "x": 4,
+      "y": 10,
+      "elevation": 3,
+      "varKey": "VAR_SCOTT_PETALBURG_ENCOUNTER",
+      "value": 0,
+      "script": "PetalburgCity_EventScript_Scott0"
+    },
+    {
+      "x": 4,
+      "y": 11,
+      "elevation": 3,
+      "varKey": "VAR_SCOTT_PETALBURG_ENCOUNTER",
+      "value": 0,
+      "script": "PetalburgCity_EventScript_Scott1"
+    },
+    {
+      "x": 4,
+      "y": 12,
+      "elevation": 3,
+      "varKey": "VAR_SCOTT_PETALBURG_ENCOUNTER",
+      "value": 0,
+      "script": "PetalburgCity_EventScript_Scott2"
+    },
+    {
+      "x": 4,
+      "y": 13,
+      "elevation": 3,
+      "varKey": "VAR_SCOTT_PETALBURG_ENCOUNTER",
+      "value": 0,
+      "script": "PetalburgCity_EventScript_Scott3"
+    }
+  ],
+  "bgEvents": [
+    {
+      "x": 17,
+      "y": 10,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "PetalburgCity_EventScript_GymSign"
+    },
+    {
+      "x": 26,
+      "y": 12,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemartSign"
+    },
+    {
+      "x": 21,
+      "y": 16,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    },
+    {
+      "x": 17,
+      "y": 16,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "PetalburgCity_EventScript_CitySign"
+    },
+    {
+      "x": 22,
+      "y": 16,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    },
+    {
+      "x": 27,
+      "y": 12,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemartSign"
+    },
+    {
+      "x": 8,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "PetalburgCity_EventScript_WallyHouseSign"
+    },
+    {
+      "x": 11,
+      "y": 29,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "0x0"
+    }
+  ],
+  "connections": [
+    {
+      "direction": "LEFT",
+      "unknown": -50,
+      "targetBank": 50,
+      "targetMap": 19
+    },
+    {
+      "direction": "RIGHT",
+      "unknown": 10,
+      "targetBank": 50,
+      "targetMap": 17
+    }
+  ],
+  "warps": [
+    {
+      "x": 10,
+      "y": 19,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 58,
+      "targetMapId": 2,
+      "targetX": 3,
+      "targetY": 8,
+      "targetElevation": 0
+    },
+    {
+      "x": 7,
+      "y": 5,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 58,
+      "targetMapId": 0,
+      "targetX": 3,
+      "targetY": 7,
+      "targetElevation": 0
+    },
+    {
+      "x": 15,
+      "y": 8,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 58,
+      "targetMapId": 1,
+      "targetX": 4,
+      "targetY": 111,
+      "targetElevation": 2
+    },
+    {
+      "x": 20,
+      "y": 16,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 58,
+      "targetMapId": 4,
+      "targetX": 7,
+      "targetY": 8,
+      "targetElevation": 2
+    },
+    {
+      "x": 20,
+      "y": 24,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 58,
+      "targetMapId": 3,
+      "targetX": 3,
+      "targetY": 7,
+      "targetElevation": 0
+    },
+    {
+      "x": 25,
+      "y": 12,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 58,
+      "targetMapId": 6,
+      "targetX": 3,
+      "targetY": 7,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 26,
+      "x": 16,
+      "y": 18,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PetalburgCity_EventScript_WallysMom",
+      "hideFlag": "hoenn/FLAG_HIDE_PETALBURG_CITY_WALLYS_MOM",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 135,
+      "x": 15,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_PETALBURG_CITY_WALLY",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 7,
+      "x": 8,
+      "y": 22,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PetalburgCity_EventScript_Boy",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 48,
+      "x": 20,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "WANDER_UP_AND_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PetalburgCity_EventScript_Gentleman",
+      "hideFlag": "",
+      "rawMovementType": 3
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 25,
+      "x": 15,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_PETALBURG_CITY_WALLYS_DAD",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 59,
+      "x": 19,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PetalburgCity_EventScript_ItemMaxRevive",
+      "hideFlag": "hoenn/FLAG_ITEM_PETALBURG_CITY_MAX_REVIVE",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 59,
+      "x": 3,
+      "y": 28,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PetalburgCity_EventScript_ItemEther",
+      "hideFlag": "hoenn/FLAG_ITEM_PETALBURG_CITY_ETHER",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 9,
+      "x": 12,
+      "y": 15,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PetalburgCity_EventScript_GymBoy",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 219,
+      "x": 13,
+      "y": 12,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_PETALBURG_CITY_SCOTT",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "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",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

@@ -1,0 +1,250 @@
+{
+  "regionId": 1,
+  "bankId": 82,
+  "mapId": 1,
+  "width": 20,
+  "height": 11,
+  "paletteIdx1": 116,
+  "paletteIdx2": 143,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 399,
+  "unknownByte": 34,
+  "borderTiles": [
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "Route119_WeatherInstitute_2F_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 17,
+      "y": 1,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 82,
+      "targetMapId": 0,
+      "targetX": 17,
+      "targetY": 1,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 117,
+      "x": 15,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "Route119_WeatherInstitute_2F_EventScript_Grunt2",
+      "hideFlag": "hoenn/FLAG_HIDE_ROUTE_119_TEAM_AQUA",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 117,
+      "x": 10,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_DOWN_AND_UP",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "Route119_WeatherInstitute_2F_EventScript_Grunt3",
+      "hideFlag": "hoenn/FLAG_HIDE_ROUTE_119_TEAM_AQUA",
+      "rawMovementType": 13
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 118,
+      "x": 4,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "Route119_WeatherInstitute_2F_EventScript_Shelly",
+      "hideFlag": "hoenn/FLAG_HIDE_ROUTE_119_TEAM_AQUA",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 65,
+      "x": 0,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_WEATHER_INSTITUTE_2F_WORKERS",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 46,
+      "x": 18,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 2,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "Route119_WeatherInstitute_2F_EventScript_WeatherScientist",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 65,
+      "x": 1,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_WEATHER_INSTITUTE_2F_WORKERS",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 117,
+      "x": 16,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_WEATHER_INSTITUTE_2F_AQUA_GRUNT_M",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 118,
+      "x": 19,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "Route119_WeatherInstitute_2F_EventScript_Grunt5",
+      "hideFlag": "hoenn/FLAG_HIDE_ROUTE_119_TEAM_AQUA",
+      "rawMovementType": 9
+    }
+  ],
+  "blockData": "XwaIBokGXwZrBl8GXwZfBl8GXwZfBl8GXwZfBl8GXwZ8Nn02fjZfBmcGkAaRBmcGawYsBi0GLAYtBiwGLQYsBi0GLAYtBmcGhDaDAoY2ZwZqMpgymTJ6MmsGNAY1BjQGNQY0BjUGNAY1BjQGNQZqMowyejKOMnoycjJgBmkyaTJzBmoyejJ6MmQGZQZ6MnoyejJkBmUGdzJpMmkyaTJpMlcyVAZpMmkycAZyMmkyXjJTBlQGVjJpMl4yUwZUBlYyaTJpMmkyaTJyMlwGaTJpMngGcjJpMmkyigaLBmkyaTJpMooGiwZpMmkyaTJpMmkycjJpMmkyaTKAMncyaTJpMmkyaTJpMmkyaTJpMmkyaTJpMmkyaTJpMnIyaTJpMmkygQZyMmkyaTJgBmEGaTJpMmkyYAZhBmkyaTJpMmkyaTJyMmAGaTJpMmsGcjJpMl4yUwZUBmkyaTJeMlMGVAZWMmkyaTJpMmkyVzJUBmkyaTJrBnIyaTJpMooGiwZpMmkyaTKKBosGaTJpMmkyaTJpMnIyXAZpMmkyawZyMmkyaTJpMmkyaTJpMmkyaTJpMmkyaTJpMmkyaTI=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+}

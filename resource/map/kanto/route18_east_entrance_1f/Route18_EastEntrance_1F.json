@@ -1,0 +1,256 @@
+{
+  "regionId": 0,
+  "bankId": 26,
+  "mapId": 0,
+  "width": 13,
+  "height": 12,
+  "paletteIdx1": 12,
+  "paletteIdx2": 42,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 314,
+  "unknownByte": 118,
+  "borderTiles": [
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "Route18_EastEntrance_1F_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [
+    {
+      "x": 2,
+      "y": 6,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_ROUTE16",
+      "value": 0,
+      "script": "EventScript_SetEnteringCyclingRoad"
+    },
+    {
+      "x": 6,
+      "y": 4,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "Route18_EastEntrance_1F_EventScript_NeedBikeTriggerTop"
+    },
+    {
+      "x": 6,
+      "y": 5,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "Route18_EastEntrance_1F_EventScript_NeedBikeTriggerMidTop"
+    },
+    {
+      "x": 6,
+      "y": 6,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "Route18_EastEntrance_1F_EventScript_NeedBikeTriggerMid"
+    },
+    {
+      "x": 6,
+      "y": 7,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "Route18_EastEntrance_1F_EventScript_NeedBikeTriggerMidBottom"
+    },
+    {
+      "x": 6,
+      "y": 8,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "Route18_EastEntrance_1F_EventScript_NeedBikeTriggerBottom"
+    },
+    {
+      "x": 10,
+      "y": 6,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_ROUTE16",
+      "value": 1,
+      "script": "EventScript_SetExitingCyclingRoad"
+    },
+    {
+      "x": 11,
+      "y": 5,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_ROUTE16",
+      "value": 1,
+      "script": "EventScript_SetExitingCyclingRoad"
+    },
+    {
+      "x": 11,
+      "y": 7,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_ROUTE16",
+      "value": 1,
+      "script": "EventScript_SetExitingCyclingRoad"
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_ROUTE16",
+      "value": 0,
+      "script": "EventScript_SetEnteringCyclingRoad"
+    },
+    {
+      "x": 1,
+      "y": 7,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_ROUTE16",
+      "value": 0,
+      "script": "EventScript_SetEnteringCyclingRoad"
+    }
+  ],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 1,
+      "y": 6,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 36,
+      "targetX": 41,
+      "targetY": 9,
+      "targetElevation": 2
+    },
+    {
+      "x": 11,
+      "y": 6,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 36,
+      "targetX": 48,
+      "targetY": 9,
+      "targetElevation": 2
+    },
+    {
+      "x": 9,
+      "y": 10,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 26,
+      "targetMapId": 1,
+      "targetX": 10,
+      "targetY": 9,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 60,
+      "x": 6,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "Route18_EastEntrance_1F_EventScript_Guard",
+      "hideFlag": "",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "CASHBocGmAaZBocGhwaHBv4G/waHBocGCAQIBOoGjwagBqEGjwaPBo8GBgcHB48G6gYIBAgE8QbrMuwy7DLsMuwy7DLsMuwy7TLxBggECASCMqQGpQalBqUGpQalBqUGpQamBoMyCAQIBIIyhDKEMoQyhDKEMoQyhDKEMoQyhjIIBNAG0TKaMsIywjLCMsIywjLCMsIymzLSMtMG2AbZMsMyyzLLMssyyzLLMssyyzLEMtoy2wbgBuEyojLKMsoyyjLKMsoyyjLKMqMy4jLjBggE6zKdMp0ynTKdMp0yjjKBMoEygTKnMggECASkBqUGpQalBqUGpQaWBoMyrTKuBq8GCAQIBIIyhDKEMoQyhDKEMo0GgzK1MrYGtwYIBAgEgjKBMoEygTKBMoEylQaDMr0yvga/BggE",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAAAAAAAA"
+}

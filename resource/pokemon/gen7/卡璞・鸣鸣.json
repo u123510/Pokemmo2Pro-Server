@@ -1,0 +1,163 @@
+{
+	"id": 785,
+	"name": "[785]卡璞・鸣鸣",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 18,
+	"weight": 205,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 140,
+			"name": "[140]特性140"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 84,
+			"name": "[84]电击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 98,
+			"name": "[98]电光一闪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 110,
+			"name": "[110]缩入壳中",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 206,
+			"name": "[206]点到为止",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 212,
+			"name": "[212]黑色目光",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 384,
+			"name": "[384]力量互换",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 413,
+			"name": "[413]勇鸟猛攻",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 604,
+			"name": "[604]电气场地",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 209,
+			"name": "[209]电光",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 351,
+			"name": "[351]电击波",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 103,
+			"name": "[103]刺耳声",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 268,
+			"name": "[268]充电",
+			"type": "level",
+			"level": 26
+		},
+		{
+			"id": 528,
+			"name": "[528]疯狂伏特",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 119,
+			"name": "[119]鹦鹉学舌",
+			"type": "level",
+			"level": 38
+		},
+		{
+			"id": 717,
+			"name": "[717]自然之怒",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 435,
+			"name": "[435]放电",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 97,
+			"name": "[97]高速移动",
+			"type": "level",
+			"level": 53
+		},
+		{
+			"id": 486,
+			"name": "[486]电球",
+			"type": "level",
+			"level": 58
+		}
+	],
+	"types": [
+		"ELECTRIC",
+		"FAIRY"
+	],
+	"stats": {
+		"hp": 70,
+		"attack": 115,
+		"defense": 85,
+		"speed": 95,
+		"sp_attack": 75,
+		"sp_defense": 130
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 3
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

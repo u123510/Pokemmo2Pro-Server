@@ -1,0 +1,82 @@
+{
+  "id": "kanto.viridian_city.catch_tutorial",
+  "version": 2,
+  "enabled": true,
+  "startNode": "capture",
+  "triggers": [
+    {
+      "type": "MAP_READY",
+      "map": "ViridianCity",
+      "startNode": "capture",
+      "conditions": [
+        {"type": "STORY_STAGE_AT_LEAST", "value": 6},
+        {"type": "CAPTURE_TUTORIAL_INCOMPLETE"},
+        {"type": "HAS_CAPTURE_BALL"}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "ViridianCity",
+      "entityIdx": 3,
+      "startNode": "capture",
+      "conditions": [
+        {"type": "STORY_STAGE_AT_LEAST", "value": 6},
+        {"type": "CAPTURE_TUTORIAL_INCOMPLETE"},
+        {"type": "HAS_CAPTURE_BALL"}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "ViridianCity",
+      "entityIdx": 3,
+      "startNode": "no_ball",
+      "conditions": [
+        {"type": "STORY_STAGE_AT_LEAST", "value": 6},
+        {"type": "CAPTURE_TUTORIAL_INCOMPLETE"},
+        {"type": "NO_CAPTURE_BALL"}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "ViridianCity",
+      "entityIdx": 3,
+      "startNode": "completed",
+      "conditions": [
+        {"type": "STORY_STAGE_AT_LEAST", "value": 6},
+        {"type": "CAPTURE_TUTORIAL_COMPLETE"}
+      ]
+    }
+  ],
+  "actors": {
+    "oldMan": {"map": "ViridianCity", "entityIdx": 3}
+  },
+  "resources": {
+    "wildSpecies": 13,
+    "wildLevel": 5,
+    "ballItem": 5004
+  },
+  "nodes": {
+    "capture": {
+      "actions": [
+        {"type": "DIALOGUE", "actor": "oldMan", "text": "introduction"},
+        {"type": "START_BATTLE", "battleType": "CAPTURE_TUTORIAL", "finishNode": "completed"}
+      ]
+    },
+    "completed": {
+      "actions": [
+        {"type": "DIALOGUE", "actor": "oldMan", "text": "completed"},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "no_ball": {
+      "actions": [
+        {"type": "NOTIFY", "message": "你身上没有精灵球，请先准备至少一个精灵球再接受捕获教学。"},
+        {"type": "CLOSE_SCENE"}
+      ]
+    }
+  },
+  "text": {
+    "introduction": 1563982,
+    "completed": 1564315
+  }
+}

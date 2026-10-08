@@ -1,0 +1,145 @@
+{
+	"id": 774,
+	"name": "[774]小陨星",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 3,
+	"weight": 400,
+	"egg_groups": [
+		"矿物组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 111,
+			"name": "[111]变圆",
+			"type": "level",
+			"level": 3
+		},
+		{
+			"id": 205,
+			"name": "[205]滚动",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 109,
+			"name": "[109]奇异之光",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 129,
+			"name": "[129]高速星星",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 246,
+			"name": "[246]原始之力",
+			"type": "level",
+			"level": 17
+		},
+		{
+			"id": 120,
+			"name": "[120]自爆",
+			"type": "level",
+			"level": 22
+		},
+		{
+			"id": 446,
+			"name": "[446]隐形岩",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 36,
+			"name": "[36]猛撞",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 475,
+			"name": "[475]身体轻量化",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 322,
+			"name": "[322]宇宙力量",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 408,
+			"name": "[408]力量宝石",
+			"type": "level",
+			"level": 38
+		},
+		{
+			"id": 38,
+			"name": "[38]舍身冲撞",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 504,
+			"name": "[504]破壳",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 153,
+			"name": "[153]大爆炸",
+			"type": "level",
+			"level": 50
+		}
+	],
+	"types": [
+		"ROCK",
+		"FLYING"
+	],
+	"stats": {
+		"hp": 60,
+		"attack": 60,
+		"defense": 100,
+		"speed": 60,
+		"sp_attack": 100,
+		"sp_defense": 60
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 1,
+		"ev_speed": 0,
+		"ev_sp_attack": 1,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

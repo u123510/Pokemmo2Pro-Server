@@ -1,0 +1,224 @@
+{
+  "regionId": 1,
+  "bankId": 75,
+  "mapId": 40,
+  "width": 5,
+  "height": 5,
+  "paletteIdx1": 100,
+  "paletteIdx2": 138,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 65535,
+  "unknownByte": 84,
+  "borderTiles": [
+    {
+      "material": 518,
+      "collision": 0
+    },
+    {
+      "material": 518,
+      "collision": 0
+    },
+    {
+      "material": 518,
+      "collision": 0
+    },
+    {
+      "material": 518,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [
+    {
+      "x": 3,
+      "y": 1,
+      "elevation": 3,
+      "varKey": "VAR_LITTLEROOT_INTRO_STATE",
+      "value": 0,
+      "script": "InsideOfTruck_EventScript_SetIntroFlags"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "elevation": 3,
+      "varKey": "VAR_LITTLEROOT_INTRO_STATE",
+      "value": 0,
+      "script": "InsideOfTruck_EventScript_SetIntroFlags"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "elevation": 3,
+      "varKey": "VAR_LITTLEROOT_INTRO_STATE",
+      "value": 0,
+      "script": "InsideOfTruck_EventScript_SetIntroFlags"
+    }
+  ],
+  "bgEvents": [
+    {
+      "x": 1,
+      "y": 0,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "InsideOfTruck_EventScript_MovingBox"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "InsideOfTruck_EventScript_MovingBox"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "InsideOfTruck_EventScript_MovingBox"
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "InsideOfTruck_EventScript_MovingBox"
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "InsideOfTruck_EventScript_MovingBox"
+    }
+  ],
+  "connections": [],
+  "warps": [],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 113,
+      "x": 0,
+      "y": 0,
+      "elevation": 7,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "InsideOfTruck_EventScript_MovingBox",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 113,
+      "x": 0,
+      "y": 3,
+      "elevation": 7,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "InsideOfTruck_EventScript_MovingBox",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 113,
+      "x": 2,
+      "y": 3,
+      "elevation": 7,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "InsideOfTruck_EventScript_MovingBox",
+      "hideFlag": "",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "AQYCBgMGBAYFBgkGCjILMgwyCAIRBhIyEzIUMhACGQYaBhsGHDIYAiEGIgYjBiQGIAY=",
+  "behaviorData": "AAAAAAAAAAAADgAAAAAOAAAAAA4AAAAAAA=="
+}

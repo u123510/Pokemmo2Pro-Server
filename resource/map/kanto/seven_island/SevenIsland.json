@@ -1,0 +1,229 @@
+{
+  "regionId": 0,
+  "bankId": 3,
+  "mapId": 17,
+  "width": 24,
+  "height": 20,
+  "paletteIdx1": 0,
+  "paletteIdx2": 63,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 337,
+  "unknownByte": 148,
+  "borderTiles": [
+    {
+      "material": 630,
+      "collision": 0
+    },
+    {
+      "material": 630,
+      "collision": 0
+    },
+    {
+      "material": 630,
+      "collision": 0
+    },
+    {
+      "material": 630,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "REGULAR_WEATHER",
+  "mapType": "VILLAGE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "SevenIsland_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 17,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SevenIsland_EventScript_IslandSign"
+    }
+  ],
+  "connections": [
+    {
+      "direction": "UP",
+      "unknown": -48,
+      "targetBank": 3,
+      "targetMap": 62
+    },
+    {
+      "direction": "DOWN",
+      "unknown": 0,
+      "targetBank": 3,
+      "targetMap": 63
+    }
+  ],
+  "warps": [
+    {
+      "x": 11,
+      "y": 9,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 31,
+      "targetMapId": 0,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 5,
+      "y": 9,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 31,
+      "targetMapId": 2,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 12,
+      "y": 3,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 31,
+      "targetMapId": 3,
+      "targetX": 7,
+      "targetY": 8,
+      "targetElevation": 2
+    },
+    {
+      "x": 16,
+      "y": 13,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 31,
+      "targetMapId": 6,
+      "targetX": 8,
+      "targetY": 2,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 41,
+      "x": 7,
+      "y": 18,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "SevenIsland_EventScript_SwordsDanceTutor",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 35,
+      "x": 9,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_DOWN_AND_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SevenIsland_EventScript_OldWoman",
+      "hideFlag": "",
+      "rawMovementType": 13
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 55,
+      "x": 15,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SevenIsland_EventScript_Scientist",
+      "hideFlag": "",
+      "rawMovementType": 2
+    }
+  ],
+  "blockData": "cQRxBHEEcQRxBHUEcgTFMMYwxzBIBEkESgRLBIcFcAR7BHwEfAR8BH0EcQRxBHEEfAR8BHwEswRxBHUEcgTFMMYwxzBQBFEEUgRTBI8FcARxBHEEcQRxBHEEcQSyBHwEfAR8BLMEcwRxBHUEcgTFMMYwxzBYBFkEWgRbBJcFeAR5BLMEcQSyBHwEfAR9BHEEfASzBHMEewR8BH0EcgTFMMYwxzBgBGEEYgSGBZ8FCDAJMHAEcQR1BLIEfAR8BHwEaQZzBHMEcQRxBHEEcgTFMMYwxDC+ML4wxjC+ML8wEDARMHAEcQR1BHUEaAZrBmsGdAZzBHsEswRxBHEEcgTFMMYwzDDOMM4wzjDOMM8wCTAJMHAEcQR1BHUEcgZzBm0GdAZ7BLMEGAcZBxoHGwfFMMYwxzCBMoMygzKEMoUyEDARMHAEcQR1BHUEcgZzBnYGeAZpBnMEMAQxBDIEMwTFMMYwxzCJBooGiwaMBo0GCDAJMHAEcQR1BHUEcgZzBnYGbwZ0BnMEOAQ5BDoEOwTFMMYwxzCRBpIGkwaUBpUGEDARMHgEswR1BHUEcgZzBnYGdgZ0BnMEQARBBGIEYwTFMMYwxzCZBgwHmwacBp0GCDAJMAIEcAR1BHUEcgZzBnYGdgZ0BnMEvTC+MMYwvjDDMMYwxDC+MMYwvjC+ML8wCTAIMAkwcAR1BHUEcgZzBnYGdgZ0BnMEzTDOMM4wzjDLMMYwzDDOMM4wzjDOMM8wETAQMBEweAR9BHUEcgZzBnYGdgZ0BnsEfAR8BHwEswTNMM4wzzCyBHwEfAR8BHwEkTCJMIkwfAR8BH0EcgZzBnYGdgZ4BmsGawZrBmkGcwQIMAkwCDB1BGgGawZrBmsG4zLkMuUyawZrBmsGeQZzBnYGdgZvBnMGcwZzBnQGewSRMIkwiTB9BHIGcwaCMugG6QbpBukG6gaGMnMGcwZtBnYGdgZ2Bm8GcwZzBngGawbFMcYxxzFrBnkGcwaQBvAG8QbxBvEG8gaWBnMGcwZ2BnYGdgZ2BnYGdgZvBnMGcwbFMcYxxzFzBnMGcwaIBvgG+Qb5BvkG+gaOBnMGbQZEBkUGdgZ2BkQGRQZ2Bm8GcwbFMcYxxzFzBnMGcwaQBusG7AbtBu4G7waWBnMGdgZMBk0GdgZ2BkwGTQZ2BnYGcwbFMcYxxzFzBnMGcwaYBvsG/Ab9Bv4G/waeBnMGdgZ2BnYGdgZ2BnYGdgZ2BnYGcwbFMcYxxzFzBnMGcwZzBnMGbQZ2BnYGdgZ2BnYGdgZ2BnYG",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

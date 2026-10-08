@@ -1,0 +1,404 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 43,
+  "width": 46,
+  "height": 45,
+  "paletteIdx1": 100,
+  "paletteIdx2": 119,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 429,
+  "unknownByte": 70,
+  "borderTiles": [
+    {
+      "material": 529,
+      "collision": 0
+    },
+    {
+      "material": 529,
+      "collision": 0
+    },
+    {
+      "material": 529,
+      "collision": 0
+    },
+    {
+      "material": 529,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_VICTORY_ROAD_1F",
+      "base_label": "gVictoryRoad_1F",
+      "land_mons": {
+        "encounter_rate": 10,
+        "mons": [
+          {
+            "min_level": 40,
+            "max_level": 40,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 40,
+            "max_level": 40,
+            "species": "SPECIES_HARIYAMA"
+          },
+          {
+            "min_level": 40,
+            "max_level": 40,
+            "species": "SPECIES_LAIRON"
+          },
+          {
+            "min_level": 40,
+            "max_level": 40,
+            "species": "SPECIES_LOUDRED"
+          },
+          {
+            "min_level": 36,
+            "max_level": 36,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 36,
+            "max_level": 36,
+            "species": "SPECIES_MAKUHITA"
+          },
+          {
+            "min_level": 38,
+            "max_level": 38,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 38,
+            "max_level": 38,
+            "species": "SPECIES_HARIYAMA"
+          },
+          {
+            "min_level": 36,
+            "max_level": 36,
+            "species": "SPECIES_ARON"
+          },
+          {
+            "min_level": 36,
+            "max_level": 36,
+            "species": "SPECIES_WHISMUR"
+          },
+          {
+            "min_level": 36,
+            "max_level": 36,
+            "species": "SPECIES_ARON"
+          },
+          {
+            "min_level": 36,
+            "max_level": 36,
+            "species": "SPECIES_WHISMUR"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "VictoryRoad_1F_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [
+    {
+      "x": 2,
+      "y": 23,
+      "elevation": 4,
+      "varKey": "VAR_VICTORY_ROAD_1F_STATE",
+      "value": 0,
+      "script": "VictoryRoad_1F_EventScript_WallyBattleTrigger1"
+    },
+    {
+      "x": 3,
+      "y": 23,
+      "elevation": 4,
+      "varKey": "VAR_VICTORY_ROAD_1F_STATE",
+      "value": 0,
+      "script": "VictoryRoad_1F_EventScript_WallyBattleTrigger2"
+    }
+  ],
+  "bgEvents": [
+    {
+      "x": 30,
+      "y": 39,
+      "elevation": 4,
+      "facingDir": "ANY",
+      "script": "0x0"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 15,
+      "y": 40,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 8,
+      "targetX": 18,
+      "targetY": 41,
+      "targetElevation": 0
+    },
+    {
+      "x": 39,
+      "y": 5,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 8,
+      "targetX": 18,
+      "targetY": 27,
+      "targetElevation": 0
+    },
+    {
+      "x": 21,
+      "y": 32,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 44,
+      "targetX": 20,
+      "targetY": 21,
+      "targetElevation": 2
+    },
+    {
+      "x": 42,
+      "y": 38,
+      "elevation": 3,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 44,
+      "targetX": 42,
+      "targetY": 25,
+      "targetElevation": 2
+    },
+    {
+      "x": 9,
+      "y": 14,
+      "elevation": 3,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 44,
+      "targetX": 8,
+      "targetY": 3,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 33,
+      "x": 33,
+      "y": 22,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "VictoryRoad_1F_EventScript_Edgar",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 34,
+      "x": 6,
+      "y": 15,
+      "elevation": 3,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "VictoryRoad_1F_EventScript_Hope",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 33,
+      "x": 27,
+      "y": 34,
+      "elevation": 2,
+      "movementType": "FACE_DOWN_AND_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "VictoryRoad_1F_EventScript_Albert",
+      "hideFlag": "",
+      "rawMovementType": 18
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 135,
+      "x": 12,
+      "y": 25,
+      "elevation": 3,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "VictoryRoad_1F_EventScript_EntranceWally",
+      "hideFlag": "hoenn/FLAG_HIDE_VICTORY_ROAD_ENTRANCE_WALLY",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 59,
+      "x": 40,
+      "y": 26,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "VictoryRoad_1F_EventScript_ItemMaxElixir",
+      "hideFlag": "hoenn/FLAG_ITEM_VICTORY_ROAD_1F_MAX_ELIXIR",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 59,
+      "x": 37,
+      "y": 39,
+      "elevation": 3,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "VictoryRoad_1F_EventScript_ItemPPUp",
+      "hideFlag": "hoenn/FLAG_ITEM_VICTORY_ROAD_1F_PP_UP",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 135,
+      "x": 31,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "VictoryRoad_1F_EventScript_ExitWally",
+      "hideFlag": "hoenn/FLAG_HIDE_VICTORY_ROAD_EXIT_WALLY",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 34,
+      "x": 29,
+      "y": 17,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "VictoryRoad_1F_EventScript_Katelynn",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 33,
+      "x": 32,
+      "y": 17,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "VictoryRoad_1F_EventScript_Quincy",
+      "hideFlag": "",
+      "rawMovementType": 9
+    }
+  ],
+  "blockData": "EQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYbBhkGGQYZBhkGGQYZBhkGGQYZBhkGGQYZBhkGGQYZBhkGGQYZBhwGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhIGEQYRBhsGGQYZBhkGGQYZBhkGGQYZBhkGGQYZBhkGGQYZBhwGEAYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEgYRBhEGEgYbBhkGGQYZBhkGGQYZBhkGGQYZBhkGGQYZBhwGEAYQBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYSBhEGEQYSBhIGATIBMgEyATIBMgEyATIBMgEyATICNh8GEAYQBhAGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhsGGQYZBhoGEQYRBhIGEgYBMgEyATIBMgEyATIBMgEyATIBMgEyJwYQBhAGEAYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEgYbBhkGGQYZBhkGGgYSBgEyATIBMgEyATIBMgEyATIBMgcyATIDNhAGEAYQBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYSBhIGGwYZBhkGGQYZBhoGATIBMgEyCAYJBgkGCQYJBlgGWQZaBgkGIwYQBhAGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhIGEgYSBggGCQYJBgkGCgYBMgEyATIQBiAGCQYJBgkGCQYJBgkGCQYJBiMGEAYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEgYSBhIGEAYRBhEGEQYSBgEyATIBMhAGEAYRBiAGCQYJBgkGCQYJBgkGCQYjRhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYSBhIGEgYQBhEGEQYRBhIGATIBMgEyEAYQBhEGEAYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhIGEgYSBhAGEQYRBhEGEgYBMgEyATIQBhAGEQYQBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEgYSBhIGEAYRBhEGEQYSBgEyATIBMhAGEAYRBhAGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGGwYZBhkGGQYZBhkGGQYZBhkGGQYZBhkGGQYZBhkGGQYZBhkGGQYaBhIGEgYQBhEGEQYbBhoGATIBMgEyEAYQBhEGGAYZBhkGGQYZBhkGGQYZBhwGEQYRBhsGGQYaBhFCEUIRQhFCEUIRQhFCGwYcBhFCEUIRQhFCEUIbBhkGGQYZBhkGGgYSBhAGEQYRBhIGATIBMgEyATIQBhgGGQYZBhkGGQYZBhkGGQYZBhwGEAYRBhEGEgYRQhFCEUIRQhFCEUIRQgVCEUISBhAGEUIRQhFCEUIRQhIGEQYRBhEGEQYRBhIGGAYZBhkGGgYBMgEyATIBMhgGGQYZBhkGGQYZBhkGGQYZBhwGEAYQBhEGEQYSBhFCEUIRQhFCEUIRQhFCEUIRQhIGEAYRQhFCEUIRQhFCEgYRBhEGEQYRBhEGIwYJBgkGIwYKBgEyATIBMgEyATIBMggGCQYJBgkGCQYJBgoGEAYQBhAGEQYRBhIGEUIRQhFCEUIbBhwGEUIRQhFCEgYQBhFCEUIRQhFCEUISBhEGEQYRBhEGIAYJQglCCUIiBhIGATIBMgEyATIBMggGIwYRBhEGEQYRBhEGEgYQBhAGEAYRBhEGEgYRQhFCEUIbBhoGGAYZBhkGGQYaBhgGGQYcBhFCEUIRQrtCu0K8QrxCvUK9QhFCEUIRQrtCu0K88rzyvPK88rzyvUK8QglCCUIJQglCIgYSBhAGEAYQBhEGEQYSBhFCEUIRQhIGEQYRBhEGEQYRBhEGEQYRBhAGEUIRQhFCw0LDQsRCxELFQsVCEUIRQhFCw0LDQsTyxPLE8sTyxPLFQsRCEUIRQhFCEUISBhIGEAYQBhAGEQYRBhIGEUIRQhFCEgYRBhsGGQYZBhkGGQYZBhwGGAYZBgQCGQYaBhsGGQYZBhwGGAYZBhkGGQYaBhIGATIBMgEyATIBMhAGEAYbBhkGGQYEAhoGEgYQBhAGEAYRBhEGEgYRQhFCGwYaBhsGGgYbBhkGGQYZBhwGGAYZBhkGBAIZBhkGGgYBMgEyGAYZBhkGGQYZBhkGGgYBMgEyATIBMgEyEAYQBhIGGwYZBgQCGQYaBhAGEAYQBhEGEQYSBhFCEUISBhsGGgYbBhoGATIBMgEyGAYZBhkGGQYEAhkGGQYZBhkGGQYZBhkGHAYBMgEyATIBMgEyATIBMgEyATIQBhgGGgYSBhsGBAIZBhwGEAYQBhgGHAYRBhIGEUIRQhIGEgYbBhoGATIBMgEyATIBMgEyATIBMgEyATIBMgEyATIBMgEyATIQBgEyATIBMgEyATIBMgEyATIBMhgGHAYRBhIGEgYBMgEyEAYQBhgGHAYQBhEGEgYRQhFCEgYSBhIGATIBMgEyATIBMgEyATIBMgEyATIBMgEyATIBMgEyATIBMhgGGQYZBhkGGQYZBhwGATIBMgEyATIYBhkGGgYSBgEyATIQBhgGHAYQBhAGEQYSBhFCEUISBhIGEgYBMgEyATIIBgkGCQYJBgkGCQYKBgEyATIBMgEyATIBMgEyATIBMgEyATIBMgEyEAYBMgEyATIBMgEyATIBMhIGATIBMhgGHAYQBhAGEAYRBhIGEUIRQrtCu0K8QrzyvPK88r1CvEIJQglCCUIiBhIGATIBMgEyATIBMgEyATIBMgEyATIBMgEyATIQBgEyATIBMgEyATIBMgEyEgYBMgEyATIQBhAGEAYQBhEGEgYRQhFCw0LDQsRCxPLE8sTyxULEQhFCEUIRQhIGEgYBMgEyCAYJBgkGCQYJBgkGCgYBMgEyATIBMhAGCAYJBgkGCQYKBgEyATISBgEyATIBMhAGEAYQBhAGEQYSBhsGGQYaBhIGEgYBMgEyATIQBhgGGQYEAhkGGgYSBgEyATIQBiAGCUIJQglCvEK7QrzyvPK88rzyvEK9QrxCCUIiBhIGATIBMhIGTDZRNk02EAYQBhAGEAYRBhIGEgYbBhkGGgYSBgEyATIBMhgGGQYZBgQCGQYZBhoGUAcDNhAGEAYRQhFCEULEQsNCxPLE8sXyxfLEQsVCxEIRQhIGEgYBMgEyEgYBMgEyATIQBhAGEAYQBhEGEgYSBhIGGwYZBhoGATIBMgEyATIBMgEyATIBMgEyATI4BggGIwYYBgQCGQYZBhoGEgYBMgEyATIBMhAGEAYYBgQCGgYSBgEyATISBgEyATIBMhAGEAYQBhAGEQYSBhIGEgYSBgEyATIBMgEyATIBMgEyATIBMgEyATIBMjgGEAYbBhkGBAIZBhwGEQYjBgoGATIBMgEyEAYYBhkGBAIZBhoGATIBMhIGATIBMgEyEAYQBhAGEAYRBhIGEgYSBhIGATIBMgEyATIBMgEyATIBMgEyATIBMgEyOAYQBhIGATIBMgEyEAYRBhEGEgYBMgEyATIQBgEyATIBMgEyATIBMgEyEgYBMgEyATIQBhAGEAYQBhEGEgYSBhIGEgYBMgEyCAYJBgkGCQYJBgkGCgYBMgEyATI4BhAGEgYBMgUyATIQBhEGEQYSBgEyATIBMhAGATIBMgEyATIBMgEyATISBgEyATIBMhAGEAYQBhAGEQYSBhIGEgYSBgEyATIQBiAGCUIJQglCIgYSBgEyATIBMjgGEAYjBgkGCQYJBiMGEQYRBhIGATIBMgEyGAYZBhkGGQYZBhkGGQYZBhoGATIBMgEyEAYQBhAGEAYRBhIGEgYSBhIGATIBMhAGEAYRQhFCEUK7QrtCvPK88rzyvEK9QrxCCUIJQglCIgYRBhsGGgYBMgEyATIBMgEyATIBMgEyATIBMgEyATIBMgEyCAYjBhAGEAYQBhEGEgYSBhIGEgYBMgEyEAYQBhFCEUIRQsNCw0LE8sTyxPLEQsVCxEIRQhFCEUISBhsGGgYBMgEyATIBMgEyATIBMgEyATIBMgEyATIBMgEyATIQBiAGI0IQBhAGEQYSBhIGEgYSBgEyATIQBhgGBAIZBhkGGgYSBgEyATIBMjgGEAYYBhkGBAIZBhoGEgYBMgEyATIBMgEyATIBMgEyATIBMggGCQYJBgkGIwYjBiMGEAYRQhAGEAYRBhIGEgYSBhIGATIBMhgGGQYEAhkGGQYZBhoGATIBMgEyOAYYBhkGGQYEAhkGGQYaBgEyATIBMgEyATIBMgEyATIBMggGIwYRBhEGIAYJQglCI0IjQhFCEAYQBhEGEgYSBhIGEgYBMgEyATIBMgEyHwYBMgEyATIBMgEyATJABlEGSQYBMgEyATIBMgEyATIBMgEyCAYJBgkGIwYjBgkGIwYRBiAGCUIjQhFCEUIRQgVCEUIQBhAGEQYSBhIGEgYSBgEyATIBMgEyATInBgM2ATIBMgEyATIBMgEyATI4BgEyATIBMgEyATIBMgEyATIQBiAGCUIJQglCCUIJQglCI0IRQhFCEUIRQhFCEUIRQhAGEAYRBhIGEgYSBiMGCQYJBgkGCgYBMgEyAjYBMgEyATIHMgEyATIBMjgGATIBMggGCQYJBgkGCQYJBiMGEAYgBgkGCQYJBgkGCQYJBgkGCQYJBgkGCQYJBgkGIwYQBhEGEgYSBiMGCQYJBgkGIgYjBgkGCQYJBgkGCQZYBlkGWgYJBgkGCQYjBgkGIwYgBgkGCQYJBgkGCQYjBhAGEQYRBiAGCQYJBgkGCQYJBgkGCQYJBgkGCQYJBiMGEQYSBiMGCQYiBhEGEQYjBgkGCQYJBgkGCQYJBgkGCQYJBgkGCQYJBgkGCQYJBiMGEQYRBhEGIAYJBgkGIwYgBgkGIwYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBiMGIgYRBiMGCQYJBgkGCQYJBgkGCQYJBgkGCQYJBgkGCQYJBgkGCQYJBgkGCQYJBgkGCQYjBhEGEQYRBhAGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYjBgkGCQYJBgkGCQYJBgkGCQYJBgkGCQYJBgkGCQYJBgkGCQYJBgkGCQYJBgkGCQYJBgkGCQYJBgkGIwYRBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYRBhEG",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgYGAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

@@ -1,0 +1,515 @@
+{
+  "regionId": 0,
+  "bankId": 3,
+  "mapId": 14,
+  "width": 24,
+  "height": 40,
+  "paletteIdx1": 0,
+  "paletteIdx2": 61,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 335,
+  "unknownByte": 145,
+  "borderTiles": [
+    {
+      "material": 28,
+      "collision": 0
+    },
+    {
+      "material": 29,
+      "collision": 0
+    },
+    {
+      "material": 20,
+      "collision": 0
+    },
+    {
+      "material": 21,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "REGULAR_WEATHER",
+  "mapType": "VILLAGE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "ThreeIsland_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [
+    {
+      "x": 7,
+      "y": 27,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_THREE_ISLAND",
+      "value": 2,
+      "script": "ThreeIsland_EventScript_BikerBossIntroTrigger"
+    },
+    {
+      "x": 8,
+      "y": 27,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_THREE_ISLAND",
+      "value": 2,
+      "script": "ThreeIsland_EventScript_BikerBossIntroTrigger"
+    },
+    {
+      "x": 9,
+      "y": 27,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_THREE_ISLAND",
+      "value": 2,
+      "script": "ThreeIsland_EventScript_BikerBossIntroTrigger"
+    },
+    {
+      "x": 10,
+      "y": 27,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_THREE_ISLAND",
+      "value": 2,
+      "script": "ThreeIsland_EventScript_BikerBossIntroTrigger"
+    },
+    {
+      "x": 7,
+      "y": 26,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_THREE_ISLAND",
+      "value": 3,
+      "script": "ThreeIsland_EventScript_BattleBikersTriggerLeft"
+    },
+    {
+      "x": 8,
+      "y": 26,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_THREE_ISLAND",
+      "value": 3,
+      "script": "ThreeIsland_EventScript_BattleBikersTriggerMidLeft"
+    },
+    {
+      "x": 9,
+      "y": 26,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_THREE_ISLAND",
+      "value": 3,
+      "script": "ThreeIsland_EventScript_BattleBikersTriggerMid"
+    },
+    {
+      "x": 11,
+      "y": 27,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_THREE_ISLAND",
+      "value": 2,
+      "script": "ThreeIsland_EventScript_BikerBossIntroTrigger"
+    },
+    {
+      "x": 10,
+      "y": 26,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_THREE_ISLAND",
+      "value": 3,
+      "script": "ThreeIsland_EventScript_BattleBikersTriggerMidRight"
+    },
+    {
+      "x": 11,
+      "y": 26,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_THREE_ISLAND",
+      "value": 3,
+      "script": "ThreeIsland_EventScript_BattleBikersTriggerRight"
+    }
+  ],
+  "bgEvents": [
+    {
+      "x": 12,
+      "y": 31,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "ThreeIsland_EventScript_IslandSign"
+    },
+    {
+      "x": 5,
+      "y": 13,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "0x0"
+    }
+  ],
+  "connections": [
+    {
+      "direction": "DOWN",
+      "unknown": 0,
+      "targetBank": 3,
+      "targetMap": 49
+    },
+    {
+      "direction": "LEFT",
+      "unknown": 0,
+      "targetBank": 3,
+      "targetMap": 48
+    }
+  ],
+  "warps": [
+    {
+      "x": 3,
+      "y": 31,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 34,
+      "targetMapId": 0,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 14,
+      "y": 27,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 34,
+      "targetMapId": 1,
+      "targetX": 7,
+      "targetY": 8,
+      "targetElevation": 2
+    },
+    {
+      "x": 18,
+      "y": 12,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 34,
+      "targetMapId": 3,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 34,
+      "targetMapId": 4,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 12,
+      "y": 6,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 34,
+      "targetMapId": 5,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 12,
+      "y": 12,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 34,
+      "targetMapId": 6,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 13,
+      "y": 19,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 34,
+      "targetMapId": 7,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 25,
+      "x": 7,
+      "y": 24,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "ThreeIsland_EventScript_AntiBiker1",
+      "hideFlag": "kanto/FLAG_HIDE_THREE_ISLAND_ANTIBIKERS",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 25,
+      "x": 8,
+      "y": 23,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "ThreeIsland_EventScript_AntiBiker2",
+      "hideFlag": "kanto/FLAG_HIDE_THREE_ISLAND_ANTIBIKERS",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 53,
+      "x": 8,
+      "y": 24,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "ThreeIsland_EventScript_Biker",
+      "hideFlag": "kanto/FLAG_HIDE_THREE_ISLAND_LONE_BIKER",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 53,
+      "x": 9,
+      "y": 23,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "ThreeIsland_EventScript_Biker",
+      "hideFlag": "kanto/FLAG_HIDE_THREE_ISLAND_BIKERS",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 53,
+      "x": 9,
+      "y": 24,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "ThreeIsland_EventScript_Biker",
+      "hideFlag": "kanto/FLAG_HIDE_THREE_ISLAND_BIKERS",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 53,
+      "x": 10,
+      "y": 22,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "ThreeIsland_EventScript_Biker",
+      "hideFlag": "kanto/FLAG_HIDE_THREE_ISLAND_BIKERS",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 53,
+      "x": 10,
+      "y": 24,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "ThreeIsland_EventScript_Biker",
+      "hideFlag": "kanto/FLAG_HIDE_THREE_ISLAND_BIKERS",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 53,
+      "x": 11,
+      "y": 23,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "ThreeIsland_EventScript_Biker",
+      "hideFlag": "kanto/FLAG_HIDE_THREE_ISLAND_BIKERS",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 95,
+      "x": 20,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_CutTree",
+      "hideFlag": "kanto/FLAG_TEMP_12",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 9,
+      "graphicsId": 92,
+      "x": 18,
+      "y": 17,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "ThreeIsland_EventScript_ItemZinc",
+      "hideFlag": "kanto/FLAG_HIDE_THREE_ISLAND_ZINC",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 10,
+      "graphicsId": 23,
+      "x": 15,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "WANDER_LEFT_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "ThreeIsland_EventScript_Woman",
+      "hideFlag": "",
+      "rawMovementType": 5
+    },
+    {
+      "entityIdx": 11,
+      "graphicsId": 16,
+      "x": 14,
+      "y": 14,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "ThreeIsland_EventScript_LittleBoy",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 12,
+      "graphicsId": 132,
+      "x": 15,
+      "y": 14,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "ThreeIsland_EventScript_Doduo",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 13,
+      "graphicsId": 53,
+      "x": 15,
+      "y": 31,
+      "elevation": 2,
+      "movementType": "WANDER_LEFT_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "ThreeIsland_EventScript_Biker6",
+      "hideFlag": "kanto/FLAG_HIDE_THREE_ISLAND_BIKERS",
+      "rawMovementType": 5
+    }
+  ],
+  "blockData": "HAQdBBwEHQQcBB0EHAQdBBwEHQQcBB0EHAQdBBwEHQQcBB0EHAQdBBwEHQQcBB0EFAQVBBQEFQQUBBUEFAQVBBQEFQQUBBUEFAQVBBQEFQQUBBUEFAQVBBQEFQQUBBUEHAQdBBwEHQQcBB0EHAQdBBwEHQQcBB0EHAQdBBwEHQQcBB0EHAQdBBwEHQQcBB0EFAQVBCQEEDMSMxEzEjMTMxQEFQQkBBAzEjMRMxIzEzMUBBUEFAQVBBQEFQQUBBUEHAQfBAUEhjKHMp4ynjKfMh4EHwQFBIYyhzKeMp4ynzIeBB0EHAQdBBwEHQQcBB0EJAQnBAUEjgaPBqYGpQanBiYEJwQFBI4GjwamBqUGpwYmBCUEJAQlBCQEJQQUBBUE5gTmBAUElgaXBq4GrQavBuYE5gQFBJYGlwauBq0GrwbmBOYE5gTmBOYECDAeBB0ECDAJMNMwmjPcMJsz1DDUMNQw1DDUMJoz3DCbM9Qw1TAQMBEwEDARMBAwETAWBBUEEDARMOMw5DDkMOQw5DAEMdwwBTHkMOQw5DDkMOQw5TAEMAkwBDAIMOoECDAeBB0ECDAJMAgwCTAIMAkwCDDbMNww3TAIMBQzFTMWMxYzFzMoMCkwKjArMPEECDAWBBUEEDARMBAwETAQMBEwEDDbMNww3TAIMIYGhwaeBp4GnwYwBDEEMgQzBPEECTAeBB0ECDAJMAgwCTAIMAkwCDDbMNww3TAQMI4GjwamBqUGpwY4BDkEOgQ7BPEECDAWBBUE5gTmBOYE5gTmBOYE6QTbMNww3TAIMJYGlwauBq0GrwZABEEEYgRjBPEECTAeBB0EDjAPMA4wDzAOMA8w8QTbMNwwAzHUMJoz3DCbM9Qw1DDUMJoz3DCXM/EECDAWBBUEHgQfBB4EHwQeBB8E8QTbMNwwBTHkMOQw5DDkMOQw5DDkMOQw5DDlMPEECTAeBB0EFAQVBBQEFQQUBBcE8QTbMNww3TAIMAkwCDAJMAgwCTARMAQwETAEMPEECDAWBBUEHAQdBBwEHQQcBB8E8QTbMNww3TAQMBEwFDMVMxYzFjMXM+gE5gTmBPkECTAeBB0EFAQVBBQEFQQUBBcE8QTbMNww3TAIMAkwhgaHBp4GngafBvAEDjAPMA4wDzAWBBUEHAQdBBwEHQQcBB8E8QTbMNww3TAQMBEwjgaPBqYGpQanBvAEHgQfBB4EHwQeBB0EFAQVBBQEFQQUBBcE8QTbMNww3TAIMAkwlgaXBq4GrQavBvAEFgQVBBQEFQQUBBUEHAQdBBwEHQQcBB8E8QTbMNwwAzHUMNQwmjPcMJsz1TAIMPAEHgQdBBwEHQQcBB0EFAQVBBQEFQQUBBcE8QTbMNwwBTHkMOQw5DDkMOQw5TAQMPAEFgQVBBQEFQQUBBUEHAQdBBwEHQQcBB8E8QTbMNww3TAIMAkwCDAJMAgwCTAIMPAEHgQdBBwEHQQcBB8EFAQVBBQEFQQUBBcE8QTbMNww3TAQMBEwezF8MX0xfjF/MfAEJgQlBCQEJQQkBCUEHAQdBBwEHQQcBB8E8QTbMNww3TAIMAkwSARJBEoESwSHBfAEaARpBGkEaQRpBGkEFAQVBBQEFQQUBBcE8QTbMNww3TAQMBEwUARRBFIEUwSPBfAEcARxBGsEbARsBGwEHAQdBBwEHQQcBB8E8QTbMNww3TAIMAkwWARZBFoEWwSXBfAEcARxBHMEcQRxBHEEFAQVBCQEJQQkBCcE8QTbMNww3TAQMBEwYARhBGIEhgWfBfAEcARxBHMEcQRxBHEEHAQfBBwHHQceBx4HHwfbMNwwAzHUMNQw1DCaM9wwmzPVMPAEcARxBHMEcQRxBHEEFAQXBIAHgQeBB4IHgwfbMNwwBTHkMOQw5DDkMAQx3DDdMPAEcARxBHMEcQRxBHEEHAQfBIgHiQeKB4oHiwfbMNww3TAIMAkwCDAJMNsw3DDdMPAEcARxBHMEcQRxBHEEFAQXBJYGlwauBq0GrwbbMNww3TAQMBEwAgQRMNsw3DDdMPAEcARxBHMEcQRxBHEEHAQfBJwz3DCbM9Qw1DACMdwwAzHUMNQw1DDUMAIx3DDdMPAEcARxBHMEcQRxBHEEFAQXBOMw5DDkMOQw5DDkMOQw5DAEMdwwBTHkMOQw5DDlMPAEcARxBHMEcQRxBHEEHAQfBOYE5gTmBOYE5gTmBOYE6QTbMNww3TDoBOYE5gTmBPMEcARxBHMEcQRxBHEEFAQXBGgEaQRpBGkEaQRpBGoE8QTbMNww3TDwBGgEaQRpBGkEuwRxBHMEcQRxBHEEHAQfBHAEawRsBGwEbARtBHIE8QTbMNww3TDwBHAEcQRrBGwEbARsBLsEcQRxBHEEFAQXBHAEcwRxBHEEcQR1BHIE8QTbMNww3TDwBHAEcQRzBHEEcQRxBHEEcQRxBHEEHAQfBHAEcwRxBHEEcQR1BHIE8QTbMNww3TDwBHAEcQRzBHEEcQRxBHEEcQRxBHEEJAQnBHAEcwRxBHEEcQR1BHIE8QTjMOQw5TDwBHAEcQRzBHEEcQRxBHEEcQRxBHEE",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

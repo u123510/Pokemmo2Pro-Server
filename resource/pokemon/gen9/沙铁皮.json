@@ -1,0 +1,157 @@
+{
+	"id": 989,
+	"name": "[989]沙铁皮",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 23,
+	"weight": 600,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 48,
+			"name": "[48]超音波",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 84,
+			"name": "[84]电击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 86,
+			"name": "[86]电磁波",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 604,
+			"name": "[604]电气场地",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 209,
+			"name": "[209]电光",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 523,
+			"name": "[523]重踏",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 451,
+			"name": "[451]充电光束",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 161,
+			"name": "[161]三重攻击",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 103,
+			"name": "[103]刺耳声",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 484,
+			"name": "[484]重磅冲撞",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 319,
+			"name": "[319]金属音",
+			"type": "level",
+			"level": 49
+		},
+		{
+			"id": 435,
+			"name": "[435]放电",
+			"type": "level",
+			"level": 56
+		},
+		{
+			"id": 414,
+			"name": "[414]大地之力",
+			"type": "level",
+			"level": 63
+		},
+		{
+			"id": 243,
+			"name": "[243]镜面反射",
+			"type": "level",
+			"level": 70
+		},
+		{
+			"id": 356,
+			"name": "[356]重力",
+			"type": "level",
+			"level": 77
+		},
+		{
+			"id": 192,
+			"name": "[192]电磁炮",
+			"type": "level",
+			"level": 84
+		},
+		{
+			"id": 602,
+			"name": "[602]磁场操控",
+			"type": "level",
+			"level": 91
+		}
+	],
+	"types": [
+		"ELECTRIC",
+		"GROUND"
+	],
+	"stats": {
+		"hp": 85,
+		"attack": 81,
+		"defense": 97,
+		"speed": 121,
+		"sp_attack": 85,
+		"sp_defense": 101
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 3,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

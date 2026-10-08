@@ -1,0 +1,121 @@
+{
+	"id": 955,
+	"name": "[955]飘飘雏",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 2,
+	"weight": 15,
+	"egg_groups": [
+		"飞行组"
+	],
+	"abilities": [
+		{
+			"id": 107,
+			"name": "[107]特性107"
+		},
+		{
+			"id": 119,
+			"name": "[119]特性119"
+		},
+		{
+			"id": 3,
+			"name": "[003]特性3"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 956,
+			"name": "[956]超能艳鸵",
+			"type": "LEVEL",
+			"val": 35
+		}
+	],
+	"moves": [
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 64,
+			"name": "[64]啄",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 93,
+			"name": "[93]念力",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 608,
+			"name": "[608]圆瞳",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 574,
+			"name": "[574]魅惑之声",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 98,
+			"name": "[98]电光一闪",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 60,
+			"name": "[60]幻象光线",
+			"type": "level",
+			"level": 19
+		},
+		{
+			"id": 365,
+			"name": "[365]啄食",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 97,
+			"name": "[97]高速移动",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 253,
+			"name": "[253]吵闹",
+			"type": "level",
+			"level": 34
+		}
+	],
+	"types": [
+		"PSYCHIC"
+	],
+	"stats": {
+		"hp": 30,
+		"attack": 35,
+		"defense": 30,
+		"speed": 55,
+		"sp_attack": 30,
+		"sp_defense": 75
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 1
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

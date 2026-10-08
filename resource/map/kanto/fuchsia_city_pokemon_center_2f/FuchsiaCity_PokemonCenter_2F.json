@@ -1,0 +1,212 @@
+{
+  "regionId": 0,
+  "bankId": 11,
+  "mapId": 6,
+  "width": 15,
+  "height": 10,
+  "paletteIdx1": 12,
+  "paletteIdx2": 14,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 303,
+  "unknownByte": 95,
+  "borderTiles": [
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "CableClub_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 1,
+      "y": 6,
+      "elevation": 3,
+      "targetRegionId": 0,
+      "targetBankId": 11,
+      "targetMapId": 5,
+      "targetX": 1,
+      "targetY": 6,
+      "targetElevation": 3
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 0,
+      "targetMapId": 4,
+      "targetX": 7,
+      "targetY": 11,
+      "targetElevation": 2
+    },
+    {
+      "x": 9,
+      "y": 1,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 0,
+      "targetMapId": 1,
+      "targetX": 5,
+      "targetY": 8,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 65,
+      "x": 6,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "Common_EventScript_UnionRoomAttendant",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 65,
+      "x": 2,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "Common_EventScript_WirelessClubAttendant",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 65,
+      "x": 10,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "Common_EventScript_DirectCornerAttendant",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 69,
+      "x": 1,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "CableClub_EventScript_MysteryGiftMan",
+      "hideFlag": "kanto/FLAG_HIDE_MG_DELIVERYMEN",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "oAaEBoQG1waEBtYGhAaEBoQG1gaEBoQGhAbXBqYGqAaMBowG3waMBt4GjAaMBv4G3gaMBowG/gbfBq4G2jIoMyczJgd2M7cyAjNjM2UHxjICM2MzZQfnBiAz6QbpBvgGYgR+B/kGAwfpBmYH+QYDB+kGZwfvBiEzgjK3Mrcy9jJoM2kzajO3MmszbDNtM7cybzO3Mr8y2zLcMoECgTJwM3EzcjOBMnMzdDN1M4EygTKBMqcy4wbkQoFCgQJ4M3kzejOBMnszfDN9M4EygTKBMq8y6zLsMoECADOBMv0y9TL9MoEy9TL9MvUygTIAM6MyoTKBMoEyAQeBMoEygTKBMoEygTKBMoEygTIBB6IyCAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgE",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

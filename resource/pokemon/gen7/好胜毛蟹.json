@@ -1,0 +1,157 @@
+{
+	"id": 740,
+	"name": "[740]好胜毛蟹",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 17,
+	"weight": 1800,
+	"egg_groups": [
+		"水3组"
+	],
+	"abilities": [
+		{
+			"id": 52,
+			"name": "[052]特性52"
+		},
+		{
+			"id": 89,
+			"name": "[089]特性89"
+		},
+		{
+			"id": 83,
+			"name": "[083]特性83"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 8,
+			"name": "[8]冰冻拳",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 43,
+			"name": "[43]瞪眼",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 145,
+			"name": "[145]泡沫",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 228,
+			"name": "[228]追打",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 249,
+			"name": "[249]碎岩",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 249,
+			"name": "[249]碎岩",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 43,
+			"name": "[43]瞪眼",
+			"type": "level",
+			"level": 9
+		},
+		{
+			"id": 228,
+			"name": "[228]追打",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 61,
+			"name": "[61]泡沫光线",
+			"type": "level",
+			"level": 17
+		},
+		{
+			"id": 612,
+			"name": "[612]增强拳",
+			"type": "level",
+			"level": 22
+		},
+		{
+			"id": 146,
+			"name": "[146]迷昏拳",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 419,
+			"name": "[419]雪崩",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 179,
+			"name": "[179]起死回生",
+			"type": "level",
+			"level": 33
+		},
+		{
+			"id": 665,
+			"name": "[665]冰锤",
+			"type": "level",
+			"level": 37
+		},
+		{
+			"id": 334,
+			"name": "[334]铁壁",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 223,
+			"name": "[223]爆裂拳",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 370,
+			"name": "[370]近身战",
+			"type": "level",
+			"level": 49
+		}
+	],
+	"types": [
+		"FIGHTING",
+		"ICE"
+	],
+	"stats": {
+		"hp": 97,
+		"attack": 132,
+		"defense": 77,
+		"speed": 62,
+		"sp_attack": 67,
+		"sp_defense": 43
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 2,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

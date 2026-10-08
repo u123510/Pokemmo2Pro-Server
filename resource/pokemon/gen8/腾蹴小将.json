@@ -1,0 +1,128 @@
+{
+	"id": 1084,
+	"name": "[1084]腾蹴小将",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 32,
+	"height": 6,
+	"weight": 90,
+	"egg_groups": [
+		"人形组",
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 66,
+			"name": "[066]特性66"
+		},
+		{
+			"id": 66,
+			"name": "[066]特性66"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 1085,
+			"name": "[1085]闪焰王牌",
+			"type": "LEVEL",
+			"val": 35
+		}
+	],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 52,
+			"name": "[52]火花",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 98,
+			"name": "[98]电光一闪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 24,
+			"name": "[24]二连踢",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 488,
+			"name": "[488]蓄能焰袭",
+			"type": "level",
+			"level": 19
+		},
+		{
+			"id": 97,
+			"name": "[97]高速移动",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 29,
+			"name": "[29]头锤",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 68,
+			"name": "[68]双倍奉还",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 340,
+			"name": "[340]弹跳",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 38,
+			"name": "[38]舍身冲撞",
+			"type": "level",
+			"level": 48
+		}
+	],
+	"types": [
+		"FIRE"
+	],
+	"stats": {
+		"hp": 65,
+		"attack": 86,
+		"defense": 60,
+		"speed": 55,
+		"sp_attack": 60,
+		"sp_defense": 94
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 2
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

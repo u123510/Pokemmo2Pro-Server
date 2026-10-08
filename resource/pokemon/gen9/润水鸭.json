@@ -1,0 +1,134 @@
+{
+	"id": 912,
+	"name": "[912]润水鸭",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 32,
+	"height": 5,
+	"weight": 61,
+	"egg_groups": [
+		"水1组",
+		"飞行组"
+	],
+	"abilities": [
+		{
+			"id": 67,
+			"name": "[067]特性67"
+		},
+		{
+			"id": 67,
+			"name": "[067]特性67"
+		},
+		{
+			"id": 153,
+			"name": "[153]特性153"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 913,
+			"name": "[913]涌跃鸭",
+			"type": "LEVEL",
+			"val": 16
+		}
+	],
+	"moves": [
+		{
+			"id": 1,
+			"name": "[1]拍击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 55,
+			"name": "[55]水枪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 526,
+			"name": "[526]自我激励",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 17,
+			"name": "[17]翅膀攻击",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 453,
+			"name": "[453]水流喷射",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 458,
+			"name": "[458]二连击",
+			"type": "level",
+			"level": 17
+		},
+		{
+			"id": 895,
+			"name": "[895]水波刀",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 403,
+			"name": "[403]空气斩",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 116,
+			"name": "[116]聚气",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 512,
+			"name": "[512]杂技",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 710,
+			"name": "[710]水流裂破",
+			"type": "level",
+			"level": 35
+		}
+	],
+	"types": [
+		"WATER"
+	],
+	"stats": {
+		"hp": 55,
+		"attack": 65,
+		"defense": 45,
+		"speed": 50,
+		"sp_attack": 45,
+		"sp_defense": 50
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 1,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

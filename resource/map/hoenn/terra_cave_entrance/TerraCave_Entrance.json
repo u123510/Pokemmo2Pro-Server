@@ -1,0 +1,129 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 104,
+  "width": 20,
+  "height": 20,
+  "paletteIdx1": 100,
+  "paletteIdx2": 119,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 366,
+  "unknownByte": 205,
+  "borderTiles": [
+    {
+      "material": 753,
+      "collision": 0
+    },
+    {
+      "material": 753,
+      "collision": 0
+    },
+    {
+      "material": 753,
+      "collision": 0
+    },
+    {
+      "material": 753,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "TerraCave_Entrance_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 14,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 105,
+      "targetX": 5,
+      "targetY": 4,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [],
+  "blockData": "8QbxBvEG8QYLB/EG8QbxBvEG8QbxBusG+QYOB/4G/wb5BuwG8QbxBvEG8QbxBvEGCwfxBvEG8QbrBvkG+QYTB+sGFgcGMwcH7AYKB/EG8QbxBvEG8QbxBgsH8QbxBvEGCwfrBvkG+QYTB/Uy9TL1MgoHCgfxBvEG8QbxBvEG8QYLB/EG6wb5BhMHCwf1MvUy9TL1MvUy9TIKBwoH8QbxBvEG8QbxBusGEwfxBgsH6wb5BhMH9TL1MgIH8wYDB/UyCgcKB/EG8QbxBvEG8QYLB+sG+QYTBwsH9TL1MvUy9TIKB/EGCwf1MgoHCgfxBvEG8QbxBusGEwcLB+sG+QYTB/Uy9TL1MvUyCgfxBgsH9TIKBwoH8QbxBvEG8QYLB+sGEwcLB/Uy9TL1MvUy9TL1MgoH8QYLB/UyCgcKB/EG8QbrBvkGEwcLB+sGEwf1MvUyAgfzBvMG8wbzBvEGCwf1MgoHCgfxBvEGCwfrBvkGEwcLB/Uy9TICB/MG8QbrBvkG+Qb5BhMH9TIKBwoH8QbxBgsHCwfrBvkGEwf1MvUyCgfxBvEGCwf1MvUy9TL1MvUyCgcKB/EG8QYLBwsHCwf1MvUy9TL1MgoH8QbrBhMH9TL1MvUy9TL1MgoHCgfxBvEGCwcLBwsH9TL1MvUy9TIKB+sGEwf1MvUy9TL1MvUy9TIKBxIH+QbsBgsHCwcLB/Uy9TL1MvUyEgcTB/Uy9TL1MvUyAgcDB/UyEgf5BuwGCgcLBwsHCwf1MvUy9TL1MvUy9TL1MvUy9TL1MgoHCwf1MvUy9TLwBgoHCwcLBwsH9TL1MvUy9TL1MvUy9TL1MvUy9TISBxMH9TL1MvUy8AYKBwsH9AaQBwMH9TL1MvUy9TL1MvUy9TL1MvUy9TL1MvUy9TICB/QG8wYLB/EG8QaQBwMH9TL1MvUy9TL1MvUy9TICB/QG9Ab0BvQG9AbxBvEGCwfxBvEG8Qb0BpAHAwf1MvYC9TL1MgIH9AbxBvEG8QbxBvEG8QbxBgsH8QbxBvEG8QbxBvQG5QbmBucG9Ab0BvEG8QbxBvEG8QbxBvEG8QY=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+}

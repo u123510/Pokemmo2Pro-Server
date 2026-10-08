@@ -1,0 +1,208 @@
+{
+  "regionId": 0,
+  "bankId": 14,
+  "mapId": 0,
+  "width": 13,
+  "height": 10,
+  "paletteIdx1": 12,
+  "paletteIdx2": 20,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 314,
+  "unknownByte": 98,
+  "borderTiles": [
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 3,
+      "y": 8,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 10,
+      "targetX": 22,
+      "targetY": 14,
+      "targetElevation": 0
+    },
+    {
+      "x": 4,
+      "y": 8,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 10,
+      "targetX": 22,
+      "targetY": 14,
+      "targetElevation": 0
+    },
+    {
+      "x": 5,
+      "y": 8,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 10,
+      "targetX": 22,
+      "targetY": 14,
+      "targetElevation": 0
+    },
+    {
+      "x": 10,
+      "y": 2,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 14,
+      "targetMapId": 1,
+      "targetX": 10,
+      "targetY": 2,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 30,
+      "x": 8,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "SaffronCity_CopycatsHouse_1F_EventScript_CopycatsDad",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 31,
+      "x": 3,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SaffronCity_CopycatsHouse_1F_EventScript_CopycatsMom",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 117,
+      "x": 4,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "WANDER_UP_AND_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 2,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SaffronCity_CopycatsHouse_1F_EventScript_Chansey",
+      "hideFlag": "",
+      "rawMovementType": 3
+    }
+  ],
+  "blockData": "CASvBNgE2QSsBK0EuASqBMIEuASoBKgEqAQIBLcE4AThBLQEtQTABDUEygTABLAE6wTsBAgEvzDoMOkwvDC9MLEwujDSMLEw8jDzBPQECASxMKkwqTDDMMQwxDDEMMQwxTD6MPsw/DAIBPYwqTCpMMswxjDIBMkExzDNMKkwqTD1MAgE/gSpMKkwyzDGMNAE0QTHMM0wqTCpMP0ECAT2MKkwqTDTMNQw1DDUMNQw1TCpMKkw9TAIBP4EqTCpMKkwqTCpMKkwqTCpMKkwqTD9BAgEsTCpMN8w5zDvMKkwqTCpMKkwqTCpMKkwCAQIBAgEGgQbBBwECAQIBAgECAQIBAgECAQ=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+}

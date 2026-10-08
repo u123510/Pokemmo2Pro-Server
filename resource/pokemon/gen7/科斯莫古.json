@@ -1,0 +1,73 @@
+{
+	"id": 789,
+	"name": "[789]科斯莫古",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 2,
+	"weight": 1,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 109,
+			"name": "[109]特性109"
+		},
+		{
+			"id": 109,
+			"name": "[109]特性109"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 790,
+			"name": "[790]科斯莫姆",
+			"type": "LEVEL",
+			"val": 43
+		}
+	],
+	"moves": [
+		{
+			"id": 150,
+			"name": "[150]跃起",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 100,
+			"name": "[100]瞬间移动",
+			"type": "level",
+			"level": 23
+		}
+	],
+	"types": [
+		"PSYCHIC"
+	],
+	"stats": {
+		"hp": 43,
+		"attack": 29,
+		"defense": 31,
+		"speed": 29,
+		"sp_attack": 31,
+		"sp_defense": 37
+	},
+	"yields": {
+		"ev_hp": 1,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

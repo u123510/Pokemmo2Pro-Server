@@ -1,0 +1,272 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 58,
+  "width": 27,
+  "height": 8,
+  "paletteIdx1": 100,
+  "paletteIdx2": 156,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 381,
+  "unknownByte": 61,
+  "borderTiles": [
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "CLOUDY",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_ABANDONED_SHIP_ROOMS_B1F",
+      "base_label": "gAbandonedShip_Rooms_B1F",
+      "water_mons": {
+        "encounter_rate": 4,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 35,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 5,
+            "max_level": 35,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 5,
+            "max_level": 35,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 5,
+            "max_level": 35,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 30,
+            "max_level": 35,
+            "species": "SPECIES_TENTACRUEL"
+          }
+        ]
+      },
+      "fishing_mons": {
+        "encounter_rate": 20,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 10,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 10,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 10,
+            "max_level": 30,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 10,
+            "max_level": 30,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 10,
+            "max_level": 30,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 25,
+            "max_level": 30,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 30,
+            "max_level": 35,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 30,
+            "max_level": 35,
+            "species": "SPECIES_TENTACRUEL"
+          },
+          {
+            "min_level": 25,
+            "max_level": 30,
+            "species": "SPECIES_TENTACRUEL"
+          },
+          {
+            "min_level": 20,
+            "max_level": 25,
+            "species": "SPECIES_TENTACRUEL"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 4,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 57,
+      "targetX": 5,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 13,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 57,
+      "targetX": 8,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 22,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 57,
+      "targetX": 11,
+      "targetY": 7,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 17,
+      "x": 25,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "AbandonedShip_Rooms_B1F_EventScript_FatMan",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 59,
+      "x": 6,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "AbandonedShip_Rooms_B1F_EventScript_ItemEscapeRope",
+      "hideFlag": "hoenn/FLAG_ITEM_ABANDONED_SHIP_ROOMS_B1F_ESCAPE_ROPE",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "NgZABmsGlQavApYGbQZFBgEGAQZABmsGlQZjBpYGJwYnBgEGAQZABmsGlQavApYGbQZFBjcGPgZIBnMGnQa3Mp4GdQZNBgEGAQZIBnMGnQaXNp4GLwYvBgEGAQZIBnMGnQa3Mp4GdQZNBj8GPgZQBlEGOjI7MjsyVAZVBgEGAQZQBlEGOjI7MjsyOzI7MgEGAQZQBlEGOjI7MjsyVAZVBj8GPgZYBlkGPTI4MjgyXAZdBgEGAQZYBlkGPTI4MjgyYTI4MgEGAQZYBlkGPTJhMjgyXAZdBj8GPgY6MjsyPDJhMjgyOzI7MgEGAQY6MjsyPDI4MjgyODKqNgEGAQY6MjsyPDI4MjgyOzI7Mj8GPgY9MlYGVwY4MjgyODKqNgEGAQY9MoARiRGJEYkRgRE4MgEGAQY9MjgyODJhMjgyODI4Mj8GPgY9Ml4GXwY4MmAyODI4MgEGAQY9MpARcBFWEXARkhE4MgEGAQY9MmAyODI4MjgyYgY4Mj8GPgarNjgyODI4MjgyODI4MgEGAQY9MpARVhFHEVYRkhE4MgEGAQY9MjgyODI4MjgyODKqNj8G",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAcAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

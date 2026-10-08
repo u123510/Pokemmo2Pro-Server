@@ -1,0 +1,139 @@
+{
+	"id": 823,
+	"name": "[823]钢铠鸦",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 22,
+	"weight": 750,
+	"egg_groups": [
+		"飞行组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 127,
+			"name": "[127]特性127"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 43,
+			"name": "[43]瞪眼",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 64,
+			"name": "[64]啄",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 211,
+			"name": "[211]钢翼",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 319,
+			"name": "[319]金属音",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 334,
+			"name": "[334]铁壁",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 468,
+			"name": "[468]磨爪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 681,
+			"name": "[681]嚣张",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 31,
+			"name": "[31]乱击",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 365,
+			"name": "[365]啄食",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 269,
+			"name": "[269]挑衅",
+			"type": "level",
+			"level": 22
+		},
+		{
+			"id": 184,
+			"name": "[184]鬼面",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 65,
+			"name": "[65]啄钻",
+			"type": "level",
+			"level": 34
+		},
+		{
+			"id": 207,
+			"name": "[207]虚张声势",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 413,
+			"name": "[413]勇鸟猛攻",
+			"type": "level",
+			"level": 50
+		}
+	],
+	"types": [
+		"FLYING",
+		"STEEL"
+	],
+	"stats": {
+		"hp": 98,
+		"attack": 87,
+		"defense": 105,
+		"speed": 53,
+		"sp_attack": 85,
+		"sp_defense": 67
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 3,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

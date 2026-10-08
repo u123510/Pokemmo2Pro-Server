@@ -1,0 +1,146 @@
+{
+	"id": 969,
+	"name": "[969]晶光芽",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 7,
+	"weight": 80,
+	"egg_groups": [
+		"矿物组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 970,
+			"name": "[970]晶光花",
+			"type": "LEVEL",
+			"val": 35
+		}
+	],
+	"moves": [
+		{
+			"id": 88,
+			"name": "[88]落石",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 106,
+			"name": "[106]变硬",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 479,
+			"name": "[479]击落",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 491,
+			"name": "[491]酸液炸弹",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 246,
+			"name": "[246]原始之力",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 397,
+			"name": "[397]岩石打磨",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 446,
+			"name": "[446]隐形岩",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 474,
+			"name": "[474]毒液冲击",
+			"type": "level",
+			"level": 22
+		},
+		{
+			"id": 201,
+			"name": "[201]沙暴",
+			"type": "level",
+			"level": 26
+		},
+		{
+			"id": 120,
+			"name": "[120]自爆",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 157,
+			"name": "[157]岩崩",
+			"type": "level",
+			"level": 33
+		},
+		{
+			"id": 408,
+			"name": "[408]力量宝石",
+			"type": "level",
+			"level": 37
+		},
+		{
+			"id": 151,
+			"name": "[151]溶化",
+			"type": "level",
+			"level": 41
+		},
+		{
+			"id": 482,
+			"name": "[482]污泥波",
+			"type": "level",
+			"level": 46
+		}
+	],
+	"types": [
+		"ROCK",
+		"POISON"
+	],
+	"stats": {
+		"hp": 48,
+		"attack": 35,
+		"defense": 42,
+		"speed": 105,
+		"sp_attack": 60,
+		"sp_defense": 60
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 1,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

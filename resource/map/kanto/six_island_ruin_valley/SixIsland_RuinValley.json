@@ -1,0 +1,555 @@
+{
+  "regionId": 0,
+  "bankId": 3,
+  "mapId": 61,
+  "width": 48,
+  "height": 40,
+  "paletteIdx1": 0,
+  "paletteIdx2": 63,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 333,
+  "unknownByte": 166,
+  "borderTiles": [
+    {
+      "material": 113,
+      "collision": 0
+    },
+    {
+      "material": 113,
+      "collision": 0
+    },
+    {
+      "material": 113,
+      "collision": 0
+    },
+    {
+      "material": 113,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "REGULAR_WEATHER",
+  "mapType": "ROUTE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_SIX_ISLAND_RUIN_VALLEY",
+      "base_label": "sSixIslandRuinValley_FireRed",
+      "land_mons": {
+        "encounter_rate": 21,
+        "mons": [
+          {
+            "min_level": 15,
+            "max_level": 15,
+            "species": "SPECIES_NATU"
+          },
+          {
+            "min_level": 44,
+            "max_level": 44,
+            "species": "SPECIES_SPEAROW"
+          },
+          {
+            "min_level": 18,
+            "max_level": 18,
+            "species": "SPECIES_YANMA"
+          },
+          {
+            "min_level": 15,
+            "max_level": 15,
+            "species": "SPECIES_WOOPER"
+          },
+          {
+            "min_level": 49,
+            "max_level": 49,
+            "species": "SPECIES_FEAROW"
+          },
+          {
+            "min_level": 43,
+            "max_level": 43,
+            "species": "SPECIES_MEOWTH"
+          },
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_WOBBUFFET"
+          },
+          {
+            "min_level": 41,
+            "max_level": 41,
+            "species": "SPECIES_PSYDUCK"
+          },
+          {
+            "min_level": 20,
+            "max_level": 20,
+            "species": "SPECIES_NATU"
+          },
+          {
+            "min_level": 49,
+            "max_level": 49,
+            "species": "SPECIES_PERSIAN"
+          },
+          {
+            "min_level": 20,
+            "max_level": 20,
+            "species": "SPECIES_NATU"
+          },
+          {
+            "min_level": 52,
+            "max_level": 52,
+            "species": "SPECIES_PERSIAN"
+          }
+        ]
+      },
+      "water_mons": {
+        "encounter_rate": 2,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 20,
+            "species": "SPECIES_WOOPER"
+          },
+          {
+            "min_level": 10,
+            "max_level": 20,
+            "species": "SPECIES_WOOPER"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_WOOPER"
+          },
+          {
+            "min_level": 20,
+            "max_level": 25,
+            "species": "SPECIES_WOOPER"
+          },
+          {
+            "min_level": 20,
+            "max_level": 25,
+            "species": "SPECIES_WOOPER"
+          }
+        ]
+      },
+      "fishing_mons": {
+        "encounter_rate": 20,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 5,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 5,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_POLIWAG"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_GOLDEEN"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_POLIWAG"
+          },
+          {
+            "min_level": 20,
+            "max_level": 30,
+            "species": "SPECIES_POLIWHIRL"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_GYARADOS"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_PSYDUCK"
+          },
+          {
+            "min_level": 25,
+            "max_level": 35,
+            "species": "SPECIES_PSYDUCK"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 24,
+      "y": 24,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "SixIsland_RuinValley_EventScript_DottedHoleDoor"
+    }
+  ],
+  "connections": [
+    {
+      "direction": "RIGHT",
+      "unknown": -80,
+      "targetBank": 3,
+      "targetMap": 60
+    }
+  ],
+  "warps": [
+    {
+      "x": 24,
+      "y": 24,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 115,
+      "targetX": 6,
+      "targetY": 9,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 55,
+      "x": 24,
+      "y": 25,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "SixIsland_RuinValley_EventScript_Scientist",
+      "hideFlag": "kanto/FLAG_HIDE_RUIN_VALLEY_SCIENTIST",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 56,
+      "x": 32,
+      "y": 11,
+      "elevation": 4,
+      "movementType": "FACE_DOWN_AND_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "SixIsland_RuinValley_EventScript_Stanly",
+      "hideFlag": "",
+      "rawMovementType": 17
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 56,
+      "x": 33,
+      "y": 16,
+      "elevation": 4,
+      "movementType": "FACE_LEFT_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "SixIsland_RuinValley_EventScript_Foster",
+      "hideFlag": "",
+      "rawMovementType": 14
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 56,
+      "x": 31,
+      "y": 24,
+      "elevation": 4,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "SixIsland_RuinValley_EventScript_Larry",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 56,
+      "x": 14,
+      "y": 10,
+      "elevation": 4,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "SixIsland_RuinValley_EventScript_Daryl",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 52,
+      "x": 21,
+      "y": 29,
+      "elevation": 4,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 2,
+      "movementRangeY": 3,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "SixIsland_RuinValley_EventScript_Hector",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 97,
+      "x": 17,
+      "y": 10,
+      "elevation": 4,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 97,
+      "x": 17,
+      "y": 12,
+      "elevation": 4,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 97,
+      "x": 18,
+      "y": 11,
+      "elevation": 4,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 9,
+      "graphicsId": 97,
+      "x": 6,
+      "y": 33,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 10,
+      "graphicsId": 97,
+      "x": 6,
+      "y": 34,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 11,
+      "graphicsId": 97,
+      "x": 41,
+      "y": 32,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 12,
+      "graphicsId": 97,
+      "x": 41,
+      "y": 33,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 13,
+      "graphicsId": 97,
+      "x": 42,
+      "y": 33,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 14,
+      "graphicsId": 92,
+      "x": 5,
+      "y": 33,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SixIsland_RuinValley_EventScript_ItemHPUp",
+      "hideFlag": "kanto/FLAG_HIDE_SIX_ISLAND_RUIN_VALLEY_HP_UP",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 15,
+      "graphicsId": 92,
+      "x": 19,
+      "y": 11,
+      "elevation": 4,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SixIsland_RuinValley_EventScript_ItemFullRestore",
+      "hideFlag": "kanto/FLAG_HIDE_SIX_ISLAND_RUIN_VALLEY_FULL_RESTORE",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 16,
+      "graphicsId": 92,
+      "x": 43,
+      "y": 32,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SixIsland_RuinValley_EventScript_ItemSunStone",
+      "hideFlag": "kanto/FLAG_HIDE_SIX_ISLAND_RUIN_VALLEY_SUN_STONE",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "cQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBLIEfAR8BHwEfAR8BHwEfAR8BHwEswRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQSyBHwEfAR8BHwEfAR8BHwEfAR8BH0EcQRxBHEEcQRxBHEEcQRxBHEEewR8BHwEfAR8BHwEfAR8BHwEfASzBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQSyBHwEfAR9BHEEcQRxBHEEcQSyBHwEfAR8BHwEfAR8BHwEfAR8BHwEfAR8BHwEfAR8BHwEfASzBHEEcQRxBHEEcQR7BHwEfAR8BLMEcQRxBHEEcQRxBLIEfAR8BHwEfAR9BHEEcQRxBLIEfAR8BHwEfAR9BHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQR7BHwEfAR8BHwEswRxBHEEcQRxBHMEcQRxBHEEcQRxBHUEcQRxBHEEcQRxBLIEfAR8BH0EcQRxBHEEcQRxBLIEeQR5BHkEeQR5BHkEeQR5BHkEeQR5BHkEeQR5BHkEswRxBHEEcQRxBHEEewR8BHwEfASzBHsEswRxBHEEcQRxBHUEcQSyBHwEfAR8BH0EcQRxBHEEcQSyBHkEeQR5BHoEDTANMA0wDTANMBAwCDAJMAgwEDANMA0wDTANMA0weAR5BHkEeQR5BLMEcQRxBHEEcQRzBHEEcwRxBHEEcQRxBHUEcQR1BLIEeQR5BHkEeQR5BHkEeQR6BA0wDTANMA0wDTANMA0wDTAQMBEwDTANMA0wEDARMBAwETANMA0wDTANMA0wDTANMHgEeQR5BHkEswRzBHEEewR8BHwEcQSyBH0EcQR1BHIEDTANMA0wDTANMAgwEDARMBAwETAQMA0wDTANMA0wEDARMA0wDTANMA0wDTANMAgwCTAIMA0wDTANMA0wDTANMA0wDTANMA0wcAR7BHwEfAR8BHwEcQR1BHEEcQR1BHIEDTANMA0wDTAIMAgwDTANMA0wDTAQMBEwDTANMBAwETANMA0wDTANMA0wDTANMA0wDTAIMAkwDTANMA0wDTANMA0wDTANMA0weAR5BHkEeQR5BHkEcQR1BHEEsgR9BHIEDTANMBAwETAIMA0wDTANMA0wDTANMBEwEDARMGgEaQRpBGkEaQRpBGkEagQNMA0wDTANMBEwCDANMA0wDTANMA0wDTANMA0wDTANMA0wCTAIMAkwcQR1BHEEdQRxBHIEDTAQMBEwaAQNBwdSB1IHUgdSB1IHUgdSB1IHUogEcQRxBHEEcQRxBHEEigQHUgdSB1IHUgdSB1IHUmoEDTANMA0wDTANMA0wDTANMA0wETAQMBEwcQR1BHEEdQSyBHoEDTAIMGgEcwRRU1FTRVNJU0lTSVNJU7cESVNJU4gEcQRxBHEEcQRxBHEEigRRU1FTRVNJU0lTtwRJU3UEagQNMA0wDTANMA0wDTANMAgwCTAIMAkwcQR1BHEEdQRyBAgwEDARMHAEcwQJUBBQUFNFU7cESVNJU0lTSVNJU5AEfAR8BHwEfAR8BHwEegQIUBBQSFNJU0lTSVNJU3UEcgQJMA0wDTANMA0wDTAQMBAwETAQMBEwcQR1BHEEdQRyBAkwCDANMHAEcwQIUAlQsgR5BHkEeQR5BHkEeQR5BHkEeQR5BHkEeQR5BHkEeQSRUIlQswRJU0lTSVNJU3UEcgQIMAkwCDANMA0waARpBGkEaQRpBGkEcQR1BHEEdQRyBBEwDTANMHAEeASRUIlQegRoBGkEaQRqBAlQCFAJUBBQEFANUA1QDVANUA1QDVAQUBFQcARJU0lTSVO3BHUEcgQJMBEwCTAIMBEwcARxBGsEbARsBGwEcQR1BHEEdQRyBAgwDTANMHAEDVANUBBQEVBwBHEEcQRyBBFQDVANUA1QEFARUA1QDVANUA1QEFARUA1QcARJU0lTSVNJU3UEcgQJMAkwDTANMGgEuwRxBHMEcQRrBGwEcQR1BHEEdQRyBAkwDTANMHAEDVANUA1QDVBwBHEEcQRyBA1QDVANUA1QDVAQUBBQEVAQUBFQEFANUA1QcAS3BElTSVNJU3UEcgQQMBEwDTANMHAEcQRxBHMEcQRzBHEEcQR1BHEEdQRyBBEwDTANMHAEDVANUA1QDVBwBHEEcQRyBA1QDVCyBHwEfAR8BHwEfAR8BHwEfAR8BLMEcwRJU0lTSVNJU3UEcgQIMAkwDTANMHAEcQRxBHMEcQRzBHEEcQR1BHEEdQRyBAgwCTANMHAEEFARUA1QDVB4BHkEeQR6BA1QDVB1BKMRphGmEaYRphGmEaYRphGkEXMEcwRJU0lTSVO3BHUEcgSfBAgwDTANMHAEcQRxBHMEcQRzBHEEcQR1BHEEdQRyBA0wETARMHgEkQCJAHkEeQSzBA1QCFAJUA1QDVB1BK0RrhGuEa4RrhGuEa4RrhGvEXMEcwRJU0lTSVNJU3UEugRqBAgwDTANMHAEcQRxBHMEcQRzBHEEcQS6BG0EdQRyBA0wDTAJMBAwETANMA0wDTBwBA1QDVAIUAlQDVB1BK0RrhHbBtwG3AbcBt0GrhGvEXMEcwRJU0lTtwRJUwdSbQRyBAkwETANMHAEcQRxBHMEcQRzBHEEcQRxBHUEdQRyBA0wDTANMAgwCTAIMA0wDTBwBA1QDVAQUBFQDVB1BK0RqxFzBDAHOAcvB3UErBGvEXMEcwRJU0lTSVNJU0lTdQRyBAgwCTARMHAEcQRxBHMEcQRzBHEEcQRxBHUEdQS6BGoEDTANMA0wETAQMA0wDTBwBA1QDVBoBGkEagR1BK0RrxFzBHMEcQR1BHUErRGvEXMEcwS3BElTSVNJU7cEdQRyBA0wCDAJMHAEcQRxBHMEcQRzBHEEcQRxBHUEdQRxBHIEDTANMA0wDTAJMAkwDTBwBA1QDVBwBHEEdQR1BK0RrxFzBHsEfAR9BHUErRGvEXMEcwRJU0ZTUVNRU0VTdQRyBA0wnwRoBLsEcQRxBHMEcQRzBHEEcQRxBHUEugRtBHIEDTANMA0wDTARMBEwDTBwBA1QDVBwBHEEdQR1BK0RrxF4BC4HVwdnB3oErRGvEXMEcwRGU1JTEFAIUEhTdQRyBA0wDTBwBHEEcQRrBLsEcQRzBHEEcQRxBHUEcQR1BHIEDTCfBGgEaQRqBAkwDTBwBA1QCFBwBHEEdQRyBDMxMzHFMDYzxjBvM8cwMzEzMXAEcwRKUwlQCFAQUEhTdQRyBA0wDTBwBHEEcQRzBHEEcQRzBHEEcQRxBHUEcQR1BHIEDTANMHAEcQRyBAgwETBwBAhQCVB4BHkEegRyBBAwETDNMMswxjDMMM8wEDARMHAEeAR5BHkEkVCJUHkEegRyBA0wDTBwBHEEcQRzBHEEawS7BHEEcQRxBHUEcQR1BHIEDTANMHAEcQRyBA0wCTBwBBBQEVANUA1QDVAzUTNRNFFqBMUwxjDHMGgEMlEzUTNRCVAJUA1QDVANUA1QDVByBA0wDTBwBHEEcQRzBHEEcwRxBHEEsgR8BH0EcQR1BHIEnwQNMHAEcQRyBA0wCTB4BLMEDVANUA1QDVANUA1QEFByBMUwxjDHMHAECFAJUAhQCVANUA1QDVANUA1QDVByBA0wDTBwBHEEcQRzBHEEewSzBHEEdQRxBHEEcQR1BHIEEDARMHAEcQRyBA0wDTANMHAEDVANUA1QDVANUA1QCFByBMUwxjDHMHAEEFARUAlQDVANUA1QDVANUA1QDVByBA0wCTB4BLMEcQR7BLMEcQRzBHEEdQRxBLIEfAR9BHIEQTNBM4gEcQRyBA0wDTANMHAEDVAIUBBQDVANUAhQEFByBMUwxjDHMHgEkQCJAHkEeQR5BHkEeQR5BHkEeQR6BJ8EETAIMHgEeQSzBHsEswRzBHEEdQRxBHUEcQRxBHIESTNJM4gEcQS6BGoEDTANMHgEeQSRAIkAeQR5BHkEeQR6BMUwxjDEML4wxjDHMAkwCDANMA0whAQNMA0wDTANMAgwCTAQMJ8EEDB4BLMEcwRzBHEEdQRxBHUEcQSyBJIESTNJM4gEcQRxBHIEDTANMA0wCDAJMAgwaARpBGkEaQRqBM0wzjDOMM4wzjDPMBEwDTANMA0whgQNMA0wEDARMBAwETAIMBEwEDARMHAEcwRzBHEEdQRxBHUEcQR1BEkzSTNJM4gEcQRxBHIECDANMA0wDTANMA0wcARxBHEEcQRyBBAwETAQMBEwEDARMAgwDTANMA0whgQNMA0wCDCfBAgwCTAIMAkwCDAJMHAEcwRzBHEEdQRxBHUEcQR1BEkzSTNJM4gEcQRxBHIECDAJMA0wDTANMA0wcARxBHEEcQS6BGkEaQRpBGoECDAJMA0wDTANMA0whgQNMAkwaARpBGkEaQRqBBAwCDBoBLsEcwRzBHEEdQRxBHUEcQS6BIEEgQSBBLsEcQRxBLoEaQRpBGkEaQRpBGkEuwRxBHEEcQRxBHEEcQRxBHIEEDARMA0wDTANMA0whgQNMAkwcARxBHEEcQS6BGkEaQS7BHEEcwRzBHEEdQRxBLoEbARsBGwEbARsBGwEbARsBGwEbARsBGwEbARtBHEEcQRxBHEEcQRxBHEEcQRxBHIEDTANMA0wDTANMA0whgQQMBEwcARxBGsEbARsBGwEbARsBGwEuwRzBHEEugRsBGwEbARsBGwEbARsBGwEbARsBG0EcQRxBHEEcQS6BGwEbARsBGwEbARsBGwEbQRxBLoEaQRpBGkEaQRpBGkEugRpBGkEuwRxBHMEcQRrBGwEbARsBGwEbAS7BHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBLoEbARsBGwEbARsBGwEbARtBHEEcQRxBHEEugRsBGwEbARsBGwEbARsBGwEbARsBGwEbARsBLsEcQRzBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQS6BGwEbARsBGwEbARsBGwEbARsBGwEbARsBGwEbARsBGwEbARsBGwEbAS7BHEEcQRxBHEEcQRxBHEE",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEAAAAAAAEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQEBAQAAAQEBAAAAAAEBAQEBAQEAAAAAAAAAAAAAAAAAAAAAAQEBAQEAAAAAAAABAQEBAAABAQEBAQEAAAABAQEBAQEBAQEBAAAAAAAAAAAAAAAAAQEBAQAAAQEBAQAAAQEAAAEBAQEBAQEBAQAAAQEBAQEBAQEBAAAAAAAAAAAAAAAAAQEAAAABAQEBAQEAAAAAAAAAAAAAAAEBAQEAAAEBAQEBAQEBAQEBAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAQEBAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAQEAAAAAAAAAAQEBAAABAQEBAAABAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAQEAAQEBAQAAAAABAQEBAQAAAAAAAAEBAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAQEAAQEBAQAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAEAAAABAQAAAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAABAAAAAAAAAAABAAABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAABAQAAAAEBAQABAQAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAABAQEAAAABAQABAQAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAAABAQABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQEBAQAAAQABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQEBAQAAAQABAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAQAAAAAAAQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQAAAAAAAAAAAAAAAAAAAQEAAAABAAAAAAEBAQAAAAAAAAAAAAAAAAABAQEBAQABAQAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAQEBAQEBAAAAAAAAAAAAAAEBAQEBAQABAQAAAAAAAAAAAAAAAAAAAAAAAAABAQEAAQEBAQEBAAAAAAAAAAAAAQEBAQEBAQABAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEAAQAAAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAAAAAEBAwEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAAAAAAAAAAAAAAAAAAAAAQEBAwEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAAAAAAAAAAAAAAAAAQEBAwEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAAAAAAAAAAAAAAABAQEBAwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAwEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEBAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

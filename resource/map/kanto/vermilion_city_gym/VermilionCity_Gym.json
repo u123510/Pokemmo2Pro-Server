@@ -1,0 +1,347 @@
+{
+  "regionId": 0,
+  "bankId": 9,
+  "mapId": 6,
+  "width": 11,
+  "height": 21,
+  "paletteIdx1": 12,
+  "paletteIdx2": 28,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 275,
+  "unknownByte": 93,
+  "borderTiles": [
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "VermilionCity_Gym_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 3,
+      "y": 17,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "VermilionCity_Gym_EventScript_GymStatue"
+    },
+    {
+      "x": 7,
+      "y": 17,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "VermilionCity_Gym_EventScript_GymStatue"
+    },
+    {
+      "x": 1,
+      "y": 10,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "VermilionCity_Gym_EventScript_TrashCan1"
+    },
+    {
+      "x": 3,
+      "y": 10,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "VermilionCity_Gym_EventScript_TrashCan2"
+    },
+    {
+      "x": 5,
+      "y": 10,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "VermilionCity_Gym_EventScript_TrashCan3"
+    },
+    {
+      "x": 7,
+      "y": 10,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "VermilionCity_Gym_EventScript_TrashCan4"
+    },
+    {
+      "x": 9,
+      "y": 10,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "VermilionCity_Gym_EventScript_TrashCan5"
+    },
+    {
+      "x": 1,
+      "y": 12,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "VermilionCity_Gym_EventScript_TrashCan6"
+    },
+    {
+      "x": 3,
+      "y": 12,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "VermilionCity_Gym_EventScript_TrashCan7"
+    },
+    {
+      "x": 5,
+      "y": 12,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "VermilionCity_Gym_EventScript_TrashCan8"
+    },
+    {
+      "x": 7,
+      "y": 12,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "VermilionCity_Gym_EventScript_TrashCan9"
+    },
+    {
+      "x": 9,
+      "y": 12,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "VermilionCity_Gym_EventScript_TrashCan10"
+    },
+    {
+      "x": 1,
+      "y": 14,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "VermilionCity_Gym_EventScript_TrashCan11"
+    },
+    {
+      "x": 3,
+      "y": 14,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "VermilionCity_Gym_EventScript_TrashCan12"
+    },
+    {
+      "x": 5,
+      "y": 14,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "VermilionCity_Gym_EventScript_TrashCan13"
+    },
+    {
+      "x": 7,
+      "y": 14,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "VermilionCity_Gym_EventScript_TrashCan14"
+    },
+    {
+      "x": 9,
+      "y": 14,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "VermilionCity_Gym_EventScript_TrashCan15"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 4,
+      "y": 19,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 5,
+      "targetX": 14,
+      "targetY": 25,
+      "targetElevation": 0
+    },
+    {
+      "x": 5,
+      "y": 19,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 5,
+      "targetX": 14,
+      "targetY": 25,
+      "targetElevation": 0
+    },
+    {
+      "x": 6,
+      "y": 19,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 5,
+      "targetX": 14,
+      "targetY": 25,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 82,
+      "x": 5,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "VermilionCity_Gym_EventScript_LtSurge",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 30,
+      "x": 2,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "VermilionCity_Gym_EventScript_Baily",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 62,
+      "x": 8,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "VermilionCity_Gym_EventScript_Dwayne",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 91,
+      "x": 4,
+      "y": 17,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "VermilionCity_Gym_EventScript_GymGuy",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 61,
+      "x": 7,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "VermilionCity_Gym_EventScript_Tucker",
+      "hideFlag": "",
+      "rawMovementType": 9
+    }
+  ],
+  "blockData": "iAbABsEGkgaSBsoGkgaSBsAGwQaPBpAGyAbJBqAGpQamBqcGoAbIBskGlwaQBoIygzKoBq0yrjKvMqgGkTKDMpcGkAaCMoEysDK1MrYytzKwMowygTKXBpAGgjKBMoEygTKBMoEygTKBMoEylwaYBokyijKLMoEygTKBMo4yijKKMp8GwAbBBsIGqQaqBoUGqwasBsIGwAbBBsgGyQaGBrEGsgaNBrMGtAaGBsgGyQaCMoMyhzKRMoEygTKBMpkyhzKRMoMygjKBMoEygTKBMoEygTKBMoEygTKBMoIyuAaBMrgGgTK4BoEyuAaBMrgGgTKCMoEygTKBMoEygTKBMoEygTKBMoEygjK4BoEyuAaBMrgGgTK4BoEyuAaBMoIygTKBMoEygTKBMoEygTKBMoEygTKCMrgGgTK4BoEyuAaBMrgGgTK4BoEygjKBMoEygTKBMoEygTKBMoEygTKBMoIygTKBMrkygTKBMoEyuTKBMoEygTKCMoEygTK6BoEygTKBMroGgTKBMoEygjKBMoEygTKBMoEygTKBMoEygTKBMoIygTKBMoEyojKjMqQygTKBMoEygTIIBAgECAQIBHQFdQV2BQgECAQIBAgE",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAAAAAAAA"
+}

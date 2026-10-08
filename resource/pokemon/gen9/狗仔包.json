@@ -1,0 +1,152 @@
+{
+	"id": 926,
+	"name": "[926]狗仔包",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 3,
+	"weight": 109,
+	"egg_groups": [
+		"矿物组",
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 20,
+			"name": "[020]特性20"
+		},
+		{
+			"id": 20,
+			"name": "[020]特性20"
+		},
+		{
+			"id": 103,
+			"name": "[103]特性103"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 927,
+			"name": "[927]麻花犬",
+			"type": "LEVEL",
+			"val": 26
+		}
+	],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 122,
+			"name": "[122]舌舔",
+			"type": "level",
+			"level": 3
+		},
+		{
+			"id": 39,
+			"name": "[39]摇尾巴",
+			"type": "level",
+			"level": 6
+		},
+		{
+			"id": 343,
+			"name": "[343]渴望",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 608,
+			"name": "[608]圆瞳",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 583,
+			"name": "[583]嬉闹",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 526,
+			"name": "[526]自我激励",
+			"type": "level",
+			"level": 22
+		},
+		{
+			"id": 226,
+			"name": "[226]接棒",
+			"type": "level",
+			"level": 26
+		},
+		{
+			"id": 46,
+			"name": "[46]吼叫",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 38,
+			"name": "[38]舍身冲撞",
+			"type": "level",
+			"level": 33
+		},
+		{
+			"id": 204,
+			"name": "[204]撒娇",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 242,
+			"name": "[242]咬碎",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 387,
+			"name": "[387]珍藏",
+			"type": "level",
+			"level": 45
+		}
+	],
+	"types": [
+		"FAIRY"
+	],
+	"stats": {
+		"hp": 37,
+		"attack": 55,
+		"defense": 70,
+		"speed": 30,
+		"sp_attack": 55,
+		"sp_defense": 65
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 1
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

@@ -1,0 +1,19 @@
+{
+  "shopId": "kanto.viridian_city.mart",
+  //npc id
+  "npcs": [
+    { "map": "ViridianCity_Mart", "entityIdx": 0 }
+  ],
+  "buyEnabled": true,
+  "sellEnabled": true,
+  "items": [
+    // 精灵球  买入价 / 回收价
+    { "itemId": 5004, "buyPrice": 200, "sellPrice": 100 },
+    // 伤药
+    { "itemId": 5017, "buyPrice": 200, "sellPrice": 100 },
+    // 解毒药
+    { "itemId": 5018, "buyPrice": 200, "sellPrice": 100 },
+    // 解麻药
+    { "itemId": 5022, "buyPrice": 300, "sellPrice": 150 }
+  ]
+}

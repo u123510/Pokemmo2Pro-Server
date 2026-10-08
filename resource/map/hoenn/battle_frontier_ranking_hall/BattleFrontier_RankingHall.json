@@ -1,0 +1,271 @@
+{
+  "regionId": 1,
+  "bankId": 76,
+  "mapId": 40,
+  "width": 53,
+  "height": 15,
+  "paletteIdx1": 116,
+  "paletteIdx2": 171,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 373,
+  "unknownByte": 58,
+  "borderTiles": [
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 26,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "BattleFrontier_RankingHall_EventScript_TowerSinglesRecords"
+    },
+    {
+      "x": 23,
+      "y": 8,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "BattleFrontier_RankingHall_EventScript_TowerDoublesRecords"
+    },
+    {
+      "x": 26,
+      "y": 5,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "BattleFrontier_RankingHall_EventScript_TowerMultisRecords"
+    },
+    {
+      "x": 29,
+      "y": 8,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "BattleFrontier_RankingHall_EventScript_TowerLinkRecords"
+    },
+    {
+      "x": 42,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "BattleFrontier_RankingHall_EventScript_ArenaRecords"
+    },
+    {
+      "x": 46,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "BattleFrontier_RankingHall_EventScript_PalaceRecords"
+    },
+    {
+      "x": 10,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "BattleFrontier_RankingHall_EventScript_FactoryRecords"
+    },
+    {
+      "x": 8,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "BattleFrontier_RankingHall_EventScript_DomeRecords"
+    },
+    {
+      "x": 6,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "BattleFrontier_RankingHall_EventScript_PikeRecords"
+    },
+    {
+      "x": 44,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "BattleFrontier_RankingHall_EventScript_PyramidRecords"
+    },
+    {
+      "x": 16,
+      "y": 8,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "BattleFrontier_RankingHall_EventScript_DomePikeFactoryRecordsSign"
+    },
+    {
+      "x": 36,
+      "y": 8,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "BattleFrontier_RankingHall_EventScript_PalaceArenaPyramidRecordsSIgn"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 26,
+      "y": 14,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 76,
+      "targetMapId": 14,
+      "targetX": 35,
+      "targetY": 12,
+      "targetElevation": 2
+    },
+    {
+      "x": 27,
+      "y": 14,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 76,
+      "targetMapId": 14,
+      "targetX": 35,
+      "targetY": 12,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 85,
+      "x": 24,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "BattleFrontier_RankingHall_EventScript_Attendant",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 5,
+      "x": 4,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "BattleFrontier_RankingHall_EventScript_NinjaBoy",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 13,
+      "x": 44,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "BattleFrontier_RankingHall_EventScript_Boy",
+      "hideFlag": "",
+      "rawMovementType": 2
+    }
+  ],
+  "blockData": "AQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBBQGKAYoBigGKAYoBhUGAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBBYGFwYcBjAGMAYwBjAGMAYdBhYGFwYBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEFAYoBigGKAYoBigGFQYBBAEEAQQBBAEEAQQBBAEEAQQeBh8GJAY4BjgGOAY4BjgGJQYeBh8GAQQBBAEEAQQBBAEEAQQBBAEEFAYoBigGKAYoBigGFQYBBAEEAQQBBAEEAQQBBAEEAQQBBBwGMAYwBjAGMAYwBh0GAQQBBAEEAQQBBAEEAQQBBAEEJgYnBgUyBDIFMgQyBTIEMgUyJgYnBgEEAQQBBAEEAQQBBAEEAQQBBBwGMAYwBjAGMAYwBh0GAQQBBAEEAQQBBAEEAQQBBBYGFwYkBjgGOAY4BjgGOAYlBhYGFwYBBAEEAQQBBAEEEgYTBkEyDDIKMgsyCjIHMgoyCzIKMgwyRjISBhMGAQQBBAEEAQQBBBYGFwYkBjgGOAY4BjgGOAYlBhYGFwYBBAEEAQQBBAEEAQQeBh8GBTIEMgUyBDIFMgQyBTIeBh8GAQQBBAEEAQQBBBoGGwZJMgMyAjIDMgIyDwYCMgMyAjIDMk4yGgYbBgEEAQQBBAEEAQQeBh8GBDIFMgQyBTIEMgUyBDIeBh8GAQQBBAEEAQQBBAEEJgYnBg0yCzIKMgcyCjILMgoyJgYnBhQGKAYoBigGFQYiBiMGDTILMgoyCzIKMgwyCjILMgoyCzIKMiIGIwYUBigGKAYoBhUGJgYnBgwyCjILMgcyCzIKMgsyJgYnBgEEAQQBBAEEAQQBBCsyBDIFMgMyAjIPBgIyAzICMgQyBTIcBjAGUAYwBh0GBTIEMgUyAzIHMgMyAjIDMgIyAzIHMgMyAjIEMgUyHAYwBlEGMAYdBgUyBDIFMgMyAjIPBgIyAzICMgQyBTIBBAEEAQQBBAEEAQQzMgsyCjIHMgoyDDIKMgcyCjILMgoyJAY4BlgGOAYlBg0yCzIKMgsyDwYLMksyTDJNMgsyDwYLMgoyCzIKMiQGOAZZBjgGJQYNMgsyCjIHMgoyDDIKMgcyCjILMgoyAQQBBAEEAQQBBAEEKzIDMgIyDwYCMgMyAjIPBgIyAzICMgQyBTIEMgUyBDIFMgMyAjIDMgUyAzJTBlQGVQYDMgUyAzICMgMyAjIEMgUyBDIFMgQyBTIDMgIyDwYCMgMyAjIPBgIyAzICMgEEAQQBBAEEAQQBBDMyCzIKMgwyCjILMgoyDDIKMgsyCjILMgoyCzIKMgsyCjILMgoyCzIKMgsyWzJcMl0yCzIKMgsyCjILMgoyCzIKMgsyCjILMgoyCzIKMgwyCjILMgoyDDIKMgsyCjIBBAEEAQQBBAEEAQQFMgMyAjIDMgIyAzICMgMyAjIDMgIyAQQBBAEEAQQBBAIyAzICMgMyAjIDMgIyAzICMgMyAjIDMgIyAzICMgEEAQQBBAEEAQQCMgMyAjIDMgIyAzICMgMyAjIDMgIyAQQBBAEEAQQBBAEEAQQBBCwyLTIKMgsyCjIuMi8yAQQBBAEEAQQBBAEEAQQBBAEECjILMgoyCzIKMgsyCjILMgoyCzIKMgEEAQQBBAEEAQQBBAEEAQQBBAoyOzIKMjsyCjI7MgoyAQQBBAEEAQQBBAEEAQQBBAEEAQQ0MjUyAjIDMgIyNjI3MgEEAQQBBAEEAQQBBAEEAQQBBAIyAzICMgMyAjIDMgIyAzICMgMyAjIBBAEEAQQBBAEEAQQBBAEEAQQCMkMyAjJDMgIyQzICMgEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEECjILMgoyBjAHMAsyCjIBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEEAQQBBAEE",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

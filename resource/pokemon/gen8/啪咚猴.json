@@ -1,0 +1,134 @@
+{
+	"id": 1081,
+	"name": "[1081]啪咚猴",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 32,
+	"height": 7,
+	"weight": 140,
+	"egg_groups": [
+		"植物组",
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 65,
+			"name": "[065]特性65"
+		},
+		{
+			"id": 65,
+			"name": "[065]特性65"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 1082,
+			"name": "[1082]轰擂金刚猩",
+			"type": "LEVEL",
+			"val": 35
+		}
+	],
+	"moves": [
+		{
+			"id": 10,
+			"name": "[10]抓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 269,
+			"name": "[269]挑衅",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 458,
+			"name": "[458]二连击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 785,
+			"name": "[785]木枝突刺",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 75,
+			"name": "[75]飞叶快刀",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 103,
+			"name": "[103]刺耳声",
+			"type": "level",
+			"level": 19
+		},
+		{
+			"id": 282,
+			"name": "[282]拍落",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 21,
+			"name": "[21]摔打",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 253,
+			"name": "[253]吵闹",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 452,
+			"name": "[452]木槌",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 283,
+			"name": "[283]蛮干",
+			"type": "level",
+			"level": 48
+		}
+	],
+	"types": [
+		"GRASS"
+	],
+	"stats": {
+		"hp": 70,
+		"attack": 85,
+		"defense": 70,
+		"speed": 55,
+		"sp_attack": 60,
+		"sp_defense": 80
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 2,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

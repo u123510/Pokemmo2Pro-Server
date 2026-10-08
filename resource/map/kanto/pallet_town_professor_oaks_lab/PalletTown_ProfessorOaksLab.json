@@ -1,0 +1,391 @@
+{
+  "regionId": 0,
+  "bankId": 4,
+  "mapId": 3,
+  "width": 13,
+  "height": 14,
+  "paletteIdx1": 12,
+  "paletteIdx2": 21,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 301,
+  "unknownByte": 88,
+  "borderTiles": [
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "PalletTown_ProfessorOaksLab_OnTransition",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB",
+      "value": 1,
+      "script": "PalletTown_ProfessorOaksLab_ChooseStarterScene"
+    },
+    {
+      "varKey": "VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB",
+      "value": 7,
+      "script": "PalletTown_ProfessorOaksLab_EventScript_EnterForNationalDexScene"
+    }
+  ],
+  "coordScripts": [
+    {
+      "x": 5,
+      "y": 8,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB",
+      "value": 2,
+      "script": "PalletTown_ProfessorOaksLab_EventScript_LeaveStarterSceneTrigger"
+    },
+    {
+      "x": 6,
+      "y": 8,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB",
+      "value": 2,
+      "script": "PalletTown_ProfessorOaksLab_EventScript_LeaveStarterSceneTrigger"
+    },
+    {
+      "x": 7,
+      "y": 8,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB",
+      "value": 2,
+      "script": "PalletTown_ProfessorOaksLab_EventScript_LeaveStarterSceneTrigger"
+    },
+    {
+      "x": 5,
+      "y": 8,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB",
+      "value": 3,
+      "script": "PalletTown_ProfessorOaksLab_EventScript_RivalBattleTriggerLeft"
+    },
+    {
+      "x": 6,
+      "y": 8,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB",
+      "value": 3,
+      "script": "PalletTown_ProfessorOaksLab_EventScript_RivalBattleTriggerMid"
+    },
+    {
+      "x": 7,
+      "y": 8,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_PALLET_TOWN_PROFESSOR_OAKS_LAB",
+      "value": 3,
+      "script": "PalletTown_ProfessorOaksLab_EventScript_RivalBattleTriggerRight"
+    }
+  ],
+  "bgEvents": [
+    {
+      "x": 2,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "PalletTown_ProfessorOaksLab_EventScript_Computer"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "PalletTown_ProfessorOaksLab_EventScript_Computer"
+    },
+    {
+      "x": 6,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "PalletTown_ProfessorOaksLab_EventScript_LeftSign"
+    },
+    {
+      "x": 7,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "PalletTown_ProfessorOaksLab_EventScript_RightSign"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 6,
+      "y": 12,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 0,
+      "targetX": 16,
+      "targetY": 13,
+      "targetElevation": 0
+    },
+    {
+      "x": 7,
+      "y": 12,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 0,
+      "targetX": 16,
+      "targetY": 13,
+      "targetElevation": 0
+    },
+    {
+      "x": 5,
+      "y": 12,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 0,
+      "targetX": 16,
+      "targetY": 13,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 55,
+      "x": 3,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PalletTown_ProfessorOaksLab_EventScript_Aide1",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 48,
+      "x": 2,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "WANDER_UP_AND_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 4,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PalletTown_ProfessorOaksLab_EventScript_Aide3",
+      "hideFlag": "",
+      "rawMovementType": 3
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 55,
+      "x": 11,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PalletTown_ProfessorOaksLab_EventScript_Aide2",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 71,
+      "x": 6,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PalletTown_ProfessorOaksLab_EventScript_ProfOak",
+      "hideFlag": "kanto/FLAG_HIDE_OAK_IN_HIS_LAB",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 92,
+      "x": 8,
+      "y": 4,
+      "elevation": 0,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PalletTown_ProfessorOaksLab_EventScript_BulbasaurBall",
+      "hideFlag": "kanto/FLAG_HIDE_BULBASAUR_BALL",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 92,
+      "x": 9,
+      "y": 4,
+      "elevation": 0,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PalletTown_ProfessorOaksLab_EventScript_SquirtleBall",
+      "hideFlag": "kanto/FLAG_HIDE_SQUIRTLE_BALL",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 92,
+      "x": 10,
+      "y": 4,
+      "elevation": 0,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PalletTown_ProfessorOaksLab_EventScript_CharmanderBall",
+      "hideFlag": "kanto/FLAG_HIDE_CHARMANDER_BALL",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 72,
+      "x": 5,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PalletTown_ProfessorOaksLab_EventScript_Rival",
+      "hideFlag": "kanto/FLAG_HIDE_RIVAL_IN_LAB",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 94,
+      "x": 4,
+      "y": 1,
+      "elevation": 0,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PalletTown_ProfessorOaksLab_EventScript_Pokedex",
+      "hideFlag": "kanto/FLAG_HIDE_POKEDEX",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 9,
+      "graphicsId": 94,
+      "x": 5,
+      "y": 1,
+      "elevation": 0,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PalletTown_ProfessorOaksLab_EventScript_Pokedex",
+      "hideFlag": "kanto/FLAG_HIDE_POKEDEX",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "nQZtBG0EbgRpBGkEjQaNBpgEawRsBGsEbAStBqYGdQR2BIUEhgSVBpUGoARzBHQEcwR0BLUytjKFMoYyhTKGMoEygTKBMoMyhDKDMoQynwajMqQyiTKJMokyiTKJMokyiTKJMokyiTKfBqsGrAaJMokyiTKJMokyqAapBqoGiTKJMogyswa0BokyiTKJMokyiTKwMrEysjKJMokyiDKJMokyiTKJMokyiTKJMokyiTKJMokyiTK6MosyjDKLMowyiTKJMokyizKMMosyjDKMMnMEcwR0BHMEdASJMokyiTJzBHQEcwR0BHQEhzKDMoQygzKEMokyiTKJMoMyhDKDMoQyhDKIMokyiTKJMokyiTKJMokyiTKJMokyiTKJMpMyiTKJMokyiTKJMokyiTKJMokyiTKJMpQymwaJMokyiTKJMpAykTKSMokyiTKJMokynAYIBAgECAQIBAgEmAaZBpoGCAQIBAgECAQIBA==",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAAAAAAAAAAAA="
+}

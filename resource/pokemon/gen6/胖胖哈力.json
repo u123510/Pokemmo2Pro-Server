@@ -1,0 +1,151 @@
+{
+	"id": 1089,
+	"name": "[1089]胖胖哈力",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 32,
+	"height": 7,
+	"weight": 290,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 65,
+			"name": "[065]特性65"
+		},
+		{
+			"id": 65,
+			"name": "[065]特性65"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 1090,
+			"name": "[1090]布里卡隆",
+			"type": "LEVEL",
+			"val": 36
+		}
+	],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 22,
+			"name": "[22]藤鞭",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 205,
+			"name": "[205]滚动",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 73,
+			"name": "[73]寄生种子",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 42,
+			"name": "[42]飞弹针",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 302,
+			"name": "[302]尖刺臂",
+			"type": "level",
+			"level": 26
+		},
+		{
+			"id": 36,
+			"name": "[36]猛撞",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 402,
+			"name": "[402]种子炸弹",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 341,
+			"name": "[341]泥巴射击",
+			"type": "level",
+			"level": 39
+		},
+		{
+			"id": 339,
+			"name": "[339]健美",
+			"type": "level",
+			"level": 44
+		},
+		{
+			"id": 34,
+			"name": "[34]泰山压顶",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 220,
+			"name": "[220]分担痛楚",
+			"type": "level",
+			"level": 52
+		},
+		{
+			"id": 452,
+			"name": "[452]木槌",
+			"type": "level",
+			"level": 55
+		}
+	],
+	"types": [
+		"GRASS"
+	],
+	"stats": {
+		"hp": 61,
+		"attack": 78,
+		"defense": 95,
+		"speed": 56,
+		"sp_attack": 58,
+		"sp_defense": 57
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 2,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

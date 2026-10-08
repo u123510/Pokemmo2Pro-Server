@@ -1,0 +1,127 @@
+{
+	"id": 1063,
+	"name": "[1063]黏美儿",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 8,
+	"weight": 175,
+	"egg_groups": [
+		"龙组"
+	],
+	"abilities": [
+		{
+			"id": 157,
+			"name": "[157]特性157"
+		},
+		{
+			"id": 93,
+			"name": "[093]特性93"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 1064,
+			"name": "[1064]黏美龙",
+			"type": "LEVEL",
+			"val": 50
+		}
+	],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 145,
+			"name": "[145]泡沫",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 71,
+			"name": "[71]吸取",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 182,
+			"name": "[182]守住",
+			"type": "level",
+			"level": 9
+		},
+		{
+			"id": 117,
+			"name": "[117]忍耐",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 225,
+			"name": "[225]龙息",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 240,
+			"name": "[240]求雨",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 175,
+			"name": "[175]抓狂",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 34,
+			"name": "[34]泰山压顶",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 330,
+			"name": "[330]浊流",
+			"type": "level",
+			"level": 38
+		},
+		{
+			"id": 406,
+			"name": "[406]龙之波动",
+			"type": "level",
+			"level": 47
+		}
+	],
+	"types": [
+		"DRAGON"
+	],
+	"stats": {
+		"hp": 68,
+		"attack": 75,
+		"defense": 53,
+		"speed": 83,
+		"sp_attack": 113,
+		"sp_defense": 60
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 2,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

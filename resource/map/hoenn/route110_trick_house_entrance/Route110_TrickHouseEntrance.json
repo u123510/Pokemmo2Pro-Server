@@ -1,0 +1,214 @@
+{
+  "regionId": 1,
+  "bankId": 79,
+  "mapId": 0,
+  "width": 12,
+  "height": 8,
+  "paletteIdx1": 116,
+  "paletteIdx2": 147,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 448,
+  "unknownByte": 25,
+  "borderTiles": [
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "Route110_TrickHouseEntrance_OnTransition",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_TRICK_HOUSE_FOUND_TRICK_MASTER",
+      "value": 1,
+      "script": "Route110_TrickHouseEntrance_EventScript_BeginChallenge"
+    }
+  ],
+  "coordScripts": [
+    {
+      "x": 4,
+      "y": 7,
+      "elevation": 3,
+      "varKey": "VAR_TRICK_HOUSE_BEING_WATCHED_STATE",
+      "value": 0,
+      "script": "Route110_TrickHouseEntrance_EventScript_TrickMasterHiding"
+    },
+    {
+      "x": 5,
+      "y": 6,
+      "elevation": 3,
+      "varKey": "VAR_TRICK_HOUSE_BEING_WATCHED_STATE",
+      "value": 0,
+      "script": "Route110_TrickHouseEntrance_EventScript_TrickMasterHiding"
+    },
+    {
+      "x": 6,
+      "y": 6,
+      "elevation": 3,
+      "varKey": "VAR_TRICK_HOUSE_BEING_WATCHED_STATE",
+      "value": 0,
+      "script": "Route110_TrickHouseEntrance_EventScript_TrickMasterHiding"
+    },
+    {
+      "x": 7,
+      "y": 7,
+      "elevation": 3,
+      "varKey": "VAR_TRICK_HOUSE_BEING_WATCHED_STATE",
+      "value": 0,
+      "script": "Route110_TrickHouseEntrance_EventScript_TrickMasterHiding"
+    }
+  ],
+  "bgEvents": [
+    {
+      "x": 5,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Route110_TrickHouseEntrance_EventScript_Door"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 5,
+      "y": 7,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 25,
+      "targetX": 11,
+      "targetY": 66,
+      "targetElevation": 0
+    },
+    {
+      "x": 6,
+      "y": 7,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 25,
+      "targetX": 11,
+      "targetY": 66,
+      "targetElevation": 0
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 79,
+      "targetMapId": 3,
+      "targetX": 0,
+      "targetY": 21,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 19,
+      "x": 6,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "Route110_TrickHouseEntrance_EventScript_TrickMaster",
+      "hideFlag": "hoenn/FLAG_HIDE_TRICK_HOUSE_ENTRANCE_MAN",
+      "rawMovementType": 9
+    }
+  ],
+  "blockData": "FQYVBhUGFwYSBhMGFAYVBhcGFQa+Br8GHQYdBh0GHwYaBhs2HAYdBh8GoAbGBscGITIhMiEyITIhMiEyITIhMiEyqDLOMs8yITIpMikyKTJEMk4GTwZEMikyKTIpMikyGTMpMikyKTJEMlYGVwZEMikyKTIpMhozJzcpMikyKTIpMikyKTIpMikyKTIpMiI3IDMYMxgzGDMYMxgzGDMYMxgzGDMYMxgzIzMbMxszGzMbMxAyETIbMxszGzMbMxsz",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQAAAAAA"
+}

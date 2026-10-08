@@ -1,0 +1,139 @@
+{
+	"id": 1039,
+	"name": "[1039]坚盾剑怪",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 17,
+	"weight": 530,
+	"egg_groups": [
+		"矿物组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 14,
+			"name": "[14]剑舞",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 163,
+			"name": "[163]劈开",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 210,
+			"name": "[210]连斩",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 228,
+			"name": "[228]追打",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 332,
+			"name": "[332]燕返",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 334,
+			"name": "[334]铁壁",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 379,
+			"name": "[379]力量戏法",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 400,
+			"name": "[400]暗袭要害",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 425,
+			"name": "[425]影子偷袭",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 442,
+			"name": "[442]铁头",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 457,
+			"name": "[457]双刃头锤",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 475,
+			"name": "[475]身体轻量化",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 533,
+			"name": "[533]圣剑",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 588,
+			"name": "[588]王者盾牌",
+			"type": "level",
+			"level": 1
+		}
+	],
+	"types": [
+		"STEEL",
+		"GHOST"
+	],
+	"stats": {
+		"hp": 60,
+		"attack": 50,
+		"defense": 140,
+		"speed": 50,
+		"sp_attack": 140,
+		"sp_defense": 60
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 2,
+		"ev_speed": 0,
+		"ev_sp_attack": 1,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

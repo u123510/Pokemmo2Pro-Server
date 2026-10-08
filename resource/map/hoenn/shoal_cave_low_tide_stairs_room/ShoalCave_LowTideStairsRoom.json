@@ -1,0 +1,234 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 48,
+  "width": 21,
+  "height": 15,
+  "paletteIdx1": 100,
+  "paletteIdx2": 119,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 432,
+  "unknownByte": 67,
+  "borderTiles": [
+    {
+      "material": 529,
+      "collision": 0
+    },
+    {
+      "material": 529,
+      "collision": 0
+    },
+    {
+      "material": 529,
+      "collision": 0
+    },
+    {
+      "material": 529,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_SHOAL_CAVE_LOW_TIDE_STAIRS_ROOM",
+      "base_label": "gShoalCave_LowTideStairsRoom",
+      "land_mons": {
+        "encounter_rate": 10,
+        "mons": [
+          {
+            "min_level": 26,
+            "max_level": 26,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 26,
+            "max_level": 26,
+            "species": "SPECIES_SPHEAL"
+          },
+          {
+            "min_level": 28,
+            "max_level": 28,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 28,
+            "max_level": 28,
+            "species": "SPECIES_SPHEAL"
+          },
+          {
+            "min_level": 30,
+            "max_level": 30,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 30,
+            "max_level": 30,
+            "species": "SPECIES_SPHEAL"
+          },
+          {
+            "min_level": 32,
+            "max_level": 32,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 32,
+            "max_level": 32,
+            "species": "SPECIES_SPHEAL"
+          },
+          {
+            "min_level": 32,
+            "max_level": 32,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 32,
+            "max_level": 32,
+            "species": "SPECIES_SPHEAL"
+          },
+          {
+            "min_level": 32,
+            "max_level": 32,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 32,
+            "max_level": 32,
+            "species": "SPECIES_SPHEAL"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 11,
+      "y": 11,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "ShoalCave_LowTideStairsRoom_EventScript_ShoalSalt3"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 3,
+      "y": 12,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 47,
+      "targetX": 38,
+      "targetY": 15,
+      "targetElevation": 2
+    },
+    {
+      "x": 7,
+      "y": 4,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 47,
+      "targetX": 42,
+      "targetY": 4,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 59,
+      "x": 13,
+      "y": 12,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "ShoalCave_LowTideStairsRoom_EventScript_ItemIceHeal",
+      "hideFlag": "hoenn/FLAG_ITEM_SHOAL_CAVE_STAIRS_ROOM_ICE_HEAL",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "EQYRBhEGEQYbBhkGGQYZBhkGGQYZBhkGGQYZBhkGGQYZBhkGGQYZBhkGEQYRBhEGGwYaBiAGCQYJBgkGCQYJBgkGCQYJBgkGCQYJBgkGMQYJBgkGEQYRBhsGGgYgBhAGAgYRBhEGEQYRBhEGEQYCBhEGEQYRBhEGEgYBBgEGEQYbBhoGIAYQBhgGGQYPBhkGGQYZBhkGGQYZBhkGGQYZBhkGGgYBBgEGGwYaBiAGEAYQBgIGATIXMgEyATIBMgEyAjYBMhsGGQYZBhkGGQYZBhkGEgYgBhAGEAYYBhkGGQYZBhkGGQYZBgQyGQYZBhoGAQYBBgIGAQYBBgEGEgYQBhAGEAYDNgEyAzYBMgEyATIBMgEyGwYZBhkGGQYZBhkGGQYZBhkGEgYQBhAGGAYZBhkGGQYEMhkGGQYZBhkGGgYBBgIGAQYDNgEGAQYBBgEGEgYQBhAGATIBMgEyATIBMgI2ATIbBhkGGQYZBhkGGQYZBhkGGQYZBhkGEgYQBhgGGQYEMhkGGQYZBhkGGQYaBgIGAQYBBgEGAQYBBgEGAQYBBgEGEgYQBgEyAzYBMgEyATIBMhsGGQYZBhkGGQYZBhwGAQYBBgEGAQYBBgEGEgYYBhkGDwYZBhkGGQYEMhoGATIBMlozATIBMhAGAQYBBgEGAQYBBgEGEgYBMgEyFzIBMgEyATIBMgEyATIBMgEyATIBMhAGAQYDNgEGAQYBBgEGEgYDNgEyATIBMgEyATIBMgEyATIBMgEyATIBMhgGGQYZBhkGGQYZBhkGIwYJBgkGCQYJBgkGCQYJBgkGCQYJBgkGCQYJBgkGCQYJBgkGCQYJBgkG",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

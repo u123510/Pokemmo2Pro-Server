@@ -1,0 +1,444 @@
+{
+  "regionId": 1,
+  "bankId": 79,
+  "mapId": 9,
+  "width": 15,
+  "height": 22,
+  "paletteIdx1": 116,
+  "paletteIdx2": 153,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 448,
+  "unknownByte": 25,
+  "borderTiles": [
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "Route110_TrickHousePuzzle7_OnTransition",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_TRICK_HOUSE_PUZZLE_7_STATE_2",
+      "value": 1,
+      "script": "Route110_TrickHousePuzzle7_EventScript_ClearState2"
+    }
+  ],
+  "coordScripts": [
+    {
+      "x": 8,
+      "y": 19,
+      "elevation": 0,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle7_EventScript_YellowButton"
+    },
+    {
+      "x": 0,
+      "y": 14,
+      "elevation": 0,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle7_EventScript_BlueButton"
+    },
+    {
+      "x": 6,
+      "y": 6,
+      "elevation": 0,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle7_EventScript_GreenButton"
+    },
+    {
+      "x": 9,
+      "y": 7,
+      "elevation": 0,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "Route110_TrickHousePuzzle7_EventScript_PurpleButton"
+    }
+  ],
+  "bgEvents": [
+    {
+      "x": 6,
+      "y": 17,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "Route110_TrickHousePuzzle7_EventScript_Scroll"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 0,
+      "y": 21,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 79,
+      "targetMapId": 0,
+      "targetX": 5,
+      "targetY": 2,
+      "targetElevation": 2
+    },
+    {
+      "x": 1,
+      "y": 21,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 79,
+      "targetMapId": 0,
+      "targetX": 5,
+      "targetY": 2,
+      "targetElevation": 2
+    },
+    {
+      "x": 13,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 79,
+      "targetMapId": 1,
+      "targetX": 10,
+      "targetY": 1,
+      "targetElevation": 2
+    },
+    {
+      "x": 13,
+      "y": 4,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 79,
+      "targetMapId": 9,
+      "targetX": 7,
+      "targetY": 3,
+      "targetElevation": 0
+    },
+    {
+      "x": 7,
+      "y": 3,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 79,
+      "targetMapId": 9,
+      "targetX": 13,
+      "targetY": 4,
+      "targetElevation": 0
+    },
+    {
+      "x": 13,
+      "y": 11,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 79,
+      "targetMapId": 9,
+      "targetX": 4,
+      "targetY": 3,
+      "targetElevation": 0
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 79,
+      "targetMapId": 9,
+      "targetX": 13,
+      "targetY": 11,
+      "targetElevation": 0
+    },
+    {
+      "x": 1,
+      "y": 17,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 79,
+      "targetMapId": 9,
+      "targetX": 0,
+      "targetY": 11,
+      "targetElevation": 0
+    },
+    {
+      "x": 0,
+      "y": 11,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 79,
+      "targetMapId": 9,
+      "targetX": 1,
+      "targetY": 17,
+      "targetElevation": 0
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 79,
+      "targetMapId": 9,
+      "targetX": 4,
+      "targetY": 13,
+      "targetElevation": 0
+    },
+    {
+      "x": 4,
+      "y": 13,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 79,
+      "targetMapId": 9,
+      "targetX": 2,
+      "targetY": 3,
+      "targetElevation": 0
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 79,
+      "targetMapId": 9,
+      "targetX": 8,
+      "targetY": 12,
+      "targetElevation": 0
+    },
+    {
+      "x": 8,
+      "y": 12,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 79,
+      "targetMapId": 9,
+      "targetX": 1,
+      "targetY": 3,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 37,
+      "x": 9,
+      "y": 20,
+      "elevation": 0,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "Route110_TrickHousePuzzle7_EventScript_Joshua",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 47,
+      "x": 10,
+      "y": 2,
+      "elevation": 0,
+      "movementType": "FACE_UP",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "UP",
+      "script": "Route110_TrickHousePuzzle7_EventScript_Alexis",
+      "hideFlag": "",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 40,
+      "x": 8,
+      "y": 17,
+      "elevation": 0,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "Route110_TrickHousePuzzle7_EventScript_Patricia",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 59,
+      "x": 5,
+      "y": 12,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "Route110_TrickHousePuzzle7_EventScript_ItemTropicMail",
+      "hideFlag": "hoenn/FLAG_ITEM_TRICK_HOUSE_PUZZLE_7_TROPIC_MAIL",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 37,
+      "x": 9,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "Route110_TrickHousePuzzle7_EventScript_Alvaro",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 47,
+      "x": 8,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "UP",
+      "script": "Route110_TrickHousePuzzle7_EventScript_Mariela",
+      "hideFlag": "",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 48,
+      "x": 9,
+      "y": 12,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "Route110_TrickHousePuzzle7_EventScript_Everett",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 224,
+      "x": 4,
+      "y": 17,
+      "elevation": 0,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 224,
+      "x": 4,
+      "y": 6,
+      "elevation": 0,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "AQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAgZvBgQGCQYJBgkGCQYJBgkGCQYJBgkGCQYJBgkGCgZ3NgwGgAYQMhAygAYQMhAygAYQMhAyEDKxArICEDIQMoAGiAaHAocCiAaHAggyiAaHAggyCDKwArMCiQaCBosGiAYIMggyiAYIMggyjAaCBoIGggaCBoIGiwaHAogGiAYIMggykAYIMoEGlAaCBooGCDIIMggyiAYIMogGiAYIMggyqQKqAggyrAIIMpEGggaDBggyiAYIMogGkQaCBoMGqAKrAoAGCDIIMggytAIIMggyiAYIMogGCDIIMggyCDKJBpQGggaCBoIGggaDBggyiAYIMogGCDKJBoIGggaSBggyCDIIMggyCDIIMggyiAYIMogGCDKIBggyCDIIMggyCDKJBoIGigYIMggyiAYIMogGhwKIBggyiQaCBoIGigaIBggykQaKBggyiAaHAogGgQaSBggyiAYIMggyiAaIBocCCDKIBggyjAaCBosGCDIIMggyiAaHAggyiAaIBggyiQaSBggykAYIMogGpAIIMggykQaCBoIGkgaRBoIGkgYIMggyCDIIMogGCDIIMggyCDIIMggyCDIIMggyCDIIMggygAYIMogGiQaCBoIGggaCBoIGggaTBoIGggaKBggyiAYIMogGiAaHAggyoQKiAggyEwaIBpkCmgKIBggykAYIMogGkQaCBooGoAKjAokGggaSBpgCmwKQBggyCDIIMogGCDIIMpEGggaKBogGCDIIMpwCCDIIMggygAYIMogGCDIIMggyCDKRBpIGCDKABpkCmgKABggyiAYIMogGETISMggyCDIIMggyCDKQBpgCmwKRBoIGlAaCBpIG",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkJAAkAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAkAAAAAAAAAAAAJAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ0AAAAAAAAAAAAAAAAA"
+}

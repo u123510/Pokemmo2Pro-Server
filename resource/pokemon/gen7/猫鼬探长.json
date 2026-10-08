@@ -1,0 +1,168 @@
+{
+	"id": 735,
+	"name": "[735]猫鼬探长",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 7,
+	"weight": 142,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 91,
+			"name": "[091]特性91"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 28,
+			"name": "[28]泼沙",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 43,
+			"name": "[43]瞪眼",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 228,
+			"name": "[228]追打",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 43,
+			"name": "[43]瞪眼",
+			"type": "level",
+			"level": 3
+		},
+		{
+			"id": 228,
+			"name": "[228]追打",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 28,
+			"name": "[28]泼沙",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 316,
+			"name": "[316]气味侦测",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 117,
+			"name": "[117]忍耐",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 19
+		},
+		{
+			"id": 189,
+			"name": "[189]掷泥",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 162,
+			"name": "[162]愤怒门牙",
+			"type": "level",
+			"level": 27
+		},
+		{
+			"id": 36,
+			"name": "[36]猛撞",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 184,
+			"name": "[184]鬼面",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 242,
+			"name": "[242]咬碎",
+			"type": "level",
+			"level": 39
+		},
+		{
+			"id": 158,
+			"name": "[158]必杀门牙",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 281,
+			"name": "[281]哈欠",
+			"type": "level",
+			"level": 47
+		},
+		{
+			"id": 37,
+			"name": "[37]大闹一番",
+			"type": "level",
+			"level": 51
+		},
+		{
+			"id": 156,
+			"name": "[156]睡觉",
+			"type": "level",
+			"level": 55
+		}
+	],
+	"types": [
+		"NORMAL"
+	],
+	"stats": {
+		"hp": 88,
+		"attack": 110,
+		"defense": 60,
+		"speed": 55,
+		"sp_attack": 60,
+		"sp_defense": 45
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 2,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

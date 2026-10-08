@@ -1,0 +1,312 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 32,
+  "width": 20,
+  "height": 20,
+  "paletteIdx1": 100,
+  "paletteIdx2": 119,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 406,
+  "unknownByte": 68,
+  "borderTiles": [
+    {
+      "material": 753,
+      "collision": 0
+    },
+    {
+      "material": 753,
+      "collision": 0
+    },
+    {
+      "material": 753,
+      "collision": 0
+    },
+    {
+      "material": 753,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_SEAFLOOR_CAVERN_ROOM5",
+      "base_label": "gSeafloorCavern_Room5",
+      "land_mons": {
+        "encounter_rate": 4,
+        "mons": [
+          {
+            "min_level": 30,
+            "max_level": 30,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 31,
+            "max_level": 31,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 32,
+            "max_level": 32,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 33,
+            "max_level": 33,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 28,
+            "max_level": 28,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 29,
+            "max_level": 29,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 34,
+            "max_level": 34,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 35,
+            "max_level": 35,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 34,
+            "max_level": 34,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 35,
+            "max_level": 35,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 33,
+            "max_level": 33,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 36,
+            "max_level": 36,
+            "species": "SPECIES_GOLBAT"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 4,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 28,
+      "targetX": 17,
+      "targetY": 13,
+      "targetElevation": 2
+    },
+    {
+      "x": 15,
+      "y": 12,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 31,
+      "targetX": 4,
+      "targetY": 1,
+      "targetElevation": 2
+    },
+    {
+      "x": 7,
+      "y": 17,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 31,
+      "targetX": 9,
+      "targetY": 10,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 87,
+      "x": 3,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "hoenn/FLAG_TEMP_11",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 87,
+      "x": 4,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "hoenn/FLAG_TEMP_12",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 87,
+      "x": 11,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "hoenn/FLAG_TEMP_13",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 86,
+      "x": 3,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_RockSmash",
+      "hideFlag": "hoenn/FLAG_TEMP_15",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 86,
+      "x": 13,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_RockSmash",
+      "hideFlag": "hoenn/FLAG_TEMP_16",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 87,
+      "x": 12,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_StrengthBoulder",
+      "hideFlag": "hoenn/FLAG_TEMP_14",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "8QbrBvkGDgf+Bv8G+Qb5BvkG+Qb5BuwG8QbxBvEG8QbxBvEG8QbxBvEG8gbrBhYHBjMHB/kG+Qb5BvkG7AbwBvEG8QaJBpEGkQaRBoEG8QbxBvIG8gYBMgEyATIBMgEyATIBMvAG8AbxBvEGigaTBpMGkwaIBvEG8QbyBvIGATIBMgEyATIBMgEyATLwBvAG8QbxBooGkwaTBpMGiAbxBvEG8wbzBukG6QbpBuoGATIBMgEy8AbwBvEG8QbzBvMGggaTBogG8QaJBpEGgQbxBvEG8QbyBuoGATIBMvAG+Ab5BvkG+QbsBooGkwaIBvEGigaTBogG8QbrBvkG+gbyBgEyATL4BvkG+Qb5BuwG8AbzBvMG8wbxBvMG8wbzBvEG8gbrBvkG+gYBMgEyATIBMgEyATLwBvAG8QbxBvEG8QbxBusG+Qb5BvoG8gYBMgEyATIBMgEyATIBMgEy8Ab4BvkG+Qb5BuwG8QbyBusG+Qb5BvoGATIBMgEy6AbpBuoGATIBMvgG+Qb5BvkG7AbwBvEG8gbyBgEyATIBMgEyATLoBvAG8QbyBuoGATIBMgEyATIBMvAG8AbxBvIG8gYBMgEyATIBMgEy8AbwBvEG8gbyBgEyATIBMgEyATLwBvAG8QbyBvIGATIBMugG6QbqBvAG8AbxBvIG8gYBMgEyBzIBMgEy8AbwBvEG8gbyBgEyATLwBhEG8gbwBvAG8QbzBvMG6QblBuYG5wbpBvMG8wbxBvIG8gYBMugG8wYRBvIG8Ab4BvkG7AbxBvEG8QbxBokGkQaRBoEG8QbyBvIGATL4BvkG+Qb6BvgG+QbsBvAG8QbxBvEGiQaSBpMGkwaIBvEG8gbyBgEyATIBMgEyATIBMgEy8AbwBvEGiQaRBpIGkwaTBpMGiAbxBvIG8gYBMgEyATIBMgcyATIBMvAG8AbxBooGkwaTBpMGkwaABvMG8QbzBvMG6QbpBukG5QbmBucG6QbzBvMG8QbzBoIGkwaABvMG8wbxBvEG8QbxBvEG8QbxBvEG8QbxBvEG8QbxBvEG8QbzBvMG8wbxBvEG8QY=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+}

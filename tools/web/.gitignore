@@ -1,0 +1,6 @@
+# 渲染缓存与自动备份（不入库）
+cache/
+backups/
+__pycache__/
+audit/
+config.json

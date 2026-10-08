@@ -1,0 +1,151 @@
+{
+	"id": 778,
+	"name": "[778]谜拟丘",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 2,
+	"weight": 7,
+	"egg_groups": [
+		"不定形组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 10,
+			"name": "[10]抓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 150,
+			"name": "[150]跃起",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 310,
+			"name": "[310]惊吓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 383,
+			"name": "[383]仿效",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 452,
+			"name": "[452]木槌",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 104,
+			"name": "[104]影子分身",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 608,
+			"name": "[608]圆瞳",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 425,
+			"name": "[425]影子偷袭",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 102,
+			"name": "[102]模仿",
+			"type": "level",
+			"level": 19
+		},
+		{
+			"id": 185,
+			"name": "[185]出奇一击",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 204,
+			"name": "[204]撒娇",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 163,
+			"name": "[163]劈开",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 421,
+			"name": "[421]暗影爪",
+			"type": "level",
+			"level": 37
+		},
+		{
+			"id": 468,
+			"name": "[468]磨爪",
+			"type": "level",
+			"level": 41
+		},
+		{
+			"id": 583,
+			"name": "[583]嬉闹",
+			"type": "level",
+			"level": 46
+		},
+		{
+			"id": 220,
+			"name": "[220]分担痛楚",
+			"type": "level",
+			"level": 50
+		}
+	],
+	"types": [
+		"GHOST",
+		"FAIRY"
+	],
+	"stats": {
+		"hp": 55,
+		"attack": 90,
+		"defense": 80,
+		"speed": 50,
+		"sp_attack": 105,
+		"sp_defense": 96
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 2,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

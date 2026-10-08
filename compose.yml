@@ -1,0 +1,15 @@
+services:
+  db:
+    build: ./db
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: mmo_db
+      POSTGRES_USER: openmmo
+      POSTGRES_PASSWORD: 12345678
+  dbadmin:
+    image: adminer
+    ports:
+      - "5050:8080"
+    depends_on:
+      - db

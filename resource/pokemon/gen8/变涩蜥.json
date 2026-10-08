@@ -1,0 +1,128 @@
+{
+	"id": 1087,
+	"name": "[1087]变涩蜥",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 32,
+	"height": 7,
+	"weight": 115,
+	"egg_groups": [
+		"水1组",
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 67,
+			"name": "[067]特性67"
+		},
+		{
+			"id": 67,
+			"name": "[067]特性67"
+		},
+		{
+			"id": 97,
+			"name": "[097]特性97"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 818,
+			"name": "[818]千面避役",
+			"type": "LEVEL",
+			"val": 35
+		}
+	],
+	"moves": [
+		{
+			"id": 1,
+			"name": "[1]拍击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 20,
+			"name": "[20]绑紧",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 55,
+			"name": "[55]水枪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 352,
+			"name": "[352]水之波动",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 715,
+			"name": "[715]泪眼汪汪",
+			"type": "level",
+			"level": 19
+		},
+		{
+			"id": 389,
+			"name": "[389]突袭",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 369,
+			"name": "[369]急速折返",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 710,
+			"name": "[710]水流裂破",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 487,
+			"name": "[487]浸水",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 240,
+			"name": "[240]求雨",
+			"type": "level",
+			"level": 48
+		}
+	],
+	"types": [
+		"WATER"
+	],
+	"stats": {
+		"hp": 65,
+		"attack": 60,
+		"defense": 55,
+		"speed": 95,
+		"sp_attack": 55,
+		"sp_defense": 90
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 2,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

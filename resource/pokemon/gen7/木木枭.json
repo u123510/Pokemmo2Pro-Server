@@ -1,0 +1,152 @@
+{
+	"id": 722,
+	"name": "[722]木木枭",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 32,
+	"height": 3,
+	"weight": 15,
+	"egg_groups": [
+		"飞行组"
+	],
+	"abilities": [
+		{
+			"id": 65,
+			"name": "[065]特性65"
+		},
+		{
+			"id": 65,
+			"name": "[065]特性65"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 723,
+			"name": "[723]投羽枭",
+			"type": "LEVEL",
+			"val": 17
+		}
+	],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 670,
+			"name": "[670]树叶",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 4
+		},
+		{
+			"id": 64,
+			"name": "[64]啄",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 310,
+			"name": "[310]惊吓",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 75,
+			"name": "[75]飞叶快刀",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 193,
+			"name": "[193]识破",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 365,
+			"name": "[365]啄食",
+			"type": "level",
+			"level": 22
+		},
+		{
+			"id": 235,
+			"name": "[235]光合作用",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 31,
+			"name": "[31]乱击",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 389,
+			"name": "[389]突袭",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 348,
+			"name": "[348]叶刃",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 297,
+			"name": "[297]羽毛舞",
+			"type": "level",
+			"level": 39
+		},
+		{
+			"id": 413,
+			"name": "[413]勇鸟猛攻",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 417,
+			"name": "[417]诡计",
+			"type": "level",
+			"level": 46
+		}
+	],
+	"types": [
+		"GRASS",
+		"FLYING"
+	],
+	"stats": {
+		"hp": 68,
+		"attack": 55,
+		"defense": 55,
+		"speed": 50,
+		"sp_attack": 50,
+		"sp_defense": 42
+	},
+	"yields": {
+		"ev_hp": 1,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

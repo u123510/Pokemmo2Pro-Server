@@ -1,0 +1,218 @@
+{
+  "regionId": 1,
+  "bankId": 65,
+  "mapId": 0,
+  "width": 17,
+  "height": 26,
+  "paletteIdx1": 116,
+  "paletteIdx2": 146,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 364,
+  "unknownByte": 14,
+  "borderTiles": [
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "SootopolisCity_Gym_1F_OnTransition",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_ICE_STEP_COUNT",
+      "value": 8,
+      "script": "SootopolisCity_Gym_1F_EventScript_UnlockFirstStairs"
+    },
+    {
+      "varKey": "VAR_ICE_STEP_COUNT",
+      "value": 28,
+      "script": "SootopolisCity_Gym_1F_EventScript_UnlockSecondStairs"
+    },
+    {
+      "varKey": "VAR_ICE_STEP_COUNT",
+      "value": 67,
+      "script": "SootopolisCity_Gym_1F_EventScript_UnlockThirdStairs"
+    },
+    {
+      "varKey": "VAR_ICE_STEP_COUNT",
+      "value": 0,
+      "script": "SootopolisCity_Gym_1F_EventScript_FallThroughIce"
+    }
+  ],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 6,
+      "y": 24,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SootopolisCity_Gym_1F_EventScript_LeftGymStatue"
+    },
+    {
+      "x": 10,
+      "y": 24,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "SootopolisCity_Gym_1F_EventScript_RightGymStatue"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 8,
+      "y": 25,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 7,
+      "targetX": 31,
+      "targetY": 32,
+      "targetElevation": 0
+    },
+    {
+      "x": 9,
+      "y": 25,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 7,
+      "targetX": 31,
+      "targetY": 32,
+      "targetElevation": 0
+    },
+    {
+      "x": 11,
+      "y": 22,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 65,
+      "targetMapId": 1,
+      "targetX": 11,
+      "targetY": 22,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 218,
+      "x": 8,
+      "y": 2,
+      "elevation": 0,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SootopolisCity_Gym_1F_EventScript_Juan",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 23,
+      "x": 7,
+      "y": 24,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SootopolisCity_Gym_1F_EventScript_GymGuide",
+      "hideFlag": "",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "EAY8BkoGSgZoBmkGSgZKBlQGSgZKBmgGaQZKBkoGOQYIBhgGRAZFBlIGcAZxBlIGUgZcBlIGUgZwBnEGUgZABkEGCAZKBkwGTQZGMngGeQYxAioCKwIsAjYCeAZ5BkcySAZJBkoGUgZSBlUGPzI+Mj4yBAIyAjMCNAIFAj4yPjI+MlAGUgZSBhAGWAZZBkoGSgZKBkoGOgYPAjsGSgZKBkoGSgZgBmIGCAIYBkQGRQZSBlIGUgZSBkIGDwJDBlIGUgZSBlIGQAZBBggCGAZEBk0GFQIVAhYGFQIVAg0yFQIVAhUCFQIVAkgGQQYIAhgGRAZNBg0CDQINAg0CDQINAgMGDQINAgMGDQJIBkEGCAIYBkQGTQYNAgMGDQINAgMGDQINAg0CDQINAg0CSAZBBggCTgZMBk0GDQINAg0CDQINAg0CDQINAgMGDQINAkgGSQZKBlYGUgZVBjwGSgZKBkoGOgYPAjsGSgZKBkoGOQZQBlIGUgYQBiAGIAZEBkUGUgZSBkIGDwJDBlIGUgZABkEGIAYgBiAGGAYIBggGRAZNBhUCFQIVAg0CFQIVAhUCSAZBBggGCAYIBhgGCAYIBkQGTQYNAgMGDQINAg0CAwYNAkgGQQYIBggGCAZOBmgCaQJMBk0GDQINAg0CDQINAg0CDQJIBkkGaAJpAkoGVgZwAnECUgZVBjwGSgY6Bg8COwZKBjkGUAZSBnACcQJSBhgGeAJ5AggCCAJEBkUGQgYPAkMGQAZBBggCCAJ4AnkCCAIYBggCCAIIAggCRAZNBhYGDQIVAkgGQQYIAggCCAIIAggCTgZKBkoGSgZKBkwGTQYNAg0CDQJIBkkGSgZKBkoGSgZKBlYGUgZSBlIGUgZSBlUGDQINAgMGUAZSBlIGUgZSBlIGUgYQBiAGIAZYBlkGWQZbBjoGBzI7BmAGYQZhBmIGIAYgBiAGGAYIBggGRAZFBlIGUgZCBgcyQwZSBlIGQAZBBggGCAYIBhgGCAYIBkQGTQZGMkcyRzJHMkcyRzIcAkgGQQYIBggGCAYYBggGCAZEBk0GPzIXAj4yPjI+MhcCPjJIBkEGCAYIBggGGAYIBggGRAZNBj8yHwZPAj4yPjIfBk8CSAZBBggGCAYIBhgGCAYIBkQGTQY/MlcCXwIGAAcAVwJfAkgGQQYIBggGCAY=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NAAAAAAAAAA=="
+}

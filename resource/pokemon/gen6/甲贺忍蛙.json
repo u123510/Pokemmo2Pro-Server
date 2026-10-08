@@ -1,0 +1,181 @@
+{
+	"id": 1096,
+	"name": "[1096]甲贺忍蛙",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 32,
+	"height": 15,
+	"weight": 400,
+	"egg_groups": [
+		"水1组"
+	],
+	"abilities": [
+		{
+			"id": 67,
+			"name": "[067]特性67"
+		},
+		{
+			"id": 67,
+			"name": "[067]特性67"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 1,
+			"name": "[1]拍击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 272,
+			"name": "[272]扮演",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 400,
+			"name": "[400]暗袭要害",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 561,
+			"name": "[561]掀榻榻米",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 145,
+			"name": "[145]泡沫",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 98,
+			"name": "[98]电光一闪",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 122,
+			"name": "[122]舌舔",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 352,
+			"name": "[352]水之波动",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 108,
+			"name": "[108]烟幕",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 425,
+			"name": "[425]影子偷袭",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 191,
+			"name": "[191]撒菱",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 185,
+			"name": "[185]出奇一击",
+			"type": "level",
+			"level": 33
+		},
+		{
+			"id": 594,
+			"name": "[594]飞水手里剑",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 164,
+			"name": "[164]替身",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 326,
+			"name": "[326]神通力",
+			"type": "level",
+			"level": 49
+		},
+		{
+			"id": 104,
+			"name": "[104]影子分身",
+			"type": "level",
+			"level": 52
+		},
+		{
+			"id": 114,
+			"name": "[114]黑雾",
+			"type": "level",
+			"level": 56
+		},
+		{
+			"id": 56,
+			"name": "[56]水炮",
+			"type": "level",
+			"level": 60
+		},
+		{
+			"id": 400,
+			"name": "[400]暗袭要害",
+			"type": "level",
+			"level": 70
+		},
+		{
+			"id": 594,
+			"name": "[594]飞水手里剑",
+			"type": "level",
+			"level": 75
+		}
+	],
+	"types": [
+		"WATER",
+		"DARK"
+	],
+	"stats": {
+		"hp": 72,
+		"attack": 95,
+		"defense": 67,
+		"speed": 103,
+		"sp_attack": 71,
+		"sp_defense": 122
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 3
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

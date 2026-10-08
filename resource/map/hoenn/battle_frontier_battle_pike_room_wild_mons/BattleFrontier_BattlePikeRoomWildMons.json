@@ -1,0 +1,185 @@
+{
+  "regionId": 1,
+  "bankId": 76,
+  "mapId": 39,
+  "width": 9,
+  "height": 20,
+  "paletteIdx1": 116,
+  "paletteIdx2": 163,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 468,
+  "unknownByte": 58,
+  "borderTiles": [
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_TEMP_0",
+      "value": 0,
+      "script": "BattleFrontier_BattlePikeRoomWildMons_EventScript_SetInWildMonRoom"
+    },
+    {
+      "varKey": "VAR_TEMP_1",
+      "value": 1,
+      "script": "BattleFrontier_BattlePikeRoomWildMons_EventScript_WarpToLobbyLost"
+    }
+  ],
+  "coordScripts": [
+    {
+      "x": 4,
+      "y": 3,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "BattleFrontier_BattlePikeRoomWildMons_EventScript_Exit"
+    },
+    {
+      "x": 3,
+      "y": 18,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_2",
+      "value": 0,
+      "script": "BattleFrontier_BattlePikeRoomWildMons_EventScript_SetEnteredRoom"
+    },
+    {
+      "x": 4,
+      "y": 18,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_2",
+      "value": 0,
+      "script": "BattleFrontier_BattlePikeRoomWildMons_EventScript_SetEnteredRoom"
+    },
+    {
+      "x": 5,
+      "y": 18,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_2",
+      "value": 0,
+      "script": "BattleFrontier_BattlePikeRoomWildMons_EventScript_SetEnteredRoom"
+    },
+    {
+      "x": 3,
+      "y": 19,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_3",
+      "value": 1,
+      "script": "BattleFrontier_BattlePikeRoomWildMons_EventScript_NoTurningBack"
+    },
+    {
+      "x": 4,
+      "y": 19,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_3",
+      "value": 1,
+      "script": "BattleFrontier_BattlePikeRoomWildMons_EventScript_NoTurningBack"
+    },
+    {
+      "x": 5,
+      "y": 19,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_3",
+      "value": 1,
+      "script": "BattleFrontier_BattlePikeRoomWildMons_EventScript_NoTurningBack"
+    }
+  ],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [],
+  "npcs": [],
+  "blockData": "pwagBqEGogajBqQGpQamBqcGrwaoBqkGqgarBqwGrQauBq8GtwawBrEGsjazNrQ2tQa2BrcGvza4Ntsyuja7Mrw22zK+Nr8G2TLaMtwG4zLkMuUy3AbaMtoyNDLdMg0z5jLoMucyDTPdMt0yPgb5BvkGwTLBMsEy+Qb5BvkGNzINMw0z3TLdMt0yDTMNM9oyPgb5BvkG+Qb5BvkG+Qb5BsEy2TINMw0zDTMNMw0zDTMNM90ywzL5BvkG+Qb5BvkG+Qb5BvkGNDINMw0zDTMNMw0zDTPaMg0zPgb5BvkG+Qb5BvkG+QbBMvkGFDPaMg0zDTMNMw0zDTPdMg0zPgbBMvkG+Qb5BvkG+Qb5BvkGNzLdMg0zDTMNMw0zDTPaMg0zPgb5BvkG+Qb5BvkG+QbBMvkGFDMNM9oy2jLaMtoy2jLdMg0zPgb5Bhsz4zLkMuUyGzP5BvkG2TLaMhwH5jLoMucyHAfaMtoy",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwcHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}
