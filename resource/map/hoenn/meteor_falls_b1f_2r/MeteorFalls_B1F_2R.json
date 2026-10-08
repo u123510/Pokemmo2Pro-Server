@@ -1,0 +1,300 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 3,
+  "width": 11,
+  "height": 18,
+  "paletteIdx1": 100,
+  "paletteIdx2": 123,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 386,
+  "unknownByte": 63,
+  "borderTiles": [
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_METEOR_FALLS_B1F_2R",
+      "base_label": "gMeteorFalls_B1F_2R",
+      "land_mons": {
+        "encounter_rate": 10,
+        "mons": [
+          {
+            "min_level": 33,
+            "max_level": 33,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 35,
+            "max_level": 35,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 30,
+            "max_level": 30,
+            "species": "SPECIES_BAGON"
+          },
+          {
+            "min_level": 35,
+            "max_level": 35,
+            "species": "SPECIES_SOLROCK"
+          },
+          {
+            "min_level": 35,
+            "max_level": 35,
+            "species": "SPECIES_BAGON"
+          },
+          {
+            "min_level": 37,
+            "max_level": 37,
+            "species": "SPECIES_SOLROCK"
+          },
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_BAGON"
+          },
+          {
+            "min_level": 39,
+            "max_level": 39,
+            "species": "SPECIES_SOLROCK"
+          },
+          {
+            "min_level": 38,
+            "max_level": 38,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 40,
+            "max_level": 40,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 38,
+            "max_level": 38,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 40,
+            "max_level": 40,
+            "species": "SPECIES_GOLBAT"
+          }
+        ]
+      },
+      "water_mons": {
+        "encounter_rate": 4,
+        "mons": [
+          {
+            "min_level": 30,
+            "max_level": 35,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 30,
+            "max_level": 35,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 25,
+            "max_level": 35,
+            "species": "SPECIES_SOLROCK"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_SOLROCK"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_SOLROCK"
+          }
+        ]
+      },
+      "fishing_mons": {
+        "encounter_rate": 30,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 10,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 10,
+            "species": "SPECIES_GOLDEEN"
+          },
+          {
+            "min_level": 10,
+            "max_level": 30,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 10,
+            "max_level": 30,
+            "species": "SPECIES_GOLDEEN"
+          },
+          {
+            "min_level": 10,
+            "max_level": 30,
+            "species": "SPECIES_BARBOACH"
+          },
+          {
+            "min_level": 25,
+            "max_level": 30,
+            "species": "SPECIES_BARBOACH"
+          },
+          {
+            "min_level": 30,
+            "max_level": 35,
+            "species": "SPECIES_BARBOACH"
+          },
+          {
+            "min_level": 30,
+            "max_level": 35,
+            "species": "SPECIES_WHISCASH"
+          },
+          {
+            "min_level": 35,
+            "max_level": 40,
+            "species": "SPECIES_WHISCASH"
+          },
+          {
+            "min_level": 40,
+            "max_level": 45,
+            "species": "SPECIES_WHISCASH"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 5,
+      "y": 15,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 2,
+      "targetX": 17,
+      "targetY": 3,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 59,
+      "x": 5,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "MeteorFalls_B1F_2R_EventScript_ItemTMDragonClaw",
+      "hideFlag": "hoenn/FLAG_ITEM_METEOR_FALLS_B1F_2R_TM_DRAGON_CLAW",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "AQY+Bj4GPgY+Bj4GPgY+Bj4GPgYBBjQGEwYxBjEGMQYxBjEGMQYxBhQGPAY0BioGEwYxBjEGMQYxBjEGFAYoBjwGNAYqBioGATIBMgEyATIBMigGKAY8BjQGKgYqBgEyATIBMgEyATIoBigGPAY0BioGKgaAEYkRiRGJEYERKAYoBjwGNAYqBioGkBFwEXARcBGSESgGKAY8BjQGKgYqBpARcBFwEXARkhEoBigGPAY0BioGKgaQEXARcBFwEZIRKAYoBjwGNAYqBioGkBFwEXARcBGSESgGKAY8BjQGKgYqBpARcBFwEXARkhEoBigGPAY0BioGKgaQEXARcBFwEZIRKAYoBjwGNAYqBioGkBFwEXARcBGSESgGKAY8BjQGKgYqBpARcBFwEXARkhEoBigGPAY0BioGKgYeMh4yHjIeMh4yKAYoBjwGNAYqBioGATIBMgcyATIBMigGKAY8BjQGKgaGBoYGfQZ+Bn8GhgaGBigGPAYBBoYGhgaGBoYGhgaGBoYGhgaGBgEG",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

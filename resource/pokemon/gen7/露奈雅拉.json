@@ -1,0 +1,157 @@
+{
+	"id": 792,
+	"name": "[792]露奈雅拉",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 40,
+	"weight": 1200,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 93,
+			"name": "[93]念力",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 95,
+			"name": "[95]催眠术",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 100,
+			"name": "[100]瞬间移动",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 322,
+			"name": "[322]宇宙力量",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 714,
+			"name": "[714]暗影之光",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 101,
+			"name": "[101]黑夜魔影",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 109,
+			"name": "[109]奇异之光",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 403,
+			"name": "[403]空气斩",
+			"type": "level",
+			"level": 19
+		},
+		{
+			"id": 247,
+			"name": "[247]暗影球",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 236,
+			"name": "[236]月光",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 539,
+			"name": "[539]暗黑爆破",
+			"type": "level",
+			"level": 37
+		},
+		{
+			"id": 277,
+			"name": "[277]魔法反射",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 585,
+			"name": "[585]月亮之力",
+			"type": "level",
+			"level": 47
+		},
+		{
+			"id": 138,
+			"name": "[138]食梦",
+			"type": "level",
+			"level": 59
+		},
+		{
+			"id": 566,
+			"name": "[566]潜灵奇袭",
+			"type": "level",
+			"level": 61
+		},
+		{
+			"id": 469,
+			"name": "[469]广域防守",
+			"type": "level",
+			"level": 67
+		},
+		{
+			"id": 63,
+			"name": "[63]破坏光线",
+			"type": "level",
+			"level": 73
+		}
+	],
+	"types": [
+		"PSYCHIC",
+		"GHOST"
+	],
+	"stats": {
+		"hp": 137,
+		"attack": 113,
+		"defense": 89,
+		"speed": 137,
+		"sp_attack": 107,
+		"sp_defense": 97
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 3,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

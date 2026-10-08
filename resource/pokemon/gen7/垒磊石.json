@@ -1,0 +1,133 @@
+{
+	"id": 1075,
+	"name": "[1075]垒磊石",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 55,
+	"weight": 8200,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 182,
+			"name": "[182]守住",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 157,
+			"name": "[157]岩崩",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 446,
+			"name": "[446]隐形岩",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 117,
+			"name": "[117]忍耐",
+			"type": "level",
+			"level": 17
+		},
+		{
+			"id": 36,
+			"name": "[36]猛撞",
+			"type": "level",
+			"level": 19
+		},
+		{
+			"id": 88,
+			"name": "[88]落石",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 475,
+			"name": "[475]身体轻量化",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 334,
+			"name": "[334]铁壁",
+			"type": "level",
+			"level": 37
+		},
+		{
+			"id": 442,
+			"name": "[442]铁头",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 350,
+			"name": "[350]岩石爆击",
+			"type": "level",
+			"level": 47
+		},
+		{
+			"id": 469,
+			"name": "[469]广域防守",
+			"type": "level",
+			"level": 53
+		},
+		{
+			"id": 38,
+			"name": "[38]舍身冲撞",
+			"type": "level",
+			"level": 61
+		}
+	],
+	"types": [
+		"ROCK",
+		"STEEL"
+	],
+	"stats": {
+		"hp": 61,
+		"attack": 131,
+		"defense": 211,
+		"speed": 53,
+		"sp_attack": 101,
+		"sp_defense": 13
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 3,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

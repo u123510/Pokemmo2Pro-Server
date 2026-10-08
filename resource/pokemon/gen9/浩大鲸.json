@@ -1,0 +1,144 @@
+{
+	"id": 975,
+	"name": "[975]浩大鲸",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 45,
+	"weight": 7000,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 47,
+			"name": "[047]特性47"
+		},
+		{
+			"id": 47,
+			"name": "[047]特性47"
+		},
+		{
+			"id": 125,
+			"name": "[125]特性125"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 181,
+			"name": "[181]细雪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 6
+		},
+		{
+			"id": 497,
+			"name": "[497]回声",
+			"type": "level",
+			"level": 9
+		},
+		{
+			"id": 420,
+			"name": "[420]冰砾",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 156,
+			"name": "[156]睡觉",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 36,
+			"name": "[36]猛撞",
+			"type": "level",
+			"level": 19
+		},
+		{
+			"id": 175,
+			"name": "[175]抓狂",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 419,
+			"name": "[419]雪崩",
+			"type": "level",
+			"level": 27
+		},
+		{
+			"id": 340,
+			"name": "[340]弹跳",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 34,
+			"name": "[34]泰山压顶",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 133,
+			"name": "[133]瞬间失忆",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 861,
+			"name": "[861]冰旋",
+			"type": "level",
+			"level": 44
+		},
+		{
+			"id": 38,
+			"name": "[38]舍身冲撞",
+			"type": "level",
+			"level": 49
+		},
+		{
+			"id": 59,
+			"name": "[59]暴风雪",
+			"type": "level",
+			"level": 53
+		}
+	],
+	"types": [
+		"ICE"
+	],
+	"stats": {
+		"hp": 170,
+		"attack": 113,
+		"defense": 65,
+		"speed": 45,
+		"sp_attack": 55,
+		"sp_defense": 73
+	},
+	"yields": {
+		"ev_hp": 2,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

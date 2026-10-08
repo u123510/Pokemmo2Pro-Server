@@ -1,0 +1,311 @@
+{
+  "regionId": 1,
+  "bankId": 50,
+  "mapId": 10,
+  "width": 20,
+  "height": 20,
+  "paletteIdx1": 100,
+  "paletteIdx2": 101,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 363,
+  "unknownByte": 1,
+  "borderTiles": [
+    {
+      "material": 468,
+      "collision": 0
+    },
+    {
+      "material": 469,
+      "collision": 0
+    },
+    {
+      "material": 476,
+      "collision": 0
+    },
+    {
+      "material": 477,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "REGULAR_WEATHER",
+  "mapType": "VILLAGE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "OldaleTown_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [
+    {
+      "x": 0,
+      "y": 10,
+      "elevation": 3,
+      "varKey": "VAR_OLDALE_TOWN_STATE",
+      "value": 0,
+      "script": "OldaleTown_EventScript_BlockedPath"
+    },
+    {
+      "x": 8,
+      "y": 19,
+      "elevation": 3,
+      "varKey": "VAR_OLDALE_RIVAL_STATE",
+      "value": 1,
+      "script": "OldaleTown_EventScript_RivalTrigger1"
+    },
+    {
+      "x": 9,
+      "y": 19,
+      "elevation": 3,
+      "varKey": "VAR_OLDALE_RIVAL_STATE",
+      "value": 1,
+      "script": "OldaleTown_EventScript_RivalTrigger2"
+    },
+    {
+      "x": 10,
+      "y": 19,
+      "elevation": 3,
+      "varKey": "VAR_OLDALE_RIVAL_STATE",
+      "value": 1,
+      "script": "OldaleTown_EventScript_RivalTrigger3"
+    }
+  ],
+  "bgEvents": [
+    {
+      "x": 11,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "OldaleTown_EventScript_TownSign"
+    },
+    {
+      "x": 7,
+      "y": 16,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    },
+    {
+      "x": 15,
+      "y": 6,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemartSign"
+    },
+    {
+      "x": 8,
+      "y": 16,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    },
+    {
+      "x": 16,
+      "y": 6,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemartSign"
+    }
+  ],
+  "connections": [
+    {
+      "direction": "UP",
+      "unknown": 0,
+      "targetBank": 50,
+      "targetMap": 18
+    },
+    {
+      "direction": "DOWN",
+      "unknown": 0,
+      "targetBank": 50,
+      "targetMap": 16
+    },
+    {
+      "direction": "LEFT",
+      "unknown": 0,
+      "targetBank": 50,
+      "targetMap": 17
+    }
+  ],
+  "warps": [
+    {
+      "x": 5,
+      "y": 7,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 52,
+      "targetMapId": 0,
+      "targetX": 3,
+      "targetY": 8,
+      "targetElevation": 0
+    },
+    {
+      "x": 15,
+      "y": 16,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 52,
+      "targetMapId": 1,
+      "targetX": 3,
+      "targetY": 7,
+      "targetElevation": 0
+    },
+    {
+      "x": 6,
+      "y": 16,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 52,
+      "targetMapId": 2,
+      "targetX": 7,
+      "targetY": 8,
+      "targetElevation": 2
+    },
+    {
+      "x": 14,
+      "y": 6,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 52,
+      "targetMapId": 4,
+      "targetX": 3,
+      "targetY": 7,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 14,
+      "x": 16,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "OldaleTown_EventScript_Girl",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 83,
+      "x": 13,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "OldaleTown_EventScript_MartEmployee",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 39,
+      "x": 8,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "OldaleTown_EventScript_FootprintsMan",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 0,
+      "x": 11,
+      "y": 19,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "OldaleTown_EventScript_Rival",
+      "hideFlag": "hoenn/FLAG_HIDE_OLDALE_TOWN_RIVAL",
+      "rawMovementType": 7
+    }
+  ],
+  "blockData": "1AXVBdQF1QXUBdUF1AXVBQEw0DHSMQEw1AXVBdQF1QXUBdUF1AXVBdwF3QXcBd0F5AXlBeQF5wXQMdkx2jEBMOYF5QXkBeUF3AXdBdwF3QXUBdUF1AXVBQEwATABMAEw2DHZMdkx0jEBMAEwATABMNQF1QXUBdUF3AXdBeQF5wUBMAEwATABMNgx2THZMdoxATAoMCkwKTCFBuUF3AXdBdQF1QUBMAEwbDJtMm0ybjLYMdkx2THaMQEwMAQxBDIEMwQBMNQF1QXcBd0FATAEMHQGdQZ1BnYG2DHZMdkx2THSMTgEOQQ6BDsEATDcBd0F1AXVBQQwATB8Bn8GfQZ+Btgx2THZMdkx2jFgBEEEQgRDBAEw1AXVBdwF3QUBMAQwhAaHBo8GhgbYMeEx4THhMdkx0THRMdEx0THSMeYF5QXUBdUFBDABMAEw0DHRMdEx2jEBMAEwBDDYMdkx2THZMdkx2THSMQEw5AXnBQEw0DHRMdkx2THZMdoxBDABMAME2DHZMdkx2THZMdkx4jEBMAYyATDQMdkx2THZMdkx2THaMQEwBDABMNgx2THZMdkx2THiMQEwATAHMs8x4DHhMeEx2THZMdkx2THRMdEx0THZMdkx2THhMeIxATDOMc8x1AXXBQEwATABMOAx4THZMdkx2THZMdkx2THZMdoxATABMAEw1gXVBdwF3QUBMAEwATBIMEkwgjKDMtkx2THZMdkx4TFsMm0ybTJuMtwF3QXUBdUFATABMAEwUARRBFIEUwTZMdkx2THaMQEwdAZ1BnUGdgbUBdUF3AXdBc4xzzEBMFgEWQRaBFsE2DHZMdkx2jEBMHwGfwZ9Bn4G3AXdBdQF1QXUBdcFATBgBGEEYgRjBNgx2THZMeIxATCEBocGjwaGBtQF1QXcBd0F3AXdBQEwATABMNAx0THZMdkx2jEBMAEwATABMM4xzzHcBd0F1AXVBdQF1QUBMAEwATDYMdkx2THZMdoxATABMAEwATDWBdUF1AXVBdwF3QXcBd0FzjHPMc4xeDLZMdkx2THiMc4xzzHOMc8x3AXdBdwF3QU=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+}

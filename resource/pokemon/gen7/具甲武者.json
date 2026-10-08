@@ -1,0 +1,152 @@
+{
+	"id": 768,
+	"name": "[768]具甲武者",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 20,
+	"weight": 1080,
+	"egg_groups": [
+		"水3组",
+		"虫组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 28,
+			"name": "[28]泼沙",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 210,
+			"name": "[210]连斩",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 249,
+			"name": "[249]碎岩",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 522,
+			"name": "[522]虫之抵抗",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 660,
+			"name": "[660]迎头一击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 210,
+			"name": "[210]连斩",
+			"type": "level",
+			"level": 4
+		},
+		{
+			"id": 249,
+			"name": "[249]碎岩",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 450,
+			"name": "[450]虫咬",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 180,
+			"name": "[180]怨恨",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 14,
+			"name": "[14]剑舞",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 163,
+			"name": "[163]劈开",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 534,
+			"name": "[534]贝壳刃",
+			"type": "level",
+			"level": 26
+		},
+		{
+			"id": 389,
+			"name": "[389]突袭",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 334,
+			"name": "[334]铁壁",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 42,
+			"name": "[42]飞弹针",
+			"type": "level",
+			"level": 41
+		},
+		{
+			"id": 710,
+			"name": "[710]水流裂破",
+			"type": "level",
+			"level": 48
+		}
+	],
+	"types": [
+		"BUG",
+		"WATER"
+	],
+	"stats": {
+		"hp": 75,
+		"attack": 125,
+		"defense": 140,
+		"speed": 60,
+		"sp_attack": 90,
+		"sp_defense": 40
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 2,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

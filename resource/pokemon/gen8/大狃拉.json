@@ -1,0 +1,103 @@
+{
+	"id": 903,
+	"name": "[903]大狃拉",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 13,
+	"weight": 430,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 84,
+			"name": "[084]特性84"
+		},
+		{
+			"id": 143,
+			"name": "[143]特性143"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 98,
+			"name": "[98]电光一闪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 249,
+			"name": "[249]碎岩",
+			"type": "level",
+			"level": 6
+		},
+		{
+			"id": 129,
+			"name": "[129]高速星星",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 827,
+			"name": "[827]克命爪",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 163,
+			"name": "[163]劈开",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 398,
+			"name": "[398]毒击",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 14,
+			"name": "[14]剑舞",
+			"type": "level",
+			"level": 34
+		},
+		{
+			"id": 370,
+			"name": "[370]近身战",
+			"type": "level",
+			"level": 43
+		}
+	],
+	"types": [
+		"FIGHTING",
+		"POISON"
+	],
+	"stats": {
+		"hp": 80,
+		"attack": 130,
+		"defense": 60,
+		"speed": 40,
+		"sp_attack": 80,
+		"sp_defense": 120
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 2,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

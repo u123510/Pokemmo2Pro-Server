@@ -1,0 +1,133 @@
+{
+	"id": 1010,
+	"name": "[1010]铁斑叶",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 15,
+	"weight": 1250,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 345,
+			"name": "[345]魔法叶",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 514,
+			"name": "[514]报仇",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 501,
+			"name": "[501]快速防守",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 400,
+			"name": "[400]暗袭要害",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 14,
+			"name": "[14]剑舞",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 533,
+			"name": "[533]圣剑",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 348,
+			"name": "[348]叶刃",
+			"type": "level",
+			"level": 49
+		},
+		{
+			"id": 875,
+			"name": "[875]精神剑",
+			"type": "level",
+			"level": 56
+		},
+		{
+			"id": 370,
+			"name": "[370]近身战",
+			"type": "level",
+			"level": 63
+		},
+		{
+			"id": 286,
+			"name": "[286]封印",
+			"type": "level",
+			"level": 70
+		},
+		{
+			"id": 224,
+			"name": "[224]超级角击",
+			"type": "level",
+			"level": 77
+		},
+		{
+			"id": 502,
+			"name": "[502]交换场地",
+			"type": "level",
+			"level": 84
+		},
+		{
+			"id": 669,
+			"name": "[669]日光刃",
+			"type": "level",
+			"level": 91
+		}
+	],
+	"types": [
+		"GRASS",
+		"PSYCHIC"
+	],
+	"stats": {
+		"hp": 90,
+		"attack": 130,
+		"defense": 88,
+		"speed": 70,
+		"sp_attack": 108,
+		"sp_defense": 104
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 3,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

@@ -1,0 +1,216 @@
+{
+  "regionId": 1,
+  "bankId": 63,
+  "mapId": 10,
+  "width": 24,
+  "height": 15,
+  "paletteIdx1": 100,
+  "paletteIdx2": 129,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 408,
+  "unknownByte": 12,
+  "borderTiles": [
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "LilycoveCity_Harbor_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 11,
+      "y": 14,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 5,
+      "targetX": 12,
+      "targetY": 32,
+      "targetElevation": 0
+    },
+    {
+      "x": 12,
+      "y": 14,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 5,
+      "targetX": 12,
+      "targetY": 32,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 45,
+      "x": 8,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LilycoveCity_Harbor_EventScript_FerryAttendant",
+      "hideFlag": "hoenn/FLAG_HIDE_LILYCOVE_HARBOR_FERRY_ATTENDANT",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 140,
+      "x": 8,
+      "y": 9,
+      "elevation": 0,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_LILYCOVE_HARBOR_SSTIDAL",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 49,
+      "x": 3,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LilycoveCity_Harbor_EventScript_Sailor",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 49,
+      "x": 8,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_LILYCOVE_HARBOR_FERRY_SAILOR",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 21,
+      "x": 8,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_LILYCOVE_HARBOR_EVENT_TICKET_TAKER",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "GQIZAhkCGQIZAhkCGQIZAhkCGQIZAhkCGQIZAhkCGQIZAhkCGQIZAhkCGQIZAhkCsgO2A7YDsgOyA7IDtgO2A7IDsgOyA7YDtgOyA7IDsgO2A7YDsgOyA7IDtgO2A7IDsgO3A7cDsgOyA7IDtwO3A7IDsgOyA7cDtwOyA7IDsgO3A7cDsgOyA7IDtwO3A7IDIQYhBiEGIQYhBiEGIQYhBiEGIQYhBiEGIQYhBiEGIQYhBiEGIQYhBiEGIQYhBiEGAzIDMgMyTQdOB04HTgdOB04HTgdOB04HTgdOB04HTgdOB04HTgdOB04HTgdOB04HAzICMgIyRwdxFXEVcRVxFXEVcRVxFXEVcRVxFXEVcRVxFXEVcRVxFXEVcRVxFXEVAzICMgIyRwdxFXAVcBVwFXAVcBVwFXAVcBVwFXAVcBVwFXAVcBVwFXAVcBVwFXAVAzICMgIyRwdxFXAVcBVwFXAVcBVwFXAVcBVwFXAVcBVwFXAVcBVwFXAVcBVwFXAVAzICMgIyRwdxFXAVcBVwFXAVcBVwFXAVcBVwFXAVcBVwFXAVcBVwFXAVcBVwFXAVAzICMgIyRwdxFXAVcBVwFXAVcBVwFXAVcBVwFXAVcBVwFXAVcBVwFXAVcBVwFXAVAzICMgIyaAZWB1YHVwdbM1szVQdWB1YHVgdWB1YHVgdWB0YH3jffN1YHVgdWB1YHAzICMgIyBDIEMgQyBDICMgIyJTIEMgQyJTIEMgQyJTIEMmAG2jfbN9g32TexNio2AzICMgIyAjICMgIyAjICMgIyAjICMgIyAjICMgIyAjICMmAG3DfdN9w33TfYN9k3AzICMgIyAjICMgIyAjICMgIyAjICMgIyAjICMgIyAjICMmAGKjYqNio2KjbaN9s3AzICMgIyAjICMgIyAjICMgIyAjICMgYCBwICMgIyAjICMmAGKDYoNig2KDbcN903",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQAAAAAAAAAAAAAA"
+}

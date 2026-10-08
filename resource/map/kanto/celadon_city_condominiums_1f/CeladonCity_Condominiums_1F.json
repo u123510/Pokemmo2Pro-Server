@@ -1,0 +1,260 @@
+{
+  "regionId": 0,
+  "bankId": 10,
+  "mapId": 7,
+  "width": 15,
+  "height": 20,
+  "paletteIdx1": 12,
+  "paletteIdx2": 53,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 309,
+  "unknownByte": 94,
+  "borderTiles": [
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 8,
+      "y": 12,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "CeladonCity_Condominiums_1F_EventScript_SuiteSign"
+    },
+    {
+      "x": 7,
+      "y": 12,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "CeladonCity_Condominiums_1F_EventScript_SuiteSign"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 11,
+      "y": 19,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 6,
+      "targetX": 30,
+      "targetY": 11,
+      "targetElevation": 0
+    },
+    {
+      "x": 12,
+      "y": 18,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 6,
+      "targetX": 30,
+      "targetY": 11,
+      "targetElevation": 0
+    },
+    {
+      "x": 13,
+      "y": 19,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 6,
+      "targetX": 30,
+      "targetY": 11,
+      "targetElevation": 0
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 10,
+      "targetMapId": 8,
+      "targetX": 4,
+      "targetY": 2,
+      "targetElevation": 2
+    },
+    {
+      "x": 12,
+      "y": 2,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 10,
+      "targetMapId": 8,
+      "targetX": 12,
+      "targetY": 2,
+      "targetElevation": 2
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 6,
+      "targetX": 30,
+      "targetY": 4,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 125,
+      "x": 1,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "CeladonCity_Condominiums_1F_EventScript_Meowth",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 113,
+      "x": 5,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "WANDER_LEFT_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "CeladonCity_Condominiums_1F_EventScript_Clefairy",
+      "hideFlag": "",
+      "rawMovementType": 5
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 122,
+      "x": 5,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 2,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "CeladonCity_Condominiums_1F_EventScript_Nidoran",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 35,
+      "x": 2,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "CeladonCity_Condominiums_1F_EventScript_TeaWoman",
+      "hideFlag": "",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "iQbbBtwG6wb4BokGiQaMBogGuAa5BokG+AaJBokGkQbjBuQy7Ab5Bq4GrwaUBpAGwAbBBpEG+QauBq8GgjKCMoIygjLxMrYGtwaUBpAGgjKCMoIy8TK2BrcGgjKBMoEygTKtMr4GvwaUBpAGgjKBMoEyrTK+Br8GoDKhMqEyoTKhMgIzoDKcBpAGgjKBMoEygTKHMoUyiQaJBokGiwaJBrgGuQaMBpAGyTKBMoEygTKBMsgyygaRBsoGkwbKBsAGwQaUBpAG0QaBMoEygTKBMtAG0QaCMtEGgjLRBoIygjKUBpAGgjKBMoEygTKBMoEygjKBMoEygTKBMoEygTKUBpAGyTKBMoEygTKBMsgygjLFMsYyxjLHMoEygTKUBpAG0QaBMoEygTKBMtAGgjLNBs4GzgbPBoMygTKUBpAGgjKBMoEygTKBMoEygjLVBtYG1gbXBoMygTL6BvQGyTKBMoEygTKBMsgygjLdBt4G3gbfBoMygTL7BvwG0QaBMoEygTKBMtAGgjK0MoUyhTK0MoYygTKCMoIygjKBMoEygTKBMoEyoDKhMqEyoTKhMqEyoTKhMqEygTKBMoEygTKBMsgyiQaJBroGuwaJBokGiQaJBqgGgjKBMoEygTKBMtAGygaRBsIGwwaRBpEGkQaRBrAGgjKBMoEygTKBMoEy0QaCMrwyvTKCMoIygjKCMoIygjKBMoEygTKBMoEygjKBMoEygTKBMoEygTKBMoEygTKBMugy6TLqMoEyCAQIBAgECAQIBAgECAQIBAgECAQIBBoEGwQcBAgE",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAAAAAAAAA"
+}

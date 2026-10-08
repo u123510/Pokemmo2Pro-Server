@@ -1,0 +1,147 @@
+{
+	"id": 757,
+	"name": "[757]夜盗火蜥",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 32,
+	"height": 6,
+	"weight": 48,
+	"egg_groups": [
+		"怪兽组",
+		"龙组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 12,
+			"name": "[012]特性12"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 758,
+			"name": "[758]焰后蜥",
+			"type": "LEVEL",
+			"val": 33
+		}
+	],
+	"moves": [
+		{
+			"id": 10,
+			"name": "[10]抓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 139,
+			"name": "[139]毒瓦斯",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 52,
+			"name": "[52]火花",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 230,
+			"name": "[230]甜甜香气",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 82,
+			"name": "[82]龙之怒",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 123,
+			"name": "[123]浊雾",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 3,
+			"name": "[3]连环巴掌",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 481,
+			"name": "[481]烈焰溅射",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 92,
+			"name": "[92]剧毒",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 417,
+			"name": "[417]诡计",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 474,
+			"name": "[474]毒液冲击",
+			"type": "level",
+			"level": 37
+		},
+		{
+			"id": 53,
+			"name": "[53]喷射火焰",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 599,
+			"name": "[599]毒液陷阱",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 406,
+			"name": "[406]龙之波动",
+			"type": "level",
+			"level": 48
+		}
+	],
+	"types": [
+		"POISON",
+		"FIRE"
+	],
+	"stats": {
+		"hp": 48,
+		"attack": 44,
+		"defense": 40,
+		"speed": 71,
+		"sp_attack": 40,
+		"sp_defense": 77
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 1
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

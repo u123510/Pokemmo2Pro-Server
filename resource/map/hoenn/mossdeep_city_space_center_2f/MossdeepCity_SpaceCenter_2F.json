@@ -1,0 +1,271 @@
+{
+  "regionId": 1,
+  "bankId": 64,
+  "mapId": 10,
+  "width": 16,
+  "height": 10,
+  "paletteIdx1": 100,
+  "paletteIdx2": 129,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 399,
+  "unknownByte": 13,
+  "borderTiles": [
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "MossdeepCity_SpaceCenter_2F_OnTransition",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_MOSSDEEP_SPACE_CENTER_STATE",
+      "value": 1,
+      "script": "MossdeepCity_SpaceCenter_2F_EventScript_ThreeMagmaGrunts"
+    }
+  ],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 13,
+      "y": 1,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 64,
+      "targetMapId": 9,
+      "targetX": 13,
+      "targetY": 1,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 15,
+      "x": 6,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "MossdeepCity_SpaceCenter_2F_EventScript_RichBoy",
+      "hideFlag": "",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 48,
+      "x": 11,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "MossdeepCity_SpaceCenter_2F_EventScript_Gentleman",
+      "hideFlag": "",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 46,
+      "x": 5,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "MossdeepCity_SpaceCenter_2F_EventScript_Scientist",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 134,
+      "x": 1,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "MossdeepCity_SpaceCenter_2F_EventScript_Steven",
+      "hideFlag": "hoenn/FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_STEVEN",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 119,
+      "x": 12,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "MossdeepCity_SpaceCenter_2F_EventScript_Grunt6",
+      "hideFlag": "hoenn/FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 119,
+      "x": 13,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "MossdeepCity_SpaceCenter_2F_EventScript_Grunt5",
+      "hideFlag": "hoenn/FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 119,
+      "x": 14,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "MossdeepCity_SpaceCenter_2F_EventScript_Grunt7",
+      "hideFlag": "hoenn/FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 119,
+      "x": 0,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "MossdeepCity_SpaceCenter_2F_EventScript_Tabitha",
+      "hideFlag": "hoenn/FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 196,
+      "x": 1,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "MossdeepCity_SpaceCenter_2F_EventScript_Maxie",
+      "hideFlag": "hoenn/FLAG_HIDE_MOSSDEEP_CITY_SPACE_CENTER_2F_TEAM_MAGMA",
+      "rawMovementType": 7
+    }
+  ],
+  "blockData": "EQYZAhkC+Ab4BvgG+Ab4BvgG+Ab4BvgGwwbEBsUGGQIKBrgGuQYABwAHAAcABwAHAAcABwAHAAfLBswCzQa5BgkGdjN2M2YzZjNmM2YzZjNmM2YzZjNmM24zZjNvM3YzEAbxMmEz8DLwMmEz8DLwMmEz8DLwMmEz8DLwMvAy8DIgBlYHcwdzB3MHcwdzB3MHcwdzB3MHcwd0B/Ay8DLwMnIzZjNmM2YzZjNmM2YzZjNmM2YzZjNmM2Yz8DLwMvAy8TLwMmMzZDPwMmMzZDPwMmIzZDPwMmMzZDPwMvAy8DLxMvAyawdsB/AyawdsB/AyagdsB/AyawdsB/Ay8DLwMvEy8DJhM/Ay8DJhM/Ay8DJhM/Ay8DJhM/Ay8DLwMvAy8TLwMvAy8DLwMvAy8DLwMvAy8DLwMvAy8DLwMvAy8DI=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+}

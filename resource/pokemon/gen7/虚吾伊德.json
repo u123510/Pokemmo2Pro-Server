@@ -1,0 +1,169 @@
+{
+	"id": 793,
+	"name": "[793]虚吾伊德",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 12,
+	"weight": 555,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 1,
+			"name": "[1]拍击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 51,
+			"name": "[51]溶解液",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 132,
+			"name": "[132]缠绕",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 321,
+			"name": "[321]挠痒",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 470,
+			"name": "[470]防守平分",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 471,
+			"name": "[471]力量平分",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 499,
+			"name": "[499]清除之烟",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 149,
+			"name": "[149]精神波",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 29,
+			"name": "[29]头锤",
+			"type": "level",
+			"level": 19
+		},
+		{
+			"id": 474,
+			"name": "[474]毒液冲击",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 390,
+			"name": "[390]毒菱",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 219,
+			"name": "[219]神秘守护",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 408,
+			"name": "[408]力量宝石",
+			"type": "level",
+			"level": 37
+		},
+		{
+			"id": 243,
+			"name": "[243]镜面反射",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 491,
+			"name": "[491]酸液炸弹",
+			"type": "level",
+			"level": 47
+		},
+		{
+			"id": 599,
+			"name": "[599]毒液陷阱",
+			"type": "level",
+			"level": 53
+		},
+		{
+			"id": 446,
+			"name": "[446]隐形岩",
+			"type": "level",
+			"level": 59
+		},
+		{
+			"id": 472,
+			"name": "[472]奇妙空间",
+			"type": "level",
+			"level": 67
+		},
+		{
+			"id": 457,
+			"name": "[457]双刃头锤",
+			"type": "level",
+			"level": 73
+		}
+	],
+	"types": [
+		"ROCK",
+		"POISON"
+	],
+	"stats": {
+		"hp": 109,
+		"attack": 53,
+		"defense": 47,
+		"speed": 127,
+		"sp_attack": 131,
+		"sp_defense": 103
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 3,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

@@ -1,0 +1,151 @@
+{
+	"id": 964,
+	"name": "[964]海豚侠",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 13,
+	"weight": 602,
+	"egg_groups": [
+		"水2组",
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 48,
+			"name": "[48]超音波",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 55,
+			"name": "[55]水枪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 857,
+			"name": "[857]喷射拳",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 310,
+			"name": "[310]惊吓",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 116,
+			"name": "[116]聚气",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 453,
+			"name": "[453]水流喷射",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 458,
+			"name": "[458]二连击",
+			"type": "level",
+			"level": 17
+		},
+		{
+			"id": 291,
+			"name": "[291]潜水",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 204,
+			"name": "[204]撒娇",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 512,
+			"name": "[512]杂技",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 227,
+			"name": "[227]再来一次",
+			"type": "level",
+			"level": 34
+		},
+		{
+			"id": 401,
+			"name": "[401]水流尾",
+			"type": "level",
+			"level": 39
+		},
+		{
+			"id": 54,
+			"name": "[54]白雾",
+			"type": "level",
+			"level": 44
+		},
+		{
+			"id": 56,
+			"name": "[56]水炮",
+			"type": "level",
+			"level": 50
+		},
+		{
+			"id": 264,
+			"name": "[264]真气拳",
+			"type": "level",
+			"level": 55
+		},
+		{
+			"id": 834,
+			"name": "[834]波动冲",
+			"type": "level",
+			"level": 61
+		}
+	],
+	"types": [
+		"WATER"
+	],
+	"stats": {
+		"hp": 100,
+		"attack": 70,
+		"defense": 72,
+		"speed": 53,
+		"sp_attack": 62,
+		"sp_defense": 100
+	},
+	"yields": {
+		"ev_hp": 2,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

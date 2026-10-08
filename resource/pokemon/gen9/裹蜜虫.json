@@ -1,0 +1,140 @@
+{
+	"id": 1011,
+	"name": "[1011]裹蜜虫",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 4,
+	"weight": 97,
+	"egg_groups": [
+		"植物组",
+		"龙组"
+	],
+	"abilities": [
+		{
+			"id": 82,
+			"name": "[082]特性82"
+		},
+		{
+			"id": 82,
+			"name": "[082]特性82"
+		},
+		{
+			"id": 60,
+			"name": "[060]特性60"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 110,
+			"name": "[110]缩入壳中",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 230,
+			"name": "[230]甜甜香气",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 278,
+			"name": "[278]回收利用",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 310,
+			"name": "[310]惊吓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 525,
+			"name": "[525]龙尾",
+			"type": "level",
+			"level": 4
+		},
+		{
+			"id": 74,
+			"name": "[74]生长",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 225,
+			"name": "[225]龙息",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 182,
+			"name": "[182]守住",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 331,
+			"name": "[331]种子机关枪",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 903,
+			"name": "[903]糖浆炸弹",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 406,
+			"name": "[406]龙之波动",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 105,
+			"name": "[105]自我再生",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 412,
+			"name": "[412]能量球",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 164,
+			"name": "[164]替身",
+			"type": "level",
+			"level": 44
+		}
+	],
+	"types": [
+		"GRASS",
+		"DRAGON"
+	],
+	"stats": {
+		"hp": 80,
+		"attack": 80,
+		"defense": 110,
+		"speed": 95,
+		"sp_attack": 80,
+		"sp_defense": 40
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 2,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

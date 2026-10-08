@@ -1,0 +1,103 @@
+{
+	"id": 899,
+	"name": "[899]诡角鹿",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 18,
+	"weight": 951,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 22,
+			"name": "[022]特性22"
+		},
+		{
+			"id": 119,
+			"name": "[119]特性119"
+		},
+		{
+			"id": 157,
+			"name": "[157]特性157"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 93,
+			"name": "[93]念力",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 95,
+			"name": "[95]催眠术",
+			"type": "level",
+			"level": 9
+		},
+		{
+			"id": 347,
+			"name": "[347]冥想",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 828,
+			"name": "[828]屏障猛攻",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 326,
+			"name": "[326]神通力",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 428,
+			"name": "[428]意念头锤",
+			"type": "level",
+			"level": 37
+		},
+		{
+			"id": 38,
+			"name": "[38]舍身冲撞",
+			"type": "level",
+			"level": 47
+		}
+	],
+	"types": [
+		"NORMAL",
+		"PSYCHIC"
+	],
+	"stats": {
+		"hp": 103,
+		"attack": 105,
+		"defense": 72,
+		"speed": 105,
+		"sp_attack": 75,
+		"sp_defense": 65
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 1,
+		"ev_defense": 0,
+		"ev_speed": 1,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

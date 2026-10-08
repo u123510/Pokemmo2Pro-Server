@@ -1,0 +1,252 @@
+{
+  "regionId": 0,
+  "bankId": 1,
+  "mapId": 112,
+  "width": 24,
+  "height": 20,
+  "paletteIdx1": 0,
+  "paletteIdx2": 38,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 331,
+  "unknownByte": 177,
+  "borderTiles": [
+    {
+      "material": 657,
+      "collision": 0
+    },
+    {
+      "material": 657,
+      "collision": 0
+    },
+    {
+      "material": 657,
+      "collision": 0
+    },
+    {
+      "material": 657,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_FOUR_ISLAND_ICEFALL_CAVE_B1F",
+      "base_label": "sFourIslandIcefallCaveB1F_FireRed",
+      "land_mons": {
+        "encounter_rate": 7,
+        "mons": [
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_SWINUB"
+          },
+          {
+            "min_level": 45,
+            "max_level": 45,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 45,
+            "max_level": 45,
+            "species": "SPECIES_SEEL"
+          },
+          {
+            "min_level": 27,
+            "max_level": 27,
+            "species": "SPECIES_SWINUB"
+          },
+          {
+            "min_level": 40,
+            "max_level": 40,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 29,
+            "max_level": 29,
+            "species": "SPECIES_SWINUB"
+          },
+          {
+            "min_level": 30,
+            "max_level": 30,
+            "species": "SPECIES_DELIBIRD"
+          },
+          {
+            "min_level": 31,
+            "max_level": 31,
+            "species": "SPECIES_SWINUB"
+          },
+          {
+            "min_level": 48,
+            "max_level": 48,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 23,
+            "max_level": 23,
+            "species": "SPECIES_SWINUB"
+          },
+          {
+            "min_level": 48,
+            "max_level": 48,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 23,
+            "max_level": 23,
+            "species": "SPECIES_SWINUB"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 12,
+      "y": 12,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 111,
+      "targetX": 12,
+      "targetY": 12,
+      "targetElevation": 2
+    },
+    {
+      "x": 12,
+      "y": 3,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 111,
+      "targetX": 12,
+      "targetY": 3,
+      "targetElevation": 2
+    },
+    {
+      "x": 15,
+      "y": 16,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 111,
+      "targetX": 15,
+      "targetY": 16,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 92,
+      "x": 10,
+      "y": 14,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FourIsland_IcefallCave_B1F_EventScript_ItemFullRestore",
+      "hideFlag": "kanto/FLAG_HIDE_FOUR_ISLAND_ICEFALL_CAVE_B1F_FULL_RESTORE",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 92,
+      "x": 21,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FourIsland_IcefallCave_B1F_EventScript_ItemNeverMeltIce",
+      "hideFlag": "kanto/FLAG_HIDE_FOUR_ISLAND_ICEFALL_CAVE_B1F_NEVER_MELT_ICE",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "kQaRBpEGkQaRBpEGkQaRBs8GkQaRBpsGmQaZBpkGmQaZBpkGmQaZBpkGmQaZBpwGkQaRBpEGkQaRBpEGmwaZBpkGmQaZBpoGkQaRBs8GmwaZBpkGmQaZBpkGmQacBsYGkQaRBpEGkQaRBs8GxwabBpkGmQbuBu8GjwaZBpkGmgZLM0szSzM/B18HnwaQBsYGkQaRBpEGkQaRBpEGxwaSBoEygTL2MvcyljJKM0szTwdLM0szSzNLM18HpwaQBsYGkQaRBpEGkQaRBpEGxwaSBogGigaCBoEygTJKM0szTwc/B0szSzNLM18HnwaQBsYGkQaRBpEGkQaRBpEGxwaSBpAGkgaBMoMGgTJeB0szSzNPB0szSzNLM18HpwaQBsYGkQaRBpEGzwaRBpEGxwaSBpgGxQaBMoEycwdeB0szSzNLM0szSzNLM18HcweQBsYGkQaRBpEGzwaRBpEGxwaSBoEygTKBMoEygTJCB0szSzNLM0szSzNLM0wzgTKQBsYGkQaRBpEGkQaRBpEGxwaSBoEygTKBMoEygTJCB0szPwdLM0szSzNLM18HcweQBsYGkQaRBpEGkQaRBpEGxwaSBtUy1jKBMoEygTJeB0szSzNLM0cHSzNLM0wzgTKQBsYGkQaRBpEGkQaRBpEGxwaSBt0y3jKBMoEygTJeB0szSzM/B0szPwdLM0QHgTKQBsYGkQaRBpEGkQaRBpEGxwaSBoEygTKBMoEyjgZeB0szSzNLM0szSzNLM18HgTKQBsYGkQaRBpEGkQbPBpEGxwaSBoEygTKBMoEyljJeB0szSzNLM0szSzNLM18HgTKQBsYGkQaRBpEGkQaRBpEGxwaSBoEygTKDBoIGgwZeB0szSAdJB0szSzNLM0wzgTKQBsYGkQaRBpEGkQaRBpEGxwaSBoEygwaBMoEygTJSB1wHdAeaBlMzUzNcB1QHiAZWB8YGkQaRBpEGkQaRBpEGxwZVB4kGiQaJBooGgTKBMoEyjgaBMoEygTKBMoEykAagBlYHkQaRBpEGkQaRBpEGVQeJBokGogbPBlUHiQaKBoEyljKBMoEygTKIBokGVgfGBpEGkQaRBpEGkQaRBpEGkQbPBpEGVQeJBqIGzwaSBoEygTKBMogGiQZWB88GoAZWB5EGkQaRBpEGkQaRBpEGkQaRBs8GzwaRBlUHogZVB4kGiQaJBlYHoAaJBokGVgeRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGVQeJBokGiQaJBokGVgeRBpEGkQaRBpEG",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

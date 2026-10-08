@@ -1,0 +1,201 @@
+{
+  "regionId": 1,
+  "bankId": 78,
+  "mapId": 0,
+  "width": 15,
+  "height": 10,
+  "paletteIdx1": 116,
+  "paletteIdx2": 126,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 427,
+  "unknownByte": 24,
+  "borderTiles": [
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "Route109_SeashoreHouse_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 6,
+      "y": 9,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 24,
+      "targetX": 12,
+      "targetY": 5,
+      "targetElevation": 0
+    },
+    {
+      "x": 7,
+      "y": 9,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 24,
+      "targetX": 12,
+      "targetY": 5,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 25,
+      "x": 6,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "Route109_SeashoreHouse_EventScript_Owner",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 49,
+      "x": 2,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "Route109_SeashoreHouse_EventScript_Dwayne",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 54,
+      "x": 14,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "Route109_SeashoreHouse_EventScript_Simon",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 45,
+      "x": 10,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "FACE_LEFT_AND_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "Route109_SeashoreHouse_EventScript_Johanna",
+      "hideFlag": "",
+      "rawMovementType": 14
+    }
+  ],
+  "blockData": "AQYCBgIGBAYFBi4GLwYCBgIGAgYEBgUGAgYCBgMGCQYGBgcGDAYNBjYGNwYfBgoGCgYMBg0GBgYHBgsGETIOBg8GHjIaMhoyEjInBh4yGjIaMhoyDgYPBhMyIjIsMiwyLTIkMiQyLDIsMi0yJDIkMiQyLDIsMiYyIAYZBiUyGAYQBhkGJTIlMhgGEAYZBiUyJTIYBiEGFDIaMioyGjIaMhoyKjIqMhoyGjIaMioyKjIaMhUyIAYZBiQyGAYQBhkGJDIkMhgGEAYZBiQyJDIYBiEGHDIbMiUyGzIbMhsyJTIlMhsyGzIbMiUyJTIbMh0yIAYZBioyKjIqMioyKjIqMioyKjIqMioyKjIYBiEGHDIbMiUyJTIlMiUyFgIXAiUyJTIlMiUyJTIbMh0y",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ0AAAAAAAAA"
+}

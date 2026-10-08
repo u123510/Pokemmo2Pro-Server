@@ -1,0 +1,1108 @@
+{
+  "id": "kanto.mainline_to_champion",
+  "version": 1,
+  "enabled": true,
+  "startNode": "tower_fuji",
+  "triggers": [
+    {
+      "type": "NPC",
+      "map": "PokemonTower_7F",
+      "entityIdx": 0,
+      "startNode": "tower_fuji",
+      "conditions": [
+        {"type": "BADGE_SET", "value": 2},
+        {"type": "EXTRA_STORY_BIT_SET", "value": 4},
+        {"type": "STORY_BIT_CLEAR", "value": 0}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "PokemonTower_2F",
+      "script": "PokemonTower_2F_EventScript_RivalTriggerRight",
+      "startNode": "tower_rival",
+      "conditions": [
+        {"type": "BADGE_SET", "value": 2},
+        {"type": "EXTRA_STORY_BIT_CLEAR", "value": 4}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "PokemonTower_2F",
+      "script": "PokemonTower_2F_EventScript_RivalTriggerDown",
+      "startNode": "tower_rival",
+      "conditions": [
+        {"type": "BADGE_SET", "value": 2},
+        {"type": "EXTRA_STORY_BIT_CLEAR", "value": 4}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "MtMoon_B2F",
+      "entityIdx": 0,
+      "startNode": "dome_fossil",
+      "conditions": [
+        {"type": "BADGE_SET", "value": 0},
+        {"type": "STORY_BIT_CLEAR", "value": 6}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "MtMoon_B2F",
+      "entityIdx": 1,
+      "startNode": "helix_fossil",
+      "conditions": [
+        {"type": "BADGE_SET", "value": 0},
+        {"type": "STORY_BIT_CLEAR", "value": 6}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "CinnabarIsland_PokemonLab_ExperimentRoom",
+      "entityIdx": 1,
+      "startNode": "fossil_lab",
+      "conditions": [
+        {"type": "STORY_BIT_SET", "value": 6},
+        {"type": "HAS_ITEM", "value": 357}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "CinnabarIsland_PokemonLab_ExperimentRoom",
+      "entityIdx": 1,
+      "startNode": "fossil_lab",
+      "conditions": [
+        {"type": "STORY_BIT_SET", "value": 6},
+        {"type": "HAS_ITEM", "value": 358}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "LavenderTown_VolunteerPokemonHouse",
+      "entityIdx": 0,
+      "startNode": "fuji_flute",
+      "conditions": [
+        {"type": "STORY_BIT_SET", "value": 0},
+        {"type": "NO_ITEM", "value": 350}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "RocketHideout_B4F",
+      "entityIdx": 0,
+      "startNode": "hideout_giovanni",
+      "conditions": [
+        {"type": "BADGE_SET", "value": 2},
+        {"type": "STORY_BIT_CLEAR", "value": 1}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "RocketHideout_B4F",
+      "entityIdx": 3,
+      "startNode": "lift_key",
+      "conditions": [
+        {
+          "type": "EVENT_FLAG_SET",
+          "flag": "kanto/trainer/RocketHideout_B4F/RocketHideout_B4F_EventScript_Grunt1"
+        },
+        {
+          "type": "EVENT_FLAG_SET",
+          "flag": "kanto/trainer/RocketHideout_B4F/RocketHideout_B4F_EventScript_Grunt3"
+        },
+        {"type": "EXTRA_STORY_BIT_CLEAR", "value": 2}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "CeladonCity_GameCorner",
+      "entityIdx": 10,
+      "startNode": "game_corner_rocket",
+      "conditions": [
+        {"type": "BADGE_SET", "value": 2},
+        {"type": "STORY_BIT_CLEAR", "value": 1}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "CeladonCity_Gym",
+      "entityIdx": 6,
+      "startNode": "erika",
+      "conditions": [
+        {"type": "BADGE_SET", "value": 2},
+        {"type": "BADGE_CLEAR", "value": 3}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "FuchsiaCity_WardensHouse",
+      "entityIdx": 0,
+      "startNode": "warden",
+      "conditions": [
+        {"type": "STORY_BIT_SET", "value": 15},
+        {"type": "HAS_ITEM", "value": 353},
+        {"type": "BADGE_CLEAR", "value": 4}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "SafariZone_West",
+      "entityIdx": 0,
+      "startNode": "gold_teeth",
+      "conditions": [
+        {"type": "STORY_BIT_CLEAR", "value": 15}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "FuchsiaCity_SafariZone_Entrance",
+      "entityIdx": 1,
+      "startNode": "safari_entry",
+      "conditions": [
+        {"type": "NOT_IN_BATTLE"},
+        {"type": "NOT_IN_TRADE"}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "SafariZone_SecretHouse",
+      "entityIdx": 0,
+      "startNode": "safari_prize",
+      "conditions": [
+        {"type": "BADGE_SET", "value": 2},
+        {"type": "STORY_BIT_CLEAR", "value": 2}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "PokemonMansion_B1F",
+      "entityIdx": 5,
+      "startNode": "mansion_key",
+      "conditions": [
+        {"type": "BADGE_SET", "value": 4},
+        {"type": "STORY_BIT_CLEAR", "value": 4}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "FuchsiaCity_Gym",
+      "entityIdx": 6,
+      "startNode": "koga",
+      "conditions": [
+        {"type": "BADGE_SET", "value": 3},
+        {"type": "BADGE_CLEAR", "value": 4}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "SilphCo_11F",
+      "x": 5,
+      "y": 15,
+      "startNode": "silph_giovanni",
+      "conditions": [
+        {"type": "STORY_BIT_SET", "value": 1},
+        {"type": "STORY_BIT_CLEAR", "value": 3}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "SilphCo_11F",
+      "x": 6,
+      "y": 15,
+      "startNode": "silph_giovanni",
+      "conditions": [
+        {"type": "STORY_BIT_SET", "value": 1},
+        {"type": "STORY_BIT_CLEAR", "value": 3}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "SilphCo_7F",
+      "x": 2,
+      "y": 4,
+      "startNode": "silph_rival",
+      "conditions": [
+        {"type": "STORY_BIT_SET", "value": 1},
+        {"type": "STORY_BIT_CLEAR", "value": 3},
+        {"type": "EXTRA_STORY_BIT_CLEAR", "value": 1}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "SilphCo_7F",
+      "entityIdx": 1,
+      "startNode": "lapras_gift",
+      "conditions": [
+        {"type": "STORY_BIT_SET", "value": 1},
+        {"type": "EXTRA_STORY_BIT_CLEAR", "value": 8}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "SilphCo_7F",
+      "x": 2,
+      "y": 5,
+      "startNode": "silph_rival",
+      "conditions": [
+        {"type": "STORY_BIT_SET", "value": 1},
+        {"type": "STORY_BIT_CLEAR", "value": 3},
+        {"type": "EXTRA_STORY_BIT_CLEAR", "value": 1}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "SaffronCity_Gym",
+      "entityIdx": 6,
+      "startNode": "sabrina",
+      "conditions": [
+        {"type": "BADGE_SET", "value": 3},
+        {"type": "STORY_BIT_SET", "value": 3},
+        {"type": "BADGE_CLEAR", "value": 5}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "CinnabarIsland_Gym",
+      "entityIdx": 7,
+      "startNode": "blaine",
+      "conditions": [
+        {"type": "STORY_BIT_SET", "value": 4},
+        {"type": "BADGE_CLEAR", "value": 6}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "ViridianCity_Gym",
+      "entityIdx": 7,
+      "startNode": "giovanni",
+      "conditions": [
+        {"type": "BADGE_SET", "value": 6},
+        {"type": "STORY_BIT_SET", "value": 3},
+        {"type": "BADGE_CLEAR", "value": 7}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "PokemonLeague_LoreleisRoom",
+      "entityIdx": 0,
+      "startNode": "lorelei",
+      "conditions": [
+        {"type": "BADGE_SET", "value": 7},
+        {"type": "ELITE_STAGE_EQUALS", "value": 0},
+        {"type": "CHAMPION_CLEAR"}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "PokemonLeague_BrunosRoom",
+      "entityIdx": 0,
+      "startNode": "bruno",
+      "conditions": [
+        {"type": "BADGE_SET", "value": 7},
+        {"type": "ELITE_STAGE_EQUALS", "value": 1},
+        {"type": "CHAMPION_CLEAR"}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "PokemonLeague_AgathasRoom",
+      "entityIdx": 0,
+      "startNode": "agatha",
+      "conditions": [
+        {"type": "BADGE_SET", "value": 7},
+        {"type": "ELITE_STAGE_EQUALS", "value": 2},
+        {"type": "CHAMPION_CLEAR"}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "PokemonLeague_LancesRoom",
+      "entityIdx": 0,
+      "startNode": "lance",
+      "conditions": [
+        {"type": "BADGE_SET", "value": 7},
+        {"type": "ELITE_STAGE_EQUALS", "value": 3},
+        {"type": "CHAMPION_CLEAR"}
+      ]
+    },
+    {
+      "type": "MAP_READY",
+      "map": "PokemonLeague_ChampionsRoom",
+      "startNode": "champion",
+      "conditions": [
+        {"type": "BADGE_SET", "value": 7},
+        {"type": "ELITE_STAGE_EQUALS", "value": 4},
+        {"type": "CHAMPION_CLEAR"}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "Route22",
+      "x": 33,
+      "y": 4,
+      "startNode": "route22_rival",
+      "conditions": [
+        {"type": "BADGE_SET", "value": 7},
+        {"type": "CHAMPION_CLEAR"},
+        {"type": "EXTRA_STORY_BIT_CLEAR", "value": 0}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "Route22_NorthEntrance",
+      "script": "Route22_NorthEntrance_EventScript_BoulderBadgeGuardTrigger",
+      "startNode": "boulder_gate",
+      "conditions": [
+        {"type": "BADGE_CLEAR", "value": 7}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "Route23",
+      "script": "Route23_EventScript_CascadeBadgeGuardTrigger",
+      "startNode": "cascade_gate",
+      "conditions": [
+        {"type": "BADGE_CLEAR", "value": 1}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "Route23",
+      "script": "Route23_EventScript_ThunderBadgeGuardTrigger",
+      "startNode": "thunder_gate",
+      "conditions": [
+        {"type": "BADGE_CLEAR", "value": 2}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "Route23",
+      "script": "Route23_EventScript_RainbowBadgeGuardTrigger",
+      "startNode": "rainbow_gate",
+      "conditions": [
+        {"type": "BADGE_CLEAR", "value": 3}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "Route23",
+      "script": "Route23_EventScript_SoulBadgeGuardTrigger",
+      "startNode": "soul_gate",
+      "conditions": [
+        {"type": "BADGE_CLEAR", "value": 4}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "Route23",
+      "script": "Route23_EventScript_MarshBadgeGuardTrigger",
+      "startNode": "marsh_gate",
+      "conditions": [
+        {"type": "BADGE_CLEAR", "value": 5}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "Route23",
+      "script": "Route23_EventScript_VolcanoBadgeGuardTrigger",
+      "startNode": "volcano_gate",
+      "conditions": [
+        {"type": "BADGE_CLEAR", "value": 6}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "Route23",
+      "script": "Route23_EventScript_EarthBadgeGuardTrigger",
+      "startNode": "earth_gate",
+      "conditions": [
+        {"type": "BADGE_CLEAR", "value": 7}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "Route22",
+      "x": 33,
+      "y": 5,
+      "startNode": "route22_rival",
+      "conditions": [
+        {"type": "BADGE_SET", "value": 7},
+        {"type": "CHAMPION_CLEAR"},
+        {"type": "EXTRA_STORY_BIT_CLEAR", "value": 0}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "Route22",
+      "x": 33,
+      "y": 6,
+      "startNode": "route22_rival",
+      "conditions": [
+        {"type": "BADGE_SET", "value": 7},
+        {"type": "CHAMPION_CLEAR"},
+        {"type": "EXTRA_STORY_BIT_CLEAR", "value": 0}
+      ]
+    },
+    {
+      "type": "MAP_READY",
+      "map": "PokemonLeague_HallOfFame",
+      "startNode": "hall_of_fame",
+      "conditions": [
+        {"type": "CHAMPION_SET"}
+      ]
+    }
+  ],
+  "actors": {
+    "championRival": {"map": "PokemonLeague_ChampionsRoom", "entityIdx": 0}
+  },
+  "resources": {},
+  "nodes": {
+    "dome_fossil": {
+      "actions": [
+        {"type": "YES_NO", "text": "domeQuestion", "yes": "take_dome", "no": "decline_fossil"}
+      ]
+    },
+    "helix_fossil": {
+      "actions": [
+        {"type": "YES_NO", "text": "helixQuestion", "yes": "take_helix", "no": "decline_fossil"}
+      ]
+    },
+    "take_dome": {
+      "actions": [
+        {"type": "GRANT_ITEM", "itemId": 358, "amount": 1},
+        {"type": "DIALOGUE", "text": "domeReceived"},
+        {"type": "SET_STORY_BIT", "bit": 6},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "take_helix": {
+      "actions": [
+        {"type": "GRANT_ITEM", "itemId": 357, "amount": 1},
+        {"type": "DIALOGUE", "text": "helixReceived"},
+        {"type": "SET_STORY_BIT", "bit": 6},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "decline_fossil": {"actions": [{"type": "CLOSE_SCENE"}]},
+    "fossil_lab": {
+      "actions": [
+        {
+          "type": "BRANCH",
+          "condition": {"type": "HAS_ITEM", "value": 357},
+          "yes": "revive_helix",
+          "no": "revive_dome"
+        }
+      ]
+    },
+    "revive_helix": {
+      "actions": [
+        {"type": "NOTIFY", "message": "研究员接收了菊石兽化石，机器启动后复原出菊石兽。"},
+        {"type": "REMOVE_ITEM", "itemId": 357, "amount": 1},
+        {"type": "GRANT_POKEMON", "species": 138, "level": 5, "moves": [33, 45, 0, 0]},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "revive_dome": {
+      "actions": [
+        {"type": "NOTIFY", "message": "研究员接收了甲壳化石，机器启动后复原出化石盔。"},
+        {"type": "REMOVE_ITEM", "itemId": 358, "amount": 1},
+        {"type": "GRANT_POKEMON", "species": 140, "level": 5, "moves": [33, 45, 0, 0]},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "tower_fuji": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "towerFuji"},
+        {"type": "SET_STORY_BIT", "bit": 0},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "tower_rival": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "rivalIntro"},
+        {
+          "type": "START_TRAINER_BATTLE",
+          "battleId": "KANTO_TOWER_RIVAL",
+          "trainerTeamIds": [431, 430, 429],
+          "battleType": "RIVAL",
+          "trainerModel": 328,
+          "money": 2500,
+          "finishNode": "tower_rival_win",
+          "team": [
+            {"species": 18, "level": 25, "moves": [33, 45, 0, 0]},
+            {"species": 130, "level": 23, "moves": [33, 45, 0, 0]},
+            {"species": 64, "level": 20, "moves": [93, 94, 0, 0]},
+            {"species": 58, "level": 22, "moves": [52, 46, 0, 0]}
+          ]
+        }
+      ]
+    },
+    "tower_rival_win": {
+      "actions": [
+        {"type": "SET_EXTRA_STORY_BIT", "bit": 4},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "fuji_flute": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "fujiFlute"},
+        {"type": "GRANT_ITEM", "itemId": 350, "amount": 1},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "hideout_giovanni": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "hideoutGiovanni"},
+        {
+          "type": "START_TRAINER_BATTLE",
+          "battleId": "KANTO_HIDEOUT_GIOVANNI",
+          "trainerTeamId": 348,
+          "battleType": "GYM_LEADER",
+          "trainerModel": 328,
+          "money": 4900,
+          "finishNode": "hideout_giovanni_win",
+          "team": [
+            {"species": 27, "level": 25, "moves": [33, 45, 0, 0]},
+            {"species": 111, "level": 24, "moves": [33, 45, 0, 0]},
+            {"species": 31, "level": 29, "moves": [33, 45, 0, 0]}
+          ]
+        }
+      ]
+    },
+    "hideout_giovanni_win": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "hideoutGiovanniWin"},
+        {"type": "GRANT_ITEM", "itemId": 359, "amount": 1},
+        {"type": "SET_STORY_BIT", "bit": 1},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "lift_key": {
+      "actions": [
+        {"type": "NOTIFY", "message": "获得了火箭队基地的电梯钥匙。"},
+        {"type": "GRANT_ITEM", "itemId": 356, "amount": 1},
+        {"type": "SET_EXTRA_STORY_BIT", "bit": 2},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "game_corner_rocket": {
+      "actions": [
+        {"type": "NOTIFY", "message": "火箭队小兵挡在游戏厅后方。击败他后，地下基地入口会打开。"},
+        {
+          "type": "START_TRAINER_BATTLE",
+          "battleId": "KANTO_GAME_CORNER_ROCKET",
+          "trainerTeamId": 357,
+          "battleType": "LOW_TRAINER",
+          "trainerModel": 328,
+          "money": 840,
+          "finishNode": "game_corner_rocket_win",
+          "team": [
+            {"species": 19, "level": 20, "moves": [33, 45, 0, 0]},
+            {"species": 41, "level": 20, "moves": [33, 45, 0, 0]}
+          ]
+        }
+      ]
+    },
+    "game_corner_rocket_win": {
+      "actions": [
+        {"type": "NOTIFY", "message": "你发现了游戏厅后面的秘密入口。"},
+        {"type": "CHANGE_MAP", "map": "RocketHideout_B1F", "x": 12, "y": 2, "z": 2, "toward": 1}
+      ]
+    },
+    "erika": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "erikaIntro"},
+        {
+          "type": "START_TRAINER_BATTLE",
+          "battleId": "KANTO_ERIKA",
+          "trainerTeamId": 417,
+          "battleType": "GYM_LEADER",
+          "trainerModel": 328,
+          "money": 2700,
+          "finishNode": "erika_win",
+          "team": [
+            {"species": 71, "level": 29, "moves": [22, 79, 0, 0]},
+            {"species": 114, "level": 24, "moves": [22, 73, 0, 0]},
+            {"species": 45, "level": 29, "moves": [22, 79, 0, 0]}
+          ]
+        }
+      ]
+    },
+    "erika_win": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "erikaDefeat"},
+        {"type": "GRANT_ITEM", "itemId": 19, "amount": 1},
+        {"type": "SET_BADGE", "bit": 3},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "warden": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "wardenThanks"},
+        {"type": "REMOVE_ITEM", "itemId": 353, "amount": 1},
+        {"type": "GRANT_ITEM", "itemId": 342, "amount": 1},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "safari_prize": {
+      "actions": [
+        {"type": "NOTIFY", "message": "你在野生原野区的秘密小屋获得了 HM03 冲浪。"},
+        {"type": "GRANT_ITEM", "itemId": 341, "amount": 1},
+        {"type": "SET_STORY_BIT", "bit": 2},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "safari_entry": {
+      "actions": [
+        {"type": "NOTIFY", "message": "支付 500 元后，你获得 30 个狩猎球和 500 步的探索时间。"},
+        {"type": "START_SAFARI", "fee": 500, "steps": 500, "balls": 30},
+        {"type": "CHANGE_MAP", "map": "SafariZone_Center", "x": 25, "y": 30, "z": 0, "toward": 1}
+      ]
+    },
+    "gold_teeth": {
+      "actions": [
+        {"type": "NOTIFY", "message": "你在野生原野区捡到了园长丢失的金子做的假牙。"},
+        {"type": "GRANT_ITEM", "itemId": 353, "amount": 1},
+        {"type": "SET_STORY_BIT", "bit": 15},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "mansion_key": {
+      "actions": [
+        {"type": "NOTIFY", "message": "你在宝可梦屋的废墟中找到了红莲道馆的秘密钥匙。"},
+        {"type": "GRANT_ITEM", "itemId": 351, "amount": 1},
+        {"type": "SET_STORY_BIT", "bit": 4},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "koga": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "kogaIntro"},
+        {
+          "type": "START_TRAINER_BATTLE",
+          "battleId": "KANTO_KOGA",
+          "trainerTeamId": 418,
+          "battleType": "GYM_LEADER",
+          "trainerModel": 328,
+          "money": 4300,
+          "finishNode": "koga_win",
+          "team": [
+            {"species": 109, "level": 37, "moves": [92, 108, 0, 0]},
+            {"species": 89, "level": 39, "moves": [92, 107, 0, 0]},
+            {"species": 109, "level": 37, "moves": [92, 108, 0, 0]},
+            {"species": 110, "level": 43, "moves": [92, 108, 0, 0]}
+          ]
+        }
+      ]
+    },
+    "koga_win": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "kogaDefeat"},
+        {"type": "GRANT_ITEM", "itemId": 6, "amount": 1},
+        {"type": "SET_BADGE", "bit": 4},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "silph_giovanni": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "silphGiovanni"},
+        {
+          "type": "START_TRAINER_BATTLE",
+          "battleId": "KANTO_SILPH_GIOVANNI",
+          "trainerTeamId": 349,
+          "battleType": "GYM_LEADER",
+          "trainerModel": 328,
+          "money": 4900,
+          "finishNode": "silph_giovanni_win",
+          "team": [
+            {"species": 111, "level": 37, "moves": [33, 45, 0, 0]},
+            {"species": 53, "level": 35, "moves": [33, 45, 0, 0]},
+            {"species": 31, "level": 41, "moves": [33, 45, 0, 0]},
+            {"species": 34, "level": 41, "moves": [33, 45, 0, 0]}
+          ]
+        }
+      ]
+    },
+    "silph_giovanni_win": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "silphGiovanniWin"},
+        {"type": "GRANT_ITEM", "itemId": 5001, "amount": 1},
+        {"type": "SET_STORY_BIT", "bit": 3},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "silph_rival": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "rivalIntro"},
+        {
+          "type": "START_TRAINER_BATTLE",
+          "battleId": "KANTO_SILPH_RIVAL",
+          "trainerTeamIds": [434, 433, 432],
+          "battleType": "RIVAL",
+          "trainerModel": 328,
+          "money": 3200,
+          "finishNode": "silph_rival_win",
+          "team": [
+            {"species": 18, "level": 37, "moves": [33, 45, 0, 0]},
+            {"species": 130, "level": 35, "moves": [33, 45, 0, 0]},
+            {"species": 59, "level": 35, "moves": [52, 46, 0, 0]},
+            {"species": 65, "level": 35, "moves": [93, 94, 0, 0]},
+            {"species": 6, "level": 40, "moves": [52, 82, 0, 0]}
+          ]
+        }
+      ]
+    },
+    "silph_rival_win": {
+      "actions": [
+        {"type": "SET_EXTRA_STORY_BIT", "bit": 1},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "lapras_gift": {
+      "actions": [
+        {"type": "NOTIFY", "message": "公司员工把一只 25 级的乘龙交给了你。"},
+        {"type": "GRANT_POKEMON", "species": 131, "level": 25, "moves": [33, 45, 0, 0]},
+        {"type": "SET_EXTRA_STORY_BIT", "bit": 8},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "sabrina": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "sabrinaIntro"},
+        {
+          "type": "START_TRAINER_BATTLE",
+          "battleId": "KANTO_SABRINA",
+          "trainerTeamId": 420,
+          "battleType": "GYM_LEADER",
+          "trainerModel": 328,
+          "money": 4300,
+          "finishNode": "sabrina_win",
+          "team": [
+            {"species": 122, "level": 37, "moves": [93, 94, 0, 0]},
+            {"species": 64, "level": 38, "moves": [93, 94, 0, 0]},
+            {"species": 49, "level": 38, "moves": [93, 94, 0, 0]},
+            {"species": 65, "level": 43, "moves": [93, 94, 0, 0]}
+          ]
+        }
+      ]
+    },
+    "sabrina_win": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "sabrinaDefeat"},
+        {"type": "GRANT_ITEM", "itemId": 4, "amount": 1},
+        {"type": "SET_BADGE", "bit": 5},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "blaine": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "blaineIntro"},
+        {
+          "type": "START_TRAINER_BATTLE",
+          "battleId": "KANTO_BLAINE",
+          "trainerTeamId": 419,
+          "battleType": "GYM_LEADER",
+          "trainerModel": 328,
+          "money": 4700,
+          "finishNode": "blaine_win",
+          "team": [
+            {"species": 58, "level": 42, "moves": [52, 46, 0, 0]},
+            {"species": 77, "level": 40, "moves": [52, 46, 0, 0]},
+            {"species": 78, "level": 42, "moves": [52, 46, 0, 0]},
+            {"species": 59, "level": 47, "moves": [52, 46, 0, 0]}
+          ]
+        }
+      ]
+    },
+    "blaine_win": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "blaineDefeat"},
+        {"type": "GRANT_ITEM", "itemId": 38, "amount": 1},
+        {"type": "SET_BADGE", "bit": 6},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "giovanni": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "giovanniIntro"},
+        {
+          "type": "START_TRAINER_BATTLE",
+          "battleId": "KANTO_VIRIDIAN_GIOVANNI",
+          "trainerTeamId": 350,
+          "battleType": "GYM_LEADER",
+          "trainerModel": 328,
+          "money": 5000,
+          "finishNode": "giovanni_win",
+          "team": [
+            {"species": 51, "level": 42, "moves": [89, 33, 0, 0]},
+            {"species": 53, "level": 40, "moves": [10, 44, 0, 0]},
+            {"species": 31, "level": 44, "moves": [33, 45, 0, 0]},
+            {"species": 34, "level": 45, "moves": [33, 45, 0, 0]},
+            {"species": 112, "level": 50, "moves": [33, 45, 0, 0]}
+          ]
+        }
+      ]
+    },
+    "giovanni_win": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "giovanniDefeat"},
+        {"type": "GRANT_ITEM", "itemId": 26, "amount": 1},
+        {"type": "SET_BADGE", "bit": 7},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "route22_rival": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "rivalIntro"},
+        {
+          "type": "START_TRAINER_BATTLE",
+          "battleId": "KANTO_ROUTE22_RIVAL",
+          "trainerTeamIds": [437, 436, 435],
+          "battleType": "RIVAL",
+          "trainerModel": 328,
+          "money": 5000,
+          "finishNode": "route22_rival_win",
+          "team": [
+            {"species": 18, "level": 47, "moves": [33, 45, 0, 0]},
+            {"species": 65, "level": 45, "moves": [93, 94, 0, 0]},
+            {"species": 112, "level": 45, "moves": [33, 45, 0, 0]},
+            {"species": 103, "level": 45, "moves": [93, 94, 0, 0]},
+            {"species": 130, "level": 45, "moves": [33, 45, 0, 0]},
+            {"species": 6, "level": 50, "moves": [52, 82, 0, 0]}
+          ]
+        }
+      ]
+    },
+    "route22_rival_win": {
+      "actions": [
+        {"type": "SET_EXTRA_STORY_BIT", "bit": 0},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "boulder_gate": {"actions": [{"type": "REJECT_MOVE"}]},
+    "cascade_gate": {"actions": [{"type": "REJECT_MOVE"}]},
+    "thunder_gate": {"actions": [{"type": "REJECT_MOVE"}]},
+    "rainbow_gate": {"actions": [{"type": "REJECT_MOVE"}]},
+    "soul_gate": {"actions": [{"type": "REJECT_MOVE"}]},
+    "marsh_gate": {"actions": [{"type": "REJECT_MOVE"}]},
+    "volcano_gate": {"actions": [{"type": "REJECT_MOVE"}]},
+    "earth_gate": {"actions": [{"type": "REJECT_MOVE"}]},
+    "lorelei": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "loreleiIntro"},
+        {
+          "type": "START_TRAINER_BATTLE",
+          "battleId": "KANTO_LORELEI",
+          "trainerTeamId": 410,
+          "battleType": "GYM_LEADER",
+          "trainerModel": 328,
+          "money": 11000,
+          "finishNode": "lorelei_win",
+          "team": [
+            {"species": 87, "level": 52, "moves": [58, 59, 0, 0]},
+            {"species": 91, "level": 51, "moves": [58, 59, 0, 0]},
+            {"species": 80, "level": 52, "moves": [58, 59, 0, 0]},
+            {"species": 124, "level": 54, "moves": [58, 59, 0, 0]},
+            {"species": 87, "level": 54, "moves": [58, 59, 0, 0]}
+          ]
+        }
+      ]
+    },
+    "lorelei_win": {"actions": [{"type": "DIALOGUE", "text": "eliteDefeat"}, {"type": "SET_ELITE_STAGE", "stage": 1}, {"type": "CLOSE_SCENE"}]},
+    "bruno": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "brunoIntro"},
+        {
+          "type": "START_TRAINER_BATTLE",
+          "battleId": "KANTO_BRUNO",
+          "trainerTeamId": 411,
+          "battleType": "GYM_LEADER",
+          "trainerModel": 328,
+          "money": 11000,
+          "finishNode": "bruno_win",
+          "team": [
+            {"species": 95, "level": 51, "moves": [70, 33, 0, 0]},
+            {"species": 107, "level": 53, "moves": [70, 33, 0, 0]},
+            {"species": 106, "level": 53, "moves": [70, 33, 0, 0]},
+            {"species": 95, "level": 54, "moves": [70, 33, 0, 0]},
+            {"species": 68, "level": 56, "moves": [70, 33, 0, 0]}
+          ]
+        }
+      ]
+    },
+    "bruno_win": {"actions": [{"type": "DIALOGUE", "text": "eliteDefeat"}, {"type": "SET_ELITE_STAGE", "stage": 2}, {"type": "CLOSE_SCENE"}]},
+    "agatha": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "agathaIntro"},
+        {
+          "type": "START_TRAINER_BATTLE",
+          "battleId": "KANTO_AGATHA",
+          "trainerTeamId": 412,
+          "battleType": "GYM_LEADER",
+          "trainerModel": 328,
+          "money": 11000,
+          "finishNode": "agatha_win",
+          "team": [
+            {"species": 94, "level": 54, "moves": [95, 109, 0, 0]},
+            {"species": 42, "level": 54, "moves": [95, 109, 0, 0]},
+            {"species": 93, "level": 53, "moves": [95, 109, 0, 0]},
+            {"species": 24, "level": 56, "moves": [95, 109, 0, 0]},
+            {"species": 94, "level": 58, "moves": [95, 109, 0, 0]}
+          ]
+        }
+      ]
+    },
+    "agatha_win": {"actions": [{"type": "DIALOGUE", "text": "eliteDefeat"}, {"type": "SET_ELITE_STAGE", "stage": 3}, {"type": "CLOSE_SCENE"}]},
+    "lance": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "lanceIntro"},
+        {
+          "type": "START_TRAINER_BATTLE",
+          "battleId": "KANTO_LANCE",
+          "trainerTeamId": 413,
+          "battleType": "GYM_LEADER",
+          "trainerModel": 328,
+          "money": 11000,
+          "finishNode": "lance_win",
+          "team": [
+            {"species": 130, "level": 56, "moves": [82, 49, 0, 0]},
+            {"species": 148, "level": 54, "moves": [82, 49, 0, 0]},
+            {"species": 148, "level": 54, "moves": [82, 49, 0, 0]},
+            {"species": 142, "level": 58, "moves": [82, 49, 0, 0]},
+            {"species": 149, "level": 60, "moves": [82, 49, 0, 0]}
+          ]
+        }
+      ]
+    },
+    "lance_win": {"actions": [{"type": "DIALOGUE", "text": "lanceDefeat"}, {"type": "SET_ELITE_STAGE", "stage": 4}, {"type": "RUN_MAP_READY"}]},
+    "champion": {
+      "actions": [
+        {"type": "DIALOGUE", "actor": "championRival", "text": "championIntro"},
+        {
+          "type": "BRANCH",
+          "condition": {"type": "STARTER_EQUALS", "value": 0},
+          "yes": "champion_bulbasaur",
+          "no": "champion_not_bulbasaur"
+        }
+      ]
+    },
+    "champion_not_bulbasaur": {
+      "actions": [
+        {
+          "type": "BRANCH",
+          "condition": {"type": "STARTER_EQUALS", "value": 1},
+          "yes": "champion_charmander",
+          "no": "champion_squirtle"
+        }
+      ]
+    },
+    "champion_bulbasaur": {
+      "actions": [
+        {
+          "type": "START_TRAINER_BATTLE",
+          "battleId": "KANTO_CHAMPION_BULBASAUR",
+          "trainerTeamId": 440,
+          "battleType": "RIVAL",
+          "trainerModel": 328,
+          "money": 12600,
+          "finishNode": "champion_win",
+          "team": [
+            {"species": 18, "level": 59, "moves": [33, 45, 0, 0]},
+            {"species": 65, "level": 57, "moves": [93, 94, 0, 0]},
+            {"species": 112, "level": 59, "moves": [33, 45, 0, 0]},
+            {"species": 103, "level": 59, "moves": [93, 94, 0, 0]},
+            {"species": 130, "level": 59, "moves": [33, 45, 0, 0]},
+            {"species": 6, "level": 63, "moves": [52, 82, 0, 0]}
+          ]
+        }
+      ]
+    },
+    "champion_charmander": {
+      "actions": [
+        {
+          "type": "START_TRAINER_BATTLE",
+          "battleId": "KANTO_CHAMPION_CHARMANDER",
+          "trainerTeamId": 439,
+          "battleType": "RIVAL",
+          "trainerModel": 328,
+          "money": 12600,
+          "finishNode": "champion_win",
+          "team": [
+            {"species": 18, "level": 59, "moves": [33, 45, 0, 0]},
+            {"species": 65, "level": 57, "moves": [93, 94, 0, 0]},
+            {"species": 112, "level": 59, "moves": [33, 45, 0, 0]},
+            {"species": 103, "level": 59, "moves": [93, 94, 0, 0]},
+            {"species": 130, "level": 59, "moves": [33, 45, 0, 0]},
+            {"species": 9, "level": 63, "moves": [55, 45, 0, 0]}
+          ]
+        }
+      ]
+    },
+    "champion_squirtle": {
+      "actions": [
+        {
+          "type": "START_TRAINER_BATTLE",
+          "battleId": "KANTO_CHAMPION_SQUIRTLE",
+          "trainerTeamId": 438,
+          "battleType": "RIVAL",
+          "trainerModel": 328,
+          "money": 12600,
+          "finishNode": "champion_win",
+          "team": [
+            {"species": 18, "level": 59, "moves": [33, 45, 0, 0]},
+            {"species": 65, "level": 57, "moves": [93, 94, 0, 0]},
+            {"species": 112, "level": 59, "moves": [33, 45, 0, 0]},
+            {"species": 103, "level": 59, "moves": [93, 94, 0, 0]},
+            {"species": 130, "level": 59, "moves": [33, 45, 0, 0]},
+            {"species": 3, "level": 63, "moves": [22, 45, 0, 0]}
+          ]
+        }
+      ]
+    },
+    "champion_win": {
+      "actions": [
+        {"type": "DIALOGUE", "actor": "championRival", "text": "championWin"},
+        {"type": "SET_CHAMPION"},
+        {"type": "CHANGE_MAP", "map": "PokemonLeague_HallOfFame", "x": 5, "y": 12, "z": 0, "toward": 1}
+      ]
+    },
+    "hall_of_fame": {
+      "actions": [
+        {"type": "NOTIFY", "message": "你和你的宝可梦成为了关都地区新的冠军，荣誉殿堂记录完成。"},
+        {"type": "CLOSE_SCENE"}
+      ]
+    }
+  },
+  "text": {
+    "domeQuestion": 1519223,
+    "helixQuestion": 1519252,
+    "domeReceived": 1519309,
+    "helixReceived": 1519282,
+    "rivalIntro": 1569824,
+    "towerFuji": 1549609,
+    "towerFujiAfterRival": 1549609,
+    "fujiFlute": 1652669,
+    "wardenThanks": 1674954,
+    "hideoutGiovanni": 1528358,
+    "hideoutGiovanniWin": 1528844,
+    "erikaIntro": 1667348,
+    "erikaDefeat": 1667680,
+    "kogaIntro": 1671982,
+    "kogaDefeat": 1672260,
+    "silphGiovanni": 1530736,
+    "silphGiovanniWin": 1530803,
+    "sabrinaIntro": 1684796,
+    "sabrinaDefeat": 1684994,
+    "blaineIntro": 1676611,
+    "blaineDefeat": 1676794,
+    "giovanniIntro": 1635154,
+    "giovanniDefeat": 1635391,
+    "loreleiIntro": 1540004,
+    "brunoIntro": 1540623,
+    "agathaIntro": 1541197,
+    "lanceIntro": 1541988,
+    "lanceDefeat": 1542738,
+    "championIntro": 1543020,
+    "championWin": 1543743,
+    "eliteDefeat": 1540528
+  }
+}

@@ -1,0 +1,555 @@
+{
+  "id": "kanto.early_route_to_vermilion",
+  "version": 1,
+  "enabled": true,
+  "startNode": "brock",
+  "triggers": [
+    {
+      "type": "NPC",
+      "map": "PewterCity_Gym",
+      "entityIdx": 0,
+      "startNode": "brock",
+      "conditions": [
+        {"type": "CAPTURE_TUTORIAL_COMPLETE"},
+        {"type": "BADGE_CLEAR", "value": 0}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "Route22",
+      "script": "Route22_EventScript_EarlyRivalTriggerTop",
+      "startNode": "route22_early_rival",
+      "conditions": [
+        {"type": "BADGE_CLEAR", "value": 0},
+        {"type": "EXTRA_STORY_BIT_CLEAR", "value": 6}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "Route22",
+      "script": "Route22_EventScript_EarlyRivalTriggerMid",
+      "startNode": "route22_early_rival",
+      "conditions": [
+        {"type": "BADGE_CLEAR", "value": 0},
+        {"type": "EXTRA_STORY_BIT_CLEAR", "value": 6}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "Route22",
+      "script": "Route22_EventScript_EarlyRivalTriggerBottom",
+      "startNode": "route22_early_rival",
+      "conditions": [
+        {"type": "BADGE_CLEAR", "value": 0},
+        {"type": "EXTRA_STORY_BIT_CLEAR", "value": 6}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "MtMoon_B2F",
+      "entityIdx": 2,
+      "startNode": "fossil",
+      "conditions": [
+        {"type": "BADGE_SET", "value": 0},
+        {"type": "STORY_BIT_CLEAR", "value": 6},
+        {"type": "EXTRA_STORY_BIT_CLEAR", "value": 7}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "MtMoon_B2F",
+      "script": "MtMoon_B2F_EventScript_MiguelTrigger",
+      "startNode": "fossil",
+      "conditions": [
+        {"type": "BADGE_SET", "value": 0},
+        {"type": "STORY_BIT_CLEAR", "value": 6},
+        {"type": "EXTRA_STORY_BIT_CLEAR", "value": 7}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "CeruleanCity",
+      "x": 22,
+      "y": 6,
+      "startNode": "cerulean_rival",
+      "conditions": [
+        {"type": "BADGE_SET", "value": 0},
+        {"type": "STORY_BIT_SET", "value": 6},
+        {"type": "STORY_BIT_CLEAR", "value": 7}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "CeruleanCity",
+      "entityIdx": 1,
+      "startNode": "cerulean_rocket",
+      "conditions": [
+        {"type": "STORY_BIT_SET", "value": 8},
+        {"type": "EXTRA_STORY_BIT_CLEAR", "value": 5}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "CeruleanCity",
+      "script": "CeruleanCity_EventScript_GruntTriggerTop",
+      "startNode": "cerulean_rocket",
+      "conditions": [
+        {"type": "STORY_BIT_SET", "value": 8},
+        {"type": "EXTRA_STORY_BIT_CLEAR", "value": 5}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "CeruleanCity",
+      "script": "CeruleanCity_EventScript_GruntTriggerBottom",
+      "startNode": "cerulean_rocket",
+      "conditions": [
+        {"type": "STORY_BIT_SET", "value": 8},
+        {"type": "EXTRA_STORY_BIT_CLEAR", "value": 5}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "CeruleanCity",
+      "x": 23,
+      "y": 6,
+      "startNode": "cerulean_rival",
+      "conditions": [
+        {"type": "BADGE_SET", "value": 0},
+        {"type": "STORY_BIT_SET", "value": 6},
+        {"type": "STORY_BIT_CLEAR", "value": 7}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "CeruleanCity",
+      "x": 24,
+      "y": 6,
+      "startNode": "cerulean_rival",
+      "conditions": [
+        {"type": "BADGE_SET", "value": 0},
+        {"type": "STORY_BIT_SET", "value": 6},
+        {"type": "STORY_BIT_CLEAR", "value": 7}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "Route24",
+      "entityIdx": 0,
+      "startNode": "rocket",
+      "conditions": [
+        {"type": "STORY_BIT_SET", "value": 7},
+        {"type": "STORY_BIT_CLEAR", "value": 8}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "Route24",
+      "script": "Route24_EventScript_RocketTriggerLeft",
+      "startNode": "rocket",
+      "conditions": [
+        {"type": "STORY_BIT_SET", "value": 7},
+        {"type": "STORY_BIT_CLEAR", "value": 8}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "Route24",
+      "script": "Route24_EventScript_RocketTriggerRight",
+      "startNode": "rocket",
+      "conditions": [
+        {"type": "STORY_BIT_SET", "value": 7},
+        {"type": "STORY_BIT_CLEAR", "value": 8}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "Route25_SeaCottage",
+      "entityIdx": 0,
+      "startNode": "bill",
+      "conditions": [
+        {"type": "STORY_BIT_SET", "value": 8},
+        {"type": "STORY_BIT_CLEAR", "value": 9}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "CeruleanCity_Gym",
+      "entityIdx": 2,
+      "startNode": "misty",
+      "conditions": [
+        {"type": "STORY_BIT_SET", "value": 9},
+        {"type": "BADGE_CLEAR", "value": 1}
+      ]
+    },
+    {
+      "type": "MAP_READY",
+      "map": "VermilionCity",
+      "startNode": "vermilion_arrival",
+      "conditions": [
+        {"type": "BADGE_SET", "value": 1},
+        {"type": "STORY_BIT_CLEAR", "value": 11}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "VermilionCity",
+      "entityIdx": 4,
+      "startNode": "ss_anne_boarding",
+      "conditions": [
+        {"type": "STORY_BIT_SET", "value": 11},
+        {"type": "STORY_BIT_CLEAR", "value": 12}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "SSAnne_2F_Corridor",
+      "x": 30,
+      "y": 6,
+      "startNode": "ss_anne_rival",
+      "conditions": [
+        {"type": "STORY_BIT_CLEAR", "value": 12}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "SSAnne_2F_Corridor",
+      "script": "SSAnne_2F_Corridor_EventScript_RivalTriggerMid",
+      "startNode": "ss_anne_rival",
+      "conditions": [
+        {"type": "STORY_BIT_CLEAR", "value": 12}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "SSAnne_2F_Corridor",
+      "script": "SSAnne_2F_Corridor_EventScript_RivalTriggerRight",
+      "startNode": "ss_anne_rival",
+      "conditions": [
+        {"type": "STORY_BIT_CLEAR", "value": 12}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "SSAnne_CaptainsOffice",
+      "entityIdx": 0,
+      "startNode": "captain",
+      "conditions": [
+        {"type": "STORY_BIT_SET", "value": 12},
+        {"type": "STORY_BIT_CLEAR", "value": 13}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "VermilionCity_Gym",
+      "entityIdx": 0,
+      "startNode": "surge",
+      "conditions": [
+        {"type": "STORY_BIT_SET", "value": 13},
+        {"type": "BADGE_CLEAR", "value": 2}
+      ]
+    }
+  ],
+  "actors": {},
+  "resources": {},
+  "nodes": {
+    "brock": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "brockIntro"},
+        {
+          "type": "START_TRAINER_BATTLE",
+          "battleId": "EARLY_BROCK",
+          "trainerTeamId": 414,
+          "battleType": "GYM_LEADER",
+          "trainerModel": 80,
+          "money": 1400,
+          "finishNode": "brockWin",
+          "team": [
+            {"species": 74, "level": 12, "moves": [33, 45, 0, 0]},
+            {"species": 95, "level": 14, "moves": [33, 45, 0, 0]}
+          ]
+        }
+      ]
+    },
+    "route22_early_rival": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "rivalIntro"},
+        {
+          "type": "START_TRAINER_BATTLE",
+          "battleId": "EARLY_ROUTE22_RIVAL",
+          "trainerTeamIds": [331, 330, 329],
+          "battleType": "RIVAL",
+          "trainerModel": 81,
+          "money": 200,
+          "finishNode": "route22_early_rival_win",
+          "team": [
+            {"species": 17, "level": 9, "moves": [33, 45, 0, 0]},
+            {"species": 19, "level": 8, "moves": [33, 45, 0, 0]},
+            {"species": 4, "level": 9, "moves": [10, 45, 0, 0]}
+          ]
+        }
+      ]
+    },
+    "route22_early_rival_win": {
+      "actions": [
+        {"type": "SET_EXTRA_STORY_BIT", "bit": 6},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "brockWin": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "brockBadge"},
+        {"type": "DIALOGUE", "text": "brockTm"},
+        {"type": "GRANT_ITEM", "itemId": 39, "amount": 1},
+        {"type": "SET_BADGE", "bit": 0},
+        {"type": "SET_STORY_BIT", "bit": 5},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "fossil": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "fossilIntro"},
+        {
+          "type": "START_TRAINER_BATTLE",
+          "battleId": "EARLY_MT_MOON_MIGUEL",
+          "trainerTeamId": 170,
+          "battleType": "LOW_TRAINER",
+          "trainerModel": 328,
+          "money": 720,
+          "finishNode": "fossil_win",
+          "team": [
+            {"species": 81, "level": 12, "moves": [33, 45, 0, 0]},
+            {"species": 100, "level": 12, "moves": [33, 45, 0, 0]},
+            {"species": 109, "level": 12, "moves": [33, 45, 0, 0]}
+          ]
+        }
+      ]
+    },
+    "fossil_win": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "fossilDispute"},
+        {"type": "DIALOGUE", "text": "fossilShare"},
+        {"type": "SET_EXTRA_STORY_BIT", "bit": 7},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "cerulean_rival": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "rivalIntro"},
+        {
+          "type": "START_TRAINER_BATTLE",
+          "battleId": "EARLY_CERULEAN_RIVAL",
+          "trainerTeamIds": [334, 333, 332],
+          "battleType": "RIVAL",
+          "trainerModel": 81,
+          "money": 720,
+          "finishNode": "ceruleanRivalWin",
+          "team": [
+            {"species": 17, "level": 17, "moves": [33, 45, 0, 0]},
+            {"species": 19, "level": 15, "moves": [33, 45, 0, 0]},
+            {"species": 63, "level": 16, "moves": [33, 45, 0, 0]},
+            {"species": 4, "level": 18, "moves": [10, 45, 0, 0]}
+          ]
+        }
+      ]
+    },
+    "ceruleanRivalWin": {
+      "actions": [
+        {"type": "SET_STORY_BIT", "bit": 7},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "cerulean_rocket": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "rocketIntro"},
+        {
+          "type": "START_TRAINER_BATTLE",
+          "battleId": "EARLY_CERULEAN_ROCKET",
+          "trainerTeamId": 355,
+          "battleType": "LOW_TRAINER",
+          "trainerModel": 82,
+          "money": 600,
+          "finishNode": "cerulean_rocket_win",
+          "team": [
+            {"species": 20, "level": 17, "moves": [33, 45, 0, 0]}
+          ]
+        }
+      ]
+    },
+    "cerulean_rocket_win": {
+      "actions": [
+        {"type": "GRANT_ITEM", "itemId": 28, "amount": 1},
+        {"type": "SET_EXTRA_STORY_BIT", "bit": 5},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "rocket": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "rocketIntro"},
+        {
+          "type": "START_TRAINER_BATTLE",
+          "battleId": "EARLY_ROUTE24_ROCKET",
+          "battleType": "LOW_TRAINER",
+          "trainerModel": 82,
+          "money": 600,
+          "finishNode": "rocketWin",
+          "team": [
+            {"species": 19, "level": 14, "moves": [33, 45, 0, 0]},
+            {"species": 41, "level": 14, "moves": [33, 45, 0, 0]}
+          ]
+        }
+      ]
+    },
+    "rocketWin": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "rocketLost"},
+        {"type": "GRANT_ITEM", "itemId": 28, "amount": 1},
+        {"type": "SET_STORY_BIT", "bit": 8},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "bill": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "billIntro"},
+        {"type": "DIALOGUE", "text": "billThanks"},
+        {"type": "DIALOGUE", "text": "billTicket"},
+        {"type": "GRANT_ITEM", "itemId": 5456, "amount": 1},
+        {"type": "SET_STORY_BIT", "bit": 9},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "misty": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "mistyAdvice"},
+        {
+          "type": "START_TRAINER_BATTLE",
+          "battleId": "EARLY_MISTY",
+          "trainerTeamId": 415,
+          "battleType": "GYM_LEADER",
+          "trainerModel": 328,
+          "money": 2100,
+          "finishNode": "mistyWin",
+          "team": [
+            {"species": 120, "level": 18, "moves": [33, 45, 0, 0]},
+            {"species": 121, "level": 21, "moves": [33, 45, 0, 0]}
+          ]
+        }
+      ]
+    },
+    "mistyWin": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "mistyBadge"},
+        {"type": "DIALOGUE", "text": "mistyTm"},
+        {"type": "GRANT_ITEM", "itemId": 3, "amount": 1},
+        {"type": "SET_BADGE", "bit": 1},
+        {"type": "SET_STORY_BIT", "bit": 10},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "vermilion_arrival": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "vermilionWelcome"},
+        {"type": "SET_STORY_BIT", "bit": 11},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "ss_anne_boarding": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "shipTicket"},
+        {"type": "CHANGE_MAP", "map": "SSAnne_1F_Corridor", "x": 2, "y": 18, "z": 2, "toward": 1}
+      ]
+    },
+    "ss_anne_rival": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "shipRival"},
+        {
+          "type": "START_TRAINER_BATTLE",
+          "battleId": "EARLY_SS_ANNE_RIVAL",
+          "trainerTeamIds": [428, 427, 426],
+          "battleType": "RIVAL",
+          "trainerModel": 328,
+          "money": 800,
+          "finishNode": "shipRivalWin",
+          "team": [
+            {"species": 18, "level": 19, "moves": [33, 45, 0, 0]},
+            {"species": 20, "level": 16, "moves": [33, 45, 0, 0]},
+            {"species": 64, "level": 18, "moves": [33, 45, 0, 0]},
+            {"species": 5, "level": 20, "moves": [10, 45, 0, 0]}
+          ]
+        }
+      ]
+    },
+    "shipRivalWin": {
+      "actions": [
+        {"type": "SET_STORY_BIT", "bit": 12},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "captain": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "captainSick"},
+        {"type": "DIALOGUE", "text": "captainRecover"},
+        {"type": "DIALOGUE", "text": "captainCut"},
+        {"type": "GRANT_ITEM", "itemId": 15, "amount": 1},
+        {"type": "SET_STORY_BIT", "bit": 13},
+        {"type": "CHANGE_MAP", "map": "VermilionCity", "x": 31, "y": 21, "z": 0, "toward": 0}
+      ]
+    },
+    "surge": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "surgeIntro"},
+        {
+          "type": "START_TRAINER_BATTLE",
+          "battleId": "EARLY_SURGE",
+          "trainerTeamId": 416,
+          "battleType": "GYM_LEADER",
+          "trainerModel": 328,
+          "money": 2400,
+          "finishNode": "surgeWin",
+          "team": [
+            {"species": 100, "level": 21, "moves": [33, 45, 0, 0]},
+            {"species": 25, "level": 18, "moves": [33, 45, 0, 0]},
+            {"species": 26, "level": 24, "moves": [33, 45, 0, 0]}
+          ]
+        }
+      ]
+    },
+    "surgeWin": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "surgeBadge"},
+        {"type": "DIALOGUE", "text": "surgeTm"},
+        {"type": "GRANT_ITEM", "itemId": 34, "amount": 1},
+        {"type": "SET_BADGE", "bit": 2},
+        {"type": "SET_STORY_BIT", "bit": 14},
+        {"type": "CLOSE_SCENE"}
+      ]
+    }
+  },
+  "text": {
+    "brockIntro": 1641684,
+    "brockBadge": 1642063,
+    "brockTm": 1642459,
+    "fossilIntro": 1518336,
+    "fossilDispute": 1518436,
+    "fossilShare": 1518507,
+    "fossilReceived": 1519282,
+    "rivalIntro": 1569824,
+    "rocketIntro": 1518844,
+    "rocketLost": 1519041,
+    "billIntro": 1703418,
+    "billThanks": 1704251,
+    "billTicket": 1704590,
+    "mistyAdvice": 1648044,
+    "mistyBadge": 1647661,
+    "mistyTm": 1647601,
+    "vermilionWelcome": 1571067,
+    "shipTicket": 1571388,
+    "shipRival": 1519669,
+    "captainSick": 1521222,
+    "captainRecover": 1521318,
+    "captainCut": 1521583,
+    "surgeIntro": 1659060,
+    "surgeBadge": 1658371,
+    "surgeTm": 1658247
+  }
+}

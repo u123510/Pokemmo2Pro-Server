@@ -1,0 +1,281 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 55,
+  "width": 18,
+  "height": 12,
+  "paletteIdx1": 100,
+  "paletteIdx2": 156,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 381,
+  "unknownByte": 61,
+  "borderTiles": [
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "CLOUDY",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 9,
+      "y": 11,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 54,
+      "targetX": 13,
+      "targetY": 9,
+      "targetElevation": 2
+    },
+    {
+      "x": 8,
+      "y": 11,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 54,
+      "targetX": 13,
+      "targetY": 9,
+      "targetElevation": 2
+    },
+    {
+      "x": 0,
+      "y": 11,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 54,
+      "targetX": 8,
+      "targetY": 9,
+      "targetElevation": 2
+    },
+    {
+      "x": 1,
+      "y": 11,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 54,
+      "targetX": 8,
+      "targetY": 9,
+      "targetElevation": 2
+    },
+    {
+      "x": 11,
+      "y": 9,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 56,
+      "targetX": 4,
+      "targetY": 16,
+      "targetElevation": 2
+    },
+    {
+      "x": 14,
+      "y": 9,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 56,
+      "targetX": 13,
+      "targetY": 16,
+      "targetElevation": 2
+    },
+    {
+      "x": 11,
+      "y": 3,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 56,
+      "targetX": 4,
+      "targetY": 1,
+      "targetElevation": 2
+    },
+    {
+      "x": 14,
+      "y": 3,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 56,
+      "targetX": 13,
+      "targetY": 1,
+      "targetElevation": 2
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 62,
+      "targetX": 4,
+      "targetY": 16,
+      "targetElevation": 2
+    },
+    {
+      "x": 16,
+      "y": 2,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 57,
+      "targetX": 8,
+      "targetY": 2,
+      "targetElevation": 2
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 57,
+      "targetX": 0,
+      "targetY": 2,
+      "targetElevation": 2
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 62,
+      "targetX": 4,
+      "targetY": 1,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 35,
+      "x": 17,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "AbandonedShip_Corridors_1F_EventScript_Youngster",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 54,
+      "x": 5,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "WALK_SEQUENCE_UP_LEFT_DOWN_RIGHT",
+      "movementRangeX": 4,
+      "movementRangeY": 7,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "AbandonedShip_Corridors_1F_EventScript_Charlie",
+      "hideFlag": "",
+      "rawMovementType": 45
+    }
+  ],
+  "blockData": "CAYJBggGqAapBqgGCAYBBgkGCAaoBqkGCQYIBqgGCAYJBggGEAYRBhAGsAaxBrAGEAYBBhEGEAawBrEGEQYQBrAGEAYRBhAGAzIDMgMyAzIDMgoyCzYBBq02AzIDMgMyAzIDMgMyAzIKMgs2AzICMhgyGjIcMgIyEzIBBgMyAjIYMhoyGzIZMhoyHDICMhMyrTYCMjAGMQYyBgQyAjIBBgMyAjIwBjEGMQYxBjEGMgYEMgIyAzICMjAGMQYyBgQyAjIBBgMyAjIwBjEGMQYxBjEGMgYEMgIyAzICMjAGMQYyBgQyAjIBBgMyAjIwBjEGMQYxBjEGMgYEMgIyAzICMjAGMQYyBgQyAjIBBgMyAjIwBjEGMQYxBjEGMgYEMgIyrTYCMiUGIwYmBgQyAjIBBgMyAjIlBq4CJAYiBiMGJgYEMgIyAzICMi0GKzYuBgQyAjIBBgMyAjItBrYyLAYqBis2LgYEMqw2AzICMgUyBjIGMgcyAjIBBgMyAjIFMgYyBjIGMgYyBjIHMgIymzKcMgIyAjICMgIyAjIBBpsynDICMgIyAjICMgIyAjICMgIy",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOAAAAAAAAAAAAAA4AAAAADQAAAAAAAAANAAANAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAIAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ0AAAAAAAANDQAAAAAAAAAA"
+}

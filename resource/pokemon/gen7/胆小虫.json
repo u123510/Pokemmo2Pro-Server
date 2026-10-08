@@ -1,0 +1,75 @@
+{
+	"id": 767,
+	"name": "[767]胆小虫",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 5,
+	"weight": 120,
+	"egg_groups": [
+		"水3组",
+		"虫组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 768,
+			"name": "[768]具甲武者",
+			"type": "LEVEL",
+			"val": 30
+		}
+	],
+	"moves": [
+		{
+			"id": 28,
+			"name": "[28]泼沙",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 522,
+			"name": "[522]虫之抵抗",
+			"type": "level",
+			"level": 1
+		}
+	],
+	"types": [
+		"BUG",
+		"WATER"
+	],
+	"stats": {
+		"hp": 25,
+		"attack": 35,
+		"defense": 40,
+		"speed": 20,
+		"sp_attack": 30,
+		"sp_defense": 80
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 1
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

@@ -1,0 +1,128 @@
+{
+	"id": 980,
+	"name": "[980]土王",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 18,
+	"weight": 2230,
+	"egg_groups": [
+		"水1组",
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 38,
+			"name": "[038]特性38"
+		},
+		{
+			"id": 11,
+			"name": "[011]特性11"
+		},
+		{
+			"id": 109,
+			"name": "[109]特性109"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 39,
+			"name": "[39]摇尾巴",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 40,
+			"name": "[40]毒针",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 390,
+			"name": "[390]毒菱",
+			"type": "level",
+			"level": 4
+		},
+		{
+			"id": 341,
+			"name": "[341]泥巴射击",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 342,
+			"name": "[342]毒尾",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 21,
+			"name": "[21]摔打",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 281,
+			"name": "[281]哈欠",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 398,
+			"name": "[398]毒击",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 482,
+			"name": "[482]污泥波",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 224,
+			"name": "[224]超级角击",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 92,
+			"name": "[92]剧毒",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 89,
+			"name": "[89]地震",
+			"type": "level",
+			"level": 48
+		}
+	],
+	"types": [
+		"POISON",
+		"GROUND"
+	],
+	"stats": {
+		"hp": 130,
+		"attack": 75,
+		"defense": 60,
+		"speed": 45,
+		"sp_attack": 100,
+		"sp_defense": 20
+	},
+	"yields": {
+		"ev_hp": 2,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

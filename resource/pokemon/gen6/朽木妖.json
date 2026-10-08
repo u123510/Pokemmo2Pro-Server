@@ -1,0 +1,152 @@
+{
+	"id": 1067,
+	"name": "[1067]朽木妖",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 15,
+	"weight": 710,
+	"egg_groups": [
+		"不定形组",
+		"植物组"
+	],
+	"abilities": [
+		{
+			"id": 30,
+			"name": "[030]特性30"
+		},
+		{
+			"id": 119,
+			"name": "[119]特性119"
+		},
+		{
+			"id": 139,
+			"name": "[139]特性139"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 109,
+			"name": "[109]奇异之光",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 532,
+			"name": "[532]木角",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 310,
+			"name": "[310]惊吓",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 74,
+			"name": "[74]生长",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 275,
+			"name": "[275]扎根",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 185,
+			"name": "[185]出奇一击",
+			"type": "level",
+			"level": 19
+		},
+		{
+			"id": 73,
+			"name": "[73]寄生种子",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 174,
+			"name": "[174]诅咒",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 261,
+			"name": "[261]鬼火",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 571,
+			"name": "[571]森林诅咒",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 194,
+			"name": "[194]同命",
+			"type": "level",
+			"level": 39
+		},
+		{
+			"id": 566,
+			"name": "[566]潜灵奇袭",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 452,
+			"name": "[452]木槌",
+			"type": "level",
+			"level": 49
+		},
+		{
+			"id": 421,
+			"name": "[421]暗影爪",
+			"type": "level",
+			"level": 55
+		},
+		{
+			"id": 532,
+			"name": "[532]木角",
+			"type": "level",
+			"level": 62
+		}
+	],
+	"types": [
+		"GHOST",
+		"GRASS"
+	],
+	"stats": {
+		"hp": 85,
+		"attack": 110,
+		"defense": 76,
+		"speed": 65,
+		"sp_attack": 82,
+		"sp_defense": 56
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 2,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

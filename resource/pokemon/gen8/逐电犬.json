@@ -1,0 +1,132 @@
+{
+	"id": 836,
+	"name": "[836]逐电犬",
+	"exp_type": 4,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 10,
+	"weight": 340,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 39,
+			"name": "[39]摇尾巴",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 582,
+			"name": "[582]输电",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 609,
+			"name": "[609]蹭蹭脸颊",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 46,
+			"name": "[46]吼叫",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 209,
+			"name": "[209]电光",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 204,
+			"name": "[204]撒娇",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 242,
+			"name": "[242]咬碎",
+			"type": "level",
+			"level": 34
+		},
+		{
+			"id": 268,
+			"name": "[268]充电",
+			"type": "level",
+			"level": 41
+		},
+		{
+			"id": 528,
+			"name": "[528]疯狂伏特",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 583,
+			"name": "[583]嬉闹",
+			"type": "level",
+			"level": 55
+		},
+		{
+			"id": 604,
+			"name": "[604]电气场地",
+			"type": "level",
+			"level": 62
+		}
+	],
+	"types": [
+		"ELECTRIC"
+	],
+	"stats": {
+		"hp": 69,
+		"attack": 90,
+		"defense": 60,
+		"speed": 90,
+		"sp_attack": 60,
+		"sp_defense": 121
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 2
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

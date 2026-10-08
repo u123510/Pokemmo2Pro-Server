@@ -1,0 +1,303 @@
+{
+  "regionId": 0,
+  "bankId": 14,
+  "mapId": 2,
+  "width": 13,
+  "height": 16,
+  "paletteIdx1": 12,
+  "paletteIdx2": 26,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 314,
+  "unknownByte": 98,
+  "borderTiles": [
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [
+    {
+      "x": 5,
+      "y": 5,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_SAFFRON_CITY_DOJO",
+      "value": 0,
+      "script": "SaffronCity_Dojo_EventScript_TriggerMasterBattleLeft"
+    },
+    {
+      "x": 7,
+      "y": 5,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_SAFFRON_CITY_DOJO",
+      "value": 0,
+      "script": "SaffronCity_Dojo_EventScript_TriggerMasterBattleRight"
+    }
+  ],
+  "bgEvents": [
+    {
+      "x": 3,
+      "y": 13,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SaffronCity_Dojo_EventScript_Statue"
+    },
+    {
+      "x": 9,
+      "y": 13,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SaffronCity_Dojo_EventScript_Statue"
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SaffronCity_Dojo_EventScript_LeftScroll"
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SaffronCity_Dojo_EventScript_RightScroll"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 5,
+      "y": 14,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 10,
+      "targetX": 40,
+      "targetY": 12,
+      "targetElevation": 0
+    },
+    {
+      "x": 6,
+      "y": 14,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 10,
+      "targetX": 40,
+      "targetY": 12,
+      "targetElevation": 0
+    },
+    {
+      "x": 7,
+      "y": 14,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 10,
+      "targetX": 40,
+      "targetY": 12,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 54,
+      "x": 11,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "SaffronCity_Dojo_EventScript_Hitoshi",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 54,
+      "x": 1,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "SaffronCity_Dojo_EventScript_Hideki",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 54,
+      "x": 11,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "SaffronCity_Dojo_EventScript_Aaron",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 54,
+      "x": 1,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "SaffronCity_Dojo_EventScript_Mike",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 54,
+      "x": 6,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "SaffronCity_Dojo_EventScript_MasterKoichi",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 92,
+      "x": 5,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SaffronCity_Dojo_EventScript_HitmonleeBall",
+      "hideFlag": "kanto/FLAG_HIDE_DOJO_HITMONLEE_BALL",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 92,
+      "x": 7,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SaffronCity_Dojo_EventScript_HitmonchanBall",
+      "hideFlag": "kanto/FLAG_HIDE_DOJO_HITMONCHAN_BALL",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "CAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBMEGxgbBBsUGxwbBBscGxQbBBsYGwQYIBAgEyQbOBskGzQbPBuMGzwbNBskGzgbJBggECATIMsgy3DLNBtsy5DLbMs0GyDLIMtsyCAQIBMgywDLAMs0G0DLAMsAyzQbQMsAywDIIBAgEyDLZMsAy1QbQMsAy2jLVBtAy2TLAMggECATIMsAywDLdBtAywDLAMt0G0DLAMsAyCAQIBNsywDLZMsIywzLDMsMyxDLAMsAy2TIIBAgEyDLAMsAyyjLLMssyyzLMMsAywDLAMggECATcMsAywDLKMssyyzLLMswywDLZMsAyCAQIBMgy2TLAMsoyyzLLMssyzDLAMsAywDIIBAgEyDLAMsAy0jLTMtMy0zLUMsAywDLZMggECATcMsAy1jLAMsAy2TLAMsAy1jLAMsAyCAQIBMgywDLeBtAywDLAMsAy2jLeBtAywDIIBAgE3DLAMtEy2DLgMuEy4jLAMtEy2DLAMggECAQIBAgECAQIBBoEGwQcBAgECAQIBAgECAQ=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+}

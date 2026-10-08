@@ -1,0 +1,167 @@
+{
+  "regionId": 0,
+  "bankId": 1,
+  "mapId": 11,
+  "width": 9,
+  "height": 10,
+  "paletteIdx1": 0,
+  "paletteIdx2": 32,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 304,
+  "unknownByte": 128,
+  "borderTiles": [
+    {
+      "material": 648,
+      "collision": 0
+    },
+    {
+      "material": 648,
+      "collision": 0
+    },
+    {
+      "material": 648,
+      "collision": 0
+    },
+    {
+      "material": 648,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 2,
+      "y": 4,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SSAnne_CaptainsOffice_EventScript_Book"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SSAnne_CaptainsOffice_EventScript_TrashCan"
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SSAnne_CaptainsOffice_EventScript_Book"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 3,
+      "y": 7,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 6,
+      "targetX": 30,
+      "targetY": 2,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 63,
+      "x": 5,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "SSAnne_CaptainsOffice_EventScript_Captain",
+      "hideFlag": "",
+      "rawMovementType": 7
+    }
+  ],
+  "blockData": "hgaMBowGjAaMBowGjAaMBocGjgb7BgQH+wb7BvMG9Ab6Bo8Gjgb8Mgwz/DL8Mvwy/DICB48GjgYFBwYHBweYMokGmDKYMo8GjgYNBw4HDweYMpgymDKYMo8GjgakMpgymDKYMpgymDKYMo8Gjgb1BvYG9zKYMpgymDIDM48GjgarBqwGlDOYMpgymDIDM48GjgazBrQGvDKYMpgymDKYMo8GvgaEBoQGhAaEBoQGhAaEBrYG",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

@@ -1,0 +1,216 @@
+{
+  "regionId": 0,
+  "bankId": 1,
+  "mapId": 9,
+  "width": 24,
+  "height": 19,
+  "paletteIdx1": 0,
+  "paletteIdx2": 32,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 304,
+  "unknownByte": 128,
+  "borderTiles": [
+    {
+      "material": 299,
+      "collision": 0
+    },
+    {
+      "material": 299,
+      "collision": 0
+    },
+    {
+      "material": 299,
+      "collision": 0
+    },
+    {
+      "material": 299,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 16,
+      "y": 8,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 7,
+      "targetX": 1,
+      "targetY": 4,
+      "targetElevation": 2
+    },
+    {
+      "x": 16,
+      "y": 9,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 7,
+      "targetX": 1,
+      "targetY": 4,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 62,
+      "x": 12,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "UP",
+      "script": "SSAnne_Deck_EventScript_Trevor",
+      "hideFlag": "",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 30,
+      "x": 14,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SSAnne_Deck_EventScript_BaldingMan",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 62,
+      "x": 13,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "WALK_LEFT_AND_RIGHT",
+      "movementRangeX": 4,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SSAnne_Deck_EventScript_Sailor",
+      "hideFlag": "",
+      "rawMovementType": 27
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 62,
+      "x": 6,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "SSAnne_Deck_EventScript_Edmond",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 18,
+      "x": 11,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "SSAnne_Deck_EventScript_Youngster",
+      "hideFlag": "",
+      "rawMovementType": 9
+    }
+  ],
+  "blockData": "KwErASsBKwErASsBKwErASsBKwErASwBxQPGA8YDxwMqASsBKwErASsBKwErASsBKwErASsBKwErASsBKwErASsBKwErASwBxQPGA8YDxwMqASsBKwErASsBKwErASsBKwErASsBKwErASsBKwErASsBKwErASwBxQPGA8YDxwMqASsBKwErASsBKwErASsBKwErASsBKwErASsBKwErASsBKwErASwBxQPGA8YDxwMqASsBKwErASsBKwErASsBKwErASsBKwErASsBKwFRB1IHWwdcB7AHsQeyB64Hswe0B3YHXQdlB2UHZQdlB2UHKwErASsBKwErAVEHUgdZB1oHYzNkM2QzZDNkM5YHjwdtB24HggeDA4MDgwODA4MDKwErASsBUQdSB1kHWgdTM1AzhDNQM1AzUDNQM1Azlgd1B4EHggeDA4MDgwODA4MDKwFRB1IHWQdaB1MzUDNQM3cHjDNQM1AzdwdQM1AzUDN9B4EHggeDA4MDgwODA4MDWAdZB1oHUzNQM1AzUDNQM1AzUDNQM1AzUDNQM1AzUDOFM4EHggeDA4MDgwODA4MDYAdhM2IzUDNQM1AzUDNQM1AzUDNQM1AzUDNQM1AzUDOAM4EHggeDA4MDgwODA4MDaAdpB2oHeDNiM1AzUDNQM1AzUDNQM1AzUDNQM1AzUDOIB4kHigeLB4sHiweLB4sHcAdxB3IHaQdqB3gzYjNQM1AzhDNQM1AzUDNQM1AzhzOQB5EHkgeTB5MHkweTB5MHKwF5B3oHegdyB2kHagd4M2IzjDN3B1AzUDNQM4czjweYB5kHmweaB5sHmgebB5oHKwFwB3EHegd6B3oHcgdpB2oHazNsM2wzbDNsM5cHlwd+B38Hfwd/B38Hfwd/B38HKwErMXkHegd6B3oHegd6B3IHcwd0B3QHdAd0B3QHdAd0B3QHdAd0B3QHdAd0B3QHKwErMXAHcQd6B3oHegd6B3oHewd8B3wHfAd8B3wHfAd8B3wHfAd8B3wHfAd8B3wHKwErMSsxeQd6B3oHegd6B3oHewd8B3wHfAd8B3wHfAd8B3wHfAd8B3wHfAd8B3wHKwErASsBcAdxB3oHegd6B3oHewd8B3wHfAd8B3wHfAd8B3wHfAd8B3wHfAd8B3wHKwErASsBKwF5B3oHegd6B3oHewd8B3wHfAd8B3wHfAd8B3wHfAd8B3wHfAd8B3wH",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

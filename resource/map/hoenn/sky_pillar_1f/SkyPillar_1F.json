@@ -1,0 +1,221 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 79,
+  "width": 14,
+  "height": 14,
+  "paletteIdx1": 100,
+  "paletteIdx2": 112,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 406,
+  "unknownByte": 85,
+  "borderTiles": [
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_SKY_PILLAR_1F",
+      "base_label": "gSkyPillar_1F",
+      "land_mons": {
+        "encounter_rate": 10,
+        "mons": [
+          {
+            "min_level": 33,
+            "max_level": 33,
+            "species": "SPECIES_SABLEYE"
+          },
+          {
+            "min_level": 34,
+            "max_level": 34,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 35,
+            "max_level": 35,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 34,
+            "max_level": 34,
+            "species": "SPECIES_SABLEYE"
+          },
+          {
+            "min_level": 36,
+            "max_level": 36,
+            "species": "SPECIES_CLAYDOL"
+          },
+          {
+            "min_level": 37,
+            "max_level": 37,
+            "species": "SPECIES_BANETTE"
+          },
+          {
+            "min_level": 38,
+            "max_level": 38,
+            "species": "SPECIES_BANETTE"
+          },
+          {
+            "min_level": 36,
+            "max_level": 36,
+            "species": "SPECIES_CLAYDOL"
+          },
+          {
+            "min_level": 37,
+            "max_level": 37,
+            "species": "SPECIES_CLAYDOL"
+          },
+          {
+            "min_level": 38,
+            "max_level": 38,
+            "species": "SPECIES_CLAYDOL"
+          },
+          {
+            "min_level": 37,
+            "max_level": 37,
+            "species": "SPECIES_CLAYDOL"
+          },
+          {
+            "min_level": 38,
+            "max_level": 38,
+            "species": "SPECIES_CLAYDOL"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "SkyPillar_1F_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 6,
+      "y": 13,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 78,
+      "targetX": 14,
+      "targetY": 5,
+      "targetElevation": 0
+    },
+    {
+      "x": 7,
+      "y": 13,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 78,
+      "targetX": 14,
+      "targetY": 5,
+      "targetElevation": 0
+    },
+    {
+      "x": 10,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 80,
+      "targetX": 10,
+      "targetY": 1,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [],
+  "blockData": "JwYnBicGJwYnBicGJwYnBicGOwY8Bj0GJwYnBi8GLwYvBi8GLwYvBi8GLwYvBkMGRDJFBi8GLwa+Mr4yvjK+Mr4yvjK+MgcGvjK+Mr4yvjIHBr4yvTK9Mr0yHwa9Mr0yvTK9Mg8GHwa9Mr0yvTK9Mr0yvTK9Mr0yHwa9Mr0yvTK9Mr0yvTK9Mr0yvTK9Mr0yvTK9MjgGOQY5BjkGOQY6Br0yvTK9Mr0yvTK9Mg8GvTJABkEGQQZBBkEGQga9Mr0yvTK9Mg8GHwa9Mr0yQQZBBkEGQQZBBkEGDwa9Mr0yHwYPBr0yvTK9MkEGQQZBBkEGQQZBBr0yDwYfBr0yvTK9Mr0yvTJBBkEGQQZBBkEGQQa9Mr0yvTIfBr0yvTK9Mg8GSQZNBk0GTQZNBkoGvTK9Mr0yDwa9Mr0yHwa9Mr0yvTK9Mr0yvTIPBr0yvTK9Mr0yvTK9Mr0yvTK9Mr0yvTK9Mr0yvTK9Mr0yvTK9Mh8GvTK9Mr0yvTK9MiIyIzK9Mr0yvTK9Mr0yDwY=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQAAAAAAAA=="
+}

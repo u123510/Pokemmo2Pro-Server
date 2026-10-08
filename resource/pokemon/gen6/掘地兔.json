@@ -1,0 +1,175 @@
+{
+	"id": 1098,
+	"name": "[1098]掘地兔",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 10,
+	"weight": 424,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 53,
+			"name": "[053]特性53"
+		},
+		{
+			"id": 53,
+			"name": "[053]特性53"
+		},
+		{
+			"id": 37,
+			"name": "[037]特性37"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 14,
+			"name": "[14]剑舞",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 43,
+			"name": "[43]瞪眼",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 97,
+			"name": "[97]高速移动",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 359,
+			"name": "[359]臂锤",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 523,
+			"name": "[523]重踏",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 563,
+			"name": "[563]耕地",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 98,
+			"name": "[98]电光一闪",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 189,
+			"name": "[189]掷泥",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 36,
+			"name": "[36]猛撞",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 341,
+			"name": "[341]泥巴射击",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 24,
+			"name": "[24]二连踢",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 316,
+			"name": "[316]气味侦测",
+			"type": "level",
+			"level": 26
+		},
+		{
+			"id": 175,
+			"name": "[175]抓狂",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 91,
+			"name": "[91]挖洞",
+			"type": "level",
+			"level": 37
+		},
+		{
+			"id": 340,
+			"name": "[340]弹跳",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 162,
+			"name": "[162]愤怒门牙",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 263,
+			"name": "[263]硬撑",
+			"type": "level",
+			"level": 53
+		},
+		{
+			"id": 89,
+			"name": "[89]地震",
+			"type": "level",
+			"level": 57
+		},
+		{
+			"id": 359,
+			"name": "[359]臂锤",
+			"type": "level",
+			"level": 60
+		}
+	],
+	"types": [
+		"NORMAL",
+		"GROUND"
+	],
+	"stats": {
+		"hp": 85,
+		"attack": 56,
+		"defense": 77,
+		"speed": 50,
+		"sp_attack": 77,
+		"sp_defense": 78
+	},
+	"yields": {
+		"ev_hp": 2,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

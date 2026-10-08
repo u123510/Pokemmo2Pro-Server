@@ -1,0 +1,135 @@
+{
+	"id": 997,
+	"name": "[997]冻脊龙",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 8,
+	"weight": 300,
+	"egg_groups": [
+		"矿物组",
+		"龙组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 115,
+			"name": "[115]特性115"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 998,
+			"name": "[998]戟脊龙",
+			"type": "LEVEL",
+			"val": 54
+		}
+	],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 43,
+			"name": "[43]瞪眼",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 525,
+			"name": "[525]龙尾",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 196,
+			"name": "[196]冰冻之风",
+			"type": "level",
+			"level": 6
+		},
+		{
+			"id": 225,
+			"name": "[225]龙息",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 116,
+			"name": "[116]聚气",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 423,
+			"name": "[423]冰冻牙",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 36,
+			"name": "[36]猛撞",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 58,
+			"name": "[58]冰冻光束",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 242,
+			"name": "[242]咬碎",
+			"type": "level",
+			"level": 50
+		},
+		{
+			"id": 556,
+			"name": "[556]冰柱坠击",
+			"type": "level",
+			"level": 55
+		}
+	],
+	"types": [
+		"DRAGON",
+		"ICE"
+	],
+	"stats": {
+		"hp": 90,
+		"attack": 95,
+		"defense": 66,
+		"speed": 45,
+		"sp_attack": 65,
+		"sp_defense": 62
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 2,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

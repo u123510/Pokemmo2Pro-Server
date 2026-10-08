@@ -1,0 +1,158 @@
+{
+	"id": 842,
+	"name": "[842]丰蜜龙",
+	"exp_type": 2,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 4,
+	"weight": 130,
+	"egg_groups": [
+		"植物组",
+		"龙组"
+	],
+	"abilities": [
+		{
+			"id": 82,
+			"name": "[082]特性82"
+		},
+		{
+			"id": 82,
+			"name": "[082]特性82"
+		},
+		{
+			"id": 47,
+			"name": "[047]特性47"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 29,
+			"name": "[29]头锤",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 74,
+			"name": "[74]生长",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 110,
+			"name": "[110]缩入壳中",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 230,
+			"name": "[230]甜甜香气",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 278,
+			"name": "[278]回收利用",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 310,
+			"name": "[310]惊吓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 174,
+			"name": "[174]诅咒",
+			"type": "level",
+			"level": 4
+		},
+		{
+			"id": 23,
+			"name": "[23]踩踏",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 73,
+			"name": "[73]寄生种子",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 182,
+			"name": "[182]守住",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 331,
+			"name": "[331]种子机关枪",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 105,
+			"name": "[105]自我再生",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 787,
+			"name": "[787]苹果酸",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 34,
+			"name": "[34]泰山压顶",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 334,
+			"name": "[334]铁壁",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 406,
+			"name": "[406]龙之波动",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 412,
+			"name": "[412]能量球",
+			"type": "level",
+			"level": 44
+		}
+	],
+	"types": [
+		"GRASS",
+		"DRAGON"
+	],
+	"stats": {
+		"hp": 110,
+		"attack": 85,
+		"defense": 80,
+		"speed": 100,
+		"sp_attack": 80,
+		"sp_defense": 30
+	},
+	"yields": {
+		"ev_hp": 2,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

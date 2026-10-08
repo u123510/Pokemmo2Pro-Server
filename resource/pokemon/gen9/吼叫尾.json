@@ -1,0 +1,151 @@
+{
+	"id": 985,
+	"name": "[985]吼叫尾",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 12,
+	"weight": 80,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 1,
+			"name": "[1]拍击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 47,
+			"name": "[47]唱歌",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 50,
+			"name": "[50]定身法",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 336,
+			"name": "[336]长嚎",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 568,
+			"name": "[568]战吼",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 34,
+			"name": "[34]泰山压顶",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 156,
+			"name": "[156]睡觉",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 583,
+			"name": "[583]嬉闹",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 304,
+			"name": "[304]巨声",
+			"type": "level",
+			"level": 49
+		},
+		{
+			"id": 706,
+			"name": "[706]精神之牙",
+			"type": "level",
+			"level": 56
+		},
+		{
+			"id": 242,
+			"name": "[242]咬碎",
+			"type": "level",
+			"level": 63
+		},
+		{
+			"id": 273,
+			"name": "[273]祈愿",
+			"type": "level",
+			"level": 70
+		},
+		{
+			"id": 360,
+			"name": "[360]陀螺球",
+			"type": "level",
+			"level": 77
+		},
+		{
+			"id": 195,
+			"name": "[195]灭亡之歌",
+			"type": "level",
+			"level": 84
+		},
+		{
+			"id": 586,
+			"name": "[586]爆音波",
+			"type": "level",
+			"level": 91
+		}
+	],
+	"types": [
+		"FAIRY",
+		"PSYCHIC"
+	],
+	"stats": {
+		"hp": 115,
+		"attack": 65,
+		"defense": 99,
+		"speed": 65,
+		"sp_attack": 115,
+		"sp_defense": 111
+	},
+	"yields": {
+		"ev_hp": 3,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

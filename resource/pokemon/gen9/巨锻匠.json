@@ -1,0 +1,151 @@
+{
+	"id": 959,
+	"name": "[959]巨锻匠",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 7,
+	"weight": 1128,
+	"egg_groups": [
+		"妖精组"
+	],
+	"abilities": [
+		{
+			"id": 104,
+			"name": "[104]特性104"
+		},
+		{
+			"id": 20,
+			"name": "[020]特性20"
+		},
+		{
+			"id": 124,
+			"name": "[124]特性124"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 310,
+			"name": "[310]惊吓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 584,
+			"name": "[584]妖精之风",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 608,
+			"name": "[608]圆瞳",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 232,
+			"name": "[232]金属爪",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 343,
+			"name": "[343]渴望",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 249,
+			"name": "[249]碎岩",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 577,
+			"name": "[577]吸取之吻",
+			"type": "level",
+			"level": 17
+		},
+		{
+			"id": 186,
+			"name": "[186]天使之吻",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 693,
+			"name": "[693]狂舞挥打",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 21,
+			"name": "[21]摔打",
+			"type": "level",
+			"level": 27
+		},
+		{
+			"id": 430,
+			"name": "[430]加农光炮",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 583,
+			"name": "[583]嬉闹",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 252,
+			"name": "[252]击掌奇袭",
+			"type": "level",
+			"level": 39
+		},
+		{
+			"id": 260,
+			"name": "[260]吹捧",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 806,
+			"name": "[806]爬击",
+			"type": "level",
+			"level": 47
+		},
+		{
+			"id": 282,
+			"name": "[282]拍落",
+			"type": "level",
+			"level": 52
+		}
+	],
+	"types": [
+		"FAIRY",
+		"STEEL"
+	],
+	"stats": {
+		"hp": 85,
+		"attack": 75,
+		"defense": 77,
+		"speed": 70,
+		"sp_attack": 105,
+		"sp_defense": 94
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 3,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

@@ -1,0 +1,175 @@
+{
+	"id": 794,
+	"name": "[794]爆肌蚊",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 24,
+	"weight": 3336,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 8,
+			"name": "[8]冰冻拳",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 9,
+			"name": "[9]雷电拳",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 106,
+			"name": "[106]变硬",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 116,
+			"name": "[116]聚气",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 179,
+			"name": "[179]起死回生",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 565,
+			"name": "[565]致命针刺",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 612,
+			"name": "[612]增强拳",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 4,
+			"name": "[4]连续拳",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 339,
+			"name": "[339]健美",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 233,
+			"name": "[233]借力摔",
+			"type": "level",
+			"level": 19
+		},
+		{
+			"id": 203,
+			"name": "[203]挺住",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 141,
+			"name": "[141]吸血",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 269,
+			"name": "[269]挑衅",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 5,
+			"name": "[5]百万吨重拳",
+			"type": "level",
+			"level": 37
+		},
+		{
+			"id": 68,
+			"name": "[68]双倍奉还",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 359,
+			"name": "[359]臂锤",
+			"type": "level",
+			"level": 47
+		},
+		{
+			"id": 679,
+			"name": "[679]猛扑",
+			"type": "level",
+			"level": 53
+		},
+		{
+			"id": 223,
+			"name": "[223]爆裂拳",
+			"type": "level",
+			"level": 59
+		},
+		{
+			"id": 276,
+			"name": "[276]蛮力",
+			"type": "level",
+			"level": 67
+		},
+		{
+			"id": 264,
+			"name": "[264]真气拳",
+			"type": "level",
+			"level": 73
+		}
+	],
+	"types": [
+		"BUG",
+		"FIGHTING"
+	],
+	"stats": {
+		"hp": 107,
+		"attack": 139,
+		"defense": 139,
+		"speed": 53,
+		"sp_attack": 53,
+		"sp_defense": 79
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 1,
+		"ev_defense": 2,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

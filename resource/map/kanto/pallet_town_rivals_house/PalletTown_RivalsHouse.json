@@ -1,0 +1,204 @@
+{
+  "regionId": 0,
+  "bankId": 4,
+  "mapId": 2,
+  "width": 13,
+  "height": 10,
+  "paletteIdx1": 12,
+  "paletteIdx2": 42,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 300,
+  "unknownByte": 88,
+  "borderTiles": [
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "PalletTown_RivalsHouse_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 12,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "PalletTown_RivalsHouse_EventScript_Bookshelf"
+    },
+    {
+      "x": 11,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "PalletTown_RivalsHouse_EventScript_Bookshelf"
+    },
+    {
+      "x": 9,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "PalletTown_RivalsHouse_EventScript_Picture"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 4,
+      "y": 8,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 0,
+      "targetX": 15,
+      "targetY": 7,
+      "targetElevation": 0
+    },
+    {
+      "x": 5,
+      "y": 8,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 0,
+      "targetX": 15,
+      "targetY": 7,
+      "targetElevation": 0
+    },
+    {
+      "x": 3,
+      "y": 8,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 0,
+      "targetX": 15,
+      "targetY": 7,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 76,
+      "x": 10,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 3,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PalletTown_RivalsHouse_EventScript_Daisy",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 93,
+      "x": 6,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PalletTown_RivalsHouse_EventScript_TownMap",
+      "hideFlag": "kanto/FLAG_HIDE_TOWN_MAP",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "IAQgBC4ELwQgBC0EIQQiBCAEhAUgBCsELAQxBDIENgQ3BCgENQQpBCoEKASFBSgEMwQ0BDkwOjA+MD8wCTA9MAkwCTAJMAkwCTA7MDwwCTABMAEwATBDMEQwRDBEMEQwRjABMAEwATAJMAEwATABMFMwSzBMBE0ETjBWMAEwATABMAkwATABMAEwUzBLMFQEVQROMFYwATABMAEwCTABMAEwATBbMFwwXDBcMFwwXjABMAEwATBXMAEwATABMAEwATABMAEwATABMAEwATBHMF8EATABMBIwEzAUMAEwATABMAEwATABME8ECDQINAg0GgQbBBwECDQINAg0CDQINAg0CDQ=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+}

@@ -1,0 +1,162 @@
+{
+  "regionId": 0,
+  "bankId": 1,
+  "mapId": 78,
+  "width": 28,
+  "height": 24,
+  "paletteIdx1": 12,
+  "paletteIdx2": 66,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 295,
+  "unknownByte": 137,
+  "borderTiles": [
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_MAP_SCENE_POKEMON_LEAGUE",
+      "value": 3,
+      "script": "PokemonLeague_LancesRoom_EventScript_EnterRoom"
+    }
+  ],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 23,
+      "y": 13,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 77,
+      "targetX": 6,
+      "targetY": 2,
+      "targetElevation": 0
+    },
+    {
+      "x": 6,
+      "y": 5,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 79,
+      "targetX": 6,
+      "targetY": 19,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 74,
+      "x": 6,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PokemonLeague_LancesRoom_EventScript_Lance",
+      "hideFlag": "",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "CAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgEgwaDBoMGgwaDBoMGgwaDBoMGgwaDBoMGgwYIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgECASEBoYGhAaGBoQGigaLBowGhgaEBoYGhAaGBggECAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBIUGhwZPB4cGhQaSBpMGlAaHBoUGVweFBocGCAQIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBAgE+gYRM3IHETMRMxIzETMTMxEzETNzBxEz+gYIBAgEgwaDBoMGgwaDBoMGgwaDBoMGgwaDBoMGCAT6BhAzajMXMxszHDMcMxwzHTMQM2szFzP5BggECASEBoYGhAaGBoQGhgaEBoYGhAaGBoQGhgYIBPoGEDNwBxAzHjMgMyEzIjMfMxAzcQcQM/kGCAQIBIUGhwaFBocGhQaHBoUGhwaFBocGhQaHBggE+gYQM3gHFzMmMyMzJDMlMyczEDN5Bxcz+QYIBAgEETMRMxEzETMRMxEzETMRMxEzETMRMxEzCAT6BhAzaDMYMy4zKzMsMy0zLzMQM2kzGDP5BggECAQRMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMIBPoGEDNwBxAzHjMoMykzKjMfMxAzcQcQM/kGCAQIBBEzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMwgE+gYQM3gHFzOYMpkymTKZMqAyEDN5Bxcz+QYIBAgEETMQMxAzEDMQMxAzQDIQMxAzEDNAMhAzCASQBpAykDKQMpAykDKQMpAykDKQMpAykDKQBpAGkAYRMxAzEDMQMxAzEDNJBj8zEDMQM0kGPzMIBIQGhgaEBoYGhAY2BzczQAeGBoQGhgaEBoYGhAaGBhEzEDMQMxAzEDMIBAgECAQIBAgECAQIBAgEhQaHBoUGhwaFBj4HPzNIB4cGhQaHBoUGhwaFBocGETMQMxAzEDMQMwgECAQIBAgECAQIBAgECAQRM0EyETMRM0EyETM/M4IyQTIRMxEzQTIRMxEzETMRMxAzEDMQMxAzCAQIBAgECAQIBAgECAQIBBEzSQY/MxAzSQY/MxAzEDNJBj8zEDNJBj8zEDMQMxAzEDMQMxAzEDMIBAgECAQIBAgECAQIBAgEETMZMxgzEDMZMxgzEDMQMxkzGDMQMxkzGDMQMxAzEDMQMxAzEDMQMwgECAQIBAgECAQIBAgECAQRMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzEDMQMxAzCAQIBAgECAQIBAgECAQIBBEzQDIQMxAzQDIQMxAzEDNAMhAzEDNAMhAzEDMQMxAzEDMQMxAzEDMIBAgECAQIBAgECAQIBAgEkAaQBpAykDKQBpAykDKQMpAGkDKQMpAGkDKQMpAykDKQMpAykDKQMggECAQIBAgECAQIBAgECASEBoYGhAaGBoQGhgaEBoYGhAaGBoQGhgaEBoYGhAaGBoQGhgaEBoYGCAQIBAgECAQIBAgECAQIBIUGhwaFBocGhQaHBoUGhwaFBocGhQaHBoUGhwaFBocGhQaHBoUGhwYIBAgECAQIBAgECAQIBAgE",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

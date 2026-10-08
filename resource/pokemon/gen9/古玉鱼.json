@@ -1,0 +1,163 @@
+{
+	"id": 1004,
+	"name": "[1004]古玉鱼",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 4,
+	"weight": 49,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 52,
+			"name": "[52]火花",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 180,
+			"name": "[180]怨恨",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 212,
+			"name": "[212]黑色目光",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 172,
+			"name": "[172]火焰轮",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 371,
+			"name": "[371]以牙还牙",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 261,
+			"name": "[261]鬼火",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 488,
+			"name": "[488]蓄能焰袭",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 510,
+			"name": "[510]烧尽",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 109,
+			"name": "[109]奇异之光",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 417,
+			"name": "[417]诡计",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 399,
+			"name": "[399]恶之波动",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 436,
+			"name": "[436]喷烟",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 877,
+			"name": "[877]大灾难",
+			"type": "level",
+			"level": 50
+		},
+		{
+			"id": 340,
+			"name": "[340]弹跳",
+			"type": "level",
+			"level": 55
+		},
+		{
+			"id": 207,
+			"name": "[207]虚张声势",
+			"type": "level",
+			"level": 60
+		},
+		{
+			"id": 517,
+			"name": "[517]炼狱",
+			"type": "level",
+			"level": 65
+		},
+		{
+			"id": 262,
+			"name": "[262]临别礼物",
+			"type": "level",
+			"level": 70
+		},
+		{
+			"id": 315,
+			"name": "[315]过热",
+			"type": "level",
+			"level": 75
+		}
+	],
+	"types": [
+		"DARK",
+		"FIRE"
+	],
+	"stats": {
+		"hp": 55,
+		"attack": 80,
+		"defense": 80,
+		"speed": 135,
+		"sp_attack": 120,
+		"sp_defense": 100
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 3,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

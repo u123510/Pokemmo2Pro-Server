@@ -1,0 +1,175 @@
+{
+	"id": 1071,
+	"name": "[1071]玛机雅娜",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 10,
+	"weight": 805,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 49,
+			"name": "[49]音爆",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 60,
+			"name": "[60]幻象光线",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 111,
+			"name": "[111]变圆",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 270,
+			"name": "[270]帮助",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 442,
+			"name": "[442]铁头",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 508,
+			"name": "[508]换档",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 578,
+			"name": "[578]戏法防守",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 674,
+			"name": "[674]辅助齿轮",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 381,
+			"name": "[381]幸运咒语",
+			"type": "level",
+			"level": 9
+		},
+		{
+			"id": 62,
+			"name": "[62]极光束",
+			"type": "level",
+			"level": 17
+		},
+		{
+			"id": 429,
+			"name": "[429]镜光射击",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 170,
+			"name": "[170]心之眼",
+			"type": "level",
+			"level": 33
+		},
+		{
+			"id": 430,
+			"name": "[430]加农光炮",
+			"type": "level",
+			"level": 41
+		},
+		{
+			"id": 705,
+			"name": "[705]花朵加农炮",
+			"type": "level",
+			"level": 49
+		},
+		{
+			"id": 334,
+			"name": "[334]铁壁",
+			"type": "level",
+			"level": 57
+		},
+		{
+			"id": 220,
+			"name": "[220]分担痛楚",
+			"type": "level",
+			"level": 65
+		},
+		{
+			"id": 485,
+			"name": "[485]同步干扰",
+			"type": "level",
+			"level": 73
+		},
+		{
+			"id": 396,
+			"name": "[396]波导弹",
+			"type": "level",
+			"level": 81
+		},
+		{
+			"id": 391,
+			"name": "[391]心灵互换",
+			"type": "level",
+			"level": 89
+		},
+		{
+			"id": 376,
+			"name": "[376]王牌",
+			"type": "level",
+			"level": 97
+		}
+	],
+	"types": [
+		"STEEL",
+		"FAIRY"
+	],
+	"stats": {
+		"hp": 80,
+		"attack": 95,
+		"defense": 115,
+		"speed": 130,
+		"sp_attack": 115,
+		"sp_defense": 65
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 3,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

@@ -1,0 +1,151 @@
+{
+	"id": 990,
+	"name": "[990]铁轍迹",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 9,
+	"weight": 2400,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 30,
+			"name": "[30]角撞",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 111,
+			"name": "[111]变圆",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 205,
+			"name": "[205]滚动",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 604,
+			"name": "[604]电气场地",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 523,
+			"name": "[523]重踏",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 229,
+			"name": "[229]高速旋转",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 442,
+			"name": "[442]铁头",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 707,
+			"name": "[707]跺脚",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 282,
+			"name": "[282]拍落",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 89,
+			"name": "[89]地震",
+			"type": "level",
+			"level": 49
+		},
+		{
+			"id": 484,
+			"name": "[484]重磅冲撞",
+			"type": "level",
+			"level": 56
+		},
+		{
+			"id": 528,
+			"name": "[528]疯狂伏特",
+			"type": "level",
+			"level": 63
+		},
+		{
+			"id": 283,
+			"name": "[283]蛮干",
+			"type": "level",
+			"level": 70
+		},
+		{
+			"id": 224,
+			"name": "[224]超级角击",
+			"type": "level",
+			"level": 77
+		},
+		{
+			"id": 416,
+			"name": "[416]终极冲击",
+			"type": "level",
+			"level": 84
+		},
+		{
+			"id": 798,
+			"name": "[798]铁滚轮",
+			"type": "level",
+			"level": 91
+		}
+	],
+	"types": [
+		"GROUND",
+		"STEEL"
+	],
+	"stats": {
+		"hp": 90,
+		"attack": 112,
+		"defense": 120,
+		"speed": 72,
+		"sp_attack": 70,
+		"sp_defense": 106
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 3,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

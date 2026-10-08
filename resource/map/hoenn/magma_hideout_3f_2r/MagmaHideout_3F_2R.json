@@ -1,0 +1,230 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 90,
+  "width": 24,
+  "height": 17,
+  "paletteIdx1": 100,
+  "paletteIdx2": 106,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 430,
+  "unknownByte": 198,
+  "borderTiles": [
+    {
+      "material": 625,
+      "collision": 0
+    },
+    {
+      "material": 625,
+      "collision": 0
+    },
+    {
+      "material": 625,
+      "collision": 0
+    },
+    {
+      "material": 625,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_MAGMA_HIDEOUT_3F_2R",
+      "base_label": "gMagmaHideout_3F_2R",
+      "land_mons": {
+        "encounter_rate": 10,
+        "mons": [
+          {
+            "min_level": 27,
+            "max_level": 27,
+            "species": "SPECIES_GEODUDE"
+          },
+          {
+            "min_level": 28,
+            "max_level": 28,
+            "species": "SPECIES_TORKOAL"
+          },
+          {
+            "min_level": 28,
+            "max_level": 28,
+            "species": "SPECIES_GEODUDE"
+          },
+          {
+            "min_level": 30,
+            "max_level": 30,
+            "species": "SPECIES_TORKOAL"
+          },
+          {
+            "min_level": 29,
+            "max_level": 29,
+            "species": "SPECIES_GEODUDE"
+          },
+          {
+            "min_level": 30,
+            "max_level": 30,
+            "species": "SPECIES_GEODUDE"
+          },
+          {
+            "min_level": 30,
+            "max_level": 30,
+            "species": "SPECIES_GEODUDE"
+          },
+          {
+            "min_level": 30,
+            "max_level": 30,
+            "species": "SPECIES_GRAVELER"
+          },
+          {
+            "min_level": 30,
+            "max_level": 30,
+            "species": "SPECIES_GRAVELER"
+          },
+          {
+            "min_level": 31,
+            "max_level": 31,
+            "species": "SPECIES_GRAVELER"
+          },
+          {
+            "min_level": 32,
+            "max_level": 32,
+            "species": "SPECIES_GRAVELER"
+          },
+          {
+            "min_level": 33,
+            "max_level": 33,
+            "species": "SPECIES_GRAVELER"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 12,
+      "y": 15,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 89,
+      "targetX": 21,
+      "targetY": 9,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 119,
+      "x": 16,
+      "y": 3,
+      "elevation": 0,
+      "movementType": "FACE_DOWN_AND_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "MagmaHideout_3F_2R_EventScript_Grunt10",
+      "hideFlag": "hoenn/FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS",
+      "rawMovementType": 17
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 59,
+      "x": 5,
+      "y": 9,
+      "elevation": 0,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "MagmaHideout_3F_2R_EventScript_ItemPPMax",
+      "hideFlag": "hoenn/FLAG_ITEM_MAGMA_HIDEOUT_3F_2R_PP_MAX",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "cQZxBnEGcQZxBnsGdAZ0BnQGdAZ0BnQGdAZ0BnQGdAZ0BnQGdAZ0BnwGcQZxBnEGcQZxBnEGcQZxBnIGewaSB5MHkgeTB5IHkweUB5UHlAeVB5QHlQd8BgYHcQZxBnEGcQZxBnEGcQZxBnIGcgZgB2EHYAdhB2AHYQdiB2MHYgdjB2IHYwcGB3gGdAZ0BnwGEwdxBnEGcQZxBnIGcgZYB1kHWAdZBwgDCAMIAxADCAMIA1oHWwcON4QHhQd8BgYHcQZxBnEGcQZxBnIGcgZgB2EHYAdhBwgDCAMIAwgDCAMIA2IHYwcIA3UHdgcGBwYHcQZ7Bi0DdAZ0BnoGcgYIAwgDCAMIAwgDCAMIAwgDCAMIAwgDCAMIA30HfgcGBwYHcQZyBnsGggeDB4IHgwcIAwgDCANoB2kHagdrB2sHawduBwgDCAMIA1oHWwcGBwYHcQZyBgcHiAeJB4oHiwcQAwgDCANwB3EHcgdzB3MHcwd2BwgDEAMIA2IHYwcGBwYHcQZyBnIGkAeRB5AHkQcIAwgDCAN4B3kHegd7B3sHewd+BwgDCAMIA1oHWwcGBwYHcQZyBgcHWAdZBwgDCAMIAwgDCAMIA4AHgQdtB24HbQduBxADCAMIA2IHYwcGBwYHcQZyBnIGYAdhB1gHWQcIAwgDCAMIA4gHiQd1B3YHdQd2BwgDCAMIAwo3DAd+Bn4GcQZyBgcHCAMIA2AHYQcIAxADCAMIA5AHkQd9B34HfQd+BwgDCAMKN3A2cTZxNnE2cQZyBnIGCAMIAwgDCAMIAwgDCAMIAwgDCAMIAwgDCAMIAwgDCjd+Bn4GEzdxNnE2cQZ+Bn4GDAcLNwgDCAMIAwgDCAMIAwgDCAMIAwgDEQMIAwo3cDZxNnEGcQZxBnE2EwdxNnE2cTZyBgwHCzcIAwgDCAMIAwgDCAMIAwgDCAMKN34GfgZxNnEGcQZxBnE2cQZxNnE2EzdyBnE2cgYLNxEDCAMIAwgDCQMIAwgDCjdwNnE2cTZxNnE2cTZxNnE2EzdxNnE2cTZ+Bn4GfgZ+BgwHDAcMBw0GDgYPBgwHfgZ+BnE2EwdxNnEGcQYTA3E2",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

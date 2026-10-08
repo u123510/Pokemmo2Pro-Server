@@ -1,0 +1,157 @@
+{
+	"id": 1091,
+	"name": "[1091]火狐狸",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 32,
+	"height": 4,
+	"weight": 94,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 66,
+			"name": "[066]特性66"
+		},
+		{
+			"id": 66,
+			"name": "[066]特性66"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 1092,
+			"name": "[1092]长尾火狐",
+			"type": "LEVEL",
+			"val": 16
+		}
+	],
+	"moves": [
+		{
+			"id": 10,
+			"name": "[10]抓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 39,
+			"name": "[39]摇尾巴",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 52,
+			"name": "[52]火花",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 336,
+			"name": "[336]长嚎",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 488,
+			"name": "[488]蓄能焰袭",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 60,
+			"name": "[60]幻象光线",
+			"type": "level",
+			"level": 17
+		},
+		{
+			"id": 83,
+			"name": "[83]火焰旋涡",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 381,
+			"name": "[381]幸运咒语",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 113,
+			"name": "[113]光墙",
+			"type": "level",
+			"level": 27
+		},
+		{
+			"id": 473,
+			"name": "[473]精神冲击",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 53,
+			"name": "[53]喷射火焰",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 261,
+			"name": "[261]鬼火",
+			"type": "level",
+			"level": 38
+		},
+		{
+			"id": 94,
+			"name": "[94]精神强念",
+			"type": "level",
+			"level": 41
+		},
+		{
+			"id": 241,
+			"name": "[241]大晴天",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 478,
+			"name": "[478]魔法空间",
+			"type": "level",
+			"level": 46
+		},
+		{
+			"id": 126,
+			"name": "[126]大字爆炎",
+			"type": "level",
+			"level": 48
+		}
+	],
+	"types": [
+		"FIRE"
+	],
+	"stats": {
+		"hp": 40,
+		"attack": 45,
+		"defense": 40,
+		"speed": 62,
+		"sp_attack": 60,
+		"sp_defense": 60
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 1,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

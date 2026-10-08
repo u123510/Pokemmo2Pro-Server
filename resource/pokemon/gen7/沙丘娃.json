@@ -1,0 +1,146 @@
+{
+	"id": 769,
+	"name": "[769]沙丘娃",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 5,
+	"weight": 700,
+	"egg_groups": [
+		"不定形组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 8,
+			"name": "[008]特性8"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 770,
+			"name": "[770]噬沙堡爷",
+			"type": "LEVEL",
+			"val": 42
+		}
+	],
+	"moves": [
+		{
+			"id": 71,
+			"name": "[71]吸取",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 106,
+			"name": "[106]变硬",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 310,
+			"name": "[310]惊吓",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 28,
+			"name": "[28]泼沙",
+			"type": "level",
+			"level": 9
+		},
+		{
+			"id": 328,
+			"name": "[328]流沙地狱",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 72,
+			"name": "[72]超级吸取",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 523,
+			"name": "[523]重踏",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 95,
+			"name": "[95]催眠术",
+			"type": "level",
+			"level": 27
+		},
+		{
+			"id": 334,
+			"name": "[334]铁壁",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 202,
+			"name": "[202]终极吸取",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 247,
+			"name": "[247]暗影球",
+			"type": "level",
+			"level": 41
+		},
+		{
+			"id": 414,
+			"name": "[414]大地之力",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 659,
+			"name": "[659]集沙",
+			"type": "level",
+			"level": 50
+		},
+		{
+			"id": 201,
+			"name": "[201]沙暴",
+			"type": "level",
+			"level": 54
+		}
+	],
+	"types": [
+		"GHOST",
+		"GROUND"
+	],
+	"stats": {
+		"hp": 55,
+		"attack": 55,
+		"defense": 80,
+		"speed": 70,
+		"sp_attack": 45,
+		"sp_defense": 15
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 1,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

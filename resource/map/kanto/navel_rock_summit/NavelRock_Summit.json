@@ -1,0 +1,162 @@
+{
+  "regionId": 0,
+  "bankId": 2,
+  "mapId": 37,
+  "width": 19,
+  "height": 25,
+  "paletteIdx1": 0,
+  "paletteIdx2": 59,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 331,
+  "unknownByte": 174,
+  "borderTiles": [
+    {
+      "material": 695,
+      "collision": 0
+    },
+    {
+      "material": 695,
+      "collision": 0
+    },
+    {
+      "material": 695,
+      "collision": 0
+    },
+    {
+      "material": 695,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "CLOUDY",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "NavelRock_Summit_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [
+    {
+      "x": 9,
+      "y": 12,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "NavelRock_Summit_EventScript_HoOh"
+    }
+  ],
+  "bgEvents": [
+    {
+      "x": 9,
+      "y": 11,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "0x0"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 10,
+      "y": 18,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 2,
+      "targetMapId": 42,
+      "targetX": 4,
+      "targetY": 4,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 145,
+      "x": 9,
+      "y": 6,
+      "elevation": 0,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "kanto/FLAG_HIDE_HO_OH",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "twa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3BrcGtwa3Brc2tza3Nrc2tza3Nrc2tzYOBwczDwe3Nrc2tza3Nrc2tza3Nrc2tza3Nrc2tza3Nrc2tzYOB8YGBjPHBg8Htza3Nrc2tza3Nrc2tza3Nrc2tza3Nrc2tzYOB8YGxgYGM8cGxwYPB7c2tza3Nrc2tza3Nrc2tza3Nrc2tza3NhMHxgbDBoQyxQbHBhUHtza3Nrc2tza3Nrc2tza3Nrc2tza3Nrc2EwfDBpkGhDKZBsUGFQe3Nrc2tza3Nrc2tza3Nrc2tza3Nrc2tzYTB9Ay0zLZMtQy0jIVB7c2tza3Nrc2tza3Nrc2tza3Nrc2EAdABxwH2DLZMtky2TLaMh0HQAcSB7c2tza3Nrc2tza3NhAHQAc6BxQHHAfYMtky2TKvMtoyHQcUBzkHQAcSB7c2tza3NhAHOgcaBxYHFgccB+Ay4TLhMuEy4jIdBxYHFgcbBzkHEge3NhAHOgcaBzoHFAcUBxgHmQaZBpkGmQaZBhkHFAcUBzkHGwc5BxIHOgcWBzoHGgcWBxYH4wbkBuQG5AbkBuQG5QYWBxYHGwc5BxYHOQcUBxoHFgc6BxQHFAcIBwkHCQcJBwkHCQcKBxQHFAc5BxYHGwcUBxYHOgcUBxQHGgcWBwsHDAcMBwwHDAcMBw0HFgcbBxQHFAc5BxYHFAcUBxoHFgc6BxQHCwcMBwwHDAcMBwwHDQcUBzkHFgcbBxQHFAc=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+}

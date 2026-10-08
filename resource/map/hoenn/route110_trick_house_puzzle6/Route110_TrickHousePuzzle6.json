@@ -1,0 +1,220 @@
+{
+  "regionId": 1,
+  "bankId": 79,
+  "mapId": 8,
+  "width": 15,
+  "height": 22,
+  "paletteIdx1": 116,
+  "paletteIdx2": 153,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 448,
+  "unknownByte": 25,
+  "borderTiles": [
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "Route110_TrickHousePuzzle6_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 0,
+      "y": 10,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "Route110_TrickHousePuzzle6_EventScript_Scroll"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 0,
+      "y": 21,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 79,
+      "targetMapId": 0,
+      "targetX": 5,
+      "targetY": 2,
+      "targetElevation": 2
+    },
+    {
+      "x": 1,
+      "y": 21,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 79,
+      "targetMapId": 0,
+      "targetX": 5,
+      "targetY": 2,
+      "targetElevation": 2
+    },
+    {
+      "x": 13,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 79,
+      "targetMapId": 1,
+      "targetX": 10,
+      "targetY": 1,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 32,
+      "x": 7,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "Route110_TrickHousePuzzle6_EventScript_Sophia",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 66,
+      "x": 11,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "Route110_TrickHousePuzzle6_EventScript_Benny",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 31,
+      "x": 4,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "UP",
+      "script": "Route110_TrickHousePuzzle6_EventScript_Sebastian",
+      "hideFlag": "",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 59,
+      "x": 11,
+      "y": 21,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "Route110_TrickHousePuzzle6_EventScript_ItemGlitterMail",
+      "hideFlag": "hoenn/FLAG_ITEM_TRICK_HOUSE_PUZZLE_6_GLITTER_MAIL",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "AQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAgZvBgQGCQYJBgkGCQYJBgkGCQYJBgkGCQYJBgkGCgZ3NgwGiQaDBhAyEDIQMoAGEDIQMhAyEDIQMhAygAYQMhAyiAYIMggyCDIIMpAGCDIIMoAGCDIIMggyiAYIMggykAYIMggyCDIIMggyCDIIMogGCDKABggyjAaDBggyCDIIMggyCDIIMoAGCDIIMpAGCDKQBggyiAYIMggyCDIIMggyiQaCBpIGCDIIMggyCDIIMggyiAYIMggyCDIIMggykAYIMggyCDIIMggygAYIMggyiAYIMoQGCDIIMggyCDIIMoEGkwaDBggykAYIMggyiAYIMggyCDIIMggyCDIIMggyiAYIMggyCDIIMoEGkgYIMggyEzYIMoAGCDKABggyiAYIMggyCDKABggyCDIIMggygQaCBpIGCDKIBggykAYIMggyCDKIBggyCDIIMggyCDIIMggyCDKIBggyCDKBBooGCDKRBooGCDIIMggyCDIIMggyCDKRBooGCDIIMogGCDIIMogGCDIIMggyiQaCBoMGCDIIMogGCDIIMpAGCDKBBpQGigYIMoAGiAYIMggyCDIIMogGCDIIMggyCDIIMggykAYIMpAGkAYIMoAGCDIIMogGCDIIMoQGCDIIMggyCDIIMggyCDIIMpAGCDIIMpEGgwYIMggyCDIIMggyCDIIMggyCDIIMggyCDIIMggyCDIIMggygQaDBggygAYIMggyCDIIMggyCDIIMggyCDIIMggyCDIIMggyiAYIMggyCDIIMggyCDKJBoMGCDIIMggyCDKJBoIGkgYIMggyETISMggyCDKQBggyCDIIMggygQaSBggyCDIIMggy",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ0AAAAAAAAAAAAAAAAA"
+}

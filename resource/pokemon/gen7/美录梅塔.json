@@ -1,0 +1,144 @@
+{
+	"id": 1079,
+	"name": "[1079]美录梅塔",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 25,
+	"weight": 8000,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 89,
+			"name": "[089]特性89"
+		},
+		{
+			"id": 89,
+			"name": "[089]特性89"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 9,
+			"name": "[9]雷电拳",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 29,
+			"name": "[29]头锤",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 39,
+			"name": "[39]摇尾巴",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 86,
+			"name": "[86]电磁波",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 106,
+			"name": "[106]变硬",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 39,
+			"name": "[39]摇尾巴",
+			"type": "level",
+			"level": 9
+		},
+		{
+			"id": 86,
+			"name": "[86]电磁波",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 84,
+			"name": "[84]电击",
+			"type": "level",
+			"level": 27
+		},
+		{
+			"id": 151,
+			"name": "[151]溶化",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 430,
+			"name": "[430]加农光炮",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 5,
+			"name": "[5]百万吨重拳",
+			"type": "level",
+			"level": 54
+		},
+		{
+			"id": 182,
+			"name": "[182]守住",
+			"type": "level",
+			"level": 63
+		},
+		{
+			"id": 742,
+			"name": "[742]钢拳双击",
+			"type": "level",
+			"level": 72
+		},
+		{
+			"id": 276,
+			"name": "[276]蛮力",
+			"type": "level",
+			"level": 81
+		},
+		{
+			"id": 63,
+			"name": "[63]破坏光线",
+			"type": "level",
+			"level": 90
+		}
+	],
+	"types": [
+		"STEEL"
+	],
+	"stats": {
+		"hp": 135,
+		"attack": 143,
+		"defense": 143,
+		"speed": 80,
+		"sp_attack": 65,
+		"sp_defense": 34
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 3,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

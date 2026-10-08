@@ -1,0 +1,114 @@
+{
+	"id": 953,
+	"name": "[953]虫滚泥",
+	"exp_type": 4,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 2,
+	"weight": 10,
+	"egg_groups": [
+		"虫组"
+	],
+	"abilities": [
+		{
+			"id": 14,
+			"name": "[014]特性14"
+		},
+		{
+			"id": 14,
+			"name": "[014]特性14"
+		},
+		{
+			"id": 61,
+			"name": "[061]特性61"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 111,
+			"name": "[111]变圆",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 28,
+			"name": "[28]泼沙",
+			"type": "level",
+			"level": 4
+		},
+		{
+			"id": 522,
+			"name": "[522]虫之抵抗",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 205,
+			"name": "[205]滚动",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 341,
+			"name": "[341]泥巴射击",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 450,
+			"name": "[450]虫咬",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 36,
+			"name": "[36]猛撞",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 91,
+			"name": "[91]挖洞",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 679,
+			"name": "[679]猛扑",
+			"type": "level",
+			"level": 35
+		}
+	],
+	"types": [
+		"BUG"
+	],
+	"stats": {
+		"hp": 41,
+		"attack": 50,
+		"defense": 60,
+		"speed": 31,
+		"sp_attack": 58,
+		"sp_defense": 30
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 1,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

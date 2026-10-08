@@ -1,0 +1,139 @@
+{
+	"id": 879,
+	"name": "[879]大王铜象",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 30,
+	"weight": 6500,
+	"egg_groups": [
+		"矿物组",
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 125,
+			"name": "[125]特性125"
+		},
+		{
+			"id": 125,
+			"name": "[125]特性125"
+		},
+		{
+			"id": 134,
+			"name": "[134]特性134"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 205,
+			"name": "[205]滚动",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 249,
+			"name": "[249]碎岩",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 484,
+			"name": "[484]重磅冲撞",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 523,
+			"name": "[523]重踏",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 23,
+			"name": "[23]踩踏",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 334,
+			"name": "[334]铁壁",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 91,
+			"name": "[91]挖洞",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 70,
+			"name": "[70]怪力",
+			"type": "level",
+			"level": 37
+		},
+		{
+			"id": 442,
+			"name": "[442]铁头",
+			"type": "level",
+			"level": 44
+		},
+		{
+			"id": 583,
+			"name": "[583]嬉闹",
+			"type": "level",
+			"level": 51
+		},
+		{
+			"id": 667,
+			"name": "[667]十万马力",
+			"type": "level",
+			"level": 58
+		},
+		{
+			"id": 276,
+			"name": "[276]蛮力",
+			"type": "level",
+			"level": 65
+		}
+	],
+	"types": [
+		"STEEL"
+	],
+	"stats": {
+		"hp": 122,
+		"attack": 130,
+		"defense": 69,
+		"speed": 80,
+		"sp_attack": 69,
+		"sp_defense": 30
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 2,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

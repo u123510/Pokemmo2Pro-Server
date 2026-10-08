@@ -1,0 +1,229 @@
+{
+  "regionId": 0,
+  "bankId": 2,
+  "mapId": 57,
+  "width": 27,
+  "height": 39,
+  "paletteIdx1": 0,
+  "paletteIdx2": 57,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 308,
+  "unknownByte": 195,
+  "borderTiles": [
+    {
+      "material": 657,
+      "collision": 0
+    },
+    {
+      "material": 657,
+      "collision": 0
+    },
+    {
+      "material": 657,
+      "collision": 0
+    },
+    {
+      "material": 657,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [
+    {
+      "x": 13,
+      "y": 13,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "OneIsland_KindleRoad_EmberSpa_EventScript_SpaHeal"
+    }
+  ],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 13,
+      "y": 36,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 45,
+      "targetX": 15,
+      "targetY": 58,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 32,
+      "x": 11,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "OneIsland_KindleRoad_EmberSpa_EventScript_OldMan",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 30,
+      "x": 15,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "FACE_DOWN_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "OneIsland_KindleRoad_EmberSpa_EventScript_BaldingMan1",
+      "hideFlag": "",
+      "rawMovementType": 18
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 54,
+      "x": 6,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "WANDER_LEFT_AND_RIGHT",
+      "movementRangeX": 2,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "OneIsland_KindleRoad_EmberSpa_EventScript_BlackBelt",
+      "hideFlag": "kanto/FLAG_HIDE_POSTGAME_GOSSIPERS",
+      "rawMovementType": 5
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 35,
+      "x": 20,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "OneIsland_KindleRoad_EmberSpa_EventScript_OldWoman",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 32,
+      "x": 10,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "OneIsland_KindleRoad_EmberSpa_EventScript_RockSmashMan",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 30,
+      "x": 11,
+      "y": 20,
+      "elevation": 2,
+      "movementType": "WANDER_LEFT_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "OneIsland_KindleRoad_EmberSpa_EventScript_BaldingMan2",
+      "hideFlag": "",
+      "rawMovementType": 5
+    }
+  ],
+  "blockData": "kQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGmQaZBpkGmQaZBpkGjAaMBpkGmQaZBpkGmQaMBowGmQaZBpkGmQaZBpkGmQaZBpkGmQaZBpkGKQeRBpsGmQaZBpkGJwUnBZkGmQaZBpkGmQYnBScFmQaZBpkGmQaZBpkGmQacBpEGkQYrB5EGkQaRBpIGmwaZBpkGLwUvBZkGmQaZBpkGmQYvBS8FmQaZBpkGmQaZBpwGkQbDBpkGmQaZBpwGkQYrB5IGkgYwBzEHNwE3ATIHmwaZBpkGmQYvBS8FmQaZBpkGmQacBsYGKQeRBpEGkQaRBsYGkQaRBpIGkgY4BzkHOQc5BzoHkgYtM5sGmQYvBS8FmQaZBpkGnAbGBsMGmQaZBpkGmQacBsYGkQabBsUGkgY4BycHOQc5BzoHkgYtM5IGMAc3ATcBMQcxBzIHxgbDBjUHNQc1BzUHnAbGBsYGmwbFBpEGkgabBpkGmQaZBpkGxQYtM5IGYAc5BzkHOQcmB2EHxgb8Mi0zLTMtMyIzNgfGBsYGxwYpB5sGxQY3ByAzLTMtMy0zLTMtMywzLDMsMywzLDMsMywzLDMtMy0zLTMtMy0zNgfGBsYGxwabBsUGKwc3By0zLTMiMy0zLTMtMyAzLTMtMy0zLTMtMy0zIDMtMy0zLTMtMy0zNgfGBsYGxwaSBpEGmwbFBi0zLTObBpwGmwaZBpkGmQaEMpkGmQaZBpwGmwaZBpkGhDKZBpwGxgbGBsYGxwaSBpsGxQabBpkGmQbFBsYGkgYwNzEzMTMzMzEzMTMyN8YGkgaRBpsGhDKcBsYGxgbGBsYGxwaSBpIGmwbFBpEGkQYpB8YGkgY4NyYzOTM5MzkzOTM6N8YGkgYrBzcHLTM2B8YGxgbGBsYGxwbHBscGxwYwMzEzMTMyM8YGkgY4NzkzOTM5MzkzJjM6N8YGkgabBj8HLTM2B8YGxgbGBsYGxwbHBscGxwY4MyczOTM6M8YGkgY4NzkzOTMnMzkzOTM6N8YGkgY3By0zLTM2B8YGxgbGBsYGxwbHBscGxwaJBokGiQaJBsYGiQYqB4kGiQaJBigHiQaJBokGkgY3By0zIDM2B8YGxgbGBsYGxwbHBscGxwabBjUHNQecBsMGmQaZBpkGmQaZBpkGmQaZBpkGxQY3By0zLTM2B8YGxgbGBsYGxwbHBscGxwY3By0zLTM+BzUHNQc1BzUHnAaRBpEGkQYrB5sGNQfFBi0zLTM2B8YGxgbGBsYGxwbHBscGxwY3By0zLTMtMy0zLTMtMy0zPgc1BzUHNQc1Bz8HLTMtMyIzLTM2B8YGxgbGBsYGxwbHBscGxwY3ByAzLTMtMy0zIjMtMy0zLTMtMy0zLTMtMy0zLTMtMy0zLTM2B8YGxgbGBsYGxwbHBscGxwY3By0zLTMtMy0zLTMtMy0zLTMtMy0zIDMtMy0zLTMtMy0zLTM2B8YGxgbGBsYGxwbHBscGxwaJBjQHNAcvBy0zLTMtMy0zLTMtMy0zLTMtMy0zLgc0BzQHNAeJBsYGxgbGBsYGxwbHBscGxwaRBpEGkQaJBjQHNAc0By8HLTMtMy0zLgc0BzQHiQagBokGiQaJBokGxgbGBsYGxwbHBscGiQaJBokGiQaJBokGiQaiBjcHLTMtMy0zNgegBokGiQaJBqAGiQaJBokGiQaJBsYGxwaJBokGiQaJBokGiQaiBpEGkQbHBjcHLTMtMy0zNgfGBpEGkQagBsYGkQaRBpEGkQaRBsYGxwaRBpEGkQaRBpEGkQbHBqIGkQbHBjcHIjMtMy0zNgfGBpEGoAaJBokGkQaRBpEGkQaRBsYGxwaRBpEGkQaRBpEGkQbHBscGkQbHBokGLwctMy0zNgfGBqAGxgaRBpEGkQaRBpEGkQaRBsMGxwaRBpEGkQaRBpEGkQbHBscGkQaJBqIGNwctMyAzNgfGBsYGxgaRBpEGkQaRBpEGkQaRBpEGxQaRBpEGkQaRBpEGkQaJBokGogaRBscGNwctMy4HiQbGBsYGxgaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkgaiBscGNwctMzYHoAaJBsYGxgaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGxwbHBscGNwctMzYHxgaRBsYGxgaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGxwbHBscGNwctMzYHxgagBokGxgaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGxwbHBscGNwctMzYHxgbGBpEGxgaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGxwbHBscGNwctMzYHxgbGBqAGiQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGxwbHBscGNwctMzYHxgbGBsYGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGxwbHBscGNwctMzYHxgbGBsYGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGxwbHBscGkgY9MzYHxgbGBsYGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGxwbHBscGyAbJBsoGxgbGBsYGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGiQaJBokGiQaJBokGiQaJBokGkQaRBpEGkQaRBpEGkQaRBpEG",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

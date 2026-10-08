@@ -1,0 +1,510 @@
+{
+  "regionId": 1,
+  "bankId": 54,
+  "mapId": 1,
+  "width": 17,
+  "height": 19,
+  "paletteIdx1": 116,
+  "paletteIdx2": 152,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 364,
+  "unknownByte": 3,
+  "borderTiles": [
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "STEADY_MIST",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "LavaridgeTown_Gym_1F_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 10,
+      "y": 15,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "LavaridgeTown_Gym_1F_EventScript_LeftGymStatue"
+    },
+    {
+      "x": 16,
+      "y": 15,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "LavaridgeTown_Gym_1F_EventScript_RightGymStatue"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 13,
+      "y": 18,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 12,
+      "targetX": 5,
+      "targetY": 15,
+      "targetElevation": 0
+    },
+    {
+      "x": 14,
+      "y": 18,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 12,
+      "targetX": 5,
+      "targetY": 15,
+      "targetElevation": 0
+    },
+    {
+      "x": 10,
+      "y": 18,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 2,
+      "targetX": 10,
+      "targetY": 18,
+      "targetElevation": 2
+    },
+    {
+      "x": 8,
+      "y": 9,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 2,
+      "targetX": 8,
+      "targetY": 9,
+      "targetElevation": 2
+    },
+    {
+      "x": 4,
+      "y": 18,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 2,
+      "targetX": 4,
+      "targetY": 18,
+      "targetElevation": 2
+    },
+    {
+      "x": 5,
+      "y": 14,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 2,
+      "targetX": 5,
+      "targetY": 14,
+      "targetElevation": 2
+    },
+    {
+      "x": 0,
+      "y": 17,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 2,
+      "targetX": 0,
+      "targetY": 17,
+      "targetElevation": 2
+    },
+    {
+      "x": 5,
+      "y": 9,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 2,
+      "targetX": 5,
+      "targetY": 9,
+      "targetElevation": 2
+    },
+    {
+      "x": 2,
+      "y": 15,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 2,
+      "targetX": 2,
+      "targetY": 15,
+      "targetElevation": 2
+    },
+    {
+      "x": 3,
+      "y": 14,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 2,
+      "targetX": 3,
+      "targetY": 14,
+      "targetElevation": 2
+    },
+    {
+      "x": 1,
+      "y": 14,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 2,
+      "targetX": 1,
+      "targetY": 14,
+      "targetElevation": 2
+    },
+    {
+      "x": 0,
+      "y": 10,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 2,
+      "targetX": 0,
+      "targetY": 10,
+      "targetElevation": 2
+    },
+    {
+      "x": 3,
+      "y": 10,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 2,
+      "targetX": 3,
+      "targetY": 10,
+      "targetElevation": 2
+    },
+    {
+      "x": 0,
+      "y": 6,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 2,
+      "targetX": 0,
+      "targetY": 6,
+      "targetElevation": 2
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 2,
+      "targetX": 3,
+      "targetY": 6,
+      "targetElevation": 2
+    },
+    {
+      "x": 5,
+      "y": 6,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 2,
+      "targetX": 5,
+      "targetY": 6,
+      "targetElevation": 2
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 2,
+      "targetX": 2,
+      "targetY": 3,
+      "targetElevation": 2
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 2,
+      "targetX": 5,
+      "targetY": 2,
+      "targetElevation": 2
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 2,
+      "targetX": 7,
+      "targetY": 2,
+      "targetElevation": 2
+    },
+    {
+      "x": 8,
+      "y": 6,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 2,
+      "targetX": 8,
+      "targetY": 6,
+      "targetElevation": 2
+    },
+    {
+      "x": 10,
+      "y": 6,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 2,
+      "targetX": 10,
+      "targetY": 6,
+      "targetElevation": 2
+    },
+    {
+      "x": 4,
+      "y": 16,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 2,
+      "targetX": 4,
+      "targetY": 16,
+      "targetElevation": 2
+    },
+    {
+      "x": 12,
+      "y": 3,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 2,
+      "targetX": 12,
+      "targetY": 3,
+      "targetElevation": 2
+    },
+    {
+      "x": 14,
+      "y": 6,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 2,
+      "targetX": 14,
+      "targetY": 6,
+      "targetElevation": 2
+    },
+    {
+      "x": 13,
+      "y": 17,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 2,
+      "targetX": 13,
+      "targetY": 17,
+      "targetElevation": 2
+    },
+    {
+      "x": 12,
+      "y": 12,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 2,
+      "targetX": 12,
+      "targetY": 12,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 128,
+      "x": 13,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LavaridgeTown_Gym_1F_EventScript_Flannery",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 66,
+      "x": 3,
+      "y": 14,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "LavaridgeTown_Gym_1F_EventScript_Cole",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 33,
+      "x": 2,
+      "y": 15,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "LavaridgeTown_Gym_1F_EventScript_Gerald",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 66,
+      "x": 3,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "LavaridgeTown_Gym_1F_EventScript_Axle",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 14,
+      "x": 5,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "LavaridgeTown_Gym_1F_EventScript_Danielle",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 23,
+      "x": 12,
+      "y": 16,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "LavaridgeTown_Gym_1F_EventScript_GymGuide",
+      "hideFlag": "",
+      "rawMovementType": 10
+    }
+  ],
+  "blockData": "BgYGBgYGBgYGBgYGBAYGBgYGBgYGBgQGBgYGBgYGBgYEBg4GDgYOBg4GDgYOBgwGDgYOBg4GDgYMBg4GDgYOBg4GDAYBMgIyAjICMgIyJwIMBh0CAjICMgIyDAYBMgIyAjICMgwGCTIIMhICCDIIMggyDAYJMggyCDIIMgwGEwIIMggyCDIMBgkyCDIIMggyCDIIMgwGCTIIMggyCDIMBgkyCDIIMggyDAYJMggyCDIIMggyCDIMBgkyCDIIMggyDAYJMggyCDIIMgwGEwIIMggyCDIIMhICDAYJMhICCDISAgwGCTIIMhICCDIMBgYGBgYGBgYGBAYGBhQGBAYGBgYGBAYUBgYGFgYGBgYGDAYOBg4GDgYOBgwGDgYOBgwGDgYOBgwGDgYOBh4GDgYOBgwGATICMgIyAjIMBh0CAjIMBh0CAjIMBhgGGQIaAhsCHAYMBhMCCDIIMhICDAYJMggyDAYJMggyDAYgBiECIgIjAiQGDAYJMggyCDIIMgwGCTIIMgwGCTIIMgwGCTIIMggyCDIIMgwGCTIIMggyCDIMBgkyCDIMBgkyCDIMBgkyEgIIMggyCDIMBgkyCDIIMggyDAYJMggyDAYJMggyDAYlBiYGJgYmBiYGDAYJMhICCDISAgwGEwIIMgwGCTIIMhUGCTIIMggyCDIIMhUGCTIIMhICCDIMBiUGJgYMBgkyCDIfBgkyCDIIMggyCDIfBgkyCDIIMggyCwYJMggyDAYJMggyEDIKMggyCDIIMggyEDITAggyCDIIMhAyCjIIMgwGCTIIMggyCDIIMggyCDIIMggyCTIIMggyCDIIMggyCDIMBgkyCDISAggyCDIGMAcwCDIIMg==",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAJAAAAAAAAAAAAAAAJAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAJAAAJAAkAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAJAAAAAAAAAAAJAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAYGBgYGAAAJAAkACQAAAAAAAAAAAAAAAAAJAAAGBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAA0NAAA="
+}

@@ -1,0 +1,33 @@
+{
+	"moveIndexId": 664,
+	"movePokemonType": "WATER",
+	"moveDamageType": "SPECIAL",
+	"moveBasePower": 90,
+	"isTrueDamage": false,
+	"moveTargetType": "ALL_AROUND_ENEMY",
+	"moveBasePp": 10,
+	"moveBaseAccuracy": 100,
+	"movePriority": 0,
+	"moveAdditionChangeStatEffectTriggerRatio": 0,
+	"moveAdditionEffectChangeStatLevel": 0,
+	"isUserTriggerAdditionChangeStatEffect": false,
+	"moveChangeStatTypeArray": [
+		0,
+		0,
+		0
+	],
+	"moveChangeStatLevelArray": [
+		0,
+		0,
+		0
+	],
+	"moveChangeStatRatioArray": [
+		0,
+		0,
+		0
+	],
+	"moveInfoFlag": 74,
+	"moveBossInfoFlag": 0,
+	"moveHpRecoverRatio": 0,
+	"moveHpRecoverByDamageRatio": 0
+}

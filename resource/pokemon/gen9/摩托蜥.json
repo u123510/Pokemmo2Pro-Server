@@ -1,0 +1,139 @@
+{
+	"id": 967,
+	"name": "[967]摩托蜥",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 16,
+	"weight": 630,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 61,
+			"name": "[061]特性61"
+		},
+		{
+			"id": 61,
+			"name": "[061]特性61"
+		},
+		{
+			"id": 144,
+			"name": "[144]特性144"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 229,
+			"name": "[229]高速旋转",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 269,
+			"name": "[269]挑衅",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 784,
+			"name": "[784]广域破坏",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 98,
+			"name": "[98]电光一闪",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 369,
+			"name": "[369]急速折返",
+			"type": "level",
+			"level": 27
+		},
+		{
+			"id": 880,
+			"name": "[880]断尾",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 337,
+			"name": "[337]龙爪",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 508,
+			"name": "[508]换档",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 406,
+			"name": "[406]龙之波动",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 38,
+			"name": "[38]舍身冲撞",
+			"type": "level",
+			"level": 51
+		},
+		{
+			"id": 407,
+			"name": "[407]龙之俯冲",
+			"type": "level",
+			"level": 57
+		}
+	],
+	"types": [
+		"DRAGON",
+		"NORMAL"
+	],
+	"stats": {
+		"hp": 70,
+		"attack": 95,
+		"defense": 65,
+		"speed": 85,
+		"sp_attack": 65,
+		"sp_defense": 121
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 2
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

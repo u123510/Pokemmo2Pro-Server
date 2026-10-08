@@ -1,0 +1,370 @@
+{
+  "regionId": 0,
+  "bankId": 1,
+  "mapId": 113,
+  "width": 25,
+  "height": 26,
+  "paletteIdx1": 0,
+  "paletteIdx2": 38,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 331,
+  "unknownByte": 177,
+  "borderTiles": [
+    {
+      "material": 657,
+      "collision": 0
+    },
+    {
+      "material": 657,
+      "collision": 0
+    },
+    {
+      "material": 657,
+      "collision": 0
+    },
+    {
+      "material": 657,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_FOUR_ISLAND_ICEFALL_CAVE_BACK",
+      "base_label": "sFourIslandIcefallCaveBack_FireRed",
+      "land_mons": {
+        "encounter_rate": 7,
+        "mons": [
+          {
+            "min_level": 43,
+            "max_level": 43,
+            "species": "SPECIES_SEEL"
+          },
+          {
+            "min_level": 45,
+            "max_level": 45,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 45,
+            "max_level": 45,
+            "species": "SPECIES_SEEL"
+          },
+          {
+            "min_level": 47,
+            "max_level": 47,
+            "species": "SPECIES_SEEL"
+          },
+          {
+            "min_level": 40,
+            "max_level": 40,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 49,
+            "max_level": 49,
+            "species": "SPECIES_DEWGONG"
+          },
+          {
+            "min_level": 51,
+            "max_level": 51,
+            "species": "SPECIES_DEWGONG"
+          },
+          {
+            "min_level": 41,
+            "max_level": 41,
+            "species": "SPECIES_PSYDUCK"
+          },
+          {
+            "min_level": 48,
+            "max_level": 48,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 53,
+            "max_level": 53,
+            "species": "SPECIES_DEWGONG"
+          },
+          {
+            "min_level": 48,
+            "max_level": 48,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 53,
+            "max_level": 53,
+            "species": "SPECIES_DEWGONG"
+          }
+        ]
+      },
+      "water_mons": {
+        "encounter_rate": 2,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 20,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 20,
+            "max_level": 35,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 35,
+            "max_level": 45,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 35,
+            "max_level": 45,
+            "species": "SPECIES_TENTACRUEL"
+          },
+          {
+            "min_level": 30,
+            "max_level": 45,
+            "species": "SPECIES_LAPRAS"
+          }
+        ]
+      },
+      "fishing_mons": {
+        "encounter_rate": 20,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 5,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 5,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_HORSEA"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_HORSEA"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_HORSEA"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_SHELLDER"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_GYARADOS"
+          },
+          {
+            "min_level": 25,
+            "max_level": 35,
+            "species": "SPECIES_SEADRA"
+          },
+          {
+            "min_level": 25,
+            "max_level": 35,
+            "species": "SPECIES_PSYDUCK"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "FourIsland_IcefallCave_Back_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [
+    {
+      "x": 11,
+      "y": 18,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_ICEFALL_CAVE_BACK",
+      "value": 0,
+      "script": "FourIsland_IcefallCave_Back_EventScript_LoreleiRocketsScene"
+    },
+    {
+      "x": 12,
+      "y": 18,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_ICEFALL_CAVE_BACK",
+      "value": 0,
+      "script": "FourIsland_IcefallCave_Back_EventScript_LoreleiRocketsScene"
+    },
+    {
+      "x": 13,
+      "y": 18,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_ICEFALL_CAVE_BACK",
+      "value": 0,
+      "script": "FourIsland_IcefallCave_Back_EventScript_LoreleiRocketsScene"
+    }
+  ],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 12,
+      "y": 23,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 111,
+      "targetX": 3,
+      "targetY": 6,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 49,
+      "x": 11,
+      "y": 14,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "kanto/FLAG_HIDE_ICEFALL_CAVE_ROCKETS",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 49,
+      "x": 13,
+      "y": 14,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "kanto/FLAG_HIDE_ICEFALL_CAVE_ROCKETS",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 77,
+      "x": 12,
+      "y": 16,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "FourIsland_IcefallCave_Back_EventScript_Lorelei",
+      "hideFlag": "kanto/FLAG_HIDE_ICEFALL_CAVE_LORELEI",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 49,
+      "x": 10,
+      "y": 15,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "kanto/FLAG_HIDE_ICEFALL_CAVE_ROCKETS",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "KxErESsRKxEQBREFKxErESsRKxErESsRKxErESsRKxEQBREFKxErESsREAURBSsRKxErESsRKxErERgFGQUrESsRKxEQBREFKxErESsRKxErERgFGQUrESsRKxEYBRkFKxErEQsHCwcLB/8GKxErESsRKxErERgFGQUrESsRKxErESsRKxErERAFEQUrEf4GCwcLBwsHkQaRBpEGVQP/BisRKxErESsRKxErESsRKxEQBREFKxErESsRGAUZBf4GVgORBpEGkQaJBokGiQaiBpIGKRErESsRKxEQBREFEAURBRgFGQUQBREFKxErESgRkAagBokGiQaJBpEGkQaRBscGkgYqESsREAURBRgFGQUYBRkFKxErERgFGQUQBREFLBGQBsYGkQaRBpEGkQaRBpEGxwZVAwsH/wYYBRkFKxErESsRKxErESsRKxErERgFGQUsEZAGxgaRBpEGkQaRBpEGkQbHBpEGkQaSBikRKxErESsRKxErESsRKxErESsRKxH+BgsHVgPGBpEGkQaRBpEGkQaRBlUDogaRBpIGKhErESsRKxErESsRKxErESsRKxEoEZAGkQagBlYDkQaRBpEGkQaRBpEGkQZVA6IGkgYqESsRKxErESsRKxErESsRKxErESwRkAagBlYDkQaRBpEGkQaRBpEGkQaRBpEGxwaSBioRKxErESsRKxErESsRKxErESsRLBGQBsYGkQaRBpEGkQaRBpEGkQaRBpEGkQbHBpIGKhErESsRKxErESsRKxErESsRKxEsEZAGxgaRBpEGkQaRBpEGkQaRBpEGkQaRBscGkgYqESsRKxErESsRKxErESsRKxErESwRkAbGBpEGkQaRBpEGkQaRBpEGkQaRBpEGxwZVBwsH/wYrESsRKxErESsRKxErEf4GCwdWB8YGkQaRBpEGkQaRBpEGkQaRBpEGkQZVB6IGkQZnB2ozazNrM2szazNrM2wzZgeRBqAGVgeRBpEGkQaRBpEGkQaRBpEGkQaRBpEGxwaRBpIG2DKBMoEygTKBMoEy2jKQBpEGxgaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQbHBpEGkgZwB4EygTKBMoEygTLaMpAGkQbGBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBlUHogaSBtgygTKBMoEygTKBMnEHkAagBlYHkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQbHBlUHiQZvB3IHgTLcMm4HiQZWB5AGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBlUHiQaiBpIG2DKBMnEHkAagBokGVgeRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBscGkgbYMoEy2jKQBsYGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGxwaSBtgygTLaMpAGxgaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQbHBpIG2DKBMtoykAbGBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBscGkgZwB4cy2jKQBsYGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGxwZVB8gGyQbKBlYHxgaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQZVB4kGiQaJBokGiQZWB5EGkQaRBpEGkQaRBpEGkQaRBg==",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+}

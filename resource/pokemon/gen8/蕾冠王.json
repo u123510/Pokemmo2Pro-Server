@@ -1,0 +1,145 @@
+{
+	"id": 898,
+	"name": "[898]蕾冠王",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 11,
+	"weight": 77,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 127,
+			"name": "[127]特性127"
+		},
+		{
+			"id": 127,
+			"name": "[127]特性127"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 1,
+			"name": "[1]拍击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 72,
+			"name": "[72]超级吸取",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 74,
+			"name": "[74]生长",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 93,
+			"name": "[93]念力",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 791,
+			"name": "[791]生命水滴",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 202,
+			"name": "[202]终极吸取",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 473,
+			"name": "[473]精神冲击",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 270,
+			"name": "[270]帮助",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 312,
+			"name": "[312]芳香治疗",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 412,
+			"name": "[412]能量球",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 94,
+			"name": "[94]精神强念",
+			"type": "level",
+			"level": 56
+		},
+		{
+			"id": 73,
+			"name": "[73]寄生种子",
+			"type": "level",
+			"level": 64
+		},
+		{
+			"id": 505,
+			"name": "[505]治愈波动",
+			"type": "level",
+			"level": 72
+		},
+		{
+			"id": 76,
+			"name": "[76]日光束",
+			"type": "level",
+			"level": 80
+		},
+		{
+			"id": 248,
+			"name": "[248]预知未来",
+			"type": "level",
+			"level": 88
+		}
+	],
+	"types": [
+		"PSYCHIC",
+		"GRASS"
+	],
+	"stats": {
+		"hp": 100,
+		"attack": 80,
+		"defense": 80,
+		"speed": 80,
+		"sp_attack": 80,
+		"sp_defense": 80
+	},
+	"yields": {
+		"ev_hp": 3,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

@@ -1,0 +1,145 @@
+{
+	"id": 749,
+	"name": "[749]泥驴仔",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 10,
+	"weight": 1100,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 20,
+			"name": "[020]特性20"
+		},
+		{
+			"id": 20,
+			"name": "[020]特性20"
+		},
+		{
+			"id": 39,
+			"name": "[039]特性39"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 750,
+			"name": "[750]重泥挽马",
+			"type": "LEVEL",
+			"val": 30
+		}
+	],
+	"moves": [
+		{
+			"id": 189,
+			"name": "[189]掷泥",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 300,
+			"name": "[300]玩泥巴",
+			"type": "level",
+			"level": 3
+		},
+		{
+			"id": 563,
+			"name": "[563]耕地",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 523,
+			"name": "[523]重踏",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 24,
+			"name": "[24]二连踢",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 23,
+			"name": "[23]踩踏",
+			"type": "level",
+			"level": 17
+		},
+		{
+			"id": 117,
+			"name": "[117]忍耐",
+			"type": "level",
+			"level": 22
+		},
+		{
+			"id": 667,
+			"name": "[667]十万马力",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 334,
+			"name": "[334]铁壁",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 484,
+			"name": "[484]重磅冲撞",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 68,
+			"name": "[68]双倍奉还",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 89,
+			"name": "[89]地震",
+			"type": "level",
+			"level": 38
+		},
+		{
+			"id": 25,
+			"name": "[25]百万吨重踢",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 276,
+			"name": "[276]蛮力",
+			"type": "level",
+			"level": 45
+		}
+	],
+	"types": [
+		"GROUND"
+	],
+	"stats": {
+		"hp": 70,
+		"attack": 100,
+		"defense": 70,
+		"speed": 45,
+		"sp_attack": 55,
+		"sp_defense": 45
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 1,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

@@ -1,0 +1,140 @@
+{
+	"id": 731,
+	"name": "[731]小笃儿",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 3,
+	"weight": 12,
+	"egg_groups": [
+		"飞行组"
+	],
+	"abilities": [
+		{
+			"id": 51,
+			"name": "[051]特性51"
+		},
+		{
+			"id": 92,
+			"name": "[092]特性92"
+		},
+		{
+			"id": 53,
+			"name": "[053]特性53"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 732,
+			"name": "[732]喇叭啄鸟",
+			"type": "LEVEL",
+			"val": 14
+		}
+	],
+	"moves": [
+		{
+			"id": 64,
+			"name": "[64]啄",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 3
+		},
+		{
+			"id": 497,
+			"name": "[497]回声",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 249,
+			"name": "[249]碎岩",
+			"type": "level",
+			"level": 9
+		},
+		{
+			"id": 48,
+			"name": "[48]超音波",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 365,
+			"name": "[365]啄食",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 355,
+			"name": "[355]羽栖",
+			"type": "level",
+			"level": 19
+		},
+		{
+			"id": 31,
+			"name": "[31]乱击",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 103,
+			"name": "[103]刺耳声",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 65,
+			"name": "[65]啄钻",
+			"type": "level",
+			"level": 27
+		},
+		{
+			"id": 331,
+			"name": "[331]种子机关枪",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 297,
+			"name": "[297]羽毛舞",
+			"type": "level",
+			"level": 33
+		},
+		{
+			"id": 304,
+			"name": "[304]巨声",
+			"type": "level",
+			"level": 37
+		}
+	],
+	"types": [
+		"NORMAL",
+		"FLYING"
+	],
+	"stats": {
+		"hp": 35,
+		"attack": 75,
+		"defense": 30,
+		"speed": 30,
+		"sp_attack": 30,
+		"sp_defense": 65
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 1,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

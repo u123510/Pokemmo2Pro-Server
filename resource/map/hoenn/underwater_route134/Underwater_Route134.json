@@ -1,0 +1,129 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 69,
+  "width": 18,
+  "height": 10,
+  "paletteIdx1": 100,
+  "paletteIdx2": 144,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 411,
+  "unknownByte": 79,
+  "borderTiles": [
+    {
+      "material": 531,
+      "collision": 0
+    },
+    {
+      "material": 531,
+      "collision": 0
+    },
+    {
+      "material": 531,
+      "collision": 0
+    },
+    {
+      "material": 531,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "UNDERWATER_MIST",
+  "mapType": "UNDERWATER",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 8,
+      "y": 8,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 70,
+      "targetX": 7,
+      "targetY": 1,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [],
+  "blockData": "EwYTBhMGBgYeBh4GHgYeBh4GHgYeBh4GHgYHBhMGEwYTBhMGEwYTBgYGHwYTBgYGHgYeBh4GHgYeBgcGEwYdBgcGEwYTBhMGEwYGBh8GBgYeBh8GBgYeBh4GHgYHBh0GHgYHBh0GBwYTBhMGBgYfBgYGHwYGBh4GHwYTBhMGEwYdBh4GBwYdBgcGHQYHBhMGFAYGBh8GBgYfBhMGBgYeBh4GHgYHBhMGHQYHBh0GBwYSBhMGFAYUBgYGHwYGBh4GHAYoMigyKDIaBgcGEwYSBhMGEgYSBhMGFAYUBhQGEwYUBigyKDIoMigyKDIoMhoGBwYdBgcGEgYSBhMGFAYUBhQGEwYUBigyKDIoMigyKDIoMigyGgYHBhIGEgYSBhMGIwYjBiMGCwYjBgwGKDIoMiQCKDIoMigyCgYiBiIGIgYiBhMGEwYTBhMGEwYTBiMGCwYrBiwGLQYLBgsGIgYTBhMGEwYTBhMG",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

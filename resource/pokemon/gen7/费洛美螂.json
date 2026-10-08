@@ -1,0 +1,169 @@
+{
+	"id": 795,
+	"name": "[795]费洛美螂",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 18,
+	"weight": 250,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 24,
+			"name": "[24]二连踢",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 43,
+			"name": "[43]瞪眼",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 67,
+			"name": "[67]踢倒",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 229,
+			"name": "[229]高速旋转",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 483,
+			"name": "[483]蝶舞",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 501,
+			"name": "[501]快速防守",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 129,
+			"name": "[129]高速星星",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 23,
+			"name": "[23]踩踏",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 364,
+			"name": "[364]佯攻",
+			"type": "level",
+			"level": 19
+		},
+		{
+			"id": 318,
+			"name": "[318]银色旋风",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 340,
+			"name": "[340]弹跳",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 26,
+			"name": "[26]飞踢",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 97,
+			"name": "[97]高速移动",
+			"type": "level",
+			"level": 37
+		},
+		{
+			"id": 167,
+			"name": "[167]三连踢",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 679,
+			"name": "[679]猛扑",
+			"type": "level",
+			"level": 47
+		},
+		{
+			"id": 405,
+			"name": "[405]虫鸣",
+			"type": "level",
+			"level": 53
+		},
+		{
+			"id": 382,
+			"name": "[382]抢先一步",
+			"type": "level",
+			"level": 59
+		},
+		{
+			"id": 136,
+			"name": "[136]飞膝踢",
+			"type": "level",
+			"level": 67
+		},
+		{
+			"id": 683,
+			"name": "[683]速度互换",
+			"type": "level",
+			"level": 73
+		}
+	],
+	"types": [
+		"BUG",
+		"FIGHTING"
+	],
+	"stats": {
+		"hp": 71,
+		"attack": 137,
+		"defense": 37,
+		"speed": 137,
+		"sp_attack": 37,
+		"sp_defense": 151
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 3
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

@@ -1,0 +1,163 @@
+{
+	"id": 786,
+	"name": "[786]卡璞・蝶蝶",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 12,
+	"weight": 186,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 140,
+			"name": "[140]特性140"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 93,
+			"name": "[93]念力",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 110,
+			"name": "[110]缩入壳中",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 212,
+			"name": "[212]黑色目光",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 310,
+			"name": "[310]惊吓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 312,
+			"name": "[312]芳香治疗",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 577,
+			"name": "[577]吸取之吻",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 597,
+			"name": "[597]芳香薄雾",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 678,
+			"name": "[678]精神场地",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 149,
+			"name": "[149]精神波",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 60,
+			"name": "[60]幻象光线",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 230,
+			"name": "[230]甜甜香气",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 285,
+			"name": "[285]特性互换",
+			"type": "level",
+			"level": 26
+		},
+		{
+			"id": 473,
+			"name": "[473]精神冲击",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 321,
+			"name": "[321]挠痒",
+			"type": "level",
+			"level": 38
+		},
+		{
+			"id": 717,
+			"name": "[717]自然之怒",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 326,
+			"name": "[326]神通力",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 260,
+			"name": "[260]吹捧",
+			"type": "level",
+			"level": 53
+		},
+		{
+			"id": 585,
+			"name": "[585]月亮之力",
+			"type": "level",
+			"level": 58
+		}
+	],
+	"types": [
+		"PSYCHIC",
+		"FAIRY"
+	],
+	"stats": {
+		"hp": 70,
+		"attack": 85,
+		"defense": 75,
+		"speed": 130,
+		"sp_attack": 115,
+		"sp_defense": 95
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 3,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

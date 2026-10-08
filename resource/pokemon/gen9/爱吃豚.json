@@ -1,0 +1,139 @@
+{
+	"id": 915,
+	"name": "[915]爱吃豚",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 5,
+	"weight": 102,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 82,
+			"name": "[082]特性82"
+		},
+		{
+			"id": 82,
+			"name": "[082]特性82"
+		},
+		{
+			"id": 47,
+			"name": "[047]特性47"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 916,
+			"name": "[916]飘香豚",
+			"type": "LEVEL",
+			"val": 18
+		}
+	],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 39,
+			"name": "[39]摇尾巴",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 574,
+			"name": "[574]魅惑之声",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 497,
+			"name": "[497]回声",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 341,
+			"name": "[341]泥巴射击",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 343,
+			"name": "[343]渴望",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 91,
+			"name": "[91]挖洞",
+			"type": "level",
+			"level": 17
+		},
+		{
+			"id": 29,
+			"name": "[29]头锤",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 281,
+			"name": "[281]哈欠",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 36,
+			"name": "[36]猛撞",
+			"type": "level",
+			"level": 27
+		},
+		{
+			"id": 526,
+			"name": "[526]自我激励",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 253,
+			"name": "[253]吵闹",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 38,
+			"name": "[38]舍身冲撞",
+			"type": "level",
+			"level": 35
+		}
+	],
+	"types": [
+		"NORMAL"
+	],
+	"stats": {
+		"hp": 54,
+		"attack": 45,
+		"defense": 40,
+		"speed": 35,
+		"sp_attack": 45,
+		"sp_defense": 35
+	},
+	"yields": {
+		"ev_hp": 1,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

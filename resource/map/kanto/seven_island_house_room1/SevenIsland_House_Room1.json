@@ -1,0 +1,180 @@
+{
+  "regionId": 0,
+  "bankId": 31,
+  "mapId": 0,
+  "width": 11,
+  "height": 9,
+  "paletteIdx1": 12,
+  "paletteIdx2": 38,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 337,
+  "unknownByte": 148,
+  "borderTiles": [
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "SevenIsland_House_Room1_OnTransition",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_MAP_SCENE_SEVEN_ISLAND_HOUSE_ROOM1",
+      "value": 1,
+      "script": "SevenIsland_House_Room1_EventScript_OldWomanCommentOnBattle"
+    },
+    {
+      "varKey": "VAR_MAP_SCENE_SEVEN_ISLAND_HOUSE_ROOM1",
+      "value": 2,
+      "script": "SevenIsland_House_Room1_EventScript_OldWomanCommentOnBattle"
+    },
+    {
+      "varKey": "VAR_MAP_SCENE_SEVEN_ISLAND_HOUSE_ROOM1",
+      "value": 3,
+      "script": "SevenIsland_House_Room1_EventScript_OldWomanCommentOnBattle"
+    }
+  ],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 4,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SevenIsland_House_Room1_EventScript_Box"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 4,
+      "y": 7,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 17,
+      "targetX": 11,
+      "targetY": 9,
+      "targetElevation": 0
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 31,
+      "targetMapId": 1,
+      "targetX": 3,
+      "targetY": 1,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 35,
+      "x": 4,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "SevenIsland_House_Room1_EventScript_OldWoman",
+      "hideFlag": "",
+      "rawMovementType": 10
+    }
+  ],
+  "blockData": "PQU+BQgFewF8AX0BUAVRBQgFPQU+BUUFRgUQBYEFgQWBBVgFWQUQBUUFRgVNMU4xETGCMYIxgjERMRExETFNMU4xVjEJMQkxCTEJMQkxCTEJMQkxCTEJMV4FCTEJMQkxbzFlBWYFZzEJMQkxCTERMQkxCTEJMW8xbQVuBWcxCTEJMQkxVjEJMQkxCTEJMQkxCTEJMQkxCTEJMV4FCTEJMT8xRzFPMQkxCTEJMQkxCTEIBAgECAQaBBsEHAQIBAgECAQIBAgE",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAAAAAAAAA"
+}

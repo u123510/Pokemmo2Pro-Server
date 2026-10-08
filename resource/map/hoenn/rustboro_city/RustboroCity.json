@@ -1,0 +1,756 @@
+{
+  "regionId": 1,
+  "bankId": 50,
+  "mapId": 3,
+  "width": 40,
+  "height": 60,
+  "paletteIdx1": 100,
+  "paletteIdx2": 102,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 399,
+  "unknownByte": 10,
+  "borderTiles": [
+    {
+      "material": 468,
+      "collision": 0
+    },
+    {
+      "material": 469,
+      "collision": 0
+    },
+    {
+      "material": 476,
+      "collision": 0
+    },
+    {
+      "material": 477,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "REGULAR_WEATHER",
+  "mapType": "CITY",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "RustboroCity_OnTransition",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_RUSTBORO_CITY_STATE",
+      "value": 6,
+      "script": "RustboroCity_EventScript_ScientistAddMatchCall"
+    }
+  ],
+  "coordScripts": [
+    {
+      "x": 23,
+      "y": 20,
+      "elevation": 3,
+      "varKey": "VAR_RUSTBORO_CITY_STATE",
+      "value": 1,
+      "script": "RustboroCity_EventScript_StolenGoodsTrigger0"
+    },
+    {
+      "x": 23,
+      "y": 21,
+      "elevation": 3,
+      "varKey": "VAR_RUSTBORO_CITY_STATE",
+      "value": 1,
+      "script": "RustboroCity_EventScript_StolenGoodsTrigger1"
+    },
+    {
+      "x": 23,
+      "y": 22,
+      "elevation": 3,
+      "varKey": "VAR_RUSTBORO_CITY_STATE",
+      "value": 1,
+      "script": "RustboroCity_EventScript_StolenGoodsTrigger2"
+    },
+    {
+      "x": 23,
+      "y": 23,
+      "elevation": 3,
+      "varKey": "VAR_RUSTBORO_CITY_STATE",
+      "value": 1,
+      "script": "RustboroCity_EventScript_StolenGoodsTrigger3"
+    },
+    {
+      "x": 23,
+      "y": 24,
+      "elevation": 3,
+      "varKey": "VAR_RUSTBORO_CITY_STATE",
+      "value": 1,
+      "script": "RustboroCity_EventScript_StolenGoodsTrigger4"
+    },
+    {
+      "x": 30,
+      "y": 9,
+      "elevation": 3,
+      "varKey": "VAR_RUSTBORO_CITY_STATE",
+      "value": 2,
+      "script": "RustboroCity_EventScript_HelpGetGoodsTrigger0"
+    },
+    {
+      "x": 29,
+      "y": 10,
+      "elevation": 3,
+      "varKey": "VAR_RUSTBORO_CITY_STATE",
+      "value": 2,
+      "script": "RustboroCity_EventScript_HelpGetGoodsTrigger1"
+    },
+    {
+      "x": 30,
+      "y": 11,
+      "elevation": 3,
+      "varKey": "VAR_RUSTBORO_CITY_STATE",
+      "value": 2,
+      "script": "RustboroCity_EventScript_HelpGetGoodsTrigger2"
+    },
+    {
+      "x": 30,
+      "y": 12,
+      "elevation": 3,
+      "varKey": "VAR_RUSTBORO_CITY_STATE",
+      "value": 2,
+      "script": "RustboroCity_EventScript_HelpGetGoodsTrigger3"
+    },
+    {
+      "x": 30,
+      "y": 9,
+      "elevation": 3,
+      "varKey": "VAR_RUSTBORO_CITY_STATE",
+      "value": 4,
+      "script": "RustboroCity_EventScript_ReturnGoodsTrigger0"
+    },
+    {
+      "x": 31,
+      "y": 10,
+      "elevation": 3,
+      "varKey": "VAR_RUSTBORO_CITY_STATE",
+      "value": 4,
+      "script": "RustboroCity_EventScript_ReturnGoodsTrigger1"
+    },
+    {
+      "x": 30,
+      "y": 11,
+      "elevation": 3,
+      "varKey": "VAR_RUSTBORO_CITY_STATE",
+      "value": 4,
+      "script": "RustboroCity_EventScript_ReturnGoodsTrigger2"
+    },
+    {
+      "x": 30,
+      "y": 12,
+      "elevation": 3,
+      "varKey": "VAR_RUSTBORO_CITY_STATE",
+      "value": 4,
+      "script": "RustboroCity_EventScript_ReturnGoodsTrigger3"
+    },
+    {
+      "x": 12,
+      "y": 53,
+      "elevation": 3,
+      "varKey": "VAR_RUSTBORO_CITY_STATE",
+      "value": 7,
+      "script": "RustboroCity_EventScript_RivalTrigger0"
+    },
+    {
+      "x": 13,
+      "y": 53,
+      "elevation": 3,
+      "varKey": "VAR_RUSTBORO_CITY_STATE",
+      "value": 7,
+      "script": "RustboroCity_EventScript_RivalTrigger1"
+    },
+    {
+      "x": 14,
+      "y": 53,
+      "elevation": 3,
+      "varKey": "VAR_RUSTBORO_CITY_STATE",
+      "value": 7,
+      "script": "RustboroCity_EventScript_RivalTrigger2"
+    },
+    {
+      "x": 15,
+      "y": 53,
+      "elevation": 3,
+      "varKey": "VAR_RUSTBORO_CITY_STATE",
+      "value": 7,
+      "script": "RustboroCity_EventScript_RivalTrigger3"
+    },
+    {
+      "x": 16,
+      "y": 53,
+      "elevation": 3,
+      "varKey": "VAR_RUSTBORO_CITY_STATE",
+      "value": 7,
+      "script": "RustboroCity_EventScript_RivalTrigger4"
+    },
+    {
+      "x": 17,
+      "y": 53,
+      "elevation": 3,
+      "varKey": "VAR_RUSTBORO_CITY_STATE",
+      "value": 7,
+      "script": "RustboroCity_EventScript_RivalTrigger5"
+    },
+    {
+      "x": 18,
+      "y": 53,
+      "elevation": 3,
+      "varKey": "VAR_RUSTBORO_CITY_STATE",
+      "value": 7,
+      "script": "RustboroCity_EventScript_RivalTrigger6"
+    },
+    {
+      "x": 19,
+      "y": 53,
+      "elevation": 3,
+      "varKey": "VAR_RUSTBORO_CITY_STATE",
+      "value": 7,
+      "script": "RustboroCity_EventScript_RivalTrigger7"
+    }
+  ],
+  "bgEvents": [
+    {
+      "x": 23,
+      "y": 19,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "RustboroCity_EventScript_GymSign"
+    },
+    {
+      "x": 25,
+      "y": 35,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "RustboroCity_EventScript_TrainersSchoolSign"
+    },
+    {
+      "x": 17,
+      "y": 45,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemartSign"
+    },
+    {
+      "x": 18,
+      "y": 38,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    },
+    {
+      "x": 19,
+      "y": 49,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "RustboroCity_EventScript_CitySign"
+    },
+    {
+      "x": 18,
+      "y": 45,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemartSign"
+    },
+    {
+      "x": 17,
+      "y": 38,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    },
+    {
+      "x": 17,
+      "y": 20,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "RustboroCity_EventScript_DevonCorpSign"
+    },
+    {
+      "x": 30,
+      "y": 8,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "RustboroCity_EventScript_TunnelSign"
+    },
+    {
+      "x": 12,
+      "y": 38,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "RustboroCity_EventScript_CuttersHouseSign"
+    }
+  ],
+  "connections": [
+    {
+      "direction": "UP",
+      "unknown": 0,
+      "targetBank": 50,
+      "targetMap": 30
+    },
+    {
+      "direction": "DOWN",
+      "unknown": 0,
+      "targetBank": 50,
+      "targetMap": 19
+    },
+    {
+      "direction": "RIGHT",
+      "unknown": 0,
+      "targetBank": 50,
+      "targetMap": 31
+    }
+  ],
+  "warps": [
+    {
+      "x": 27,
+      "y": 19,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 61,
+      "targetMapId": 3,
+      "targetX": 5,
+      "targetY": 19,
+      "targetElevation": 0
+    },
+    {
+      "x": 13,
+      "y": 30,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 61,
+      "targetMapId": 8,
+      "targetX": 6,
+      "targetY": 7,
+      "targetElevation": 0
+    },
+    {
+      "x": 16,
+      "y": 45,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 61,
+      "targetMapId": 7,
+      "targetX": 3,
+      "targetY": 7,
+      "targetElevation": 0
+    },
+    {
+      "x": 16,
+      "y": 38,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 61,
+      "targetMapId": 5,
+      "targetX": 7,
+      "targetY": 8,
+      "targetElevation": 2
+    },
+    {
+      "x": 27,
+      "y": 34,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 61,
+      "targetMapId": 4,
+      "targetX": 5,
+      "targetY": 10,
+      "targetElevation": 0
+    },
+    {
+      "x": 11,
+      "y": 15,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 61,
+      "targetMapId": 0,
+      "targetX": 5,
+      "targetY": 8,
+      "targetElevation": 0
+    },
+    {
+      "x": 12,
+      "y": 15,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 61,
+      "targetMapId": 0,
+      "targetX": 6,
+      "targetY": 8,
+      "targetElevation": 0
+    },
+    {
+      "x": 33,
+      "y": 19,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 61,
+      "targetMapId": 10,
+      "targetX": 5,
+      "targetY": 7,
+      "targetElevation": 0
+    },
+    {
+      "x": 9,
+      "y": 38,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 61,
+      "targetMapId": 11,
+      "targetX": 5,
+      "targetY": 8,
+      "targetElevation": 0
+    },
+    {
+      "x": 30,
+      "y": 28,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 61,
+      "targetMapId": 12,
+      "targetX": 5,
+      "targetY": 8,
+      "targetElevation": 0
+    },
+    {
+      "x": 5,
+      "y": 51,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 61,
+      "targetMapId": 13,
+      "targetX": 2,
+      "targetY": 8,
+      "targetElevation": 0
+    },
+    {
+      "x": 26,
+      "y": 46,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 61,
+      "targetMapId": 16,
+      "targetX": 5,
+      "targetY": 8,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 34,
+      "x": 22,
+      "y": 34,
+      "elevation": 2,
+      "movementType": "WANDER_UP_AND_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "RustboroCity_EventScript_Woman",
+      "hideFlag": "",
+      "rawMovementType": 3
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 17,
+      "x": 19,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "RustboroCity_EventScript_FatMan",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 5,
+      "x": 25,
+      "y": 37,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "RustboroCity_EventScript_NinjaBoy",
+      "hideFlag": "",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 6,
+      "x": 21,
+      "y": 46,
+      "elevation": 2,
+      "movementType": "WANDER_UP_AND_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "RustboroCity_EventScript_Twin",
+      "hideFlag": "",
+      "rawMovementType": 3
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 9,
+      "x": 12,
+      "y": 45,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "RustboroCity_EventScript_Boy2",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 33,
+      "x": 26,
+      "y": 23,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "RustboroCity_EventScript_Man1",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 11,
+      "x": 24,
+      "y": 51,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "RustboroCity_EventScript_LittleBoy",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 12,
+      "x": 25,
+      "y": 51,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "RustboroCity_EventScript_LittleGirl",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 23,
+      "x": 30,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "RustboroCity_EventScript_DevonEmployee1",
+      "hideFlag": "hoenn/FLAG_HIDE_RUSTBORO_CITY_DEVON_EMPLOYEE_1",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 9,
+      "graphicsId": 117,
+      "x": 13,
+      "y": 21,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_RUSTBORO_CITY_AQUA_GRUNT",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 10,
+      "graphicsId": 116,
+      "x": 13,
+      "y": 34,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "RustboroCity_EventScript_DevonEmployee2",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 11,
+      "graphicsId": 59,
+      "x": 36,
+      "y": 51,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "RustboroCity_EventScript_ItemXDefend",
+      "hideFlag": "hoenn/FLAG_ITEM_RUSTBORO_CITY_X_DEFEND",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 12,
+      "graphicsId": 65,
+      "x": 19,
+      "y": 27,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "RustboroCity_EventScript_Man2",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 13,
+      "graphicsId": 0,
+      "x": 16,
+      "y": 50,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "RustboroCity_EventScript_Rival",
+      "hideFlag": "hoenn/FLAG_HIDE_RUSTBORO_CITY_RIVAL",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 14,
+      "graphicsId": 46,
+      "x": 11,
+      "y": 15,
+      "elevation": 0,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_RUSTBORO_CITY_SCIENTIST",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 15,
+      "graphicsId": 7,
+      "x": 31,
+      "y": 36,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "RustboroCity_EventScript_Boy1",
+      "hideFlag": "",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "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",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

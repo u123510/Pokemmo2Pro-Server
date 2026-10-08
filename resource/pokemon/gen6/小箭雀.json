@@ -1,0 +1,146 @@
+{
+	"id": 1099,
+	"name": "[1099]小箭雀",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 3,
+	"weight": 17,
+	"egg_groups": [
+		"飞行组"
+	],
+	"abilities": [
+		{
+			"id": 145,
+			"name": "[145]特性145"
+		},
+		{
+			"id": 145,
+			"name": "[145]特性145"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 1100,
+			"name": "[1100]火箭雀",
+			"type": "LEVEL",
+			"val": 17
+		}
+	],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 98,
+			"name": "[98]电光一闪",
+			"type": "level",
+			"level": 6
+		},
+		{
+			"id": 64,
+			"name": "[64]啄",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 97,
+			"name": "[97]高速移动",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 175,
+			"name": "[175]抓狂",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 355,
+			"name": "[355]羽栖",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 13,
+			"name": "[13]旋风刀",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 363,
+			"name": "[363]自然之恩",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 488,
+			"name": "[488]蓄能焰袭",
+			"type": "level",
+			"level": 34
+		},
+		{
+			"id": 512,
+			"name": "[512]杂技",
+			"type": "level",
+			"level": 39
+		},
+		{
+			"id": 382,
+			"name": "[382]抢先一步",
+			"type": "level",
+			"level": 41
+		},
+		{
+			"id": 366,
+			"name": "[366]顺风",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 211,
+			"name": "[211]钢翼",
+			"type": "level",
+			"level": 48
+		}
+	],
+	"types": [
+		"NORMAL",
+		"FLYING"
+	],
+	"stats": {
+		"hp": 45,
+		"attack": 50,
+		"defense": 43,
+		"speed": 40,
+		"sp_attack": 38,
+		"sp_defense": 62
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 1
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

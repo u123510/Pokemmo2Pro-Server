@@ -1,0 +1,151 @@
+{
+  "regionId": 0,
+  "bankId": 1,
+  "mapId": 80,
+  "width": 11,
+  "height": 13,
+  "paletteIdx1": 12,
+  "paletteIdx2": 67,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 345,
+  "unknownByte": 137,
+  "borderTiles": [
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "PokemonLeague_HallOfFame_EventScript_EnterRoom"
+    }
+  ],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 5,
+      "y": 12,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 79,
+      "targetX": 6,
+      "targetY": 2,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 71,
+      "x": 6,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "gQaCBoMGhAaYBpkGmgaFBoYGggaHBokGigaLBowGoAahBqIGjQaOBo8GiAaRMpIykzKUMqgyqTKqMpUyljKXMpAyqzKxMrQyozKlMqYypzKkMrQysjKzMqsysDK1MrAyrTKuMq8ysDK1MrAyrDKrMrAytjKwMrAysDKwMrAytjKwMqwyqzKwMrQysDLAMsEywjKwMrQysDKsMqsysDK1MrAywzLEMsUysDK1MrAyrDKrMrAytjKwMrwyvTK+MrAytjKwMqwyqzKwMrQysDKwMrAysDKwMrQysDKsMqsysDK1MrAysDKwMrAysDK1MrAyrDK4MrAytjKwMrAysDKwMrAytjKwMrkyCAQIBAgECAS6MrAyuzIIBAgECAQIBA==",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+}

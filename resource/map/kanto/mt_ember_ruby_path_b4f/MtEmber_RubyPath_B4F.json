@@ -1,0 +1,323 @@
+{
+  "regionId": 0,
+  "bankId": 1,
+  "mapId": 96,
+  "width": 18,
+  "height": 16,
+  "paletteIdx1": 0,
+  "paletteIdx2": 57,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 331,
+  "unknownByte": 175,
+  "borderTiles": [
+    {
+      "material": 657,
+      "collision": 0
+    },
+    {
+      "material": 657,
+      "collision": 0
+    },
+    {
+      "material": 657,
+      "collision": 0
+    },
+    {
+      "material": 657,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 3,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "MtEmber_RubyPath_B4F_EventScript_BrailleABC"
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "MtEmber_RubyPath_B4F_EventScript_BrailleABC"
+    },
+    {
+      "x": 5,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "MtEmber_RubyPath_B4F_EventScript_BrailleABC"
+    },
+    {
+      "x": 4,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "MtEmber_RubyPath_B4F_EventScript_BrailleGHI"
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "MtEmber_RubyPath_B4F_EventScript_BrailleGHI"
+    },
+    {
+      "x": 5,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "MtEmber_RubyPath_B4F_EventScript_BrailleGHI"
+    },
+    {
+      "x": 3,
+      "y": 11,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "MtEmber_RubyPath_B4F_EventScript_BrailleMNO"
+    },
+    {
+      "x": 4,
+      "y": 11,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "MtEmber_RubyPath_B4F_EventScript_BrailleMNO"
+    },
+    {
+      "x": 5,
+      "y": 11,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "MtEmber_RubyPath_B4F_EventScript_BrailleMNO"
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "MtEmber_RubyPath_B4F_EventScript_BrailleTUV"
+    },
+    {
+      "x": 4,
+      "y": 13,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "MtEmber_RubyPath_B4F_EventScript_BrailleTUV"
+    },
+    {
+      "x": 5,
+      "y": 13,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "MtEmber_RubyPath_B4F_EventScript_BrailleTUV"
+    },
+    {
+      "x": 7,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "MtEmber_RubyPath_B4F_EventScript_BrailleDEF"
+    },
+    {
+      "x": 8,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "MtEmber_RubyPath_B4F_EventScript_BrailleDEF"
+    },
+    {
+      "x": 9,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "MtEmber_RubyPath_B4F_EventScript_BrailleDEF"
+    },
+    {
+      "x": 7,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "MtEmber_RubyPath_B4F_EventScript_BrailleJKL"
+    },
+    {
+      "x": 8,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "MtEmber_RubyPath_B4F_EventScript_BrailleJKL"
+    },
+    {
+      "x": 9,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "MtEmber_RubyPath_B4F_EventScript_BrailleJKL"
+    },
+    {
+      "x": 7,
+      "y": 11,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "MtEmber_RubyPath_B4F_EventScript_BraillePQRS"
+    },
+    {
+      "x": 11,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "MtEmber_RubyPath_B4F_EventScript_BraillePeriod"
+    },
+    {
+      "x": 11,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "MtEmber_RubyPath_B4F_EventScript_BrailleComma"
+    },
+    {
+      "x": 8,
+      "y": 11,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "MtEmber_RubyPath_B4F_EventScript_BraillePQRS"
+    },
+    {
+      "x": 9,
+      "y": 11,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "MtEmber_RubyPath_B4F_EventScript_BraillePQRS"
+    },
+    {
+      "x": 7,
+      "y": 13,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "MtEmber_RubyPath_B4F_EventScript_BrailleWXYZ"
+    },
+    {
+      "x": 9,
+      "y": 13,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "MtEmber_RubyPath_B4F_EventScript_BrailleWXYZ"
+    },
+    {
+      "x": 8,
+      "y": 13,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "MtEmber_RubyPath_B4F_EventScript_BrailleWXYZ"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 14,
+      "y": 14,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 102,
+      "targetX": 11,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 106,
+      "targetX": 5,
+      "targetY": 19,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [],
+  "blockData": "mwbEBsQGxAbEBsQGxAbEBsQGxAbEBsQGxAbEBsQGxAbEBpwGxwabBjUHNQePBjUHNQc1BzUHNQc1BzUHNQc1BzUHNQecBsYGxwY3B/wy/DK3Mvwy/DL8Mvwy/DL8Mvwy/DL8Mvwy/DI2B8YGxwY3BwEzBDMEMwQzBDMEMwQzBDMEMwQzBDMEMwQzADM2B8YGxwY3B/0ygTKBMoEygTKBMoEygTKBMoEygTKBMoEy+zI2B8YGxwY3B/ky9DL0MvQy9DL0MvQy9DL0MvQy9DL0MvQy+DI2B8YGxwY3B/wy/DL8Mvwy/DL8Mvwy/DL8Mvwy/DL8Mvwy/DI2B8YGxwY3B/wyUAdRB1IH/DJQB1EHUgf8MlMH/DIBMwQzADM2B8YGxwY3B/wy/DL8Mvwy/DL8Mvwy/DL8Mvwy/DL5MvQy+DI2B8YGxwY3B/wyUAdRB1IH/DJQB1EHUgf8MlMH/DL8Mvwy/DI2B8YGxwY3B/wy/DL8Mvwy/DL8Mvwy/DL8Mvwy/DL8Mvwy/DI2B8YGxwY3B/wyUAdRB1IH/DJQB1EHUgf8Mvwy/DIBMwQzADM2B8YGxwY3B/wy/DL8Mvwy/DL8Mvwy/DL8Mvwy/DL5MvQy+DI2B8YGxwY3B/wyUAdRB1IH/DJQB1EHUgf8Mvwy/DIBMwQzADM2B8YGxwY3B/wy/DL8Mvwy/DL8Mvwy/DL8Mvwy/DL9MoUy+zI2B8YGiQaJBokGiQaJBokGiQaJBokGiQaJBokGiQaJBokGiQaJBokG",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

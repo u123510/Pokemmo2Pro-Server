@@ -1,0 +1,291 @@
+{
+  "regionId": 1,
+  "bankId": 53,
+  "mapId": 4,
+  "width": 17,
+  "height": 9,
+  "paletteIdx1": 116,
+  "paletteIdx2": 147,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 427,
+  "unknownByte": 2,
+  "borderTiles": [
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 0,
+      "y": 1,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "DewfordTown_Hall_EventScript_Bookshelf"
+    },
+    {
+      "x": 7,
+      "y": 1,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "DewfordTown_Hall_EventScript_Painting"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 5,
+      "y": 8,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 11,
+      "targetX": 3,
+      "targetY": 3,
+      "targetElevation": 0
+    },
+    {
+      "x": 6,
+      "y": 8,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 11,
+      "targetX": 3,
+      "targetY": 3,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 10,
+      "x": 4,
+      "y": 6,
+      "elevation": 0,
+      "movementType": "FACE_UP",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "DewfordTown_Hall_EventScript_Girl",
+      "hideFlag": "",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 20,
+      "x": 1,
+      "y": 5,
+      "elevation": 0,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "DewfordTown_Hall_EventScript_Woman",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 19,
+      "x": 5,
+      "y": 4,
+      "elevation": 0,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "DewfordTown_Hall_EventScript_Man",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 21,
+      "x": 9,
+      "y": 3,
+      "elevation": 0,
+      "movementType": "FACE_UP",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "DewfordTown_Hall_EventScript_ExpertM",
+      "hideFlag": "",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 6,
+      "x": 5,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "DewfordTown_Hall_EventScript_Twin",
+      "hideFlag": "",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 11,
+      "x": 14,
+      "y": 7,
+      "elevation": 0,
+      "movementType": "WANDER_LEFT_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "DewfordTown_Hall_EventScript_LittleBoy",
+      "hideFlag": "",
+      "rawMovementType": 5
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 38,
+      "x": 12,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "DewfordTown_Hall_EventScript_SchoolKidM",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 37,
+      "x": 15,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "DewfordTown_Hall_EventScript_PsychicM",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 39,
+      "x": 8,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "WANDER_LEFT_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "DewfordTown_Hall_EventScript_SludgeBombMan",
+      "hideFlag": "hoenn/FLAG_HIDE_DEWFORD_HALL_SLUDGE_BOMB_MAN",
+      "rawMovementType": 5
+    }
+  ],
+  "blockData": "BQaGNoc2BQYFBgc2BQZ9BgUGMAb4NgUGBQYHBgc2BQYFBmk2jjaPNg02DTYPNg02hTYNNh42AAcNNg02DzYPNg02DTZxMpYylzIkMiQyJDIkMiQyJDI4MgAHJDIkMns2fDYkMiQyOTIjMiMyIzIjMiMyIzIjMiMyIzIABzkyKzJSBlMGLDIjMjkyIzLoBukG6gYsMiMyIzIjMiMyAAc5MiMy+jL7Mvsy+zI5Misy8AbxBvIGIzIjMiMyIzIjMggHOTIjMgI3AwcDBwMHOTIjMiMyIzIjMiMyIzIjMiMyIzIQBzkyIzIKB4MGhAZoBjkyIzIjMiMyIzIjMiMyIzIjMiMyLTIvMiMyJTKLMowycDI5MiMyIzIjMiMyCAIJAiMyIzIjMiMyIzIjMiMyIzIjMiMy",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ0AAAAAAAAAAAAA"
+}

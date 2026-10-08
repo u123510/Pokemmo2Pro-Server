@@ -1,0 +1,231 @@
+{
+  "regionId": 1,
+  "bankId": 61,
+  "mapId": 3,
+  "width": 11,
+  "height": 20,
+  "paletteIdx1": 116,
+  "paletteIdx2": 149,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 364,
+  "unknownByte": 10,
+  "borderTiles": [
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 2,
+      "y": 18,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "RustboroCity_Gym_EventScript_LeftGymStatue"
+    },
+    {
+      "x": 8,
+      "y": 18,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "RustboroCity_Gym_EventScript_RightGymStatue"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 5,
+      "y": 19,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 3,
+      "targetX": 27,
+      "targetY": 19,
+      "targetElevation": 0
+    },
+    {
+      "x": 6,
+      "y": 19,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 3,
+      "targetX": 27,
+      "targetY": 19,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 125,
+      "x": 5,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "RustboroCity_Gym_EventScript_Roxanne",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 35,
+      "x": 5,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "RustboroCity_Gym_EventScript_Josh",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 35,
+      "x": 3,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "RustboroCity_Gym_EventScript_Tommy",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 23,
+      "x": 3,
+      "y": 18,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "RustboroCity_Gym_EventScript_GymGuide",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 55,
+      "x": 1,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "RustboroCity_Gym_EventScript_Marc",
+      "hideFlag": "",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "BQYGBgYGBgYGBh8GBgYGBgYGBgYHBg0GDgYOBg4GDgYnBg4GDgYOBg4GDwYVBgIyAzIINgkyCjILMgw2AzIDMhcGAjIEMgEyEDYRMhIyEzIUNgEyATI3MhYyATIBMgEyATIBMgEyATIBMgEyATIbMgEyATIYMhkyGTIZMhkyGTIZMhoyIwYvMgEyIAYhBiEGIQYhBiEGIQYiBiMGFjIBMigGKQYpBikGKQYpBh0GIgYjBhYyATI3MjAyAzIsMi4yAzIgBiIGIwYWMgEyATIjBi8yIAYiBi8yIAYiBiMGFjIYMhkyMQYWMigGKgYWMiAGIgYjBhYyKAYpBioGFjIyMi0yNDIlBiIGIwYWMjIyLjIDMgQyKAYdBiEGIQYiBiMGFjIgBiIGLzIBMjcyKAYpBh0GIgYjBhYyIAYkBjUyATIYMjMyAzIgBiIGKwYWMigGKQYqBi8yKAYqBi8yKAYqBgIyBDI3MgMyAzIEMjcyAzIEMjcyAzIWMgEyHjIBMgEyATIBMgEyHjIBMgEyFjIBMiYGLzIBMgEyATIBMiYGLzIBMhYyATI3MgQyATIGMAcwATI3MgQyATI=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NAAAAAA=="
+}

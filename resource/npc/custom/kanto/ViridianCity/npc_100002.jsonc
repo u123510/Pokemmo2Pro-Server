@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "enabled": false,
+  "map": "ViridianCity",
+  "regionId": 0,
+  "entityIdx": 100002,
+  "spriteId": 68,
+  "spriteRegion": 0,
+  "movementType": 0,
+  "leashX": 0,
+  "leashY": 0,
+  "x": 36,
+  "y": 21,
+  "z": 2,
+  "toward": 2
+}

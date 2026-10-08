@@ -1,0 +1,196 @@
+{
+  "regionId": 1,
+  "bankId": 61,
+  "mapId": 2,
+  "width": 19,
+  "height": 9,
+  "paletteIdx1": 116,
+  "paletteIdx2": 129,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 399,
+  "unknownByte": 10,
+  "borderTiles": [
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "RustboroCity_DevonCorp_3F_OnTransition",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_DEVON_CORP_3F_STATE",
+      "value": 0,
+      "script": "RustboroCity_DevonCorp_3F_EventScript_MeetPresident"
+    }
+  ],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 1,
+      "y": 5,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "RustboroCity_DevonCorp_3F_EventScript_RareRocksDisplay"
+    },
+    {
+      "x": 1,
+      "y": 7,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "RustboroCity_DevonCorp_3F_EventScript_RareRocksDisplay"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 2,
+      "y": 1,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 61,
+      "targetMapId": 1,
+      "targetX": 2,
+      "targetY": 1,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 48,
+      "x": 17,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "RustboroCity_DevonCorp_3F_EventScript_MrStone",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 23,
+      "x": 3,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "RustboroCity_DevonCorp_3F_EventScript_Employee",
+      "hideFlag": "hoenn/FLAG_HIDE_RUSTBORO_CITY_DEVON_CORP_3F_EMPLOYEE",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 48,
+      "x": 15,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "INVISIBLE",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "RustboroCity_DevonCorp_3F_EventScript_MrStone",
+      "hideFlag": "",
+      "rawMovementType": 76
+    }
+  ],
+  "blockData": "iAeKB4sHjAeIB4kHiAeJB4gHiQeIB4kHiAeJB4gHiQeIB4kHiAeQB5UHlgOXB5AHkQeQB5EHSQdKB0sHkQeQB5EHkAeRB5AHkQeQB4EzgTOBM4EzgTOBM4EzgTNRM1IzUzOBM4EzgTOBM4EzgTOBM4EzgTOAM4AzgDOAM4ADgDO4M7kzuTO5M7ozgDOAM4AzuDO6M4ADgDOBM90ygDOAM4AzSEOAA8AHwQfBB8EHwgeAM4AzgDPAB8IH/0KAM4Ez5QaAM4AzgDNQQ4ADuwe8B7wHvAe9B4AzgDOAM7sHvQcHQ4AzgTPdMoAzgDOAA6hDgAPDB8QHxAfEB8UHgDOAM4AzwwfFB6lDgAOBM+UGgDOAM4AzgAOAM74zxjPGM8YzvzOAM4AzgDO+M78zgAOAM4EzgDOAM4AzgDOAM4AzgDOAM4AzgDOAM4AzgDOAM4AzgDOAM4Az",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

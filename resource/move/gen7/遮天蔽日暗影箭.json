@@ -1,0 +1,33 @@
+{
+	"moveIndexId": 695,
+	"movePokemonType": "GHOST",
+	"moveDamageType": "PHYSICAL",
+	"moveBasePower": 180,
+	"isTrueDamage": false,
+	"moveTargetType": "ENEMY_FIELD",
+	"moveBasePp": 1,
+	"moveBaseAccuracy": 0,
+	"movePriority": 0,
+	"moveAdditionChangeStatEffectTriggerRatio": 0,
+	"moveAdditionEffectChangeStatLevel": 0,
+	"isUserTriggerAdditionChangeStatEffect": false,
+	"moveChangeStatTypeArray": [
+		0,
+		0,
+		0
+	],
+	"moveChangeStatLevelArray": [
+		0,
+		0,
+		0
+	],
+	"moveChangeStatRatioArray": [
+		0,
+		0,
+		0
+	],
+	"moveInfoFlag": 73,
+	"moveBossInfoFlag": 0,
+	"moveHpRecoverRatio": 0,
+	"moveHpRecoverByDamageRatio": 0
+}

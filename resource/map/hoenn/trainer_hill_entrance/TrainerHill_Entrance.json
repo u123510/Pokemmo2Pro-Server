@@ -1,0 +1,265 @@
+{
+  "regionId": 1,
+  "bankId": 76,
+  "mapId": 60,
+  "width": 19,
+  "height": 17,
+  "paletteIdx1": 116,
+  "paletteIdx2": 169,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 384,
+  "unknownByte": 212,
+  "borderTiles": [
+    {
+      "material": 520,
+      "collision": 0
+    },
+    {
+      "material": 520,
+      "collision": 0
+    },
+    {
+      "material": 520,
+      "collision": 0
+    },
+    {
+      "material": 520,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "TrainerHill_Entrance_OnTransition",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_TEMP_0",
+      "value": 0,
+      "script": "TrainerHill_Entrance_EventScript_ExitChallenge"
+    },
+    {
+      "varKey": "VAR_TEMP_D",
+      "value": 17,
+      "script": "TrainerHill_Entrance_EventScript_ExitElevator"
+    },
+    {
+      "varKey": "VAR_TEMP_5",
+      "value": 1,
+      "script": "TrainerHill_Entrance_EventScript_EntryTrigger"
+    },
+    {
+      "varKey": "VAR_TEMP_1",
+      "value": 1,
+      "script": "TrainerHill_EventScript_WarpToEntranceCounter"
+    }
+  ],
+  "coordScripts": [
+    {
+      "x": 9,
+      "y": 6,
+      "elevation": 3,
+      "varKey": "VAR_TRAINER_HILL_IS_ACTIVE",
+      "value": 0,
+      "script": "TrainerHill_Entrance_EventScript_EntryTrigger"
+    }
+  ],
+  "bgEvents": [
+    {
+      "x": 8,
+      "y": 10,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "TrainerHill_Entrance_EventScript_Records"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 9,
+      "y": 16,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 26,
+      "targetX": 31,
+      "targetY": 113,
+      "targetElevation": 0
+    },
+    {
+      "x": 10,
+      "y": 16,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 26,
+      "targetX": 31,
+      "targetY": 113,
+      "targetElevation": 0
+    },
+    {
+      "x": 9,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 76,
+      "targetMapId": 61,
+      "targetX": 2,
+      "targetY": 1,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 85,
+      "x": 11,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "TrainerHill_Entrance_EventScript_Attendant",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 58,
+      "x": 4,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "TrainerHill_Entrance_EventScript_Nurse",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 83,
+      "x": 14,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "TrainerHill_Entrance_EventScript_Clerk",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 14,
+      "x": 5,
+      "y": 14,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "TrainerHill_Entrance_EventScript_Girl",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 33,
+      "x": 14,
+      "y": 15,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "TrainerHill_Entrance_EventScript_Man",
+      "hideFlag": "",
+      "rawMovementType": 2
+    }
+  ],
+  "blockData": "CAYIBggGCAYIBggGIAchBzoHOzc8ByEHJwcIBggGCAYIBggGCAYIBggGCAYIBggGCAYoBykHQgdDM0QHKQcvBwgGCAYIBggGCAYIBggGCAYIBggGCAYIBigHODMWMzUzFjMWMy8HCAYIBggGCAYIBggGCAYIBggGCAYIBggGKAdPM04zMTNNM0wzLwcIBggGCAYIBggGCAYIBggGCAYIBggGCAYoBwUHSwc3M0oHBQcvBwgGCAYIBggGCAYIBggGCAYIBggGCAYIBigHOTMVBzczFQc5My8HCAYIBggGCAYIBggGCAYIBggGCAYIBggGKAc3MxUHNzNSBzczLwcIBggGCAYIBggGCAYmByEHIQchB1MHVAciB1AzGQc3MxgHUTMqByEHIQchByMHJAclBx0HCAcDBwQHVQdWBwIHEgcTBzczEgcTBykHKQcpBx4HKwcsBy0HLgcYBwsHDAcNMw4zDwdJBxQHNzMaB0gHDjMOMw0zFwcRMzUzEDMEBBoHBQcFBwYHBQcFBxsHHAdBMzUzGgcFBwUHBgcfBxsHNAcaBwozOTMWMzUzFjM1MxYzNTNAMzEzMDM1MxYzNTMWMzUzFjM1MxYzNzMwMzEzMDMxMzAzMTMwMzEzMDMxMzAzMTMwMzEzMDMxMzAzMTM2MzEzMDMxMzAzMTMwMzEzMDMxMzAzMTMwMzEzMDMxMzAzMTMwMzczATMBMwEzMTMwMzEzMDMxMzAzMTMwMzEzMDMxMwEzATMBMzEzNjMJBwkHCQcwMzEzMDMxMzAzMTMwMzEzMDMxMzAzCQcJBwkHMDM3MzAzMTMwMzEzMDMxMzAzMTMGMAcwMDMxMzAzMTMwMzEzMDMxMw==",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NAAAAAAAAAAA="
+}

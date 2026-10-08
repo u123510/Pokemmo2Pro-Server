@@ -1,0 +1,132 @@
+{
+	"id": 1073,
+	"name": "[1073]毒贝比",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 6,
+	"weight": 18,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 51,
+			"name": "[51]溶解液",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 64,
+			"name": "[64]啄",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 270,
+			"name": "[270]帮助",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 406,
+			"name": "[406]龙之波动",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 31,
+			"name": "[31]乱击",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 474,
+			"name": "[474]毒液冲击",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 204,
+			"name": "[204]撒娇",
+			"type": "level",
+			"level": 19
+		},
+		{
+			"id": 599,
+			"name": "[599]毒液陷阱",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 417,
+			"name": "[417]诡计",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 398,
+			"name": "[398]毒击",
+			"type": "level",
+			"level": 37
+		},
+		{
+			"id": 92,
+			"name": "[92]剧毒",
+			"type": "level",
+			"level": 41
+		},
+		{
+			"id": 565,
+			"name": "[565]致命针刺",
+			"type": "level",
+			"level": 47
+		}
+	],
+	"types": [
+		"POISON"
+	],
+	"stats": {
+		"hp": 67,
+		"attack": 73,
+		"defense": 67,
+		"speed": 73,
+		"sp_attack": 67,
+		"sp_defense": 73
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 1
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

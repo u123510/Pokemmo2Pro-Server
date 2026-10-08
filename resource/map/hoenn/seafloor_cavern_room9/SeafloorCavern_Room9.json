@@ -1,0 +1,244 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 36,
+  "width": 27,
+  "height": 46,
+  "paletteIdx1": 100,
+  "paletteIdx2": 119,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 406,
+  "unknownByte": 68,
+  "borderTiles": [
+    {
+      "material": 753,
+      "collision": 0
+    },
+    {
+      "material": 753,
+      "collision": 0
+    },
+    {
+      "material": 753,
+      "collision": 0
+    },
+    {
+      "material": 753,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "STEADY_MIST",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [
+    {
+      "x": 17,
+      "y": 42,
+      "elevation": 3,
+      "varKey": "VAR_SEAFLOOR_CAVERN_STATE",
+      "value": 0,
+      "script": "SeafloorCavern_Room9_EventScript_ArchieAwakenKyogre"
+    }
+  ],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 5,
+      "y": 4,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 35,
+      "targetX": 5,
+      "targetY": 2,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 197,
+      "x": 17,
+      "y": 38,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 195,
+      "x": 9,
+      "y": 42,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_ARCHIE",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 196,
+      "x": 9,
+      "y": 42,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAXIE",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 119,
+      "x": 8,
+      "y": 41,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAGMA_GRUNTS",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 120,
+      "x": 8,
+      "y": 42,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_MAGMA_GRUNTS",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 59,
+      "x": 14,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SeafloorCavern_Room9_EventScript_ItemTMEarthquake",
+      "hideFlag": "hoenn/FLAG_ITEM_SEAFLOOR_CAVERN_ROOM_9_TM_EARTHQUAKE",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 205,
+      "x": 17,
+      "y": 38,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_SEAFLOOR_CAVERN_ROOM_9_KYOGRE_ASLEEP",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "6wb5BvkG+Qb5BvkG+Qb5BvkG+Qb5BvkG+Qb5BuwG8QbxBvEG8QbxBvEG8QbxBvEG8QbxBvEG8gbrBvkG+Qb5BvkG+Qb5BvkG+Qb5BvkG+QbsBvAG8QbxBvEG8QbxBvEG8QbxBvEG8QbxBvEG8gbyBvUy9TL1MvUy9TL1MvUy9TL1MvUy9TLwBvgG+Qb5BuwG8QbxBvEG8QbxBvEG8QbxBvEG8gb0BukGAwf1MvUy9TL1MvUy9TL1MvUy9TL4BvkG+QbsBvAG8QbxBvEG8QbxBvEG8QbxBvEG8gbxBvEG8gb1MvYy9TL1MvUy9TL1MvUy9TL1MvUy9TLwBvAG8QbxBvEG8QbxBvEG8QbxBvEG9AbpBuoG9AblBuYG5wbpBgMH9TL1MvUy9TL1MvUy9TLwBvAG8QbxBvEG8QbxBvEG8QbxBvEG8QbxBvIG8QbxBvEG8QbxBvIG9TL1MvUy9TL1MvUy9TLwBvAG8QbxBvEG8QbxBvEG8QbxBvEG8QbxBvQG6QbpBuoG8QbxBvIG6wb5BvkGBDL5BvkG7AbwBvgG7AbxBvEG8QbxBvEG8QbxBvEG8QbxBvEG8QbxBvIG8QbxBvIG8gb1MvUy9TL1MvUy8AbwBvEG8AbxBvEG8QbxBvEG8QbxBvEG8QbxBvEG8QbxBvIG8QbxBvIG8gb1MvUy9TL1MvUy8AbwBvEG+AbsBvEG8QbxBvEG8QbxBvEG8QbxBvEG8QbxBvIG8QbxBvIG8gb1MvUy9TL1MvUy8Ab4BuwG8QbwBvEG8QbxBvEG8QbxBvEG8QbxBvEG8QbxBvIG8QbrBvoG8gbrBvkGBDL5BuwG8AbxBvAG8QbwBvEG8QbxBvEG8QbxBvEG8QbxBvEG8QbxBvIG8QbyBusG+gbyBvUy9TL1MvAG8AbxBvAG8Qb4BuwG8QbxBvEG8QbxBvEG8QbxBvEG8QbrBvoG8QbyBvIG6wb6BvUy9TL1MvAG+AbsBvgG7AbxBvAG8QbxBvEG8QbxBvEG8QbxBvEG8QbyBvEG8QbyBvIG8gb1MvUy9TL1MvgG7AbwBvEG8AbxBvgG7AbxBvEG8QbxBvEG8QbrBvkG+Qb6BvEG6wb6BvIG8gb1MvUy9TL1MvUy8AbwBvEG8AbxBvEG8AbxBvEG8QbxBvEG8QbyBvEG8QbxBvEG8gbrBvoG8gYbBhkGBDIZBhwG8Ab4BuwG8AbxBvEG8AbxBvEG8QbxBvEG+Qb6BvEG6wb5BvkG+gbyBusG+gYSBhEyETIRMhAG+AbsBvAG8AbxBvEG8AbxBvEG8QbxBvEG8QbxBvEG8gbxBvEG8QbyBvIGGwYaBhEyETIRMhgGHAbwBvAG8AbxBvEG8AbxBvEG8QbxBvEG6wb5BvkG+gbxBusG+Qb6BvIGEgYRMhEyETIRMhEyEAbwBvAG8AbxBvEG8AbxBvEG8QbxBvEG8gbxBvEG8QbxBvIG8QbxBvIGEgYRMhEyETIRMhEyEAbwBvAG+Ab5BuwG+Ab5BvkG+Qb5BvkG8gbxBvEG6wb5BvoG8QbxBvIGEgYbBhkGBDIZBhwGEAbwBvAG8QbxBvAG8QbxBvEG8QbxBvEG8gbxBusG+gbxBvEG6wb5BvoGEgYSBhEyETIRMhAGEAbwBvgG+QbsBvgG+Qb5BvkG+Qb5BuwG+gbxBvIG8QbxBusG+gYRBhEGEgYSBhEyETIRMhAGEAb4BvkG7Ab4BvkG+Qb5BvkG+QbsBvAG+Qb5BvoG8QbxBvIGGwYNBg0GGgYSBhEyETIRMhAGGAYcBhwG+Ab5BvkG+Qb5BuwG8QbwBvAG8QbrBvkG+Qb5BvoGEgYRBhsGDQYaBhEyETIRMhgGDQYcBhgGDQYNBhwGEQYRBvAG8QbwBvgG8QbyBhEGEQYbBg0GGgYbBhoGETIRMhEyETIRMhEyETIYBg0GHAYRBhgGHAYRBvAG8Qb4BvkG8QbyBhEGEQYSBhEGGwYaBhEyETIRMhEyETIRMhEyETIRMhEyEAYRBhEGEAYRBvAG8QbxBvEG6wb6BhsGDQYaBhEGEgYRMhEyETIRMhEyETIRMiAGCQYJBgkGIwYRBhEGGAYcBvgG+Qb5BuwG8gYRBhIGEQYbBg0GGgYRMhEyETIgBgkGCQYJBiMGEQYRBhEGEQYRBhEGEQYQBhEGEQYRBvAG8gYRBhIGEQYSBhEyETIRMhEyIAYjBhEGEQYRBhEGEQYRBhEGEQYRBhEGEQYYBg0GDQYcBvAG8gYRBhIGGwYaBhEyETIRMhEyEAYRBhEGEQYRBhsGDQYNBg0GDQYNBg0GHAYRBhEGEQYQBvAG8gYRBhIGEgYRMhEyETIRMiAGIwYRBhEGEQYbBhoGGwYNBg0GDQYNBhwGGAYcBhEGEQYQBvAG8gYbBhoGEgYRMhEyETIRMhAGEQYRBhsGDQYaBhsGGgaJEpESkRKBEhgGHAYYBg0GHAYQBvAG8gYSBhEGEgYRMhEyETIgBiMGEQYRBhIGGwYNBhoGiRKSEk8RTxGQEoESGAYNBhwGEAYQBvAG8gYSBhEGEgYRMhEyETIQBhEGEQYRBhIGEgaJEpESkhJPEU8RTxFPEZASkRKBEhAGEAYQBvAG8gYSBhEGEgYRMhEyETIQBhEGEQYbBhoGEgaKEnARThFPEU8RTxFPEU4RcBGIEhAGEAYQBvAG8gYSBhsGGgYRMhEyETIYBhwGEQYSBhsGGgaKEnARcBFOEU4RThFOEXARcBGIEhAGEAYQBvAG8gYSBhIGETIRMhEyETIRMhAGEQYSBhIGiRKSEnARcBFwEXARcBFwEXARcBGIEhAGEAYQBvAG8gYSBhIGETIRMhEyETIRMhgGDQYaBhIGihZwFXARcBFwEXARcBFwEXARcBGIEhAGEAYQBvAG8gYSBhIGETIRMhEyETIRMhEyETIRMiMyczJsBnAVcBFwEXARcBFwEXAFcBWIFhAGEAYQBvAG8wbzBvMGFQcRMhEyETIRMhEyETIRMhEyETIjMmwGcBVwFXAVcBVwFWoGczJzMiQyEAYQBvAG8QbxBvEG8wbpBhUHETIRMhEyETIRMhEyETIRMiMyczJzMnMyczJzMiQyETIRMhEyEAYQBvAG8QbxBvEGEQYRBvMG6QbpBukGFQcRMhEyETIRMhEyETIRMhEyETIRMhEyETIRMhQH9Ab0BvQG8QbxBvEG8QbxBvEG8QbxBvEG8wbpBukG6QYVBxEyETIRMhEyETIRMhQH6QbpBvQG8QbxBvEG8QbxBvEG8QbxBvEG8QbxBvEG8QbxBvEG8QbzBukG6QbpBukG6QbpBvMG8QbxBvEG8QbxBvEG",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

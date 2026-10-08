@@ -1,0 +1,151 @@
+{
+	"id": 921,
+	"name": "[921]布拨",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 3,
+	"weight": 25,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 9,
+			"name": "[009]特性9"
+		},
+		{
+			"id": 30,
+			"name": "[030]特性30"
+		},
+		{
+			"id": 89,
+			"name": "[089]特性89"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 922,
+			"name": "[922]布土拨",
+			"type": "LEVEL",
+			"val": 18
+		}
+	],
+	"moves": [
+		{
+			"id": 10,
+			"name": "[10]抓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 84,
+			"name": "[84]电击",
+			"type": "level",
+			"level": 3
+		},
+		{
+			"id": 98,
+			"name": "[98]电光一闪",
+			"type": "level",
+			"level": 6
+		},
+		{
+			"id": 268,
+			"name": "[268]充电",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 609,
+			"name": "[609]蹭蹭脸颊",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 91,
+			"name": "[91]挖洞",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 19
+		},
+		{
+			"id": 209,
+			"name": "[209]电光",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 86,
+			"name": "[86]电磁波",
+			"type": "level",
+			"level": 27
+		},
+		{
+			"id": 494,
+			"name": "[494]找伙伴",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 21,
+			"name": "[21]摔打",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 435,
+			"name": "[435]放电",
+			"type": "level",
+			"level": 38
+		},
+		{
+			"id": 97,
+			"name": "[97]高速移动",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 528,
+			"name": "[528]疯狂伏特",
+			"type": "level",
+			"level": 44
+		}
+	],
+	"types": [
+		"ELECTRIC"
+	],
+	"stats": {
+		"hp": 45,
+		"attack": 50,
+		"defense": 20,
+		"speed": 40,
+		"sp_attack": 25,
+		"sp_defense": 60
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 1
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

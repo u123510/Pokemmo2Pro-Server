@@ -1,0 +1,164 @@
+{
+	"id": 752,
+	"name": "[752]滴蛛霸",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 18,
+	"weight": 820,
+	"egg_groups": [
+		"水1组",
+		"虫组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 11,
+			"name": "[011]特性11"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 145,
+			"name": "[145]泡沫",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 169,
+			"name": "[169]蛛网",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 450,
+			"name": "[450]虫咬",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 469,
+			"name": "[469]广域防守",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 487,
+			"name": "[487]浸水",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 611,
+			"name": "[611]死缠烂打",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 611,
+			"name": "[611]死缠烂打",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 169,
+			"name": "[169]蛛网",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 450,
+			"name": "[450]虫咬",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 61,
+			"name": "[61]泡沫光线",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 392,
+			"name": "[392]水流环",
+			"type": "level",
+			"level": 26
+		},
+		{
+			"id": 141,
+			"name": "[141]吸血",
+			"type": "level",
+			"level": 33
+		},
+		{
+			"id": 242,
+			"name": "[242]咬碎",
+			"type": "level",
+			"level": 38
+		},
+		{
+			"id": 679,
+			"name": "[679]猛扑",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 243,
+			"name": "[243]镜面反射",
+			"type": "level",
+			"level": 50
+		},
+		{
+			"id": 710,
+			"name": "[710]水流裂破",
+			"type": "level",
+			"level": 57
+		},
+		{
+			"id": 494,
+			"name": "[494]找伙伴",
+			"type": "level",
+			"level": 62
+		}
+	],
+	"types": [
+		"WATER",
+		"BUG"
+	],
+	"stats": {
+		"hp": 68,
+		"attack": 70,
+		"defense": 92,
+		"speed": 50,
+		"sp_attack": 132,
+		"sp_defense": 42
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 2,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

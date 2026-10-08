@@ -1,0 +1,481 @@
+{
+  "regionId": 0,
+  "bankId": 1,
+  "mapId": 114,
+  "width": 29,
+  "height": 27,
+  "paletteIdx1": 12,
+  "paletteIdx2": 45,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 274,
+  "unknownByte": 178,
+  "borderTiles": [
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "FiveIsland_RocketWarehouse_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [
+    {
+      "x": 22,
+      "y": 11,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_ROCKET_WAREHOUSE",
+      "value": 0,
+      "script": "FiveIsland_RocketWarehouse_EventScript_Admin2Trigger"
+    },
+    {
+      "x": 23,
+      "y": 11,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_ROCKET_WAREHOUSE",
+      "value": 0,
+      "script": "FiveIsland_RocketWarehouse_EventScript_Admin2Trigger"
+    },
+    {
+      "x": 24,
+      "y": 11,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_ROCKET_WAREHOUSE",
+      "value": 0,
+      "script": "FiveIsland_RocketWarehouse_EventScript_Admin2Trigger"
+    }
+  ],
+  "bgEvents": [
+    {
+      "x": 11,
+      "y": 2,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Cage"
+    },
+    {
+      "x": 26,
+      "y": 11,
+      "elevation": 0,
+      "facingDir": "EAST",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Computer"
+    },
+    {
+      "x": 27,
+      "y": 2,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "0x0"
+    },
+    {
+      "x": 7,
+      "y": 16,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "0x0"
+    },
+    {
+      "x": 12,
+      "y": 2,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Cage"
+    },
+    {
+      "x": 10,
+      "y": 2,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Cage"
+    },
+    {
+      "x": 9,
+      "y": 2,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Cage"
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Cage"
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Cage"
+    },
+    {
+      "x": 11,
+      "y": 5,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Cage"
+    },
+    {
+      "x": 10,
+      "y": 5,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Cage"
+    },
+    {
+      "x": 11,
+      "y": 4,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Cage"
+    },
+    {
+      "x": 10,
+      "y": 4,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Cage"
+    },
+    {
+      "x": 8,
+      "y": 4,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Cage"
+    },
+    {
+      "x": 7,
+      "y": 4,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Cage"
+    },
+    {
+      "x": 8,
+      "y": 5,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Cage"
+    },
+    {
+      "x": 7,
+      "y": 5,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Cage"
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Cage"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Cage"
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Cage"
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Cage"
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Cage"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Cage"
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Cage"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Cage"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 24,
+      "y": 25,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 56,
+      "targetX": 12,
+      "targetY": 21,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 49,
+      "x": 15,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "FACE_DOWN_AND_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Grunt2",
+      "hideFlag": "kanto/FLAG_HIDE_FIVE_ISLAND_ROCKETS",
+      "rawMovementType": 17
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 49,
+      "x": 17,
+      "y": 15,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Grunt3",
+      "hideFlag": "kanto/FLAG_HIDE_FIVE_ISLAND_ROCKETS",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 50,
+      "x": 27,
+      "y": 16,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Admin1",
+      "hideFlag": "kanto/FLAG_HIDE_FIVE_ISLAND_ROCKETS",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 49,
+      "x": 25,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Admin2",
+      "hideFlag": "kanto/FLAG_HIDE_FIVE_ISLAND_ROCKETS",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 50,
+      "x": 6,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_UP_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "UP",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Grunt1",
+      "hideFlag": "kanto/FLAG_HIDE_FIVE_ISLAND_ROCKETS",
+      "rawMovementType": 16
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 55,
+      "x": 27,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "FiveIsland_RocketWarehouse_EventScript_Gideon",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 92,
+      "x": 8,
+      "y": 25,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FiveIsland_RocketWarehouse_EventScript_ItemBigPearl",
+      "hideFlag": "kanto/FLAG_HIDE_FIVE_ISLAND_ROCKET_WAREHOUSE_BIG_PEARL",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 92,
+      "x": 17,
+      "y": 3,
+      "elevation": 0,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FiveIsland_RocketWarehouse_EventScript_ItemTM36",
+      "hideFlag": "kanto/FLAG_HIDE_FIVE_ISLAND_ROCKET_WAREHOUSE_TM36",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 92,
+      "x": 1,
+      "y": 16,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FiveIsland_RocketWarehouse_EventScript_ItemPearl",
+      "hideFlag": "kanto/FLAG_HIDE_FIVE_ISLAND_ROCKET_WAREHOUSE_PEARL",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 9,
+      "graphicsId": 92,
+      "x": 4,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FiveIsland_RocketWarehouse_EventScript_ItemUpGrade",
+      "hideFlag": "kanto/FLAG_HIDE_FIVE_ISLAND_ROCKET_WAREHOUSE_UP_GRADE",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "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",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

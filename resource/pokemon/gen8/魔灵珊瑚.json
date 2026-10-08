@@ -1,0 +1,139 @@
+{
+	"id": 864,
+	"name": "[864]魔灵珊瑚",
+	"exp_type": 4,
+	"obtainable": true,
+	"gender_ratio": 191,
+	"height": 10,
+	"weight": 4,
+	"egg_groups": [
+		"水1组",
+		"水3组"
+	],
+	"abilities": [
+		{
+			"id": 133,
+			"name": "[133]特性133"
+		},
+		{
+			"id": 133,
+			"name": "[133]特性133"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 50,
+			"name": "[50]定身法",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 106,
+			"name": "[106]变硬",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 195,
+			"name": "[195]灭亡之歌",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 310,
+			"name": "[310]惊吓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 180,
+			"name": "[180]怨恨",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 246,
+			"name": "[246]原始之力",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 506,
+			"name": "[506]祸不单行",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 174,
+			"name": "[174]诅咒",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 668,
+			"name": "[668]吸取力量",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 408,
+			"name": "[408]力量宝石",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 101,
+			"name": "[101]黑夜魔影",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 288,
+			"name": "[288]怨念",
+			"type": "level",
+			"level": 50
+		},
+		{
+			"id": 243,
+			"name": "[243]镜面反射",
+			"type": "level",
+			"level": 55
+		}
+	],
+	"types": [
+		"GHOST"
+	],
+	"stats": {
+		"hp": 60,
+		"attack": 95,
+		"defense": 50,
+		"speed": 145,
+		"sp_attack": 130,
+		"sp_defense": 30
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 2,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

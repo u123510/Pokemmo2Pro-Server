@@ -1,0 +1,523 @@
+{
+  "regionId": 0,
+  "bankId": 3,
+  "mapId": 44,
+  "width": 72,
+  "height": 20,
+  "paletteIdx1": 0,
+  "paletteIdx2": 4,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 292,
+  "unknownByte": 125,
+  "borderTiles": [
+    {
+      "material": 113,
+      "collision": 0
+    },
+    {
+      "material": 113,
+      "collision": 0
+    },
+    {
+      "material": 113,
+      "collision": 0
+    },
+    {
+      "material": 113,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "REGULAR_WEATHER",
+  "mapType": "ROUTE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_ROUTE25",
+      "base_label": "sRoute25_FireRed",
+      "land_mons": {
+        "encounter_rate": 21,
+        "mons": [
+          {
+            "min_level": 8,
+            "max_level": 8,
+            "species": "SPECIES_WEEDLE"
+          },
+          {
+            "min_level": 8,
+            "max_level": 8,
+            "species": "SPECIES_CATERPIE"
+          },
+          {
+            "min_level": 13,
+            "max_level": 13,
+            "species": "SPECIES_PIDGEY"
+          },
+          {
+            "min_level": 14,
+            "max_level": 14,
+            "species": "SPECIES_ODDISH"
+          },
+          {
+            "min_level": 13,
+            "max_level": 13,
+            "species": "SPECIES_ODDISH"
+          },
+          {
+            "min_level": 11,
+            "max_level": 11,
+            "species": "SPECIES_ABRA"
+          },
+          {
+            "min_level": 11,
+            "max_level": 11,
+            "species": "SPECIES_PIDGEY"
+          },
+          {
+            "min_level": 12,
+            "max_level": 12,
+            "species": "SPECIES_ODDISH"
+          },
+          {
+            "min_level": 9,
+            "max_level": 9,
+            "species": "SPECIES_KAKUNA"
+          },
+          {
+            "min_level": 9,
+            "max_level": 9,
+            "species": "SPECIES_ABRA"
+          },
+          {
+            "min_level": 9,
+            "max_level": 9,
+            "species": "SPECIES_METAPOD"
+          },
+          {
+            "min_level": 13,
+            "max_level": 13,
+            "species": "SPECIES_ABRA"
+          }
+        ]
+      },
+      "water_mons": {
+        "encounter_rate": 2,
+        "mons": [
+          {
+            "min_level": 20,
+            "max_level": 25,
+            "species": "SPECIES_PSYDUCK"
+          },
+          {
+            "min_level": 20,
+            "max_level": 25,
+            "species": "SPECIES_PSYDUCK"
+          },
+          {
+            "min_level": 25,
+            "max_level": 30,
+            "species": "SPECIES_PSYDUCK"
+          },
+          {
+            "min_level": 30,
+            "max_level": 35,
+            "species": "SPECIES_PSYDUCK"
+          },
+          {
+            "min_level": 35,
+            "max_level": 40,
+            "species": "SPECIES_PSYDUCK"
+          }
+        ]
+      },
+      "fishing_mons": {
+        "encounter_rate": 20,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 5,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 5,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_POLIWAG"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_GOLDEEN"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_POLIWAG"
+          },
+          {
+            "min_level": 20,
+            "max_level": 30,
+            "species": "SPECIES_POLIWHIRL"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_GYARADOS"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_PSYDUCK"
+          },
+          {
+            "min_level": 25,
+            "max_level": 35,
+            "species": "SPECIES_PSYDUCK"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 48,
+      "y": 4,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "Route25_EventScript_SeaCottageSign"
+    },
+    {
+      "x": 14,
+      "y": 2,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "0x0"
+    },
+    {
+      "x": 58,
+      "y": 6,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "0x0"
+    },
+    {
+      "x": 33,
+      "y": 8,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "0x0"
+    },
+    {
+      "x": 40,
+      "y": 3,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "0x0"
+    }
+  ],
+  "connections": [
+    {
+      "direction": "LEFT",
+      "unknown": 0,
+      "targetBank": 3,
+      "targetMap": 43
+    }
+  ],
+  "warps": [
+    {
+      "x": 51,
+      "y": 4,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 30,
+      "targetMapId": 0,
+      "targetX": 7,
+      "targetY": 9,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 56,
+      "x": 11,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "Route25_EventScript_Franklin",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 18,
+      "x": 18,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "Route25_EventScript_Joey",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 56,
+      "x": 17,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "Route25_EventScript_Wayne",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 18,
+      "x": 22,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "Route25_EventScript_Dan",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 40,
+      "x": 22,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "Route25_EventScript_Kelsey",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 56,
+      "x": 27,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "UP",
+      "script": "Route25_EventScript_Nob",
+      "hideFlag": "",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 39,
+      "x": 28,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "Route25_EventScript_Flint",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 18,
+      "x": 36,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "WALK_DOWN_AND_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 3,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "Route25_EventScript_Chad",
+      "hideFlag": "",
+      "rawMovementType": 26
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 22,
+      "x": 42,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "Route25_EventScript_Haley",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 9,
+      "graphicsId": 92,
+      "x": 26,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "Route25_EventScript_ItemTM43",
+      "hideFlag": "kanto/FLAG_HIDE_ROUTE25_TM43",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 10,
+      "graphicsId": 95,
+      "x": 30,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_CutTree",
+      "hideFlag": "kanto/FLAG_TEMP_12",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 11,
+      "graphicsId": 29,
+      "x": 49,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "Route25_EventScript_Beauty",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 12,
+      "graphicsId": 25,
+      "x": 49,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "Route25_EventScript_Man",
+      "hideFlag": "",
+      "rawMovementType": 9
+    }
+  ],
+  "blockData": "cQRxBHEEcQRxBHEEcQRxBLIEfAR8BHwEfAR8BHwEfAR8BHwEfAR8BHwEfAR8BHwEfAR8BHwEfAR8BHwEfAR8BHwEfAR8BHwEfAR8BHwEfAR8BHwEfAR8BHwEfAR8BHwEfAR8BHwEfAR8BHwEfAR8BHwEfAR8BHwEfAR8BHwEfAR8BHwEswRxBHEEcQRxBHEEfAR8BHwEfAR8BHwEfAR8BH0EcQRxBLIEeQR5BHkEeQR5BHkEeQR5BHkEeQR5BHkEeQR5BHkEeQR5BHkEeQR5BHkEeQR5BHkEeQR5BHkEeQR5BHkEeQS0BLUEtAS1BLQEtQTIBskGygbLBswGtAS1BLQEtQS0BLUEtAS1BLMEcQRxBHEEewSzBHEEcQRxBHEEeQR5BHkEeQR5BHkEeQR5BHkEeQR5BHoECDAJMAgwBQQIMAkwCDAFBAgwCTAJMAgwCTAFBAgwCTAIMAkwCDAFBAgwCDABMAQwCTAEMAkwBDABMAQw7wQeBB0EHAQdBBwEHQTQBtEG0gbTBtQGHAQdBBwEHQQcBB0EHAQfBHgEfAR8BHwEswRzBHEEcQRxBHEEATANMA0wDTANMA0wDTANMA0wCDAJMAgwEDARMBAwBQQQMBEwEDAFBBAwETARMBAwETAFBBAwETAQMBEwEDAFBAgwCTAIMAkwCDAJMAgwCTDCMAkw9AQmBCUEJAQlBCQE+gbYBtkG2gbbBtwGJAQlBCQEJQQkBCUEJAQnBCIRIxEjESERcwR7BLMEcQRxBHEEATANMA0wDTANMA0wDTANMA0wEDARMBAwCDAJMAgwATAIMAkwCDABMAgwCDAJMAgwCTAFBAUEBQQBMAUECDAJMAgwCTAIMAkwCDAJMAgwCTAIMAEw/ATnBOcE5wTnBOcEaQXgBuEGmAbjBuQG5wTnBOcE5wTnBOcE5wTvBCoR0AHSASwRcwRxBHMEcQRxBHEEATAIMAkwCDAJMAgwCTAIMAkwCDAJMAgwCTAIMAkwATAFBAEwBQQBMAUEEDARMBAwETAFBAgwCTAIMAUECDAJMAgwCTABMAUEATAEMAEwBDABMAkwCDAIMAkwCDAIMAgwCTAIMGoxazFsMQkwCDAJMAkwCDAJMAgwCTD0BCoR2QHZASwRewSzBHsEfAR8BHwEhwSHBIcEhwSHBIcEhwSHBIcEsQQFBAUEATABMAUEBQQBMAgwCTAIMAUEATAFBAUEATAFBBAwETAQMAEwEDARMBAwETABMAUEBDABMAQwATABMAEwCTAIMAEwCDAJMGIxYzFjMWsxazFrMWMxYzFkMQEwCDABMAgwATD0BCoR2QHZATARIRF7BHwEswRxBHEE2TDZMNkw2TDZMNkw2TDZMP8w0TDRMNEw0jABMAgwCTAFBBAwCDAJMAUECDAJMAgwCTAFBAgwCTAIMAEwCDABMAUEBQQIMAkwATAJMAgwCTAIMAkwCDAIMAkwCDAIMHIxczFzMXMxczFzMXMxczF0MQkwCDAJMAgwCTD0BCoR2QHZAdIBMBEjESERewR8BHwE2TDZMNkw2TDZMNkw2TDZMNkw2TDZMNkw2jAFBBAwETAFBAUEEDARMAUEEDARMAgwCTAIMBAwETAQMBAwEDAQMAUEwjABMAkwATAIMAkwCDAJMAEwCTABMAkwATAJMAgwCTAIMAkwCTAIMAkwCDAJMAEwCDABMAgwATD0BCoR2QHZAdkB2QHSATARIxEjESMR4TDhMOEw4TDhMOEw4TDhMOEw4TDhMOEw4jAFBAgwCTABMBAwATABMAUEATAFBBAwETAQMBEwEDAIMAEwCDABMAUEATAEMAkwBDAIMAQwATAIMAEwCTClEaYRphGmEaYRpxHTMNQw1DDUMNUwpRGmEaYRphGmEacRCTD0BCoR2QHZAdkB2QHZAdkB2QHZAdkBPgU+BT4FPgU+BT4FPgU+BT4FPgU+BT4FPgU+BT4FPgU+BT4FPgU+BT4FPgU+BT4FPgU+BT4FPgU+BT4FPgU+BT4FPgU+BT4FPgU+BT4FPgU/BecG5watEa4RrhGuEa4RrxHbMNww3DDcMN0wrRGuEa4RrhGuEa8RATD0BCoR2QHZAdkB2QHZAdkB2QHZAdkBEDARMBAwETAQMBEwEDARMBAwETAQMBEwEDARMBAwETAQMBEwEDARMBAwETAQMBEwEDARMBAwETAQMBEwEDARMBAwETAQMBEwEDARMBAwETAQMAEwATCtEa4RrhGuEa4RrxHjMOQw5DDkMOUwrRGuEa4RrhGuEa8RCTD0BCoR2QHZAdkB2QHZAdkB2QHZAdkBaQRpBGkEaQRpBGkEaQRpBGkEaQRpBGkEaQRpBGkEaQRpBGkEaQRpBGkEaQRpBGkEaQRpBGkEaQRpBGkEaQRpBGkEaQRpBGkEaQRpBGkEaQRqBBAwATAzMTMxMzEzMTMxMzEQMAgwATAIMAEwMzEzMTMxMzEzMTMxATD0BCoR2QHZAdkB2QHZAdkB2QHZAdkBbARsBGwEbARsBGwEbARtBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEawRsBGwEbARsBGwEbARsBG0EcQRxBHEEcQRxBHEEcQRyBOcG5wbnBucG5wbnBucG5wbnBucG5wbnBucG5wbnBucG5wbnBucG5wb3BCoR2QHZAdkB2QHZAdkB2QHZAdkBcQRxBHEEcQRxBHEEcQS6BGwEbARsBGwEbARsBGwEbARsBG0EcQRxBHEEcQRxBHEEcwRxBHEEcQRxBHEEcQRxBLoEbARsBGwEbQRxBHEEcQRyBCIRIxEjESMRIxEjESMRIxEjESMRIxEjESMRIxEjESMRIxEjESMRIxEjETER2QHZAdkB2QHZAdkB2QHZAdkBcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBLoEbARsBGwEbARsBGwEuwRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEugRsBGwEbQR1BCoRKxHQAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkBcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEdQR1BCoR0AHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkBcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEdQR1BCoR2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkBcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEdQR1BCoR2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkBcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEdQR1BCoR2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB2QHZAdkB",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgYGBgYGBgYGBgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

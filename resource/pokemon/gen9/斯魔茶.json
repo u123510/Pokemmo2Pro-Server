@@ -1,0 +1,134 @@
+{
+	"id": 1012,
+	"name": "[1012]斯魔茶",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 1,
+	"weight": 11,
+	"egg_groups": [
+		"不定形组",
+		"矿物组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 85,
+			"name": "[085]特性85"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 78,
+			"name": "[78]麻痹粉",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 110,
+			"name": "[110]缩入壳中",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 310,
+			"name": "[310]惊吓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 71,
+			"name": "[71]吸取",
+			"type": "level",
+			"level": 6
+		},
+		{
+			"id": 791,
+			"name": "[791]生命水滴",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 492,
+			"name": "[492]欺诈",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 72,
+			"name": "[72]超级吸取",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 506,
+			"name": "[506]祸不单行",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 476,
+			"name": "[476]愤怒粉",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 202,
+			"name": "[202]终极吸取",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 247,
+			"name": "[247]暗影球",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 262,
+			"name": "[262]临别礼物",
+			"type": "level",
+			"level": 54
+		},
+		{
+			"id": 437,
+			"name": "[437]飞叶风暴",
+			"type": "level",
+			"level": 60
+		}
+	],
+	"types": [
+		"GRASS",
+		"GHOST"
+	],
+	"stats": {
+		"hp": 40,
+		"attack": 45,
+		"defense": 45,
+		"speed": 74,
+		"sp_attack": 54,
+		"sp_defense": 50
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 1,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

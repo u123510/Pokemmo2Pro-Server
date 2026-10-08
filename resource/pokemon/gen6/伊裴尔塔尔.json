@@ -1,0 +1,163 @@
+{
+	"id": 717,
+	"name": "[717]伊裴尔塔尔",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 58,
+	"weight": 2030,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 13,
+			"name": "[13]旋风刀",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 269,
+			"name": "[269]挑衅",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 355,
+			"name": "[355]羽栖",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 542,
+			"name": "[542]暴风",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 104,
+			"name": "[104]影子分身",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 403,
+			"name": "[403]空气斩",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 555,
+			"name": "[555]大声咆哮",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 613,
+			"name": "[613]死亡之翼",
+			"type": "level",
+			"level": 26
+		},
+		{
+			"id": 50,
+			"name": "[50]定身法",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 399,
+			"name": "[399]恶之波动",
+			"type": "level",
+			"level": 44
+		},
+		{
+			"id": 492,
+			"name": "[492]欺诈",
+			"type": "level",
+			"level": 51
+		},
+		{
+			"id": 566,
+			"name": "[566]潜灵奇袭",
+			"type": "level",
+			"level": 55
+		},
+		{
+			"id": 94,
+			"name": "[94]精神强念",
+			"type": "level",
+			"level": 59
+		},
+		{
+			"id": 407,
+			"name": "[407]龙之俯冲",
+			"type": "level",
+			"level": 63
+		},
+		{
+			"id": 411,
+			"name": "[411]真气弹",
+			"type": "level",
+			"level": 72
+		},
+		{
+			"id": 389,
+			"name": "[389]突袭",
+			"type": "level",
+			"level": 80
+		},
+		{
+			"id": 63,
+			"name": "[63]破坏光线",
+			"type": "level",
+			"level": 88
+		},
+		{
+			"id": 143,
+			"name": "[143]神鸟猛击",
+			"type": "level",
+			"level": 93
+		}
+	],
+	"types": [
+		"DARK",
+		"FLYING"
+	],
+	"stats": {
+		"hp": 126,
+		"attack": 131,
+		"defense": 95,
+		"speed": 131,
+		"sp_attack": 98,
+		"sp_defense": 99
+	},
+	"yields": {
+		"ev_hp": 3,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

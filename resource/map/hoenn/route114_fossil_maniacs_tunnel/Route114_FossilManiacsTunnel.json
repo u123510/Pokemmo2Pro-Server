@@ -1,0 +1,184 @@
+{
+  "regionId": 1,
+  "bankId": 70,
+  "mapId": 1,
+  "width": 13,
+  "height": 26,
+  "paletteIdx1": 100,
+  "paletteIdx2": 107,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 437,
+  "unknownByte": 29,
+  "borderTiles": [
+    {
+      "material": 631,
+      "collision": 0
+    },
+    {
+      "material": 631,
+      "collision": 0
+    },
+    {
+      "material": 631,
+      "collision": 0
+    },
+    {
+      "material": 631,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "Route114_FossilManiacsTunnel_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [
+    {
+      "x": 5,
+      "y": 4,
+      "elevation": 3,
+      "varKey": "VAR_FOSSIL_MANIAC_STATE",
+      "value": 1,
+      "script": "Route114_FossilManiacsTunnel_EventScript_ManiacMentionCaveIn"
+    },
+    {
+      "x": 6,
+      "y": 4,
+      "elevation": 3,
+      "varKey": "VAR_FOSSIL_MANIAC_STATE",
+      "value": 1,
+      "script": "Route114_FossilManiacsTunnel_EventScript_ManiacMentionCaveIn"
+    }
+  ],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 6,
+      "y": 25,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 70,
+      "targetMapId": 0,
+      "targetX": 4,
+      "targetY": 1,
+      "targetElevation": 0
+    },
+    {
+      "x": 7,
+      "y": 25,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 70,
+      "targetMapId": 0,
+      "targetX": 4,
+      "targetY": 1,
+      "targetElevation": 0
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 98,
+      "targetX": 10,
+      "targetY": 12,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 39,
+      "x": 5,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "Route114_FossilManiacsTunnel_EventScript_FossilManiac",
+      "hideFlag": "",
+      "rawMovementType": 7
+    }
+  ],
+  "blockData": "dzJ3AmgGaQZpBmkGaQZpBmkGagZ3MncydzJ3AmgGeAZoBmkGaQZHA2kGagZyBncydwJ3AncCcAZoBngGaAZpBk8DagZyBnoGagZ3AncCdzJwBnAGaAZ4BgMzBDNyBnoGagZyBncCdwJ3AnAGcAZwBgMzHDP9MnoGagZyBnIGdwJ3AncCcAZwBnAGrzZ5MgUzBDNyBnIGcgZ3AncCdwJwBnAGcAYUM3kyeTLHNnIGcgZyBncCdwJ3AnAGcAZwBhQzeTJ5Mv0ycgZyBnIGdwJ3AncCcAZwBi0yxQZ5Mnky/TJyBnIGcgZ3AncCdwJwBi0yuAZwBhQzeTK/NnIGcgZyBncCdwJ3AncyuAZwBnAGFDN5Mv0ycgZyBnIGdwJ3AncCdzJwBnAGcAYUM3kyxjYsAnIGcgZ3AncCdwJ3MnAGcAZwBq82/TJyBrc2cgZ6BmoGdzJ3AncycAZwBnAGFDP9MnIGFDN6BmoGcgZ3MncCdzJwBnAGcAYUM/0ycgYUM3k2cgZyBncydwJ3MnAGcAZwBhQz/TJyBhQzeTZyBnIGdzJ3AmgGeAZwBi0yxQb9MnIGFDN5NnIGcgZ3MncCcAb9MnAG/TJwBgwzcgYdNxU3cgZyBncydwJwBsc2cAb9MnAGDDN6BmoGFDNyBnoGagZ3AnAG/TJwBr82cAYLMwQzcgYUM3IGFDNyBncCcAb9MnAG/TJwBhQz/TJyBhQzcgYdN3IGdwJwBv0ycAb9MnAGFDO/NnIGFDN6BmoGcgZoBngG/TJwBh83cAYUM/0ycgYdNxU3cgZyBnAGeTb9MnAGaAZ4BhQz/TJ6BmoGFDNyBnIGcAZ5Nv0ycAZwBgMzHDMFMwQzcgYUM3IGcgZwBnk2/TJwBnAGFDOxMrIy/TJyBhQzcgZyBg==",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NAAAAAAA="
+}

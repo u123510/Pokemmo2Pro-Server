@@ -1,0 +1,319 @@
+{
+  "regionId": 0,
+  "bankId": 3,
+  "mapId": 16,
+  "width": 24,
+  "height": 20,
+  "paletteIdx1": 0,
+  "paletteIdx2": 62,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 336,
+  "unknownByte": 147,
+  "borderTiles": [
+    {
+      "material": 473,
+      "collision": 0
+    },
+    {
+      "material": 473,
+      "collision": 0
+    },
+    {
+      "material": 473,
+      "collision": 0
+    },
+    {
+      "material": 473,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "REGULAR_WEATHER",
+  "mapType": "VILLAGE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_FIVE_ISLAND",
+      "base_label": "sFiveIsland_FireRed",
+      "water_mons": {
+        "encounter_rate": 1,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 35,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_HOPPIP"
+          },
+          {
+            "min_level": 35,
+            "max_level": 40,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 35,
+            "max_level": 40,
+            "species": "SPECIES_TENTACRUEL"
+          },
+          {
+            "min_level": 35,
+            "max_level": 40,
+            "species": "SPECIES_TENTACRUEL"
+          }
+        ]
+      },
+      "fishing_mons": {
+        "encounter_rate": 10,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 5,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 5,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_HORSEA"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_HORSEA"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_HORSEA"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_SHELLDER"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_GYARADOS"
+          },
+          {
+            "min_level": 25,
+            "max_level": 35,
+            "species": "SPECIES_SEADRA"
+          },
+          {
+            "min_level": 25,
+            "max_level": 35,
+            "species": "SPECIES_PSYDUCK"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "FiveIsland_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 20,
+      "y": 8,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FiveIsland_EventScript_IslandSign"
+    }
+  ],
+  "connections": [
+    {
+      "direction": "UP",
+      "unknown": -48,
+      "targetBank": 3,
+      "targetMap": 55
+    },
+    {
+      "direction": "RIGHT",
+      "unknown": 0,
+      "targetBank": 3,
+      "targetMap": 56
+    }
+  ],
+  "warps": [
+    {
+      "x": 12,
+      "y": 14,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 36,
+      "targetMapId": 2,
+      "targetX": 8,
+      "targetY": 2,
+      "targetElevation": 2
+    },
+    {
+      "x": 18,
+      "y": 6,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 36,
+      "targetMapId": 0,
+      "targetX": 7,
+      "targetY": 8,
+      "targetElevation": 2
+    },
+    {
+      "x": 12,
+      "y": 6,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 36,
+      "targetMapId": 3,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 22,
+      "y": 9,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 36,
+      "targetMapId": 4,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 57,
+      "x": 8,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "FiveIsland_EventScript_Fisher",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 20,
+      "x": 16,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FiveIsland_EventScript_BugCatcher",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 95,
+      "x": 32,
+      "y": 9,
+      "elevation": 0,
+      "movementType": "NONE",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "",
+      "rawMovementType": 0
+    }
+  ],
+  "blockData": "2RHZEdoRKxHLBcwFKxErESsRKxErERAFEQUrESsRKxErESsRKxErEcsFzAUrEeAR2RHZEeIRKxHTBdQFKxErESsRKxErERgFGQUrESsRKxErESsRKxErEdMF1AUrESsR2RHaESsREAURBSsRKxErESsRKxEXBTIFMwUzBTMFMwUABwEHAgcDBwQHHwUKEQsR2RHiESsRGAUZBSsRKxEoEYgyiDIHB4EGggaCBoIGhQZIBEkESgRLBIcFMwX6BPsE2RErERAFEQUrESsRKxEsERUxFTGgBIkGigaLBowGjQZQBFEEUgRTBI8FEAQWBBUE2RErERgFGQUrESsRKxEsERUxFTGgBJEGkgaTBpQGlQZYBFkEWgRbBJcFCQQeBB0E2REQBREFKxErESsRKxEsERUxFTGgBJkGmgabBpwGnQZgBGEEYgSGBZ8FgQYIA4QG2REYBRkFKxErESsRKxEsERUxFTGgBBAwCDAQMAgwEDAIMBAwCDAQMAkwiQaKBosG2RErEcsFzAUrESsRKxEsERUxFTGgBAgwCTAIMAkwCDAJMAgwCTAIMAIEkQaSBpMG2RErEdMF1AUrESsRKxEsERUxFTGoBJEwiTCJMHkEswQQMAgwEDAQMAgwmQaaBpsG2RHLBcwFKxErESsRKxEsERUxFTEVMRUxFTEVMRUxoAQIMAkwCDAIMAkwCTAQMLIE2RHTBdQFKxErESsRKxEsERUxFTEVMRUxFTEVMRUxqAR5BHkEeQR5BHkEeQR5BKoE2RErESsREAURBSsRKxEwESERFTEVMRUxFTEVMRUxFTEVMRUxFTEVMRUxFTEVMRUx2RHSESsRGAUZBSsRKxErETARIxEjEb0xvjG/MSMRIxEjESMRIxEjESMRIxEjESMREgYTBisRKxErEcsFzAUrESsRKxErEfgy+TL6MisRKxErESsREAURBRAFEQUrESsRGgYbBisRKxErEdMF1AUQBREFxhLLBswGzAbMBs0GxxIQBREFGAUZBRgFGQXLBcwF2RHZEdIRKxErESsRKxEYBRkF1gbTBtQG1AbUBtUG1wYYBRkFKxErESsRKxHTBdQF2RHZEdkRKxErESsRKxErESsRzgbbBtwG3AbcBt0GzwYrESsRywXMBSsRKxHQEdkR2RESBhMG2RHZEdIRKxErESsR1gbjBuQG5QbmBucG1wYrESsR0wXUBSsR0BHZEdkR2REaBhsG2RHZEdkR2RHZEdIR3gbrBuwG7QbuBu8G3wYrEdAR2RHZEdkR2RHZEdkR",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

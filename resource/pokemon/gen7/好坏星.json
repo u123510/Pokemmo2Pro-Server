@@ -1,0 +1,140 @@
+{
+	"id": 747,
+	"name": "[747]好坏星",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 4,
+	"weight": 80,
+	"egg_groups": [
+		"水1组"
+	],
+	"abilities": [
+		{
+			"id": 7,
+			"name": "[007]特性7"
+		},
+		{
+			"id": 7,
+			"name": "[007]特性7"
+		},
+		{
+			"id": 144,
+			"name": "[144]特性144"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 748,
+			"name": "[748]超坏星",
+			"type": "LEVEL",
+			"val": 38
+		}
+	],
+	"moves": [
+		{
+			"id": 40,
+			"name": "[40]毒针",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 64,
+			"name": "[64]啄",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 9
+		},
+		{
+			"id": 390,
+			"name": "[390]毒菱",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 469,
+			"name": "[469]广域防守",
+			"type": "level",
+			"level": 17
+		},
+		{
+			"id": 92,
+			"name": "[92]剧毒",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 474,
+			"name": "[474]毒液冲击",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 131,
+			"name": "[131]尖刺加农炮",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 105,
+			"name": "[105]自我再生",
+			"type": "level",
+			"level": 33
+		},
+		{
+			"id": 398,
+			"name": "[398]毒击",
+			"type": "level",
+			"level": 37
+		},
+		{
+			"id": 599,
+			"name": "[599]毒液陷阱",
+			"type": "level",
+			"level": 41
+		},
+		{
+			"id": 42,
+			"name": "[42]飞弹针",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 710,
+			"name": "[710]水流裂破",
+			"type": "level",
+			"level": 49
+		}
+	],
+	"types": [
+		"POISON",
+		"WATER"
+	],
+	"stats": {
+		"hp": 50,
+		"attack": 53,
+		"defense": 62,
+		"speed": 43,
+		"sp_attack": 52,
+		"sp_defense": 45
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 1,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

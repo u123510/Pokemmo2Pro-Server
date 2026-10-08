@@ -1,0 +1,133 @@
+{
+	"id": 839,
+	"name": "[839]巨炭山",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 28,
+	"weight": 3105,
+	"egg_groups": [
+		"矿物组"
+	],
+	"abilities": [
+		{
+			"id": 49,
+			"name": "[049]特性49"
+		},
+		{
+			"id": 49,
+			"name": "[049]特性49"
+		},
+		{
+			"id": 18,
+			"name": "[018]特性18"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 108,
+			"name": "[108]烟幕",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 229,
+			"name": "[229]高速旋转",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 479,
+			"name": "[479]击落",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 488,
+			"name": "[488]蓄能焰袭",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 749,
+			"name": "[749]沥青射击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 397,
+			"name": "[397]岩石打磨",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 246,
+			"name": "[246]原始之力",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 510,
+			"name": "[510]烧尽",
+			"type": "level",
+			"level": 27
+		},
+		{
+			"id": 446,
+			"name": "[446]隐形岩",
+			"type": "level",
+			"level": 37
+		},
+		{
+			"id": 535,
+			"name": "[535]高温重压",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 350,
+			"name": "[350]岩石爆击",
+			"type": "level",
+			"level": 54
+		},
+		{
+			"id": 682,
+			"name": "[682]燃尽",
+			"type": "level",
+			"level": 63
+		}
+	],
+	"types": [
+		"ROCK",
+		"FIRE"
+	],
+	"stats": {
+		"hp": 110,
+		"attack": 80,
+		"defense": 120,
+		"speed": 80,
+		"sp_attack": 90,
+		"sp_defense": 30
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 3,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

@@ -1,0 +1,140 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 60,
+  "width": 8,
+  "height": 8,
+  "paletteIdx1": 100,
+  "paletteIdx2": 156,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 411,
+  "unknownByte": 61,
+  "borderTiles": [
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "UNDERWATER_MIST",
+  "mapType": "UNDERWATER",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 3,
+      "y": 7,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 64,
+      "targetX": 3,
+      "targetY": 1,
+      "targetElevation": 2
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 64,
+      "targetX": 3,
+      "targetY": 1,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [],
+  "blockData": "zQbOBswGzgbMBs4GzQbOBtUG1wbUBtYG1AbWBtUG1gbPMs8yzzLPMs8yzzLQMtEyzzL4MtIy0zLJMskyzzLPMvgyyTLJMskyyTLJMskyzzL4MskyyTLJMtIy0zLJMs8y+jLJMskyyTLJMskyyTLQMvcy7zLJMsoyyzLJMvkyzzI=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQAAAA=="
+}

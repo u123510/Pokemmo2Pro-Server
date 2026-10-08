@@ -1,0 +1,274 @@
+{
+  "regionId": 0,
+  "bankId": 3,
+  "mapId": 49,
+  "width": 48,
+  "height": 20,
+  "paletteIdx1": 0,
+  "paletteIdx2": 61,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 293,
+  "unknownByte": 154,
+  "borderTiles": [
+    {
+      "material": 630,
+      "collision": 0
+    },
+    {
+      "material": 630,
+      "collision": 0
+    },
+    {
+      "material": 630,
+      "collision": 0
+    },
+    {
+      "material": 630,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "REGULAR_WEATHER",
+  "mapType": "ROUTE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_THREE_ISLAND_PORT",
+      "base_label": "sThreeIslandPort_FireRed",
+      "land_mons": {
+        "encounter_rate": 1,
+        "mons": [
+          {
+            "min_level": 15,
+            "max_level": 15,
+            "species": "SPECIES_DUNSPARCE"
+          },
+          {
+            "min_level": 15,
+            "max_level": 15,
+            "species": "SPECIES_DUNSPARCE"
+          },
+          {
+            "min_level": 10,
+            "max_level": 10,
+            "species": "SPECIES_DUNSPARCE"
+          },
+          {
+            "min_level": 10,
+            "max_level": 10,
+            "species": "SPECIES_DUNSPARCE"
+          },
+          {
+            "min_level": 20,
+            "max_level": 20,
+            "species": "SPECIES_DUNSPARCE"
+          },
+          {
+            "min_level": 20,
+            "max_level": 20,
+            "species": "SPECIES_DUNSPARCE"
+          },
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_DUNSPARCE"
+          },
+          {
+            "min_level": 30,
+            "max_level": 30,
+            "species": "SPECIES_DUNSPARCE"
+          },
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_DUNSPARCE"
+          },
+          {
+            "min_level": 30,
+            "max_level": 30,
+            "species": "SPECIES_DUNSPARCE"
+          },
+          {
+            "min_level": 5,
+            "max_level": 5,
+            "species": "SPECIES_DUNSPARCE"
+          },
+          {
+            "min_level": 35,
+            "max_level": 35,
+            "species": "SPECIES_DUNSPARCE"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "ThreeIsland_Port_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [
+    {
+      "direction": "UP",
+      "unknown": 0,
+      "targetBank": 3,
+      "targetMap": 14
+    }
+  ],
+  "warps": [
+    {
+      "x": 16,
+      "y": 4,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 2,
+      "targetMapId": 34,
+      "targetX": 3,
+      "targetY": 4,
+      "targetElevation": 2
+    },
+    {
+      "x": 38,
+      "y": 5,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 2,
+      "targetMapId": 34,
+      "targetX": 25,
+      "targetY": 5,
+      "targetElevation": 2
+    },
+    {
+      "x": 12,
+      "y": 13,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 38,
+      "targetMapId": 0,
+      "targetX": 8,
+      "targetY": 2,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 31,
+      "x": 14,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "ThreeIsland_Port_EventScript_Woman",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 53,
+      "x": 8,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "WALK_RIGHT_AND_LEFT",
+      "movementRangeX": 3,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "ThreeIsland_Port_EventScript_Biker1",
+      "hideFlag": "kanto/FLAG_HIDE_THREE_ISLAND_BIKERS",
+      "rawMovementType": 28
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 53,
+      "x": 13,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "WALK_SEQUENCE_UP_RIGHT_DOWN_LEFT",
+      "movementRangeX": 2,
+      "movementRangeY": 2,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "ThreeIsland_Port_EventScript_Biker2",
+      "hideFlag": "kanto/FLAG_HIDE_THREE_ISLAND_BIKERS",
+      "rawMovementType": 49
+    }
+  ],
+  "blockData": "aQRpBLsEcwRxBHEEcQR1BHIE+QQIMAkwCDD4BHAEcQR7BLMEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQR1BHUEdQROBnMGdgZ2BnYGbARsBGwEuwRxBHEEcQR1BHIEsgSRMIkwiTCzBHMEcQRxBHsEfAR8BHwEfAR8BHwEfAR8BHwEfAR8BHwEswRxBHEEcQRxBHEEcQRxBHEEcQR1BHUEdQROBnMGdgZ2BnYGcQRxBHEEcQSyBHwEfAR9BHUEcgQIMAkwCDBwBHsEswRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcwRxBHEEcQRxBHEEcQRxBHEEsgR9BHUEdQROBnMGdgZEBkUGcQRxBHEEcQR1BLIEfAR8BH0EcgTWMdYx1jGWB3EEewR8BHwEfAR8BHwEfAR8BHwEfAR8BHwEfAR8BLMEewSzBHEEcQRxBHEEcQRxBHEEdQSyBH0EdQROBnMGdgZMBk0GcQRxBHEEsgR9BHUEsgR5BHkEqgQVMRUxFTGoBHkEeQSpMHkEeQR8BHwEfAR8BHwEfAR8BHwEfASzBHMEcQR7BHwEfAR8BHwEfAR8BHwEfQR1BLIEfQROBnMGdgZ2BnYGfAR8BHwEfQRxBHUEogQqBxUxFTEVMRUxFTEVMRUxFTEVMRUxKQdoBmUGZQZlBmUGZQZlBmUGRwZzBJAEeQR5BHkEeQR5BHkEeQR5BKkweQSSBHUERgZWBnMGdgZ2BnYGcQRxBHEEcQSyBH0EogQnBxUxFTEVMRUxFTEVMRUxFTEVMRUxJgdyBnMGcwZtBnYGdgZ2Bm8GTwZzBNkw2jANMA0wDTANMA0wDTAJMAgwCTDYMHUETgZzBnMGdgZ2BnYGfAR8BHwEfAR9BHEEogQnBxUxFTEVMRUxFTEVMRUxFTEVMRUxJgdyBnMGbQZ2BnYGdgZ2BnYGTwZzBNkw2jANMA0wDTANMA0wDTDQMNEw0TD+MHUETgZzBm0GdgZ2BnYGfAR8BHwEfAR8BHwEqgQnBxUxFTEVMRUxFTEVMRUxFTEVMRUxJgdyBnMGdgZ2BnYGdgZ2BnYGTwZ7BLME/zDSMA0wDTANMA0w0DD+MNkw2TDZMHUETgZzBnUGdgZ2BnYGZQZlBmUGZQZlBmUGaQYoBxUxFTEVMRUxFTEVMRUxFTEVMRUxJgdyBnMGdgZ2BnYGdgZ2BnYGVwZHBnME2TD/MNEw0TDRMNEw/jDZMNkw2TDZMHUETgZzBnYGRAZFBnYGcwZzBnMGcwZzBnMGdAYkBxUxFTEVMRUxFTEVMRUxFTEVMRUxJgdyBnMGdgZ2BnYGdgZ2BnYGcwZPBnsEfAR8BHwEfAR8BHwEfAR8BHwEfAR8BH0ETgZzBnYGTAZNBnYGdgZ2BnYGdgZ2Bm8GdAYkBxUxFTEVMRUxFTEVMRUxFTErBy0HLgdyBm0GdgZEBkUGdgZ2BnYGcwZXBmUGZQZlBmUGZQZlBmUGZQZlBmUGZQZlBmUGVgZtBnYGdgZ2BnYGRAZFBnYGdgZ2BnYGdAYsBy0HLQctBxUxFTEVMS0HLQcuB2gGawZ5BnYGdgZMBk0GdgZ2BnYGbwZzBnMGcwZzBnMGcwZzBnMGcwZzBnMGcwZzBnMGbQZ1BnYGdgZ2BnYGTAZNBnYGdgZEBkUGeAZlBmUGZQZlBrQytTK2MmUGZQZlBnkGcwZzBnYGdgZ2BnYGdgZEBkUGdgZuBm4GbwZzBnMGcwZzBnMGcwZzBnMGcwZzBnMGdQZ1BnYGdgZ2BnYGdgZ2BnYGdgZMBk0GbwZzBnMGkDbwNvEG8QbxBvI21wZzBnMGbQZ2BnYGdgZ2BnYGdgZMBk0GdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZzBnMGpAb4BvkG+Qb5BvoG5wZzBnMGdgZEBkUGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGRAZFBnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZvBnMGmAYABwEHAQcBBwIH3wZzBm0GdgZMBk0GdgZ2BnYGdgZ2BnYGdgZ2BnYGRAZFBnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGTAZNBnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnMGpAbzBvQG9Qb2BvcG5wZzBnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGTAZNBnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnMGrAYLBwwHDQcOBw8H7wZzBnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYG",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

@@ -1,0 +1,274 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 19,
+  "width": 13,
+  "height": 13,
+  "paletteIdx1": 100,
+  "paletteIdx2": 129,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 432,
+  "unknownByte": 65,
+  "borderTiles": [
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_MT_PYRE_5F",
+      "base_label": "gMtPyre_5F",
+      "land_mons": {
+        "encounter_rate": 10,
+        "mons": [
+          {
+            "min_level": 27,
+            "max_level": 27,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 28,
+            "max_level": 28,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 26,
+            "max_level": 26,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 29,
+            "max_level": 29,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 24,
+            "max_level": 24,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 23,
+            "max_level": 23,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 22,
+            "max_level": 22,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 27,
+            "max_level": 27,
+            "species": "SPECIES_DUSKULL"
+          },
+          {
+            "min_level": 27,
+            "max_level": 27,
+            "species": "SPECIES_DUSKULL"
+          },
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_DUSKULL"
+          },
+          {
+            "min_level": 29,
+            "max_level": 29,
+            "species": "SPECIES_DUSKULL"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 2,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 20,
+      "targetX": 2,
+      "targetY": 1,
+      "targetElevation": 2
+    },
+    {
+      "x": 10,
+      "y": 5,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 18,
+      "targetX": 10,
+      "targetY": 1,
+      "targetElevation": 2
+    },
+    {
+      "x": 1,
+      "y": 10,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 20,
+      "targetX": 1,
+      "targetY": 10,
+      "targetElevation": 2
+    },
+    {
+      "x": 12,
+      "y": 10,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 18,
+      "targetX": 12,
+      "targetY": 10,
+      "targetElevation": 2
+    },
+    {
+      "x": 12,
+      "y": 12,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 18,
+      "targetX": 12,
+      "targetY": 12,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 44,
+      "x": 3,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_DOWN_AND_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "MtPyre_5F_EventScript_Atsushi",
+      "hideFlag": "",
+      "rawMovementType": 17
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 59,
+      "x": 6,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "MtPyre_5F_EventScript_ItemLaxIncense",
+      "hideFlag": "hoenn/FLAG_ITEM_MT_PYRE_5F_LAX_INCENSE",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "5AazBrQGtQbvBuoGAQYBBgEGAQYBBgEGAQbsBrsGvDK9BvcG6wYBBgEGAQYBBgEGAQYBBiYH6DLnMukyJgfnMg8H7wbvBu8G7wbvBu8GJgfmMuYy5jLuBuYyFwf3BvcG9wb3BvcG9wbvBuoG3jLkBu8G7wbvBu8G7wbDBsQGxQbvBvcG6wbeMuwG9wb3BvcG9wb3BssGzDLNBvcGJgfnMucy5zImByYHJgcmByYH6DLnMukyJgcmB+Yy5jLmMu4G5jLmMuYy7gbmMuYy5jLuBucy5jLmMuYy5jLmMuYy5jLmMuYy5jLmMuYyJgfuBuYy5jLmMu4G7gbuBuYy5jLmMu4G7gbnMuYy7gbuBu4G5jLtNuYy7gbuBu4G5jLyMyYH5jLmMu4G5jLmMuYy5jLmMu4G5jLmMu4GJgfmMuYy5jLmMuYy5jLmMuYy5jLmMuYy8jM=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQ=="
+}

@@ -1,0 +1,255 @@
+{
+  "regionId": 0,
+  "bankId": 2,
+  "mapId": 10,
+  "width": 19,
+  "height": 17,
+  "paletteIdx1": 12,
+  "paletteIdx2": 64,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 344,
+  "unknownByte": 179,
+  "borderTiles": [
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "TrainerTower_Lobby_OnTransition",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_TEMP_0",
+      "value": 0,
+      "script": "TrainerTower_Lobby_EventScript_Enter"
+    },
+    {
+      "varKey": "VAR_TEMP_D",
+      "value": 17,
+      "script": "TrainerTower_Lobby_EventScript_ExitElevator"
+    }
+  ],
+  "coordScripts": [
+    {
+      "x": 9,
+      "y": 7,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_TRAINER_TOWER",
+      "value": 0,
+      "script": "TrainerTower_Lobby_EventScript_EntryTrigger"
+    }
+  ],
+  "bgEvents": [
+    {
+      "x": 8,
+      "y": 10,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "TrainerTower_Lobby_EventScript_ShowRecords"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 9,
+      "y": 2,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 2,
+      "targetMapId": 1,
+      "targetX": 4,
+      "targetY": 6,
+      "targetElevation": 2
+    },
+    {
+      "x": 9,
+      "y": 15,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 62,
+      "targetX": 58,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 17,
+      "y": 8,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 2,
+      "targetMapId": 11,
+      "targetX": 2,
+      "targetY": 5,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 64,
+      "x": 4,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "TrainerTower_Lobby_EventScript_Nurse",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 66,
+      "x": 14,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "TrainerTower_Lobby_EventScript_MartClerk",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 66,
+      "x": 11,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "TrainerTower_Lobby_EventScript_Receptionist",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 42,
+      "x": 12,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "TrainerTower_Lobby_EventScript_CooltrainerF",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 30,
+      "x": 2,
+      "y": 12,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "TrainerTower_Lobby_EventScript_BaldingMan",
+      "hideFlag": "",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "CAQIBAgECAQIBAgEiAaJBokGiQaJBtcGjAYIBAgECAQIBAgECAQIBAgECAQIBAgECASQBpEGkQbgBuEG4gaUBggECAQIBAgECAQIBAgECAQIBAgECAQIBJAGsTKDMuMy5AblBpQGCAQIBAgECAQIBAgECAQIBAgECAQIBAgEkAaEMoEy3zLmBucGlAYIBAgECAQIBAgECAQIBAgECAQIBAgECASQBqQypTKBMqYypzKUBggECAQIBAgECAQIBAgECAQIBAgECAQIBJAGngasBocyrQaeBpQGCAQIBAgECAQIBAgECAQIBAgECAQIBAgEkAaxMo0GhDLOBrEylAYIBAgECAQIBAgECASJBokGiQaJBtAG0QaKBqAyoQaEMqIGozKLBokGiQaJBroGuwa8BpIGjwa9Br4G2AbZBr8GqAapBoQyqgarBpEGkQaRBrUGwgbDBsQGywaVBsUGxgbMMpYyxwZ3B+gGhDKOBnYHsjKWMq4yuQavMoMyuDJiBJ0GngaeBrYGngaeBp8G8AaFMoYynQaeBp4GtgbBBrcGtAbABs0ysTKDMoMygzKDMoMygzLPMtMy1DKGMoMygzKDMoMygzKFMoYyhDKBMoEy0jLTMtQygTKBMtoy2zLcMoEygTLSMtMy1DKBMoEygTKEMoEygTLaMtsy3DKBMoEygTKBMoEygTKBMtoy2zLcMoEygTKBMtYygTLVMoEy1TKBMoEygTKBMoEygTKBMoEygTLVMoEy1TKBMtUy3gaBMt0GgTLdBoEygTKBMsgyyTLKMoEygTKBMt0GgTLdBoEy3QYIBAgECAQIBAgECAQIBAgEGgQbBBwECAQIBAgECAQIBAgECAQIBA==",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+}

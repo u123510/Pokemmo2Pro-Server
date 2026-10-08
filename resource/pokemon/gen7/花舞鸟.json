@@ -1,0 +1,151 @@
+{
+	"id": 741,
+	"name": "[741]花舞鸟",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 191,
+	"height": 6,
+	"weight": 34,
+	"egg_groups": [
+		"飞行组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 1,
+			"name": "[1]拍击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 4
+		},
+		{
+			"id": 64,
+			"name": "[64]啄",
+			"type": "level",
+			"level": 6
+		},
+		{
+			"id": 270,
+			"name": "[270]帮助",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 314,
+			"name": "[314]空气利刃",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 226,
+			"name": "[226]接棒",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 297,
+			"name": "[297]羽毛舞",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 3,
+			"name": "[3]连环巴掌",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 298,
+			"name": "[298]摇晃舞",
+			"type": "level",
+			"level": 26
+		},
+		{
+			"id": 355,
+			"name": "[355]羽栖",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 445,
+			"name": "[445]诱惑",
+			"type": "level",
+			"level": 33
+		},
+		{
+			"id": 403,
+			"name": "[403]空气斩",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 686,
+			"name": "[686]觉醒之舞",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 119,
+			"name": "[119]鹦鹉学舌",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 97,
+			"name": "[97]高速移动",
+			"type": "level",
+			"level": 46
+		},
+		{
+			"id": 542,
+			"name": "[542]暴风",
+			"type": "level",
+			"level": 50
+		}
+	],
+	"types": [
+		"FIRE",
+		"FLYING"
+	],
+	"stats": {
+		"hp": 75,
+		"attack": 70,
+		"defense": 70,
+		"speed": 98,
+		"sp_attack": 70,
+		"sp_defense": 93
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 2,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

@@ -1,0 +1,151 @@
+{
+	"id": 744,
+	"name": "[744]岩狗狗",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 5,
+	"weight": 92,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 51,
+			"name": "[051]特性51"
+		},
+		{
+			"id": 72,
+			"name": "[072]特性72"
+		},
+		{
+			"id": 80,
+			"name": "[080]特性80"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 745,
+			"name": "[745]鬃岩狼人",
+			"type": "LEVEL",
+			"val": 25
+		}
+	],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 43,
+			"name": "[43]瞪眼",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 28,
+			"name": "[28]泼沙",
+			"type": "level",
+			"level": 4
+		},
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 336,
+			"name": "[336]长嚎",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 88,
+			"name": "[88]落石",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 316,
+			"name": "[316]气味侦测",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 317,
+			"name": "[317]岩石封锁",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 46,
+			"name": "[46]吼叫",
+			"type": "level",
+			"level": 26
+		},
+		{
+			"id": 446,
+			"name": "[446]隐形岩",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 157,
+			"name": "[157]岩崩",
+			"type": "level",
+			"level": 34
+		},
+		{
+			"id": 184,
+			"name": "[184]鬼面",
+			"type": "level",
+			"level": 37
+		},
+		{
+			"id": 242,
+			"name": "[242]咬碎",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 431,
+			"name": "[431]攀岩",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 444,
+			"name": "[444]尖石攻击",
+			"type": "level",
+			"level": 48
+		}
+	],
+	"types": [
+		"ROCK"
+	],
+	"stats": {
+		"hp": 45,
+		"attack": 65,
+		"defense": 40,
+		"speed": 30,
+		"sp_attack": 40,
+		"sp_defense": 60
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 1,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

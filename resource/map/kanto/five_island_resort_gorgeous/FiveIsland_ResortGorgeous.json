@@ -1,0 +1,400 @@
+{
+  "regionId": 0,
+  "bankId": 3,
+  "mapId": 54,
+  "width": 72,
+  "height": 20,
+  "paletteIdx1": 0,
+  "paletteIdx2": 62,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 333,
+  "unknownByte": 159,
+  "borderTiles": [
+    {
+      "material": 473,
+      "collision": 0
+    },
+    {
+      "material": 473,
+      "collision": 0
+    },
+    {
+      "material": 473,
+      "collision": 0
+    },
+    {
+      "material": 473,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "REGULAR_WEATHER",
+  "mapType": "ROUTE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_FIVE_ISLAND_RESORT_GORGEOUS",
+      "base_label": "sFiveIslandResortGorgeous_FireRed",
+      "water_mons": {
+        "encounter_rate": 2,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 35,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_HOPPIP"
+          },
+          {
+            "min_level": 35,
+            "max_level": 40,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 35,
+            "max_level": 40,
+            "species": "SPECIES_TENTACRUEL"
+          },
+          {
+            "min_level": 35,
+            "max_level": 40,
+            "species": "SPECIES_TENTACRUEL"
+          }
+        ]
+      },
+      "fishing_mons": {
+        "encounter_rate": 20,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 5,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 5,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_HORSEA"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_HORSEA"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_HORSEA"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_QWILFISH"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_GYARADOS"
+          },
+          {
+            "min_level": 25,
+            "max_level": 35,
+            "species": "SPECIES_SEADRA"
+          },
+          {
+            "min_level": 25,
+            "max_level": 35,
+            "species": "SPECIES_PSYDUCK"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_MAP_SCENE_FIVE_ISLAND_RESORT_GORGEOUS",
+      "value": 1,
+      "script": "FiveIsland_ResortGorgeous_EventScript_SelphyReturnHomeScene"
+    }
+  ],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 10,
+      "y": 7,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "0x0"
+    },
+    {
+      "x": 27,
+      "y": 11,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "0x0"
+    },
+    {
+      "x": 40,
+      "y": 12,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "0x0"
+    },
+    {
+      "x": 27,
+      "y": 5,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "0x0"
+    },
+    {
+      "x": 42,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "FiveIsland_ResortGorgeous_EventScript_SelphysHouseSign"
+    }
+  ],
+  "connections": [
+    {
+      "direction": "DOWN",
+      "unknown": -48,
+      "targetBank": 3,
+      "targetMap": 55
+    }
+  ],
+  "warps": [
+    {
+      "x": 64,
+      "y": 13,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 2,
+      "targetMapId": 12,
+      "targetX": 5,
+      "targetY": 8,
+      "targetElevation": 2
+    },
+    {
+      "x": 39,
+      "y": 8,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 39,
+      "targetMapId": 0,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 22,
+      "x": 44,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "FACE_DOWN_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "FiveIsland_ResortGorgeous_EventScript_Daisy",
+      "hideFlag": "",
+      "rawMovementType": 18
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 22,
+      "x": 33,
+      "y": 12,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "UP",
+      "script": "FiveIsland_ResortGorgeous_EventScript_Celina",
+      "hideFlag": "",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 22,
+      "x": 12,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "FiveIsland_ResortGorgeous_EventScript_Rayna",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 28,
+      "x": 23,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 2,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "FiveIsland_ResortGorgeous_EventScript_Jacki",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 28,
+      "x": 33,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "FiveIsland_ResortGorgeous_EventScript_Gillian",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 18,
+      "x": 33,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "WALK_SEQUENCE_DOWN_RIGHT_UP_LEFT",
+      "movementRangeX": 10,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "FiveIsland_ResortGorgeous_EventScript_Destin",
+      "hideFlag": "",
+      "rawMovementType": 46
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 43,
+      "x": 56,
+      "y": 7,
+      "elevation": 0,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "FiveIsland_ResortGorgeous_EventScript_Toby",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 28,
+      "x": 39,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "kanto/FLAG_HIDE_RESORT_GORGEOUS_SELPHY",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "2RHZEdkR2RHZEdkREgYTBtkR2RHZEdkR2RHZEdkR2RHZEdkR4hErERAFEQXLBcwFKxHgEeER4RHiESsREAURBRAFEQUrESsR4BHhEeER4hErESsREAURBRAFEQUrESsRKxHgEeER4RHhEeER4RHhEeER4RESBhMG4RHhEeER4RHhEeER4RHhEeER4RHhEeER2RHZEdkR2RHZEdkRGgYbBuIRKxErESsRKxErESsRKxErESsRKxErERgFGQXTBdQFywXMBRAFEQUQBREFGAUZBRgFGQUQBREFywXMBcsFzAUQBREFGAUZBRgFGQUQBREFKxErESsRKxErESsR4BHhEeER4REaBhsG4RHhEeEREgYTBuER4RHhEeER4RHhEeEREgYTBtkREgYTBuIRKxErESsRKxErESsREAURBRAFEQUrESsREAURBSsRKxErESsR0wXUBRgFGQUYBRkFKxErESsRKxEYBRkF0wXUBdMF1AUYBRkFKxErESsRKxEYBRkFywXMBcsFzAUrESsRKxErESsRKxErEeER4RHhEeERGgYbBuER4RHhERIGEwbhEeERGgYbBtkRGgYbBisRKxErESsRKxHLBcwFGAUZBRgFGQXLBcwFGAUZBRAFEQUrERAFEQUrESsRKxEMMQ0xDTENMQ0xDTENMQ0xDTENMQ0xDTENMQ0xDTENMQ0xDTENMQ4x0wXUBdMF1AUrESsREAURBSsRKxErEeAR4RHhEeER4RHhEeER4RHhERoGGwYSBhMG2RHZEdkR2RHiESsREAURBcsFzAXTBdQFKxErESsRKxHTBdQFKxErERgFGQUrERgFGQUrEQwxDTElMesx5jHmMeYx5jHmMeYx5jHmMeYx5jHmMeYx5jHmMeYx5jHqMRYxKxErESsRKxEQBREFGAUZBRAFEQUrESsRKxErESsRKxErESsRKxHgEeER4REaBhsG2RHZEdkR2RErESsRGAUZBdMF1AUrESsRKxErESsRKxErESsRKxErESsRKxErESsRKxErERQxFTEVMd8xETDsBOcE5wTnBNYE1wTnBP0G/gb+Bv4G/wbnBOcE5wTdMRYxKxErESsRKxEYBRkFKxErERgFGQUQBREFKxErESsREAURBSsRKxErESsRKxHgEeER2RHZEdkR4hErERAFEQUrESsRKxEMMQ0xDTENMQ4xKxErESsRKxErESsRKxErESsRDDENMSUxFTEVMd8xCTD0BAQwBDAEMB4EHwSDBBAHEQcRBxEHEgcFBAUEhATdMRYxKxHLBcwFKxErEcsFzAUrESsRKxEYBRkFKxHLBcwFGAUZBcsFzAUQBREFKxErEeER2RHZEdkRKxErERgFGQUrESsRDDElMZgEmQSaBBYxKxErESsRKxErESsRKxErESsRFDEVMRUxFTEVMd8xETD0BAQwBDAEMCYEJwSFBBMHFAcVBxYHFwcFBAUEhgTdMRYxKxHTBdQFKxErEdMF1AUrESsRKxErERAFEQXTBdQFKxErEdMF1AUYBRkFKxErEeER2RESBhMGKxHLBcwFKxErESsRFDEVMaAEcQSiBCYxDjErESsRKxErESsRKxEMMQ0xJTEVMRUxFTEVMd8xATD8BOcEvTC+ML8wBQSFBA0HmgYOBw8HDAcFBAUEhgTdMRYxKxErESsRKxErESsRKxErESsRKxErERgFGQUrEQwxDTENMQ0xDjErESsREAURBeER2REaBhsGKxHTBdQFKxErESsRHDEtMagEfASqBC4xHjErESsRKxErESsRDDElMRUxFTEVMRUxFTEVMekx1zEIMAkwxTDGMMcwBQSNBLEECDAJMAgwaQWwBIcEjgTdMRYxKxErESsRKxErESsREAURBSsRKxEQBREFKxEMMSUxmASZBJoEJjEOMSsRGAUZBeER2RHZEdkRKxHLBcwFKxErESsRKxEcMS0xFTEVMRYxKxErESsRKxErESsRHDEdMR0xLTEVMRUxFTEVMRUx6THXMQEwxTDGMMQwvjC+ML4wvjC+ML8wCDAJMAgw1THoMRYxKxErESsRKxErESsRGAUZBSsRKxEYBRkFKxEUMZgEcwRxBHUEmgQmMQ4xEAURBeER2RHZEeIRKxHTBdQFKxEQBREFKxErERwxHTEdMR4xKxErESsRKxErESsRKxErESsRHDEdMS0xFTEVMRUxFTHpMdcxzTDOMM4wzjDOMM4wzjDOMM8wATDVMdYx6DEuMR4xKxErESsRKxErERAFEQUrESsRKxErERAFEQUUMaAEcwRxBHUEogQVMRYxGAUZBeER2RHZESsRKxEQBREFKxEYBRkFKxErESsRKxErESsRKxErESsRKxErESsRKxErESsRKxErERwxHTEdMS0xFTEVMekx1jHWMdYx1jHWMdYx1jHWMdYx1jHoMS4xHTEeMSsRKxErESsRKxErERgFGQUrESsRKxErERgFGQUUMaAEewR8BH0EogQVMRYxywXMBeEREgYTBisRKxEYBRkFKxErESsRKxErESsRKxErESsRKxErESsRKxErERAFEQUrESsRKxErESsRKxErERwxHTEdMR0xHTEdMR0xHTEdMR0xHTEdMR0xHTEdMR4xKxErESsRKxErESsRKxHLBcwFKxErESsREAURBSsRKxEUMagEeQSpMHkEqgQuMR4x0wXUBeERGgYbBisRKxErEcsFzAUrESsRKxErESsRKxErESsRKxErESsRKxErERgFGQUrESsRKxErESsRKxErESsRKxErESsRKxErESsRKxErESsRKxErESsRKxErESsRKxErESsRKxErERAFEQXTBdQFKxErESsRGAUZBSsRKxEcMS0xFTEVMRUxFTEWMSsRywXMBeER2RHZESsRKxErEdMF1AUrESsRKxErESsRKxErESsRKxEQBREFKxErESsRKxEQBREFKxErEcsFzAUrESsRKxErESsRKxErESsRKxErESsRKxErESsRKxErESsRKxEQBREFKxErERgFGQUrESsRKxErESsRKxErESsRKxErERwxHTEdMR0xHTEeMSsR0wXUBeER2RHZESsRKxEQBREFKxErESsRKxErESsRKxErESsRKxEYBRkFKxErEcsFzAUYBRkFEAURBdMF1AUrESsRKxErESsRKxEQBREFKxErESsRKxEQBREFKxErEcsFzAUYBRkFKxHLBcwFKxErESsREAURBcsFzAUrESsRKxErESsRKxErESsRKxErERAFEQUrEeER2RHZESsRKxEYBRkFKxErESsRKxErESsRKxErESsRKxErESsRKxErEdMF1AUrESsRGAUZBSsRKxHLBcwFKxErESsRKxEYBRkFEAURBRAFEQUYBRkFEAURBdMF1AUrEcsFzAXTBdQFKxErESsRGAUZBdMF1AUQBREFKxErESsRKxErESsREAURBRgFGQXQEeER2RHiESsRKxErEcsFzAUrESsRKxErESsRKxErESsRKxErESsREAURBSsRKxErESsRKxErESsRKxHTBdQFEAURBRAFEQUrESsRGAUZBRgFGQUrESsRGAUZBSsRKxErEdMF1AUrERAFEQUQBREFKxErESsRKxEYBRkFywXMBcsFzAUQBREFGAUZBSsRKxESBhMG2RErESsREAURBdMF1AUrESsRKxErESsRKxErESsRKxErESsRGAUZBSsRKxErEdAR2RHZEdkR2RHSESsRGAUZBRgFGQUrESsRKxHQEdER0RHREdER0RHREdER0RHSESsRKxErERgFGQUYBRkFKxHQEdER0hErESsR0wXUBdMF1AUYBRkFKxErEdAR4REaBhsG",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQABwAAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAYGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

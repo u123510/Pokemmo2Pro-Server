@@ -1,0 +1,169 @@
+{
+	"id": 1001,
+	"name": "[1001]古简蜗",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 15,
+	"weight": 742,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 71,
+			"name": "[71]吸取",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 180,
+			"name": "[180]怨恨",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 212,
+			"name": "[212]黑色目光",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 321,
+			"name": "[321]挠痒",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 371,
+			"name": "[371]以牙还牙",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 77,
+			"name": "[77]毒粉",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 78,
+			"name": "[78]麻痹粉",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 72,
+			"name": "[72]超级吸取",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 73,
+			"name": "[73]寄生种子",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 74,
+			"name": "[74]生长",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 275,
+			"name": "[275]扎根",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 399,
+			"name": "[399]恶之波动",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 202,
+			"name": "[202]终极吸取",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 877,
+			"name": "[877]大灾难",
+			"type": "level",
+			"level": 50
+		},
+		{
+			"id": 492,
+			"name": "[492]欺诈",
+			"type": "level",
+			"level": 55
+		},
+		{
+			"id": 438,
+			"name": "[438]强力鞭打",
+			"type": "level",
+			"level": 60
+		},
+		{
+			"id": 580,
+			"name": "[580]青草场地",
+			"type": "level",
+			"level": 65
+		},
+		{
+			"id": 282,
+			"name": "[282]拍落",
+			"type": "level",
+			"level": 70
+		},
+		{
+			"id": 437,
+			"name": "[437]飞叶风暴",
+			"type": "level",
+			"level": 75
+		}
+	],
+	"types": [
+		"DARK",
+		"GRASS"
+	],
+	"stats": {
+		"hp": 85,
+		"attack": 85,
+		"defense": 100,
+		"speed": 95,
+		"sp_attack": 135,
+		"sp_defense": 70
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 3,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

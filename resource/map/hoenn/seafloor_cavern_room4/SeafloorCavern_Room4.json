@@ -1,0 +1,263 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 31,
+  "width": 18,
+  "height": 19,
+  "paletteIdx1": 100,
+  "paletteIdx2": 119,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 406,
+  "unknownByte": 68,
+  "borderTiles": [
+    {
+      "material": 753,
+      "collision": 0
+    },
+    {
+      "material": 753,
+      "collision": 0
+    },
+    {
+      "material": 753,
+      "collision": 0
+    },
+    {
+      "material": 753,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_SEAFLOOR_CAVERN_ROOM4",
+      "base_label": "gSeafloorCavern_Room4",
+      "land_mons": {
+        "encounter_rate": 4,
+        "mons": [
+          {
+            "min_level": 30,
+            "max_level": 30,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 31,
+            "max_level": 31,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 32,
+            "max_level": 32,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 33,
+            "max_level": 33,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 28,
+            "max_level": 28,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 29,
+            "max_level": 29,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 34,
+            "max_level": 34,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 35,
+            "max_level": 35,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 34,
+            "max_level": 34,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 35,
+            "max_level": 35,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 33,
+            "max_level": 33,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 36,
+            "max_level": 36,
+            "species": "SPECIES_GOLBAT"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 13,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 29,
+      "targetX": 4,
+      "targetY": 10,
+      "targetElevation": 2
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 32,
+      "targetX": 15,
+      "targetY": 12,
+      "targetElevation": 2
+    },
+    {
+      "x": 9,
+      "y": 10,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 32,
+      "targetX": 7,
+      "targetY": 17,
+      "targetElevation": 2
+    },
+    {
+      "x": 10,
+      "y": 15,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 27,
+      "targetX": 10,
+      "targetY": 1,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 117,
+      "x": 5,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_DOWN_AND_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "SeafloorCavern_Room4_EventScript_Grunt3",
+      "hideFlag": "hoenn/FLAG_HIDE_SEAFLOOR_CAVERN_AQUA_GRUNTS",
+      "rawMovementType": 17
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 118,
+      "x": 5,
+      "y": 12,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "UP",
+      "script": "SeafloorCavern_Room4_EventScript_Grunt4",
+      "hideFlag": "hoenn/FLAG_HIDE_SEAFLOOR_CAVERN_AQUA_GRUNTS",
+      "rawMovementType": 7
+    }
+  ],
+  "blockData": "6wb5BvkGDgf+Bv8G+Qb5BvkG+Qb5BvkGDgf+Bv8G+Qb5BuwG8gbrBvkGFgcGMwcH7AbxBvEG8QbxBusGFgcGMwcH7AbxNvAG8gbyBgEyATIBMgEy8AbxBvEG8QbxBvIGATIBMgEy8AbxNvAG8gbyBgEyATIBMgEy8AbxBvEG8QbxBvIGATIBMgEy8AbxNvAG8gbyBkwGUQZRBk0G+Ab5BvkG+Qb5BvoGATIBMgEy8AbxNvAG8gbyBgEyATIBMgEyATIBMgEyATI5BgEyATIBMgEy+AbsBvAG8gbyBgEyATIBMgEyATIBMgEyATI5BgEyATIBMgEyATLwBvAG8gbyBgEyATIBMgEyATLoBukG6Qb0BuoGATIBMgEyATLwBvAG8gbyBgEyATIBMgEy6AbwBvE28TbxNvIG6gYBMgEyATLwBvAG8gbyBgEyATIBMgEy8Ab4Bg4H/gb/BvoG8gYBMgEyATLwBvAG8gbyBgEyATIBMgEy+Ab5BhYHBjMHB/kG+gYBMgEyATLwBvAG8gbyBgEyATIBMgEyATI5BgEyATIBMgEyATIBMgEyATLwBvAG8gb0BukG6gYBMgEyATI5BgEyATIBMgEyATIBMugG6Qb0BvAG8gbxBvEG9AbpBukG6QbpBuoGTAZRBlEGUQZNBvAG8QbxBvAG9AbpBhUH8QbxBvEG8QbxBvIGATIBMgEyATIBMvAG8QbxBvAG8QbxBvQG6QYVB/EG8QbxBvIGATIHMgEyATIBMvAG8QbxBvAG8QbxBvEG8Qb0BukGFQfxBvQG5QbmBucG6QbpBvQG8QbxBvAG8QbxBvEG8QbxBvEG8gbxBvEG8QbxBvEG8QbxBvEGFAPpBvQG8QbxBvEG8QbxBvEG9AbpBukG6QbpBukG6QbpBukG9AbxBvEG",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGBgYGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAAAAAAAAAAAABgYGBgYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

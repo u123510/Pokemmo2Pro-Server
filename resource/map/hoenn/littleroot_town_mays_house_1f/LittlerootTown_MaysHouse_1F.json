@@ -1,0 +1,316 @@
+{
+  "regionId": 1,
+  "bankId": 51,
+  "mapId": 2,
+  "width": 11,
+  "height": 9,
+  "paletteIdx1": 116,
+  "paletteIdx2": 142,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 405,
+  "unknownByte": 0,
+  "borderTiles": [
+    {
+      "material": 543,
+      "collision": 0
+    },
+    {
+      "material": 543,
+      "collision": 0
+    },
+    {
+      "material": 543,
+      "collision": 0
+    },
+    {
+      "material": 543,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "LittlerootTown_MaysHouse_1F_OnTransition",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_LITTLEROOT_INTRO_STATE",
+      "value": 3,
+      "script": "LittlerootTown_MaysHouse_1F_EventScript_EnterHouseMovingIn"
+    },
+    {
+      "varKey": "VAR_LITTLEROOT_INTRO_STATE",
+      "value": 5,
+      "script": "LittlerootTown_MaysHouse_1F_EventScript_GoUpstairsToSetClock"
+    },
+    {
+      "varKey": "VAR_LITTLEROOT_INTRO_STATE",
+      "value": 6,
+      "script": "LittlerootTown_MaysHouse_1F_EventScript_PetalburgGymReport"
+    },
+    {
+      "varKey": "VAR_LITTLEROOT_HOUSES_STATE_BRENDAN",
+      "value": 1,
+      "script": "LittlerootTown_MaysHouse_1F_EventScript_YoureNewNeighbor"
+    },
+    {
+      "varKey": "VAR_LITTLEROOT_HOUSES_STATE_MAY",
+      "value": 3,
+      "script": "PlayersHouse_1F_EventScript_GetSSTicketAndSeeLatiTV"
+    }
+  ],
+  "coordScripts": [
+    {
+      "x": 2,
+      "y": 8,
+      "elevation": 0,
+      "varKey": "VAR_LITTLEROOT_INTRO_STATE",
+      "value": 4,
+      "script": "LittlerootTown_MaysHouse_1F_EventScript_GoSeeRoom"
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "elevation": 0,
+      "varKey": "VAR_LITTLEROOT_RIVAL_STATE",
+      "value": 2,
+      "script": "LittlerootTown_MaysHouse_1F_EventScript_MeetRival0"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "elevation": 0,
+      "varKey": "VAR_LITTLEROOT_RIVAL_STATE",
+      "value": 2,
+      "script": "LittlerootTown_MaysHouse_1F_EventScript_MeetRival1"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "elevation": 0,
+      "varKey": "VAR_LITTLEROOT_RIVAL_STATE",
+      "value": 2,
+      "script": "LittlerootTown_MaysHouse_1F_EventScript_MeetRival2"
+    }
+  ],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 1,
+      "y": 8,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 9,
+      "targetX": 14,
+      "targetY": 8,
+      "targetElevation": 0
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 9,
+      "targetX": 14,
+      "targetY": 8,
+      "targetElevation": 0
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 51,
+      "targetMapId": 3,
+      "targetX": 1,
+      "targetY": 1,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 215,
+      "x": 8,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "PlayersHouse_1F_EventScript_Mom",
+      "hideFlag": "hoenn/FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MOM",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 96,
+      "x": 6,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "WALK_IN_PLACE_UP",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "PlayersHouse_1F_EventScript_Vigoroth1",
+      "hideFlag": "hoenn/FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_1",
+      "rawMovementType": 65
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 95,
+      "x": 9,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "WALK_LEFT_AND_RIGHT",
+      "movementRangeX": 3,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PlayersHouse_1F_EventScript_Vigoroth2",
+      "hideFlag": "hoenn/FLAG_HIDE_LITTLEROOT_TOWN_PLAYERS_HOUSE_VIGOROTH_2",
+      "rawMovementType": 27
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 26,
+      "x": 8,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "RivalsHouse_1F_EventScript_RivalMom",
+      "hideFlag": "hoenn/FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_MOM",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 129,
+      "x": 5,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_PLAYERS_HOUSE_DAD",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 5,
+      "x": 9,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "WANDER_LEFT_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "RivalsHouse_1F_EventScript_RivalSibling",
+      "hideFlag": "hoenn/FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_RIVAL_SIBLING",
+      "rawMovementType": 5
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 105,
+      "x": 2,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_MAY",
+      "rawMovementType": 7
+    }
+  ],
+  "blockData": "HwYfBh8GFwYeBh4GbgZuBm4GHgZuBm4GbwYJBm0GJgYmBkMGRAYxBjIGMAZ2BncGEQJ1BngyBTJLBkwGOQY6BjgGBDIGMgUyBzJ5MgEyRjIFMgUyBTIFMgQyATIBMgEyATIBMgIEQAZBBgEyATIEMgEyATIBMrACuAKzArECsgK7AgEyBDIBMgEyATKjAsACuQa6BsMCpQIBMgQyATIBMgEyowLAAsEGwgbDAqUCATIEMgICAwIBMqsCrAKsAqwCrAKtAgEy",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQAAAAAAAAAA"
+}

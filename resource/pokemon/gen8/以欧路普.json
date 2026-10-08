@@ -1,0 +1,151 @@
+{
+	"id": 826,
+	"name": "[826]以欧路普",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 4,
+	"weight": 408,
+	"egg_groups": [
+		"虫组"
+	],
+	"abilities": [
+		{
+			"id": 68,
+			"name": "[068]特性68"
+		},
+		{
+			"id": 119,
+			"name": "[119]特性119"
+		},
+		{
+			"id": 140,
+			"name": "[140]特性140"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 93,
+			"name": "[93]念力",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 113,
+			"name": "[113]光墙",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 115,
+			"name": "[115]反射壁",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 522,
+			"name": "[522]虫之抵抗",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 109,
+			"name": "[109]奇异之光",
+			"type": "level",
+			"level": 4
+		},
+		{
+			"id": 277,
+			"name": "[277]魔法反射",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 97,
+			"name": "[97]高速移动",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 60,
+			"name": "[60]幻象光线",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 95,
+			"name": "[95]催眠术",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 502,
+			"name": "[502]交换场地",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 405,
+			"name": "[405]虫鸣",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 243,
+			"name": "[243]镜面反射",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 94,
+			"name": "[94]精神强念",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 495,
+			"name": "[495]您先请",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 347,
+			"name": "[347]冥想",
+			"type": "level",
+			"level": 44
+		},
+		{
+			"id": 678,
+			"name": "[678]精神场地",
+			"type": "level",
+			"level": 48
+		}
+	],
+	"types": [
+		"BUG",
+		"PSYCHIC"
+	],
+	"stats": {
+		"hp": 60,
+		"attack": 45,
+		"defense": 110,
+		"speed": 80,
+		"sp_attack": 120,
+		"sp_defense": 90
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 3,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

@@ -1,0 +1,388 @@
+{
+  "regionId": 1,
+  "bankId": 50,
+  "mapId": 11,
+  "width": 20,
+  "height": 20,
+  "paletteIdx1": 100,
+  "paletteIdx2": 103,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 427,
+  "unknownByte": 2,
+  "borderTiles": [
+    {
+      "material": 579,
+      "collision": 0
+    },
+    {
+      "material": 579,
+      "collision": 0
+    },
+    {
+      "material": 579,
+      "collision": 0
+    },
+    {
+      "material": 579,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "REGULAR_WEATHER",
+  "mapType": "VILLAGE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_DEWFORD_TOWN",
+      "base_label": "gDewfordTown",
+      "water_mons": {
+        "encounter_rate": 4,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 35,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 10,
+            "max_level": 30,
+            "species": "SPECIES_WINGULL"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_WINGULL"
+          },
+          {
+            "min_level": 25,
+            "max_level": 30,
+            "species": "SPECIES_PELIPPER"
+          },
+          {
+            "min_level": 25,
+            "max_level": 30,
+            "species": "SPECIES_PELIPPER"
+          }
+        ]
+      },
+      "fishing_mons": {
+        "encounter_rate": 10,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 10,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 10,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 10,
+            "max_level": 30,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 10,
+            "max_level": 30,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 10,
+            "max_level": 30,
+            "species": "SPECIES_WAILMER"
+          },
+          {
+            "min_level": 25,
+            "max_level": 30,
+            "species": "SPECIES_WAILMER"
+          },
+          {
+            "min_level": 30,
+            "max_level": 35,
+            "species": "SPECIES_WAILMER"
+          },
+          {
+            "min_level": 20,
+            "max_level": 25,
+            "species": "SPECIES_WAILMER"
+          },
+          {
+            "min_level": 35,
+            "max_level": 40,
+            "species": "SPECIES_WAILMER"
+          },
+          {
+            "min_level": 40,
+            "max_level": 45,
+            "species": "SPECIES_WAILMER"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "DewfordTown_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 10,
+      "y": 10,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "DewfordTown_EventScript_TownSign"
+    },
+    {
+      "x": 11,
+      "y": 16,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "DewfordTown_EventScript_GymSign"
+    },
+    {
+      "x": 4,
+      "y": 10,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    },
+    {
+      "x": 3,
+      "y": 10,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "DewfordTown_EventScript_HallSign"
+    }
+  ],
+  "connections": [
+    {
+      "direction": "UP",
+      "unknown": -60,
+      "targetBank": 50,
+      "targetMap": 21
+    },
+    {
+      "direction": "RIGHT",
+      "unknown": 0,
+      "targetBank": 50,
+      "targetMap": 22
+    }
+  ],
+  "warps": [
+    {
+      "x": 3,
+      "y": 3,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 53,
+      "targetMapId": 4,
+      "targetX": 5,
+      "targetY": 8,
+      "targetElevation": 0
+    },
+    {
+      "x": 2,
+      "y": 10,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 53,
+      "targetMapId": 1,
+      "targetX": 7,
+      "targetY": 8,
+      "targetElevation": 2
+    },
+    {
+      "x": 8,
+      "y": 17,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 53,
+      "targetMapId": 3,
+      "targetX": 5,
+      "targetY": 27,
+      "targetElevation": 0
+    },
+    {
+      "x": 17,
+      "y": 14,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 53,
+      "targetMapId": 0,
+      "targetX": 3,
+      "targetY": 7,
+      "targetElevation": 0
+    },
+    {
+      "x": 8,
+      "y": 8,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 53,
+      "targetMapId": 5,
+      "targetX": 3,
+      "targetY": 8,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 20,
+      "x": 7,
+      "y": 12,
+      "elevation": 2,
+      "movementType": "WANDER_LEFT_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "DewfordTown_EventScript_Woman",
+      "hideFlag": "",
+      "rawMovementType": 5
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 21,
+      "x": 12,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "DewfordTown_EventScript_Briney",
+      "hideFlag": "hoenn/FLAG_HIDE_MR_BRINEY_DEWFORD_TOWN",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 50,
+      "x": 12,
+      "y": 14,
+      "elevation": 2,
+      "movementType": "WANDER_LEFT_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "DewfordTown_EventScript_OldRodFisherman",
+      "hideFlag": "",
+      "rawMovementType": 5
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 88,
+      "x": 12,
+      "y": 8,
+      "elevation": 0,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_MR_BRINEY_BOAT_DEWFORD_TOWN",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 7,
+      "x": 1,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "DewfordTown_EventScript_TrendyPhraseBoy",
+      "hideFlag": "",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "QwYRBhIGDDIMMg0yJDEkMSQxJDEkMSURcBF6FUMGQwZDBjkyQwY5MkMGEwYUBhQGFAYVBiQxJDEkMSQxJDElEXARehVDBjoGQwZDBkMGQwY6Bg4GHwYdBh4GDwYkMSQxJDEkMSQxJRFwEXoVQwY5MkMGQwY6BkMGOTIWBicGJQYmBhcGJDEkMSQxJDEkMSURcBF6NUMGQwY6BkMGOTI6BkMGJDEDBCQxJDEkMSQxJDEkMTkyOTIlEXARegVDBkMGOTJDBkMGOTI6BiQxJDEkMSQxJDEkMQsyDDISBhgGJRFwEXoFOgY6BjoGQwZDBkMGJDEkMSQxJDEkMSQxJDETBhQGFAYVBiURcBGCFXkUeRSJFDoGOgY6BiQxAzIEMgUyBjIkMSQxDgYdBh4GDwYlEXARcBFwEXARghV5FHkUeRQkMVAEUQRSBFMEJDEkMRYGJQYmBhcGJRFwEXARcBFwEXARcBFwEXARJDFYBFkEWgRbBCQxJDEkMSQxJDEkMSgyKTIpMnARcBFwEXARcBFwESQxCQZhBGIECgYkMSQxJDEkMSQxAwQwBjEGMQYbERwxHDEcMRwxHDEkMSQxJDEkMSQxJDEkMSQxJDEkMSQxPjEcMRwxPTEkMQsyDDIMMg0yJDEkMSQxJDEkMSQxJDEkMSQxJDEkMSQxJDEkMSQxJDETBhQGFAYVBiQxJDEkMSQxJDEaMhsyGzIbMhsyHDIkMSQxJDEkMSQxDgYdBh4GDwY5MiQxJDEkMSQxIgYjBiMGIwYjBiQGJDEkMSQxJDEkMRYGJQYmBhcGQwYkMSQxJDEkMSsGLAYtBrMFLgYvBggyJDEkMSQxJDEkMSQx4gQ5MkMGJDEkMSQxJDEzBjQGNQbFBTYGNwYQBiQxJDEkMSQxJDEkMSQxQwY6BjkyJDEkMSQxOzI8Mj0GzQU+Bj8yJDEkMSQxJDEkMTkyOTI5MjoGOTJDBjkyJDEkMSQxJDEkMSQxJDEkMSQxJDHiNDkyOTI6BkMGQwbiBEMGQwZDBjkyOTI5MjkyOTI5MjkyOTI5MjkyOTJDBkMGOTJDBkMGOTI=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+}

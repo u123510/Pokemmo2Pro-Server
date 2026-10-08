@@ -1,0 +1,245 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 56,
+  "width": 18,
+  "height": 17,
+  "paletteIdx1": 100,
+  "paletteIdx2": 156,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 381,
+  "unknownByte": 61,
+  "borderTiles": [
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "CLOUDY",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 4,
+      "y": 16,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 55,
+      "targetX": 11,
+      "targetY": 9,
+      "targetElevation": 2
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 55,
+      "targetX": 11,
+      "targetY": 9,
+      "targetElevation": 2
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 55,
+      "targetX": 11,
+      "targetY": 3,
+      "targetElevation": 2
+    },
+    {
+      "x": 13,
+      "y": 16,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 55,
+      "targetX": 14,
+      "targetY": 9,
+      "targetElevation": 2
+    },
+    {
+      "x": 13,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 55,
+      "targetX": 14,
+      "targetY": 3,
+      "targetElevation": 2
+    },
+    {
+      "x": 14,
+      "y": 16,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 55,
+      "targetX": 14,
+      "targetY": 9,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 48,
+      "x": 12,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "AbandonedShip_Rooms_1F_EventScript_Gentleman",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 59,
+      "x": 4,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "AbandonedShip_Rooms_1F_EventScript_ItemHarborMail",
+      "hideFlag": "hoenn/FLAG_ITEM_ABANDONED_SHIP_ROOMS_1F_HARBOR_MAIL",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 45,
+      "x": 10,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "AbandonedShip_Rooms_1F_EventScript_Thalia",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 35,
+      "x": 10,
+      "y": 16,
+      "elevation": 2,
+      "movementType": "FACE_UP_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "UP",
+      "script": "AbandonedShip_Rooms_1F_EventScript_Demetrius",
+      "hideFlag": "",
+      "rawMovementType": 16
+    }
+  ],
+  "blockData": "NgYnBicGlQZjBpYGJwYnBjcGNgZABmsGlQZjBpYGJwYnBjcGPgYvBi8GnQaXNp4GLwYvBj8GPgZIBnMGnQaXNp4GLwYvBj8GPgY6MjsyOzI7MjsyOzI7Mj8GPgZQBlEGOjI7MjsyOzI7Mj8GPgY9MjgyODI4MjgyODI4Mj8GPgZYBlkGPTI4MjgyODKqNj8GPgarNjgyODI4MjgyYTI4Mj8GPgY6MjsyPDI4MjgyODI4Mj8GPgY9MjgyODI4MjgyODI4Mj8GPgY9MjgyODI4MmAyODI4Mj8GPgY9MmIGODI4MjgyODI4Mj8GPgarNjgyODI4MjgyODI4Mj8GPgY9MjgyODI4MmEyODI4Mj8GPgY9MjgyODI4MjgyODI4Mj8GAQYBBgEGAQYBBgEGAQYBBgEGAQYBBgEGAQY9MgEGAQYBBgEGNgZABkEGQgYnBicGJwZFBjcGNgYnBicGJwY9MkMGRAZFBjcGPgZIBkkGSgYvBi8GLwYvBj8GPgYvBi8GLwY9MksGTAZNBj8GPgZQBlEGOjI7MjsyOzI7MkcGRgY6MjsyOzI8MjsyVAZVBj8GPgZYBlkGPTI4MmAyODI4Mk8GTgY9MjgyODI4MjgyXAZdBj8GPgY6MjsyPDJiBjgyODI4MjsyOzI8MjgyODI4MjgyOzI7Mj8GPgY9MjgyODI4MjgyODI4Mj8GPgY9MlYGVwY4MjgyODKqNj8GPgY9MmEyODI4MjgyODI4Mj8GPgY9Ml4GXwY4MjgyODI4Mj8GPgarNjgyODJkMmUyODI4Mj8GPgY9MjgyODJkMmUyODI4Mj8G",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NAAAAAAAAAA0NAAAA"
+}

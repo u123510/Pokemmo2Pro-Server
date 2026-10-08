@@ -1,0 +1,151 @@
+{
+	"id": 962,
+	"name": "[962]下石鸟",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 15,
+	"weight": 429,
+	"egg_groups": [
+		"飞行组"
+	],
+	"abilities": [
+		{
+			"id": 145,
+			"name": "[145]特性145"
+		},
+		{
+			"id": 51,
+			"name": "[051]特性51"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 17,
+			"name": "[17]翅膀攻击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 43,
+			"name": "[43]瞪眼",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 64,
+			"name": "[64]啄",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 262,
+			"name": "[262]临别礼物",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 468,
+			"name": "[468]磨爪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 168,
+			"name": "[168]小偷",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 88,
+			"name": "[88]落石",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 18,
+			"name": "[18]吹飞",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 365,
+			"name": "[365]啄食",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 259,
+			"name": "[259]无理取闹",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 317,
+			"name": "[317]岩石封锁",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 371,
+			"name": "[371]以牙还牙",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 814,
+			"name": "[814]双翼",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 157,
+			"name": "[157]岩崩",
+			"type": "level",
+			"level": 47
+		},
+		{
+			"id": 282,
+			"name": "[282]拍落",
+			"type": "level",
+			"level": 53
+		},
+		{
+			"id": 575,
+			"name": "[575]抛下狠话",
+			"type": "level",
+			"level": 60
+		}
+	],
+	"types": [
+		"FLYING",
+		"DARK"
+	],
+	"stats": {
+		"hp": 70,
+		"attack": 103,
+		"defense": 85,
+		"speed": 60,
+		"sp_attack": 85,
+		"sp_defense": 82
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 2,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

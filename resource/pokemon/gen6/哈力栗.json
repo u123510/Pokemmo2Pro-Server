@@ -1,0 +1,145 @@
+{
+	"id": 1088,
+	"name": "[1088]哈力栗",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 32,
+	"height": 4,
+	"weight": 90,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 65,
+			"name": "[065]特性65"
+		},
+		{
+			"id": 65,
+			"name": "[065]特性65"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 1089,
+			"name": "[1089]胖胖哈力",
+			"type": "LEVEL",
+			"val": 16
+		}
+	],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 22,
+			"name": "[22]藤鞭",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 205,
+			"name": "[205]滚动",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 73,
+			"name": "[73]寄生种子",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 42,
+			"name": "[42]飞弹针",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 36,
+			"name": "[36]猛撞",
+			"type": "level",
+			"level": 27
+		},
+		{
+			"id": 402,
+			"name": "[402]种子炸弹",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 341,
+			"name": "[341]泥巴射击",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 339,
+			"name": "[339]健美",
+			"type": "level",
+			"level": 39
+		},
+		{
+			"id": 34,
+			"name": "[34]泰山压顶",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 220,
+			"name": "[220]分担痛楚",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 452,
+			"name": "[452]木槌",
+			"type": "level",
+			"level": 48
+		}
+	],
+	"types": [
+		"GRASS"
+	],
+	"stats": {
+		"hp": 56,
+		"attack": 61,
+		"defense": 65,
+		"speed": 48,
+		"sp_attack": 45,
+		"sp_defense": 38
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 1,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

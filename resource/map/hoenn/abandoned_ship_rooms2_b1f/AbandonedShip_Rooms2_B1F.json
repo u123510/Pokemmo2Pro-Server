@@ -1,0 +1,193 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 59,
+  "width": 18,
+  "height": 8,
+  "paletteIdx1": 100,
+  "paletteIdx2": 156,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 381,
+  "unknownByte": 61,
+  "borderTiles": [
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "CLOUDY",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 4,
+      "y": 7,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 57,
+      "targetX": 3,
+      "targetY": 4,
+      "targetElevation": 2
+    },
+    {
+      "x": 5,
+      "y": 7,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 57,
+      "targetX": 3,
+      "targetY": 4,
+      "targetElevation": 2
+    },
+    {
+      "x": 13,
+      "y": 7,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 57,
+      "targetX": 6,
+      "targetY": 4,
+      "targetElevation": 2
+    },
+    {
+      "x": 14,
+      "y": 7,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 57,
+      "targetX": 6,
+      "targetY": 4,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 31,
+      "x": 3,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "AbandonedShip_Rooms2_B1F_EventScript_Camper",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 59,
+      "x": 13,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "AbandonedShip_Rooms2_B1F_EventScript_ItemDiveBall",
+      "hideFlag": "hoenn/FLAG_ITEM_ABANDONED_SHIP_ROOMS_2_B1F_DIVE_BALL",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "NgZABkEGQgYnBicGJwYnBjcGNgZABkEGQgYnBkMGRAZFBjcGPgZIBkkGSgYvBi8GLwYvBj8GPgZIBkkGSgYvBksGTAZNBj8GPgZQBlEGOjI7MjsyOzI7MkcGRgZQBlEGOjI7MjsyVAZVBj8GPgZYBlkGPTI4MlYGVwaqNk8GTgZYBlkGPTI4MjgyXAZdBj8GPgY6MjsyPDI4Ml4GXwY4MjsyOzI7MjsyZjI4MjgyOzI7Mj8GPgY9MjgyODI4MjgyODI4Mj8GPgY9MjgyODI4MjgyODKqNj8GPgarNjgyODI4MjgyODI4Mj8GPgarNjgyODI4MjgyYDI4Mj8GPgY9MjgyODJkMmUyODJiBj8GPgY9MjgyODJkMmUyODI4Mj8G",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NAAAAAAAAAA0NAAAA"
+}

@@ -1,0 +1,227 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 62,
+  "width": 9,
+  "height": 17,
+  "paletteIdx1": 100,
+  "paletteIdx2": 156,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 381,
+  "unknownByte": 61,
+  "borderTiles": [
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "CLOUDY",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 4,
+      "y": 16,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 55,
+      "targetX": 3,
+      "targetY": 9,
+      "targetElevation": 2
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 55,
+      "targetX": 3,
+      "targetY": 9,
+      "targetElevation": 2
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 55,
+      "targetX": 3,
+      "targetY": 3,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 65,
+      "x": 7,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "AbandonedShip_Rooms2_1F_EventScript_Dan",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 26,
+      "x": 6,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "AbandonedShip_Rooms2_1F_EventScript_Kira",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 59,
+      "x": 4,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "AbandonedShip_Rooms2_1F_EventScript_ItemRevive",
+      "hideFlag": "hoenn/FLAG_ITEM_ABANDONED_SHIP_ROOMS_2_1F_REVIVE",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 55,
+      "x": 3,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "AbandonedShip_Rooms2_1F_EventScript_Garrison",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 53,
+      "x": 7,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "AbandonedShip_Rooms2_1F_EventScript_Jani",
+      "hideFlag": "",
+      "rawMovementType": 9
+    }
+  ],
+  "blockData": "NgZABmsGlQZjBpYGJwYnBjcGPgZIBnMGnQaXNp4GLwYvBj8GPgZQBlEGOjI7MjsyOzI7Mj8GPgZYBlkGPTI4MjgyODI4Mj8GPgYeMjsyPDI4MjgyYTI4Mj8GPgY9MjgyODI4MjgyODI4Mj8GPgY9MjgyYgY4MmEyODI4Mj8GPgY9MjgyODI4MjgyODI4Mj8GAQYBBgEGAQY9MgEGAQYBBgEGNgYnBicGJwY9MicGJwYnBjcGPgYvBi8GLwY9Mi8GLwYvBj8GPgY6MjsyOzI8MjsyOzI7Mj8GPgY9MjgyODI4MjgyODI4Mj8GPgY9MlYGVwY4MmEyODI4Mj8GPgY9Ml4GXwZhMjgyODI4Mj8GPgY9MjgyODI4MjgyODI4Mj8GPgY9MjgyODJkMmUyODI4Mj8G",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NAAAA"
+}

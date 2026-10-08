@@ -1,0 +1,163 @@
+{
+	"id": 781,
+	"name": "[781]破破舵轮",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 39,
+	"weight": 2100,
+	"egg_groups": [
+		"矿物组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 71,
+			"name": "[71]吸取",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 74,
+			"name": "[74]生长",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 229,
+			"name": "[229]高速旋转",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 310,
+			"name": "[310]惊吓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 415,
+			"name": "[415]掉包",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 72,
+			"name": "[72]超级吸取",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 35,
+			"name": "[35]紧束",
+			"type": "level",
+			"level": 9
+		},
+		{
+			"id": 360,
+			"name": "[360]陀螺球",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 319,
+			"name": "[319]金属音",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 202,
+			"name": "[202]终极吸取",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 250,
+			"name": "[250]潮旋",
+			"type": "level",
+			"level": 27
+		},
+		{
+			"id": 677,
+			"name": "[677]掷锚",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 247,
+			"name": "[247]暗影球",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 412,
+			"name": "[412]能量球",
+			"type": "level",
+			"level": 41
+		},
+		{
+			"id": 21,
+			"name": "[21]摔打",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 484,
+			"name": "[484]重磅冲撞",
+			"type": "level",
+			"level": 50
+		},
+		{
+			"id": 566,
+			"name": "[566]潜灵奇袭",
+			"type": "level",
+			"level": 54
+		},
+		{
+			"id": 438,
+			"name": "[438]强力鞭打",
+			"type": "level",
+			"level": 59
+		}
+	],
+	"types": [
+		"GHOST",
+		"GRASS"
+	],
+	"stats": {
+		"hp": 70,
+		"attack": 131,
+		"defense": 100,
+		"speed": 86,
+		"sp_attack": 90,
+		"sp_defense": 40
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 2,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

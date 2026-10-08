@@ -1,0 +1,169 @@
+{
+	"id": 798,
+	"name": "[798]纸御剑",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 3,
+	"weight": 1,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 15,
+			"name": "[15]居合斩",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 210,
+			"name": "[210]连斩",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 314,
+			"name": "[314]空气利刃",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 410,
+			"name": "[410]真空波",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 432,
+			"name": "[432]清除浓雾",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 533,
+			"name": "[533]圣剑",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 206,
+			"name": "[206]点到为止",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 75,
+			"name": "[75]飞叶快刀",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 235,
+			"name": "[235]光合作用",
+			"type": "level",
+			"level": 19
+		},
+		{
+			"id": 332,
+			"name": "[332]燕返",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 673,
+			"name": "[673]磨砺",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 400,
+			"name": "[400]暗袭要害",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 14,
+			"name": "[14]剑舞",
+			"type": "level",
+			"level": 37
+		},
+		{
+			"id": 348,
+			"name": "[348]叶刃",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 404,
+			"name": "[404]十字剪",
+			"type": "level",
+			"level": 47
+		},
+		{
+			"id": 197,
+			"name": "[197]看穿",
+			"type": "level",
+			"level": 53
+		},
+		{
+			"id": 403,
+			"name": "[403]空气斩",
+			"type": "level",
+			"level": 59
+		},
+		{
+			"id": 427,
+			"name": "[427]精神利刃",
+			"type": "level",
+			"level": 67
+		},
+		{
+			"id": 12,
+			"name": "[12]断头钳",
+			"type": "level",
+			"level": 73
+		}
+	],
+	"types": [
+		"GRASS",
+		"STEEL"
+	],
+	"stats": {
+		"hp": 59,
+		"attack": 181,
+		"defense": 131,
+		"speed": 59,
+		"sp_attack": 31,
+		"sp_defense": 109
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 3,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

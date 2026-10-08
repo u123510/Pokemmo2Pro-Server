@@ -1,0 +1,151 @@
+{
+	"id": 1065,
+	"name": "[1065]钥圈儿",
+	"exp_type": 4,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 2,
+	"weight": 30,
+	"egg_groups": [
+		"矿物组"
+	],
+	"abilities": [
+		{
+			"id": 158,
+			"name": "[158]特性158"
+		},
+		{
+			"id": 158,
+			"name": "[158]特性158"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 587,
+			"name": "[587]妖精之锁",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 584,
+			"name": "[584]妖精之风",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 310,
+			"name": "[310]惊吓",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 319,
+			"name": "[319]金属音",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 191,
+			"name": "[191]撒菱",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 577,
+			"name": "[577]吸取之吻",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 578,
+			"name": "[578]戏法防守",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 492,
+			"name": "[492]欺诈",
+			"type": "level",
+			"level": 27
+		},
+		{
+			"id": 259,
+			"name": "[259]无理取闹",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 429,
+			"name": "[429]镜光射击",
+			"type": "level",
+			"level": 34
+		},
+		{
+			"id": 286,
+			"name": "[286]封印",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 278,
+			"name": "[278]回收利用",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 583,
+			"name": "[583]嬉闹",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 478,
+			"name": "[478]魔法空间",
+			"type": "level",
+			"level": 44
+		},
+		{
+			"id": 377,
+			"name": "[377]回复封锁",
+			"type": "level",
+			"level": 50
+		}
+	],
+	"types": [
+		"STEEL",
+		"FAIRY"
+	],
+	"stats": {
+		"hp": 57,
+		"attack": 80,
+		"defense": 91,
+		"speed": 80,
+		"sp_attack": 87,
+		"sp_defense": 75
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 1,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

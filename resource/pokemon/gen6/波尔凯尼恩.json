@@ -1,0 +1,151 @@
+{
+	"id": 721,
+	"name": "[721]波尔凯尼恩",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 17,
+	"weight": 1950,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 11,
+			"name": "[011]特性11"
+		},
+		{
+			"id": 11,
+			"name": "[011]特性11"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 36,
+			"name": "[36]猛撞",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 394,
+			"name": "[394]闪焰冲锋",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 592,
+			"name": "[592]蒸汽爆炸",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 54,
+			"name": "[54]白雾",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 114,
+			"name": "[114]黑雾",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 488,
+			"name": "[488]蓄能焰袭",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 352,
+			"name": "[352]水之波动",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 23,
+			"name": "[23]踩踏",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 503,
+			"name": "[503]热水",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 311,
+			"name": "[311]气象球",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 34,
+			"name": "[34]泰山压顶",
+			"type": "level",
+			"level": 46
+		},
+		{
+			"id": 56,
+			"name": "[56]水炮",
+			"type": "level",
+			"level": 50
+		},
+		{
+			"id": 394,
+			"name": "[394]闪焰冲锋",
+			"type": "level",
+			"level": 58
+		},
+		{
+			"id": 315,
+			"name": "[315]过热",
+			"type": "level",
+			"level": 65
+		},
+		{
+			"id": 153,
+			"name": "[153]大爆炸",
+			"type": "level",
+			"level": 76
+		},
+		{
+			"id": 592,
+			"name": "[592]蒸汽爆炸",
+			"type": "level",
+			"level": 85
+		}
+	],
+	"types": [
+		"FIRE",
+		"WATER"
+	],
+	"stats": {
+		"hp": 80,
+		"attack": 110,
+		"defense": 120,
+		"speed": 130,
+		"sp_attack": 90,
+		"sp_defense": 70
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 3,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

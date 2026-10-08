@@ -1,0 +1,140 @@
+{
+  "regionId": 0,
+  "bankId": 2,
+  "mapId": 0,
+  "width": 20,
+  "height": 23,
+  "paletteIdx1": 0,
+  "paletteIdx2": 61,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 333,
+  "unknownByte": 174,
+  "borderTiles": [
+    {
+      "material": 630,
+      "collision": 0
+    },
+    {
+      "material": 630,
+      "collision": 0
+    },
+    {
+      "material": 630,
+      "collision": 0
+    },
+    {
+      "material": 630,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "ROUTE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "NavelRock_Exterior_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 9,
+      "y": 8,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 2,
+      "targetMapId": 36,
+      "targetX": 8,
+      "targetY": 23,
+      "targetElevation": 2
+    },
+    {
+      "x": 9,
+      "y": 16,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 2,
+      "targetMapId": 59,
+      "targetX": 8,
+      "targetY": 2,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [],
+  "blockData": "dgZEBkUGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGTAZNBn8GcAdxB3EHcQdxB3EHcQdxB3EHcQdyB30GdgZ2BnYGdgZ2BnYGfwZwBz0HNAdcB1wHXAdcB1wHXAdcBzUHPAdyB30GdgZ2BnYGdgZ/BnAHUwc0Bz8H2TBeB2sHawdrB2wH2TA+BzUHVQdyB30GdgZ2BnYGcAZTB1MHNwdXB14HUwdRB1EHUQdVB2wHVwc2B1UHVQdxBnYGdgZ2BnQGUwdTBzcH2TA2B1MHUQdRB1EHVQc3B9kwNgdVB1UHcgZ2BnYGdgZ0BlMHUwc3B9kwNgdbBzUHUQc0B10HNwfZMDYHVQdVB3IGRAZFBnYGdAZTB1MHNwdXBz4HNQdbB1wHXQc0Bz8H2TA2B1UHVQdyBkwGTQZ2BnQGUwdTBzwHbAfZMD4HWQdGM1kHPwdXB14HPQdVB1UHcgZ2BnYGdgZ0BlMHWwc1BzwHbAfZMNkw2TDZMNkwXgc9BzQHXQdVB3IGdgZ2BnYGdAZbBzUHWwdcBz8H2TDZMNkw2TDZMD4HXAddBzQHXQdyBnYGdgZ2BngGaQZbB1wHXAdcB1wHkTCJMIkwXAdcB1wHXAddB2gGeQZ2BnYGdgZvBngGawZrBmsGawZrBsUxxjHHMWsGawZrBmsGawZ5Bm0GdgZ2BnYGdgZ2BnYGdgZ2BnYGdgbFMcYxxzF2BnYGdgZ2BkQGRQZ2BnYGdgZ2BnYGdgZ2BkQGRQZ2BnYGxTHGMccxdgZEBkUGdgZMBk0GdgZ2BnYGdgZ2BnYGdgZMBk0GdgZ2BsUxxjHHMXYGTAZNBnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdga0MrUytjJ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BkQGRQZ4M/Ay8QbxBvEG8jJ5M3YGRAZFBnYGdgZ2BnYGdgZ2BnYGdgZMBk0GpAb4BvkG+Qb5BvoG5wZ2BkwGTQZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2Bm0HAAcBBwEHAQcCB24HdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ0B/MG9Ab1BvYG9wZ1B3YGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgcLBwwHDQcOBw8Hdwd2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGdgY=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+}

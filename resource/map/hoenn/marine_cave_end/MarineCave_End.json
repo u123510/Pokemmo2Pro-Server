@@ -1,0 +1,154 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 103,
+  "width": 27,
+  "height": 30,
+  "paletteIdx1": 100,
+  "paletteIdx2": 119,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 366,
+  "unknownByte": 203,
+  "borderTiles": [
+    {
+      "material": 753,
+      "collision": 0
+    },
+    {
+      "material": 753,
+      "collision": 0
+    },
+    {
+      "material": 753,
+      "collision": 0
+    },
+    {
+      "material": 753,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "STEADY_MIST",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "MarineCave_End_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [
+    {
+      "x": 9,
+      "y": 26,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 1,
+      "script": "MarineCave_End_EventScript_Kyogre"
+    }
+  ],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 20,
+      "y": 4,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 102,
+      "targetX": 14,
+      "targetY": 1,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 197,
+      "x": 9,
+      "y": 22,
+      "elevation": 0,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_MARINE_CAVE_KYOGRE",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "8QbxBvEG8QbxBvEG8QbxBusG+Qb5BvkG+Qb5BvkG+Qb5BvkG+Qb5BvkG+Qb5BvkG7AbxBvEG8QbxBvEG8QbxBvEG8QbxBgsH6wb5BvkG+Qb5BvkG+Qb5BvkG+Qb5BvkG+Qb5BuwGCgfxBvEG8QbxBvEG8QbxBvEG8QbrBhMHCwf1MvUy9TL1MvUy9TL1MvUy9TL1MvUy9TL1MgoHCgfxBvEG8QbxBvEG8QbxBvEG8QYLB+sGEwf1MvUy9TL1MvUy9TL1MvUy9TL1MvUy9TL1MgoHCgfxBvEG8QbxBvEG8QbxBvEG8QYLBwsH9TL1MvUy9TL1MvUy9TL1MvUy9TL1MvYC9TL1MgoHCgfxBvEG8QbxBvEG8QbxBvEG8QYLBwsH9TL1MvUy9TL1MvUy9TICB+kG6QblBuYG5wbpBukGCgfxBvEG8QbxBvEG8QbxBvEG6wYTBwsH9TL1MvUy9TL1MvUy9TIKB/EG8QbxBvEGAgfpBukG6QbxBvEG8QbxBvEG8QbxBvEGCwfxBgsH9TL1MvUy9TL1MvUy9TIKB/EG8QbxBvEGCgfxBvEG8QbxBvEG8QbrBvkG+Qb5BvkGEwfrBhMH9TL1MvUy9TL1MvUy9TIKB/EG8QbxBvEGEgf5BuwG8QbxBvEG8QYLB+sG+Qb5BvkG+Qb6BhsGGQYZBhkGGQYZBgQCHAYSB/kG+Qb5BvkG7AbxBvAG8QbxBvEG8QYLB/IGIAYJBiIGEQYbBhoGETIRMhEyETIRMhEyEAYRMhEyETIRMhEy8AbxBgoH8QbxBvEG8QYLB/IGEAYRBhIGGwYaBhEyETIRMhEyETIRMhEyGAYZBhkGHAYRMhEy8AbxBhIH+QbsBvEG8QYLB/IGEAYRBhIGEgYRMhEyETIRMhEyETIRMhEyETIRMhEyEAYRMhEy8AbxBvEG8QYSB+wG8QYLB/IGEAYRBhIGIwYjBiMGIwYjBiIGETIRMhEyETIRMhEyGAYcBhEy+Ab5BuwG8QbxBvAG8QYLB/IGEAYRBiMGIwYjBiMGIwYiBiMGIwYiBhEyETIRMhEyETIQBhEyETIRMvAG8QbxBvAG8QYLB/IGEAYRBhEGGwYZBhkGGQYaBhEGEQYjBiMGIgYRMhEyETIYBhkGHAYRMvAG8QbxBvAG8QYLB/IGEAYRBhsGGgYbBhkGGQYZBhwGEQYRBhEGIwYiBhEyETIRMhEyEAYRMvAG8QbxBvAG8QYLB/IGGAYZBhoGGwYaBokWkRaBFhgGHAYRBhEGETIjBiIGETIRMhEyEAYRMvgG+QbsBvAG8QYLB/IGEQYbBhkGGgaJFpIWTxWQFoEWGAYZBhkGHAYRBhIGETIRMhEyGAYZBhwGETLwBvAG8QYLB/IGEQYSBokWkRaSFk8VTxVPFZAWkRaRFoEWEAYRBhIGETIRMhEyETIRMhAGETLwBvAG8QYLB/IGEQYSBooWThVPFU8VTxVPFU8VTxVOFYgWEAYRBhIGETIRMhEyETIRMhAGETLwBvAG8QYLB/IGGwYaBooWThVPFU8VTxVPFU8VTxVOFYgWEAYRBhIGETIRMhEyETIRMhAGETLwBvAG8QYLB/IGEgaJFpIWThVOFU8VTxVPFU8VThVOFYgWEAYRBhIGETIRMhEyETIRMhAGETLwBvAG8QYLB/IGEgaKFk4VThVOFU4VTxVPFU4VThVOFYgWEAYRBhIGETIRMhEyETIRMhAGETLwBvAG8QYLB/IGEgYjMmwGcBVOFU4VThVOFU4VThVwFYgWEAYRBhIGETIRMhEyETIRMhAGETLwBvAG8QYLB/IGEgYRMiMybAZwFXAVcBVwFXAVagZzMnMyEAYRBhIGETIRMhEyETIRMhAGETLwBvAG8QYLB/IGIwYiBhEyIzJzMnMyczJzMnMyJDIRMhEyGAYZBhoGETIRMhEyIAYjBiMGETLwBvAG8QYLB/IGETIjBiMGIwYiBhEyETIRMhEyETIRMhEyETIRMhEyETIRMhEyEAYRMhEyETLwBvAG8QYLB/MG8wbzBvMG8wbzBvMG8wbzBvMG8wbzBvMG8wbzBvMG8wbzBvMG8wbzBvMG8wbzBvAG8QbzBvMG8wbzBvMG8wbzBvMG8wbzBvMG8wbzBvMG8wbzBvMG8wbzBvMG8wbzBvMG8wbzBvMG",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

@@ -1,0 +1,134 @@
+{
+	"id": 1052,
+	"name": "[1052]伞电蜥",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 5,
+	"weight": 60,
+	"egg_groups": [
+		"怪兽组",
+		"龙组"
+	],
+	"abilities": [
+		{
+			"id": 87,
+			"name": "[087]特性87"
+		},
+		{
+			"id": 8,
+			"name": "[008]特性8"
+		},
+		{
+			"id": 94,
+			"name": "[094]特性94"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 1,
+			"name": "[1]拍击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 39,
+			"name": "[39]摇尾巴",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 84,
+			"name": "[84]电击",
+			"type": "level",
+			"level": 6
+		},
+		{
+			"id": 268,
+			"name": "[268]充电",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 189,
+			"name": "[189]掷泥",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 98,
+			"name": "[98]电光一闪",
+			"type": "level",
+			"level": 17
+		},
+		{
+			"id": 13,
+			"name": "[13]旋风刀",
+			"type": "level",
+			"level": 22
+		},
+		{
+			"id": 570,
+			"name": "[570]抛物面充电",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 86,
+			"name": "[86]电磁波",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 523,
+			"name": "[523]重踏",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 521,
+			"name": "[521]伏特替换",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 582,
+			"name": "[582]输电",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 85,
+			"name": "[85]十万伏特",
+			"type": "level",
+			"level": 49
+		}
+	],
+	"types": [
+		"ELECTRIC",
+		"NORMAL"
+	],
+	"stats": {
+		"hp": 44,
+		"attack": 38,
+		"defense": 33,
+		"speed": 61,
+		"sp_attack": 43,
+		"sp_defense": 70
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 1
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

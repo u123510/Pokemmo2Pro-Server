@@ -1,0 +1,163 @@
+{
+	"id": 787,
+	"name": "[787]卡璞・哞哞",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 19,
+	"weight": 455,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 140,
+			"name": "[140]特性140"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 18,
+			"name": "[18]吹飞",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 50,
+			"name": "[50]定身法",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 110,
+			"name": "[110]缩入壳中",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 212,
+			"name": "[212]黑色目光",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 276,
+			"name": "[276]蛮力",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 452,
+			"name": "[452]木槌",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 580,
+			"name": "[580]青草场地",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 670,
+			"name": "[670]树叶",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 30,
+			"name": "[30]角撞",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 202,
+			"name": "[202]终极吸取",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 184,
+			"name": "[184]鬼面",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 73,
+			"name": "[73]寄生种子",
+			"type": "level",
+			"level": 26
+		},
+		{
+			"id": 532,
+			"name": "[532]木角",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 563,
+			"name": "[563]耕地",
+			"type": "level",
+			"level": 38
+		},
+		{
+			"id": 717,
+			"name": "[717]自然之怒",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 428,
+			"name": "[428]意念头锤",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 224,
+			"name": "[224]超级角击",
+			"type": "level",
+			"level": 53
+		},
+		{
+			"id": 130,
+			"name": "[130]火箭头锤",
+			"type": "level",
+			"level": 58
+		}
+	],
+	"types": [
+		"GRASS",
+		"FAIRY"
+	],
+	"stats": {
+		"hp": 70,
+		"attack": 130,
+		"defense": 115,
+		"speed": 85,
+		"sp_attack": 95,
+		"sp_defense": 75
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 3,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

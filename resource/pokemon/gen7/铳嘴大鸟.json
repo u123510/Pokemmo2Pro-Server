@@ -1,0 +1,163 @@
+{
+	"id": 733,
+	"name": "[733]铳嘴大鸟",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 11,
+	"weight": 260,
+	"egg_groups": [
+		"飞行组"
+	],
+	"abilities": [
+		{
+			"id": 51,
+			"name": "[051]特性51"
+		},
+		{
+			"id": 92,
+			"name": "[092]特性92"
+		},
+		{
+			"id": 125,
+			"name": "[125]特性125"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 64,
+			"name": "[64]啄",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 249,
+			"name": "[249]碎岩",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 350,
+			"name": "[350]岩石爆击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 497,
+			"name": "[497]回声",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 690,
+			"name": "[690]鸟嘴加农炮",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 3
+		},
+		{
+			"id": 497,
+			"name": "[497]回声",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 249,
+			"name": "[249]碎岩",
+			"type": "level",
+			"level": 9
+		},
+		{
+			"id": 48,
+			"name": "[48]超音波",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 365,
+			"name": "[365]啄食",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 355,
+			"name": "[355]羽栖",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 31,
+			"name": "[31]乱击",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 103,
+			"name": "[103]刺耳声",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 65,
+			"name": "[65]啄钻",
+			"type": "level",
+			"level": 34
+		},
+		{
+			"id": 331,
+			"name": "[331]种子机关枪",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 297,
+			"name": "[297]羽毛舞",
+			"type": "level",
+			"level": 44
+		},
+		{
+			"id": 304,
+			"name": "[304]巨声",
+			"type": "level",
+			"level": 50
+		}
+	],
+	"types": [
+		"NORMAL",
+		"FLYING"
+	],
+	"stats": {
+		"hp": 80,
+		"attack": 120,
+		"defense": 75,
+		"speed": 75,
+		"sp_attack": 75,
+		"sp_defense": 60
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 3,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

@@ -1,0 +1,31 @@
+package org.pokemmo.gameserver.game.frame;
+
+public enum FrameType {
+    SCREEN_SHAKE(0),
+    MARK_COORDINATE(1),
+    POKEMON_USE_MOVE_ANIMATION(2),
+    WHITE_ROM_INTERACT(3),//0 - 7 类型
+    SCREEN_RESET(4),
+    TRIGGER_TOWN_MENU(5),
+    UNKNOWN(6),
+    CHARACTER_DIAGONAL_MOVE(7),
+    WHITE_ROM_COMMENDATION_FRAME(8),
+    NDS_ROM_ANIMATION(9),
+    WHITE_ROM_ITEM_MODEL_ANIMATION(10),
+    EGG_INCUBATION_ANIMATION(13),
+    WHITE_ROM_PUZZLE_FRAME(14),
+    UNOWN_TYPE_FRAME(15),
+    CHAMPION_ANIMATION(32),
+    CHARACTER_CUSTOMIZE(33);
+    private byte type;
+    private static final FrameType[] allTypeArray = {SCREEN_SHAKE, MARK_COORDINATE, POKEMON_USE_MOVE_ANIMATION, WHITE_ROM_INTERACT, SCREEN_RESET, TRIGGER_TOWN_MENU, UNKNOWN, CHARACTER_DIAGONAL_MOVE, WHITE_ROM_COMMENDATION_FRAME, NDS_ROM_ANIMATION, WHITE_ROM_ITEM_MODEL_ANIMATION, EGG_INCUBATION_ANIMATION, WHITE_ROM_PUZZLE_FRAME, UNOWN_TYPE_FRAME, CHAMPION_ANIMATION, CHARACTER_CUSTOMIZE};
+    FrameType(int type) {
+        this.type = (byte) type;
+    }
+    public static FrameType getByType(int type) {
+        return allTypeArray[type];
+    }
+    public byte getType() {
+        return type;
+    }
+}

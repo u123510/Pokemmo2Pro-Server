@@ -1,0 +1,132 @@
+{
+	"id": 938,
+	"name": "[938]光蚪仔",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 3,
+	"weight": 4,
+	"egg_groups": [
+		"水1组"
+	],
+	"abilities": [
+		{
+			"id": 20,
+			"name": "[020]特性20"
+		},
+		{
+			"id": 9,
+			"name": "[009]特性9"
+		},
+		{
+			"id": 6,
+			"name": "[006]特性6"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 189,
+			"name": "[189]掷泥",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 84,
+			"name": "[84]电击",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 55,
+			"name": "[55]水枪",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 268,
+			"name": "[268]充电",
+			"type": "level",
+			"level": 17
+		},
+		{
+			"id": 209,
+			"name": "[209]电光",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 341,
+			"name": "[341]泥巴射击",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 175,
+			"name": "[175]抓狂",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 435,
+			"name": "[435]放电",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 311,
+			"name": "[311]气象球",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 604,
+			"name": "[604]电气场地",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 389,
+			"name": "[389]突袭",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 192,
+			"name": "[192]电磁炮",
+			"type": "level",
+			"level": 50
+		}
+	],
+	"types": [
+		"ELECTRIC"
+	],
+	"stats": {
+		"hp": 61,
+		"attack": 31,
+		"defense": 41,
+		"speed": 59,
+		"sp_attack": 35,
+		"sp_defense": 45
+	},
+	"yields": {
+		"ev_hp": 1,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

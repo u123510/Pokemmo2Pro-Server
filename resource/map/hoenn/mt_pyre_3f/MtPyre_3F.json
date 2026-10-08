@@ -1,0 +1,315 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 17,
+  "width": 13,
+  "height": 13,
+  "paletteIdx1": 100,
+  "paletteIdx2": 129,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 432,
+  "unknownByte": 65,
+  "borderTiles": [
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_MT_PYRE_3F",
+      "base_label": "gMtPyre_3F",
+      "land_mons": {
+        "encounter_rate": 10,
+        "mons": [
+          {
+            "min_level": 27,
+            "max_level": 27,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 28,
+            "max_level": 28,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 26,
+            "max_level": 26,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 29,
+            "max_level": 29,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 24,
+            "max_level": 24,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 23,
+            "max_level": 23,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 22,
+            "max_level": 22,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 29,
+            "max_level": 29,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 24,
+            "max_level": 24,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 29,
+            "max_level": 29,
+            "species": "SPECIES_SHUPPET"
+          },
+          {
+            "min_level": 24,
+            "max_level": 24,
+            "species": "SPECIES_SHUPPET"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 10,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 16,
+      "targetX": 10,
+      "targetY": 1,
+      "targetElevation": 2
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 18,
+      "targetX": 2,
+      "targetY": 5,
+      "targetElevation": 2
+    },
+    {
+      "x": 9,
+      "y": 10,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 18,
+      "targetX": 9,
+      "targetY": 10,
+      "targetElevation": 2
+    },
+    {
+      "x": 1,
+      "y": 12,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 18,
+      "targetX": 2,
+      "targetY": 12,
+      "targetElevation": 2
+    },
+    {
+      "x": 10,
+      "y": 12,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 16,
+      "targetX": 10,
+      "targetY": 12,
+      "targetElevation": 2
+    },
+    {
+      "x": 6,
+      "y": 12,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 16,
+      "targetX": 6,
+      "targetY": 12,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 37,
+      "x": 1,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_DOWN_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "MtPyre_3F_EventScript_William",
+      "hideFlag": "",
+      "rawMovementType": 18
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 47,
+      "x": 11,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_DOWN_AND_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "MtPyre_3F_EventScript_Kayla",
+      "hideFlag": "",
+      "rawMovementType": 17
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 59,
+      "x": 0,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "MtPyre_3F_EventScript_ItemSuperRepel",
+      "hideFlag": "hoenn/FLAG_ITEM_MT_PYRE_3F_SUPER_REPEL",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 20,
+      "x": 6,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_LEFT_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "MtPyre_3F_EventScript_Gabrielle",
+      "hideFlag": "",
+      "rawMovementType": 14
+    }
+  ],
+  "blockData": "5AazBrQGtQbvBuQG7wbkBu8GwwbEBsUG5AbsBrsGvDK9BvcG7Ab3BuwG9wbLBswyzQbsBiYH6DLnMuky5zImByYHJgfnMugy5zLpMiYHJgfmMuYy5jLuBu4G7gbuBu4G5jLmMuYy7gbnMuYy5jLmMuYy5jLmMuYy5jLmMuYy5jLmMiYH5jLmMuYy5jLmMu4G5jLmMuYy5jLmMu4GJgfmMuYy7gbuBu4G7gbuBu4G7gbmMuYy7gbnMuYy5jLmMuYy5jLmMuYy5jLmMuYy5jLmMiYH7gbuBu4G7gbuBu4G7gbuBu4G5jLmMuYyJgfuBu4G7gbuBu4G7gbuBu4G7gbmMuYy5jLnMuYy5jLmMuYy5jLmMu4G7gbmMuYy5jLmMucy5jLmMu4G7gbmMuYy7gbuBuYy5jLuBu4G5zLmMuYy7gbuBuYy8jPuBu4G5jLyM+4G7gY=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAkAAA=="
+}

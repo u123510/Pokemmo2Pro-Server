@@ -1,0 +1,327 @@
+{
+  "regionId": 0,
+  "bankId": 3,
+  "mapId": 13,
+  "width": 48,
+  "height": 20,
+  "paletteIdx1": 0,
+  "paletteIdx2": 61,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 335,
+  "unknownByte": 144,
+  "borderTiles": [
+    {
+      "material": 113,
+      "collision": 0
+    },
+    {
+      "material": 113,
+      "collision": 0
+    },
+    {
+      "material": 113,
+      "collision": 0
+    },
+    {
+      "material": 113,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "REGULAR_WEATHER",
+  "mapType": "VILLAGE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "TwoIsland_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 29,
+      "y": 8,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "TwoIsland_EventScript_IslandSign"
+    },
+    {
+      "x": 40,
+      "y": 10,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "TwoIsland_EventScript_JoyfulGameCornerSign"
+    },
+    {
+      "x": 8,
+      "y": 3,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "TwoIsland_EventScript_FastCurrentSign"
+    }
+  ],
+  "connections": [
+    {
+      "direction": "UP",
+      "unknown": 24,
+      "targetBank": 3,
+      "targetMap": 47
+    }
+  ],
+  "warps": [
+    {
+      "x": 39,
+      "y": 9,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 33,
+      "targetMapId": 0,
+      "targetX": 5,
+      "targetY": 8,
+      "targetElevation": 2
+    },
+    {
+      "x": 33,
+      "y": 9,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 33,
+      "targetMapId": 1,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 21,
+      "y": 7,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 33,
+      "targetMapId": 2,
+      "targetX": 7,
+      "targetY": 8,
+      "targetElevation": 2
+    },
+    {
+      "x": 10,
+      "y": 8,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 33,
+      "targetMapId": 4,
+      "targetX": 8,
+      "targetY": 2,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 68,
+      "x": 28,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 2,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "TwoIsland_EventScript_Clerk",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 23,
+      "x": 31,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "TwoIsland_EventScript_Woman",
+      "hideFlag": "kanto/FLAG_HIDE_TWO_ISLAND_WOMAN",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 29,
+      "x": 30,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "TwoIsland_EventScript_Beauty",
+      "hideFlag": "kanto/FLAG_HIDE_TWO_ISLAND_BEAUTY",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 62,
+      "x": 26,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "TwoIsland_EventScript_Sailor",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 52,
+      "x": 27,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "TwoIsland_EventScript_PokeManiac",
+      "hideFlag": "kanto/FLAG_HIDE_TWO_ISLAND_POKE_MANIAC",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 95,
+      "x": 30,
+      "y": 16,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_CutTree",
+      "hideFlag": "kanto/FLAG_TEMP_12",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 92,
+      "x": 39,
+      "y": 16,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "TwoIsland_EventScript_ItemRevive",
+      "hideFlag": "kanto/FLAG_HIDE_TWO_ISLAND_REVIVE",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 16,
+      "x": 37,
+      "y": 12,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "TwoIsland_EventScript_LittleBoy",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 19,
+      "x": 24,
+      "y": 12,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "TwoIsland_EventScript_Boy",
+      "hideFlag": "",
+      "rawMovementType": 2
+    }
+  ],
+  "blockData": "fAR8BHwEfAR8BHwEfAR8BLMEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHME2TDZMNkw2TDZMJAEfAR8BHwEfAR8BHwEfAR8BHwEfAR8BHwEswRxBHsEfAR8BHwEfAR8BHwEswRxBHEEcQRxBHEEcQRxBHEEsgR5BHkEqAapBqkGqgajBnkEswRxBHsEkTCJMHwEfAR8BHwEfAR8BHwEfAR8BHwEawZrBmsGawZrBmkGewR5BHkEeQR5BHkEeQSzBHEEewR8BHwEfASzBHEEcQRxBHEEcgQIMKAGsAaxMrEysgarBggweAR5BHkEkTCJMHkEeQR5BHkEeQR5BHkEeQR5BHkEdgZ2BnYGdgZvBngGawZsBgIECTAIMAgwCTB4BHkEeQR5BHkEswQDBwQHBQcGBwcHegSzBqEGuAbGMMYwuga7BrMGCDAJMOAw4TDhMOIw7ATnBOcE1gTXBNYE1wTWBNcERAZFBnYGdgZ2BnMGcwZ0BhEwEDARMBAwCTAIMAkwCTAIMAkwcARIBEkESgRLBIcFCTAQMLkGvAbOMM4wswa7BggwEDARMAkwCDAJMAgw9AQJMAgwHgQfBB4EHwQeBB8ETAZNBnYGdgZ2BnMGcwZ0BgkwCDAJMAgwETAQMBEwETAQMBEwcARQBFEEUgRTBI8FEDARMBAwETAJMAgwCTARMBEwEDAQMBEwCTAQMBAw9AQQMBAwJgQlBCQEJQQkBCUEdgZ2BnYGRAZFBm8GcwZ0BhEwEDARMBAwCTAIMAkwCTAIMAkwcARYBFkEWgRbBJcFCDAJMAgwCTARMBAwETAQMBQzFTMVMxYzFzOBMoIygwaEBoUGCTC9AL4AvgC+AL8AdgZ2BnYGTAZNBnYGcwZ4BmsGxTHGMccxawZrBmwGETAQMBEwcARgBGEEYgSGBZ8FEDARMBAwETAJMAgwCTAQMIY2hzaeNp42nzaJBooGiwaMBo0GEDDFAMYAxgDGAMcAdgZ2BnYGdgZ2BnYGcwZzBnMGtDK1MrYycwZzBnQGCTAIMAkwcAQJMAgwCTAIMAkwCDAJMAgwCTAJMAIECTAQMI4GjwamBqUGpwaRBpIGkwaUBpUGCTDFAMYAxgDGAMcAdgZ2BnYGdgZ2BnYGcwaQMvAy8QbxBvEG8jLXAnQGETAQMBEwcAQRMBAwETAQMBEwEDARMBAwETAJMAgwCTAIMJYGlwauBq0GrwaZBpoGmwacBp0GEDDNAM4AzgDOAM8AdgZ2BnYGdgZ2BnYGcwakBvgG+Qb5BvkG+gbnBnQGCTAIMAkweAR5BJEwiTCJMHkEeQR5BHkEswQJMAgwCTAIMAkwCDAJMAgwCTAIMAkwCDACBAUEBQTnBOcE5wTnBOcEdgZ2BnYGRAZFBnYGcwaYBgAHAQcBBwEHAgffBnQGETAQMBEwCTAIMAkwCDAJMAgwCTAIMAgwcAQRMBAwETAQMBEwEDARMBAwETAQMBEwEDAJMGgEaQRpBGkEaQRpBGkEdgZ2BnYGTAZNBnYGcwakBvMG9Ab1BvYG9wbnBnQGCTAIMAkwETAQMBEwEDARMBAwETAQMBAwcAQRMBAwETAQMBEwCDAEMAgwBDAJMAQwCTAEMHAEawRsBGwEbARsBGwEdgZ2BnYGdgZ2BnYGcwasBgsHDAcNBw4HDwfvBnQGETAQMBEwCTAIMAkwCDAJMAgwCTAIMAgweAR5BHkEtAS1BLQEtQS0BLUEtAS1BLQEtQSzBHMEcwRxBHEEcQRxBHEEdgZ2BnYGdgZ2BnYGbwZzBnMGcwZzBnMGcwZzBngGbAZoBGkEaQRpBGkEaQRpBGkEaQRqBBAwETAJMAkwHgQfBB4EHwQeBB8EHgQfBB4EHwRwBHMEcwRxBHEEcQRxBHEEdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZvBnMGcwZzBnMGdAZzBHEEawRsBGwEbARsBGwEbQRyBAgwCTARMBEwJgQlBCQEJQQkBCUEJAQlBCQEJwRwBHMEcwRxBHEEcQRxBHEEdgZ2BnYGdgZ2BnYGdgZ2BnYGRAZFBnYGdgZvBnMGdAZzBGsEuwRrBGwEbARsBG0EdQRyBBAwETAQMBEwEDARMBAwETAQMBEwEDARMBAwETBwBHMEcwRxBHEEcQRxBHEEdgZ2BnYGdgZ2BnYGdgZ2BnYGTAZNBnYGdgZ2Bm8GdAZzBHMEawS7BHEEcQRxBHUEdQS6BGkEaQRpBGkEaQRpBGkEaQRpBGkEaQRpBGkEaQS7BHMEcwRxBHEEcQRxBHEEdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGRAZFBnYGdAZzBHMEcwRxBHEEcQRxBLoEugRsBGwEbARsBGwEbARsBGwEbARsBGwEbARsBGwEbARsBLsEuwRxBHEEcQRxBHEEdgZ2BnYGdgZ2BnYGdgZ2BnYGdgZ2BnYGTAZNBnYGdAZzBHMEcwRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEEcQRxBHEE",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

@@ -1,0 +1,391 @@
+{
+  "regionId": 0,
+  "bankId": 3,
+  "mapId": 8,
+  "width": 24,
+  "height": 20,
+  "paletteIdx1": 0,
+  "paletteIdx2": 9,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 279,
+  "unknownByte": 96,
+  "borderTiles": [
+    {
+      "material": 473,
+      "collision": 0
+    },
+    {
+      "material": 473,
+      "collision": 0
+    },
+    {
+      "material": 473,
+      "collision": 0
+    },
+    {
+      "material": 473,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "REGULAR_WEATHER",
+  "mapType": "VILLAGE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_CINNABAR_ISLAND",
+      "base_label": "sCinnabarIsland_FireRed",
+      "water_mons": {
+        "encounter_rate": 1,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 10,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 10,
+            "max_level": 20,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 20,
+            "max_level": 30,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 30,
+            "max_level": 35,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 35,
+            "max_level": 40,
+            "species": "SPECIES_TENTACOOL"
+          }
+        ]
+      },
+      "fishing_mons": {
+        "encounter_rate": 10,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 5,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 5,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_HORSEA"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 15,
+            "species": "SPECIES_KRABBY"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_HORSEA"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_SHELLDER"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_GYARADOS"
+          },
+          {
+            "min_level": 25,
+            "max_level": 35,
+            "species": "SPECIES_SEADRA"
+          },
+          {
+            "min_level": 25,
+            "max_level": 35,
+            "species": "SPECIES_PSYDUCK"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "CinnabarIsland_OnTransition",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_MAP_SCENE_CINNABAR_ISLAND_2",
+      "value": 1,
+      "script": "CinnabarIsland_EventScript_ExitPokeCenterForOneIsland"
+    },
+    {
+      "varKey": "VAR_MAP_SCENE_CINNABAR_ISLAND",
+      "value": 1,
+      "script": "CinnabarIsland_EventScript_BillScene"
+    },
+    {
+      "varKey": "VAR_MAP_SCENE_CINNABAR_ISLAND",
+      "value": 3,
+      "script": "CinnabarIsland_EventScript_ReturnFromSeviiIslands"
+    }
+  ],
+  "coordScripts": [
+    {
+      "x": 20,
+      "y": 5,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "CinnabarIsland_EventScript_GymDoorLocked"
+    }
+  ],
+  "bgEvents": [
+    {
+      "x": 12,
+      "y": 3,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "CinnabarIsland_EventScript_IslandSign"
+    },
+    {
+      "x": 9,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "CinnabarIsland_EventScript_PokemonLabSign"
+    },
+    {
+      "x": 22,
+      "y": 5,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "CinnabarIsland_EventScript_GymSign"
+    },
+    {
+      "x": 10,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "CinnabarIsland_EventScript_PokemonLabSign"
+    }
+  ],
+  "connections": [
+    {
+      "direction": "UP",
+      "unknown": 0,
+      "targetBank": 3,
+      "targetMap": 40
+    },
+    {
+      "direction": "RIGHT",
+      "unknown": 0,
+      "targetBank": 3,
+      "targetMap": 38
+    }
+  ],
+  "warps": [
+    {
+      "x": 8,
+      "y": 3,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 59,
+      "targetX": 8,
+      "targetY": 33,
+      "targetElevation": 2
+    },
+    {
+      "x": 20,
+      "y": 4,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 12,
+      "targetMapId": 0,
+      "targetX": 25,
+      "targetY": 23,
+      "targetElevation": 2
+    },
+    {
+      "x": 8,
+      "y": 9,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 12,
+      "targetMapId": 1,
+      "targetX": 4,
+      "targetY": 9,
+      "targetElevation": 2
+    },
+    {
+      "x": 14,
+      "y": 11,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 12,
+      "targetMapId": 5,
+      "targetX": 7,
+      "targetY": 8,
+      "targetElevation": 0
+    },
+    {
+      "x": 19,
+      "y": 11,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 12,
+      "targetMapId": 7,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 28,
+      "x": 14,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "WANDER_LEFT_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "CinnabarIsland_EventScript_Woman",
+      "hideFlag": "",
+      "rawMovementType": 5
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 32,
+      "x": 11,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "CinnabarIsland_EventScript_OldMan",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 73,
+      "x": 20,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "0x0",
+      "hideFlag": "kanto/FLAG_HIDE_CINNABAR_BILL",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 108,
+      "x": 23,
+      "y": 7,
+      "elevation": 0,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "0x0",
+      "hideFlag": "kanto/FLAG_HIDE_CINNABAR_SEAGALLOP",
+      "rawMovementType": 9
+    }
+  ],
+  "blockData": "EAURBSsRKxEsEZAGjwaRBo8GkQaPBpIG2TDaMDMxNDEpEYEGggaDEoMSgxKEEuABGAUZBSsRKxEsEZgGlwaZBpcGmQaXBpoGBzHiMAkwETAzMUEFQgVCBUIFQgVDBSkRywXMBSsRKxEsEZsGnAadBosGjAaNBo4G4jAIMAkwCTAJMEkFSgVKBUoFSgVLBSoR0wXUBSsRKxEsEaMGpAalBpMylAaVBpYGAgQRMBAwETAQMFAFUQVSBVMFVAVWBSoRKxEQBREFKxEsEdkw2jCeMp8ypjIRMBEwCDAJMAkwCTAJMFgxWTFaBVsFXAW/BioRKxEYBRkFKxEsEdkw2jARMAgwETAIMBEwCDDQMNEw0TDRMNEw0TDSMAkwCDBoBRIFKxHLBcwFKxEsEaAyvTK+MqsyoTKiMqwyEDDgMOEw4TDhMOEw4TDiMBEwEDARMBoFKxHTBdQFKxEsEagGqQaqBrMGqQaqBrQGezF8MX0xfjF/MQgwCTAIMAkwCDAJMCoREAURBSsRKxEsEbAGsQayBrsGsQayBrwGSARJBEoESwSHBSgwKTAqMCsw0DDRMCoRGAUZBSsRKxEsEbgGuQa6Bq0GrgavBrUGUARRBFIEUwSPBTAEMQQyBDME2DDZMCoRywXMBSsRKxEsEdkw2jAIMAkwtjK3MggwWARZBFoEWwSXBTgEOQQ6BDsE2DDZMCoR0wXUBSsRKxEsEdkw/zDRMNEw0TDRMNIwYARhBGIEhgWfBUAEQQRiBGME2DDZMCoRKxHLBcwFKxEwESMRIxEhEdkw2TDZMNowEDARMBAwETAQMBAwETAQMBEw2DDZMCoRKxHTBdQFKxErESsRKxEsEdkw2TDZMP8w0TDRMNEw0TDRMNEw0TDRMNEw/jDZMCoRKxEQBREFKxErESsRKxEsEdkw2TDZMNkw2TDZMNkw2TDZMNkw2TDZMNkw2TDZMCoR0gEYBRkFKxErESsRKxEwESMRIxEjESMRIxEjESMRIxEjESMRIxEjESMRIxEjETER2QErEcsFzAUrESsRKxErESsRKxErESsRKxErESsRKxErESsRKxErESsRKxErESsR2QErEdMF1AUQBREFywXMBSsRKxErESsRKxErEcsFzAXLBcwFEAURBSsRKxErESsR2QHSASsRKxEYBRkF0wXUBRAFEQUQBREFywXMBdMF1AXTBdQFGAUZBcsFzAUQBREF2QHZAdkB2QHZAdIBKxErERgFGQUYBRkF0wXUBSsR0AHZAdkB0gErEdMF1AUYBRkF",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

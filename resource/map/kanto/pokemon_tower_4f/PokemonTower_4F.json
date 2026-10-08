@@ -1,0 +1,301 @@
+{
+  "regionId": 0,
+  "bankId": 1,
+  "mapId": 91,
+  "width": 24,
+  "height": 20,
+  "paletteIdx1": 12,
+  "paletteIdx2": 47,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 306,
+  "unknownByte": 140,
+  "borderTiles": [
+    {
+      "material": 641,
+      "collision": 0
+    },
+    {
+      "material": 641,
+      "collision": 0
+    },
+    {
+      "material": 641,
+      "collision": 0
+    },
+    {
+      "material": 641,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "STEADY_MIST",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_POKEMON_TOWER_4F",
+      "base_label": "sPokemonTower4F_FireRed",
+      "land_mons": {
+        "encounter_rate": 4,
+        "mons": [
+          {
+            "min_level": 15,
+            "max_level": 15,
+            "species": "SPECIES_GASTLY"
+          },
+          {
+            "min_level": 16,
+            "max_level": 16,
+            "species": "SPECIES_GASTLY"
+          },
+          {
+            "min_level": 17,
+            "max_level": 17,
+            "species": "SPECIES_GASTLY"
+          },
+          {
+            "min_level": 13,
+            "max_level": 13,
+            "species": "SPECIES_GASTLY"
+          },
+          {
+            "min_level": 14,
+            "max_level": 14,
+            "species": "SPECIES_GASTLY"
+          },
+          {
+            "min_level": 18,
+            "max_level": 18,
+            "species": "SPECIES_GASTLY"
+          },
+          {
+            "min_level": 20,
+            "max_level": 20,
+            "species": "SPECIES_HAUNTER"
+          },
+          {
+            "min_level": 15,
+            "max_level": 15,
+            "species": "SPECIES_CUBONE"
+          },
+          {
+            "min_level": 17,
+            "max_level": 17,
+            "species": "SPECIES_GASTLY"
+          },
+          {
+            "min_level": 17,
+            "max_level": 17,
+            "species": "SPECIES_CUBONE"
+          },
+          {
+            "min_level": 17,
+            "max_level": 17,
+            "species": "SPECIES_GASTLY"
+          },
+          {
+            "min_level": 19,
+            "max_level": 19,
+            "species": "SPECIES_GASTLY"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 4,
+      "y": 10,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 92,
+      "targetX": 4,
+      "targetY": 10,
+      "targetElevation": 2
+    },
+    {
+      "x": 18,
+      "y": 10,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 90,
+      "targetX": 18,
+      "targetY": 10,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 58,
+      "x": 17,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "PokemonTower_4F_EventScript_Laurel",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 58,
+      "x": 15,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "PokemonTower_4F_EventScript_Jody",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 58,
+      "x": 4,
+      "y": 12,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "PokemonTower_4F_EventScript_Paula",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 92,
+      "x": 12,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PokemonTower_4F_EventScript_ItemElixir",
+      "hideFlag": "kanto/FLAG_HIDE_POKEMON_TOWER_4F_ELIXIR",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 92,
+      "x": 8,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PokemonTower_4F_EventScript_ItemAwakening",
+      "hideFlag": "kanto/FLAG_HIDE_POKEMON_TOWER_4F_AWAKENING",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 92,
+      "x": 11,
+      "y": 16,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PokemonTower_4F_EventScript_ItemGreatBall",
+      "hideFlag": "kanto/FLAG_HIDE_POKEMON_TOWER_4F_GREAT_BALL",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "gQaBBoEGgQaBBoEGgQaBBowGmAaYBpgGmAaYBo0GgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGjAaYBogGoAagBqAGoAagBpAGmAaNBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaMBpgGiAagBqAGkjKEMoQyhDKEMqAGoAaQBpgGjQaBBoEGgQaBBoEGgQaBBoEGjAaIBqAGoAaSMoQyjjKCMoIygjKCMoQyhDKgBqAGkAaNBoEGgQaBBoEGgQaBBowGiAagBpIyhDKOMoIygjKRBoIygjKCMpEGkQbYBtgGoAaQBo0GgQaBBoEGgQaBBooGoAaSMo4ykQaRBpEGgjKRBoIykQaRBoIygjKCMoIy2AagBosGgQaBBoEGgQaBBogGkjKCMoIygjKCMoIygjKRBoIygjKCMoIygjKRBpEGgjKEMpAGgQaBBoEGgQaBBqAGhTKCMoIykQaRBpEGgjKCMpEGkQaRBpEGgjKCMoIygjKCMqAGgQaBBoEGgQaBBto2kwaCMoIygjKCMoIygjKRBoIygjKCMoIygjKCMoIygjKRBtgGgQaBBoEGgQaBBrsGvAa9MoIygjKCMoIygjKRBoIygjKCMoIygjKCMoIysDKxNrI2gQaBBoEGgQaBBsMGxAbFMoIygjKRBpEGkQaCMoIykQaRBpEGgjKCMoIyuDK5BroGgQaBBoEGgQaBBtUGzAbNMoIygjKRBoIygjKCMpEGgjKCMoIygjKCMoIywDLBBsIGgQaBBoEGgQaBBoUygjKCMoIygjKRBpEGkQaCMoIykQaRBpEGgjKCMpEG4wbkBuQGgQaBBoEGgQaBBoEGgjKCMpEGgjKCMoIygjKCMoIygjKCMoIygjKCMoIygjKCMoEGgQaBBoEGgQaBBoEGgjKCMoIykQaCMpEGkQaCMoIygjKRBpEGkQaRBoIygjKCMoEGgQaBBoEGgQaBBoEGgQaCMoIygjKCMoIygjKCMpEGgjKCMoIygjKCMoIygjKBBoEGgQaBBoEGgQaBBoEGgQaBBoEGkQaRBpEGgjKCMoIykQaRBoIygjKCMoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGkQaRBoIygjKCMoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEG",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

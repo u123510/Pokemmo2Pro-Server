@@ -1,0 +1,152 @@
+{
+	"id": 1060,
+	"name": "[1060]咚咚鼠",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 2,
+	"weight": 22,
+	"egg_groups": [
+		"妖精组",
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 53,
+			"name": "[053]特性53"
+		},
+		{
+			"id": 53,
+			"name": "[053]特性53"
+		},
+		{
+			"id": 57,
+			"name": "[057]特性57"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 39,
+			"name": "[39]摇尾巴",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 84,
+			"name": "[84]电击",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 268,
+			"name": "[268]充电",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 204,
+			"name": "[204]撒娇",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 570,
+			"name": "[570]抛物面充电",
+			"type": "level",
+			"level": 17
+		},
+		{
+			"id": 609,
+			"name": "[609]蹭蹭脸颊",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 86,
+			"name": "[86]电磁波",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 521,
+			"name": "[521]伏特替换",
+			"type": "level",
+			"level": 26
+		},
+		{
+			"id": 156,
+			"name": "[156]睡觉",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 173,
+			"name": "[173]打鼾",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 451,
+			"name": "[451]充电光束",
+			"type": "level",
+			"level": 34
+		},
+		{
+			"id": 494,
+			"name": "[494]找伙伴",
+			"type": "level",
+			"level": 39
+		},
+		{
+			"id": 583,
+			"name": "[583]嬉闹",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 87,
+			"name": "[87]打雷",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 435,
+			"name": "[435]放电",
+			"type": "level",
+			"level": 50
+		}
+	],
+	"types": [
+		"ELECTRIC",
+		"FAIRY"
+	],
+	"stats": {
+		"hp": 67,
+		"attack": 58,
+		"defense": 57,
+		"speed": 81,
+		"sp_attack": 67,
+		"sp_defense": 101
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 2
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

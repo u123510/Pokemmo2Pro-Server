@@ -1,0 +1,480 @@
+{
+  "regionId": 0,
+  "bankId": 1,
+  "mapId": 73,
+  "width": 40,
+  "height": 23,
+  "paletteIdx1": 0,
+  "paletteIdx2": 40,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 274,
+  "unknownByte": 141,
+  "borderTiles": [
+    {
+      "material": 657,
+      "collision": 0
+    },
+    {
+      "material": 657,
+      "collision": 0
+    },
+    {
+      "material": 657,
+      "collision": 0
+    },
+    {
+      "material": 657,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_CERULEAN_CAVE_2F",
+      "base_label": "sCeruleanCave2F_FireRed",
+      "land_mons": {
+        "encounter_rate": 7,
+        "mons": [
+          {
+            "min_level": 49,
+            "max_level": 49,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 49,
+            "max_level": 49,
+            "species": "SPECIES_MACHOKE"
+          },
+          {
+            "min_level": 52,
+            "max_level": 52,
+            "species": "SPECIES_MAGNETON"
+          },
+          {
+            "min_level": 52,
+            "max_level": 52,
+            "species": "SPECIES_PARASECT"
+          },
+          {
+            "min_level": 55,
+            "max_level": 55,
+            "species": "SPECIES_KADABRA"
+          },
+          {
+            "min_level": 55,
+            "max_level": 55,
+            "species": "SPECIES_DITTO"
+          },
+          {
+            "min_level": 58,
+            "max_level": 58,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 58,
+            "max_level": 58,
+            "species": "SPECIES_WOBBUFFET"
+          },
+          {
+            "min_level": 61,
+            "max_level": 61,
+            "species": "SPECIES_ELECTRODE"
+          },
+          {
+            "min_level": 61,
+            "max_level": 61,
+            "species": "SPECIES_PARASECT"
+          },
+          {
+            "min_level": 64,
+            "max_level": 64,
+            "species": "SPECIES_KADABRA"
+          },
+          {
+            "min_level": 64,
+            "max_level": 64,
+            "species": "SPECIES_DITTO"
+          }
+        ]
+      },
+      "rock_smash_mons": {
+        "encounter_rate": 50,
+        "mons": [
+          {
+            "min_level": 35,
+            "max_level": 45,
+            "species": "SPECIES_GEODUDE"
+          },
+          {
+            "min_level": 45,
+            "max_level": 55,
+            "species": "SPECIES_GRAVELER"
+          },
+          {
+            "min_level": 50,
+            "max_level": 60,
+            "species": "SPECIES_GRAVELER"
+          },
+          {
+            "min_level": 45,
+            "max_level": 55,
+            "species": "SPECIES_GEODUDE"
+          },
+          {
+            "min_level": 45,
+            "max_level": 55,
+            "species": "SPECIES_GEODUDE"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 33,
+      "y": 4,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 72,
+      "targetX": 34,
+      "targetY": 2,
+      "targetElevation": 2
+    },
+    {
+      "x": 13,
+      "y": 4,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 72,
+      "targetX": 10,
+      "targetY": 2,
+      "targetElevation": 2
+    },
+    {
+      "x": 7,
+      "y": 14,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 72,
+      "targetX": 5,
+      "targetY": 15,
+      "targetElevation": 2
+    },
+    {
+      "x": 26,
+      "y": 9,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 72,
+      "targetX": 30,
+      "targetY": 10,
+      "targetElevation": 3
+    },
+    {
+      "x": 23,
+      "y": 10,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 72,
+      "targetX": 24,
+      "targetY": 11,
+      "targetElevation": 2
+    },
+    {
+      "x": 5,
+      "y": 6,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 72,
+      "targetX": 2,
+      "targetY": 4,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 92,
+      "x": 9,
+      "y": 18,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "CeruleanCave_2F_EventScript_ItemPPUp",
+      "hideFlag": "kanto/FLAG_HIDE_CERULEAN_CAVE_2F_PP_UP",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 92,
+      "x": 29,
+      "y": 16,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "CeruleanCave_2F_EventScript_ItemUltraBall",
+      "hideFlag": "kanto/FLAG_HIDE_CERULEAN_CAVE_2F_ULTRA_BALL",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 92,
+      "x": 33,
+      "y": 12,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "CeruleanCave_2F_EventScript_ItemFullRestore",
+      "hideFlag": "kanto/FLAG_HIDE_CERULEAN_CAVE_2F_FULL_RESTORE",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 96,
+      "x": 33,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_RockSmash",
+      "hideFlag": "kanto/FLAG_TEMP_12",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 96,
+      "x": 33,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_RockSmash",
+      "hideFlag": "kanto/FLAG_TEMP_13",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 96,
+      "x": 25,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_RockSmash",
+      "hideFlag": "kanto/FLAG_TEMP_14",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 96,
+      "x": 28,
+      "y": 20,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_RockSmash",
+      "hideFlag": "kanto/FLAG_TEMP_15",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 96,
+      "x": 30,
+      "y": 20,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_RockSmash",
+      "hideFlag": "kanto/FLAG_TEMP_16",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 96,
+      "x": 9,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_RockSmash",
+      "hideFlag": "kanto/FLAG_TEMP_17",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 9,
+      "graphicsId": 96,
+      "x": 23,
+      "y": 16,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_RockSmash",
+      "hideFlag": "kanto/FLAG_TEMP_18",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 10,
+      "graphicsId": 96,
+      "x": 13,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_RockSmash",
+      "hideFlag": "kanto/FLAG_TEMP_19",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 11,
+      "graphicsId": 96,
+      "x": 4,
+      "y": 12,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_RockSmash",
+      "hideFlag": "kanto/FLAG_TEMP_1A",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 12,
+      "graphicsId": 96,
+      "x": 10,
+      "y": 20,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_RockSmash",
+      "hideFlag": "kanto/FLAG_TEMP_1B",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "kQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQbPBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQbPBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQbPBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQbPBpEGkQaRBpEGmwaZBpkGmQaZBpkGmQaZBpwGkQbPBpEGkQaRBpEGkQaRBpEGkQaRBpsGmQaZBpkGmQacBs8GkQabBpkGmQaZBpkGmQaZBpkGmQaZBpkGmQaaBoIGgwaCBoIGgwaDBoMGmAaZBpkGnAbPBpEGkQaRBpEGkQaRBpEGkgaBMoEygTKBMpgGmQaZBpoGgTKBMoIGggaBMoEygTKBMoEynwaBMoEygTKBMoEygTKBMoEygTKBMoEygTKQBpEGkQaRBpEGkQaRBpEGzwaSBoIGgwaCBoEygTKBMoEygTKBMoUyggaBMoEyggaDBoIGgTKnBoEygwaDBoIGggaDBoMGgwaCBp8GgTKFMpAGkQaRBpEGkQaRBpEGkQaRBpIGgTKBMoMGgwaCBoIGgTKCBoMGgwaCBoEyggaCBoEynwaBMqcGgTKBMoEygTKBMoEygTKBMoEypwaCBoIGkAaRBs8GkQaRBpEGkQaRBpEGkgaBMoUygTKBMoEynwaBMoEygTKBMoEygTKBMoEygTKnBoIGggaCBoMGgwaDBoIGggaCBp8GgTKBMoEygTKQBpEGkQaRBpEGkQaRBpEGkQaSBoIGggaCBoEygganBoIGggaCBoMGgwaDBoIGgwaCBoIGgTKBMoEygTKBMoEygTKBMoEypwaCBoMGggaBMpAGkQaRBpEGkQaRBpEGkQabBpoGgTKDBoEygTKBMoEygTKBMoEygTKBMoEygTKBMoEygTKBMp8GggaDBoMGggaCBoIGgTKBMoEygTKfBoEykAaRBs8GkQaRBpEGkQbPBpIGggaBMoIGggaDBoMGgwaCBoIGgwaDBoMGgwaCBoIGggaDBoIGpwaBMoEynwaBMoUyggaCBoIGgTKCBqcGgTKYBpwGkQaRBpEGkQaRBpEGkgaCBoEyggaBMoEygTKBMoIGgTKBMoEygTKBMoEygTKBMoEygTKBMoEyhTKnBoEygTKBMp8GgTKBMoEynwaBMoIGkAaRBpEGkQaRBpEGkQaSBoMGgTKDBoEyggaDBoEyggaBMoIGggaCBoIGggaBMoIGggaCBoIGggaCBp8GgTKCBoIGpwaCBp8GgTKnBoEyggaQBpEGkQaRBpEGkQaRBpIGgwaBMoIGgTKBMoIGgTKfBoEygTKBMoEygTKfBoEygTKBMoEygTKBMoEypwaBMoEygTKBMoEypwaBMp8GgTKDBpAGkQaRBpEGkQbPBpEGkgaDBoEyggaBMoEyggaBMqcGggaDBoMGggaBMqcGggaCBoMGgwaCBoMGgTKDBoIGggaCBoIGgTKfBoEypwaCBoMGkAaRBpEGzwaRBpEGkQaSBoIGgTKCBoEyhTKCBoEyggaBMoEygTKBMoEyggaBMoEygTKBMoEynwaBMoEygTKBMoEygwaBMqcGgTKCBoEynwaQBpEGkQaRBpEGkQaRBpIGggaBMoIGggaCBoIGgTKCBoEyggaCBoMGgwaCBoEyggaDBoMGgTKnBoEyggaBMoIGgTKDBoEyggaBMoIGgTKnBpAGkQaRBpEGkQaRBs8GowaKBoEygwaBMoEygTKBMp8GgTKBMoEygTKBMoEygTKBMoEyggaBMoIGgTKDBoEynwaBMoMGgTKfBoEyggaBMogGpAaRBpEGkQaRBpEGkQaRBpIGgTKDBoEyggaCBoIGpwaBMoIGggaCBoIGggaDBoMGggaCBoEynwaBMoMGgTKnBoEyggaCBqcGgTKDBoEykAaRBpEGkQaRBpEGkQaRBpEGkgaBMoIGgTKBMoEygTKCBoEygTKBMoEygTKCBoEygTKBMoEygTKnBoEyggaBMoIGgTKBMoEygTKBMoMGgTKQBpEGkQaRBpEGkQaRBpEGkQaSBoEygwaCBoIGgwaCBoIGggaDBoMGggaCBoIGgTKDBoMGgwaCBoIGgTKfBoEygwaCBoIGggaCBoMGgwaBMpAGkQbPBpEGkQaRBpEGkQaRBpIGgTKBMoEygTKBMoEygTKBMoEygTKBMoEygTKBMoIGgTKBMoEygTKBMqcGgTKBMoEygTKBMoEygTKBMoEykAaRBpEGkQaRBpEGkQaRBpEGowbXBokGigaDBoIGggaCBoIGgwaIBokGiQaJBokGiQbXBokGiQaJBokGigaDBoIGgwaDBoMGggaDBogGiQakBpEGkQaRBpEGkQaRBpEGkQaRBpEGkQajBtcGiQaJBtcGiQaJBqQGkQaRBs8GkQaRBpEGkQaRBs8GkQajBokGiQbXBokGiQaJBokGpAaRBpEGkQaRBpEGkQaRBg==",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+}

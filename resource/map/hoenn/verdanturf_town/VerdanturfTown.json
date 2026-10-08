@@ -1,0 +1,326 @@
+{
+  "regionId": 1,
+  "bankId": 50,
+  "mapId": 14,
+  "width": 20,
+  "height": 20,
+  "paletteIdx1": 100,
+  "paletteIdx2": 105,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 398,
+  "unknownByte": 5,
+  "borderTiles": [
+    {
+      "material": 198,
+      "collision": 0
+    },
+    {
+      "material": 199,
+      "collision": 0
+    },
+    {
+      "material": 199,
+      "collision": 0
+    },
+    {
+      "material": 198,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "REGULAR_WEATHER",
+  "mapType": "VILLAGE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "VerdanturfTown_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 14,
+      "y": 3,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemartSign"
+    },
+    {
+      "x": 14,
+      "y": 6,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "VerdanturfTown_EventScript_TownSign"
+    },
+    {
+      "x": 17,
+      "y": 3,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    },
+    {
+      "x": 7,
+      "y": 14,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "VerdanturfTown_EventScript_WandasHouseSign"
+    },
+    {
+      "x": 13,
+      "y": 3,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemartSign"
+    },
+    {
+      "x": 18,
+      "y": 3,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    },
+    {
+      "x": 1,
+      "y": 8,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "VerdanturfTown_EventScript_BattleTentSign"
+    },
+    {
+      "x": 7,
+      "y": 3,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "VerdanturfTown_EventScript_RusturfTunnelSign"
+    }
+  ],
+  "connections": [
+    {
+      "direction": "UP",
+      "unknown": -80,
+      "targetBank": 50,
+      "targetMap": 31
+    },
+    {
+      "direction": "RIGHT",
+      "unknown": 0,
+      "targetBank": 50,
+      "targetMap": 32
+    }
+  ],
+  "warps": [
+    {
+      "x": 3,
+      "y": 7,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 56,
+      "targetMapId": 0,
+      "targetX": 6,
+      "targetY": 9,
+      "targetElevation": 0
+    },
+    {
+      "x": 12,
+      "y": 3,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 56,
+      "targetMapId": 3,
+      "targetX": 3,
+      "targetY": 7,
+      "targetElevation": 0
+    },
+    {
+      "x": 16,
+      "y": 3,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 56,
+      "targetMapId": 4,
+      "targetX": 7,
+      "targetY": 8,
+      "targetElevation": 2
+    },
+    {
+      "x": 10,
+      "y": 14,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 56,
+      "targetMapId": 6,
+      "targetX": 7,
+      "targetY": 7,
+      "targetElevation": 0
+    },
+    {
+      "x": 8,
+      "y": 1,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 4,
+      "targetX": 29,
+      "targetY": 16,
+      "targetElevation": 2
+    },
+    {
+      "x": 1,
+      "y": 14,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 56,
+      "targetMapId": 7,
+      "targetX": 3,
+      "targetY": 7,
+      "targetElevation": 0
+    },
+    {
+      "x": 17,
+      "y": 15,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 56,
+      "targetMapId": 8,
+      "targetX": 3,
+      "targetY": 8,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 23,
+      "x": 4,
+      "y": 17,
+      "elevation": 2,
+      "movementType": "WANDER_LEFT_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "VerdanturfTown_EventScript_Man",
+      "hideFlag": "",
+      "rawMovementType": 5
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 6,
+      "x": 9,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "VerdanturfTown_EventScript_Twin",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 7,
+      "x": 7,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "WANDER_UP_AND_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "VerdanturfTown_EventScript_Boy",
+      "hideFlag": "",
+      "rawMovementType": 3
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 31,
+      "x": 7,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "WANDER_LEFT_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "VerdanturfTown_EventScript_Camper",
+      "hideFlag": "",
+      "rawMovementType": 5
+    }
+  ],
+  "blockData": "fAR8BH0EcQRxBHQEqQSpBJ8EqQR8BGAGPwY/Bj4GOwY8Bj0GRQZyBHEEcQRxBHEEcQR1BHQEkQSnAJEEkQQwBDEEMgQzBFAEUQRSBFMEegR8BHwEfAR8BHwEfQRyBAQyBDIEMrA3OAQ5BDoEOwRYBFkEWgRbBMEyzgSyB7MHtAe1B7YHLQYDBAQyBDJON2AEQQRCBEMEYARhBGIEYwTHBMcEuge7B7wHvQe+BwQyBDIEMgQyIzcEMgEwATAFMgQyATABMAQyyQbHBMIHwwfEB8UHxgcEMgQyBDIEMgQyBDIBMAEwBDIEMgEwATAEMgQyxwTKB8sHzAfNB84HBDIRMgQyBDIEMgQyATABMAMEBDIBMAEwBDIEMscE0gfTB9QH1QfWBwEwBDIEMgQyBDIBMAEwATABMAEwATABMAQyBDLJBgMEBDIBMAEwATABMAEwATABMAEwATABMAEwATABMAEwBTIEMgQyBDIEMgQyBDIBMAEwATABMAEwATABMAEwATABMAEwATAEMgUyBDIEMhQyBDIEMgQyBTIEMgUyBDIEMgQyETIEMgQyATABMAQyBDIEMgQyBDKIM4kziTOKMwUyBDIFMgQyiDOJM4kziTOKMwEwATAFMgQyBDIEMgUykAeRB5EHkgdNB00HTQdNB5AHkQeRB5EHkgcBMAEwBTKIM4kziTOKM5gHmQeLB4wHFDIEMhMyEjKYB4sHmQeLB4wHATABMAUykAeRB5EHkgegB6EHkweUBwQyFTIUMgMEoAeTB6EHkweUBwEwATAFMpgHmQeLB4wHtAYFMgQyBDIFMgUyBDIFMgUyBDIBMAEwATABMAQyBDKgB6EHkweUB7wGBDIFMgUyBDIEMgQyBTIEMgQyBDIFMgQyBTIEMgUyBDIEMgQyBDLBMhYyBDIFMgQyBDIVMsEywTLBMsEyBDIUMgUyBTIEMgQyBDIEMsEyxwTBMsEyFjIEMgQywTLHBMcExwTHBMEywTIEMgQyswazBrMGwTLHBMcExwTHBMEywTLBMscExwTHBMcExwTHBMcEwTLBMsEywTLBMscExwQ=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+}

@@ -1,0 +1,180 @@
+{
+	"id": 1036,
+	"name": "[1036]超能妙喵",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 6,
+	"weight": 85,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 51,
+			"name": "[051]特性51"
+		},
+		{
+			"id": 151,
+			"name": "[151]特性151"
+		},
+		{
+			"id": 158,
+			"name": "[158]特性158"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 10,
+			"name": "[10]抓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 43,
+			"name": "[43]瞪眼",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 212,
+			"name": "[212]黑色目光",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 270,
+			"name": "[270]帮助",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 501,
+			"name": "[501]快速防守",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 343,
+			"name": "[343]渴望",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 93,
+			"name": "[93]念力",
+			"type": "level",
+			"level": 9
+		},
+		{
+			"id": 113,
+			"name": "[113]光墙",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 60,
+			"name": "[60]幻象光线",
+			"type": "level",
+			"level": 17
+		},
+		{
+			"id": 252,
+			"name": "[252]击掌奇袭",
+			"type": "level",
+			"level": 19
+		},
+		{
+			"id": 574,
+			"name": "[574]魅惑之声",
+			"type": "level",
+			"level": 22
+		},
+		{
+			"id": 473,
+			"name": "[473]精神冲击",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 204,
+			"name": "[204]撒娇",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 357,
+			"name": "[357]奇迹之眼",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 115,
+			"name": "[115]反射壁",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 94,
+			"name": "[94]精神强念",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 272,
+			"name": "[272]扮演",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 286,
+			"name": "[286]封印",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 389,
+			"name": "[389]突袭",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 581,
+			"name": "[581]薄雾场地",
+			"type": "level",
+			"level": 50
+		},
+		{
+			"id": 501,
+			"name": "[501]快速防守",
+			"type": "level",
+			"level": 53
+		}
+	],
+	"types": [
+		"PSYCHIC"
+	],
+	"stats": {
+		"hp": 74,
+		"attack": 48,
+		"defense": 76,
+		"speed": 83,
+		"sp_attack": 81,
+		"sp_defense": 104
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 2
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

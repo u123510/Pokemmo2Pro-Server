@@ -1,0 +1,236 @@
+{
+  "regionId": 0,
+  "bankId": 2,
+  "mapId": 22,
+  "width": 11,
+  "height": 11,
+  "paletteIdx1": 0,
+  "paletteIdx2": 15,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 331,
+  "unknownByte": 181,
+  "borderTiles": [
+    {
+      "material": 657,
+      "collision": 0
+    },
+    {
+      "material": 657,
+      "collision": 0
+    },
+    {
+      "material": 657,
+      "collision": 0
+    },
+    {
+      "material": 657,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "STEADY_MIST",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_FIVE_ISLAND_LOST_CAVE_ROOM10",
+      "base_label": "sFiveIslandLostCaveRoom10_FireRed",
+      "land_mons": {
+        "encounter_rate": 10,
+        "mons": [
+          {
+            "min_level": 40,
+            "max_level": 40,
+            "species": "SPECIES_GASTLY"
+          },
+          {
+            "min_level": 37,
+            "max_level": 37,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 44,
+            "max_level": 44,
+            "species": "SPECIES_HAUNTER"
+          },
+          {
+            "min_level": 46,
+            "max_level": 46,
+            "species": "SPECIES_HAUNTER"
+          },
+          {
+            "min_level": 41,
+            "max_level": 41,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 43,
+            "max_level": 43,
+            "species": "SPECIES_GOLBAT"
+          },
+          {
+            "min_level": 38,
+            "max_level": 38,
+            "species": "SPECIES_GASTLY"
+          },
+          {
+            "min_level": 48,
+            "max_level": 48,
+            "species": "SPECIES_HAUNTER"
+          },
+          {
+            "min_level": 50,
+            "max_level": 50,
+            "species": "SPECIES_HAUNTER"
+          },
+          {
+            "min_level": 22,
+            "max_level": 22,
+            "species": "SPECIES_MURKROW"
+          },
+          {
+            "min_level": 52,
+            "max_level": 52,
+            "species": "SPECIES_HAUNTER"
+          },
+          {
+            "min_level": 22,
+            "max_level": 22,
+            "species": "SPECIES_MURKROW"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_MAP_SCENE_FIVE_ISLAND_LOST_CAVE_ROOM10",
+      "value": 0,
+      "script": "FiveIsland_LostCave_Room10_EventScript_FindSelphyScene"
+    }
+  ],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 5,
+      "y": 8,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 2,
+      "targetMapId": 13,
+      "targetX": 5,
+      "targetY": 1,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 28,
+      "x": 5,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "0x0",
+      "hideFlag": "kanto/FLAG_HIDE_LOST_CAVE_SELPHY",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 92,
+      "x": 5,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "FiveIsland_LostCave_Room10_EventScript_ItemSilkScarf",
+      "hideFlag": "kanto/FLAG_HIDE_FIVE_ISLAND_LOST_CAVE_ROOM10_SILK_SCARF",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "mwaZBpkGmQaZBpkGmQaZBpkGmQacBscGmwaZBpkGmQaZBpkGmQaZBpwGxgaSBpIG2TLZMoIG2TKCBtky2TKQBsYGkgaSBtky2TLZMtky2TLZMtkykAbGBpIGkgbZMtky2TLZMtky2TLZMpAGxgaSBpIG2TLZMtky2TLZMtky2TKQBsYGkgaSBtky2TLZMtky2TLZMtkykAaQBpIGkgbZMtky2TLZMtky2TLZMpAGxgaSBpIG2TLZMtkyhzLZMtky2TKQBsYGxwajBokGiQbIBskGygaJBqQGpAbGBt8G3wbfBt8G3wbfBt8G3wbfBt8G3wY=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+}

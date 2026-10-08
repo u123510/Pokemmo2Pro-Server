@@ -1,0 +1,175 @@
+{
+	"id": 1057,
+	"name": "[1057]冰雪巨龙",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 32,
+	"height": 27,
+	"weight": 2250,
+	"egg_groups": [
+		"怪兽组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 117,
+			"name": "[117]特性117"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 181,
+			"name": "[181]细雪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 573,
+			"name": "[573]冷冻干燥",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 86,
+			"name": "[86]电磁波",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 88,
+			"name": "[88]落石",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 196,
+			"name": "[196]冰冻之风",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 36,
+			"name": "[36]猛撞",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 54,
+			"name": "[54]白雾",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 62,
+			"name": "[62]极光束",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 246,
+			"name": "[246]原始之力",
+			"type": "level",
+			"level": 26
+		},
+		{
+			"id": 496,
+			"name": "[496]轮唱",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 419,
+			"name": "[419]雪崩",
+			"type": "level",
+			"level": 34
+		},
+		{
+			"id": 258,
+			"name": "[258]冰雹",
+			"type": "level",
+			"level": 38
+		},
+		{
+			"id": 267,
+			"name": "[267]自然之力",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 227,
+			"name": "[227]再来一次",
+			"type": "level",
+			"level": 46
+		},
+		{
+			"id": 113,
+			"name": "[113]光墙",
+			"type": "level",
+			"level": 50
+		},
+		{
+			"id": 58,
+			"name": "[58]冰冻光束",
+			"type": "level",
+			"level": 56
+		},
+		{
+			"id": 63,
+			"name": "[63]破坏光线",
+			"type": "level",
+			"level": 63
+		},
+		{
+			"id": 59,
+			"name": "[59]暴风雪",
+			"type": "level",
+			"level": 74
+		},
+		{
+			"id": 573,
+			"name": "[573]冷冻干燥",
+			"type": "level",
+			"level": 77
+		}
+	],
+	"types": [
+		"ROCK",
+		"ICE"
+	],
+	"stats": {
+		"hp": 123,
+		"attack": 77,
+		"defense": 72,
+		"speed": 99,
+		"sp_attack": 92,
+		"sp_defense": 58
+	},
+	"yields": {
+		"ev_hp": 2,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

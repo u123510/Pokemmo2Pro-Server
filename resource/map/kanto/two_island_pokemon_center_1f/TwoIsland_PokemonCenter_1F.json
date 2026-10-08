@@ -1,0 +1,186 @@
+{
+  "regionId": 0,
+  "bankId": 33,
+  "mapId": 2,
+  "width": 15,
+  "height": 10,
+  "paletteIdx1": 12,
+  "paletteIdx2": 14,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 303,
+  "unknownByte": 144,
+  "borderTiles": [
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "TwoIsland_PokemonCenter_1F_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 7,
+      "y": 8,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 13,
+      "targetX": 21,
+      "targetY": 7,
+      "targetElevation": 0
+    },
+    {
+      "x": 1,
+      "y": 6,
+      "elevation": 3,
+      "targetRegionId": 0,
+      "targetBankId": 33,
+      "targetMapId": 3,
+      "targetX": 1,
+      "targetY": 6,
+      "targetElevation": 3
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 64,
+      "x": 7,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "TwoIsland_PokemonCenter_1F_EventScript_Nurse",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 51,
+      "x": 11,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "TwoIsland_PokemonCenter_1F_EventScript_GBAKid",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 20,
+      "x": 4,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "WANDER_LEFT_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "TwoIsland_PokemonCenter_1F_EventScript_BugCatcher",
+      "hideFlag": "",
+      "rawMovementType": 5
+    }
+  ],
+  "blockData": "oAbTMskGygaEBoQGhAaGBocGhAaEBoUGlgaXBqYGqAaNBssGzAapBqoGqwaOBo8GrAatBmIEngafBq4GsDKUMs0yzjKxBrIGswaQMmMztAa1BpUyxjK3MrYyuDKBMoEygTK5BrwGvAaYBrwGvAa9BsUygTKBMr4yuDKBMoEygTKjMrcytzK3MrcytzK3Mr8ygTKBMoEy0DLRMoECgTKBMoEyiTKKMosygTKBMvUy/TKBMoEy2AbZQoFCgQKBMoEykTKSMpMygTKBMpwGnQbPMvUy4DLhMoECgTKBMoEymTKaMpsygTKBMqQGpQbFMv0yoTKBMoEygTKBMoEywjLDMsQygTKBMqMytzK/MqIyCAQIBAgECAQIBAgEGgQbBBwECAQIBAgECAQIBAgE",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

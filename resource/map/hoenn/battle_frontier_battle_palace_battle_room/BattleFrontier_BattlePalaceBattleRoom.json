@@ -1,0 +1,222 @@
+{
+  "regionId": 1,
+  "bankId": 76,
+  "mapId": 24,
+  "width": 15,
+  "height": 10,
+  "paletteIdx1": 100,
+  "paletteIdx2": 160,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 463,
+  "unknownByte": 58,
+  "borderTiles": [
+    {
+      "material": 35,
+      "collision": 0
+    },
+    {
+      "material": 35,
+      "collision": 0
+    },
+    {
+      "material": 35,
+      "collision": 0
+    },
+    {
+      "material": 35,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "BattleFrontier_BattlePalaceBattleRoom_OnTransition",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_TEMP_0",
+      "value": 0,
+      "script": "BattleFrontier_BattlePalaceBattleRoom_EventScript_EnterRoom"
+    }
+  ],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 0,
+      "y": 9,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 76,
+      "targetMapId": 23,
+      "targetX": 6,
+      "targetY": 3,
+      "targetElevation": 2
+    },
+    {
+      "x": 1,
+      "y": 9,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 76,
+      "targetMapId": 23,
+      "targetX": 6,
+      "targetY": 3,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 0,
+      "x": 1,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "0x0",
+      "hideFlag": "",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 0,
+      "x": 13,
+      "y": 1,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 21,
+      "x": 1,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "0x0",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 226,
+      "x": 13,
+      "y": 1,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 214,
+      "x": 13,
+      "y": 1,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "SzJMMj82SzJMMj82SzJMMj82SzJMMj82SDZJMkoGTTJOMkc2TTJOMkc2TTJOMkc2TTJOMkc2UDZRMlIGVTJWMk82VTJWMk82VTJWMk82VTJWMk82owKkAqUCiTGJMYkxgTFYMlk2WjZbNlw2XTZeNoAxgTEGMgYyBjIGMiYykgFgNmE2YjZjNmQ2ZTZmNpABkjEGMgYyBjIGMiYykjFoBmkGagZrBmwGbQZuBpABkjEGMgYyBjIGMpABkgFwBnEGcgZzBnQGdQZ2BpABkjEGMgYyBjIGMpABkgF4AnkCegJ7AnwCfQJ+ApABkjEGMgYyBjIGMpABmgGJAYkBiQGJAYkBiQGJAZgBkjEGMgYyBjIGMpABcAFwAXABcAFwAXABcAFwAXABmgGJAYkB",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

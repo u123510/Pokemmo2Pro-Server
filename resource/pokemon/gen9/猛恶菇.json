@@ -1,0 +1,145 @@
+{
+	"id": 986,
+	"name": "[986]猛恶菇",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 12,
+	"weight": 210,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 71,
+			"name": "[71]吸取",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 74,
+			"name": "[74]生长",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 310,
+			"name": "[310]惊吓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 78,
+			"name": "[78]麻痹粉",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 72,
+			"name": "[72]超级吸取",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 235,
+			"name": "[235]光合作用",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 499,
+			"name": "[499]清除之烟",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 371,
+			"name": "[371]以牙还牙",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 37,
+			"name": "[37]大闹一番",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 202,
+			"name": "[202]终极吸取",
+			"type": "level",
+			"level": 49
+		},
+		{
+			"id": 389,
+			"name": "[389]突袭",
+			"type": "level",
+			"level": 56
+		},
+		{
+			"id": 147,
+			"name": "[147]蘑菇孢子",
+			"type": "level",
+			"level": 63
+		},
+		{
+			"id": 275,
+			"name": "[275]扎根",
+			"type": "level",
+			"level": 70
+		},
+		{
+			"id": 476,
+			"name": "[476]愤怒粉",
+			"type": "level",
+			"level": 77
+		},
+		{
+			"id": 76,
+			"name": "[76]日光束",
+			"type": "level",
+			"level": 91
+		}
+	],
+	"types": [
+		"GRASS",
+		"DARK"
+	],
+	"stats": {
+		"hp": 111,
+		"attack": 127,
+		"defense": 99,
+		"speed": 79,
+		"sp_attack": 99,
+		"sp_defense": 55
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 3,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

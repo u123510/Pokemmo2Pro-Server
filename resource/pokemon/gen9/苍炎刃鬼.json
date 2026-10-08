@@ -1,0 +1,145 @@
+{
+	"id": 937,
+	"name": "[937]苍炎刃鬼",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 16,
+	"weight": 620,
+	"egg_groups": [
+		"人形组"
+	],
+	"abilities": [
+		{
+			"id": 18,
+			"name": "[018]特性18"
+		},
+		{
+			"id": 18,
+			"name": "[018]特性18"
+		},
+		{
+			"id": 133,
+			"name": "[133]特性133"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 43,
+			"name": "[43]瞪眼",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 52,
+			"name": "[52]火花",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 310,
+			"name": "[310]惊吓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 499,
+			"name": "[499]清除之烟",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 83,
+			"name": "[83]火焰旋涡",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 261,
+			"name": "[261]鬼火",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 101,
+			"name": "[101]黑夜魔影",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 488,
+			"name": "[488]蓄能焰袭",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 510,
+			"name": "[510]烧尽",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 436,
+			"name": "[436]喷烟",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 14,
+			"name": "[14]剑舞",
+			"type": "level",
+			"level": 37
+		},
+		{
+			"id": 502,
+			"name": "[502]交换场地",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 891,
+			"name": "[891]悔念剑",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 427,
+			"name": "[427]精神利刃",
+			"type": "level",
+			"level": 56
+		},
+		{
+			"id": 394,
+			"name": "[394]闪焰冲锋",
+			"type": "level",
+			"level": 62
+		}
+	],
+	"types": [
+		"FIRE",
+		"GHOST"
+	],
+	"stats": {
+		"hp": 75,
+		"attack": 125,
+		"defense": 80,
+		"speed": 60,
+		"sp_attack": 100,
+		"sp_defense": 85
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 2,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

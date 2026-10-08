@@ -1,0 +1,151 @@
+{
+	"id": 1104,
+	"name": "[1104]彩粉蝶",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 12,
+	"weight": 170,
+	"egg_groups": [
+		"虫组"
+	],
+	"abilities": [
+		{
+			"id": 19,
+			"name": "[019]特性19"
+		},
+		{
+			"id": 14,
+			"name": "[014]特性14"
+		},
+		{
+			"id": 132,
+			"name": "[132]特性132"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 16,
+			"name": "[16]起风",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 77,
+			"name": "[77]毒粉",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 78,
+			"name": "[78]麻痹粉",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 79,
+			"name": "[79]催眠粉",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 113,
+			"name": "[113]光墙",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 600,
+			"name": "[600]粉尘",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 522,
+			"name": "[522]虫之抵抗",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 60,
+			"name": "[60]幻象光线",
+			"type": "level",
+			"level": 17
+		},
+		{
+			"id": 48,
+			"name": "[48]超音波",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 577,
+			"name": "[577]吸取之吻",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 312,
+			"name": "[312]芳香治疗",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 405,
+			"name": "[405]虫鸣",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 219,
+			"name": "[219]神秘守护",
+			"type": "level",
+			"level": 41
+		},
+		{
+			"id": 483,
+			"name": "[483]蝶舞",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 542,
+			"name": "[542]暴风",
+			"type": "level",
+			"level": 50
+		},
+		{
+			"id": 600,
+			"name": "[600]粉尘",
+			"type": "level",
+			"level": 55
+		}
+	],
+	"types": [
+		"BUG",
+		"FLYING"
+	],
+	"stats": {
+		"hp": 80,
+		"attack": 52,
+		"defense": 50,
+		"speed": 90,
+		"sp_attack": 50,
+		"sp_defense": 89
+	},
+	"yields": {
+		"ev_hp": 1,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 1,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 1
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

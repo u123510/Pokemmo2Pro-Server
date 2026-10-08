@@ -1,0 +1,278 @@
+{
+  "regionId": 0,
+  "bankId": 3,
+  "mapId": 4,
+  "width": 24,
+  "height": 20,
+  "paletteIdx1": 0,
+  "paletteIdx2": 5,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 280,
+  "unknownByte": 92,
+  "borderTiles": [
+    {
+      "material": 113,
+      "collision": 0
+    },
+    {
+      "material": 113,
+      "collision": 0
+    },
+    {
+      "material": 113,
+      "collision": 0
+    },
+    {
+      "material": 113,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "REGULAR_WEATHER",
+  "mapType": "VILLAGE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "LavenderTown_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 12,
+      "y": 4,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LavenderTown_EventScript_SilphScopeNotice"
+    },
+    {
+      "x": 15,
+      "y": 11,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LavenderTown_EventScript_TownSign"
+    },
+    {
+      "x": 21,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LavenderTown_EventScript_PokemonTowerSign"
+    },
+    {
+      "x": 7,
+      "y": 11,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LavenderTown_EventScript_VolunteerHouseSign"
+    }
+  ],
+  "connections": [
+    {
+      "direction": "UP",
+      "unknown": 0,
+      "targetBank": 3,
+      "targetMap": 28
+    },
+    {
+      "direction": "DOWN",
+      "unknown": 0,
+      "targetBank": 3,
+      "targetMap": 30
+    },
+    {
+      "direction": "LEFT",
+      "unknown": 0,
+      "targetBank": 3,
+      "targetMap": 26
+    }
+  ],
+  "warps": [
+    {
+      "x": 18,
+      "y": 6,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 88,
+      "targetX": 11,
+      "targetY": 18,
+      "targetElevation": 2
+    },
+    {
+      "x": 6,
+      "y": 5,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 8,
+      "targetMapId": 0,
+      "targetX": 7,
+      "targetY": 8,
+      "targetElevation": 2
+    },
+    {
+      "x": 10,
+      "y": 11,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 8,
+      "targetMapId": 2,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 8,
+      "targetMapId": 3,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 10,
+      "y": 16,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 8,
+      "targetMapId": 4,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 20,
+      "y": 15,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 8,
+      "targetMapId": 5,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 17,
+      "x": 19,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 2,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LavenderTown_EventScript_LittleGirl",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 47,
+      "x": 12,
+      "y": 12,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LavenderTown_EventScript_WorkerM",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 19,
+      "x": 10,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_LEFT_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LavenderTown_EventScript_Boy",
+      "hideFlag": "",
+      "rawMovementType": 14
+    }
+  ],
+  "blockData": "cQRxBHEEcQRxBHEEcQRyBAEwCTAIMAkwCTBwBHME0QbSBtMG0wbTBtYG1wZ1BHEEcQRxBHEEcQSdBp4GnwaoBn8xETAQMBEwETBwBHME2QbSBtMG0wbTBtYG3wZ1BHEEcQRxBHEEsgRIBEkESgRLBIcFCTAIMAkwCTBwBHME2QbSBtMG0wbTBtYG3wZ1BHEEcQRxBHEEcgRQBFEEUgRTBI8FETAQMBEwETBwBHME4QbiBuMG4wbjBuYG5wZ1BHEEsgR5BHkEegRYBFkEWgRbBJcFCTAIMAkwAgRwBHME6QbqBusG6wbrBu4G7wZ1BHEEcgQJMAgwCTBgBGEEYgSGBZ8FETAQMBEwATBwBHsEJwf/BjgHOQc6B/8GNAd9BHEEcgQRMBAwETABMGIxYzFkMQEwCTAIMAkwATB4BHkELwcHB0AHDzNCBwcHNQezBHEEcgQJMAgwCTABMHIxczF0MQkwATABMAEwEDAJMAgwCTBiMWMxYzFjMWQxAgRwBHEEegQRMBAwETAQMBEwEDARMIgyiTKKMosyjDIRMBAwETByMXMxczFzMXQxCTBwBHEEATAJMAgwCTAIMAkwCDAJMJAGkQaRBpEGlAYJMAgwCTAJMAgwCTAIMAkwEDBwBHEEATARMBAwETAQMBEwEDARMJgGmQaaBpsGnAYJMAgwATARMBAwETAQMAkwCDBwBHEEATAJMAgwCTAIMAkwCDACBKAGoQaiBqMGpAYRMBAwAgQJMAgwCTAIMBEwEDBwBHEE5wQRMAkwCDABMAgwATAIMAkwYjFjMWQxCTAIMAkwCDAJMAgwKDApMCowKzBwBHEEagQJMBAwiDKJMooyizKMMogygTKCMoMyjDIQMBEwEDARMBAwMAQxBDIEMwRwBHEEcgQRMAgwkAaRBpEGkQaUBpAGkQaRBpEGlAYJMAkwCDAJMAgwOAQ5BDoEOwRwBHEEcgQJMAgwmAaZBpoGmwacBpgGmQaaBpsGnAYRMBAwATABMAEwQARBBGIEYwRwBHEEcgQRMBAwoAahBqIGowakBqAGoQaiBqMGpAYJMAgwCTBiMWMxYzFjMWMxZDFwBHEEcgQJMGIxYzFjMWMxYzFjMWMxYzFjMWMxZDERMBAwETByMXMxczFzMXMxdDFwBHEEcgQRMHIxczFzMXMxczFzMXMxczFzMXMxdDEJMAgwCTAIMAkwCDAJMAgwCTBwBHEEugRpBGkEaQRpBGkEaQRpBGkEaQRqBAgwATBoBGkEaQRpBGkEaQRpBGkEaQS7BHEE",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAHAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

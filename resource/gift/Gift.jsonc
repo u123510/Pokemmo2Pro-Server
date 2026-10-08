@@ -1,0 +1,35 @@
+{
+	"giftPokemons":
+	[
+		{
+			//初始妙蛙种子
+			"giftId": 1,
+			"pokemonIndexId": 1,
+			"level": 5,
+			"ability": 0,
+			"moves": [33, 45, 0, 0],
+			"item": 0,
+			"ballType": 3
+		},
+		{
+			//初始小火龙
+			"giftId": 2,
+			"pokemonIndexId": 4,
+			"level": 5,
+			"ability": 0,
+			"moves": [10, 45, 0, 0],
+			"item": 0,
+			"ballType": 3
+		},
+		{
+		    //初始杰尼龟
+			"giftId": 3,
+			"pokemonIndexId": 7,
+			"level": 5,
+			"ability": 0,
+			"moves": [33, 39, 0, 0],
+			"item": 0,
+			"ballType": 3
+		}
+	]
+}

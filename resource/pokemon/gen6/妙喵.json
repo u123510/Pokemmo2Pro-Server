@@ -1,0 +1,115 @@
+{
+	"id": 1035,
+	"name": "[1035]妙喵",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 3,
+	"weight": 35,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 51,
+			"name": "[051]特性51"
+		},
+		{
+			"id": 151,
+			"name": "[151]特性151"
+		},
+		{
+			"id": 20,
+			"name": "[020]特性20"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 1036,
+			"name": "[1036]超能妙喵",
+			"type": "LEVEL",
+			"val": 25
+		}
+	],
+	"moves": [
+		{
+			"id": 10,
+			"name": "[10]抓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 43,
+			"name": "[43]瞪眼",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 343,
+			"name": "[343]渴望",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 93,
+			"name": "[93]念力",
+			"type": "level",
+			"level": 9
+		},
+		{
+			"id": 113,
+			"name": "[113]光墙",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 60,
+			"name": "[60]幻象光线",
+			"type": "level",
+			"level": 17
+		},
+		{
+			"id": 252,
+			"name": "[252]击掌奇袭",
+			"type": "level",
+			"level": 19
+		},
+		{
+			"id": 574,
+			"name": "[574]魅惑之声",
+			"type": "level",
+			"level": 22
+		},
+		{
+			"id": 473,
+			"name": "[473]精神冲击",
+			"type": "level",
+			"level": 25
+		}
+	],
+	"types": [
+		"PSYCHIC"
+	],
+	"stats": {
+		"hp": 62,
+		"attack": 48,
+		"defense": 54,
+		"speed": 63,
+		"sp_attack": 60,
+		"sp_defense": 68
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 1
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

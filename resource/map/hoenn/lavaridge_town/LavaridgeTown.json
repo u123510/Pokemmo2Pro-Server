@@ -1,0 +1,399 @@
+{
+  "regionId": 1,
+  "bankId": 50,
+  "mapId": 12,
+  "width": 20,
+  "height": 20,
+  "paletteIdx1": 100,
+  "paletteIdx2": 106,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 363,
+  "unknownByte": 3,
+  "borderTiles": [
+    {
+      "material": 625,
+      "collision": 0
+    },
+    {
+      "material": 625,
+      "collision": 0
+    },
+    {
+      "material": 625,
+      "collision": 0
+    },
+    {
+      "material": 625,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "REGULAR_WEATHER",
+  "mapType": "VILLAGE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "LavaridgeTown_OnTransition",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_LAVARIDGE_TOWN_STATE",
+      "value": 1,
+      "script": "LavaridgeTown_EventScript_RivalGiveGoGoggles"
+    }
+  ],
+  "coordScripts": [
+    {
+      "x": 6,
+      "y": 3,
+      "elevation": 3,
+      "varKey": "TRIGGER_RUN_IMMEDIATELY",
+      "value": 0,
+      "script": "LavaridgeTown_EventScript_HotSpringsTrigger"
+    }
+  ],
+  "bgEvents": [
+    {
+      "x": 14,
+      "y": 16,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LavaridgeTown_EventScript_HerbShopSign"
+    },
+    {
+      "x": 7,
+      "y": 15,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LavaridgeTown_EventScript_GymSign"
+    },
+    {
+      "x": 17,
+      "y": 5,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemartSign"
+    },
+    {
+      "x": 13,
+      "y": 8,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LavaridgeTown_EventScript_TownSign"
+    },
+    {
+      "x": 10,
+      "y": 6,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    },
+    {
+      "x": 16,
+      "y": 5,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemartSign"
+    },
+    {
+      "x": 11,
+      "y": 6,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "0x0"
+    }
+  ],
+  "connections": [
+    {
+      "direction": "RIGHT",
+      "unknown": -40,
+      "targetBank": 50,
+      "targetMap": 27
+    }
+  ],
+  "warps": [
+    {
+      "x": 12,
+      "y": 15,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 0,
+      "targetX": 3,
+      "targetY": 7,
+      "targetElevation": 0
+    },
+    {
+      "x": 5,
+      "y": 15,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 1,
+      "targetX": 13,
+      "targetY": 18,
+      "targetElevation": 2
+    },
+    {
+      "x": 15,
+      "y": 5,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 4,
+      "targetX": 3,
+      "targetY": 7,
+      "targetElevation": 0
+    },
+    {
+      "x": 9,
+      "y": 6,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 5,
+      "targetX": 7,
+      "targetY": 8,
+      "targetElevation": 2
+    },
+    {
+      "x": 16,
+      "y": 15,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 3,
+      "targetX": 3,
+      "targetY": 7,
+      "targetElevation": 0
+    },
+    {
+      "x": 9,
+      "y": 2,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 54,
+      "targetMapId": 5,
+      "targetX": 2,
+      "targetY": 1,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 22,
+      "x": 8,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LavaridgeTown_EventScript_ExpertF",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 21,
+      "x": 5,
+      "y": 1,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LavaridgeTown_EventScript_ExpertM",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 29,
+      "x": 5,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LavaridgeTown_EventScript_OldMan",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 6,
+      "x": 10,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "WANDER_UP_AND_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 2,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LavaridgeTown_EventScript_Twin",
+      "hideFlag": "",
+      "rawMovementType": 3
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 139,
+      "x": 4,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_DOWN_AND_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "LavaridgeTown_EventScript_HotSpringsOldWoman1",
+      "hideFlag": "",
+      "rawMovementType": 18
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 139,
+      "x": 5,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_DOWN_AND_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "LavaridgeTown_EventScript_HotSpringsOldWoman2",
+      "hideFlag": "",
+      "rawMovementType": 17
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 0,
+      "x": 6,
+      "y": 16,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_LAVARIDGE_TOWN_RIVAL_ON_BIKE",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 0,
+      "x": 12,
+      "y": 15,
+      "elevation": 0,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_LAVARIDGE_TOWN_RIVAL",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 22,
+      "x": 4,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LavaridgeTown_EventScript_EggWoman",
+      "hideFlag": "",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "cQZxBnEGcQZ7BnQGdAZ0BnQGdAZ8BnEGcQZxBnEGcQZxBnEGGDYYNnsGdAZ0BnQGegZxMq4yrjKuMq4yeAZ0BnQGdAZ0BnQGdAZ0BnQGEQZyBnsGmQaaBpsGmwacMp0GdAaeMnwGcQZxBnEGTgZLBkwGTwZxBhg2cgZyBqEGozK8MqMyozKlBkoGSAZJBk0GeQZ5BjAEMQQyBDMEEQYRBnIGcgahBrsyHTMdM7sypQZQBFEEUgRTBB4yHzI4BDkEOgQ7BMY0xjRyBnIGqQaqMqMyvDKsMq0GWARZBFoEWwTWNdc1YARBBEIEQwTGNMY0cgZyBrEGsgazBrMGtAa1BmAEYQRiBGME5jXnNQQwIDEiMQEwFjQWNHIGcga6MqgyqDKoMrkyijIBMCAxIjEBMAQwBDABMCAxIjEBMAEwATByBnIGqDKYMqgymDKMMpIyATAgMSIxATABMAMEATAgMSIxATABMAEwcgZyBqgCoEKoAqBCigIBMAEwIDEhMRkxGTEZMRkxITEhMRkxGTEZMXIGcgaRMpECkTKRApIyATABMCgxKTEpMSkxKTEpMSkxKTEpMSkxKTFyBnIGqjGrMasxqzGrMawxATABMAEwATABMAEwATABMAEwATABMAEwcgZyBrIFswWzBbMFswW0BQEwATABMAgwCTAJMAowCDAJMAkwCjABMHIGcga4BbkFugWzBbsFvAUBMAEwATAQBBEEEQQSBBAEEQQRBBIEDjByBnIGwAXBBcIFxQXDBZ8GATABMAEwGAQZBAsEGgQYBBkECwQaBMY0cgZyBsgxyTHKBc0FywWnBgEwATABMCAEIQQTBCIEIAQhBBMEIgTGNHIGcgYBMAEwATABMAEwATABMAEwATABMAEwATADNAEwATABMA4wxjR/Bn8GbQYBMAEwATABMAEwATABMAEwATABMAEwATABMAEwATDGNMY0cQZxBnIGbQYBMAEwATABMAEwATABMAEwATABMAEwATABMAEwFjQWNHEGcQZ/Bn8GbAZsBmwGbAZsBmwGbAZsBmwGbAZsBmwGbAZsBmwGbAY=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAABwAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+}

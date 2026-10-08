@@ -1,0 +1,381 @@
+{
+  "regionId": 1,
+  "bankId": 76,
+  "mapId": 12,
+  "width": 40,
+  "height": 40,
+  "paletteIdx1": 100,
+  "paletteIdx2": 109,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 428,
+  "unknownByte": 57,
+  "borderTiles": [
+    {
+      "material": 468,
+      "collision": 0
+    },
+    {
+      "material": 469,
+      "collision": 0
+    },
+    {
+      "material": 476,
+      "collision": 0
+    },
+    {
+      "material": 477,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "ROUTE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_SAFARI_ZONE_NORTHEAST",
+      "base_label": "gSafariZone_Northeast",
+      "land_mons": {
+        "encounter_rate": 25,
+        "mons": [
+          {
+            "min_level": 33,
+            "max_level": 33,
+            "species": "SPECIES_AIPOM"
+          },
+          {
+            "min_level": 34,
+            "max_level": 34,
+            "species": "SPECIES_TEDDIURSA"
+          },
+          {
+            "min_level": 35,
+            "max_level": 35,
+            "species": "SPECIES_AIPOM"
+          },
+          {
+            "min_level": 36,
+            "max_level": 36,
+            "species": "SPECIES_TEDDIURSA"
+          },
+          {
+            "min_level": 34,
+            "max_level": 34,
+            "species": "SPECIES_SUNKERN"
+          },
+          {
+            "min_level": 33,
+            "max_level": 33,
+            "species": "SPECIES_LEDYBA"
+          },
+          {
+            "min_level": 35,
+            "max_level": 35,
+            "species": "SPECIES_HOOTHOOT"
+          },
+          {
+            "min_level": 34,
+            "max_level": 34,
+            "species": "SPECIES_PINECO"
+          },
+          {
+            "min_level": 36,
+            "max_level": 36,
+            "species": "SPECIES_HOUNDOUR"
+          },
+          {
+            "min_level": 37,
+            "max_level": 37,
+            "species": "SPECIES_MILTANK"
+          },
+          {
+            "min_level": 39,
+            "max_level": 39,
+            "species": "SPECIES_HOUNDOUR"
+          },
+          {
+            "min_level": 40,
+            "max_level": 40,
+            "species": "SPECIES_MILTANK"
+          }
+        ]
+      },
+      "rock_smash_mons": {
+        "encounter_rate": 25,
+        "mons": [
+          {
+            "min_level": 25,
+            "max_level": 30,
+            "species": "SPECIES_SHUCKLE"
+          },
+          {
+            "min_level": 20,
+            "max_level": 25,
+            "species": "SPECIES_SHUCKLE"
+          },
+          {
+            "min_level": 30,
+            "max_level": 35,
+            "species": "SPECIES_SHUCKLE"
+          },
+          {
+            "min_level": 30,
+            "max_level": 35,
+            "species": "SPECIES_SHUCKLE"
+          },
+          {
+            "min_level": 35,
+            "max_level": 40,
+            "species": "SPECIES_SHUCKLE"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 31,
+      "y": 35,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "0x0"
+    },
+    {
+      "x": 21,
+      "y": 5,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "0x0"
+    }
+  ],
+  "connections": [
+    {
+      "direction": "LEFT",
+      "unknown": 0,
+      "targetBank": 76,
+      "targetMap": 1
+    },
+    {
+      "direction": "DOWN",
+      "unknown": 0,
+      "targetBank": 76,
+      "targetMap": 13
+    }
+  ],
+  "warps": [],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 13,
+      "x": 8,
+      "y": 20,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SafariZone_Northeast_EventScript_Boy",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 14,
+      "x": 30,
+      "y": 22,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SafariZone_Northeast_EventScript_Girl",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 86,
+      "x": 11,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_RockSmash",
+      "hideFlag": "hoenn/FLAG_TEMP_15",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 16,
+      "x": 13,
+      "y": 35,
+      "elevation": 0,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SafariZone_Northeast_EventScript_Woman",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 86,
+      "x": 8,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_RockSmash",
+      "hideFlag": "hoenn/FLAG_TEMP_13",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 86,
+      "x": 9,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_RockSmash",
+      "hideFlag": "hoenn/FLAG_TEMP_11",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 86,
+      "x": 8,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_RockSmash",
+      "hideFlag": "hoenn/FLAG_TEMP_14",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 86,
+      "x": 12,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "EventScript_RockSmash",
+      "hideFlag": "hoenn/FLAG_TEMP_12",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 59,
+      "x": 8,
+      "y": 17,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SafariZone_Northeast_EventScript_ItemNugget",
+      "hideFlag": "hoenn/FLAG_ITEM_SAFARI_ZONE_NORTH_EAST_NUGGET",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "cTBzBHEwcTBxMHEwcTBxMHEwewR8BHwEfASJBHEwdAR8BHwEiQRxMHEwcTBxMHQEfAR8BHwEfQRxMHEwcwRxMHEwcTB7BIkEcTBxMHEwcTBxMHMEcTBxMHEwcTBxMHEwcTB0BHwEiQRxMHMEcTB1BHEwcTB7BHwEfAR8BHwEfQRxMHEwcTBxMHEwcTB7BHwEfAR8BIkEcwRxMHEwcTBxMHEwcwRxMHEwcTBxMHEwcTBxMHUEcTBzBHEwcwR0BH0EdAR8BHwEfAR8BHwEiQRxMHEwcTBxMHQEfAR8BHwEfASJBHEwcwR7BHwEfASJBHEwcTBzBHEwcTBxMHEwcTBxMHQEfQRxMHsEiQR7BH0EcTB1BHEwcTBxMHEwcTB7BIkEcTBxMHQEfQRxMHEwcTBxMHsEiQR7BHwEiQRxMHsEfARxMHMEcTBxMHEwcTB0BHwEfQRxMHEwcTB7BHwEfAR8BH0EcTBxMHEwdAR8BIkEewR8BHwEfQRxMHQEiQRxMHEwcTBzBHEwcTB7BIkEcTBxMHEwcwRxMHEwdAR8BH0EcTBxMHQEfASJBHEwcTBxMHQEfAR8BHwEfAR9BHEwewR8BHwEfAR8BHwEfQR7BHwEfASJBHsEfASJBHEwcwRzBHEwcTBzBHEwdAR9BHEwdAR8BHwEfQRxMHsEfAR8BHwEfQRxMHEwcTBxMHEwcTBxMHEwcTBxMHEwcTBxMHEwcTBxMHMEcTBxMHsEiQRzBHMEcTBxMHMEdAR9BHEwcTB1BHEwcTBxMHEwcTBxMHEwcTBxMHEwdAR5BHkEeQR5BHkEeQR5BHkEeQR5BHkEiQRxMHEwcwRxMHEwcTBzBHMEcwRxMHEwewR9BHQEiQRxMHUEcTBxMHEwcTBxMHEwcTBxMHQEeQR6BAEwATABMA0wDTANMA0wDTANMA0wDTBwBHEwcTB7BHwEiQRxMHMEcwRzBHEwcTBxMHQEfQRzBHEwdQRxMHEwcTBxMHEwcTBxMHEwfAUBMAEwATABMA0wDTANMA0wDTANMA0wATABMHgErwDPAHkEiQRzBHEwcwRzBHMEcTB0BIkEdQRxMHMEcTB1BHEwcTBxMHEwcTBxMHEwdAR6BAEw0AHRAdIBATABMAEwATABMNAB0QHRAdIBATABMAEwATBwBHMEcTBzBHMEcwRxMH0EcwR1BHEwcwR0BH0EcTBxMHEwcTBxMHEwcTB8BQEw0AHZAeEB4gEBMAEwATABMAEw4AHhAeEB4gEBMAEwATABMHAEcwRxMHMEcwR7BIkEcTB7BH0EcTBzBHUEcTBxMHEwcTBxMHEwcTBxMHwFATDYAdoBATABMAEwATABMAEwATABMAEwATABMAEwATABMAEwcARzBHEwcwRzBHEwewRxMHQEiQRxMHMEdQRxMHEwcTBxMHEwcTBxMHEwfAUBMNgB2gEBMHQE8AXxBfAF8QXwBfEFrwDPAIkEATABMAEwDTBwBHMEcTBzBHMEcTBxMHwEfQRzBHEwcwR1BHEwcTBxMHEwcTBxMHEwdAR6BAEw4AHiAQEwfAXUBdUF1AXVBdQF1QUBMAEweASJBAEwDTANMHAEcwRxMHMEewSJBHEwcTBxMHMEcTB7BH0EdgSPBI8EjwSPBHcEcTB8BQEwATABMAEwATB8BdwF3QXcBd0F5AXlBdAB0gEBMHgEeQSJBA0wcARzBHEwcwRxMHsEfARxMHEwewR8BIkEcTCWBAEwATABMAEwlQRxMHwFATABMHQEeQR5BHoE1AXVBdQF1QXQAdEB2QHiAQEwATABMHAEDTBwBHMEcTBzBHEwcTBxMHEwcTBxMHEwcwRxMJYEATABMAEwATCVBHEwfAUBMAEwfAUBMAEwATDkBeUF5AXlBdgB2QHiAQEwATABMAEwcAQNMHAEewSJBHsEiQRxMHEweQR5BHkEiQR4BHkEswaHBIcEhwSHBLQGeQR6BAEwATB8BQEw0AHRAdEB0QHRAdEB2QHiAQEwATABMAEwATBwBA0wcARxMHMEcTB7BHwEfATwBfEFiQRwBA0wATABMAEwATABMAEwATABMAEwATABMHwFATDgAeEB4QHhAeEB4QHiAQEwATABMAEwATABMHgEiQR4BIkEewR8BHwEfAR8BNQF1QVwBHAEDTANMA0wDTABMAEwATABMAEwATB0BHkEegQBMAEwATABMAEwATABMAEwATABMAEwATABMAEwATBwBAEweAR8BHwEfAR8BHwE3AXdBXAEcAQNMA0wDTANMA0wDTABMAEwdAR5BHoEATABMAEwATABMAEwATABMAEwATABMAEwATABMAEwATANMHgE8AXxBfAF8QXwBfEF8AXUBdUFcARwBA0wEAcNMA0wDTANMHQEeQR6BAEwATABMAEwATABMHQErwDPAM8AfAR8BIkEATABMAEwATANMA0wDTDUBdUF1AXVBdQF1QXUBdwF3QVwBHAEDTAYMw0wDTANMA0wfAUBMAEwATDQAdIBATB0BHkEegQBMAEwATABMAEweASJBAEwATABMA0wDTANMNwF3QXcBd0F3AXdBdwF1AXVBXAEcAQNMA0wDTANMA0wDTB8BQEwATABMNgB2gEBMHwFATABMNAB0gEBMAEwATABMHgEiQQBMA0wDTANMA0w1AXVBdQF1QXUBdUF1AXcBd0FcARwBA0wDTANMA0wDTANMHwFATABMAEw2AHaAQEwfAUBMAEw2AHaAQEwATABMAEwATBwBA0wDTANMA0wDTDcBd0F3AXdBdwF3QXcBdQF1QVwBHgEeQR5BHkEeQR5BHkEegQBMAEwATDYAeIBATB8BQEwATDgAdkB0gEBMAEwATABMHAEDTANMA0wDTANMNQF1QXUBdUF1AXVBdQF3AXdBXgEeQSJBAEwATABMAEwATABMNAB0QHRAeIBATABMHwFATABMAEw4AHaAQEwATABMAEwcAQNMA0wDTANMA0w3AXdBdwF3QXcBd0F3AXUBdUFATABMHAEATABMAEwATABMAEw4AHZAdoBATABMAEwfAUBMAEwATABMNgB0gEBMAEwATBwBA0wDTANMA0wDTDUBdUF1AXVBdQF1QXUBdwF3QXOMc8xcAQBMAEwATABMAEwATABMOAB4gEBMAEwATB8BQEwATABMAEw2AHZAdIBATABMHAE4AQNMA0wDTANMNwF3QXcBd0F3AXdBdwF1AXVBdQF1wVwBAEwATABMAEwATABMAEwATABMAEwATB0BHoEATABMAEwATDgAdkB2gEBMAEweASJBA0wDTANMA0w1AXVBdQF1QXUBdUF1AXcBd0F3gXfBXAEATABMAEwATABMAEwATABMAEwATB0BHoEATABMAEwATABMAEw4AHZAdIBATABMHAEDTANMA0w4ATkBeUF3AXdBdwF3QXcBdQF1QXUBdcFeAR5BIkEATABMAEwATABMAEwdAR5BHoEATABMAEwATABMAEwATABMNgB2gEBMAEweAR5BIkE4AQBMAEwATDUBdcF1AXVBdQF3AXdBd4F3wXOMc8xeAR5BHkEeQR5BHkEeQR6BAEwATDQAdEB0QHRAdEB0QHRAdEB2QHZAdEB0gEBMAEweAR5BHkEiQQBMNwF3QXcBd0F3AXUBdUF1AXXBdQF1wUBMAEw0AHRAdEB0QHRAdEB0QHRAdkB4QHhAeEB4QHhAeEB4QHhAeEB4QHiAQEw0AHRAdIBATBwBAEw1AXVBdQF1QXUBdwF3QXeBd8F3gXfBQEw0AHZAdkB2QHhAeEB2QHZAeEB4gHOMc8xzjHPMc4xzzHOMc8xzjHPMQEwATDgAeEB4gEBMHAE4ATcBd0F3AXdBdwF1AXVBdQF1wXUBdcFATDYAdkB4QHiAQEwATDgAeIBATABMNQF1wXUBdcF1AXXBdQF1wXUBdcFATABMAEwATABMAEwcAQBMNQF1QXUBdUF1AXcBd0F3gXfBd4F3wUBMNgB2gHOMc8xzjHPMc4xzzHOMc8x3AXdBdwF3QXcBd0F3AXdBdwF3QUBMAEwATABMAEwATBwBAEw3AXdBdwF3QXcBdQF1QXUBdcF1AXXBQEw2AHaAdQF1wXUBdcF1AXXBdQF1wXUBdUF1AXVBdQF1QXUBdUF1AXVBQEwATABMAEwATABMHAEATDUBdUF1AXVBdQF3AXdBd4F3wXeBd8FATDgAeIB3AXdBdwF3QXcBd0F3AXdBdwF3QXcBd0F3AXdBdwF3QXcBd0FATABMAEw0AHSAQEwcAQBMNwF3QXcBd0F3AU=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAYGBgYAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAMAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAADAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAYGBgYAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAABAAEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQAAAAAAAAAAAAAAAQABAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEAAAAAAAAAAAAAAAEBAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAAAAAAAAAAAAAAABAQEBAQEAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEBAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+}

@@ -1,0 +1,461 @@
+{
+  "regionId": 0,
+  "bankId": 1,
+  "mapId": 92,
+  "width": 24,
+  "height": 20,
+  "paletteIdx1": 12,
+  "paletteIdx2": 47,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 306,
+  "unknownByte": 140,
+  "borderTiles": [
+    {
+      "material": 641,
+      "collision": 0
+    },
+    {
+      "material": 641,
+      "collision": 0
+    },
+    {
+      "material": 641,
+      "collision": 0
+    },
+    {
+      "material": 641,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "STEADY_MIST",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_POKEMON_TOWER_5F",
+      "base_label": "sPokemonTower5F_FireRed",
+      "land_mons": {
+        "encounter_rate": 6,
+        "mons": [
+          {
+            "min_level": 15,
+            "max_level": 15,
+            "species": "SPECIES_GASTLY"
+          },
+          {
+            "min_level": 16,
+            "max_level": 16,
+            "species": "SPECIES_GASTLY"
+          },
+          {
+            "min_level": 17,
+            "max_level": 17,
+            "species": "SPECIES_GASTLY"
+          },
+          {
+            "min_level": 13,
+            "max_level": 13,
+            "species": "SPECIES_GASTLY"
+          },
+          {
+            "min_level": 14,
+            "max_level": 14,
+            "species": "SPECIES_GASTLY"
+          },
+          {
+            "min_level": 18,
+            "max_level": 18,
+            "species": "SPECIES_GASTLY"
+          },
+          {
+            "min_level": 20,
+            "max_level": 20,
+            "species": "SPECIES_HAUNTER"
+          },
+          {
+            "min_level": 15,
+            "max_level": 15,
+            "species": "SPECIES_CUBONE"
+          },
+          {
+            "min_level": 17,
+            "max_level": 17,
+            "species": "SPECIES_GASTLY"
+          },
+          {
+            "min_level": 17,
+            "max_level": 17,
+            "species": "SPECIES_CUBONE"
+          },
+          {
+            "min_level": 17,
+            "max_level": 17,
+            "species": "SPECIES_GASTLY"
+          },
+          {
+            "min_level": 19,
+            "max_level": 19,
+            "species": "SPECIES_GASTLY"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [
+    {
+      "x": 10,
+      "y": 8,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "PokemonTower_5F_EventScript_PurifiedZone"
+    },
+    {
+      "x": 11,
+      "y": 8,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "PokemonTower_5F_EventScript_PurifiedZone"
+    },
+    {
+      "x": 12,
+      "y": 8,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "PokemonTower_5F_EventScript_PurifiedZone"
+    },
+    {
+      "x": 10,
+      "y": 9,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "PokemonTower_5F_EventScript_PurifiedZone"
+    },
+    {
+      "x": 9,
+      "y": 8,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 1,
+      "script": "PokemonTower_5F_EventScript_ExitPurifiedZone"
+    },
+    {
+      "x": 12,
+      "y": 9,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "PokemonTower_5F_EventScript_PurifiedZone"
+    },
+    {
+      "x": 10,
+      "y": 10,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "PokemonTower_5F_EventScript_PurifiedZone"
+    },
+    {
+      "x": 11,
+      "y": 10,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "PokemonTower_5F_EventScript_PurifiedZone"
+    },
+    {
+      "x": 12,
+      "y": 10,
+      "elevation": 0,
+      "varKey": "VAR_TEMP_1",
+      "value": 0,
+      "script": "PokemonTower_5F_EventScript_PurifiedZone"
+    },
+    {
+      "x": 9,
+      "y": 9,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 1,
+      "script": "PokemonTower_5F_EventScript_ExitPurifiedZone"
+    },
+    {
+      "x": 9,
+      "y": 10,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 1,
+      "script": "PokemonTower_5F_EventScript_ExitPurifiedZone"
+    },
+    {
+      "x": 10,
+      "y": 11,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 1,
+      "script": "PokemonTower_5F_EventScript_ExitPurifiedZone"
+    },
+    {
+      "x": 11,
+      "y": 11,
+      "elevation": 3,
+      "varKey": "VAR_TEMP_1",
+      "value": 1,
+      "script": "PokemonTower_5F_EventScript_ExitPurifiedZone"
+    },
+    {
+      "x": 12,
+      "y": 11,
+      "elevation": 0,
+      "varKey": "VAR_TEMP_1",
+      "value": 1,
+      "script": "PokemonTower_5F_EventScript_ExitPurifiedZone"
+    },
+    {
+      "x": 13,
+      "y": 8,
+      "elevation": 0,
+      "varKey": "VAR_TEMP_1",
+      "value": 1,
+      "script": "PokemonTower_5F_EventScript_ExitPurifiedZone"
+    },
+    {
+      "x": 13,
+      "y": 9,
+      "elevation": 0,
+      "varKey": "VAR_TEMP_1",
+      "value": 1,
+      "script": "PokemonTower_5F_EventScript_ExitPurifiedZone"
+    },
+    {
+      "x": 13,
+      "y": 10,
+      "elevation": 0,
+      "varKey": "VAR_TEMP_1",
+      "value": 1,
+      "script": "PokemonTower_5F_EventScript_ExitPurifiedZone"
+    }
+  ],
+  "bgEvents": [
+    {
+      "x": 7,
+      "y": 3,
+      "elevation": 3,
+      "facingDir": "ANY",
+      "script": "0x0"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 4,
+      "y": 10,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 91,
+      "targetX": 4,
+      "targetY": 10,
+      "targetElevation": 2
+    },
+    {
+      "x": 18,
+      "y": 10,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 93,
+      "targetX": 18,
+      "targetY": 10,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 58,
+      "x": 11,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "PokemonTower_5F_EventScript_Ruth",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 58,
+      "x": 19,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "PokemonTower_5F_EventScript_Tammy",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 58,
+      "x": 7,
+      "y": 12,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "PokemonTower_5F_EventScript_Karina",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 58,
+      "x": 11,
+      "y": 16,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "PokemonTower_5F_EventScript_Janae",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 58,
+      "x": 12,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "PokemonTower_5F_EventScript_Channeler",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 92,
+      "x": 6,
+      "y": 16,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PokemonTower_5F_EventScript_ItemNugget",
+      "hideFlag": "kanto/FLAG_HIDE_POKEMON_TOWER_5F_NUGGET",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 92,
+      "x": 11,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PokemonTower_5F_EventScript_ItemCleanseTag",
+      "hideFlag": "kanto/FLAG_HIDE_POKEMON_TOWER_5F_CLEANSE_TAG",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "gQaBBoEGgQaBBoEGgQaBBowGmAaYBpgGmAaYBo0GgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGjAaYBogGoAagBqAGoAagBpAGmAaNBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaMBpgGiAagBqAGkjKEMoQyhDKEMqAGoAaQBpgGjQaBBoEGgQaBBoEGgQaBBoEGjAaIBqAGoAaSMoQyjjKCMoIygjKCMoQyhDKgBqAGkAaNBoEGgQaBBoEGgQaBBowGiAagBpIyhDKTBpEGkQaRBoIygjKRBpEGkQaEMoQyoAaQBo0GgQaBBoEGgQaBBooGoAaSMo4ykQaRBoIygjKCMoIygjKCMoIykQaRBpEGhDKgBosGgQaBBoEGgQaBBogGkjKOMoIygjKCMoIygjKCMoIygjKCMoIygjKCMoIygjKEMpAGgQaBBoEGgQaBBqAGhTKCMoIygjKCMpEGkQaRBpEGkQaCMoIygjKCMoIygjKCMqAGgQaBBoEGgQaBBpIyjjKCMpEGkQaRBoIygjKZMpoymzKCMoIykQaRBpEGgjKRBr82gQaBBoEGgQaBBr4GpganMpEGkQaRBoIygjKhMqIyozKCMoIykQaRBpEGlDKdBp8GgQaBBoEGgQaBBq0GrgavMpEGkQaRBoIygjKpMqoyqzKCMoIykQaRBpEGqDKWBqQGgQaBBoEGgQaBBrUGtga3MpEGgjKCMoIygjKCMoIygjKRBpEGgjKCMoIynDKeBqwGgQaBBoEGgQaBBoUygjKCMpEGgjKCMoIygjKRBpEGkQaCMoIygjKCMoIygjKCMoIygQaBBoEGgQaBBoEGgjKCMpEGkQaCMoIygjKCMoIygjKCMoIygjKCMpEGkQaRBoEGgQaBBoEGgQaBBoEGgjKCMpEGkQaCMoIygjKCMoIygjKCMoIygjKRBoIygjKCMoEGgQaBBoEGgQaBBoEGgQaCMoIykQaRBpEGkQaCMoIygjKRBpEGkQaCMoIygjKBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgjKCMoIygjKCMoIygjKCMoIygjKCMoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgjKCMoIygjKCMoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEGgQaBBoEG",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

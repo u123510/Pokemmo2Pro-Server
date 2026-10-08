@@ -1,0 +1,199 @@
+{
+  "regionId": 0,
+  "bankId": 2,
+  "mapId": 31,
+  "width": 23,
+  "height": 17,
+  "paletteIdx1": 12,
+  "paletteIdx2": 60,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 334,
+  "unknownByte": 192,
+  "borderTiles": [
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_SEVEN_ISLAND_TANOBY_RUINS_SCUFIB_CHAMBER",
+      "base_label": "sSevenIslandTanobyRuinsScufibChamber_FireRed",
+      "land_mons": {
+        "encounter_rate": 7,
+        "mons": [
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_UNOWN"
+          },
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_UNOWN"
+          },
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_UNOWN"
+          },
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_UNOWN"
+          },
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_UNOWN"
+          },
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_UNOWN"
+          },
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_UNOWN"
+          },
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_UNOWN"
+          },
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_UNOWN"
+          },
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_UNOWN"
+          },
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_UNOWN"
+          },
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_UNOWN"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "SevenIsland_TanobyRuins_ScufibChamber_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 11,
+      "y": 15,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 65,
+      "targetX": 32,
+      "targetY": 9,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [],
+  "blockData": "wAaSBoIGhgaCBoIGhgaCBoIGhgaCBoIGggaGBoIGggaGBoIGggaGBoIGmgaPBqwGlgaHBooGhwaHBooGhwaHBooGhwaHBocGigaHBocGigaHBocGigaHBpcGrwasBp4y3DKOMt0y3DKOMt0y3DKOMt0y3DLcMo4y3TLcMo4y3TLcMo4y3TKfMq8GrAaQMogyyDKhMsMyoTLRMogy0DKhMqEyoTKmMogy0DKhMqEywzKiMogyiDKvBqwGkDKIMsIGuQbWBtYGrga/MtIGuQbWBtYGrga/MtIGuQbWBtYG1wa/MogyrwasBpAyiDKoBrsyvDK8MrwyvjK8MrwyvDK8MrwyvjK8MrwyvDK8MtcGvTKIMq8GrAaQMogy2wa9MsgywzKhMqEyoTLRMogypTKhMqEywzKhMskyiDLaBr0yiDKvBqwGkDKIMrMGvTKoBrkG1gbWBrkG0wa/MtIGuQa5BrkGuQaoBr8yswa9MogyrwasBpAyiDK8Mr4ywga7MrwyvDK8MrwyvjK8MrwyvDK8Mrwy1wa9MrwyvjKIMq8GrAaQMogyyjKIMrAGqTKhMqEyoTKmMogypTKhMqEyoTKhMtkGvTKjMogyiDKvBqwGkDKIMqgGvzLSBrkG1gbWBtYGrga/Mq0G1gbWBtYGuQbTBr0yqAa/MogyrwasBpAyiDLCBr0yvDK8MrwyvDK8MrwyvjK8MrwyvDK8MrwyvDK+MtcGvTKIMq8GrAaQMogy2AapMsMywzKmMogypTKhMsMyoTLRMogy0DLDMqEyoTLZBr0yiDKvBqwGkDKIMtIG1gbWBtYGrga/MtIG1ga5BtYGrga/Mq0GuQbWBtYG0wa9MogyrwasBpAyiDK8MrwyvDK8MrwyvjK8MrwyvDK8MrwyvjK8MrwyvDK8MrwyvjKIMq8GrAaQMogyiDKIMogyiDKIMogyiDKIMsEyiDKIMogyiDKIMogyiDKIMogyiDKvBrQGmAa1BrUGtQa1BrUGtQa1BrUGtQa2BrUGtQa1BrUGtQa1BrUGtQa1BrUGtwY=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+}

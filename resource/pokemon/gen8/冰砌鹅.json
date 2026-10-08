@@ -1,0 +1,127 @@
+{
+	"id": 875,
+	"name": "[875]冰砌鹅",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 14,
+	"weight": 890,
+	"egg_groups": [
+		"水1组",
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 181,
+			"name": "[181]细雪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 54,
+			"name": "[54]白雾",
+			"type": "level",
+			"level": 6
+		},
+		{
+			"id": 311,
+			"name": "[311]气象球",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 196,
+			"name": "[196]冰冻之风",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 29,
+			"name": "[29]头锤",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 133,
+			"name": "[133]瞬间失忆",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 573,
+			"name": "[573]冷冻干燥",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 258,
+			"name": "[258]冰雹",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 694,
+			"name": "[694]极光幕",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 57,
+			"name": "[57]冲浪",
+			"type": "level",
+			"level": 54
+		},
+		{
+			"id": 59,
+			"name": "[59]暴风雪",
+			"type": "level",
+			"level": 60
+		}
+	],
+	"types": [
+		"ICE"
+	],
+	"stats": {
+		"hp": 75,
+		"attack": 80,
+		"defense": 110,
+		"speed": 65,
+		"sp_attack": 90,
+		"sp_defense": 50
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 2,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

@@ -1,0 +1,226 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 100,
+  "width": 21,
+  "height": 22,
+  "paletteIdx1": 100,
+  "paletteIdx2": 119,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 366,
+  "unknownByte": 202,
+  "borderTiles": [
+    {
+      "material": 529,
+      "collision": 0
+    },
+    {
+      "material": 529,
+      "collision": 0
+    },
+    {
+      "material": 529,
+      "collision": 0
+    },
+    {
+      "material": 529,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_ARTISAN_CAVE_1F",
+      "base_label": "gArtisanCave_1F",
+      "land_mons": {
+        "encounter_rate": 10,
+        "mons": [
+          {
+            "min_level": 40,
+            "max_level": 40,
+            "species": "SPECIES_SMEARGLE"
+          },
+          {
+            "min_level": 41,
+            "max_level": 41,
+            "species": "SPECIES_SMEARGLE"
+          },
+          {
+            "min_level": 42,
+            "max_level": 42,
+            "species": "SPECIES_SMEARGLE"
+          },
+          {
+            "min_level": 43,
+            "max_level": 43,
+            "species": "SPECIES_SMEARGLE"
+          },
+          {
+            "min_level": 44,
+            "max_level": 44,
+            "species": "SPECIES_SMEARGLE"
+          },
+          {
+            "min_level": 45,
+            "max_level": 45,
+            "species": "SPECIES_SMEARGLE"
+          },
+          {
+            "min_level": 46,
+            "max_level": 46,
+            "species": "SPECIES_SMEARGLE"
+          },
+          {
+            "min_level": 47,
+            "max_level": 47,
+            "species": "SPECIES_SMEARGLE"
+          },
+          {
+            "min_level": 48,
+            "max_level": 48,
+            "species": "SPECIES_SMEARGLE"
+          },
+          {
+            "min_level": 49,
+            "max_level": 49,
+            "species": "SPECIES_SMEARGLE"
+          },
+          {
+            "min_level": 50,
+            "max_level": 50,
+            "species": "SPECIES_SMEARGLE"
+          },
+          {
+            "min_level": 50,
+            "max_level": 50,
+            "species": "SPECIES_SMEARGLE"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 10,
+      "y": 17,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 76,
+      "targetMapId": 14,
+      "targetX": 28,
+      "targetY": 7,
+      "targetElevation": 0
+    },
+    {
+      "x": 6,
+      "y": 5,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 99,
+      "targetX": 38,
+      "targetY": 5,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 59,
+      "x": 14,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "ArtisanCave_1F_EventScript_ItemCarbos",
+      "hideFlag": "hoenn/FLAG_ITEM_ARTISAN_CAVE_1F_CARBOS",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "ETYRNhE2ETYRNhE2ETYRNhE2ETYRNhE2ETYRNhE2ETYRNhE2ETYRNhE2ETYRNhE2ETYRNhE2ETYRNhE2ETYRNhE2ETYRNhE2ETYRNhE2ETYRNhE2ETYRNhE2GwYZBhkGGQYZBhkGHAYRNhsGGQYZBhkGGQYZBhwGETYRNhE2ETYRNhE2EgYbBhkGGQYZBhwGEAYRNhIGGwYZBhkGGQYcBhAGETYRNhE2ETYRNhE2EgYSBhsGGQYcBhAGEAYRNhIGEgYbBhkGHAYQBhAGETYRNhE2ETYRNhE2EgYSBhIGPzIQBhAGEAYRNhIGEgYSBhEyEAYQBhAGETYRNhE2ETYRNhE2EgYSBhIGETIQBhAGEAYRNhIGEgYSBhEyEAYQBhAGETYRNhE2ETYRNhE2EgYSBhIGETIQBhAGEAYRNhIGEgYSBhEyEAYQBhAGETYRNhE2ETYRNhE2EgYSBhIGETIQBhAGEAYRNhIGEgYSBhEyEAYQBhAGETYRNhE2ETYRNhE2EgYSBhIGETIQBhAGGAYZBhoGEgYSBhEyEAYQBhAGETYRNhE2ETYRNhE2EgYSBhIGETIQBhgGGQYZBhkGGgYSBhEyEAYQBhAGETYRNhE2ETYRNhE2EgYSBhIGETIYBhkGHAYRNhsGGQZVBhEyEAYQBhAGETYRNhE2ETYRNhE2EgYSBhIGETIRMhEyEAYRNhIGETIRMhEyEAYQBhAGETYRNhE2ETYRNhE2EgYSBhIGETIRMhEyEAYRNhIGETIRMhEyEAYQBhAGETYRNhE2ETYRNhE2CTYJNgk2IgYRMhEyGAYZBlUGETIRMiAGCTYJNgk2ETYRNhE2ETYRNhE2ETYRNhE2EgYiBhEyETIRMhEyETIgBhAGETYRNhE2ETYRNhE2ETYRNhE2ETYRNhE2EgYSBiIGETIRMhEyIAYQBhAGETYRNhE2ETYRNhE2ETYRNhE2ETYRNhE2EgYSBhIGETI8AhEyEAYQBhAGETYRNhE2ETYRNhE2ETYRNhE2ETYRNhE2EgYSBgk2WAZZBloGCTYQBhAGETYRNhE2ETYRNhE2ETYRNhE2ETYRNhE2EgYJNgk2CTYJNgk2CTYJNhAGETYRNhE2ETYRNhE2ETYRNhE2ETYRNhE2CTYJNgk2CTYJNgk2CTYJNgk2ETYRNhE2ETYRNhE2ETYRNhE2ETYRNhE2ETYRNhE2ETYRNhE2ETYRNhE2ETYRNhE2ETYRNhE2",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

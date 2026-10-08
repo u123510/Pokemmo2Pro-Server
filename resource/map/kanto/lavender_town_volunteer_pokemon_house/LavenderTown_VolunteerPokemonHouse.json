@@ -1,0 +1,264 @@
+{
+  "regionId": 0,
+  "bankId": 8,
+  "mapId": 2,
+  "width": 12,
+  "height": 9,
+  "paletteIdx1": 12,
+  "paletteIdx2": 52,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 280,
+  "unknownByte": 92,
+  "borderTiles": [
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 5,
+      "y": 4,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LavenderTown_VolunteerPokemonHouse_EventScript_PokemonFanMagazine"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LavenderTown_VolunteerPokemonHouse_EventScript_Bookshelf"
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LavenderTown_VolunteerPokemonHouse_EventScript_Bookshelf"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 3,
+      "y": 7,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 4,
+      "targetX": 10,
+      "targetY": 11,
+      "targetElevation": 0
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 4,
+      "targetX": 10,
+      "targetY": 11,
+      "targetElevation": 0
+    },
+    {
+      "x": 5,
+      "y": 7,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 4,
+      "targetX": 10,
+      "targetY": 11,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 78,
+      "x": 3,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LavenderTown_VolunteerPokemonHouse_EventScript_MrFuji",
+      "hideFlag": "kanto/FLAG_HIDE_POKEHOUSE_FUJI",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 124,
+      "x": 1,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LavenderTown_VolunteerPokemonHouse_EventScript_Nidorino",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 121,
+      "x": 9,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "LavenderTown_VolunteerPokemonHouse_EventScript_Psyduck",
+      "hideFlag": "",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 16,
+      "x": 9,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LavenderTown_VolunteerPokemonHouse_EventScript_LittleBoy",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 18,
+      "x": 3,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LavenderTown_VolunteerPokemonHouse_EventScript_Youngster",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 17,
+      "x": 7,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LavenderTown_VolunteerPokemonHouse_EventScript_LittleGirl",
+      "hideFlag": "",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "hAazBrMGIwckB9cGhQaFBrMGswazBoYGjAbTBtQGJQcmBzUEjQaNBvcGuwa7Bo4GlDLbMtwyKDMpM+cyDTOVMvYG7jLuMvEyjzKHMocyhzKHMocyhzKHMvIG8zL0MvUGDgeHMocyhzIHM7cG+QYHM4cyhzKHMuEG6QaHMocyhzIHM6UGpwYHM4cyhzKHMukG0jKHMocyhzKHMocyhzKHMocyhzKHMtEy2gaHMocy4jLjMuQyhzKHMocyhzKHMtkGCAQIBAgEGgQbBBwECAQIBAgECAQIBAgE",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAAAAAAAAAAAA"
+}

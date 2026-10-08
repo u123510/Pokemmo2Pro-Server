@@ -1,0 +1,127 @@
+{
+	"id": 1076,
+	"name": "[1076]砰头小丑",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 18,
+	"weight": 130,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 52,
+			"name": "[52]火花",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 310,
+			"name": "[310]惊吓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 277,
+			"name": "[277]魔法反射",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 500,
+			"name": "[500]辅助力量",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 481,
+			"name": "[481]烈焰溅射",
+			"type": "level",
+			"level": 17
+		},
+		{
+			"id": 101,
+			"name": "[101]黑夜魔影",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 113,
+			"name": "[113]光墙",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 347,
+			"name": "[347]冥想",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 126,
+			"name": "[126]大字爆炎",
+			"type": "level",
+			"level": 37
+		},
+		{
+			"id": 247,
+			"name": "[247]暗影球",
+			"type": "level",
+			"level": 41
+		},
+		{
+			"id": 271,
+			"name": "[271]戏法",
+			"type": "level",
+			"level": 47
+		},
+		{
+			"id": 720,
+			"name": "[720]惊爆大头",
+			"type": "level",
+			"level": 59
+		}
+	],
+	"types": [
+		"FIRE",
+		"GHOST"
+	],
+	"stats": {
+		"hp": 53,
+		"attack": 127,
+		"defense": 53,
+		"speed": 151,
+		"sp_attack": 79,
+		"sp_defense": 107
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 3,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

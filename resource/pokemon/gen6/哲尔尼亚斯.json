@@ -1,0 +1,162 @@
+{
+	"id": 716,
+	"name": "[716]哲尔尼亚斯",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 30,
+	"weight": 2150,
+	"egg_groups": [
+		"未发现蛋组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 36,
+			"name": "[36]猛撞",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 275,
+			"name": "[275]扎根",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 312,
+			"name": "[312]芳香治疗",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 505,
+			"name": "[505]治愈波动",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 113,
+			"name": "[113]光墙",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 62,
+			"name": "[62]极光束",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 356,
+			"name": "[356]重力",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 601,
+			"name": "[601]大地掌控",
+			"type": "level",
+			"level": 26
+		},
+		{
+			"id": 585,
+			"name": "[585]月亮之力",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 224,
+			"name": "[224]超级角击",
+			"type": "level",
+			"level": 44
+		},
+		{
+			"id": 400,
+			"name": "[400]暗袭要害",
+			"type": "level",
+			"level": 51
+		},
+		{
+			"id": 532,
+			"name": "[532]木角",
+			"type": "level",
+			"level": 55
+		},
+		{
+			"id": 244,
+			"name": "[244]自我暗示",
+			"type": "level",
+			"level": 59
+		},
+		{
+			"id": 581,
+			"name": "[581]薄雾场地",
+			"type": "level",
+			"level": 63
+		},
+		{
+			"id": 267,
+			"name": "[267]自然之力",
+			"type": "level",
+			"level": 72
+		},
+		{
+			"id": 370,
+			"name": "[370]近身战",
+			"type": "level",
+			"level": 80
+		},
+		{
+			"id": 416,
+			"name": "[416]终极冲击",
+			"type": "level",
+			"level": 88
+		},
+		{
+			"id": 200,
+			"name": "[200]逆鳞",
+			"type": "level",
+			"level": 93
+		}
+	],
+	"types": [
+		"FAIRY"
+	],
+	"stats": {
+		"hp": 126,
+		"attack": 131,
+		"defense": 95,
+		"speed": 131,
+		"sp_attack": 98,
+		"sp_defense": 99
+	},
+	"yields": {
+		"ev_hp": 3,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

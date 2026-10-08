@@ -1,0 +1,164 @@
+{
+	"id": 948,
+	"name": "[948]原野水母",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 9,
+	"weight": 330,
+	"egg_groups": [
+		"植物组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 949,
+			"name": "[949]陆地水母",
+			"type": "LEVEL",
+			"val": 30
+		}
+	],
+	"moves": [
+		{
+			"id": 35,
+			"name": "[35]紧束",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 189,
+			"name": "[189]掷泥",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 71,
+			"name": "[71]吸取",
+			"type": "level",
+			"level": 4
+		},
+		{
+			"id": 77,
+			"name": "[77]毒粉",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 78,
+			"name": "[78]麻痹粉",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 48,
+			"name": "[48]超音波",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 72,
+			"name": "[72]超级吸取",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 103,
+			"name": "[103]刺耳声",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 341,
+			"name": "[341]泥巴射击",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 506,
+			"name": "[506]祸不单行",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 402,
+			"name": "[402]种子炸弹",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 147,
+			"name": "[147]蘑菇孢子",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 74,
+			"name": "[74]生长",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 202,
+			"name": "[202]终极吸取",
+			"type": "level",
+			"level": 44
+		},
+		{
+			"id": 414,
+			"name": "[414]大地之力",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 438,
+			"name": "[438]强力鞭打",
+			"type": "level",
+			"level": 52
+		}
+	],
+	"types": [
+		"GROUND",
+		"GRASS"
+	],
+	"stats": {
+		"hp": 40,
+		"attack": 40,
+		"defense": 35,
+		"speed": 50,
+		"sp_attack": 100,
+		"sp_defense": 70
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 1,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

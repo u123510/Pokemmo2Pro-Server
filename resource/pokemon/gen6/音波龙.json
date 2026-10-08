@@ -1,0 +1,188 @@
+{
+	"id": 715,
+	"name": "[715]音波龙",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 15,
+	"weight": 850,
+	"egg_groups": [
+		"飞行组",
+		"龙组"
+	],
+	"abilities": [
+		{
+			"id": 119,
+			"name": "[119]特性119"
+		},
+		{
+			"id": 151,
+			"name": "[151]特性151"
+		},
+		{
+			"id": 140,
+			"name": "[140]特性140"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 48,
+			"name": "[48]超音波",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 103,
+			"name": "[103]刺耳声",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 236,
+			"name": "[236]月光",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 406,
+			"name": "[406]龙之波动",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 542,
+			"name": "[542]暴风",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 586,
+			"name": "[586]爆音波",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 141,
+			"name": "[141]吸血",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 16,
+			"name": "[16]起风",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 17,
+			"name": "[17]翅膀攻击",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 97,
+			"name": "[97]高速移动",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 314,
+			"name": "[314]空气利刃",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 355,
+			"name": "[355]羽栖",
+			"type": "level",
+			"level": 27
+		},
+		{
+			"id": 13,
+			"name": "[13]旋风刀",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 366,
+			"name": "[366]顺风",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 18,
+			"name": "[18]吹飞",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 162,
+			"name": "[162]愤怒门牙",
+			"type": "level",
+			"level": 43
+		},
+		{
+			"id": 403,
+			"name": "[403]空气斩",
+			"type": "level",
+			"level": 53
+		},
+		{
+			"id": 542,
+			"name": "[542]暴风",
+			"type": "level",
+			"level": 62
+		},
+		{
+			"id": 406,
+			"name": "[406]龙之波动",
+			"type": "level",
+			"level": 70
+		},
+		{
+			"id": 586,
+			"name": "[586]爆音波",
+			"type": "level",
+			"level": 75
+		}
+	],
+	"types": [
+		"FLYING",
+		"DRAGON"
+	],
+	"stats": {
+		"hp": 85,
+		"attack": 70,
+		"defense": 80,
+		"speed": 97,
+		"sp_attack": 80,
+		"sp_defense": 123
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 2
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

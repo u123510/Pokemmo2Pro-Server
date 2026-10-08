@@ -1,0 +1,215 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 10,
+  "width": 15,
+  "height": 14,
+  "paletteIdx1": 100,
+  "paletteIdx2": 119,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 366,
+  "unknownByte": 55,
+  "borderTiles": [
+    {
+      "material": 529,
+      "collision": 0
+    },
+    {
+      "material": 529,
+      "collision": 0
+    },
+    {
+      "material": 529,
+      "collision": 0
+    },
+    {
+      "material": 529,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_GRANITE_CAVE_STEVENS_ROOM",
+      "base_label": "gGraniteCave_StevensRoom",
+      "land_mons": {
+        "encounter_rate": 10,
+        "mons": [
+          {
+            "min_level": 7,
+            "max_level": 7,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 8,
+            "max_level": 8,
+            "species": "SPECIES_MAKUHITA"
+          },
+          {
+            "min_level": 7,
+            "max_level": 7,
+            "species": "SPECIES_MAKUHITA"
+          },
+          {
+            "min_level": 8,
+            "max_level": 8,
+            "species": "SPECIES_ZUBAT"
+          },
+          {
+            "min_level": 9,
+            "max_level": 9,
+            "species": "SPECIES_MAKUHITA"
+          },
+          {
+            "min_level": 8,
+            "max_level": 8,
+            "species": "SPECIES_ABRA"
+          },
+          {
+            "min_level": 10,
+            "max_level": 10,
+            "species": "SPECIES_MAKUHITA"
+          },
+          {
+            "min_level": 6,
+            "max_level": 6,
+            "species": "SPECIES_MAKUHITA"
+          },
+          {
+            "min_level": 7,
+            "max_level": 7,
+            "species": "SPECIES_ARON"
+          },
+          {
+            "min_level": 8,
+            "max_level": 8,
+            "species": "SPECIES_ARON"
+          },
+          {
+            "min_level": 7,
+            "max_level": 7,
+            "species": "SPECIES_ARON"
+          },
+          {
+            "min_level": 8,
+            "max_level": 8,
+            "species": "SPECIES_ARON"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 7,
+      "y": 3,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 7,
+      "targetX": 5,
+      "targetY": 10,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 134,
+      "x": 7,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "GraniteCave_StevensRoom_EventScript_Steven",
+      "hideFlag": "hoenn/FLAG_HIDE_GRANITE_CAVE_STEVEN",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "EQYRBhEGEQYRBhsGGQYZBhkGHAYRBhEGEQYRBhEGEQYbBhkGGQYZBhoGEQYRBhEGGAYZBhkGHAYRBhEGEQYSBhEGGwYZBhkGCwYMBg0GGQYZBhwGEAYRBhEGEQYSBhsGGgYbBhkGEwYUMhUGHAYRBhAGGAYcBhEGEQYSBhIGEQYSBgEyATIBMgEyEAYRBhAGEQYQBhEGEQYSBhIGGwYaBgMGATIBMgEyEAYRBhgGHAYQBhEGEQYSBhIGEgYBMgEyATIBMgEyGAYZBhwGEAYQBhEGEQYSBhIGEgYBMgEyATIBMgEyATIBMhAGEAYQBhEGEQYSBhIGEgYBMgEyATIBMgEyATIDBhAGEAYQBhEGEQYSBhIGJAYhBgoGATIBMgEyATIBMhAGEAYQBhEGEQYSBiQGCgYRBhIGATICBgEyATIBMhAGEAYQBhEGEQYkBgoGEgYCBiQGIQYhBiEGIQYhBiQGEAYQBhEGEQYRBhIGJAYhBiEGIQYhBiEGIQYhBiEGJAYQBhEGEQYRBiQGIQYhBiEGIQYhBiEGIQYhBiEGIQYkBhEG",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

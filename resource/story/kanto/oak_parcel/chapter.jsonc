@@ -1,0 +1,151 @@
+{
+  "id": "kanto.oak_parcel",
+  "version": 2,
+  "enabled": true,
+  "startNode": "pickup",
+  "triggers": [
+    {
+      "type": "MAP_READY",
+      "map": "ViridianCity_Mart",
+      "startNode": "pickup",
+      "conditions": [
+        {"type": "STORY_STAGE_AT_LEAST", "value": 4},
+        {"type": "PARCEL_NEEDS_PICKUP"}
+      ]
+    },
+    {
+      "type": "MAP_READY",
+      "map": "PalletTown_ProfessorOaksLab",
+      "startNode": "pokedex",
+      "conditions": [
+        {"type": "PARCEL_PHASE_EQUALS", "value": "POKEDEX"}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "ViridianCity_Mart",
+      "entityIdx": 0,
+      "preemptShop": true,
+      "startNode": "pickup",
+      "conditions": [
+        {"type": "STORY_STAGE_AT_LEAST", "value": 4},
+        {"type": "PARCEL_NEEDS_PICKUP"}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "PalletTown_ProfessorOaksLab",
+      "entityIdx": 3,
+      "preemptShop": true,
+      "startNode": "deliver",
+      "conditions": [
+        {"type": "PARCEL_PHASE_EQUALS", "value": "DELIVER"}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "PalletTown_ProfessorOaksLab",
+      "entityIdx": 3,
+      "preemptShop": true,
+      "startNode": "pokedex",
+      "conditions": [
+        {"type": "PARCEL_PHASE_EQUALS", "value": "POKEDEX"}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "PalletTown_ProfessorOaksLab",
+      "entityIdx": 3,
+      "startNode": "go_to_city",
+      "conditions": [
+        {"type": "PARCEL_PHASE_EQUALS", "value": "PICKUP"}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "PalletTown_ProfessorOaksLab",
+      "entityIdx": 3,
+      "startNode": "advice",
+      "conditions": [
+        {"type": "PARCEL_PHASE_EQUALS", "value": "COMPLETE"}
+      ]
+    }
+  ],
+  "actors": {
+    "clerk": {"map": "ViridianCity_Mart", "entityIdx": 0},
+    "oak": {"map": "PalletTown_ProfessorOaksLab", "entityIdx": 3}
+  },
+  "resources": {
+    "parcelItem": 349,
+    "ballItem": 5004,
+    "ballCount": 5
+  },
+  "nodes": {
+    "pickup": {
+      "actions": [
+        {"type": "DIALOGUE", "actor": "clerk", "text": "martGreeting"},
+        {"type": "DIALOGUE", "actor": "clerk", "text": "martRequest"},
+        {"type": "PARCEL_OPERATION", "operation": "PICKUP"},
+        {"type": "DIALOGUE", "actor": "clerk", "text": "parcelReceived"},
+        {"type": "DIALOGUE", "actor": "clerk", "text": "martThanks"},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "deliver": {
+      "actions": [
+        {"type": "DIALOGUE", "actor": "oak", "text": "oakGreeting"},
+        {"type": "PARCEL_OPERATION", "operation": "DELIVER"},
+        {"type": "DIALOGUE", "actor": "oak", "text": "parcelDelivered"},
+        {"type": "DIALOGUE", "actor": "oak", "text": "oakThanks"},
+        {"type": "GOTO", "node": "pokedex"}
+      ]
+    },
+    "pokedex": {
+      "actions": [
+        {"type": "DIALOGUE", "actor": "oak", "text": "dexRequest"},
+        {"type": "DIALOGUE", "actor": "oak", "text": "dexDescription"},
+        {"type": "DIALOGUE", "actor": "oak", "text": "dexOffer"},
+        {"type": "PARCEL_OPERATION", "operation": "RECEIVE_POKEDEX"},
+        {"type": "DIALOGUE", "actor": "oak", "text": "dexReceived"},
+        {"type": "DIALOGUE", "actor": "oak", "text": "ballIntroduction"},
+        {"type": "DIALOGUE", "actor": "oak", "text": "ballsReceived"},
+        {"type": "DIALOGUE", "actor": "oak", "text": "catchAdvice"},
+        {"type": "DIALOGUE", "actor": "oak", "text": "oakDream"},
+        {"type": "DIALOGUE", "actor": "oak", "text": "depart"},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "advice": {
+      "actions": [
+        {"type": "DIALOGUE", "actor": "oak", "text": "returnAdvice"},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "go_to_city": {
+      "actions": [
+        {"type": "DIALOGUE", "actor": "oak", "text": "goToCity"},
+        {"type": "CLOSE_SCENE"}
+      ]
+    }
+  },
+  "text": {
+    "martGreeting": 1638938,
+    "martRequest": 1638970,
+    "parcelReceived": 1639049,
+    "martThanks": 1639103,
+    "oakGreeting": 1631237,
+    "parcelDelivered": 1631407,
+    "oakThanks": 1631434,
+    "dexRequest": 1631496,
+    "dexDescription": 1631542,
+    "dexOffer": 1631685,
+    "dexReceived": 1631722,
+    "ballIntroduction": 1631762,
+    "ballsReceived": 1631923,
+    "catchAdvice": 1631952,
+    "oakDream": 1632132,
+    "depart": 1632369,
+    "goToCity": 1631024,
+    "returnAdvice": 1632654
+  }
+}

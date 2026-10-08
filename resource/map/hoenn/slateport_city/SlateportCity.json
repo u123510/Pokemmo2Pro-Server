@@ -1,0 +1,981 @@
+{
+  "regionId": 1,
+  "bankId": 50,
+  "mapId": 1,
+  "width": 40,
+  "height": 60,
+  "paletteIdx1": 100,
+  "paletteIdx2": 104,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 433,
+  "unknownByte": 8,
+  "borderTiles": [
+    {
+      "material": 368,
+      "collision": 0
+    },
+    {
+      "material": 368,
+      "collision": 0
+    },
+    {
+      "material": 368,
+      "collision": 0
+    },
+    {
+      "material": 368,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "REGULAR_WEATHER",
+  "mapType": "CITY",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_SLATEPORT_CITY",
+      "base_label": "gSlateportCity",
+      "water_mons": {
+        "encounter_rate": 4,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 35,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 10,
+            "max_level": 30,
+            "species": "SPECIES_WINGULL"
+          },
+          {
+            "min_level": 15,
+            "max_level": 25,
+            "species": "SPECIES_WINGULL"
+          },
+          {
+            "min_level": 25,
+            "max_level": 30,
+            "species": "SPECIES_PELIPPER"
+          },
+          {
+            "min_level": 25,
+            "max_level": 30,
+            "species": "SPECIES_PELIPPER"
+          }
+        ]
+      },
+      "fishing_mons": {
+        "encounter_rate": 10,
+        "mons": [
+          {
+            "min_level": 5,
+            "max_level": 10,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 5,
+            "max_level": 10,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 10,
+            "max_level": 30,
+            "species": "SPECIES_MAGIKARP"
+          },
+          {
+            "min_level": 10,
+            "max_level": 30,
+            "species": "SPECIES_TENTACOOL"
+          },
+          {
+            "min_level": 10,
+            "max_level": 30,
+            "species": "SPECIES_WAILMER"
+          },
+          {
+            "min_level": 25,
+            "max_level": 30,
+            "species": "SPECIES_WAILMER"
+          },
+          {
+            "min_level": 30,
+            "max_level": 35,
+            "species": "SPECIES_WAILMER"
+          },
+          {
+            "min_level": 20,
+            "max_level": 25,
+            "species": "SPECIES_WAILMER"
+          },
+          {
+            "min_level": 35,
+            "max_level": 40,
+            "species": "SPECIES_WAILMER"
+          },
+          {
+            "min_level": 40,
+            "max_level": 45,
+            "species": "SPECIES_WAILMER"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "SlateportCity_OnTransition",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_SLATEPORT_OUTSIDE_MUSEUM_STATE",
+      "value": 1,
+      "script": "SlateportCity_EventScript_ScottScene"
+    }
+  ],
+  "coordScripts": [
+    {
+      "x": 10,
+      "y": 13,
+      "elevation": 3,
+      "varKey": "VAR_SLATEPORT_OUTSIDE_MUSEUM_STATE",
+      "value": 2,
+      "script": "SlateportCity_EventScript_ScottBattleTentScene"
+    }
+  ],
+  "bgEvents": [
+    {
+      "x": 8,
+      "y": 19,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SlateportCity_EventScript_NameRatersHouseSign"
+    },
+    {
+      "x": 20,
+      "y": 19,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    },
+    {
+      "x": 21,
+      "y": 19,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    },
+    {
+      "x": 14,
+      "y": 26,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemartSign"
+    },
+    {
+      "x": 24,
+      "y": 12,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SlateportCity_EventScript_HarborSign"
+    },
+    {
+      "x": 15,
+      "y": 26,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "Common_EventScript_ShowPokemartSign"
+    },
+    {
+      "x": 14,
+      "y": 51,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SlateportCity_EventScript_MarketSign"
+    },
+    {
+      "x": 26,
+      "y": 26,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SlateportCity_EventScript_OceanicMuseumSign"
+    },
+    {
+      "x": 16,
+      "y": 22,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SlateportCity_EventScript_CitySign"
+    },
+    {
+      "x": 8,
+      "y": 26,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SlateportCity_EventScript_PokemonFanClubSign"
+    },
+    {
+      "x": 7,
+      "y": 13,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SlateportCity_EventScript_BattleTentSign"
+    },
+    {
+      "x": 23,
+      "y": 38,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "SlateportCity_EventScript_SternsShipyardSign"
+    },
+    {
+      "x": 10,
+      "y": 36,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "SlateportCity_EventScript_BerryCrushRankingsSign"
+    }
+  ],
+  "connections": [
+    {
+      "direction": "UP",
+      "unknown": 0,
+      "targetBank": 50,
+      "targetMap": 25
+    },
+    {
+      "direction": "DOWN",
+      "unknown": 0,
+      "targetBank": 50,
+      "targetMap": 24
+    },
+    {
+      "direction": "RIGHT",
+      "unknown": 0,
+      "targetBank": 50,
+      "targetMap": 49
+    }
+  ],
+  "warps": [
+    {
+      "x": 19,
+      "y": 19,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 59,
+      "targetMapId": 11,
+      "targetX": 7,
+      "targetY": 8,
+      "targetElevation": 2
+    },
+    {
+      "x": 13,
+      "y": 26,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 59,
+      "targetMapId": 13,
+      "targetX": 3,
+      "targetY": 7,
+      "targetElevation": 0
+    },
+    {
+      "x": 26,
+      "y": 38,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 59,
+      "targetMapId": 0,
+      "targetX": 2,
+      "targetY": 14,
+      "targetElevation": 0
+    },
+    {
+      "x": 10,
+      "y": 12,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 59,
+      "targetMapId": 2,
+      "targetX": 6,
+      "targetY": 9,
+      "targetElevation": 0
+    },
+    {
+      "x": 4,
+      "y": 26,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 59,
+      "targetMapId": 6,
+      "targetX": 6,
+      "targetY": 10,
+      "targetElevation": 0
+    },
+    {
+      "x": 30,
+      "y": 26,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 59,
+      "targetMapId": 7,
+      "targetX": 9,
+      "targetY": 8,
+      "targetElevation": 0
+    },
+    {
+      "x": 5,
+      "y": 19,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 59,
+      "targetMapId": 5,
+      "targetX": 3,
+      "targetY": 7,
+      "targetElevation": 0
+    },
+    {
+      "x": 31,
+      "y": 26,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 59,
+      "targetMapId": 7,
+      "targetX": 10,
+      "targetY": 8,
+      "targetElevation": 0
+    },
+    {
+      "x": 28,
+      "y": 12,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 59,
+      "targetMapId": 9,
+      "targetX": 11,
+      "targetY": 14,
+      "targetElevation": 0
+    },
+    {
+      "x": 40,
+      "y": 7,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 59,
+      "targetMapId": 9,
+      "targetX": 19,
+      "targetY": 15,
+      "targetElevation": 0
+    },
+    {
+      "x": 21,
+      "y": 44,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 59,
+      "targetMapId": 10,
+      "targetX": 3,
+      "targetY": 7,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 17,
+      "x": 21,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SlateportCity_EventScript_FatMan",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 19,
+      "x": 34,
+      "y": 29,
+      "elevation": 2,
+      "movementType": "WANDER_LEFT_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SlateportCity_EventScript_Man1",
+      "hideFlag": "",
+      "rawMovementType": 5
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 15,
+      "x": 5,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 2,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SlateportCity_EventScript_RichBoy",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 26,
+      "x": 26,
+      "y": 29,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SlateportCity_EventScript_Woman1",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 118,
+      "x": 31,
+      "y": 27,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "SlateportCity_EventScript_AquaGrunt1",
+      "hideFlag": "hoenn/FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 27,
+      "x": 5,
+      "y": 43,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SlateportCity_EventScript_Cook",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 30,
+      "x": 20,
+      "y": 37,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SlateportCity_EventScript_OldWoman",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 8,
+      "x": 8,
+      "y": 42,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SlateportCity_EventScript_Girl",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 110,
+      "x": 29,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "SlateportCity_EventScript_Ty",
+      "hideFlag": "hoenn/FLAG_HIDE_SLATEPORT_CITY_GABBY_AND_TY",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 9,
+      "graphicsId": 68,
+      "x": 28,
+      "y": 14,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "SlateportCity_EventScript_Gabby",
+      "hideFlag": "hoenn/FLAG_HIDE_SLATEPORT_CITY_GABBY_AND_TY",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 10,
+      "graphicsId": 46,
+      "x": 28,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "SlateportCity_EventScript_CaptStern",
+      "hideFlag": "hoenn/FLAG_HIDE_SLATEPORT_CITY_CAPTAIN_STERN",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 11,
+      "graphicsId": 49,
+      "x": 37,
+      "y": 41,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "SlateportCity_EventScript_Sailor1",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 12,
+      "graphicsId": 49,
+      "x": 28,
+      "y": 46,
+      "elevation": 2,
+      "movementType": "WANDER_LEFT_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SlateportCity_EventScript_Sailor2",
+      "hideFlag": "",
+      "rawMovementType": 5
+    },
+    {
+      "entityIdx": 13,
+      "graphicsId": 18,
+      "x": 9,
+      "y": 50,
+      "elevation": 2,
+      "movementType": "WANDER_UP_AND_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SlateportCity_EventScript_PokefanF",
+      "hideFlag": "",
+      "rawMovementType": 3
+    },
+    {
+      "entityIdx": 14,
+      "graphicsId": 33,
+      "x": 16,
+      "y": 46,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SlateportCity_EventScript_Man2",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 15,
+      "graphicsId": 39,
+      "x": 8,
+      "y": 24,
+      "elevation": 2,
+      "movementType": "WANDER_UP_AND_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SlateportCity_EventScript_Maniac",
+      "hideFlag": "",
+      "rawMovementType": 3
+    },
+    {
+      "entityIdx": 16,
+      "graphicsId": 34,
+      "x": 15,
+      "y": 31,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SlateportCity_EventScript_Woman2",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 17,
+      "graphicsId": 117,
+      "x": 30,
+      "y": 27,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "SlateportCity_EventScript_AquaGrunt2",
+      "hideFlag": "hoenn/FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 18,
+      "graphicsId": 117,
+      "x": 29,
+      "y": 27,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "SlateportCity_EventScript_AquaGrunt3",
+      "hideFlag": "hoenn/FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 19,
+      "graphicsId": 83,
+      "x": 6,
+      "y": 38,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "SlateportCity_EventScript_DecorClerk",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 20,
+      "graphicsId": 83,
+      "x": 5,
+      "y": 51,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SlateportCity_EventScript_DollClerk",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 21,
+      "graphicsId": 66,
+      "x": 34,
+      "y": 51,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SlateportCity_EventScript_Man3",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 22,
+      "graphicsId": 34,
+      "x": 4,
+      "y": 47,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SlateportCity_EventScript_EffortRibbonWoman",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 23,
+      "graphicsId": 83,
+      "x": 11,
+      "y": 47,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SlateportCity_EventScript_PowerTMClerk",
+      "hideFlag": "hoenn/FLAG_HIDE_SLATEPORT_CITY_TM_SALESMAN",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 24,
+      "graphicsId": 25,
+      "x": 5,
+      "y": 47,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SlateportCity_EventScript_EnergyGuru",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 25,
+      "graphicsId": 117,
+      "x": 22,
+      "y": 27,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "SlateportCity_EventScript_AquaGrunt4",
+      "hideFlag": "hoenn/FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 26,
+      "graphicsId": 117,
+      "x": 23,
+      "y": 27,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "SlateportCity_EventScript_AquaGrunt5",
+      "hideFlag": "hoenn/FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 27,
+      "graphicsId": 117,
+      "x": 24,
+      "y": 27,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "SlateportCity_EventScript_AquaGrunt6",
+      "hideFlag": "hoenn/FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 28,
+      "graphicsId": 117,
+      "x": 21,
+      "y": 26,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "SlateportCity_EventScript_AquaGrunt7",
+      "hideFlag": "hoenn/FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 29,
+      "graphicsId": 117,
+      "x": 20,
+      "y": 26,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "SlateportCity_EventScript_AquaGrunt8",
+      "hideFlag": "hoenn/FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 30,
+      "graphicsId": 117,
+      "x": 26,
+      "y": 27,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "SlateportCity_EventScript_AquaGrunt9",
+      "hideFlag": "hoenn/FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 31,
+      "graphicsId": 117,
+      "x": 28,
+      "y": 27,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "SlateportCity_EventScript_AquaGrunt10",
+      "hideFlag": "hoenn/FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 32,
+      "graphicsId": 117,
+      "x": 25,
+      "y": 27,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "SlateportCity_EventScript_AquaGrunt11",
+      "hideFlag": "hoenn/FLAG_HIDE_SLATEPORT_CITY_TEAM_AQUA",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 33,
+      "graphicsId": 18,
+      "x": 11,
+      "y": 37,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 2,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "SlateportCity_EventScript_BerryPowderClerk",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 34,
+      "graphicsId": 219,
+      "x": 10,
+      "y": 12,
+      "elevation": 0,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 2,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_SLATEPORT_CITY_SCOTT",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "xwTGBMYExgTGBMYExgTGBMYExgTGBMYExgTGBMcEDjABMAEwATABMMcExwTHBMcExwTHBMcExwTHBMcExwTHBMcExwTHBMcEkBFwEXARcBHGBMYExgTGBMYExgTGBMYExgTGBMYExgTGBMYExgTGBAEwATABMAEwFgTHBMcExwTHBMcExwTHBMcExwTHBMcExwTHBMcExwSQEXARcBFwEccExgTGBMYExgTGBMYExgTGBMYExgTGBMYExgTGBBYEATABMAEwATABMBYExgTHBMcExwTHBMcExwTHBMcExwTHBMcExwTHBJARcBFwEXARFgTGBMYExgTGBMYExgTGBMYExgTGBMYExgTGBMYEQQUBMAEwATABMAEwOQXHBMcExwTHBMcExwTHBMcExwTHBMcExwTHBMcEkBFwEXARcBGKEcYExgTGBMYExgTGBMYExgTGBMYExgTGBMYExgRCBQEwATABMAEwATBABccExwTHBMcExwTHBMcExwTHBMcExwTHBMcExwSQEXARcBFwEZIRxgTGBMYExgTGBMYExgTGBMYExgTGBMYExgQWBEIFATABMAEwATABMEAFFgTGBMcExwTHBMcExwTHBMcExwTHBMcExwTHBJARcBFQBVEFkhHGBMYExgTGBMYExgTGBMYExgTGBMYExgQWBAEwQgUBMAEwATABMAEwQAUBMBYExwTHBMcExwTHBMcExwTHBMcExwTHBMcEZAVRBVgFWQWSEcYExgQWBBYEFgQWBBYEFgQWBBYEFgQWBAEwATBCBXAycTJxMnEycjJABQEwATAWBJUGlgaWBpYGlgaWBpcGxwTHBMcExwRsBVkFcBFwEZIRxgTGBEEFSQVJBUkFSQVxB3IHcwd0B3UHSQVJBUoFeDJ5MnkyeTJ6MkgFSQVJBUkFnQaeBp4GngaeBp4GnwYWBBYEFgQWBJARcBFwEXARkhEWBMYEQjUBMAEwATABMHkHegd7B3wHfQcBMAEwATBjBgEwATABMGQGATABMAEwATCdBp4GngaeBp4GngafBokRiRGJEYkRmBFwEXARcBGaEYoRxgRCNQEwATABMEM2gQeCB4MHhAeFB0M2ATABMAEwCDIJMgoyATABMAEwATABMKUGpgamBqYGpgamBqcGcBFwEXARcBFwEXARcBFwEXARkhHGBEI1ATABMAEwQzaJB4oHiweMB40HQzYBMAEwATAQMhEyEjIBMAEwATABMAEwrQZoBr0Gvga/BmkGrwZwEXARcBFwEXARcBFwEXARcBGSERYEQjUBMAEwATBDNpEHkgeTB5QHlQdDNgEwATABMBAyETISMgEwATABMAEwAwS1BrYGxQbGAtcGtga3BgIweRFwEXARcBFwEXARcBFwEZoRihFCNQEwATABMAMECDIJMgkyCTIJMgkyCTIJMgkyMjIRMjMyCTIJMgkyCTIJMgkyCTIJMgkyCjIBMAEwATACMAIwAjACMAIweRFwEXARcBGSEUIFATABMAEwATAQMjIyETIzMhEyETIRMhEyETIRMhEyETIRMhEyETIRMhEyETIRMhEyETISMgEwATABMAEwATABMAEwATCQEXARcBFwEZIRQgUBMAEwATABMBgyOjIRMjsyGTIZMhkyGTIZMhkyGTIZMhkyGTIZMhkyGTIZMhkyGTIZMhoyATABMAEwATABMAEwATABMGQFUQVwEXARkhFCBcAywTLBMsIyATAQMhEyEjIBMAEwATABMAEwATBIMEkwSjBLMAEwATABMAEwATABMAEwATABMAEwTjRONE40TjRONE40bAVZBXARcBGSEUIFyAbJBskGygYBMBAyETISMgEwATABMAEwATABMFAEUQRSBFMEATABMAEwATABMAEwATABMAEwATCIEYkRiRFaBVsFiRGYEXARcBF4EdMwQgXQBtQG0QbSBgEwEDIRMhIyATABMAEwATABMAEwWARZBFoEWwQ5NQEwATCIEYkRiRGJEYkRiRGJEZgRUAVRBVgFWQVwEXARcBFwEZIRATBCBSAE3AYTBCIEAwQQMhEyEjIBMAEwATABMAEwATBgBGEEYgRjBEAFiBGJEZgRcBFwEXARcBFwEXARcBFYBVkFcBFwEXARcBFwEXARkhEBMEIFATAIMgkyCTIJMjIyETIzMgkyCTIJMgkyCTIJMgkyCjIBMAEwQAWQEXARcBFwEXARcBFwEXARcBFwEXARUAVRBXARcBFwEXAReBFBBUkFSgUBMBgyGTIZMhkyOjIRMjsyGTIZMhkyGTIZMjoyETISMgEwATBABZARcBFwEXARcBFwEXARcBFwEXARcBFYBVkFcBFwEXARcBGSEUIFYDJhMmEyYTJiMgEwATAQMhEyEjIBMAEwATABMAMEEDIRMhIy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",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAABwAAAAAAAAAAAAAAAAAAAAAICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

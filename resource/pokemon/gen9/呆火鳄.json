@@ -1,0 +1,133 @@
+{
+	"id": 909,
+	"name": "[909]呆火鳄",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 32,
+	"height": 4,
+	"weight": 98,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 66,
+			"name": "[066]特性66"
+		},
+		{
+			"id": 66,
+			"name": "[066]特性66"
+		},
+		{
+			"id": 109,
+			"name": "[109]特性109"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 910,
+			"name": "[910]炙烫鳄",
+			"type": "LEVEL",
+			"val": 16
+		}
+	],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 43,
+			"name": "[43]瞪眼",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 52,
+			"name": "[52]火花",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 496,
+			"name": "[496]轮唱",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 510,
+			"name": "[510]烧尽",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 281,
+			"name": "[281]哈欠",
+			"type": "level",
+			"level": 17
+		},
+		{
+			"id": 555,
+			"name": "[555]大声咆哮",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 46,
+			"name": "[46]吼叫",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 53,
+			"name": "[53]喷射火焰",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 304,
+			"name": "[304]巨声",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 126,
+			"name": "[126]大字爆炎",
+			"type": "level",
+			"level": 36
+		}
+	],
+	"types": [
+		"FIRE"
+	],
+	"stats": {
+		"hp": 67,
+		"attack": 45,
+		"defense": 59,
+		"speed": 63,
+		"sp_attack": 40,
+		"sp_defense": 36
+	},
+	"yields": {
+		"ev_hp": 1,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

@@ -1,0 +1,287 @@
+{
+  "regionId": 1,
+  "bankId": 76,
+  "mapId": 42,
+  "width": 15,
+  "height": 11,
+  "paletteIdx1": 116,
+  "paletteIdx2": 159,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 384,
+  "unknownByte": 58,
+  "borderTiles": [
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 7,
+      "y": 10,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 76,
+      "targetMapId": 14,
+      "targetX": 10,
+      "targetY": 28,
+      "targetElevation": 0
+    },
+    {
+      "x": 6,
+      "y": 10,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 76,
+      "targetMapId": 14,
+      "targetX": 10,
+      "targetY": 28,
+      "targetElevation": 0
+    },
+    {
+      "x": 8,
+      "y": 10,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 76,
+      "targetMapId": 14,
+      "targetX": 10,
+      "targetY": 28,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 85,
+      "x": 4,
+      "y": 4,
+      "elevation": 0,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "BattleFrontier_ExchangeServiceCorner_EventScript_DecorClerk1",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 15,
+      "x": 0,
+      "y": 5,
+      "elevation": 0,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "BattleFrontier_ExchangeServiceCorner_EventScript_RichBoy",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 18,
+      "x": 0,
+      "y": 4,
+      "elevation": 0,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "BattleFrontier_ExchangeServiceCorner_EventScript_PokefanF",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 49,
+      "x": 14,
+      "y": 6,
+      "elevation": 0,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "BattleFrontier_ExchangeServiceCorner_EventScript_Sailor",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 66,
+      "x": 1,
+      "y": 9,
+      "elevation": 0,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "BattleFrontier_ExchangeServiceCorner_EventScript_Man",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 85,
+      "x": 5,
+      "y": 5,
+      "elevation": 0,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "BattleFrontier_ExchangeServiceCorner_EventScript_DecorClerk2",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 85,
+      "x": 9,
+      "y": 5,
+      "elevation": 0,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "BattleFrontier_ExchangeServiceCorner_EventScript_VitaminClerk",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 85,
+      "x": 10,
+      "y": 4,
+      "elevation": 0,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "BattleFrontier_ExchangeServiceCorner_EventScript_HoldItemClerk",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 8,
+      "x": 12,
+      "y": 10,
+      "elevation": 0,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "BattleFrontier_ExchangeServiceCorner_EventScript_Girl",
+      "hideFlag": "",
+      "rawMovementType": 2
+    }
+  ],
+  "blockData": "4AbhBuIG4AbhBuIG4AbhBuIG4AbhBuIG4AbhBvgG6AbpBuoG8Ab5BvoGCAcJBwoH+wb8BvIG6AbpBgQEugPAA8EDhgf9Bv4GEAcRBxIHCwcMB4YHugPAA7cDjgO5A7gDhgcFBwYHuAO5A7gDEwcUB4YHzAO5A7gDlgO4A7kDhgfNA7gDuQO4A7kDuAO5A4YHzQO4A7kDngO5A7gDhgemA9MD1APTA9QD0wPUA4YHzAO5A7gDzQO4A7kD+AfyB/IH8gfyB/IH8gfyB/wHzQO4A7kDjgO5A7gDwQPAA8EDwAPBA8ADwQPAA8ED1QO5A7gDngO4A7kDuAO5A7gDuQO4A7kDuAO5A7gDuQO4A7kDAQTNA7gDuQO4A7kDbQNuA28DuQO4A7kDuAO5AwEEAQQBBM0DuAO5A7gDdQN2A3cDuAO5A7gDuQMBBAEE",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQ0NAAAAAAAA"
+}

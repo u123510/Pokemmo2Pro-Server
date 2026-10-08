@@ -1,0 +1,176 @@
+{
+	"id": 1049,
+	"name": "[1049]毒藻龙",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 18,
+	"weight": 815,
+	"egg_groups": [
+		"水1组",
+		"龙组"
+	],
+	"abilities": [
+		{
+			"id": 38,
+			"name": "[038]特性38"
+		},
+		{
+			"id": 143,
+			"name": "[143]特性143"
+		},
+		{
+			"id": 91,
+			"name": "[091]特性91"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 55,
+			"name": "[55]水枪",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 108,
+			"name": "[108]烟幕",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 239,
+			"name": "[239]龙卷风",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 525,
+			"name": "[525]龙尾",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 185,
+			"name": "[185]出奇一击",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 39,
+			"name": "[39]摇尾巴",
+			"type": "level",
+			"level": 9
+		},
+		{
+			"id": 145,
+			"name": "[145]泡沫",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 51,
+			"name": "[51]溶解液",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 293,
+			"name": "[293]保护色",
+			"type": "level",
+			"level": 19
+		},
+		{
+			"id": 342,
+			"name": "[342]毒尾",
+			"type": "level",
+			"level": 23
+		},
+		{
+			"id": 352,
+			"name": "[352]水之波动",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 104,
+			"name": "[104]影子分身",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 92,
+			"name": "[92]剧毒",
+			"type": "level",
+			"level": 32
+		},
+		{
+			"id": 401,
+			"name": "[401]水流尾",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 188,
+			"name": "[188]污泥炸弹",
+			"type": "level",
+			"level": 38
+		},
+		{
+			"id": 56,
+			"name": "[56]水炮",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 406,
+			"name": "[406]龙之波动",
+			"type": "level",
+			"level": 53
+		},
+		{
+			"id": 525,
+			"name": "[525]龙尾",
+			"type": "level",
+			"level": 59
+		},
+		{
+			"id": 239,
+			"name": "[239]龙卷风",
+			"type": "level",
+			"level": 67
+		}
+	],
+	"types": [
+		"POISON",
+		"DRAGON"
+	],
+	"stats": {
+		"hp": 65,
+		"attack": 75,
+		"defense": 90,
+		"speed": 97,
+		"sp_attack": 123,
+		"sp_defense": 44
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 2,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

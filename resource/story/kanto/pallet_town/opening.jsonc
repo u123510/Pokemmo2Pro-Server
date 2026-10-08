@@ -1,0 +1,348 @@
+{
+  "id": "kanto.pallet_town.opening",
+  "version": 2,
+  "enabled": true,
+  "startNode": "town_stop",
+  "triggers": [
+    {
+      "type": "COORDINATE",
+      "map": "PalletTown",
+      "x": 12,
+      "y": 1,
+      "startNode": "town_stop",
+      "conditions": [
+        {"type": "STORY_STAGE_EQUALS", "value": 0},
+        {"type": "STARTER_EQUALS", "value": 3}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "PalletTown",
+      "x": 13,
+      "y": 1,
+      "startNode": "town_stop",
+      "conditions": [
+        {"type": "STORY_STAGE_EQUALS", "value": 0},
+        {"type": "STARTER_EQUALS", "value": 3}
+      ]
+    },
+    {
+      "type": "MAP_READY",
+      "map": "PalletTown_ProfessorOaksLab",
+      "startNode": "lab_introduction",
+      "conditions": [
+        {"type": "STORY_STAGE_EQUALS", "value": 1}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "PalletTown_ProfessorOaksLab",
+      "x": 5,
+      "y": 8,
+      "startNode": "leave_before_choice",
+      "conditions": [
+        {"type": "STORY_STAGE_EQUALS", "value": 2}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "PalletTown_ProfessorOaksLab",
+      "x": 6,
+      "y": 8,
+      "startNode": "leave_before_choice",
+      "conditions": [
+        {"type": "STORY_STAGE_EQUALS", "value": 2}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "PalletTown_ProfessorOaksLab",
+      "x": 7,
+      "y": 8,
+      "startNode": "leave_before_choice",
+      "conditions": [
+        {"type": "STORY_STAGE_EQUALS", "value": 2}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "PalletTown_ProfessorOaksLab",
+      "x": 5,
+      "y": 8,
+      "startNode": "challenge",
+      "conditions": [
+        {"type": "STORY_STAGE_EQUALS", "value": 3}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "PalletTown_ProfessorOaksLab",
+      "x": 6,
+      "y": 8,
+      "startNode": "challenge",
+      "conditions": [
+        {"type": "STORY_STAGE_EQUALS", "value": 3}
+      ]
+    },
+    {
+      "type": "COORDINATE",
+      "map": "PalletTown_ProfessorOaksLab",
+      "x": 7,
+      "y": 8,
+      "startNode": "challenge",
+      "conditions": [
+        {"type": "STORY_STAGE_EQUALS", "value": 3}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "PalletTown_PlayersHouse_1F",
+      "entityIdx": 0,
+      "startNode": "mother"
+    },
+    {
+      "type": "NPC",
+      "map": "PalletTown",
+      "entityIdx": 2,
+      "startNode": "escort",
+      "conditions": [
+        {"type": "STORY_STAGE_EQUALS", "value": 1}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "PalletTown_ProfessorOaksLab",
+      "entityIdx": 3,
+      "startNode": "choose_again",
+      "conditions": [
+        {"type": "STORY_STAGE_EQUALS", "value": 2}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "PalletTown_ProfessorOaksLab",
+      "entityIdx": 3,
+      "startNode": "challenge",
+      "conditions": [
+        {"type": "STORY_STAGE_EQUALS", "value": 3}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "PalletTown_ProfessorOaksLab",
+      "entityIdx": 4,
+      "startNode": "choose_starter",
+      "conditions": [
+        {"type": "STORY_STAGE_EQUALS", "value": 2}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "PalletTown_ProfessorOaksLab",
+      "entityIdx": 5,
+      "startNode": "choose_starter",
+      "conditions": [
+        {"type": "STORY_STAGE_EQUALS", "value": 2}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "PalletTown_ProfessorOaksLab",
+      "entityIdx": 6,
+      "startNode": "choose_starter",
+      "conditions": [
+        {"type": "STORY_STAGE_EQUALS", "value": 2}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "PalletTown_ProfessorOaksLab",
+      "entityIdx": 7,
+      "startNode": "rival_after",
+      "conditions": [
+        {"type": "STORY_STAGE_AT_LEAST", "value": 4}
+      ]
+    },
+    {
+      "type": "NPC",
+      "map": "PalletTown_ProfessorOaksLab",
+      "entityIdx": 8,
+      "startNode": "dex"
+    },
+    {
+      "type": "NPC",
+      "map": "PalletTown_ProfessorOaksLab",
+      "entityIdx": 9,
+      "startNode": "ball"
+    },
+    {
+      "type": "NPC",
+      "map": "PalletTown_ProfessorOaksLab",
+      "entityIdx": 0,
+      "startNode": "aide"
+    },
+    {
+      "type": "NPC",
+      "map": "PalletTown_ProfessorOaksLab",
+      "entityIdx": 1,
+      "startNode": "aide"
+    }
+  ],
+  "actors": {
+    "oakTown": {"map": "PalletTown", "entityIdx": 2},
+    "oakLab": {"map": "PalletTown_ProfessorOaksLab", "entityIdx": 3},
+    "rival": {"map": "PalletTown_ProfessorOaksLab", "entityIdx": 7}
+  },
+  "resources": {
+    "trainerModel": 328,
+    "starters": [
+      {"choice": 0, "species": 1, "rivalSpecies": 4, "prompt": 1630834, "moves": [33, 45, 0, 0]},
+      {"choice": 1, "species": 4, "rivalSpecies": 7, "prompt": 1630612, "moves": [10, 45, 0, 0]},
+      {"choice": 2, "species": 7, "rivalSpecies": 1, "prompt": 1630727, "moves": [33, 39, 0, 0]}
+    ]
+  },
+  "nodes": {
+    "town_stop": {
+      "actions": [
+        {"type": "SET_OPENING_STAGE", "expected": 0, "nextStage": 1},
+        {"type": "PLAY_MUSIC", "musicId": 302},
+        {"type": "DIALOGUE", "text": "stop"},
+        {"type": "MOVE_NPC", "actor": "oakTown", "target": {"x": "PLAYER_X", "y": 2}},
+        {"type": "DIALOGUE", "actor": "oakTown", "text": "follow"},
+        {"type": "GUIDE", "actor": "oakTown", "npcX": 16, "npcY": 14, "playerX": 16, "playerY": 15},
+        {"type": "CHANGE_MAP", "map": "PalletTown_ProfessorOaksLab", "x": 6, "y": 11, "z": 2, "toward": 1}
+      ]
+    },
+    "escort": {
+      "actions": [
+        {"type": "CLOSE_DIALOG"},
+        {"type": "GUIDE", "actor": "oakTown", "npcX": 16, "npcY": 14, "playerX": 16, "playerY": 15},
+        {"type": "CHANGE_MAP", "map": "PalletTown_ProfessorOaksLab", "x": 6, "y": 11, "z": 2, "toward": 1}
+      ]
+    },
+    "lab_introduction": {
+      "actions": [
+        {"type": "MOVE_PLAYER", "x": 6, "y": 4},
+        {"type": "DIALOGUE", "actor": "rival", "text": "rivalWaiting"},
+        {"type": "DIALOGUE", "actor": "oakLab", "text": "choose"},
+        {"type": "DIALOGUE", "actor": "rival", "text": "rivalWants"},
+        {"type": "DIALOGUE", "actor": "oakLab", "text": "oakWait"},
+        {"type": "SET_OPENING_STAGE", "expected": 1, "nextStage": 2},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "leave_before_choice": {
+      "actions": [
+        {"type": "DIALOGUE", "actor": "oakLab", "text": "leaveBeforeChoice"},
+        {"type": "MOVE_PLAYER", "x": "PLAYER_X", "y": 7},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "choose_starter": {
+      "actions": [
+        {"type": "SELECT_STARTER", "next": "starter_obtained"}
+      ]
+    },
+    "starter_obtained": {
+      "actions": [
+        {"type": "DIALOGUE", "actor": "oakLab", "text": "obtained"},
+        {"type": "DIALOGUE", "actor": "rival", "text": "rivalChooses"},
+        {"type": "DIALOGUE", "actor": "rival", "text": "rivalObtained"},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "challenge": {
+      "actions": [
+        {"type": "DIALOGUE", "actor": "rival", "text": "challenge"},
+        {"type": "START_BATTLE", "battleType": "OPENING_RIVAL", "finishNode": "battle_complete"}
+      ]
+    },
+    "battle_complete": {
+      "actions": [
+        {"type": "NOTIFY", "message": "真新镇开场剧情已完成，进度已保存。重新登录不会重复领取或重打开场。"},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "mother": {
+      "actions": [
+        {"type": "BRANCH", "condition": {"type": "STARTER_EQUALS", "value": 3}, "yes": "mother_choose", "no": "mother_heal"}
+      ]
+    },
+    "mother_choose": {
+      "actions": [
+        {"type": "BRANCH", "condition": {"type": "SEX_EQUALS", "value": 0}, "yes": "mother_boy", "no": "mother_girl"}
+      ]
+    },
+    "mother_boy": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "momBoy"},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "mother_girl": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "momGirl"},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "mother_heal": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "momRest"},
+        {"type": "HEAL_PARTY"},
+        {"type": "DIALOGUE", "text": "momDone"},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "choose_again": {
+      "actions": [
+        {"type": "DIALOGUE", "actor": "oakLab", "text": "chooseAgain"},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "ball": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "ball"},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "dex": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "dex"},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "aide": {
+      "actions": [
+        {"type": "DIALOGUE", "text": "aide"},
+        {"type": "CLOSE_SCENE"}
+      ]
+    },
+    "rival_after": {
+      "actions": [
+        {"type": "NOTIFY", "message": "真新镇开场已完成，可以继续旅行。"},
+        {"type": "CLOSE_SCENE"}
+      ]
+    }
+  },
+  "text": {
+    "stop": 1562412,
+    "follow": 1562442,
+    "rivalWaiting": 1629332,
+    "choose": 1630140,
+    "rivalWants": 1629369,
+    "oakWait": 1630442,
+    "chooseAgain": 1630486,
+    "leaveBeforeChoice": 1630583,
+    "obtained": 1630949,
+    "rivalChooses": 1629492,
+    "rivalObtained": 1629522,
+    "challenge": 1629604,
+    "momBoy": 1626864,
+    "momGirl": 1626976,
+    "momRest": 1627089,
+    "momDone": 1627128,
+    "ball": 1632793,
+    "dex": 1632741,
+    "aide": 1633254
+  }
+}

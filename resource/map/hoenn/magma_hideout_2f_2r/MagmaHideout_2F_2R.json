@@ -1,0 +1,301 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 88,
+  "width": 49,
+  "height": 28,
+  "paletteIdx1": 100,
+  "paletteIdx2": 106,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 430,
+  "unknownByte": 198,
+  "borderTiles": [
+    {
+      "material": 625,
+      "collision": 0
+    },
+    {
+      "material": 625,
+      "collision": 0
+    },
+    {
+      "material": 625,
+      "collision": 0
+    },
+    {
+      "material": 625,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_MAGMA_HIDEOUT_2F_2R",
+      "base_label": "gMagmaHideout_2F_2R",
+      "land_mons": {
+        "encounter_rate": 10,
+        "mons": [
+          {
+            "min_level": 27,
+            "max_level": 27,
+            "species": "SPECIES_GEODUDE"
+          },
+          {
+            "min_level": 28,
+            "max_level": 28,
+            "species": "SPECIES_TORKOAL"
+          },
+          {
+            "min_level": 28,
+            "max_level": 28,
+            "species": "SPECIES_GEODUDE"
+          },
+          {
+            "min_level": 30,
+            "max_level": 30,
+            "species": "SPECIES_TORKOAL"
+          },
+          {
+            "min_level": 29,
+            "max_level": 29,
+            "species": "SPECIES_GEODUDE"
+          },
+          {
+            "min_level": 30,
+            "max_level": 30,
+            "species": "SPECIES_GEODUDE"
+          },
+          {
+            "min_level": 30,
+            "max_level": 30,
+            "species": "SPECIES_GEODUDE"
+          },
+          {
+            "min_level": 30,
+            "max_level": 30,
+            "species": "SPECIES_GRAVELER"
+          },
+          {
+            "min_level": 30,
+            "max_level": 30,
+            "species": "SPECIES_GRAVELER"
+          },
+          {
+            "min_level": 31,
+            "max_level": 31,
+            "species": "SPECIES_GRAVELER"
+          },
+          {
+            "min_level": 32,
+            "max_level": 32,
+            "species": "SPECIES_GRAVELER"
+          },
+          {
+            "min_level": 33,
+            "max_level": 33,
+            "species": "SPECIES_GRAVELER"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 10,
+      "y": 22,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 87,
+      "targetX": 11,
+      "targetY": 23,
+      "targetElevation": 0
+    },
+    {
+      "x": 36,
+      "y": 4,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 86,
+      "targetX": 31,
+      "targetY": 3,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 119,
+      "x": 29,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "LEFT",
+      "script": "MagmaHideout_2F_2R_EventScript_Grunt8",
+      "hideFlag": "hoenn/FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 119,
+      "x": 25,
+      "y": 11,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "MagmaHideout_2F_2R_EventScript_Grunt7",
+      "hideFlag": "hoenn/FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 59,
+      "x": 21,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "MagmaHideout_2F_2R_EventScript_ItemMaxElixir",
+      "hideFlag": "hoenn/FLAG_ITEM_MAGMA_HIDEOUT_2F_2R_MAX_ELIXIR",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 119,
+      "x": 8,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "DOWN",
+      "script": "MagmaHideout_2F_2R_EventScript_Grunt6",
+      "hideFlag": "hoenn/FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 120,
+      "x": 7,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 1,
+      "facing": "RIGHT",
+      "script": "MagmaHideout_2F_2R_EventScript_Grunt15",
+      "hideFlag": "hoenn/FLAG_HIDE_MAGMA_HIDEOUT_GRUNTS",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 59,
+      "x": 14,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "MagmaHideout_2F_2R_EventScript_ItemFullRestore",
+      "hideFlag": "hoenn/FLAG_ITEM_MAGMA_HIDEOUT_2F_2R_FULL_RESTORE",
+      "rawMovementType": 1
+    }
+  ],
+  "blockData": "cQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZwBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxAnECcQJxAnECcQJxAnECcQJxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGEwdxBnEGcQZxBngGdAZ0BnQGdAZ0BnQGdAZ0BnQGdAZ8BnEGcQZ7BnQGdAZ0BnwGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGewZ0BoQHhQeCB4MHdAZ0BnQGdAZ0BnQGdAZ0BnQGdAZ0BnQGdAZ0BoQHhQeCB4MHdAZ8BnAGEwd7Bg8HogOiA6IDeAZ8BnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGewZ6BnsGjAeNB4oHiwd0BnQGdAYtB3QGdAZ0BnQGdAZ0BnQGdAZ0BnQGjAeNB4oHiwd8BnAGcAZ7Bg8HogOiA6IDogOiA3AGEwdxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZyBnsGegaoB6kHlgeXB3sGRwdHB0cHRwdHB0cHRwdHB0cHRwdHB3wGogOoB6kHlgeXB3AGcAZwBnIGogMIAqIDogOiA6IDeAZ8BnEGcQZxBnEGcQZxBnQGdAZ0BnQGdAZ0BnoGcgaiA6IDogOiA6IDRge9Br0GvQYcBr0GvQa9BhwGvQa9BhwGiQaiA6IDogOiA6IDcAZwBnAGfwYNBg4GDwYMB2oGogOiA3AGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZyBnEyEzOiA6IDcTKkA6MDFQa9BhwGHAa9BhwGvQa9Br0GvQaJBqIDogOiA6IDaAZ/BnAGcAYTB3EGcQZxBnsGDweiA6IDeAZ8BnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnIGogOiA6IDogOiA6IDogOkA6MDFQa9BhwGEwajA6MDowOjA6QDogMTM6IDogNwBnEGcAZ4BnwGcQZxBnEGcgZ7Bq8CfAaiA3AGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcgaiA6IDaAYMBwwHDAcMBwwHagZGBxwGvQaJBhMzogOiA6IDogOiA6IDogOiA3AGcQZ4BnwGcAZxBnEGewYPB3IGogNwBqIDcAZxBnEGcQZxBnEGcQZxBnEGcQYTB3EGewZ6BqIDogNwBnEGaAYMBwwHagZ/Bn8GowOjA38GagaiA6IDogOiA6IDogNoBgwHfwZxBnEGcAZwBnEGewYPB3sGDweiA3gGfAZ4BnwGcQZxBnEGcQZxBnEGcQZxBnEGcQZyBqIDogOiA3AGEwdwBnEGcQZ/AmoGcQZxBnEGcQZ/BgwHagaiA6IDogOiA3AGaAYMBwwHDAd/BnAGewYPB3EGcgZ7Bq8CfAZ4BnwGcAZxBnEGcQZxBnEGcQZxBnEGcQZxBnIGogOiA6IDcAZxBnAGcQZxBnsGegZ7BnQGdAZ8BnEGcQZ/BmoGogOiA6IDcAZ4BnwGcQZxBnEGcAZyBnsGdAYPB3IGogNwBnEycAZwBnEGcQZxBnEGcQZxBnEGcQZxBnEGcgaiA6IDogNwBnEGcAZxBnsGegZxBnIGcQZxBnAGcQZxBnEGcgaiA6IDogN4BnwGeAZ0BnwGcQZ4Bg8HcgZ7BnQGDwcSA3gGfAZwBngGdAZ0BnQGdAZxBnEGcQZxBnEGewZ6BqIDogOiA3gGfAZ4BnQGegZ7BnQGegZxBmgGfwYTB3EGcQZyBqIDogOiA6IDeAZ8BnEGeAZ8BnsGdAYPB3IGewZ0Bq8CfAZwBngGdAZ0BnQGdAZ0BnEGcQZxBnEGcQZyBnsGdAavAnQGfAZ4BnQGLQd0BnoGcQZxBnEGcAZxBnEGcQZ7Bg8HogMTM6IDogOiA3gGfAZxBngGDwdxBnsGDwdyBggzCDNwBnAGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBjEHcgYIMwgzETMOB3QGdAZ0BnQGdAYtB3QGfAZ4BnwGcQZxBnIGewYtB3QGrwJ0BnQGfAZ4BnQGLQd0BnQGDwdxBnIGCDMIM3AGcAZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcgZyBggzCDMIMwgzCDMIMwgzCDMIMwgzCDNwBnEGeAZ0BnQGegZyBggzCDMIMwgzCDN4BnQGdAZ0BnQGdAZ0BnQGDwcIMwgzcAZwBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZyBnIGCDMIMwgzCDMIMwgzCDMIMwgzETMIM3gGdAZ0BnQGdAZ0Bg8HCDMIMwgzCDMRMwgzCDMIMwgzCDMIMwgzCDMIMwgzCDNwBnAGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnIGcgYIMwgzCDMIMxAzCgcMBwwHCwcIMwgzCDMIMwgzCDMIMwgzCDMIMwgzCDMIMwgzCDMIMwgzCDMIMxEzCDMIMwgzCDMIM3AGcAZxBmgGDAcMBwwHDAdxBnEGcQZxBnEGfwZ/BgsHCDMIMxEzCDNwBnEGcQZyBggzCDMQMwgzCDMIMwgzCDMIMwgzCDMIMwgzCgcMBwwHDAcMBwwHDAcMBwwHDAcMBwwHfwZwBnEGcAZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcgYLBwgzCDMIM3AGcQZxBn8GDAcLBwgzCDMIMwgzCDMIMwgzCgcMBwwHDAd/BgwHDAcMBwwHDAcMBwwHDAcMBwwHDAcMB38GcQZwBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZyBjEHCDMIMwgzcAZxBnEGcQZxBn8GCwcIMwgzCDMIMwgzCgd/BnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnAGcQZxBnEGcQZxBnEGcQZxBnEGEwdxBnIGcgYIMwkzCDNwBnEGcQZxBnEGcQZ/BgwHDAcMBwwHDAd/BnEGcQZxBnEGcQZxBnEGcQYTB3EGcQZxBnEGcQZxBnEGcQZxBnEGcAZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGfwZ/Bg0GDgYPBn8GcQZxBnEGcQZxBnEGcQZxBnEGcQYTB3EGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZwBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnAGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBhMHcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcAZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZwBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnEGcQZxBnAGcQZxBnEGcQY=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+}

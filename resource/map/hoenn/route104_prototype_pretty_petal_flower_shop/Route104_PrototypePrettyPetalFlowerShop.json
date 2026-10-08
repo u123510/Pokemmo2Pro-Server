@@ -1,0 +1,117 @@
+{
+  "regionId": 1,
+  "bankId": 77,
+  "mapId": 1,
+  "width": 15,
+  "height": 9,
+  "paletteIdx1": 116,
+  "paletteIdx2": 127,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 401,
+  "unknownByte": 19,
+  "borderTiles": [
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    },
+    {
+      "material": 1,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [],
+  "npcs": [],
+  "blockData": "EAYUBhMGEwYVBhEGEwYWBhYGEwYTBhYGFgYTBhIGGAYcBh4GGwYdBhkGFwYjBiQGJwYzBjQGMwY0BhoGIDIvBiYyAjICMiEyHzIrBiwGHzI7BjwGOwY8BiIyRTI3BgwyATIBMgEyPTIqMgMyCDI9MjYGNgYLMggyPjI/BgwyATIBMgEyATIBMgEyATIBMioyAzIIMgEyRgZHBgwyATIBMgEyJQYlBgEyATIBMgEyLgYuBiUGCzIDMgkyATIBMi4GLQYtBi4GCjIBMgEyLgYuBi0GLgYKMgEyATIBMjYGNQY1BjYGDDIBMgEyNgY2BjUGNgYMMgYABwABMioyAzIDMgMyCDIBMgEyKjIDMgMy",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQAAAAAAAAAAAAAA"
+}

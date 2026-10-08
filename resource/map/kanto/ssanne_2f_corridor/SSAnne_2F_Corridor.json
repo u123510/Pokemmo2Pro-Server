@@ -1,0 +1,273 @@
+{
+  "regionId": 0,
+  "bankId": 1,
+  "mapId": 6,
+  "width": 34,
+  "height": 16,
+  "paletteIdx1": 0,
+  "paletteIdx2": 32,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 304,
+  "unknownByte": 128,
+  "borderTiles": [
+    {
+      "material": 648,
+      "collision": 0
+    },
+    {
+      "material": 648,
+      "collision": 0
+    },
+    {
+      "material": 648,
+      "collision": 0
+    },
+    {
+      "material": 648,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [
+    {
+      "x": 30,
+      "y": 6,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_S_S_ANNE_2F_CORRIDOR",
+      "value": 0,
+      "script": "SSAnne_2F_Corridor_EventScript_RivalTriggerLeft"
+    },
+    {
+      "x": 31,
+      "y": 6,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_S_S_ANNE_2F_CORRIDOR",
+      "value": 0,
+      "script": "SSAnne_2F_Corridor_EventScript_RivalTriggerMid"
+    },
+    {
+      "x": 32,
+      "y": 6,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_S_S_ANNE_2F_CORRIDOR",
+      "value": 0,
+      "script": "SSAnne_2F_Corridor_EventScript_RivalTriggerRight"
+    }
+  ],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 2,
+      "y": 2,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 5,
+      "targetX": 3,
+      "targetY": 8,
+      "targetElevation": 2
+    },
+    {
+      "x": 3,
+      "y": 12,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 7,
+      "targetX": 18,
+      "targetY": 2,
+      "targetElevation": 2
+    },
+    {
+      "x": 30,
+      "y": 2,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 11,
+      "targetX": 3,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 6,
+      "y": 10,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 18,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 10,
+      "y": 10,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 19,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 14,
+      "y": 10,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 20,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 18,
+      "y": 10,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 21,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 22,
+      "y": 10,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 22,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    },
+    {
+      "x": 26,
+      "y": 10,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 1,
+      "targetMapId": 23,
+      "targetX": 4,
+      "targetY": 7,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 72,
+      "x": 30,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "0x0",
+      "hideFlag": "kanto/FLAG_HIDE_SS_ANNE_RIVAL",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 62,
+      "x": 2,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "WANDER_UP_AND_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 2,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SSAnne_2F_Corridor_EventScript_Sailor",
+      "hideFlag": "",
+      "rawMovementType": 3
+    }
+  ],
+  "blockData": "hgaMBowGjAaMBocGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBoYGjAaMBqMHhwaOBuYGlAaUBpQGjwaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGjgbiNugG6QaPBo4G7jK3M7gHuQePBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaOBqUz8AbxBo8GjgaiMrYzuge7B48GiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBo4G4zL4BvkGjwaOBqIymTKZMpkyjwaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGjgaiMpsymzKPBo4GojKZMpkymTKPBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaOBqIymTKZMo8GjgaiMpkymTKZMo8GiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGhgaMBo0GojKZMpkyjwaOBqIymTKZMpkyjwaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaOBuYGlQaiMpkymTKPBo4GojKZMpkymTKPBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBogGiAaIBo4G7jKbMqMymTKZMo8GjgaiMpkymTKZMosGvweMBowGjAa/B4wGjAaMBr8HjAaMBowGvweMBowGjAa/B4wGjAaMBr8HjQaiMpkymTKZMpkyjwaOBqYzmTKZMpkykwaBBpQGggaUBoEGlAaCBpQGgQaUBoIGlAaBBpQGggaUBoEGlAaCBpQGgQaVBqIymTKZMpkymTKPBo4G4AbhBqczmDKdMp0ynTKdMp0ynTKdMp0ynTKdMp0ynTKdMp0ynTKdMp0ynTKdMp0ynTKdMp0ypTKYMpgymDKYMo8GjgawBrEGqDOYMpgymDKYMpgymDKYMpgymDKYMpgymDKYMpgymDKYMpgymDKYMpgymDKYMpgymDKYMpgymDKYMpgyjwaOBrgGuQbkMpgymDKYMpgymDKYMpgymDKYMpgymDKYMpgymDKYMpgymDKYMpgymDKYMpgymDKYMpgymDKYMpgymDKPBo4GwDLBMqUymDKYMpgymDKYMpgymDKYMpgymDKYMpgymDKYMpgymDKYMpgymDKYMpgymDKYMpgymDKYMpgymDKYMo8GvgaEBoQGhAaEBoQGhAaEBoQGhAaEBoQGhAaEBoQGhAaEBoQGhAaEBoQGhAaEBoQGhAaEBoQGhAaEBoQGhAaEBoQGtgY=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
+}

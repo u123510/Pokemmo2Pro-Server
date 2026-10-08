@@ -1,0 +1,634 @@
+{
+  "regionId": 1,
+  "bankId": 63,
+  "mapId": 4,
+  "width": 31,
+  "height": 12,
+  "paletteIdx1": 116,
+  "paletteIdx2": 140,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 452,
+  "unknownByte": 12,
+  "borderTiles": [
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "LilycoveCity_ContestLobby_OnTransition",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_LILYCOVE_CONTEST_LOBBY_STATE",
+      "value": 1,
+      "script": "LilycoveCity_ContestLobby_EventScript_TryDoContestArtist"
+    },
+    {
+      "varKey": "VAR_LILYCOVE_CONTEST_LOBBY_STATE",
+      "value": 2,
+      "script": "LilycoveCity_ContestLobby_EventScript_TryDoLinkContestArtist"
+    }
+  ],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 23,
+      "y": 5,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "BerryBlender_EventScript_BerryBlenderLink"
+    },
+    {
+      "x": 23,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "BerryBlender_EventScript_BerryBlender3"
+    },
+    {
+      "x": 23,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LilycoveCity_ContestLobby_EventScript_ContestWinner4"
+    },
+    {
+      "x": 25,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LilycoveCity_ContestLobby_EventScript_ContestWinner5"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LilycoveCity_ContestLobby_EventScript_ContestWinner6"
+    },
+    {
+      "x": 30,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LilycoveCity_ContestLobby_EventScript_BerryBlenderSpeedRecords"
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LilycoveCity_ContestLobby_EventScript_ContestWinner1"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LilycoveCity_ContestLobby_EventScript_ContestWinner2"
+    },
+    {
+      "x": 7,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LilycoveCity_ContestLobby_EventScript_ContestWinner3"
+    },
+    {
+      "x": 27,
+      "y": 5,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "BerryBlender_EventScript_BerryBlender1"
+    },
+    {
+      "x": 27,
+      "y": 9,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "BerryBlender_EventScript_BerryBlender2"
+    },
+    {
+      "x": 18,
+      "y": 3,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "LilycoveCity_ContestLobby_EventScript_LinkContestResults"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 14,
+      "y": 11,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 5,
+      "targetX": 23,
+      "targetY": 24,
+      "targetElevation": 0
+    },
+    {
+      "x": 15,
+      "y": 11,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 5,
+      "targetX": 23,
+      "targetY": 24,
+      "targetElevation": 0
+    },
+    {
+      "x": 9,
+      "y": 1,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 63,
+      "targetMapId": 5,
+      "targetX": 19,
+      "targetY": 32,
+      "targetElevation": 0
+    },
+    {
+      "x": 21,
+      "y": 1,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 63,
+      "targetMapId": 5,
+      "targetX": 30,
+      "targetY": 32,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 85,
+      "x": 14,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LilycoveCity_ContestLobby_EventScript_ContestReceptionist",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 85,
+      "x": 15,
+      "y": 2,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LilycoveCity_ContestLobby_EventScript_LinkContestReceptionist",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 65,
+      "x": 26,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "BerryBlender_EventScript_Blender2Man",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 99,
+      "x": 9,
+      "y": 1,
+      "elevation": 0,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_LILYCOVE_CONTEST_HALL_CONTEST_ATTENDANT_1",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 44,
+      "x": 18,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LilycoveCity_ContestLobby_EventScript_BlackBelt",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 10,
+      "x": 4,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 2,
+      "movementRangeY": 2,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LilycoveCity_ContestLobby_EventScript_Girl",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 99,
+      "x": 3,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LilycoveCity_ContestLobby_EventScript_Artist",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 67,
+      "x": 13,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "LilycoveCity_ContestLobby_EventScript_Reporter",
+      "hideFlag": "hoenn/FLAG_HIDE_LILYCOVE_CONTEST_HALL_REPORTER",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 8,
+      "graphicsId": 7,
+      "x": 23,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LilycoveCity_ContestLobby_EventScript_Blender3Boy",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 9,
+      "graphicsId": 6,
+      "x": 28,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "BerryBlender_EventScript_Blender2Twin",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 10,
+      "graphicsId": 99,
+      "x": 21,
+      "y": 1,
+      "elevation": 0,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_LILYCOVE_CONTEST_HALL_CONTEST_ATTENDANT_2",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 11,
+      "graphicsId": 50,
+      "x": 5,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LilycoveCity_ContestLobby_EventScript_Fisherman",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 12,
+      "graphicsId": 17,
+      "x": 0,
+      "y": 8,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "LilycoveCity_ContestLobby_EventScript_FatMan",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 13,
+      "graphicsId": 5,
+      "x": 8,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "WANDER_UP_AND_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LilycoveCity_ContestLobby_EventScript_NinjaBoy",
+      "hideFlag": "",
+      "rawMovementType": 3
+    },
+    {
+      "entityIdx": 14,
+      "graphicsId": 18,
+      "x": 22,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "BerryBlender_EventScript_Blender3PokefanF",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 15,
+      "graphicsId": 21,
+      "x": 26,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "BerryBlender_EventScript_Blender1ExpertM",
+      "hideFlag": "hoenn/FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER_REPLACEMENT",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 16,
+      "graphicsId": 8,
+      "x": 24,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "LilycoveCity_ContestLobby_EventScript_Blender3Girl",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 17,
+      "graphicsId": 66,
+      "x": 27,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LilycoveCity_ContestLobby_EventScript_BlendMasterOnlooker2",
+      "hideFlag": "hoenn/FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 18,
+      "graphicsId": 31,
+      "x": 28,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LilycoveCity_ContestLobby_EventScript_BlendMasterOnlooker3",
+      "hideFlag": "hoenn/FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 19,
+      "graphicsId": 12,
+      "x": 28,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "LilycoveCity_ContestLobby_EventScript_BlendMasterOnlooker4",
+      "hideFlag": "hoenn/FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 20,
+      "graphicsId": 115,
+      "x": 26,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "LilycoveCity_ContestLobby_EventScript_BlendMasterOnlooker5",
+      "hideFlag": "hoenn/FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 21,
+      "graphicsId": 16,
+      "x": 27,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "LilycoveCity_ContestLobby_EventScript_BlendMasterOnlooker6",
+      "hideFlag": "hoenn/FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 22,
+      "graphicsId": 5,
+      "x": 26,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "LilycoveCity_ContestLobby_EventScript_BlendMasterOnlooker1",
+      "hideFlag": "hoenn/FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 23,
+      "graphicsId": 29,
+      "x": 26,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "LilycoveCity_ContestLobby_EventScript_BlendMaster",
+      "hideFlag": "hoenn/FLAG_HIDE_LILYCOVE_CONTEST_HALL_BLEND_MASTER",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 24,
+      "graphicsId": 12,
+      "x": 9,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 2,
+      "movementRangeY": 2,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "LilycoveCity_ContestLobby_EventScript_LittleGirl",
+      "hideFlag": "",
+      "rawMovementType": 10
+    }
+  ],
+  "blockData": "ygbKBsoGygbKBsoGygbKBlsGXAZdBsoGygbKBjoGOwbKBsoGygZNBlsGXAZdBsoGygbKBsoGygbKBsoGygZiBmIGYgbJBmIGyQZiBskGYzZkAmUGzAZiBmIGQgZDBmIGYgbMBgQEYzZkAmUGyQZiBskGYgbJBmIGYgZUBiAyITIhMiEyITIhMiEyITIhMiEyITLQBtEynjLXMtcyrjLRMuAGVTIhMiEyITIhMiEyITIhMiEyITIhMiIyKDJgMmAyYDJgMmAyYDJgMmAyYDJgMtgG2QamBt8G3wa2BtkG6AZmMmAyYDJgMmAyYDJgMmAyYDJgMmAyKjIoMmAyYDJgMmAyYDJgMmAyYDJgMmAyxjJfMl8yXzJfMl8yXzJfMmcyYDJgMmAyYDJgMmAyYDJgMmAyYDIqMigyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDLdBmAyYDJgMt0GYDJgMioyODJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyOTJAMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJBMigyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMioyODJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMt0GYDJgMmAy3QZgMmAyOTJAMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJBMigyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDIEAgUCYDJgMmAyYDJgMmAyYDJgMmAyYDJgMmAyYDJgMioy",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0NAAAAAAAAAAAAAAAAAAAA"
+}

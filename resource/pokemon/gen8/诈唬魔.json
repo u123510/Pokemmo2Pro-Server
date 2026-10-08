@@ -1,0 +1,147 @@
+{
+	"id": 860,
+	"name": "[860]诈唬魔",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 0,
+	"height": 8,
+	"weight": 125,
+	"egg_groups": [
+		"人形组",
+		"妖精组"
+	],
+	"abilities": [
+		{
+			"id": 158,
+			"name": "[158]特性158"
+		},
+		{
+			"id": 119,
+			"name": "[119]特性119"
+		},
+		{
+			"id": 124,
+			"name": "[124]特性124"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 861,
+			"name": "[861]长毛巨魔",
+			"type": "LEVEL",
+			"val": 42
+		}
+	],
+	"moves": [
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 252,
+			"name": "[252]击掌奇袭",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 260,
+			"name": "[260]吹捧",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 590,
+			"name": "[590]密语",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 793,
+			"name": "[793]假跪真撞",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 313,
+			"name": "[313]假哭",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 372,
+			"name": "[372]恶意追击",
+			"type": "level",
+			"level": 16
+		},
+		{
+			"id": 207,
+			"name": "[207]虚张声势",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 389,
+			"name": "[389]突袭",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 259,
+			"name": "[259]无理取闹",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 399,
+			"name": "[399]恶之波动",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 417,
+			"name": "[417]诡计",
+			"type": "level",
+			"level": 40
+		},
+		{
+			"id": 583,
+			"name": "[583]嬉闹",
+			"type": "level",
+			"level": 46
+		},
+		{
+			"id": 492,
+			"name": "[492]欺诈",
+			"type": "level",
+			"level": 52
+		}
+	],
+	"types": [
+		"DARK",
+		"FAIRY"
+	],
+	"stats": {
+		"hp": 65,
+		"attack": 60,
+		"defense": 45,
+		"speed": 75,
+		"sp_attack": 55,
+		"sp_defense": 70
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 2,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

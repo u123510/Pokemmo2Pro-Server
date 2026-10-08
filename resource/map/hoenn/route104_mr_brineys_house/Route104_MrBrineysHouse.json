@@ -1,0 +1,171 @@
+{
+  "regionId": 1,
+  "bankId": 67,
+  "mapId": 0,
+  "width": 12,
+  "height": 9,
+  "paletteIdx1": 116,
+  "paletteIdx2": 147,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 362,
+  "unknownByte": 19,
+  "borderTiles": [
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "Route104_MrBrineysHouse_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 5,
+      "y": 8,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 19,
+      "targetX": 17,
+      "targetY": 50,
+      "targetElevation": 0
+    },
+    {
+      "x": 6,
+      "y": 8,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 19,
+      "targetX": 17,
+      "targetY": 50,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 21,
+      "x": 5,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "WALK_SEQUENCE_DOWN_LEFT_UP_RIGHT",
+      "movementRangeX": 3,
+      "movementRangeY": 3,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "Route104_MrBrineysHouse_EventScript_Briney",
+      "hideFlag": "hoenn/FLAG_HIDE_BRINEYS_HOUSE_MR_BRINEY",
+      "rawMovementType": 50
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 211,
+      "x": 6,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 3,
+      "movementRangeY": 3,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "Route104_MrBrineysHouse_EventScript_Peeko",
+      "hideFlag": "hoenn/FLAG_HIDE_BRINEYS_HOUSE_PEEKO",
+      "rawMovementType": 8
+    }
+  ],
+  "blockData": "4waxBrIGFQbjBhcGFwbkBhUGvga/BuQG6wa5BroGHQbrBh8GHwbsBqAGxgbHBuwG8zLBMsIyITLzMiEyITL0MqgyzjLPMvQysza0NikyKTIpMikyKTIpMikyKTIpMikyszYpMikyKTIpMikyKTJOBk8GKTIpMikyITIpMikyKTIpMikyKTJWBlcGRDIpMikyITIpMikyKTIpMikyKTIpMikyKTIpMikyIDMYMxgzGDMYMxgzGDMYMxgzGDMYMxgzIzMbMxszGzMbMxACEQIbMxszGzMbMxsz",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQAAAAAA"
+}

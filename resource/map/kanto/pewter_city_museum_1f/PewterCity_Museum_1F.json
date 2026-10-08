@@ -1,0 +1,329 @@
+{
+  "regionId": 0,
+  "bankId": 6,
+  "mapId": 0,
+  "width": 28,
+  "height": 11,
+  "paletteIdx1": 12,
+  "paletteIdx2": 17,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 314,
+  "unknownByte": 90,
+  "borderTiles": [
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [
+    {
+      "x": 12,
+      "y": 5,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_PEWTER_CITY_MUSEUM_1F",
+      "value": 0,
+      "script": "PewterCity_Museum_1F_EventScript_EntranceTriggerLeft"
+    },
+    {
+      "x": 13,
+      "y": 5,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_PEWTER_CITY_MUSEUM_1F",
+      "value": 0,
+      "script": "PewterCity_Museum_1F_EventScript_EntranceTriggerMid"
+    },
+    {
+      "x": 14,
+      "y": 5,
+      "elevation": 3,
+      "varKey": "VAR_MAP_SCENE_PEWTER_CITY_MUSEUM_1F",
+      "value": 0,
+      "script": "PewterCity_Museum_1F_EventScript_EntranceTriggerRight"
+    }
+  ],
+  "bgEvents": [
+    {
+      "x": 4,
+      "y": 4,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "PewterCity_Museum_1F_EventScript_AerodactylFossil"
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "PewterCity_Museum_1F_EventScript_KabutopsFossil"
+    },
+    {
+      "x": 27,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "PewterCity_Museum_1F_EventScript_PokemonJournalBrock"
+    },
+    {
+      "x": 26,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "PewterCity_Museum_1F_EventScript_PokemonJournalBrock"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 13,
+      "y": 9,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 2,
+      "targetX": 17,
+      "targetY": 6,
+      "targetElevation": 0
+    },
+    {
+      "x": 14,
+      "y": 9,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 2,
+      "targetX": 17,
+      "targetY": 6,
+      "targetElevation": 0
+    },
+    {
+      "x": 15,
+      "y": 9,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 2,
+      "targetX": 17,
+      "targetY": 6,
+      "targetElevation": 0
+    },
+    {
+      "x": 21,
+      "y": 9,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 2,
+      "targetX": 25,
+      "targetY": 4,
+      "targetElevation": 0
+    },
+    {
+      "x": 22,
+      "y": 9,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 3,
+      "targetMapId": 2,
+      "targetX": 25,
+      "targetY": 4,
+      "targetElevation": 0
+    },
+    {
+      "x": 8,
+      "y": 8,
+      "elevation": 2,
+      "targetRegionId": 0,
+      "targetBankId": 6,
+      "targetMapId": 1,
+      "targetX": 11,
+      "targetY": 8,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 47,
+      "x": 16,
+      "y": 5,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "PewterCity_Museum_1F_EventScript_Scientist1",
+      "hideFlag": "",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 32,
+      "x": 2,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "PewterCity_Museum_1F_EventScript_OldMan",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 55,
+      "x": 21,
+      "y": 3,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PewterCity_Museum_1F_EventScript_OldAmberScientist",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 101,
+      "x": 22,
+      "y": 3,
+      "elevation": 0,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "PewterCity_Museum_1F_EventScript_OldAmber",
+      "hideFlag": "kanto/FLAG_HIDE_OLD_AMBER",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 55,
+      "x": 26,
+      "y": 4,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "PewterCity_Museum_1F_EventScript_Scientist2",
+      "hideFlag": "",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 55,
+      "x": 26,
+      "y": 7,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "PewterCity_Museum_1F_EventScript_SeismicTossTutor",
+      "hideFlag": "",
+      "rawMovementType": 10
+    }
+  ],
+  "blockData": "pQa9BocGvwaHBr0Ghwa/BocGvQaHBs8GhwbPBocGhwaHBs0GzgbNBs4GhwaHBocGzQbOBs0GzgatBsUGjwbHBo8GxQaPBscGjwbFBo8G1waPBtcGjwaXBo8G1QbWBtUG1gaPBo8GjwbVBtYG1QbWBrUyxjKCMoIygjLGMoIygjKCMsYygjKCMoIygjKCMpMGgjLdMt4y3TLeMoIygjKCMt0y3jLdMt4ygjKBMoEygzKEMoUyhjKBMoEygTKBMoEygTKBMoEykwadMoEygTKBMoEygTKwBoEygTKBMoEyzAaCMoEygTKLBowGjQaOBqMygTKBMoEygTKBMoEygTKTBqMygTKBMoEygTKBMt8ygTKBMoEylTLUBoIygTKBMogyljKJMooyozKBMoEygTKfMoEygTKBMpMGnTKBMoEygTKBMoEygTKBMoEygTKBMtwygjKBMoEygzKEMoUyhjKBMoEygTKxMpMGgjKBMoEyngamMpQygTKBMoEygTKBMoEygTKBMoEyzAaCMoEygTKLBowGjQaOBqMygTK4BrkGpwaCMoEygTKsBpwGpAarMoEygTKBMoEygTKBMoEylTLUBsoygTKBMogyljKJMooyozLkMsAGwQavBoIygTKBMoEyrjKTBqMygTKBMoEygTKBMq4yrjKBMtwyywaBMoEygTKBMoEygTKBMoEyyAbJBrcGgjKgMqEyojK2BpsGozKBMqAyoTKiMoEytga2BoEygTIIBAgECAQIBAgECAQIBAgECAQIBAgECAQIBBoEGwQcBAgECAQIBAgEGgQbBBwECAQIBAgECAQIBA==",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="
+}

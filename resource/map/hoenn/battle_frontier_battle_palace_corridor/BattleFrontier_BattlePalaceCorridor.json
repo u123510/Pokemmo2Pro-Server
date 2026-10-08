@@ -1,0 +1,274 @@
+{
+  "regionId": 1,
+  "bankId": 76,
+  "mapId": 23,
+  "width": 17,
+  "height": 14,
+  "paletteIdx1": 100,
+  "paletteIdx2": 160,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 463,
+  "unknownByte": 58,
+  "borderTiles": [
+    {
+      "material": 35,
+      "collision": 0
+    },
+    {
+      "material": 35,
+      "collision": 0
+    },
+    {
+      "material": 35,
+      "collision": 0
+    },
+    {
+      "material": 35,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [
+    {
+      "varKey": "VAR_TEMP_0",
+      "value": 0,
+      "script": "BattleFrontier_BattlePalaceCorridor_EventScript_WalkThroughCorridor"
+    }
+  ],
+  "coordScripts": [],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 8,
+      "y": 13,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 76,
+      "targetMapId": 22,
+      "targetX": 5,
+      "targetY": 4,
+      "targetElevation": 2
+    },
+    {
+      "x": 9,
+      "y": 13,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 76,
+      "targetMapId": 22,
+      "targetX": 5,
+      "targetY": 4,
+      "targetElevation": 2
+    },
+    {
+      "x": 6,
+      "y": 3,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 76,
+      "targetMapId": 24,
+      "targetX": 0,
+      "targetY": 9,
+      "targetElevation": 2
+    },
+    {
+      "x": 10,
+      "y": 3,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 76,
+      "targetMapId": 24,
+      "targetX": 0,
+      "targetY": 9,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 21,
+      "x": 8,
+      "y": 12,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "0x0",
+      "hideFlag": "",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 214,
+      "x": 3,
+      "y": 5,
+      "elevation": 0,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "",
+      "rawMovementType": 2
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 225,
+      "x": 12,
+      "y": 6,
+      "elevation": 0,
+      "movementType": "FACE_LEFT_AND_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 2,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "",
+      "rawMovementType": 14
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 209,
+      "x": 15,
+      "y": 5,
+      "elevation": 0,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 208,
+      "x": 4,
+      "y": 9,
+      "elevation": 0,
+      "movementType": "FACE_LEFT_AND_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 2,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "",
+      "rawMovementType": 14
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 210,
+      "x": 13,
+      "y": 9,
+      "elevation": 0,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 211,
+      "x": 3,
+      "y": 10,
+      "elevation": 0,
+      "movementType": "WANDER_AROUND",
+      "movementRangeX": 1,
+      "movementRangeY": 2,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "0x0",
+      "hideFlag": "",
+      "rawMovementType": 2
+    }
+  ],
+  "blockData": "DDYKNh82CzYMNgo2CTYJNh82CTYJNgs2DDYKNh82CzYNMg02CTYnNgk2DTIJNgk2CTYnNgk2CTYJNg0yCTYnNgk2DTYNNgk2CTYJNg0yEDYRMhI2CTYQNhEyEjYNMgk2CTYJNg02DTYONg42DjYNNhg2GTIaNg42GDYZMho2DTYONg42DjYNNjkyOTI5MjkyOTKgAqECogIDMpgCmQKaAjkyOTI5MjkyOTIEAA0ABAANAAQANTIBMgEyATIBMgEyMzIEAA0ABAANAAQAiTGJMYExBAANADUyATIBMgEyATIBMjMyDQAEAIAxiTGJMXAxcDGSMQ0ABAA1MgEyATIBMgEyATIzMg0ABACQMXAxcDFwMXAxkjENAAQANTIBMgEyATIBMgEyMzIEAA0AkDFwMXAxcDFwMZIxBAANADUyATIBMgEyATIBMjMyDQAEAJAxcDFwMXAxcDGSMQ0ABAA1MgEyATIBMgEyATIzMgQADQCQMXAxcDFwMXAxkjENAAQANTIBMgEyATIBMgEyMzINAAQAkDFwMXAxcDFwMZIxBAANADUyATIBMgEyATIBMjMyDQAEAJAxcDFwMTwyPDI8MjwyPDI9MgEyATIEMgUyATI7MjwyPDI8MjwyPDI=",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwAAAAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAEAAAAAAAAAAAABAAEAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAAABAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAABAAAAAAAAAAAAAQAAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAAEAAAAAAAAAAQAAAAAAAAAAAAAAAA0NAAAAAAAAAA=="
+}

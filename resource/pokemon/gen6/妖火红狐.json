@@ -1,0 +1,193 @@
+{
+	"id": 1093,
+	"name": "[1093]妖火红狐",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 32,
+	"height": 15,
+	"weight": 390,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 66,
+			"name": "[066]特性66"
+		},
+		{
+			"id": 66,
+			"name": "[066]特性66"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 10,
+			"name": "[10]抓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 39,
+			"name": "[39]摇尾巴",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 247,
+			"name": "[247]暗影球",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 248,
+			"name": "[248]预知未来",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 272,
+			"name": "[272]扮演",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 415,
+			"name": "[415]掉包",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 52,
+			"name": "[52]火花",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 336,
+			"name": "[336]长嚎",
+			"type": "level",
+			"level": 11
+		},
+		{
+			"id": 488,
+			"name": "[488]蓄能焰袭",
+			"type": "level",
+			"level": 14
+		},
+		{
+			"id": 60,
+			"name": "[60]幻象光线",
+			"type": "level",
+			"level": 18
+		},
+		{
+			"id": 83,
+			"name": "[83]火焰旋涡",
+			"type": "level",
+			"level": 22
+		},
+		{
+			"id": 381,
+			"name": "[381]幸运咒语",
+			"type": "level",
+			"level": 27
+		},
+		{
+			"id": 113,
+			"name": "[113]光墙",
+			"type": "level",
+			"level": 30
+		},
+		{
+			"id": 473,
+			"name": "[473]精神冲击",
+			"type": "level",
+			"level": 34
+		},
+		{
+			"id": 595,
+			"name": "[595]魔法火焰",
+			"type": "level",
+			"level": 36
+		},
+		{
+			"id": 53,
+			"name": "[53]喷射火焰",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 261,
+			"name": "[261]鬼火",
+			"type": "level",
+			"level": 47
+		},
+		{
+			"id": 94,
+			"name": "[94]精神强念",
+			"type": "level",
+			"level": 51
+		},
+		{
+			"id": 241,
+			"name": "[241]大晴天",
+			"type": "level",
+			"level": 55
+		},
+		{
+			"id": 478,
+			"name": "[478]魔法空间",
+			"type": "level",
+			"level": 58
+		},
+		{
+			"id": 126,
+			"name": "[126]大字爆炎",
+			"type": "level",
+			"level": 61
+		},
+		{
+			"id": 248,
+			"name": "[248]预知未来",
+			"type": "level",
+			"level": 69
+		},
+		{
+			"id": 595,
+			"name": "[595]魔法火焰",
+			"type": "level",
+			"level": 75
+		}
+	],
+	"types": [
+		"FIRE",
+		"PSYCHIC"
+	],
+	"stats": {
+		"hp": 75,
+		"attack": 69,
+		"defense": 72,
+		"speed": 114,
+		"sp_attack": 100,
+		"sp_defense": 104
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 3,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

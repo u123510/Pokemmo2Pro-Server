@@ -1,0 +1,305 @@
+{
+  "regionId": 0,
+  "bankId": 10,
+  "mapId": 2,
+  "width": 13,
+  "height": 15,
+  "paletteIdx1": 12,
+  "paletteIdx2": 41,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 303,
+  "unknownByte": 94,
+  "borderTiles": [
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    },
+    {
+      "material": 8,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "",
+  "onFrameScripts": [],
+  "coordScripts": [],
+  "bgEvents": [
+    {
+      "x": 8,
+      "y": 1,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "CeladonCity_DepartmentStore_3F_EventScript_FloorSign"
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "CeladonCity_DepartmentStore_3F_EventScript_TV1"
+    },
+    {
+      "x": 5,
+      "y": 8,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "CeladonCity_DepartmentStore_3F_EventScript_TV2"
+    },
+    {
+      "x": 2,
+      "y": 11,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "CeladonCity_DepartmentStore_3F_EventScript_TV3"
+    },
+    {
+      "x": 5,
+      "y": 11,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "CeladonCity_DepartmentStore_3F_EventScript_TV4"
+    },
+    {
+      "x": 1,
+      "y": 8,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "CeladonCity_DepartmentStore_3F_EventScript_SuperNES"
+    },
+    {
+      "x": 1,
+      "y": 11,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "CeladonCity_DepartmentStore_3F_EventScript_SuperNES"
+    },
+    {
+      "x": 4,
+      "y": 8,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "CeladonCity_DepartmentStore_3F_EventScript_SuperNES"
+    },
+    {
+      "x": 4,
+      "y": 11,
+      "elevation": 0,
+      "facingDir": "ANY",
+      "script": "CeladonCity_DepartmentStore_3F_EventScript_SuperNES"
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "CeladonCity_DepartmentStore_3F_EventScript_Poster"
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "elevation": 0,
+      "facingDir": "NORTH",
+      "script": "CeladonCity_DepartmentStore_3F_EventScript_Poster"
+    }
+  ],
+  "connections": [],
+  "warps": [
+    {
+      "x": 6,
+      "y": 1,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 10,
+      "targetMapId": 6,
+      "targetX": 2,
+      "targetY": 5,
+      "targetElevation": 2
+    },
+    {
+      "x": 9,
+      "y": 2,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 10,
+      "targetMapId": 1,
+      "targetX": 9,
+      "targetY": 2,
+      "targetElevation": 2
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "elevation": 0,
+      "targetRegionId": 0,
+      "targetBankId": 10,
+      "targetMapId": 3,
+      "targetX": 3,
+      "targetY": 2,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 68,
+      "x": 10,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_UP",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "UP",
+      "script": "CeladonCity_DepartmentStore_3F_EventScript_CounterTutor",
+      "hideFlag": "",
+      "rawMovementType": 7
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 51,
+      "x": 11,
+      "y": 6,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "CeladonCity_DepartmentStore_3F_EventScript_GBAKid1",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 51,
+      "x": 4,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "CeladonCity_DepartmentStore_3F_EventScript_GBAKid3",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 51,
+      "x": 1,
+      "y": 9,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "CeladonCity_DepartmentStore_3F_EventScript_GBAKid2",
+      "hideFlag": "",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 17,
+      "x": 9,
+      "y": 14,
+      "elevation": 2,
+      "movementType": "FACE_LEFT_AND_RIGHT",
+      "movementRangeX": 1,
+      "movementRangeY": 1,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "CeladonCity_DepartmentStore_3F_EventScript_LittleGirl",
+      "hideFlag": "",
+      "rawMovementType": 14
+    }
+  ],
+  "blockData": "mAaDBoMGgwaDBoQGhQaGBocGgwaDBoMGnwawBmAHYQeLBosGjAaNBo4GjwaLBosGiwaxBrAGaAdpB2oDijKUMpEyljKKMmsDbAdtB7EGoAZwB3EHcgOBMoEygTKBMoEycwN0B3UHpwbPBq4G4QaJMokyiTKJMokyiTKJMq0G1wbXBrYytjK3MsMywDLAMsAywDLAMsAytTLfBt8GwTLAMsAywDLAMsAywDLAMsAywDLAMucy5zLyMgszDDPpMgszDDPqMsAy6DLpMgQz6TLqMusGEwcUB9QGEwcUB+4GvTLTBtQG1gbUBtUGwTLeMsUyxTLeMsUyxTLEMtsGwjLFMsUy3QbyMgszDDPpMgszDDPqMsAy4wbxMuky6TLmBusGEwcUB9QGEwcUB+4GvTLrBtQG1AbUBu4GwTLeMsUyxTLeMsUyxTLEMsUyxTLFMsUyxTK+MsAywDLAMsAywDLAMsAywDLAMsAywDK/MsYGwDLAMsAywDLAMsAywDLAMsAywDLAMscG",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAALAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

@@ -1,0 +1,219 @@
+{
+  "regionId": 1,
+  "bankId": 74,
+  "mapId": 52,
+  "width": 9,
+  "height": 9,
+  "paletteIdx1": 100,
+  "paletteIdx2": 129,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 432,
+  "unknownByte": 62,
+  "borderTiles": [
+    {
+      "material": 113,
+      "collision": 0
+    },
+    {
+      "material": 113,
+      "collision": 0
+    },
+    {
+      "material": 113,
+      "collision": 0
+    },
+    {
+      "material": 113,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "UNDERGROUND",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [
+    {
+      "map": "MAP_NEW_MAUVILLE_ENTRANCE",
+      "base_label": "gNewMauville_Entrance",
+      "land_mons": {
+        "encounter_rate": 10,
+        "mons": [
+          {
+            "min_level": 24,
+            "max_level": 24,
+            "species": "SPECIES_VOLTORB"
+          },
+          {
+            "min_level": 24,
+            "max_level": 24,
+            "species": "SPECIES_MAGNEMITE"
+          },
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_VOLTORB"
+          },
+          {
+            "min_level": 25,
+            "max_level": 25,
+            "species": "SPECIES_MAGNEMITE"
+          },
+          {
+            "min_level": 23,
+            "max_level": 23,
+            "species": "SPECIES_VOLTORB"
+          },
+          {
+            "min_level": 23,
+            "max_level": 23,
+            "species": "SPECIES_MAGNEMITE"
+          },
+          {
+            "min_level": 26,
+            "max_level": 26,
+            "species": "SPECIES_VOLTORB"
+          },
+          {
+            "min_level": 26,
+            "max_level": 26,
+            "species": "SPECIES_MAGNEMITE"
+          },
+          {
+            "min_level": 22,
+            "max_level": 22,
+            "species": "SPECIES_VOLTORB"
+          },
+          {
+            "min_level": 22,
+            "max_level": 22,
+            "species": "SPECIES_MAGNEMITE"
+          },
+          {
+            "min_level": 22,
+            "max_level": 22,
+            "species": "SPECIES_VOLTORB"
+          },
+          {
+            "min_level": 22,
+            "max_level": 22,
+            "species": "SPECIES_MAGNEMITE"
+          }
+        ]
+      }
+    }
+  ],
+  "onTransitionScript": "NewMauville_Entrance_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [
+    {
+      "x": 4,
+      "y": 2,
+      "elevation": 3,
+      "varKey": "VAR_NEW_MAUVILLE_STATE",
+      "value": 0,
+      "script": "NewMauville_Entrance_EventScript_Door"
+    }
+  ],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 4,
+      "y": 6,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 25,
+      "targetX": 35,
+      "targetY": 24,
+      "targetElevation": 2
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "elevation": 2,
+      "targetRegionId": 1,
+      "targetBankId": 74,
+      "targetMapId": 53,
+      "targetX": 32,
+      "targetY": 33,
+      "targetElevation": 2
+    }
+  ],
+  "npcs": [],
+  "blockData": "dAR8BHwEwwbEBsUGfAR8BIkEdQR0BKkEywbMMs0GqQSJBHMEdQR1BNAzzjPQM88z0DPUB3MEdQR1BNAz0DPQM9Az0DPUB3MEdQR1BNAz0DPQM9Az0DPUB3MEdQR1BNAz0DPQM9Az0DPUB3MEdQR1BNAz0DPHM9Az0DPUB3MEdQS/BNYH0QfSB9MH1ge+BHMEvwRsBGwEbARsBGwEbARsBL4E",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+}

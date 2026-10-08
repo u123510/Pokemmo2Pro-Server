@@ -1,0 +1,145 @@
+{
+	"id": 1027,
+	"name": "[1027]花蓓蓓",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 255,
+	"height": 1,
+	"weight": 1,
+	"egg_groups": [
+		"妖精组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 1028,
+			"name": "[1028]花叶蒂",
+			"type": "LEVEL",
+			"val": 19
+		}
+	],
+	"moves": [
+		{
+			"id": 22,
+			"name": "[22]藤鞭",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 584,
+			"name": "[584]妖精之风",
+			"type": "level",
+			"level": 6
+		},
+		{
+			"id": 381,
+			"name": "[381]幸运咒语",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 75,
+			"name": "[75]飞叶快刀",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 273,
+			"name": "[273]祈愿",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 345,
+			"name": "[345]魔法叶",
+			"type": "level",
+			"level": 22
+		},
+		{
+			"id": 580,
+			"name": "[580]青草场地",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 572,
+			"name": "[572]落英缤纷",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 312,
+			"name": "[312]芳香治疗",
+			"type": "level",
+			"level": 33
+		},
+		{
+			"id": 581,
+			"name": "[581]薄雾场地",
+			"type": "level",
+			"level": 37
+		},
+		{
+			"id": 585,
+			"name": "[585]月亮之力",
+			"type": "level",
+			"level": 41
+		},
+		{
+			"id": 80,
+			"name": "[80]花瓣舞",
+			"type": "level",
+			"level": 45
+		},
+		{
+			"id": 76,
+			"name": "[76]日光束",
+			"type": "level",
+			"level": 48
+		}
+	],
+	"types": [
+		"FAIRY"
+	],
+	"stats": {
+		"hp": 44,
+		"attack": 38,
+		"defense": 39,
+		"speed": 61,
+		"sp_attack": 79,
+		"sp_defense": 42
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 1,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

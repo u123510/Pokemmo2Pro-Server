@@ -1,0 +1,174 @@
+{
+	"id": 1041,
+	"name": "[1041]芳香精",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 8,
+	"weight": 155,
+	"egg_groups": [
+		"妖精组"
+	],
+	"abilities": [
+		{
+			"id": 131,
+			"name": "[131]特性131"
+		},
+		{
+			"id": 131,
+			"name": "[131]特性131"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 230,
+			"name": "[230]甜甜香气",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 505,
+			"name": "[505]治愈波动",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 584,
+			"name": "[584]妖精之风",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 597,
+			"name": "[597]芳香薄雾",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 186,
+			"name": "[186]天使之吻",
+			"type": "level",
+			"level": 6
+		},
+		{
+			"id": 316,
+			"name": "[316]气味侦测",
+			"type": "level",
+			"level": 8
+		},
+		{
+			"id": 497,
+			"name": "[497]回声",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 347,
+			"name": "[347]冥想",
+			"type": "level",
+			"level": 17
+		},
+		{
+			"id": 577,
+			"name": "[577]吸取之吻",
+			"type": "level",
+			"level": 21
+		},
+		{
+			"id": 312,
+			"name": "[312]芳香治疗",
+			"type": "level",
+			"level": 25
+		},
+		{
+			"id": 213,
+			"name": "[213]迷人",
+			"type": "level",
+			"level": 29
+		},
+		{
+			"id": 585,
+			"name": "[585]月亮之力",
+			"type": "level",
+			"level": 31
+		},
+		{
+			"id": 204,
+			"name": "[204]撒娇",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 175,
+			"name": "[175]抓狂",
+			"type": "level",
+			"level": 38
+		},
+		{
+			"id": 581,
+			"name": "[581]薄雾场地",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 285,
+			"name": "[285]特性互换",
+			"type": "level",
+			"level": 44
+		},
+		{
+			"id": 94,
+			"name": "[94]精神强念",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 574,
+			"name": "[574]魅惑之声",
+			"type": "level",
+			"level": 53
+		},
+		{
+			"id": 115,
+			"name": "[115]反射壁",
+			"type": "level",
+			"level": 57
+		},
+		{
+			"id": 244,
+			"name": "[244]自我暗示",
+			"type": "level",
+			"level": 64
+		}
+	],
+	"types": [
+		"FAIRY"
+	],
+	"stats": {
+		"hp": 101,
+		"attack": 72,
+		"defense": 72,
+		"speed": 99,
+		"sp_attack": 89,
+		"sp_defense": 29
+	},
+	"yields": {
+		"ev_hp": 2,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

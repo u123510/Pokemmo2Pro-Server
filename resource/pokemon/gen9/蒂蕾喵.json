@@ -1,0 +1,146 @@
+{
+	"id": 907,
+	"name": "[907]蒂蕾喵",
+	"exp_type": 5,
+	"obtainable": true,
+	"gender_ratio": 32,
+	"height": 9,
+	"weight": 122,
+	"egg_groups": [
+		"植物组",
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 65,
+			"name": "[065]特性65"
+		},
+		{
+			"id": 65,
+			"name": "[065]特性65"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [
+		{
+			"id": 908,
+			"name": "[908]魔幻假面喵",
+			"type": "LEVEL",
+			"val": 36
+		}
+	],
+	"moves": [
+		{
+			"id": 10,
+			"name": "[10]抓",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 39,
+			"name": "[39]摇尾巴",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 670,
+			"name": "[670]树叶",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 7
+		},
+		{
+			"id": 468,
+			"name": "[468]磨爪",
+			"type": "level",
+			"level": 10
+		},
+		{
+			"id": 345,
+			"name": "[345]魔法叶",
+			"type": "level",
+			"level": 13
+		},
+		{
+			"id": 98,
+			"name": "[98]电光一闪",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 402,
+			"name": "[402]种子炸弹",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 369,
+			"name": "[369]急速折返",
+			"type": "level",
+			"level": 24
+		},
+		{
+			"id": 388,
+			"name": "[388]烦恼种子",
+			"type": "level",
+			"level": 28
+		},
+		{
+			"id": 163,
+			"name": "[163]劈开",
+			"type": "level",
+			"level": 33
+		},
+		{
+			"id": 412,
+			"name": "[412]能量球",
+			"type": "level",
+			"level": 38
+		},
+		{
+			"id": 583,
+			"name": "[583]嬉闹",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 437,
+			"name": "[437]飞叶风暴",
+			"type": "level",
+			"level": 46
+		}
+	],
+	"types": [
+		"GRASS"
+	],
+	"stats": {
+		"hp": 61,
+		"attack": 80,
+		"defense": 63,
+		"speed": 60,
+		"sp_attack": 63,
+		"sp_defense": 83
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 2
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

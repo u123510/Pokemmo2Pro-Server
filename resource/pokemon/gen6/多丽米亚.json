@@ -1,0 +1,132 @@
+{
+	"id": 1034,
+	"name": "[1034]多丽米亚",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 12,
+	"weight": 280,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 0,
+			"name": "--"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 45,
+			"name": "[45]叫声",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 28,
+			"name": "[28]泼沙",
+			"type": "level",
+			"level": 5
+		},
+		{
+			"id": 608,
+			"name": "[608]圆瞳",
+			"type": "level",
+			"level": 9
+		},
+		{
+			"id": 29,
+			"name": "[29]头锤",
+			"type": "level",
+			"level": 12
+		},
+		{
+			"id": 39,
+			"name": "[39]摇尾巴",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 22
+		},
+		{
+			"id": 316,
+			"name": "[316]气味侦测",
+			"type": "level",
+			"level": 27
+		},
+		{
+			"id": 514,
+			"name": "[514]报仇",
+			"type": "level",
+			"level": 33
+		},
+		{
+			"id": 36,
+			"name": "[36]猛撞",
+			"type": "level",
+			"level": 35
+		},
+		{
+			"id": 204,
+			"name": "[204]撒娇",
+			"type": "level",
+			"level": 38
+		},
+		{
+			"id": 389,
+			"name": "[389]突袭",
+			"type": "level",
+			"level": 42
+		},
+		{
+			"id": 538,
+			"name": "[538]棉花防守",
+			"type": "level",
+			"level": 48
+		}
+	],
+	"types": [
+		"NORMAL"
+	],
+	"stats": {
+		"hp": 75,
+		"attack": 80,
+		"defense": 60,
+		"speed": 65,
+		"sp_attack": 90,
+		"sp_defense": 102
+	},
+	"yields": {
+		"ev_hp": 0,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 1
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}

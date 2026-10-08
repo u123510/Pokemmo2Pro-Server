@@ -1,0 +1,316 @@
+{
+  "regionId": 1,
+  "bankId": 59,
+  "mapId": 9,
+  "width": 24,
+  "height": 15,
+  "paletteIdx1": 100,
+  "paletteIdx2": 129,
+  "borderWidth": 2,
+  "borderHeight": 2,
+  "unknownShort": 433,
+  "unknownByte": 8,
+  "borderTiles": [
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    },
+    {
+      "material": 513,
+      "collision": 0
+    }
+  ],
+  "lighting": "REGULAR",
+  "weather": "IN_HOUSE_WEATHER",
+  "mapType": "INSIDE",
+  "encounterType": "RANDOM",
+  "encounterFields": [
+    {
+      "type": "land_mons",
+      "encounter_rates": [
+        20,
+        20,
+        10,
+        10,
+        10,
+        10,
+        5,
+        5,
+        4,
+        4,
+        1,
+        1
+      ]
+    },
+    {
+      "type": "water_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "rock_smash_mons",
+      "encounter_rates": [
+        60,
+        30,
+        5,
+        4,
+        1
+      ]
+    },
+    {
+      "type": "fishing_mons",
+      "encounter_rates": [
+        70,
+        30,
+        60,
+        20,
+        20,
+        40,
+        40,
+        15,
+        4,
+        1
+      ],
+      "groups": {
+        "old_rod": [
+          0,
+          1
+        ],
+        "good_rod": [
+          2,
+          3,
+          4
+        ],
+        "super_rod": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    }
+  ],
+  "wildEncounters": [],
+  "onTransitionScript": "SlateportCity_Harbor_OnTransition",
+  "onFrameScripts": [],
+  "coordScripts": [
+    {
+      "x": 8,
+      "y": 11,
+      "elevation": 3,
+      "varKey": "VAR_SLATEPORT_HARBOR_STATE",
+      "value": 1,
+      "script": "SlateportCity_Harbor_EventScript_AquaEscapeTrigger0"
+    },
+    {
+      "x": 8,
+      "y": 12,
+      "elevation": 3,
+      "varKey": "VAR_SLATEPORT_HARBOR_STATE",
+      "value": 1,
+      "script": "SlateportCity_Harbor_EventScript_AquaEscapeTrigger1"
+    },
+    {
+      "x": 8,
+      "y": 13,
+      "elevation": 3,
+      "varKey": "VAR_SLATEPORT_HARBOR_STATE",
+      "value": 1,
+      "script": "SlateportCity_Harbor_EventScript_AquaEscapeTrigger2"
+    },
+    {
+      "x": 8,
+      "y": 14,
+      "elevation": 3,
+      "varKey": "VAR_SLATEPORT_HARBOR_STATE",
+      "value": 1,
+      "script": "SlateportCity_Harbor_EventScript_AquaEscapeTrigger3"
+    }
+  ],
+  "bgEvents": [],
+  "connections": [],
+  "warps": [
+    {
+      "x": 11,
+      "y": 14,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 1,
+      "targetX": 28,
+      "targetY": 12,
+      "targetElevation": 0
+    },
+    {
+      "x": 12,
+      "y": 14,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 1,
+      "targetX": 28,
+      "targetY": 12,
+      "targetElevation": 0
+    },
+    {
+      "x": 19,
+      "y": 15,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 1,
+      "targetX": 40,
+      "targetY": 7,
+      "targetElevation": 0
+    },
+    {
+      "x": 20,
+      "y": 15,
+      "elevation": 0,
+      "targetRegionId": 1,
+      "targetBankId": 50,
+      "targetMapId": 1,
+      "targetX": 40,
+      "targetY": 7,
+      "targetElevation": 0
+    }
+  ],
+  "npcs": [
+    {
+      "entityIdx": 0,
+      "graphicsId": 45,
+      "x": 8,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "FACE_DOWN",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SlateportCity_Harbor_EventScript_FerryAttendant",
+      "hideFlag": "hoenn/FLAG_HIDE_SLATEPORT_CITY_HARBOR_PATRONS",
+      "rawMovementType": 8
+    },
+    {
+      "entityIdx": 1,
+      "graphicsId": 49,
+      "x": 4,
+      "y": 12,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "SlateportCity_Harbor_EventScript_Sailor",
+      "hideFlag": "hoenn/FLAG_HIDE_SLATEPORT_CITY_HARBOR_PATRONS",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 2,
+      "graphicsId": 17,
+      "x": 1,
+      "y": 12,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "SlateportCity_Harbor_EventScript_FatMan",
+      "hideFlag": "hoenn/FLAG_HIDE_SLATEPORT_CITY_HARBOR_PATRONS",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 3,
+      "graphicsId": 46,
+      "x": 6,
+      "y": 13,
+      "elevation": 2,
+      "movementType": "LOOK_AROUND",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "DOWN",
+      "script": "SlateportCity_Harbor_EventScript_CaptStern",
+      "hideFlag": "hoenn/FLAG_HIDE_SLATEPORT_CITY_HARBOR_CAPTAIN_STERN",
+      "rawMovementType": 1
+    },
+    {
+      "entityIdx": 4,
+      "graphicsId": 140,
+      "x": 8,
+      "y": 9,
+      "elevation": 0,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_SLATEPORT_CITY_HARBOR_SS_TIDAL",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 5,
+      "graphicsId": 117,
+      "x": 7,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_SLATEPORT_CITY_HARBOR_AQUA_GRUNT",
+      "rawMovementType": 10
+    },
+    {
+      "entityIdx": 6,
+      "graphicsId": 195,
+      "x": 8,
+      "y": 10,
+      "elevation": 2,
+      "movementType": "FACE_LEFT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "LEFT",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_SLATEPORT_CITY_HARBOR_ARCHIE",
+      "rawMovementType": 9
+    },
+    {
+      "entityIdx": 7,
+      "graphicsId": 141,
+      "x": 7,
+      "y": 9,
+      "elevation": 0,
+      "movementType": "FACE_RIGHT",
+      "movementRangeX": 0,
+      "movementRangeY": 0,
+      "trainerType": 0,
+      "facing": "RIGHT",
+      "script": "0x0",
+      "hideFlag": "hoenn/FLAG_HIDE_SLATEPORT_CITY_HARBOR_SUBMARINE_SHADOW",
+      "rawMovementType": 10
+    }
+  ],
+  "blockData": "GQIZAhkCGQIZAhkCGQIZAhkCGQIZAhkCGQIZAhkCGQIZAhkCGQIZAhkCGQIZAhkCsgO2A7YDsgOyA7IDtgO2A7IDsgOyA7YDtgOyA7IDsgO2A7YDsgOyA7IDtgO2A7IDsgO3A7cDsgOyA7IDtwO3A7IDsgOyA7cDtwOyA7IDsgO3A7cDsgOyA7IDtwO3A7IDIQYhBiEGIQYhBiEGIQYhBiEGIQYhBiEGIQYhBiEGIQYhBiEGIQYhBiEGIQYhBiEGAzIDMgMyTQdOB04HTgdOB04HTgdOB04HTgdOB04HTgdOB04HTgdOB04HTgdOB04HAzICMgIyRwdxFXEVcRVxFXEVcRVxFXEVcRVxFXEVcRVxFXEVcRVxFXEVcRVxFXEVAzICMgIyRwdxFXAVcBVwFXAVcBVwFXAVcBVwFXAVcBVwFXAVcBVwFXAVcBVwFXAVAzICMgIyRwdxFXAVcBVwFXAVcBVwFXAVcBVwFXAVcBVwFXAVcBVwFXAVcBVwFXAVAzICMgIyRwdxFXAVcBVwFXAVcBVwFXAVcBVwFXAVcBVwFXAVcBVwFXAVcBVwFXAVAzICMgIyRwdxFXAVcBVwFXAVcBVwFXAVcBVwFXAVcBVwFXAVcBVwFXAVcBVwFXAVAzICMgIyaAZWB1YHVwdbM1szVQdWB1YHVgdWB1YHVgdWB0YH3jffN1YHVgdWB1YHAzICMgIyBDIEMgQyBDICMgIyJTIEMgQyJTIEMgQyJTIEMmAG2jfbN9g32TexNio2AzICMgIyAjICMgIyAjICMgIyAjICMgIyAjICMgIyAjICMmAG3DfdN9w33TfYN9k3AzICMgIyAjICMgIyAjICMgIyAjICMgIyAjICMgIyAjICMmAGKjYqNio2KjbaN9s3AzICMgIyAjICMgIyAjICMgIyAjICMgYCBwICMgIyAjICMmAGKDYoNig2KDbcN903",
+  "behaviorData": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANDQAAAAAAAAAAAAAA"
+}

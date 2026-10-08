@@ -1,0 +1,138 @@
+{
+	"id": 820,
+	"name": "[820]藏饱栗鼠",
+	"exp_type": 0,
+	"obtainable": true,
+	"gender_ratio": 128,
+	"height": 6,
+	"weight": 60,
+	"egg_groups": [
+		"陆上组"
+	],
+	"abilities": [
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 46,
+			"name": "[046]特性46"
+		},
+		{
+			"id": 82,
+			"name": "[082]特性82"
+		}
+	],
+	"forms": [],
+	"evolutions": [],
+	"moves": [
+		{
+			"id": 33,
+			"name": "[33]撞击",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 39,
+			"name": "[39]摇尾巴",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 44,
+			"name": "[44]咬住",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 343,
+			"name": "[343]渴望",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 747,
+			"name": "[747]大快朵颐",
+			"type": "level",
+			"level": 1
+		},
+		{
+			"id": 254,
+			"name": "[254]蓄力",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 255,
+			"name": "[255]喷出",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 256,
+			"name": "[256]吞下",
+			"type": "level",
+			"level": 15
+		},
+		{
+			"id": 34,
+			"name": "[34]泰山压顶",
+			"type": "level",
+			"level": 20
+		},
+		{
+			"id": 156,
+			"name": "[156]睡觉",
+			"type": "level",
+			"level": 27
+		},
+		{
+			"id": 68,
+			"name": "[68]双倍奉还",
+			"type": "level",
+			"level": 34
+		},
+		{
+			"id": 331,
+			"name": "[331]种子机关枪",
+			"type": "level",
+			"level": 41
+		},
+		{
+			"id": 162,
+			"name": "[162]愤怒门牙",
+			"type": "level",
+			"level": 48
+		},
+		{
+			"id": 562,
+			"name": "[562]打嗝",
+			"type": "level",
+			"level": 55
+		}
+	],
+	"types": [
+		"NORMAL"
+	],
+	"stats": {
+		"hp": 120,
+		"attack": 95,
+		"defense": 95,
+		"speed": 55,
+		"sp_attack": 75,
+		"sp_defense": 20
+	},
+	"yields": {
+		"ev_hp": 2,
+		"ev_attack": 0,
+		"ev_defense": 0,
+		"ev_speed": 0,
+		"ev_sp_attack": 0,
+		"ev_sp_defense": 0
+	},
+	"tiers": [
+		"未分级"
+	],
+	"held_items": [],
+	"locations": []
+}
