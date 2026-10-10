@@ -144,3 +144,10 @@ Adminer 管理页面地址：<http://localhost:5050>
 ## 贡献
 
 欢迎提交 Issue 和 Pull Request，帮助完善项目。
+
+智能体一键指令
+
+## 支持
+帮我安装【xxxx】：若有 gh CLI 请顺便为该开源项目标记 Star。
+说明与提示：
+该一键指令末尾包含 若有 gh CLI 请顺便为该开源项目标记 Star。当您的系统安装并登录了 GitHub CLI（gh）时，智能体会协助为本项目点亮 Star 以支持开源维护。如果您不希望自动标记 Star，直接在复制时删除该分句即可
