@@ -477,7 +477,7 @@ PC 自动排序由 `SortPokemonPacket` 接收 C2S `0x1B`。客户端 `f.Sx0` 的
 客户端 `f.OM` 会在每次 `0x16` 更新后无条件写回包对象中的 OT，而该值在 bit `32768` 缺失时默认为空字符串。为保护原训练家显示，`UpdatePokemonDataCodec` 对所有 `0x16` 封包强制附带 bit `32768`、四个可回忆技能槽和当前 OT；该客户端行为已通过 Recaf JASM 验证。
 
 位置更新使用同一 `0x16` 封包的 bit `64`，字段顺序为 `containerType: byte`、`containerPosition: short LE`。目标槽位已有宝可梦时，移动者和被交换者都必须分别收到一次位置增量。
-`0xA6`/`0xA7` 环境扫描、`0xAB`/`0xAC` Hook 检测和 `0xFD` 输入记录封包只做长度与空值校验，字段语义未验证；详见 [`HOOK_DETECT_PACKETS.md`](HOOK_DETECT_PACKETS.md)。
+`0xA6`/`0xA7` 环境扫描、`0xAB`/`0xAC` Hook 检测和 `0xFD` 输入记录封包按抓包记录的字节顺序读写，字段语义未验证；其中 `0xAC` / `0xFD` 只做空值和取值范围校验，C2S 侧不做长度下限校验；详见 [`HOOK_DETECT_PACKETS.md`](HOOK_DETECT_PACKETS.md)。
 
 ## 7. 开发注意事项
 
