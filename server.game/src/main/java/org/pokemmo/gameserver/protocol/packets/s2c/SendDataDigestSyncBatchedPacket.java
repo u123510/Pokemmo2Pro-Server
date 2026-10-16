@@ -4,17 +4,17 @@ import org.server.OutgoingPacket;
 import org.server.bytes.ByteBufEx;
 
 /**
- * 下发“排除白名单”的环境扫描位图。
+ * 下发批量数据摘要同步。
  *
- * <p>字段顺序为 hashCount + bitSetSize + 位图长度 + 位图字节。抓包中 bitSetSize(3) 与
- * 实际写出的位图长度(49) 不一致，含义尚未验证；这里保持原有字节序列不变，仅把 int[]
- * 换成 byte[] 并去掉越界的隐式转换。</p>
+ * <p>命名参考 OpenMMO 的 {@code DataDigestSyncBatchedPacket}。位图语义尚未验证，抓包中前两个 short 都是 0，
+ * 因此当前只写入 4 字节头部，不写出任何位图字节；这里保持同样的长度，避免改变客户端可见的协议数据。</p>
  */
-public final class SendScanEnvironmentWithWhiteList extends OutgoingPacket {
+public final class SendDataDigestSyncBatchedPacket extends OutgoingPacket {
 
-    private static final short HASH_COUNT = (short) 0x180;
-    private static final short BIT_SET_SIZE = 3;
-    private static final byte[] BIT_SET = {
+    private static final short idSize = 0;
+    private static final short bufferSize = 0;
+    /** 抓包记录的位图字节，当前 bitSetSize 为 0，不会写出。 */
+    private static final byte[] payload = {
             (byte) 0x00, (byte) 0x37, (byte) 0x9E, (byte) 0x3C, (byte) 0x83, (byte) 0x71, (byte) 0x94, (byte) 0x26,
             (byte) 0x18, (byte) 0xC9, (byte) 0x3D, (byte) 0x87, (byte) 0x6B, (byte) 0x8F, (byte) 0xE7, (byte) 0x94,
             (byte) 0x7E, (byte) 0xCA, (byte) 0x59, (byte) 0x06, (byte) 0x8F, (byte) 0xF8, (byte) 0x48, (byte) 0x74,
@@ -26,9 +26,8 @@ public final class SendScanEnvironmentWithWhiteList extends OutgoingPacket {
 
     @Override
     public void encode(ByteBufEx buffer) throws Exception {
-        buffer.writeShortLE(HASH_COUNT);
-        buffer.writeShortLE(BIT_SET_SIZE);
-        buffer.writeShortLE((short) BIT_SET.length);
-        buffer.writeBytes(BIT_SET);
+        buffer.writeShortLE(idSize);
+        buffer.writeShortLE(bufferSize);
+        buffer.writeBytes(payload , 0, bufferSize);
     }
 }

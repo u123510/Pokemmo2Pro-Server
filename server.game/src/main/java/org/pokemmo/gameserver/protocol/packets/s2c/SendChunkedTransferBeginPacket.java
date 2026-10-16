@@ -2,7 +2,14 @@ package org.pokemmo.gameserver.protocol.packets.s2c;
 
 import org.server.OutgoingPacket;
 import org.server.bytes.ByteBufEx;
-public final class SendHookDetectBeginPacket extends OutgoingPacket {
+
+/**
+ * 通知客户端开始接收分块传输数据。
+ *
+ * <p>命名参考 OpenMMO 的 {@code ChunkedTransferBeginPacket}。字段顺序为 id + unk2 + 固定 payload，
+ * 字节序列按抓包记录保留，字段语义尚未验证。</p>
+ */
+public final class SendChunkedTransferBeginPacket extends OutgoingPacket {
 
     private static final long id = 0L;
     private static final int unk2= 46701;

@@ -6,13 +6,13 @@ import org.server.Session;
 import org.server.bytes.ByteBufEx;
 
 /**
- * 客户端上报的“排除黑名单”环境信息。
+ * 客户端上报的数据内容同步批次。
  *
- * <p>目前只确认了 opcode、方向和整包长度不固定，条目结构（键值对还是连续记录）尚未验证，
- * 因此这里原样保留整个 payload，避免像旧实现那样在循环里丢掉除最后一个字节以外的内容。</p>
+ * <p>命名参考 OpenMMO 的 {@code DataContentSyncBatchPacket}。目前只确认了 opcode、方向和整包长度不固定，
+ * 条目结构（键值对还是连续记录）尚未验证，因此这里原样保留整个 payload。</p>
  */
 @Slf4j
-public final class EnvironmentInfoExceptBlackListPacket extends IncomingPacket {
+public final class DataContentSyncBatchPacket extends IncomingPacket {
 
     private byte[] payload = new byte[0];
 

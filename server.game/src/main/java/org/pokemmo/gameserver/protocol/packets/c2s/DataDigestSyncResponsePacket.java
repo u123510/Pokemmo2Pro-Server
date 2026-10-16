@@ -4,8 +4,15 @@ import lombok.extern.slf4j.Slf4j;
 import org.server.IncomingPacket;
 import org.server.Session;
 import org.server.bytes.ByteBufEx;
+
+/**
+ * 客户端上报的数据摘要同步响应。
+ *
+ * <p>命名参考 OpenMMO 的 {@code DataDigestSyncResponsePacket}。目前只确认了 opcode、方向和整包长度不固定，
+ * 条目结构尚未验证，因此这里原样保留整个 payload。</p>
+ */
 @Slf4j
-public final class EnvironmentInfoExceptWhiteListPacket extends IncomingPacket {
+public final class DataDigestSyncResponsePacket extends IncomingPacket {
 
     private byte[] payload = new byte[0];
 
