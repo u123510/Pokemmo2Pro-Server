@@ -71,7 +71,7 @@
 | `org.pokemmo.gameserver.game.trainer` | 9 |
 | `org.pokemmo.gameserver.game.trade` | 12 |
 | `org.pokemmo.gameserver.protocol` | 1 |
-| `org.pokemmo.gameserver.protocol.packets.c2s` | 75 |
+| `org.pokemmo.gameserver.protocol.packets.c2s` | 74 |
 | `org.pokemmo.gameserver.protocol.packets.s2c` | 105 |
 | `org.pokemmo.gameserver.protocol.packets.scriptsession` | 1 |
 | `org.pokemmo.gameserver.script` | 1 |

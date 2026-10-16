@@ -593,7 +593,6 @@
 - [server.game/src/main/java/org/pokemmo/gameserver/protocol/packets/c2s/FlyPacket.java](../server.game/src/main/java/org/pokemmo/gameserver/protocol/packets/c2s/FlyPacket.java)
 - [server.game/src/main/java/org/pokemmo/gameserver/protocol/packets/c2s/GetEmailDataPacket.java](../server.game/src/main/java/org/pokemmo/gameserver/protocol/packets/c2s/GetEmailDataPacket.java)
 - [server.game/src/main/java/org/pokemmo/gameserver/protocol/packets/c2s/GmOperationPacket.java](../server.game/src/main/java/org/pokemmo/gameserver/protocol/packets/c2s/GmOperationPacket.java)
-- [server.game/src/main/java/org/pokemmo/gameserver/protocol/packets/c2s/InputRecordPacket.java](../server.game/src/main/java/org/pokemmo/gameserver/protocol/packets/c2s/InputRecordPacket.java)
 - [server.game/src/main/java/org/pokemmo/gameserver/protocol/packets/c2s/InteractPacket.java](../server.game/src/main/java/org/pokemmo/gameserver/protocol/packets/c2s/InteractPacket.java)
 - [server.game/src/main/java/org/pokemmo/gameserver/protocol/packets/c2s/JoinGameWorldPacket.java](../server.game/src/main/java/org/pokemmo/gameserver/protocol/packets/c2s/JoinGameWorldPacket.java)
 - [server.game/src/main/java/org/pokemmo/gameserver/protocol/packets/c2s/LongtHeartbeatPacket.java](../server.game/src/main/java/org/pokemmo/gameserver/protocol/packets/c2s/LongtHeartbeatPacket.java)

@@ -39,6 +39,7 @@
 - [宝可梦携带道具封包](POKEMON_ITEM_PACKET.md)
 - [邮箱封包](EMAIL_PACKET.md)
 - [好友操作封包](FRIEND_PACKET.md)
+- [Hook 检测与环境扫描封包](HOOK_DETECT_PACKETS.md)
 - [角色换装封包](CHARACTER_CLOTHES_PACKET.md)
 - [玩家移动与可见性同步](PLAYER_MOVEMENT_PACKET.md)
 - [精灵跟随封包](FOLLOW_POKEMON_PACKET.md)

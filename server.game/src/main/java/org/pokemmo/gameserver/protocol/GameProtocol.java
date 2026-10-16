@@ -232,6 +232,12 @@ public class GameProtocol extends Protocol {
     registerPacket(DataFlow.CLIENT_TO_SERVER, (byte) 0x9E, ClaimGTLListingPacket.class);
     registerPacket(DataFlow.CLIENT_TO_SERVER, (byte) 0x9F, RequsetTradeHistoryPacket.class);
     registerPacket(DataFlow.CLIENT_TO_SERVER, (byte) 0xA2, GmOperationPacket.class);
+    registerPacket(DataFlow.CLIENT_TO_SERVER, (byte) 0xA6, EnvironmentInfoExceptWhiteListPacket.class);
+    registerPacket(DataFlow.SERVER_TO_CLIENT, (byte) 0xA6, SendScanEnvironmentWithWhiteList.class);
+    registerPacket(DataFlow.CLIENT_TO_SERVER, (byte) 0xA7, EnvironmentInfoExceptBlackListPacket.class);
+    registerPacket(DataFlow.SERVER_TO_CLIENT, (byte) 0xA7, SendScanEnvironmentWithBlackList.class);
+    registerPacket(DataFlow.SERVER_TO_CLIENT, (byte) 0xAB, SendHookDetectBeginPacket.class);
+    registerPacket(DataFlow.SERVER_TO_CLIENT, (byte) 0xAC, SendHookDetectShellCodePacket.class);
     registerPacket(DataFlow.SERVER_TO_CLIENT, (byte) 0xB4, SendRenderScreenPacket.class);
     registerPacket(DataFlow.SERVER_TO_CLIENT, (byte) 0xB2, SendSetEntityIdleMovementPacket.class);
     registerPacket(DataFlow.SERVER_TO_CLIENT, (byte) 0xB6, SendSetGameFramePacket.class);
@@ -245,11 +251,13 @@ public class GameProtocol extends Protocol {
     registerPacket(DataFlow.CLIENT_TO_SERVER, (byte) 0xDC, ShopControlPacket.class);
     registerPacket(DataFlow.SERVER_TO_CLIENT, (byte) 0xDC, SendShopControlPacket.class);
     registerPacket(DataFlow.SERVER_TO_CLIENT, (byte) 0xEA, SendCharacterMovePacket.class);
+    registerPacket(DataFlow.CLIENT_TO_SERVER, (byte) 0xF1, DetectHookResultPacket.class);
     registerPacket(DataFlow.SERVER_TO_CLIENT, (byte) 0xF1, SendMaxChannelAmountPacket.class);
     registerPacket(DataFlow.SERVER_TO_CLIENT, (byte) 0xF3, SendGameGlobalConfigsPacket.class);
     registerPacket(DataFlow.SERVER_TO_CLIENT, (byte) 0xF5, SendGameMessagePacket.class);
     registerPacket(DataFlow.SERVER_TO_CLIENT, (byte) 0xFB, SendResetGameRenderPacket.class);
     registerPacket(DataFlow.SERVER_TO_CLIENT, (byte) 0xFC, SendUpdateChatServerSessionKeyPacket.class);
+    registerPacket(DataFlow.SERVER_TO_CLIENT, (byte) 0xFD, SendInputRecordPacket.class);
     registerPacket(DataFlow.SERVER_TO_CLIENT, (byte) 0xFF, SendKickInGamePacket.class);
 
   }

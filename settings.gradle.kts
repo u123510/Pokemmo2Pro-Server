@@ -1,4 +1,8 @@
 pluginManagement {
+    repositories {
+        maven("https://maven.aliyun.com/repository/gradle-plugin")
+        gradlePluginPortal()
+    }
     plugins {
         kotlin("jvm") version "2.0.21"
     }
