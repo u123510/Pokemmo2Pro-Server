@@ -19,12 +19,9 @@ public final class EnvironmentInfoExceptBlackListPacket extends IncomingPacket {
     @Override
     public void decode(ByteBufEx buffer) {
         payload = buffer.readByteArray(buffer.readableBytes());
-        log.debug("收到排除黑名单的环境信息: payloadLength={}", payload.length);
     }
 
     @Override
     public void handle(Session session) {
-        // 环境信息只供客户端自检，服务端不持久化，读取完整封包后丢弃。
-        log.debug("忽略排除黑名单的环境信息: payloadLength={}", payload.length);
     }
 }

@@ -2,22 +2,11 @@ package org.pokemmo.gameserver.protocol.packets.s2c;
 
 import org.server.OutgoingPacket;
 import org.server.bytes.ByteBufEx;
-
-/**
- * 通知客户端开始执行 Hook 检测。
- *
- * <p>字段顺序为 {@code long sessionId + int marker + 固定检测载荷}。标记和载荷的含义
- * 均未验证，这里按抓包原样保留字节，只把原来的匿名魔数提取为具名常量，并去掉从未使用的
- * {@code @Inject ServerService} 字段。</p>
- */
 public final class SendHookDetectBeginPacket extends OutgoingPacket {
 
-    /** 抓包中的 sessionId，当前固定为 0，非真实会话标识。 */
-    private static final long SESSION_ID = 0L;
-    /** 抓包中的固定标记，含义未知。 */
-    private static final int DETECT_MARKER = 46701;
-    /** 抓包中的固定检测载荷，含义未知。 */
-    private static final byte[] DETECT_PAYLOAD = {
+    private static final long id = 0L;
+    private static final int unk2= 46701;
+    private static final byte[] payload = {
             (byte) 0x47, (byte) 0x00, (byte) 0x30, (byte) 0x45, (byte) 0x02, (byte) 0x20, (byte) 0x4B, (byte) 0xD2,
             (byte) 0x28, (byte) 0x0E, (byte) 0xF1, (byte) 0x36, (byte) 0x8A, (byte) 0xA7, (byte) 0x30, (byte) 0x58,
             (byte) 0x14, (byte) 0x3E, (byte) 0x3F, (byte) 0x08, (byte) 0x98, (byte) 0x9E, (byte) 0xFE, (byte) 0x07,
@@ -32,8 +21,8 @@ public final class SendHookDetectBeginPacket extends OutgoingPacket {
 
     @Override
     public void encode(ByteBufEx buffer) throws Exception {
-        buffer.writeLongLE(SESSION_ID);
-        buffer.writeIntLE(DETECT_MARKER);
-        buffer.writeBytes(DETECT_PAYLOAD);
+        buffer.writeLongLE(id);
+        buffer.writeIntLE(unk2);
+        buffer.writeBytes(payload);
     }
 }
