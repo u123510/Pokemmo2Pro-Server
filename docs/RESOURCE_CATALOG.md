@@ -6,6 +6,7 @@
 
 ```text
 resource/map
+resource/death_save
 resource/npc/custom
 resource/story
 resource/pokemon
@@ -22,6 +23,7 @@ resource/encounter
 | 目录 | 当前规模 | 内容 |
 | --- | ---: | --- |
 | `resource/map` | 包含 Kanto、Hoenn、Sinnoh 与一之岛地图资源 | GBA/NDS 地图、matrix terrain、地图连接、NPC、坐标、地图脚本入口，以及地图遭遇表 |
+| `resource/death_save` | 1 个 POINT 配置 | 合众 HOME 和 13 个中心死亡存盘点，编号 200..213；由 ScriptManager 加载 |
 | `resource/npc/custom` | 独立自定义 NPC 目录，初始仅有 README | 每 NPC 一个 JSONC，按地区/地图分类；固定序号、出生位置、外观、移动范围与启用开关 |
 | `resource/story` | 6 个 JSONC + README | 关都开场、包裹、捕获教学、护士、早期主线和冠军前主线；旧 interact/event 的 39 个剧情文件已删除 |
 | `resource/pokemon` | 2 个 JSONC + gen6~gen9 目录 | Pokemon.jsonc 主图鉴（1-667 与自定义 10000-1052）、CaptureSpecies.jsonc 捕获率；gen6/7/8/9 子目录下每个 *.json 为一只宝可梦（含 2026-09 批量补入的官方 668-1025 与自定义 10000 起） |
@@ -42,6 +44,10 @@ openmmo 地图 JSON。旧的 JSONC/BIN 地图资源不再作为运行时输入�
 陆地/水面遭遇表、传送点和 NPC。
 Sinnoh 地图通过地区号 `3` 的 NDS 地图包加载，不使用 GBA 的宽高、tileset 或 border
 字段。
+
+合众地区号 `2` 已接入同一套标准化 NDS terrain JSON 与地图发包入口；当前仓库未提供合众地图资源。
+`resource/death_save/unova.points` 保留用户提供的 14 个地图键及坐标，实际回城必须先加载对应真实地图。
+配置、数据库迁移、错误路径与验证状态见 [合众死亡存盘点](UNOVA_DEATH_SAVE.md)。
 
 
 神奥生成源来自 `pret/pokeplatinum`，参考解析逻辑为

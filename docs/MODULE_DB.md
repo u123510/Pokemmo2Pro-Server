@@ -26,7 +26,7 @@
 | `owned_item` | 玩家拥有的道具和数量 |
 | `black_list` / `friend_list` | 玩家社交关系 |
 | `pokemon_dex` | 图鉴解锁位图 |
-| `death_save` | 死亡存档标记 |
+| `death_save` | 按角色保存合众 `unova_point_id`，编号 200..213，默认 HOME 200 |
 
 已存在的数据库缺少 GTL 表时，可单独执行
 [`db/create_gtl_listing.sql`](../db/create_gtl_listing.sql)。该脚本创建
@@ -36,6 +36,11 @@
 `friend_list` 使用 `(player_id, friend_id)` 复合主键，两个字段都引用 `character(id)`；
 好友关系是单向记录，删除角色时由外键级联清理。旧数据库从单列 `player_id` 主键升级时，
 可执行 [`db/migrate_friend_list.sql`](../db/migrate_friend_list.sql)，再重新生成 jOOQ 模型。
+
+合众死亡存盘点的已有数据库迁移见
+[`migrate_unova_death_save.sql`](../db/schemas/migrate_unova_death_save.sql)。脚本增加存盘点列并转换旧 21..34；
+由维护者手工执行，本次未操作数据库。存盘点、角色位置与 PARTY 恢复的同一事务由
+`services.character.DeathSaveStore` 维护，新增列通过有类型的 jOOQ DSL 访问，生成文件未手改。
 
 ## 3. 生成代码
 

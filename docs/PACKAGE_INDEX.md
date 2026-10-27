@@ -39,7 +39,7 @@
 | `org.pokemmo.gameserver.game.battle.effect` | 13 |
 | `org.pokemmo.gameserver.game.bin` | 1 |
 | `org.pokemmo.gameserver.game.building` | 1 |
-| `org.pokemmo.gameserver.game.character` | 15 |
+| `org.pokemmo.gameserver.game.character` | 18 |
 | `org.pokemmo.gameserver.game.container` | 1 |
 | `org.pokemmo.gameserver.game.entity` | 12 |
 | `org.pokemmo.gameserver.game.events` | 5 |
@@ -76,7 +76,7 @@
 | `org.pokemmo.gameserver.protocol.packets.scriptsession` | 1 |
 | `org.pokemmo.gameserver.script` | 1 |
 | `org.pokemmo.gameserver.services` | 1 |
-| `org.pokemmo.gameserver.services.character` | 1 |
+| `org.pokemmo.gameserver.services.character` | 2 |
 | `org.pokemmo.gameserver.services.friend` | 1 |
 | `org.pokemmo.gameserver.services.gtl` | 19 |
 | `org.pokemmo.gameserver.services.inventory` | 1 |
@@ -137,7 +137,7 @@
 | `org.pokemmo.gameserver.protocol.packets` | 游戏 c2s/s2c 封包处理 |
 | `org.pokemmo.gameserver.codecs` | 游戏对象和封包字段序列化 |
 | `org.pokemmo.gameserver.command` | NORMAL 聊天命令分发和 GM 命令 |
-| `org.pokemmo.gameserver.game.character` | 在线角色上下文、队伍状态、管理员地图隐身与定向可见性同步 |
+| `org.pokemmo.gameserver.game.character` | 在线角色上下文、队伍状态、管理员地图隐身、定向可见性同步与合众死亡存盘点目录/回城编排 |
 | `org.pokemmo.gameserver.game.interact` | 场景 A 键目标分派、NPC 脚本入口、电脑菜单与交互类型；商店目标转交 game.shop |
 | `org.pokemmo.gameserver.game.item` | 道具基础资源、模型和规则、任务包裹禁止转移判定，不承载剧情编排、店铺价格或结算 |
 | `org.pokemmo.gameserver.game.npc` | 独立自定义 NPC 定义、严格 JSONC、原子保存/停用、实际实体身份校验、固定高序号和启动恢复；不修改原地图 |
@@ -149,7 +149,7 @@
 | `org.pokemmo.gameserver.game.story` | 通用剧情章节加载、触发器/节点/动作解释、六个现有章节的配置驱动路由、节点奖励事务编排、内联训练家战斗、登录/重连进度重读、检查点一致性校验、独立 NPC 投影、原生表现与战斗衔接 |
 | `org.pokemmo.gameserver.services.story` | 带角色/账号条件的检查点、初始宝可梦/图鉴和战斗结算事务、包裹与五球奖励、早期徽章/故事位原子变更、通用剧情动作幂等奖励事务；不发包 |
 | `org.pokemmo.gameserver.services` | 领域服务组装与旧调用方兼容门面 |
-| `org.pokemmo.gameserver.services.character` | 角色查询、角色资产、跟随精灵和外观持久化 |
+| `org.pokemmo.gameserver.services.character` | 角色查询、角色资产、跟随精灵、外观持久化与合众存盘点/回城事务 |
 | `org.pokemmo.gameserver.services.friend` | 好友关系切换、持久化和列表查询 |
 | `org.pokemmo.gameserver.services.gtl` | 交易行上架、购买、取消、成交款领取、列表查询、筛选和排序 |
 | `org.pokemmo.gameserver.services.inventory` | 背包、拥有道具和道具数量变更持久化 |

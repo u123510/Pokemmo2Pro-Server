@@ -44,7 +44,7 @@ account
         |-- pokemon_dex             图鉴数据
         |-- black_list              黑名单数据
         |-- friend_list             好友数据
-        `-- death_save              死亡存档占位表
+        `-- death_save              合众死亡存盘点（unova_point_id）
 
 game_node
   |-- online_game_node_server       可实际连接的游戏服务器进程
@@ -77,7 +77,7 @@ inventory                           道具容器类型字典
 | `black_list` | 玩家黑名单 | 当前未发现业务代码读取 |
 | `friend_list` | 玩家好友关系 | 游戏服 `FriendService` 读写并用于 S2C `0x63` 列表 |
 | `pokemon_dex` | 玩家图鉴位图 | 游戏服使用 |
-| `death_save` | 玩家死亡存档 | 当前仅为空结构，未发现业务代码读取 |
+| `death_save` | 玩家死亡存档 | 保存合众存盘点 unova_point_id=200..213，默认 HOME 200 |
 
 ## 3. 账号与登录
 
@@ -322,7 +322,11 @@ ORDER BY c.id;
 
 ### 5.2 `death_save`
 
-设计用于保存角色死亡时的恢复信息，但当前只包含 `player_id`，没有实际存档字段，业务代码也尚未使用。现阶段可以视为预留表。
+按 `player_id` 保存合众 `unova_point_id`，编号为 200..213，默认 HOME 200。
+已有库由维护者执行 [`schemas/migrate_unova_death_save.sql`](schemas/migrate_unova_death_save.sql)，
+转换旧编号 21..34；本次未执行迁移。`DeathSaveStore` 按角色和账号归属访问，在同一事务内
+恢复队伍与保存回城位置；生成模型未手改，新增列使用有类型的 jOOQ DSL。
+流程、缺失合众地图资源的限制和验证记录见 [合众死亡存盘点](../docs/UNOVA_DEATH_SAVE.md)。
 
 ## 6. 宝可梦数据
 

@@ -1,4 +1,6 @@
 package org.pokemmo.gameserver.protocol.packets.c2s;
+import com.google.inject.Inject;
+import org.pokemmo.gameserver.game.character.DeathSaveRuntime;
 import org.pokemmo.gameserver.game.character.CharacterData;
 import org.pokemmo.gameserver.game.character.CharacterManager;
 import org.pokemmo.gameserver.game.story.StoryService;
@@ -10,6 +12,7 @@ import org.pokemmo.gameserver.protocol.packets.s2c.SendLoadPlayerPacket;
 import org.pokemmo.gameserver.protocol.packets.s2c.SendRenderScreenPacket;
 import org.pokemmo.gameserver.protocol.packets.s2c.SendVariantSkinInfoPacket;
 public class RequestPlayerPacket extends IncomingPacket {
+    @Inject private DeathSaveRuntime deathSaveRuntime;
     private CharacterManager characterManager;
     private CharacterData characterData;
     @Override
@@ -18,6 +21,9 @@ public class RequestPlayerPacket extends IncomingPacket {
     @Override
     public void handle(Session session) throws Exception {
         characterManager = session.attr(GameProtocol.ATTRIBUTE_CHARACTER_MANAGER).get();
+        if (characterManager == null || characterManager.getCharacterSession() != session || !session.isActive()) {
+            return;
+        }
         characterData = characterManager.getCharacterData();
         session.send(
                 new SendLoadPlayerPacket(characterData),
@@ -30,6 +36,7 @@ public class RequestPlayerPacket extends IncomingPacket {
         characterManager.completeMapLoad();
         //地图初始化完成后再同步附近玩家，避免客户端清理提前到达的实体。
         characterManager.synchronizeVisiblePlayersAfterMapLoad();
+        deathSaveRuntime.onMapReady(characterManager);
         StoryService.onMapReady(characterManager);
     }
 }

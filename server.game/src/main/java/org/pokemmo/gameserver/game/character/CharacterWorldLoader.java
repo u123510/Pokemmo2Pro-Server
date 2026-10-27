@@ -252,6 +252,7 @@ final class CharacterWorldLoader extends CharacterManagerComponent {
                     }
                 }
                 break;
+            case UNOVA:
             case SINNOH:
                 context.characterSession.send(new SendRemoveAroundEntityPacket());
                 context.characterSession.send(new SendLoadMapPacket(

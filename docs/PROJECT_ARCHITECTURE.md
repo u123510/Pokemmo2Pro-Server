@@ -107,6 +107,13 @@ PC 放生使用 C2S `0x0C`，封包只携带 8 字节 little-endian 宝可梦 Ob
 
 ## 4. 游戏服务器主链路
 
+合众死亡存盘点以 `resource/death_save/unova.points` 的 200..213 为配置源。
+地图确认后保存最近进入的配置地图；普通合众 PvE 战败结束回执由 `DeathSaveRuntime`
+解析当前存盘点，先确认目标地图和可行走落点，再由 `DeathSaveStore` 在同一归属事务中
+保存 HP/PP/状态和回城位置，提交后更新在线对象与现有封包。旧 21..34 在读取和迁移时兼容。
+当前仓库缺少合众地图资源，实际回城会明确失败；配置、迁移与验证范围见
+[`UNOVA_DEATH_SAVE.md`](UNOVA_DEATH_SAVE.md)。
+
 2026-09-15 剧情入口已替换：旧 `resource/interact`、`resource/event` 的 39 个剧情文件及
 地图/角色硬编码分支已删除，保留通用对话协议类型。`StoryCatalog` 加载
 `resource/story/**/*.jsonc`，`game.story.StoryRuntime` 统一接收移动、NPC、地图确认、

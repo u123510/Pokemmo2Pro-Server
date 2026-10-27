@@ -1,4 +1,6 @@
 package org.pokemmo.gameserver.protocol.packets.c2s;
+import com.google.inject.Inject;
+import org.pokemmo.gameserver.game.character.DeathSaveRuntime;
 import org.pokemmo.gameserver.game.battle.FactionResultType;
 import org.pokemmo.gameserver.game.battle.BattleSpectatingService;
 import org.pokemmo.gameserver.game.character.CharacterManager;
@@ -16,6 +18,7 @@ import org.server.bytes.ByteBufEx;
 
 
 public class BattleFinishSuccessPacket extends IncomingPacket {
+    @Inject private DeathSaveRuntime deathSaveRuntime;
     private CharacterManager characterManager;
     @Override
     public void decode(ByteBufEx buffer) {
@@ -25,7 +28,8 @@ public class BattleFinishSuccessPacket extends IncomingPacket {
     @Override
     public void handle(Session session) throws Exception {
         characterManager = session.attr(GameProtocol.ATTRIBUTE_CHARACTER_MANAGER).get();
-        if (characterManager == null || characterManager.getBattleManager() == null) {
+        if (characterManager == null || characterManager.getCharacterSession() != session
+                || !session.isActive() || characterManager.getBattleManager() == null) {
             return;
         }
         if (characterManager.getBattleManager().isSpectator(session)) {
@@ -35,6 +39,9 @@ public class BattleFinishSuccessPacket extends IncomingPacket {
         byte factionIndex = characterManager.getBattleManager().getFactionIndexBySession(session);
         if (StoryService.onFinishReply(characterManager)) return;
         FactionResultType factionResultType = characterManager.getBattleManager().debutFactions.get(factionIndex).getFactionStatType();
+        if (factionResultType == FactionResultType.DEFEAT && deathSaveRuntime.onDefeat(characterManager)) {
+            return;
+        }
         //说明战斗胜负已分
         UpdateCharacterSelector updateCharacterSelector = new UpdateCharacterSelector.Builder()
                 .setCharacterData(characterManager.getCharacterData())

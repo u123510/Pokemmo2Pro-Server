@@ -109,6 +109,12 @@
 
 `CharacterData` 保存角色持久化数据映射，`CharacterManager` 是稳定的在线角色入口，运行时字段由 `CharacterManagerState` 持有。世界初始同步由 `CharacterWorldLoader`、在线分钟持久化由 `OnlineTimeService`、地图会话可见性由 `MapVisibilityService`、移动与寻路由 `CharacterMovementService`、交互和事件由 `CharacterEventService`、野外遭遇由 `WildEncounterService` 分别负责；这些组件经 `CharacterManagerComponent` 读取当前 Session 和地图状态，避免重连后持有过期引用。成功移动后先执行剧情事件，未触发事件时才检查草丛或冲浪水面；隐身管理员不会触发野生遭遇，隐身期间会清空遭遇累计状态；野生宝可梦只存放在非持久化 `EVENT` 容器并交给既有 `WildBattle`，不会提前写入 PARTY/PC。`character.online_minutes` 按分钟持久化；角色选择后开始计时，在线期间每分钟写回完整分钟，重连或断线时再结算剩余完整分钟并按角色 ID 写回数据库，`CharacterCodec` 发送给客户端时转换为协议所需的秒数。新角色初始化在线时长为 `0`，不会预置固定的两小时。
 
+合众死亡存盘点由 `game.character.DeathSavePointCatalog` 从 `resource/death_save/unova.points`
+加载，`DeathSaveRuntime` 接收 C2S `0x05` 地图确认与 C2S `0x33` 战败结束回执。
+`services.character.DeathSaveStore` 在带角色/账号归属条件的同一事务中保存存盘点、回城位置与队伍恢复，
+提交后才同步在线对象与客户端；编号 200..213，兼容旧 21..34。当前缺少合众真实地图资源，
+缺图时明确拒绝回城。部署前提和未验证项见 [合众死亡存盘点](UNOVA_DEATH_SAVE.md)。
+
 ### 3.2 `game.pokemon`
 
 包含 `PokemonData`、图鉴数据、属性、技能、特性、性格、容器、生成和宝可梦管理。宝可梦修改必须同步：
@@ -198,6 +204,9 @@ S2C `0x12` 字段；分类不会自动启用节日活动。
 Sinnoh 使用 `OpenMMO-DS` 的 NDS `matrix + terrain chunks` 格式。旧的
 `JSONC + 坐标 BIN` 格式不再是运行时输入。GBA 地图将连接、传送点和 NPC 放在同一张
 地图定义中；Sinnoh 使用地区号 `3` 的 NDS 地图包，客户端从自己的 DS 数据绘制地形。
+合众地区号 `2` 可读取相同的标准化 NDS terrain JSON 并使用 NDS 发包路径；
+历史类型名 `SinnohMapConfig` / `SinnohMapData` 保留，其运行时数据取实际 regionId。
+这只接通加载契约，不包含合众地图生成器或实际地图数据。
 Hoenn 使用 Emerald 遭遇表，Sinnoh 使用 Platinum/OpenMMO-DS 的陆地和水面固定遭遇表；
 移动触发目前支持草地、地下可行走地面和冲浪水面，鱼竿、雷达、群聚及时间变体数据暂不通过普通移动触发。
 NDS 地图包的地图头字段按客户端协议写入 `mapId`、`bankId` 两个字节；

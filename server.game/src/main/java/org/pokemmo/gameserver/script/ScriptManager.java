@@ -3,6 +3,7 @@ import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.java.Log;
 import org.pokemmo.gameserver.game.giftshop.GiftShopManager;
+import org.pokemmo.gameserver.game.character.DeathSavePointCatalog;
 import org.pokemmo.gameserver.game.item.CaptureBallRateManager;
 import org.pokemmo.gameserver.game.item.ItemManager;
 import org.pokemmo.gameserver.game.item.ItemUseManager;
@@ -41,6 +42,7 @@ public class ScriptManager {
     private OakParcelCatalog oakParcelStory;
     private ViridianCatchCatalog viridianCatchStory;
     private StoryCatalog storyCatalog;
+    private DeathSavePointCatalog deathSavePointCatalog;
     //宝可梦信息管理器
     private PokemonManager pokemonManager;
     //道具信息管理器
@@ -68,7 +70,7 @@ public class ScriptManager {
          Path shopDirectory = null;
          Path customNpcDirectory = null;
          for(String path:paths){
-             if(path.endsWith("\\map")){
+             if(path.endsWith("\\map") || path.endsWith("/map")){
                  loadRegionMapsData(path);
                  customNpcDirectory = Path.of(path).toAbsolutePath().normalize().getParent().resolve("npc").resolve("custom");
             }else if(path.endsWith("\\pokemon")){
@@ -115,6 +117,8 @@ public class ScriptManager {
              shopCatalog = new ShopCatalog(shopDirectory, shopMaps);
          }
         if (customNpcDirectory != null) {
+            deathSavePointCatalog = new DeathSavePointCatalog(customNpcDirectory.getParent().getParent()
+                    .resolve("death_save").resolve("unova.points"));
             Path storyDirectory = customNpcDirectory.getParent().getParent().resolve("story");
             storyCatalog = new StoryCatalog(storyDirectory);
             palletStory = new PalletStoryCatalog(storyDirectory);
@@ -139,6 +143,7 @@ public class ScriptManager {
                 );
                 if (regionType != RegionType.KANTO
                         && regionType != RegionType.HOENN
+                        && regionType != RegionType.UNOVA
                         && regionType != RegionType.SINNOH) {
                     return;
                 }

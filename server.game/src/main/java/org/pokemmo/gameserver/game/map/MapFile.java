@@ -66,7 +66,9 @@ public class MapFile {
     }
 
     private MapData convert(SinnohMapConfig config) throws IOException {
-        if (config.regionId != 3 || config.terrain == null) {
+        // The historical Sinnoh config/data types carry the shared normalized NDS terrain shape.
+        if ((config.regionId != 2 && config.regionId != 3) || config.terrain == null
+                || config.bankId < 0 || config.bankId > 255 || config.mapId < 0 || config.mapId > 255) {
             log.warn("跳过无效的 NDS 地图定义: {}", config.name);
             return null;
         }

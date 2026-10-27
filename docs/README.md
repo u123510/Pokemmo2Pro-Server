@@ -59,6 +59,7 @@
 - [大木包裹、图鉴与五球奖励剧情](OAK_PARCEL_STORY.md)
 - [常磐市捕获教学](VIRIDIAN_CATCH_TUTORIAL.md)
 - [宝可梦中心护士治疗](POKEMON_CENTER_NURSE.md)
+- [合众死亡存盘点与战败回城](UNOVA_DEATH_SAVE.md)
 - [新剧情开发手册（AI 执行流程）](STORY_DEVELOPMENT_GUIDE.md)
 - [剧情工具与通用剧情格式](../tools/story/README.md)
 - [场景 A 键与宝可梦中心电脑交互](PC_INTERACTION_PACKET.md)

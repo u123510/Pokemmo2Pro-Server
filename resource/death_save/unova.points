@@ -1,0 +1,16 @@
+# POINT id key sourceMap destinationMap x y z option1 option2
+# The final two values are preserved from the supplied definitions; their semantics are unverified.
+POINT 200 UNOVA_HOME Unova_Map_391 Unova_Map_390 6 8 0 1 0
+POINT 201 UNOVA_CENTER_001 Unova_Map_001 Unova_Map_001 7 12 0 1 0
+POINT 202 UNOVA_CENTER_008 Unova_Map_008 Unova_Map_008 7 12 0 1 0
+POINT 203 UNOVA_CENTER_020 Unova_Map_020 Unova_Map_020 7 12 0 1 0
+POINT 204 UNOVA_CENTER_041 Unova_Map_041 Unova_Map_041 7 12 0 1 0
+POINT 205 UNOVA_CENTER_065 Unova_Map_065 Unova_Map_065 7 12 0 1 0
+POINT 206 UNOVA_CENTER_099 Unova_Map_099 Unova_Map_099 7 12 0 1 0
+POINT 207 UNOVA_CENTER_109 Unova_Map_109 Unova_Map_109 7 12 0 1 0
+POINT 208 UNOVA_CENTER_115 Unova_Map_115 Unova_Map_115 7 12 0 1 0
+POINT 209 UNOVA_CENTER_122 Unova_Map_122 Unova_Map_122 7 12 0 1 0
+POINT 210 UNOVA_CENTER_146 Unova_Map_146 Unova_Map_146 7 12 0 1 0
+POINT 211 UNOVA_CENTER_407 Unova_Map_407 Unova_Map_407 7 12 0 1 0
+POINT 212 UNOVA_CENTER_413 Unova_Map_413 Unova_Map_413 7 12 0 1 0
+POINT 213 UNOVA_CENTER_425 Unova_Map_425 Unova_Map_425 7 12 0 1 0

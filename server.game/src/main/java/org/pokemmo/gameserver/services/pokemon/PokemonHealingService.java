@@ -45,59 +45,8 @@ public final class PokemonHealingService {
 
     public Result healParty(long characterId, PokemonData[] expectedParty, boolean cureStatus) {
         try {
-            Map<Long, PokemonData> expected = validateParty(characterId, expectedParty);
-            if (expected.isEmpty()) {
-                return Result.rejected("当前队伍没有宝可梦");
-            }
-            return database.ctx().transactionResult(configuration -> {
-                DSLContext transaction = DSL.using(configuration);
-                List<PokemonRecord> records = transaction.selectFrom(POKEMON)
-                        .where(POKEMON.TRAINER_ID.eq(characterId))
-                        .and(POKEMON.CONTAINER_ID.eq(PARTY_ID))
-                        .orderBy(POKEMON.ID.asc())
-                        .forUpdate()
-                        .fetch();
-                if (records.size() != expected.size()) {
-                    return Result.rejected("在线队伍与保存数据不一致，请重新登录后重试");
-                }
-
-                List<PokemonData> restored = new ArrayList<>();
-                for (PokemonRecord record : records) {
-                    PokemonData stored = new PokemonData.Builder().setByRecord(record).build();
-                    if (!matchesPartyMember(expected.get(stored.getPokemonId()), stored)) {
-                        return Result.rejected("队伍归属、槽位或属性已变化，请重新登录后重试");
-                    }
-                    if (restorePokemon(stored)) {
-                        if (cureStatus) stored.setPokemonStatus(PokemonStatusType.NORMAL);
-                        restored.add(stored);
-                    }
-                }
-                if (restored.isEmpty()) {
-                    return Result.rejected("当前队伍只有蛋，没有需要恢复的宝可梦");
-                }
-
-                // Validate the entire party before the first write; any failed write rolls everything back.
-                for (PokemonData pokemon : restored) {
-                    if (transaction.update(POKEMON)
-                            .set(POKEMON.CURRENT_HP, pokemon.getCurrentHp())
-                            .set(POKEMON.MOVES_PP, ArrayUtil.toShortObject(pokemon.getMovesPp()))
-                            .where(POKEMON.ID.eq(pokemon.getPokemonId()))
-                            .and(POKEMON.TRAINER_ID.eq(characterId))
-                            .and(POKEMON.CONTAINER_ID.eq(PARTY_ID))
-                            .and(POKEMON.CONTAINER_POSITION.eq(pokemon.getContainerPosition()))
-                            .execute() != 1) {
-                        throw new IllegalStateException("队伍恢复保存失败，整队事务回滚");
-                    }
-                    if (cureStatus && transaction.update(POKEMON)
-                            .set(POKEMON.STATUS, (short) PokemonStatusType.NORMAL.getType())
-                            .where(POKEMON.ID.eq(pokemon.getPokemonId()))
-                            .and(POKEMON.TRAINER_ID.eq(characterId)).and(POKEMON.CONTAINER_ID.eq(PARTY_ID))
-                            .execute() != 1) {
-                        throw new IllegalStateException("队伍异常状态恢复保存失败");
-                    }
-                }
-                return new Result(true, "", restored);
-            });
+            return database.ctx().transactionResult(configuration ->
+                    healParty(DSL.using(configuration), characterId, expectedParty, cureStatus));
         } catch (IllegalArgumentException exception) {
             log.warn("队伍恢复被拒绝: 角色编号={}, 原因={}", characterId, exception.getMessage());
             return Result.rejected(exception.getMessage());
@@ -105,6 +54,61 @@ public final class PokemonHealingService {
             log.error("队伍恢复事务失败: 角色编号={}", characterId, exception);
             return Result.rejected("队伍恢复保存失败，请检查服务器日志");
         }
+    }
+
+    /** Participates in the caller's transaction so a death return can save position atomically. */
+    public Result healParty(DSLContext transaction, long characterId,
+                           PokemonData[] expectedParty, boolean cureStatus) {
+        Map<Long, PokemonData> expected = validateParty(characterId, expectedParty);
+        if (expected.isEmpty()) {
+            return Result.rejected("当前队伍没有宝可梦");
+        }
+        List<PokemonRecord> records = transaction.selectFrom(POKEMON)
+                .where(POKEMON.TRAINER_ID.eq(characterId))
+                .and(POKEMON.CONTAINER_ID.eq(PARTY_ID))
+                .orderBy(POKEMON.ID.asc())
+                .forUpdate()
+                .fetch();
+        if (records.size() != expected.size()) {
+            return Result.rejected("在线队伍与保存数据不一致，请重新登录后重试");
+        }
+
+        List<PokemonData> restored = new ArrayList<>();
+        for (PokemonRecord record : records) {
+            PokemonData stored = new PokemonData.Builder().setByRecord(record).build();
+            if (!matchesPartyMember(expected.get(stored.getPokemonId()), stored)) {
+                return Result.rejected("队伍归属、槽位或属性已变化，请重新登录后重试");
+            }
+            if (restorePokemon(stored)) {
+                if (cureStatus) stored.setPokemonStatus(PokemonStatusType.NORMAL);
+                restored.add(stored);
+            }
+        }
+        if (restored.isEmpty()) {
+            return Result.rejected("当前队伍只有蛋，没有需要恢复的宝可梦");
+        }
+
+        // Validate the entire party before the first write; any failed write rolls everything back.
+        for (PokemonData pokemon : restored) {
+            if (transaction.update(POKEMON)
+                    .set(POKEMON.CURRENT_HP, pokemon.getCurrentHp())
+                    .set(POKEMON.MOVES_PP, ArrayUtil.toShortObject(pokemon.getMovesPp()))
+                    .where(POKEMON.ID.eq(pokemon.getPokemonId()))
+                    .and(POKEMON.TRAINER_ID.eq(characterId))
+                    .and(POKEMON.CONTAINER_ID.eq(PARTY_ID))
+                    .and(POKEMON.CONTAINER_POSITION.eq(pokemon.getContainerPosition()))
+                    .execute() != 1) {
+                throw new IllegalStateException("队伍恢复保存失败，整队事务回滚");
+            }
+            if (cureStatus && transaction.update(POKEMON)
+                    .set(POKEMON.STATUS, (short) PokemonStatusType.NORMAL.getType())
+                    .where(POKEMON.ID.eq(pokemon.getPokemonId()))
+                    .and(POKEMON.TRAINER_ID.eq(characterId)).and(POKEMON.CONTAINER_ID.eq(PARTY_ID))
+                    .execute() != 1) {
+                throw new IllegalStateException("队伍异常状态恢复保存失败");
+            }
+        }
+        return new Result(true, "", restored);
     }
 
     static Map<Long, PokemonData> validateParty(long characterId, PokemonData[] party) {

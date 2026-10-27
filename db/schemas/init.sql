@@ -582,6 +582,7 @@ CREATE TABLE IF NOT EXISTS pokemon_dex(
 --玩家死亡存盘表
 CREATE TABLE IF NOT EXISTS death_save(
    player_id BIGINT PRIMARY KEY NOT NULL,
-
+   unova_point_id SMALLINT NOT NULL DEFAULT 200
+       CONSTRAINT death_save_unova_point_id_check CHECK (unova_point_id BETWEEN 200 AND 213),
    FOREIGN KEY (player_id) REFERENCES character(id) ON DELETE CASCADE
 );

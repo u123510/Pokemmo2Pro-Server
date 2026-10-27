@@ -113,7 +113,11 @@
 
 ## server.game
 
-文件数量：687。Java（含 18 个 JUnit 测试文件）+ resources + 模块配置。
+文件数量：692。Java（含 19 个 JUnit 测试文件）+ resources + 模块配置。
+
+合众死亡存盘点配置和运行时接口见 [UNOVA_DEATH_SAVE.md](UNOVA_DEATH_SAVE.md)：
+
+- [resource/death_save/unova.points](../resource/death_save/unova.points)
 
 真新镇剧情改造移除了旧 interact/event 的 39 个剧情资源、旧地图/角色硬编码分支、
 `InteractManager.runScript` 及全注释 `ScriptSession`。新编排位于 `game.story`，
@@ -301,6 +305,9 @@
 - [server.game/src/main/java/org/pokemmo/gameserver/game/character/CharacterCustomizeType.java](../server.game/src/main/java/org/pokemmo/gameserver/game/character/CharacterCustomizeType.java)
 - [server.game/src/main/java/org/pokemmo/gameserver/game/character/CharacterData.java](../server.game/src/main/java/org/pokemmo/gameserver/game/character/CharacterData.java)
 - [server.game/src/main/java/org/pokemmo/gameserver/game/character/CharacterDataComparator.java](../server.game/src/main/java/org/pokemmo/gameserver/game/character/CharacterDataComparator.java)
+- [server.game/src/main/java/org/pokemmo/gameserver/game/character/DeathSavePoint.java](../server.game/src/main/java/org/pokemmo/gameserver/game/character/DeathSavePoint.java)
+- [server.game/src/main/java/org/pokemmo/gameserver/game/character/DeathSavePointCatalog.java](../server.game/src/main/java/org/pokemmo/gameserver/game/character/DeathSavePointCatalog.java)
+- [server.game/src/main/java/org/pokemmo/gameserver/game/character/DeathSaveRuntime.java](../server.game/src/main/java/org/pokemmo/gameserver/game/character/DeathSaveRuntime.java)
 - [server.game/src/main/java/org/pokemmo/gameserver/game/character/CharacterEventService.java](../server.game/src/main/java/org/pokemmo/gameserver/game/character/CharacterEventService.java)
 - [server.game/src/main/java/org/pokemmo/gameserver/game/character/CharacterManager.java](../server.game/src/main/java/org/pokemmo/gameserver/game/character/CharacterManager.java)
 - [server.game/src/main/java/org/pokemmo/gameserver/game/character/CharacterManagerComponent.java](../server.game/src/main/java/org/pokemmo/gameserver/game/character/CharacterManagerComponent.java)
@@ -783,6 +790,7 @@
 - [server.game/src/main/java/org/pokemmo/gameserver/ServerBaseData.java](../server.game/src/main/java/org/pokemmo/gameserver/ServerBaseData.java)
 - [server.game/src/main/java/org/pokemmo/gameserver/services/GameServerService.java](../server.game/src/main/java/org/pokemmo/gameserver/services/GameServerService.java)
 - [server.game/src/main/java/org/pokemmo/gameserver/services/character/CharacterService.java](../server.game/src/main/java/org/pokemmo/gameserver/services/character/CharacterService.java)
+- [server.game/src/main/java/org/pokemmo/gameserver/services/character/DeathSaveStore.java](../server.game/src/main/java/org/pokemmo/gameserver/services/character/DeathSaveStore.java)
 - [server.game/src/main/java/org/pokemmo/gameserver/services/friend/FriendService.java](../server.game/src/main/java/org/pokemmo/gameserver/services/friend/FriendService.java)
 - [server.game/src/main/java/org/pokemmo/gameserver/services/gtl/GtlCancellationService.java](../server.game/src/main/java/org/pokemmo/gameserver/services/gtl/GtlCancellationService.java)
 - [server.game/src/main/java/org/pokemmo/gameserver/services/gtl/GtlClaimResult.java](../server.game/src/main/java/org/pokemmo/gameserver/services/gtl/GtlClaimResult.java)
@@ -852,6 +860,7 @@
 - [server.game/src/test/java/org/pokemmo/gameserver/game/entity/EventNpcSpawnRequestTest.java](../server.game/src/test/java/org/pokemmo/gameserver/game/entity/EventNpcSpawnRequestTest.java)
 - [server.game/src/test/java/org/pokemmo/gameserver/game/npc/EventNpcPersistenceTest.java](../server.game/src/test/java/org/pokemmo/gameserver/game/npc/EventNpcPersistenceTest.java)
 - [server.game/src/test/java/org/pokemmo/gameserver/game/character/PlayerVisibilityTest.java](../server.game/src/test/java/org/pokemmo/gameserver/game/character/PlayerVisibilityTest.java)
+- [server.game/src/test/java/org/pokemmo/gameserver/game/character/DeathSavePointTest.java](../server.game/src/test/java/org/pokemmo/gameserver/game/character/DeathSavePointTest.java)
 - [server.game/src/test/java/org/pokemmo/gameserver/command/commands/HideCommandTest.java](../server.game/src/test/java/org/pokemmo/gameserver/command/commands/HideCommandTest.java)
 - [server.game/src/test/java/org/pokemmo/gameserver/game/story/PalletStoryTest.java](../server.game/src/test/java/org/pokemmo/gameserver/game/story/PalletStoryTest.java)
 - [server.game/src/test/java/org/pokemmo/gameserver/game/story/OakParcelStoryTest.java](../server.game/src/test/java/org/pokemmo/gameserver/game/story/OakParcelStoryTest.java)
@@ -901,7 +910,7 @@
 
 ## db
 
-文件数量：83。Java + schema。
+文件数量：84。Java + schema。
 
 - [db/删库.sql](../db/删库.sql)
 - [db/build/resources/main/mapper/AccountMapper.xml](../db/build/resources/main/mapper/AccountMapper.xml)
@@ -913,6 +922,7 @@
 - [db/migrate_pokemon_empty_item.sql](../db/migrate_pokemon_empty_item.sql)
 - [db/init_backup.sql](../db/init_backup.sql)
 - [db/schemas/init.sql](../db/schemas/init.sql)
+- [db/schemas/migrate_unova_death_save.sql](../db/schemas/migrate_unova_death_save.sql)
 - [db/src/main/java/org/pokemmo/db/Database.java](../db/src/main/java/org/pokemmo/db/Database.java)
 - [db/src/main/java/org/pokemmo/db/jooq/DefaultCatalog.java](../db/src/main/java/org/pokemmo/db/jooq/DefaultCatalog.java)
 - [db/src/main/java/org/pokemmo/db/jooq/Keys.java](../db/src/main/java/org/pokemmo/db/jooq/Keys.java)
