@@ -1,3 +1,6 @@
+# 为什么能看到此项目：
+此项目在openmmo基础上完善了更多实现，由于PokePro团队与本人合作期间偷盗代码，本项目现在完全开源，以作为对偷盗代码行为的回应
+
 # OpenMMO
 
 [![加入 Discord](https://dcbadge.limes.pink/api/server/SQwGXyY2gz)](https://discord.gg/SQwGXy2gz)
